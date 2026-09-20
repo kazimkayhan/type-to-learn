@@ -1,5 +1,5 @@
 import styles from './index.module.css'
-import { Progress, ProgressTrack, ProgressIndicator } from '@/components/ui/progress'
+import { Progress, ProgressIndicator, ProgressTrack } from '@/components/ui/progress'
 import { ScrollArea, ScrollBar } from '@/components/ui/scroll-area'
 import type { ExportProgress, ImportProgress } from '@/utils/db/data-export'
 import { exportDatabase, importDatabase } from '@/utils/db/data-export'

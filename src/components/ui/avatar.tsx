@@ -1,11 +1,6 @@
-<<<<<<< HEAD
-import { cn } from '@/utils/ui'
-import * as AvatarPrimitive from '@radix-ui/react-avatar'
-=======
 import { Avatar as AvatarPrimitive } from '@base-ui/react/avatar'
 import { cn } from 'cn'
->>>>>>> e390bb4 (Migrate from Radix UI to Base UI)
-import * as React from 'react'
+import type * as React from 'react'
 
 function Avatar({
   className,
@@ -37,19 +32,6 @@ function AvatarImage({ className, ...props }: AvatarPrimitive.Image.Props) {
   )
 }
 
-<<<<<<< HEAD
-const AvatarFallback = React.forwardRef<
-  React.ElementRef<typeof AvatarPrimitive.Fallback>,
-  React.ComponentPropsWithoutRef<typeof AvatarPrimitive.Fallback>
->(({ className, ...props }, ref) => (
-  <AvatarPrimitive.Fallback
-    ref={ref}
-    className={cn('flex h-full w-full items-center justify-center rounded-full bg-muted', className)}
-    {...props}
-  />
-))
-AvatarFallback.displayName = AvatarPrimitive.Fallback.displayName
-=======
 function AvatarFallback({ className, ...props }: AvatarPrimitive.Fallback.Props) {
   return (
     <AvatarPrimitive.Fallback
@@ -62,7 +44,6 @@ function AvatarFallback({ className, ...props }: AvatarPrimitive.Fallback.Props)
     />
   )
 }
->>>>>>> e390bb4 (Migrate from Radix UI to Base UI)
 
 function AvatarBadge({ className, ...props }: React.ComponentProps<'span'>) {
   return (

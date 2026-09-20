@@ -1,4 +1,4 @@
-import { DropdownMenu, DropdownMenuTrigger, DropdownMenuContent, DropdownMenuItem } from '@/components/ui/dropdown-menu'
+import { DropdownMenu, DropdownMenuContent, DropdownMenuItem, DropdownMenuTrigger } from '@/components/ui/dropdown-menu'
 import { idDictionaryMap } from '@/resources/dictionary'
 import { wordListFetcher } from '@/utils/wordListFetcher'
 import { saveAs } from 'file-saver'

@@ -7,7 +7,7 @@ import * as React from 'react'
 >>>>>>> e390bb4 (Migrate from Radix UI to Base UI)
 
 import { Tabs as TabsPrimitive } from '@base-ui/react/tabs'
-import { cva, type VariantProps } from 'class-variance-authority'
+import { type VariantProps, cva } from 'class-variance-authority'
 import { cn } from 'cn'
 
 <<<<<<< HEAD

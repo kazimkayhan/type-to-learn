@@ -1,4 +1,4 @@
-import { Progress, ProgressTrack, ProgressIndicator } from '@/components/ui/progress'
+import { Progress, ProgressIndicator, ProgressTrack } from '@/components/ui/progress'
 import type { Dictionary } from '@/typings'
 
 interface Props {

@@ -1,6 +1,6 @@
 import type { TErrorWordData } from '../hooks/useErrorWords'
 import { Button } from '@/components/ui/button'
-import { Progress, ProgressTrack, ProgressIndicator } from '@/components/ui/progress'
+import { Progress, ProgressIndicator, ProgressTrack } from '@/components/ui/progress'
 import { currentChapterAtom, currentDictIdAtom, reviewModeInfoAtom } from '@/store'
 import type { Dictionary } from '@/typings'
 import { timeStamp2String } from '@/utils'
