@@ -1,13 +1,22 @@
 {
-  "name": "qwerty-learner",
+  "name": "type-to-learn",
   "version": "0.1.0",
   "private": true,
   "packageManager": "pnpm@12.4.2",
+  "homepage": "https://kazimkayhan.github.io/type-to-learn/",
+  "description": "Type to Learn — English learning software for keyboard workers",
+  "author": "Kazim Kayhan <email4kazim@gmail.com> (https://kazimjan.com)",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kazimkayhan/type-to-learn.git"
+  },
+  "bugs": {
+    "url": "https://github.com/kazimkayhan/type-to-learn/issues"
+  },
   "engines": {
     "node": ">=26",
     "pnpm": ">=9"
   },
-  "homepage": ".",
   "dependencies": {
     "@floating-ui/react": "^0.20.1",
     "@headlessui/react": "^2.2.10",
