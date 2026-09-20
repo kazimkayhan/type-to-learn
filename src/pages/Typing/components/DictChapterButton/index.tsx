@@ -1,6 +1,6 @@
 import Tooltip from '@/components/Tooltip'
 import { currentChapterAtom, currentDictInfoAtom, isReviewModeAtom } from '@/store'
-import { Select, SelectTrigger, SelectValue, SelectContent, SelectItem } from '@/components/ui/select'
+import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@/components/ui/select'
 import range from '@/utils/range'
 import { useAtom, useAtomValue } from 'jotai'
 import { NavLink } from 'react-router-dom'

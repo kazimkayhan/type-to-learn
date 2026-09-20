@@ -1,5 +1,5 @@
 import { RadioGroup, RadioGroupItem } from '@/components/ui/radio-group'
-import { Popover, PopoverTrigger, PopoverContent } from '@/components/ui/popover'
+import { Popover, PopoverContent, PopoverTrigger } from '@/components/ui/popover'
 import { loopWordConfigAtom } from '@/store'
 import type { LoopWordTimesOption } from '@/typings'
 import { useAtom } from 'jotai'

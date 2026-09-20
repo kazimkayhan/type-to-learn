@@ -1,5 +1,5 @@
 import { hintSoundsConfigAtom, keySoundsConfigAtom } from '@/store'
-import { Popover, PopoverTrigger, PopoverContent } from '@/components/ui/popover'
+import { Popover, PopoverContent, PopoverTrigger } from '@/components/ui/popover'
 import { Switch } from '@/components/ui/switch'
 import { useAtom } from 'jotai'
 import { useCallback } from 'react'
