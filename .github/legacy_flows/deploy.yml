@@ -8,7 +8,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        node-version: [18.17.0]
+        node-version: [26]
     steps:
       - uses: actions/checkout@v3
       - name: Setup pnpm
