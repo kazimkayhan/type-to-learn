@@ -60,7 +60,7 @@
   "scripts": {
     "dev": "vite",
     "start": "vite",
-    "build": "cross-env CI=false vite build --base=./",
+    "build": "cross-env CI=false vite build --base=/type-to-learn/",
     "test": "echo \"No tests\"",
     "lint": "eslint .",
     "prettier": "prettier --write .",
