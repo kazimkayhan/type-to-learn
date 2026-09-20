@@ -2,15 +2,8 @@ import { TypingContext, TypingStateActionType } from '../../store'
 import WordCard from './WordCard'
 import Drawer from '@/components/Drawer'
 import Tooltip from '@/components/Tooltip'
-<<<<<<< HEAD
-import { Dialog, DialogContent } from '@/components/ui/dialog'
-import { currentChapterAtom, currentDictInfoAtom, isReviewModeAtom } from '@/store'
-import * as ScrollArea from '@radix-ui/react-scroll-area'
-=======
 import { ScrollArea, ScrollBar } from '@/components/ui/scroll-area'
 import { currentChapterAtom, currentDictInfoAtom, isReviewModeAtom } from '@/store'
-import { Dialog } from '@headlessui/react'
->>>>>>> e390bb4 (Migrate from Radix UI to Base UI)
 import { atom, useAtomValue } from 'jotai'
 import { useContext, useState } from 'react'
 import ListIcon from '~icons/tabler/list'
