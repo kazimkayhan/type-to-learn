@@ -1,5 +1,5 @@
 <div align=center>
-<img src="src/assets/logo.svg"/>
+<img  src="src/assets/logo.svg"/>
 </div>
 
 <h1 align="center">
@@ -12,248 +12,203 @@
 </p>
 
 <p align="center">
-  English learning software designed for keyboard workers
+  为键盘工作者设计的单词记忆与英语肌肉记忆锻炼软件
 </p>
 
 <p align="center" style="display: flex; justify-content: center; gap: 10px;">
   <a href="https://github.com/kazimkayhan/type-to-learn/blob/master/LICENSE"><img src="https://img.shields.io/github/license/kazimkayhan/type-to-learn" alt="License"></a>
   <a><img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg"/></a>
-  <a><img src="https://img.shields.io/badge/Powered%20by-React-blue"/></a>
-  <a><img src="https://img.shields.io/github/stars/kazimkayhan/type-to-learn"/></a>
-  <a><img src="https://img.shields.io/github/forks/kazimkayhan/type-to-learn"/></a>
+  <a><img src="https://img.shields.io/badge/Powered%20by-Vite-646CFF"/></a>
 </p>
 
 <div align=center>
-<img src="docs/Screenshot.png"/>
+<img  src="docs/Screenshot.png"/>
 </div>
 
-## 📸 Live Demo
+## 📸 在线访问
 
 **GitHub Pages**: <https://kazimkayhan.github.io/type-to-learn/>
 
 <br />
 
-## ✨ Design Philosophy
+## ✨ 设计思想
 
-This software is designed for keyboard workers who use English as their primary working language. Many people experience faster typing speeds in their native language compared to English, because years of native language input have built strong muscle memory 💪, while English input muscle memory is relatively weaker, leading to "typing hesitation" when inputting English.
+软件设计的目标群体为以英语作为主要工作语言的键盘工作者。部分人会出现输入母语时的打字速度快于英语的情况，因为多年的母语输入练就了非常坚固的肌肉记忆 💪，而英语输入的肌肉记忆相对较弱，易出现输入英语时“提笔忘字”的现象。
 
-To consolidate English skills, continuous vocabulary memorization is necessary 📕. This software combines English word memorization with English keyboard input muscle memory training, allowing you to consolidate muscle memory while memorizing words.
+同时为了巩固英语技能，也需要持续的背诵单词 📕，本软件将英语单词的记忆与英语键盘输入的肌肉记忆的锻炼相结合，可以在背诵单词的同时巩固肌肉记忆。
 
-To avoid forming incorrect muscle memory, the design requires users to re-enter words if they make mistakes, ensuring correct muscle memory is maintained.
+为了避免造成错误的肌肉记忆，设计上如果用户单词输入错误则需要重新输入单词，尽可能确保用户维持正确的肌肉记忆。
 
-The software is also helpful for people taking computer-based English exams.
+软件也对需要机考英语的人群有一定的帮助。
 
-**For Coders**:
+**For Coder**：
 
-Built-in dictionaries of commonly used programming words help you practice work-related vocabulary and improve input speed. It also includes APIs for various programming languages to help programmers quickly familiarize themselves with common APIs. More language APIs are being added continuously...
+内置了程序员工作常用单词的词库，方便练习工作中常用的单词、提高输入速度。也内置了诸多语言的 API 的练习，帮助以程序员快速熟悉常用的 API，更多语言的 API 正在逐步添加中...
 
 <div align=center>
-<img src="docs/coder.png"/>
+<img  src="https://github.com/Realkai42/qwerty-learner/blob/master/docs/coder.png"/>
 </div>
 
 <br />
 <br />
 
-## 🛠 Features
+## 🛠 功能列表
 
-### Dictionaries
+### 词库
 
-Built-in common dictionaries including CET-4, CET-6, GMAT, GRE, IELTS, SAT, TOEFL, Graduate Entrance Exam English, TEM-4, TEM-8, as well as programmer common words and API dictionaries for multiple programming languages. The goal is to meet most users' vocabulary memorization needs. Community contributions of more dictionaries are welcome.
+内置了常用的 CET-4 、CET-6 、GMAT 、GRE 、IELTS 、SAT 、TOEFL 、考研英语、专业四级英语、专业八级英语，也有程序员常见英语单词以及多种编程语言 API 等词库。 尽可能满足大部分用户对单词记忆的需求，也非常欢迎社区贡献更多的词库。
 <br />
 <br />
 
-### Phonetic Display & Pronunciation
+### 音标显示、发音功能
 
-Helps users memorize pronunciation and phonetic symbols while memorizing words.
+方便用户在记忆单词时，同时记忆读音与音标。
 
 <div align=center>
-<img src="docs/phonetic.jpeg"/>
+<img  src="https://github.com/Realkai42/qwerty-learner/blob/master/docs/phonetic.jpeg"/>
 </div>
 <br />
 <br />
 
-### Dictation Mode
+### 默写模式
 
-After completing a chapter, users are prompted to dictate the chapter to reinforce the learned words.
+在用户完成一个章节的练习后，会弹出选项是否默写本章，方便用户巩固本章学习的单词。
 
 <div align=center>
-<img src="docs/dictation.png"/>
+<img  src="https://github.com/Realkai42/qwerty-learner/blob/master/docs/dictation.png"/>
 </div>
 <br />
 <br />
 
-### Speed & Accuracy Display
+### 速度、正确率显示
 
-Quantifies user input speed and accuracy, allowing users to perceive their skill improvement.
+量化用户输入的速度和输入的正确率，让用户有感知的了解自己技能的提升
 
 <div align=center>
-<img src="docs/speed.jpeg"/>
+<img  src="https://github.com/Realkai42/qwerty-learner/blob/master/docs/speed.jpeg"/>
 </div>
 <br />
 <br />
 
-## How to Contribute
+## 如何贡献
 
-### Contributing Code
+### 贡献代码
 
-[Contribution Guidelines](./docs/CONTRIBUTING.md)
+[贡献准则](./docs/CONTRIBUTING.md)
 
-### Contributing Dictionaries
+### 贡献词库
 
-[Import Dictionaries](./docs/toBuildDict.md)
+[导入词典](./docs/toBuildDict.md)
 
-## Running the Project
+## 运行项目
 
-This project is developed based on `React` and requires a Node.js environment to run.
+本项目使用 **Vite + React + TypeScript + Tailwind CSS + shadcn/ui** 构建，需要 Node.js 和 pnpm 环境来运行。
 
-### Environment Setup
+### 环境要求
 
-1. NodeJS
-2. Git
-3. pnpm
+- **Node.js**: >=26
+- **pnpm**: >=9 (推荐使用 pnpm@12.4.2)
+- **Git**
 
-> **Verify if you have the required environment**
+> **验证环境**
 >
-> 1. Manual verification  
->    Execute the following commands in the command line to see if corresponding versions are output
+> 在命令行下执行以下命令，查看是否有对应版本输出：
 >
->    ```sh
->    node --version
->    git --version
->    pnpm --version
->    ```
+> ```sh
+> node --version
+> git --version
+> pnpm --version
+> ```
 
-If any environment is missing, refer to the official documentation for installation:
+如果环境缺失，可以参考以下官方文档进行安装：
 
-> - [NodeJS](https://nodejs.org/en/download)
-> - [Git](https://git-scm.com/downloads)
-> - [pnpm](https://pnpm.io/installation)
+- [NodeJS](https://nodejs.org/en/download)
+- [Git](https://git-scm.com/downloads)
+- [pnpm](https://pnpm.io/installation)
 
-### Manual Installation
+### 安装与运行
 
-1. Execute `git clone https://github.com/kazimkayhan/type-to-learn.git` in the command line to pull the project locally
-2. Execute `cd type-to-learn` in the command line to enter the project root directory, then execute `pnpm install` to download dependencies
-3. Execute `pnpm start` to start the project. The default project address is `http://localhost:5173/`
-4. Open `http://localhost:5173/` in your browser to access the project
+1. 克隆项目到本地：
+   ```sh
+   git clone https://github.com/kazimkayhan/type-to-learn.git
+   cd type-to-learn
+   ```
 
-<br />
+2. 安装依赖：
+   ```sh
+   pnpm install
+   ```
 
-## 📕 Dictionary List
+3. 启动开发服务器：
+   ```sh
+   pnpm start
+   # 或
+   pnpm dev
+   ```
 
-- CET-4
-- CET-6
-- GMAT
-- GRE
-- IELTS
-- SAT
-- TOEFL
-- Graduate Entrance Exam English
-- TEM-4 English
-- TEM-8 English
-- Coder Dict - Programmer common words
-- High School Entrance Exam
-- College Entrance Exam
-- Business English
-- BEC
-- PEP English Grades 3-9
-- IELTS Wang Lu Listening Corpus [@Saigyouji_WKKun](https://github.com/ggehuliang)
-- Japanese common words, N1 ~ N5 [@xiaojia](https://github.com/wetery)
-- Kazakh Basic 3000 words (Hapin version) source from [@Elgar](https://github.com/Elgar17) supported by [@Herbert He](https://github.com/HerbertHe) through [Hapin](https://ha-pin.js.org) technology
+4. 在浏览器中打开 `http://localhost:5173/` 访问项目
 
-If you need to memorize other dictionaries, please submit an Issue
+### 构建部署
 
-<br />
-<br />
+构建 GitHub Pages 版本：
+```sh
+pnpm build
+```
 
-## 📗 API Dictionaries
+构建输出将生成在 `dist/` 目录，并自动配置基础路径为 `/type-to-learn/`
 
-- JavaScript API. [@sdu-gyf](https://github.com/sdu-gyf)
-- Node.js API. [@chrysalis1215](https://github.com/chrysalis1215)
-- Java API. [@darkSheep](https://github.com/darkSheep404)
-- Linux Command. [@归谜](https://github.com/vhxubo)
-- C#: List API [@nidbCN](https://github.com/nidbCN)
+## 📕 词库列表
 
-API dictionaries currently depend mainly on community contributions. If you want to contribute your own API dictionary, please refer to the contribution guidelines.
+本项目内置了丰富的词库，包括但不限于：
 
-<br />
-<br />
+### 英语学习
+- CET-4、CET-6（大学英语四六级）
+- GMAT、GRE、IELTS、SAT、TOEFL（留学考试）
+- 考研英语、专四、专八
+- 高考、中考英语
+- 商务英语、BEC
+- 新概念英语系列
 
-## 🎙 Features & Suggestions
+### 编程相关
+- 程序员常用词汇
+- JavaScript、Node.js、Java、C#、Go、Python、Rust 等语言 API
+- Linux 命令
 
-The project is in active development with new features being continuously added. If you have any feature requests or suggestions, please submit them in Issues.
+### 其他语言
+- 日语词汇（N1-N5）
+- 哈萨克语基础词汇
+- 德语、印尼语等
 
-If you like the design philosophy of this software, contributions via pull requests are welcome. Thank you for your support!
-<br />
-<br />
+完整词库列表请查看应用内的词典选择界面，或访问 `src/resources/dictionary.ts` 文件。
 
-## 🏄‍♂️ Contribution Guide
-
-If you're interested in this project, contributions are very welcome. We will provide as much help as possible.
-
-Before contributing, we hope you read our development plans in the Issues to understand our current direction. We welcome you to work on planned tasks, work labeled "Help Wanted" in Issues, or implement your own ideas.
-
-If you've decided on work you want to contribute, please submit a draft PR after making basic progress so we can discuss it and gather feedback from other collaborators.
-
-Thank you again for your contribution! 🎉
+如果您需要其他词库，欢迎通过 GitHub Issues 提出或贡献词典。
 
 <br />
 
-## 👨‍💻 Contributors
+## 🏄‍♂️ 贡献指南
 
-<a href="https://github.com/kazimkayhan/type-to-learn/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=kazimkayhan/type-to-learn" />
-</a>
+如果您对本项目感兴趣，我们非常欢迎您的贡献！您可以通过以下方式参与：
 
-## 🎁 Acknowledgments
+- 提交 Issue 报告 bug 或提出功能建议
+- 提交 Pull Request 改进代码或添加新功能
+- 贡献新的词库（参见 [导入词典](./docs/toBuildDict.md)）
 
-### Inspiration
+贡献前请阅读 [贡献准则](./docs/CONTRIBUTING.md)。
 
-[Keybr](https://www.keybr.com/)
-A typing website known for its algorithm that generates "pseudo-English" based on user accuracy and speed for each letter, helping users focus on practicing slower letters. It can generate complete analysis reports based on user input history.
+<br />
 
-This is the core inspiration for this project. While Keybr is more targeted at native English speakers, I felt that while practicing with Keybr, the generated pseudo-English could practice typing individual letters and syllables, but didn't improve word mastery for non-native speakers, which led to this project.
+## 📄 开源协议
 
-[Typing Academy](https://www.typing.academy)
-An excellent typing practice website. Its excellent UI style and display of speed and accuracy greatly influenced this project's UI design.
+本项目采用 [GPL-3.0](./LICENSE) 协议开源。
 
-[react-code-game](https://github.com/webzhd/react-code-game)
-A very cool open-source project implemented in TypeScript, allowing practice of JavaScript built-in APIs while practicing typing. The idea of adding code API practice came from this project.
-<br/><br/>
+## 🙏 致谢
 
-### Open Source Projects
+本项目是 [qwerty-learner](https://github.com/RealKai42/qwerty-learner) 的一个分支（fork），感谢原作者及所有贡献者的优秀工作。
 
-[React](https://github.com/facebook/react) & [CRA](https://github.com/facebook/create-react-app)
-Complete and detailed documentation that is very beginner-friendly. React documentation is the best I've read during my self-learning journey, solving most problems encountered. Thank you to React for its contributions to the open-source world, building a great foundation for beginners to create excellent software.
+## 👤 作者
 
-[Tailwindcss](https://tailwindcss.com/docs)
-Without Tailwind, this project would have been delayed even longer. Tailwind's design philosophy solves the fear CSS beginners have of writing complex CSS, allowing newcomers to design UI in a very comfortable way.
-<br/><br/>
+**Kazim Kayhan**
 
-### Data Sources
-
-Dictionary data from [kajweb](https://github.com/kajweb/dict), a project that crawled common dictionaries, which gave hope for implementing this project.
-
-Voice data from [Youdao Dictionary](https://www.youdao.com/) open API. Thanks to Youdao for allowing small projects like this to use professional pronunciation resources. Thanks to the Youdao team and Kao Shen team for their important contributions to Chinese education and international exchange.
-
-JS API from [react-code-game](https://github.com/webzhd/react-code-game). Thanks to the project for crawling and preprocessing JS APIs.
-<br/><br/>
-
-### Project Icon
-
-Thanks to [libregd](https://github.com/libregd) for providing icon designs, contributing multiple beautiful icon design options to the project, and providing design, suggestions, future planning and many other supports during the project.
-
-## 🌟 Stargazers over time
-
-[![Stargazers over time](https://starchart.cc/kazimkayhan/type-to-learn.svg)](https://starchart.cc/kazimkayhan/type-to-learn)
-
----
-
-## 📝 License & Attribution
-
-This project is a fork based on [Qwerty Learner](https://github.com/RealKai42/qwerty-learner) by [Kaiyi](https://github.com/RealKai42). The original project is licensed under the GPL-3.0 license. This fork maintains the same license and acknowledges the original authors' work.
-
-**Original Project**: [RealKai42/qwerty-learner](https://github.com/RealKai42/qwerty-learner)
-**This Fork**: [kazimkayhan/type-to-learn](https://github.com/kazimkayhan/type-to-learn)
-**Maintained by**: Kazim Kayhan
-**Website**: [kazimjan.com](https://kazimjan.com)
-**Contact**: email4kazim@gmail.com
+- 网站: [kazimjan.com](https://kazimjan.com)
+- GitHub: [@kazimkayhan](https://github.com/kazimkayhan)
+- Email: email4kazim@gmail.com
