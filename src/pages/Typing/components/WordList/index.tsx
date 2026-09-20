@@ -2,9 +2,8 @@ import { TypingContext, TypingStateActionType } from '../../store'
 import WordCard from './WordCard'
 import Drawer from '@/components/Drawer'
 import Tooltip from '@/components/Tooltip'
-import { Dialog, DialogContent } from '@/components/ui/dialog'
+import { ScrollArea, ScrollBar } from '@/components/ui/scroll-area'
 import { currentChapterAtom, currentDictInfoAtom, isReviewModeAtom } from '@/store'
-import * as ScrollArea from '@radix-ui/react-scroll-area'
 import { atom, useAtomValue } from 'jotai'
 import { useContext, useState } from 'react'
 import ListIcon from '~icons/tabler/list'
@@ -49,20 +48,20 @@ export default function WordList() {
       </Tooltip>
 
       <Drawer open={isOpen} onClose={closeModal} classNames="bg-stone-50 dark:bg-gray-900">
-        <Dialog.Title as="h3" className="flex items-center justify-between p-4 text-lg font-medium leading-6 dark:text-gray-50">
+        <h3 className="flex items-center justify-between p-4 text-lg font-medium leading-6 dark:text-gray-50">
           {currentDictTitleValue}
           <IconX onClick={closeModal} className="cursor-pointer" />
-        </Dialog.Title>
-        <ScrollArea.Root className="flex-1 select-none overflow-y-auto ">
-          <ScrollArea.Viewport className="h-full w-full px-3">
+        </h3>
+        <ScrollArea className="flex-1 select-none overflow-y-auto ">
+          <div className="h-full w-full px-3">
             <div className="flex h-full w-full flex-col gap-1">
               {state.chapterData.words?.map((word, index) => {
                 return <WordCard word={word} key={`${word.name}_${index}`} isActive={state.chapterData.index === index} />
               })}
             </div>
-          </ScrollArea.Viewport>
-          <ScrollArea.Scrollbar className="flex touch-none select-none bg-transparent " orientation="vertical"></ScrollArea.Scrollbar>
-        </ScrollArea.Root>
+          </div>
+          <ScrollBar className="flex touch-none select-none bg-transparent " orientation="vertical"></ScrollBar>
+        </ScrollArea>
       </Drawer>
     </>
   )

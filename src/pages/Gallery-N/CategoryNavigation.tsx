@@ -1,4 +1,3 @@
-import { RadioGroup, RadioGroupItem } from '@/components/ui/radio-group'
 import { useState } from 'react'
 
 interface Props {
@@ -10,22 +9,18 @@ export default function CategoryNavigation({ titles = ['Chinese Exams', 'Study A
 
   return (
     <div className="mr-4 flex flex-col items-center justify-center pr-4">
-      <RadioGroup value={selectedTitle} onChange={setSelectedTitle} className="flex flex-col gap-y-3">
+      <div className="flex flex-col gap-y-3">
         {titles.map((title) => (
-          <RadioGroup.Option
+          <button
             key={title}
-            value={title}
-            className={({ checked }) => `flex cursor-pointer items-center space-x-2 ${checked ? 'text-gray-800' : 'text-gray-500'}`}
+            onClick={() => setSelectedTitle(title)}
+            className={`flex cursor-pointer items-center space-x-2 ${selectedTitle === title ? 'text-gray-800' : 'text-gray-500'}`}
           >
-            {({ checked }) => (
-              <>
-                <div className={`mr-1 h-2.5 w-2.5 rounded-full ${checked ? 'bg-indigo-400' : 'bg-indigo-100'}`} />
-                <RadioGroup.Label className="text-lg ">{title}</RadioGroup.Label>
-              </>
-            )}
-          </RadioGroup.Option>
+            <div className={`mr-1 h-2.5 w-2.5 rounded-full ${selectedTitle === title ? 'bg-indigo-400' : 'bg-indigo-100'}`} />
+            <span className="text-lg">{title}</span>
+          </button>
         ))}
-      </RadioGroup>
+      </div>
     </div>
   )
 }

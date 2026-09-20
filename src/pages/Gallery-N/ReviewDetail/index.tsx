@@ -1,10 +1,10 @@
 import type { TErrorWordData } from '../hooks/useErrorWords'
 import { Button } from '@/components/ui/button'
+import { Progress, ProgressIndicator, ProgressTrack } from '@/components/ui/progress'
 import { currentChapterAtom, currentDictIdAtom, reviewModeInfoAtom } from '@/store'
 import type { Dictionary } from '@/typings'
 import { timeStamp2String } from '@/utils'
 import { generateNewWordReviewRecord, useGetLatestReviewRecord } from '@/utils/db/review-record'
-import * as Progress from '@radix-ui/react-progress'
 import { useSetAtom } from 'jotai'
 import { useNavigate } from 'react-router-dom'
 import MdiRobotAngry from '~icons/mdi/robot-angry'
@@ -39,8 +39,8 @@ export function ReviewDetail({ errorData, dict }: { errorData: TErrorWordData[];
         <MdiRobotAngry fontSize={30} className="text-indigo-300 " />
         <blockquote>
           <p className="text-lg font-medium text-gray-600 dark:text-gray-300">
-            We use your historical practice data, mistake counts, and practice time for this dictionary to intelligently generate a
-            practice list.
+            We use your historical practice data, mistake counts, and practice time for this dictionary to intelligently generate a practice
+            list.
             <br />
             This generation method is still experimental — we will continue to improve it.
           </p>
@@ -50,16 +50,14 @@ export function ReviewDetail({ errorData, dict }: { errorData: TErrorWordData[];
         {latestReviewRecord && (
           <>
             <div className="flex w-full items-center py-0 sm:ml-10">
-              <Progress.Root
-                value={latestReviewRecord.index + 1}
-                max={latestReviewRecord.words.length}
-                className="mr-4 h-2 w-full rounded-full border  border-indigo-400 bg-white"
-              >
-                <Progress.Indicator
-                  className="h-full rounded-full bg-indigo-400 pl-0"
-                  style={{ width: `calc(${((latestReviewRecord.index + 1) / latestReviewRecord.words.length) * 100}% )` }}
-                />
-              </Progress.Root>
+              <Progress value={latestReviewRecord.index + 1} max={latestReviewRecord.words.length} className="mr-4 w-full">
+                <ProgressTrack className="h-2 rounded-full border border-indigo-400 bg-white">
+                  <ProgressIndicator
+                    className="h-full rounded-full bg-indigo-400 pl-0"
+                    style={{ width: `calc(${((latestReviewRecord.index + 1) / latestReviewRecord.words.length) * 100}% )` }}
+                  />
+                </ProgressTrack>
+              </Progress>
               <span className="p-0 text-xs">
                 {latestReviewRecord.index + 1}/{latestReviewRecord.words.length}
               </span>

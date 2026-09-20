@@ -9,10 +9,9 @@ import shareImage7 from '@/assets/sharePic/image-7.png'
 import shareImage8 from '@/assets/sharePic/image-8.png'
 import shareImage9 from '@/assets/sharePic/image-9.png'
 import keyboardSvg from '@/assets/sharePic/keyBackground.svg'
-import { Dialog } from '@headlessui/react'
-import { Transition } from '@headlessui/react'
 import { currentChapterAtom, currentDictInfoAtom } from '@/store'
 import { recordShareAction } from '@/utils'
+import { Dialog, DialogContent } from '@/components/ui/dialog'
 import { useAtomValue } from 'jotai'
 import { useCallback, useContext, useEffect, useMemo, useRef, useState } from 'react'
 import IconXMark from '~icons/heroicons/x-mark-solid'
@@ -93,32 +92,8 @@ export default function SharePicDialog({ showState, setShowState, randomChoose }
 
   return (
     <>
-      <Transition.Root show={showState}>
-        <Dialog as="div" className="relative z-50" onClose={handleClose} initialFocus={dialogFocusRef}>
-          <Transition.Child
-            as={Fragment}
-            enter="ease-out duration-300"
-            enterFrom="opacity-0"
-            enterTo="opacity-100"
-            leave="ease-in duration-200"
-            leaveFrom="opacity-100"
-            leaveTo="opacity-0"
-          >
-            <div className="fixed inset-0 bg-gray-500 bg-opacity-75 transition-opacity" />
-          </Transition.Child>
-
-          <div className="fixed inset-0 z-10 overflow-y-auto">
-            <div className="flex min-h-full items-end justify-center p-4 text-center">
-              <Transition.Child
-                as={Fragment}
-                enter="ease-out duration-300"
-                enterFrom="opacity-0 translate-y-4 sm:translate-y-0 sm:scale-95"
-                enterTo="opacity-100 translate-y-0 sm:scale-100"
-                leave="ease-in duration-200"
-                leaveFrom="opacity-100 translate-y-0 sm:scale-100"
-                leaveTo="opacity-0 translate-y-4 sm:translate-y-0 sm:scale-95"
-              >
-                <Dialog.Panel className="relative transform overflow-hidden rounded-xl bg-white text-left shadow-xl transition-all  dark:bg-gray-700">
+      <Dialog open={showState} onOpenChange={(open) => !open && handleClose()}>
+        <DialogContent className="overflow-hidden rounded-xl bg-white dark:bg-gray-700" showCloseButton={false}>
                   <div className="flex flex-col items-center justify-center p-6 pb-8 sm:pb-10 sm:pl-20 sm:pr-14 sm:pt-20">
                     <button className="absolute right-4 top-4 sm:right-7 sm:top-5" type="button" onClick={handleClose} title="Close dialog">
                       <IconXMark className="h-6 w-6 text-gray-400" />
@@ -154,12 +129,8 @@ export default function SharePicDialog({ showState, setShowState, randomChoose }
                       Save
                     </button>
                   </div>
-                </Dialog.Panel>
-              </Transition.Child>
-            </div>
-          </div>
-        </Dialog>
-      </Transition.Root>
+        </DialogContent>
+      </Dialog>
 
       <div style={{ position: 'absolute', left: '-999px', zIndex: -1 }}>
         <div ref={imageRef} className=" box-content w-85 bg-white p-4">

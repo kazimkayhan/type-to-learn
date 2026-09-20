@@ -1,77 +1,29 @@
 import standTypingHandPosition from '@/assets/standard_typing_hand_position.png'
-import { Dialog } from '@headlessui/react'
-import { Transition } from '@headlessui/react'
+import { Dialog, DialogContent, DialogTitle, DialogTrigger } from '@/components/ui/dialog'
 import { useState } from 'react'
 import IconKeyboard from '~icons/ic/round-keyboard'
-import IconX from '~icons/tabler/x'
 
 export default function HandPositionIllustration() {
   const [isOpen, setIsOpen] = useState(false)
 
-  function closeModal() {
-    setIsOpen(false)
-  }
-
-  function openModal() {
-    setIsOpen(true)
-  }
-
   return (
-    <>
-      <button
-        type="button"
-        onClick={openModal}
-        className={`flex items-center justify-center rounded p-[2px] text-lg text-indigo-500 outline-none transition-colors duration-300 ease-in-out hover:bg-indigo-400 hover:text-white  ${
+    <Dialog open={isOpen} onOpenChange={setIsOpen}>
+      <DialogTrigger
+        className={`flex items-center justify-center rounded p-[2px] text-lg text-indigo-500 outline-none transition-colors duration-300 ease-in-out hover:bg-indigo-400 hover:text-white ${
           isOpen && 'bg-indigo-500 text-white'
         }`}
       >
-        <IconKeyboard className="icon"></IconKeyboard>
-      </button>
+        <IconKeyboard className="icon" />
+      </DialogTrigger>
 
-      <Transition appear show={isOpen} as={Fragment}>
-        <Dialog as="div" className="relative z-10" onClose={closeModal}>
-          <Transition.Child
-            as={Fragment}
-            enter="ease-out duration-300"
-            enterFrom="opacity-0"
-            enterTo="opacity-100"
-            leave="ease-in duration-200"
-            leaveFrom="opacity-100"
-            leaveTo="opacity-0"
-          >
-            <div className="fixed inset-0 bg-black bg-opacity-25" />
-          </Transition.Child>
-
-          <div className="fixed inset-0 overflow-y-auto">
-            <div className="flex min-h-full items-center justify-center p-4 text-center">
-              <Transition.Child
-                as={Fragment}
-                enter="ease-out duration-300"
-                enterFrom="opacity-0 scale-95"
-                enterTo="opacity-100 scale-100"
-                leave="ease-in duration-200"
-                leaveFrom="opacity-100 scale-100"
-                leaveTo="opacity-0 scale-95"
-              >
-                <Dialog.Panel className="relative w-[min(50rem,calc(100vw-1.5rem))] transform overflow-hidden rounded-2xl bg-white p-4 text-left align-middle shadow-xl transition-all dark:bg-gray-800 sm:p-6">
-                  <button type="button" onClick={() => setIsOpen(false)} title="Close dialog">
-                    <IconX className="absolute right-4 top-4 cursor-pointer text-gray-400 sm:right-7 sm:top-5" />
-                  </button>
-                  <Dialog.Title
-                    as="h3"
-                    className="pr-8 text-center text-lg font-medium leading-6 text-gray-800 dark:text-gray-200 sm:text-xl"
-                  >
-                    Recommended typing hand position guide
-                  </Dialog.Title>
-                  <div className="mt-8">
-                    <img className="block h-auto w-full" src={standTypingHandPosition} alt="Recommended typing hand position" />
-                  </div>
-                </Dialog.Panel>
-              </Transition.Child>
-            </div>
-          </div>
-        </Dialog>
-      </Transition>
-    </>
+      <DialogContent className="w-[min(50rem,calc(100vw-1.5rem))] rounded-2xl bg-white p-4 dark:bg-gray-800 sm:p-6" showCloseButton={true}>
+        <DialogTitle className="pr-8 text-center text-lg font-medium leading-6 text-gray-800 dark:text-gray-200 sm:text-xl">
+          Recommended typing hand position guide
+        </DialogTitle>
+        <div className="mt-8">
+          <img className="block h-auto w-full" src={standTypingHandPosition} alt="Recommended typing hand position" />
+        </div>
+      </DialogContent>
+    </Dialog>
   )
 }

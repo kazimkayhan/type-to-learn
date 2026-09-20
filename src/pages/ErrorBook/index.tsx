@@ -6,9 +6,9 @@ import Pagination, { ITEM_PER_PAGE } from './Pagination'
 import RowDetail from './RowDetail'
 import { currentRowDetailAtom } from './store'
 import type { groupedWordRecords } from './type'
+import { ScrollArea, ScrollBar } from '@/components/ui/scroll-area'
 import { db, useDeleteWordRecord } from '@/utils/db'
 import type { WordRecord } from '@/utils/db/record'
-import * as ScrollArea from '@radix-ui/react-scroll-area'
 import { useAtomValue } from 'jotai'
 import { useCallback, useEffect, useMemo, useState } from 'react'
 import { useNavigate } from 'react-router-dom'
@@ -118,8 +118,8 @@ export function ErrorBook() {
               <HeadWrongNumber className="text-sm" sortType={sortType} setSortType={setSort} />
               <DropdownExport renderRecords={sortedRecords} />
             </div>
-            <ScrollArea.Root className="flex-1 overflow-y-auto pt-5">
-              <ScrollArea.Viewport className="h-full  ">
+            <ScrollArea className="flex-1 overflow-y-auto pt-5">
+              <div className="h-full">
                 <div className="flex flex-col gap-3">
                   {renderRecords.map((record) => (
                     <ErrorRow
@@ -129,9 +129,9 @@ export function ErrorBook() {
                     />
                   ))}
                 </div>
-              </ScrollArea.Viewport>
-              <ScrollArea.Scrollbar className="flex touch-none select-none bg-transparent" orientation="vertical"></ScrollArea.Scrollbar>
-            </ScrollArea.Root>
+              </div>
+              <ScrollBar className="flex touch-none select-none bg-transparent" orientation="vertical" />
+            </ScrollArea>
           </div>
         </div>
         <Pagination className="pt-3" page={currentPage} setPage={setPage} totalPages={totalPages} />

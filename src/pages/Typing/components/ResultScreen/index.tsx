@@ -14,9 +14,6 @@ import {
   reviewModeInfoAtom,
   wordDictationConfigAtom,
 } from '@/store'
-import { Transition } from '@headlessui/react'
-import type { InfoPanelType } from '@/typings'
-import { recordOpenInfoPanelAction } from '@/utils'
 import { useAtom, useAtomValue, useSetAtom } from 'jotai'
 import { useCallback, useContext, useEffect, useMemo } from 'react'
 import { useHotkeys } from 'react-hotkeys-hook'
@@ -195,10 +192,7 @@ const ResultScreen = () => {
   return (
     <div className="fixed inset-0 z-30 overflow-y-auto">
       <div className="absolute inset-0 bg-gray-300 opacity-80 dark:bg-gray-600"></div>
-      <Transition
-        show={true}
-        enter="ease-in duration-300"
-        enterFrom="opacity-0"
+      <div className="animate-in fade-in duration-300"
         enterTo="opacity-100"
         leave="ease-out duration-100"
         leaveFrom="opacity-100"
@@ -292,7 +286,7 @@ const ResultScreen = () => {
             </div>
           </div>
         </div>
-      </Transition>
+      </div>
     </div>
   )
 }
