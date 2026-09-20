@@ -2,8 +2,7 @@
     {
         "name": "hello",
         "trans": [
-            "n. 表示问候， 惊奇或唤起注意时的用语",
-            "int. 喂；哈罗"
+            "n. an expression of greeting"
         ],
         "usphone": "[həˈləʊ]",
         "ukphone": "[həˈləʊ]"
@@ -11,7 +10,7 @@
     {
         "name": "hi",
         "trans": [
-            "int. 嗨！（表示问候或用以唤起注意）"
+            "n. an expression of greeting"
         ],
         "usphone": "[haɪ]",
         "ukphone": "[haɪ]"
@@ -19,8 +18,7 @@
     {
         "name": "hello",
         "trans": [
-            "n. 表示问候， 惊奇或唤起注意时的用语",
-            "int. 喂；哈罗"
+            "n. an expression of greeting"
         ],
         "usphone": "[həˈləʊ]",
         "ukphone": "[həˈləʊ]"
@@ -28,7 +26,9 @@
     {
         "name": "boy",
         "trans": [
-            "n. 男孩；男人"
+            "n. (ethnic slur) offensive and disparaging term for Black man",
+            "n. a friendly informal reference to a grown man",
+            "n. a youthful male person"
         ],
         "usphone": "[bɔɪ]",
         "ukphone": "[bɔɪ]"
@@ -36,8 +36,9 @@
     {
         "name": "girl",
         "trans": [
-            "n. 女孩；姑娘，未婚女子；女职员，女演员；（男人的）女朋友",
-            "n. （捷）吉尔"
+            "n. a young woman",
+            "n. a friendly informal reference to a grown woman",
+            "n. a girl or young woman with whom someone is romantically involved"
         ],
         "usphone": "[ɡɜːrl]",
         "ukphone": "[ɡɜːl]"
@@ -45,7 +46,8 @@
     {
         "name": "teacher",
         "trans": [
-            "n. 教师；导师"
+            "n. a personified abstraction that teaches",
+            "n. a person whose occupation is teaching"
         ],
         "usphone": "[ˈtiːtʃər]",
         "ukphone": "[ˈtiːtʃə(r)]"
@@ -53,8 +55,9 @@
     {
         "name": "school",
         "trans": [
-            "n. 学校；学院；学派；鱼群",
-            "vt. 教育"
+            "v. swim in or form a large group of fish",
+            "v. educate in or as if in a school",
+            "v. teach or refine to be discriminative in taste or judgment"
         ],
         "usphone": "[skuːl]",
         "ukphone": "[skuːl]"
@@ -62,8 +65,9 @@
     {
         "name": "book",
         "trans": [
-            "n. 书籍；卷；帐簿；名册；工作簿",
-            "vt. 预订；登记"
+            "v. to engage for a performance",
+            "v. to record a charge in a police register",
+            "v. to arrange for and reserve something for someone else in advance"
         ],
         "usphone": "[bʊk]",
         "ukphone": "[bʊk]"
@@ -71,8 +75,9 @@
     {
         "name": "chair",
         "trans": [
-            "n. 椅子；讲座；（会议的）主席位；大学教授的职位",
-            "vt. 担任（会议的）主席；使…入座；使就任要职"
+            "v. to preside over",
+            "v. to act or preside as chair, as of an academic department in a university",
+            "n. the position of professor"
         ],
         "usphone": "[tʃer]",
         "ukphone": "[tʃeə(r)]"
@@ -80,8 +85,7 @@
     {
         "name": "desk",
         "trans": [
-            "n. 办公桌；服务台；编辑部；（美）讲道台；乐谱架",
-            "adj. 书桌的；桌上用的；伏案做的"
+            "n. a piece of furniture with a writing surface and usually drawers or other compartments"
         ],
         "usphone": "[desk]",
         "ukphone": "[desk]"
@@ -89,10 +93,9 @@
     {
         "name": "one",
         "trans": [
-            "pron. 一个人；任何人",
-            "adj. 一的；唯一的",
-            "n. 一",
-            "num. 一；一个"
+            "adj. eminent beyond or above comparison",
+            "adj. indefinite in time or position",
+            "adj. used informally as an intensifier"
         ],
         "usphone": "[wʌn]",
         "ukphone": "[wʌn]"
@@ -100,9 +103,9 @@
     {
         "name": "two",
         "trans": [
-            "num. 二",
-            "n. 两个",
-            "adj. 两个的"
+            "adj. being one more than one",
+            "n. one of the four playing cards in a deck that have two spots",
+            "n. the cardinal number that is the sum of one and one or a numeral representing this number"
         ],
         "usphone": "[tuː]",
         "ukphone": "[tuː]"
@@ -110,9 +113,9 @@
     {
         "name": "three",
         "trans": [
-            "num. 三",
-            "n. 三，三个",
-            "adj. 三的，三个的"
+            "adj. being one more than two",
+            "n. one of four playing cards in a deck having three pips",
+            "n. the cardinal number that is the sum of one and one and one"
         ],
         "usphone": "[θriː]",
         "ukphone": "[θriː]"
@@ -120,8 +123,9 @@
     {
         "name": "four",
         "trans": [
-            "num. 四；四个",
-            "adj. 四的；四个的"
+            "adj. being one more than three",
+            "n. a playing card or domino or die whose upward face shows four pips",
+            "n. the cardinal number that is the sum of three and one"
         ],
         "usphone": "[fɔːr]",
         "ukphone": "[fɔː(r)]"
@@ -129,9 +133,9 @@
     {
         "name": "five",
         "trans": [
-            "num. 五，五个",
-            "n. 五，五个；五美元钞票",
-            "adj. 五的；五个的"
+            "adj. being one more than four",
+            "n. a playing card or a domino or a die whose upward face shows five pips",
+            "n. a team that plays basketball"
         ],
         "usphone": "[faɪv]",
         "ukphone": "[faɪv]"
@@ -139,9 +143,9 @@
     {
         "name": "pencil",
         "trans": [
-            "n. 铅笔；笔状物",
-            "vt. 用铅笔写；用眉笔涂",
-            "vi. 成铅笔状"
+            "v. to write, draw, or trace with a pencil",
+            "n. a thin cylindrical pointed writing implement",
+            "n. a cosmetic in a long thin stick"
         ],
         "usphone": "[ˈpensl]",
         "ukphone": "[ˈpens(ə)l]"
@@ -149,8 +153,9 @@
     {
         "name": "pen",
         "trans": [
-            "n. 钢笔；作家；围栏",
-            "vt. 写；关入栏中"
+            "v. produce a literary work",
+            "n. female swan",
+            "n. a writing implement with a point from which ink flows"
         ],
         "usphone": "[pen]",
         "ukphone": "[pen]"
@@ -158,7 +163,8 @@
     {
         "name": "ruler",
         "trans": [
-            "n. 尺；统治者；[测] 划线板，划线的人"
+            "n. measuring stick consisting of a strip of wood or metal or plastic with a straight edge that is used for drawing straight lines and measuring lengths",
+            "n. a person who rules or commands"
         ],
         "usphone": "[ˈruːlər]",
         "ukphone": "[ˈruːlə(r)]"
@@ -166,8 +172,8 @@
     {
         "name": "crayon",
         "trans": [
-            "n. 蜡笔，有色粉笔",
-            "vt. 以蜡笔作画，用颜色粉笔画"
+            "v. to write, draw, or trace with a crayon",
+            "n. writing implement consisting of a colored stick of composition wax used for writing and drawing"
         ],
         "usphone": "[ˈkreɪən; ˈkreɪɑːn]",
         "ukphone": "[ˈkreɪən; ˈkreɪɒn]"
@@ -175,14 +181,15 @@
     {
         "name": "pencil box",
         "trans": [
-            " 铅笔盒；文具盒；你的铅笔盒"
+            "n. a box for holding pencils"
         ]
     },
     {
         "name": "six",
         "trans": [
-            "num. 六，六个",
-            "n. 六，六个"
+            "adj. denoting a quantity consisting of six items or units",
+            "n. a playing card or domino or die whose upward face shows six pips",
+            "n. the cardinal number that is the sum of five and one"
         ],
         "usphone": "[sɪks]",
         "ukphone": "[sɪks]"
@@ -190,9 +197,9 @@
     {
         "name": "seven",
         "trans": [
-            "num. 七个，七",
-            "n. 七个，七",
-            "adj. 七的；七个的"
+            "adj. being one more than six",
+            "n. one of four playing cards in a deck with seven pips on the face",
+            "n. the cardinal number that is the sum of six and one"
         ],
         "usphone": "[ˈsev(ə)n]",
         "ukphone": "[ˈsev(ə)n]"
@@ -200,9 +207,9 @@
     {
         "name": "eight",
         "trans": [
-            "num. 八；八个；第八",
-            "n. 八字形",
-            "adj. 八的"
+            "adj. being one more than seven",
+            "n. one of four playing cards in a deck with eight pips on the face",
+            "n. the cardinal number that is the sum of seven and one"
         ],
         "usphone": "[eɪt]",
         "ukphone": "[eɪt]"
@@ -210,9 +217,9 @@
     {
         "name": "nine",
         "trans": [
-            "n. 九，九个",
-            "num. 九；九个",
-            "adj. 九的，九个的"
+            "adj. denoting a quantity consisting of one more than eight and one less than ten",
+            "n. one of four playing cards in a deck with nine pips on the face",
+            "n. a team of professional baseball players who play and travel together"
         ],
         "usphone": "[naɪn]",
         "ukphone": "[naɪn]"
@@ -220,7 +227,9 @@
     {
         "name": "ten",
         "trans": [
-            "num. 十个，十"
+            "adj. being one more than nine",
+            "n. one of four playing cards in a deck with ten pips on the face",
+            "n. the cardinal number that is the sum of nine and one"
         ],
         "usphone": "[ten]",
         "ukphone": "[ten]"
@@ -228,7 +237,9 @@
     {
         "name": "friend",
         "trans": [
-            "n. 朋友；助手；赞助者"
+            "n. a person with whom you are acquainted",
+            "n. an associate who provides cooperation or assistance",
+            "n. a person you know well and regard with affection and trust"
         ],
         "usphone": "[frend]",
         "ukphone": "[frend]"
@@ -236,7 +247,9 @@
     {
         "name": "window",
         "trans": [
-            "n. 窗；窗口；窗户"
+            "n. a framework of wood or metal that contains a glass windowpane and is built into a wall or roof to admit light or air",
+            "n. a transparent opening in a vehicle that allow vision out of the sides or back",
+            "n. a transparent panel (as of an envelope) inserted in an otherwise opaque material"
         ],
         "usphone": "[ˈwɪndoʊ]",
         "ukphone": "[ˈwɪndəʊ]"
@@ -244,8 +257,9 @@
     {
         "name": "red",
         "trans": [
-            "n. 红色，红颜料；赤字",
-            "adj. 红色的；红肿的，充血的"
+            "adj. characterized by violence or bloodshed",
+            "adj. of a color at the end of the color spectrum (next to orange)",
+            "adj. suffused with blood from emotion or exertion, reddened"
         ],
         "usphone": "[red]",
         "ukphone": "[red]"
@@ -253,10 +267,9 @@
     {
         "name": "yellow",
         "trans": [
-            "n. 黄色；黄种人；黄色颜料",
-            "adj. 黄色的；黄皮肤的",
-            "vt. 使变黄或发黄",
-            "vi. 变黄或发黄"
+            "v. turn yellow",
+            "adj. typical of tabloids",
+            "adj. easily frightened"
         ],
         "usphone": "[ˈjeloʊ]",
         "ukphone": "[ˈjeləʊ]"
@@ -264,10 +277,9 @@
     {
         "name": "blue",
         "trans": [
-            "adj. 蓝色的；沮丧的，忧郁的；下流的",
-            "n. 蓝色；[复数]（美国海、陆、空三军穿的）蓝色制服；蓝颜料；[the blue(s)][用作单数或复数]布鲁斯（歌曲）（一种伤感的美国黑人民歌",
-            "vi. 变成蓝色，呈蓝色",
-            "vt. 把…染成蓝色；使成蓝色；给…用上蓝剂；用上蓝剂于"
+            "v. to turn blue",
+            "adj. causing dejection",
+            "adj. of the color intermediate between green and violet"
         ],
         "usphone": "[bluː]",
         "ukphone": "[bluː]"
@@ -275,10 +287,7 @@
     {
         "name": "green",
         "trans": [
-            "n. 绿色；青春",
-            "adj. 绿色的；青春的",
-            "vt. 使…变绿色",
-            "vi. 变绿色"
+            "n. an environmentalist who belongs to the Green Party"
         ],
         "usphone": "[ɡriːn]",
         "ukphone": "[ɡriːn]"
@@ -286,8 +295,9 @@
     {
         "name": "orange",
         "trans": [
-            "adj. 橙色的；橘色的",
-            "n. 橙；橙色；桔子"
+            "adj. of the color between red and yellow",
+            "n. any pigment producing the orange color",
+            "n. orange color or pigment"
         ],
         "usphone": "[ˈɔrɪndʒ]",
         "ukphone": "[ˈɒrɪndʒ]"
@@ -295,10 +305,9 @@
     {
         "name": "brown",
         "trans": [
-            "n. 褐色，棕色",
-            "adj. 棕色的，褐色的；太阳晒黑的",
-            "vt. 使变成褐色",
-            "vi. 变成褐色"
+            "v. to make brown in color",
+            "v. to fry in a pan until it changes color",
+            "adj. (of skin) deeply suntanned"
         ],
         "usphone": "[braʊn]",
         "ukphone": "[braʊn]"
@@ -306,8 +315,9 @@
     {
         "name": "white",
         "trans": [
-            "n. 白色；洁白；白种人",
-            "adj. 白色的；白种的；纯洁的"
+            "v. turn white",
+            "adj. of or belonging to a racial group having light skin coloration",
+            "adj. of summer nights in northern latitudes where the sun barely sets"
         ],
         "usphone": "[waɪt]",
         "ukphone": "[waɪt]"
@@ -315,10 +325,9 @@
     {
         "name": "black",
         "trans": [
-            "n. 黑色；黑人；黑颜料",
-            "adj. 黑色的；黑人的；邪恶的",
-            "vt. 使变黑；把鞋油等涂在…上；把（眼眶）打成青肿",
-            "vi. 变黑"
+            "v. to make or become black",
+            "adj. marked by anger or resentment or hostility",
+            "adj. of or belonging to a racial group having dark skin especially of sub-Saharan African origin"
         ],
         "usphone": "[blæk]",
         "ukphone": "[blæk]"
@@ -326,9 +335,9 @@
     {
         "name": "cold",
         "trans": [
-            "n. 寒冷；感冒",
-            "adj. 寒冷的；冷淡的，不热情的；失去知觉的",
-            "adv. 完全地"
+            "adj. lacking the warmth of life",
+            "adj. of a seeker",
+            "adj. unconscious from a blow or shock or intoxication"
         ],
         "usphone": "[kəʊld]",
         "ukphone": "[kəʊld]"
@@ -336,10 +345,9 @@
     {
         "name": "hot",
         "trans": [
-            "adj. 热的；辣的；热情的；激动的；紧迫的",
-            "vt. 增加；给…加温",
-            "adv. 热；紧迫地",
-            "vi. 变热"
+            "adj. marked by excited activity",
+            "adj. charged or energized with electricity",
+            "adj. having or dealing with dangerously high levels of radioactivity"
         ],
         "usphone": "[hɑːt]",
         "ukphone": "[hɒt]"
@@ -347,8 +355,8 @@
     {
         "name": "tired",
         "trans": [
-            "v. 疲倦；对…腻烦（tire的过去分词形式）",
-            "adj. 疲倦的；厌倦的，厌烦的"
+            "adj. repeated too often",
+            "adj. depleted of strength or energy"
         ],
         "usphone": "[ˈtaɪərd]",
         "ukphone": "[ˈtaɪəd]"
@@ -356,7 +364,9 @@
     {
         "name": "happy",
         "trans": [
-            "adj. 幸福的；高兴的；巧妙的"
+            "adj. well expressed and to the point",
+            "adj. marked by good fortune",
+            "adj. enjoying or showing or marked by joy or pleasure"
         ],
         "usphone": "[ˈhæpi]",
         "ukphone": "[ˈhæpi]"
@@ -364,7 +374,9 @@
     {
         "name": "sad",
         "trans": [
-            "adj. 难过的；悲哀的，令人悲痛的；凄惨的，阴郁的（形容颜色）"
+            "adj. bad",
+            "adj. experiencing or showing sorrow or unhappiness",
+            "adj. of things that make you feel sad"
         ],
         "usphone": "[sæd]",
         "ukphone": "[sæd]"
@@ -372,8 +384,9 @@
     {
         "name": "body",
         "trans": [
-            "n. 身体；主体；大量；团体；主要部分",
-            "vt. 赋以形体"
+            "n. the external structure of a vehicle",
+            "n. a resonating chamber in a musical instrument (as the body of a violin)",
+            "n. the property of holding together and retaining its shape"
         ],
         "usphone": "[ˈbɑːdi]",
         "ukphone": "[ˈbɒdi]"
@@ -381,8 +394,9 @@
     {
         "name": "hand",
         "trans": [
-            "n. 手，手艺；帮助；指针；插手",
-            "vt. 传递，交给；支持；搀扶"
+            "v. guide or conduct or usher somewhere",
+            "v. place into the hands or custody of",
+            "n. physical assistance"
         ],
         "usphone": "[hænd]",
         "ukphone": "[hænd]"
@@ -390,10 +404,9 @@
     {
         "name": "head",
         "trans": [
-            "n. 头；头痛；上端；最前的部分；理解力",
-            "adj. 头的；主要的；在顶端的",
-            "vt. 前进；用头顶；作为…的首领；站在…的前头；给…加标题",
-            "vi. 出发；成头状物；船驶往"
+            "v. remove the head of",
+            "v. direct the course",
+            "v. to go or travel towards"
         ],
         "usphone": "[hed]",
         "ukphone": "[hed]"
@@ -401,9 +414,9 @@
     {
         "name": "arm",
         "trans": [
-            "n. 手臂；武器；袖子；装备；部门",
-            "vt. 武装；备战",
-            "vi. 武装起来"
+            "v. to supply with weapons",
+            "n. the part of an armchair or sofa that supports the elbow and forearm of a seated person",
+            "n. any projection that is thought to resemble a human arm"
         ],
         "usphone": "[ɑːrm]",
         "ukphone": "[ɑːm]"
@@ -411,7 +424,9 @@
     {
         "name": "leg",
         "trans": [
-            "n. 腿；支柱"
+            "n. a section or portion of a journey or course",
+            "n. the nautical distance traveled by a sailing vessel on a single tack",
+            "n. a cloth covering consisting of the part of a pair of trousers that covers a person's leg"
         ],
         "usphone": "[leɡ]",
         "ukphone": "[leɡ]"
@@ -419,9 +434,9 @@
     {
         "name": "foot",
         "trans": [
-            "n. 脚；英尺；步调；末尾",
-            "vt. 支付；给……换底",
-            "vi. 步行；跳舞；总计"
+            "v. add a column of numbers",
+            "v. walk",
+            "v. pay for something"
         ],
         "usphone": "[fʊt]",
         "ukphone": "[fʊt]"
@@ -429,10 +444,9 @@
     {
         "name": "left",
         "trans": [
-            "adj. 左边的；左派的；剩下的",
-            "adv. 在左面",
-            "n. 左边；左派；激进分子",
-            "v. 离开（leave的过去式）"
+            "adj. intended for the left hand",
+            "adj. being or located on or directed toward the side of the body to the west when facing north",
+            "adj. of or belonging to the political or intellectual left"
         ],
         "usphone": "[left]",
         "ukphone": "[left]"
@@ -440,11 +454,9 @@
     {
         "name": "right",
         "trans": [
-            "n. 正确；右边；正义",
-            "adj. 正确的；直接的；右方的",
-            "vt. 纠正",
-            "adv. 正确地；恰当地；彻底地",
-            "vi. 复正；恢复平稳"
+            "v. make right or correct",
+            "v. regain an upright or proper position",
+            "v. put in or restore to an upright position"
         ],
         "usphone": "[raɪt]",
         "ukphone": "[raɪt]"
@@ -452,10 +464,9 @@
     {
         "name": "hair",
         "trans": [
-            "n. 头发；毛发；些微",
-            "adj. 毛发的；护理毛发的；用毛发制成的",
-            "vt. 除去…的毛发",
-            "vi. 生长毛发；形成毛状纤维"
+            "n. a filamentous projection or process on an organism",
+            "n. cloth woven from horsehair or camelhair",
+            "n. any of the cylindrical filaments characteristically growing from the epidermis of a mammal"
         ],
         "usphone": "[her]",
         "ukphone": "[heə(r)]"
@@ -463,8 +474,9 @@
     {
         "name": "eye",
         "trans": [
-            "n. 眼睛；视力；眼光；见解，观点",
-            "vt. 注视，看"
+            "v. look at",
+            "n. a small hole or loop (as in a needle)",
+            "n. the organ of sight"
         ],
         "usphone": "[aɪ]",
         "ukphone": "[aɪ]"
@@ -472,9 +484,9 @@
     {
         "name": "mouth",
         "trans": [
-            "n. 口，嘴；河口",
-            "vt. 做作地说，装腔作势地说；喃喃地说出",
-            "vi. 装腔作势说话"
+            "v. express in speech",
+            "v. articulate silently",
+            "v. touch with the mouth"
         ],
         "usphone": "[maʊθ]",
         "ukphone": "[maʊθ]"
@@ -482,8 +494,9 @@
     {
         "name": "ear",
         "trans": [
-            "n. 耳朵；穗；听觉；倾听",
-            "vi. （美俚）听见；抽穗"
+            "n. the sense organ for hearing and equilibrium",
+            "n. the externally visible cartilaginous structure of the external ear",
+            "n. good hearing"
         ],
         "usphone": "[ɪr]",
         "ukphone": "[ɪə(r)]"
@@ -491,9 +504,9 @@
     {
         "name": "nose",
         "trans": [
-            "n. 鼻子；嗅觉；突出的部分；探问",
-            "vt. 嗅；用鼻子触",
-            "vi. 小心探索着前进；探问"
+            "v. defeat by a narrow margin",
+            "v. rub noses",
+            "v. push or move with the nose"
         ],
         "usphone": "[noʊz]",
         "ukphone": "[nəʊz]"
@@ -501,9 +514,9 @@
     {
         "name": "face",
         "trans": [
-            "n. 脸；表面；面子；面容；外观；威信",
-            "vi. 向；朝",
-            "vt. 面对；面向；承认；抹盖"
+            "v. deal with (something unpleasant) head on",
+            "v. present somebody with something, usually to accuse or criticize",
+            "v. oppose, as in hostility or a competition"
         ],
         "usphone": "[feɪs]",
         "ukphone": "[feɪs]"
@@ -511,10 +524,9 @@
     {
         "name": "warm",
         "trans": [
-            "n. 取暖；加热",
-            "adj. 温暖的；热情的",
-            "vt. 使…兴奋；使…温暖；使…感兴趣",
-            "vi. 同情；激动；变温暖"
+            "v. make warm or warmer",
+            "v. get warm or warmer",
+            "adj. of a seeker"
         ],
         "usphone": "[wɔːrm]",
         "ukphone": "[wɔːm]"
@@ -522,11 +534,9 @@
     {
         "name": "cool",
         "trans": [
-            "n. 凉爽；凉爽的空气",
-            "adj. 凉爽的；冷静的；出色的",
-            "vt. 使…冷却；使…平静下来",
-            "vi. 变凉；平息",
-            "adv. 冷静地"
+            "v. to loose heat",
+            "v. to lose intensity",
+            "v. to make cool or cooler"
         ],
         "usphone": "[kuːl]",
         "ukphone": "[kuːl]"
@@ -534,9 +544,9 @@
     {
         "name": "doctor",
         "trans": [
-            "vt. 修理；篡改，伪造；为…治病；授以博士学位",
-            "n. 医生；博士",
-            "vi. 就医；行医"
+            "v. give medical treatment to",
+            "v. restore by replacing a part or putting together what is torn or broken",
+            "v. alter and make impure, as with the intention to deceive"
         ],
         "usphone": "[ˈdɑːktər]",
         "ukphone": "[ˈdɒktə(r)]"
@@ -544,15 +554,16 @@
     {
         "name": "Dr.",
         "trans": [
-            "abbr. （书写形式）医生；（用于街道名）路",
-            "n. 【摄】动态范围"
+            "abbr. to write outer appearance doctor, to use in street name road (",
+            "n. to capture (video or still images) movement range"
         ]
     },
     {
         "name": "family",
         "trans": [
-            "n. 家庭；亲属；家族；子女；[生]科；语族；[化]族",
-            "adj. 家庭的；家族的；适合于全家的"
+            "n. primary social group",
+            "n. people descended from a common ancestor",
+            "n. a collection of things sharing a common attribute"
         ],
         "usphone": "[ˈfæməli]",
         "ukphone": "[ˈfæməli]"
@@ -560,8 +571,9 @@
     {
         "name": "father",
         "trans": [
-            "n. 父亲，爸爸；神父；祖先；前辈",
-            "vt. 发明，创立；当…的父亲"
+            "v. make children",
+            "n. the head of an organized crime family",
+            "n. a male parent, also used as a term of address to one's own father"
         ],
         "usphone": "[ˈfɑːðər]",
         "ukphone": "[ˈfɑːðə(r)]"
@@ -569,9 +581,9 @@
     {
         "name": "mother",
         "trans": [
-            "n. 母亲；大娘；女修道院院长",
-            "vt. 生下；养育；像母亲般关怀或照管",
-            "adj. 母亲的；出生地的"
+            "v. make children",
+            "v. care for like a mother",
+            "n. a condition that is the inspiration for an activity or situation"
         ],
         "usphone": "[ˈmʌðər]",
         "ukphone": "[ˈmʌðə(r)]"
@@ -579,8 +591,7 @@
     {
         "name": "brother",
         "trans": [
-            "n. 兄弟；同事；战友",
-            "int. 我的老兄！"
+            "n. (Roman Catholic Church) a title given to a monk and used as form of address"
         ],
         "usphone": "[ˈbrʌðər]",
         "ukphone": "[ˈbrʌðə(r)]"
@@ -588,8 +599,9 @@
     {
         "name": "sister",
         "trans": [
-            "n. 姐妹；（称志同道合者）姐妹；修女；护士",
-            "adj. 姐妹般的；同类型的"
+            "n. (slang) sometimes used as a term of address for attractive young women",
+            "n. a female person who is a fellow member of a sorority or labor union or other group",
+            "n. a female person who has the same parents as another person"
         ],
         "usphone": "[ˈsɪstər]",
         "ukphone": "[ˈsɪstə(r)]"
@@ -597,10 +609,8 @@
     {
         "name": "China",
         "trans": [
-            "n. 中国",
-            "n. china，瓷器",
-            "adj. 中国的；中国制造的",
-            "adj. china，瓷制的"
+            "n. high quality porcelain originally made only in China",
+            "n. dishware made of high quality porcelain"
         ],
         "usphone": "[ˈtʃaɪnə]",
         "ukphone": "[ˈtʃaɪnə]"
@@ -608,9 +618,9 @@
     {
         "name": "short",
         "trans": [
-            "n. 短；缺乏；短路；短裤",
-            "adj. 短的；不足的；矮的，低的",
-            "adv. 不足；突然；唐突地"
+            "v. create a short circuit in",
+            "v. cheat someone by not returning him enough money",
+            "adj. tending to crumble or break into flakes due to a large amount of shortening"
         ],
         "usphone": "[ʃɔːrt]",
         "ukphone": "[ʃɔːt]"
@@ -618,8 +628,9 @@
     {
         "name": "tall",
         "trans": [
-            "adj. 高的；长的；过分的；夸大的",
-            "adv. 夸大地"
+            "adj. lofty in style",
+            "adj. great in vertical dimension",
+            "adj. too improbable to admit of belief"
         ],
         "usphone": "[tɔːl]",
         "ukphone": "[tɔːl]"
@@ -627,7 +638,7 @@
     {
         "name": "policeman",
         "trans": [
-            "n. 警察，警员；[分化] 淀帚（橡皮头玻璃搅棒）"
+            "n. a member of a police force"
         ],
         "usphone": "[pəˈliːsmən]",
         "ukphone": "[pəˈliːsmən]"
@@ -635,8 +646,9 @@
     {
         "name": "bus",
         "trans": [
-            "n. 公共汽车",
-            "乘公共汽车"
+            "v. to remove used dishes from the table in restaurants",
+            "v. to ride in a bus",
+            "v. to send or move around by bus"
         ],
         "usphone": "[bʌs]",
         "ukphone": "[bʌs]"
@@ -644,7 +656,9 @@
     {
         "name": "driver",
         "trans": [
-            "n. 驾驶员；驱动程序；起子；传动器"
+            "n. a golf club (a wood) with a near vertical face that is used for hitting long shots from the tee",
+            "n. (computer science) a program that determines how a computer will communicate with a peripheral device",
+            "n. the operator of a motor vehicle"
         ],
         "usphone": "[ˈdraɪvər]",
         "ukphone": "[ˈdraɪvə(r)]"
@@ -652,7 +666,9 @@
     {
         "name": "worker",
         "trans": [
-            "n. 工人；劳动者；职蚁"
+            "n. sterile member of a colony of social insects that forages for food and cares for the larvae",
+            "n. a person who works at a specific occupation",
+            "n. a person who acts and gets things done"
         ],
         "usphone": "[ˈwɜːrkər]",
         "ukphone": "[ˈwɜːkə(r)]"
@@ -660,8 +676,7 @@
     {
         "name": "old",
         "trans": [
-            "adj. 陈旧的，古老的；年老的",
-            "n. 古时"
+            "adj. of a very early stage in development"
         ],
         "usphone": "[oʊld]",
         "ukphone": "[əʊld]"
@@ -669,8 +684,9 @@
     {
         "name": "young",
         "trans": [
-            "n. 年轻人；（动物的）崽，仔",
-            "adj. 年轻的；初期的；没有经验的"
+            "adj. (of crops) harvested at an early stage of development",
+            "adj. not tried or tested by experience",
+            "adj. being in its early stage"
         ],
         "usphone": "[jʌŋ]",
         "ukphone": "[jʌŋ]"
@@ -678,7 +694,8 @@
     {
         "name": "birthday",
         "trans": [
-            "n. 生日，诞辰；诞生的日子"
+            "n. an anniversary of the day on which a person was born (or the celebration of it)",
+            "n. the date on which a person was born"
         ],
         "usphone": "[ˈbɜːrθdeɪ]",
         "ukphone": "[ˈbɜːθdeɪ]"
@@ -686,8 +703,9 @@
     {
         "name": "party",
         "trans": [
-            "n. 政党，党派；聚会，派对；当事人 [复数 parties]",
-            "vi. 参加社交聚会 [ 过去式 partied 过去分词 partied 现在分词 partying ]"
+            "v. have or participate in a party",
+            "n. an occasion on which people can assemble for social interaction and entertainment",
+            "n. a group of people gathered together for pleasure"
         ],
         "usphone": "[ˈpɑːrti]",
         "ukphone": "[ˈpɑːti]"
@@ -695,9 +713,9 @@
     {
         "name": "cake",
         "trans": [
-            "n. 蛋糕；块状物；利益总额",
-            "vt. 使结块",
-            "vi. 结成块状"
+            "v. to form a coat over",
+            "n. a block of solid substance (such as soap or wax)",
+            "n. baked goods made from or based on a mixture of flour, sugar, eggs, and fat"
         ],
         "usphone": "[keɪk]",
         "ukphone": "[keɪk]"

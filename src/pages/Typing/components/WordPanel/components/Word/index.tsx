@@ -282,37 +282,39 @@ export default function WordComponent({ word, onFinish }: { word: Word; onFinish
 
   return (
     <>
-      <InputHandler updateInput={updateInput} />
       <div
         lang={currentLanguageCategory !== 'code' ? currentLanguageCategory : 'en'}
         className="flex flex-col items-center justify-center pb-1 pt-4"
       >
         {['romaji', 'hapin'].includes(currentLanguage) && word.notation && <Notation notation={word.notation} />}
         <div
-          className={`tooltip-info relative w-fit bg-transparent p-0 leading-normal shadow-none dark:bg-transparent ${
+          className={`tooltip-info relative w-fit max-w-full bg-transparent p-0 pr-8 leading-normal shadow-none dark:bg-transparent sm:pr-10 ${
             wordDictationConfig.isOpen ? 'tooltip' : ''
           }`}
-          data-tip="按 Tab 快捷键显示完整单词"
+          data-tip="Press Tab to show the full word"
         >
           <div
             onMouseEnter={() => handleHoverWord(true)}
             onMouseLeave={() => handleHoverWord(false)}
-            className={`flex items-center ${isTextSelectable && 'select-all'} justify-center ${wordState.hasWrong ? style.wrong : ''}`}
+            className={`relative flex max-w-full flex-wrap items-center justify-center ${isTextSelectable && 'select-all'} ${
+              wordState.hasWrong ? style.wrong : ''
+            }`}
           >
+            <InputHandler updateInput={updateInput} />
             {wordState.displayWord.split('').map((t, index) => {
               return <Letter key={`${index}-${t}`} letter={t} visible={getLetterVisible(index)} state={wordState.letterStates[index]} />
             })}
           </div>
           {pronunciationIsOpen && (
-            <div className="absolute -right-12 top-1/2 h-9 w-9 -translate-y-1/2 transform ">
-              <Tooltip content={`快捷键${CTRL} + J`}>
+            <div className="absolute right-0 top-1/2 h-9 w-9 -translate-y-1/2 transform">
+              <Tooltip content={`Shortcut ${CTRL} + J`}>
                 <WordPronunciationIcon word={word} lang={currentLanguage} ref={wordPronunciationIconRef} className="h-full w-full" />
               </Tooltip>
             </div>
           )}
         </div>
       </div>
-      <TipAlert className="fixed bottom-10 right-3" show={showTipAlert} setShow={setShowTipAlert} />
+      <TipAlert className="fixed bottom-10 left-3 right-3 sm:left-auto sm:right-3" show={showTipAlert} setShow={setShowTipAlert} />
     </>
   )
 }

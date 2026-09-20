@@ -34,15 +34,14 @@ export default function DictionaryComponent({ dictionary }: Props) {
       <DialogTrigger asChild>
         <div
           ref={divRef}
-          className={`group flex  h-36 w-80 cursor-pointer items-center justify-center overflow-hidden rounded-lg p-4 text-left shadow-lg focus:outline-none ${
+          className={`group flex h-auto min-h-[8.5rem] w-full min-w-0 cursor-pointer items-center justify-center overflow-hidden rounded-lg p-4 text-left shadow-lg focus:outline-none ${
             isSelected ? 'bg-indigo-400' : 'bg-zinc-50 hover:bg-white dark:bg-gray-800 dark:hover:bg-gray-700'
           }`}
           role="button"
-          // onClick={onClick}
         >
-          <div className="relative ml-1 mt-2 flex h-full w-full flex-col items-start justify-start">
+          <div className="relative mt-1 flex h-full w-full min-w-0 flex-col items-start justify-start">
             <h1
-              className={`mb-1.5 text-xl font-normal  ${
+              className={`mb-1.5 pr-16 text-lg font-normal sm:text-xl ${
                 isSelected ? 'text-white' : 'text-gray-800 group-hover:text-indigo-400 dark:text-gray-200'
               }`}
             >
@@ -52,9 +51,9 @@ export default function DictionaryComponent({ dictionary }: Props) {
               <Tooltip delayDuration={400}>
                 <TooltipTrigger asChild>
                   <p
-                    className={`mb-1 max-w-full truncate ${
-                      isSelected ? 'text-white' : 'textdelayDuration-gray-600 dark:text-gray-200'
-                    } whitespace-nowrap`}
+                    className={`mb-1 w-full min-w-0 truncate pr-16 ${
+                      isSelected ? 'text-white' : 'text-gray-600 dark:text-gray-200'
+                    }`}
                   >
                     {dictionary.description}
                   </p>
@@ -65,13 +64,13 @@ export default function DictionaryComponent({ dictionary }: Props) {
               </Tooltip>
             </TooltipProvider>
 
-            <p className={`mb-0.5 font-bold  ${isSelected ? 'text-white' : 'text-gray-600 dark:text-gray-200'}`}>{dictionary.length} 词</p>
-            <div className=" flex w-full items-center pt-2">
+            <p className={`mb-0.5 font-bold ${isSelected ? 'text-white' : 'text-gray-600 dark:text-gray-200'}`}>{dictionary.length} words</p>
+            <div className="flex w-full min-w-0 items-center pt-2">
               {progress > 0 && (
                 <Progress.Root
                   value={progress}
                   max={100}
-                  className={`mr-4 h-2 w-full rounded-full border  bg-white ${isSelected ? 'border-indigo-600' : 'border-indigo-400'}`}
+                  className={`mr-4 h-2 w-full rounded-full border bg-white ${isSelected ? 'border-indigo-600' : 'border-indigo-400'}`}
                 >
                   <Progress.Indicator
                     className={`h-full rounded-full pl-0 ${isSelected ? 'bg-indigo-600' : 'bg-indigo-400'}`}
@@ -79,12 +78,12 @@ export default function DictionaryComponent({ dictionary }: Props) {
                   />
                 </Progress.Root>
               )}
-              <img src={bookCover} className={`absolute right-3 top-3 w-16 ${isSelected ? 'opacity-50' : 'opacity-20'}`} />
+              <img src={bookCover} alt="" className={`absolute right-3 top-3 w-14 sm:w-16 ${isSelected ? 'opacity-50' : 'opacity-20'}`} />
             </div>
           </div>
         </div>
       </DialogTrigger>
-      <DialogContent className="w-[60rem] max-w-none !rounded-[20px]">
+      <DialogContent className="max-h-[90dvh] w-[min(60rem,calc(100vw-1.25rem))] max-w-none overflow-y-auto !rounded-2xl p-3 sm:!rounded-[20px] sm:p-6">
         <DictDetail dictionary={dictionary} />
       </DialogContent>
     </Dialog>

@@ -1,5 +1,6 @@
 import KeyEventHandler from '../KeyEventHandler'
 import TextAreaHandler from '../TextAreaHandler'
+import { useIsTouch } from '@/hooks/useMediaQuery'
 import { currentDictInfoAtom } from '@/store'
 import { useAtomValue } from 'jotai'
 import type { FormEvent } from 'react'
@@ -7,21 +8,16 @@ import { useMemo } from 'react'
 
 export default function InputHandler({ updateInput }: { updateInput: (updateObj: WordUpdateAction) => void }) {
   const dictInfo = useAtomValue(currentDictInfoAtom)
+  const isTouch = useIsTouch()
 
   const handler = useMemo(() => {
-    switch (dictInfo.language) {
-      case 'en':
-        return <KeyEventHandler updateInput={updateInput} />
-      case 'de':
-        return <KeyEventHandler updateInput={updateInput} />
-      case 'romaji':
-        return <KeyEventHandler updateInput={updateInput} />
-      case 'code':
-        return <TextAreaHandler updateInput={updateInput} />
-      default:
-        return <TextAreaHandler updateInput={updateInput} />
+    const needsTextArea = isTouch || !['en', 'de', 'romaji'].includes(dictInfo.language)
+    if (needsTextArea) {
+      return <TextAreaHandler updateInput={updateInput} />
     }
-  }, [dictInfo.language, updateInput])
+
+    return <KeyEventHandler updateInput={updateInput} />
+  }, [dictInfo.language, isTouch, updateInput])
 
   return <>{handler}</>
 }

@@ -1,306 +1,551 @@
 [
     {
         "name": "printer",
-        "trans": ["n. 打印机"]
+        "trans": [
+            "n. a machine that prints",
+            "n. (computer science) an output device that prints the results of data processing",
+            "n. someone whose occupation is printing"
+        ]
     },
     {
         "name": "withdraw",
-        "trans": ["v. 收回"]
+        "trans": [
+            "v. remove something concrete, as by lifting, pushing, or taking off, or remove something abstract",
+            "v. keep away from others",
+            "v. take back what one has said"
+        ]
     },
     {
         "name": "outstanding",
-        "trans": ["adj. 杰出的"]
+        "trans": [
+            "adj. having a quality that thrusts itself into attention",
+            "adj. of major significance or importance",
+            "adj. owed as a debt"
+        ]
     },
     {
         "name": "canteen",
-        "trans": ["n. 食堂"]
+        "trans": [
+            "n. a flask for carrying water",
+            "n. restaurant in a factory",
+            "n. a recreation room in an institution"
+        ]
     },
     {
         "name": "exact",
-        "trans": ["adj. 精确的"]
+        "trans": [
+            "v. take as an undesirable consequence of some event or state of affairs",
+            "v. claim as due or just",
+            "adj. (of ideas, images, representations, expressions) characterized by perfect conformity to fact or truth"
+        ]
     },
     {
         "name": "switch off",
-        "trans": ["v. 关掉"]
+        "trans": [
+            "v. cause to stop operating by disengaging a switch"
+        ]
     },
     {
         "name": "boot",
-        "trans": ["n. 靴子"]
+        "trans": [
+            "v. to cause to load an operating system and start the initial processes",
+            "v. to kick something",
+            "n. the act of delivering a blow with the foot"
+        ]
     },
     {
         "name": "wood",
-        "trans": ["n. 木材"]
+        "trans": [
+            "n. a golf club with a long shaft used to hit long shots",
+            "n. any wind instrument other than the brass instruments",
+            "n. the trees and other plants in a large densely wooded area"
+        ]
     },
     {
         "name": "forbid",
-        "trans": ["v. 禁止"]
+        "trans": [
+            "v. command against",
+            "v. keep from happening or arising"
+        ]
     },
     {
         "name": "client",
-        "trans": ["n. 客户"]
+        "trans": [
+            "n. any computer that is hooked up to a computer network",
+            "n. someone who pays for goods or services",
+            "n. a person who seeks the advice of a lawyer"
+        ]
     },
     {
         "name": "rail",
-        "trans": ["n. 铁轨"]
+        "trans": [
+            "v. criticize severely",
+            "v. spread negative information about",
+            "v. complain bitterly"
+        ]
     },
     {
         "name": "intermediate",
-        "trans": ["adj. 中间的"]
+        "trans": [
+            "v. act between parties with a view to reconciling differences",
+            "adj. lying between two extremes in time or space or state",
+            "adj. around the middle of a scale of evaluation"
+        ]
     },
     {
         "name": "appliance",
-        "trans": ["n. 电器"]
+        "trans": [
+            "n. durable goods for home or office use",
+            "n. a device or control that is very useful for a particular job"
+        ]
     },
     {
         "name": "intensive",
-        "trans": ["adj. 加强的"]
+        "trans": [
+            "adj. characterized by a high degree or intensity",
+            "adj. of agriculture",
+            "adj. tending to give force or emphasis"
+        ]
     },
     {
         "name": "allergy",
-        "trans": ["n. 过敏"]
+        "trans": [
+            "n. hypersensitivity reaction to a particular allergen"
+        ]
     },
     {
         "name": "vegetarian",
-        "trans": ["n. 素食者"]
+        "trans": [
+            "n. someone who eats fruits, grains and nuts, but not meat"
+        ]
     },
     {
         "name": "bargain",
-        "trans": ["n. 便宜货"]
+        "trans": [
+            "v. to come to terms",
+            "v. to negotiate the terms of an exchange",
+            "n. an agreement between parties, usually arrived at after discussion, fixing obligations of each"
+        ]
     },
     {
         "name": "relative",
-        "trans": ["adj. 相对的"]
+        "trans": [
+            "adj. estimated by comparison",
+            "adj. properly related in size or degree or other measurable characteristics",
+            "n. an animal or plant that bears a relationship to another (as related by common descent or by membership in the same genus)"
+        ]
     },
     {
         "name": "condition",
-        "trans": ["n. 情况"]
+        "trans": [
+            "v. to apply conditioner to in order to make smooth and shiny",
+            "v. to put into a better state",
+            "v. to specify as a condition or requirement in a contract or agreement"
+        ]
     },
     {
         "name": "package",
-        "trans": ["n. 包裹"]
+        "trans": [
+            "v. put into a box",
+            "n. a wrapped container",
+            "n. (computer science) written programs or procedures or rules and associated documentation pertaining to the operation of a computer system and that are stored in read/write memory"
+        ]
     },
     {
         "name": "fare",
-        "trans": ["n. 费用"]
+        "trans": [
+            "v. eat well",
+            "v. proceed or get along",
+            "n. an agenda of things to do"
+        ]
     },
     {
         "name": "armchair",
-        "trans": ["n. 扶手椅"]
+        "trans": [
+            "n. chair with a support on each side for arms"
+        ]
     },
     {
         "name": "advanced",
-        "trans": ["adj. 高级的"]
+        "trans": [
+            "adj. situated ahead or going before",
+            "adj. comparatively late in a course of development",
+            "adj. (of societies) highly developed especially in technology or industry"
+        ]
     },
     {
         "name": "material",
-        "trans": ["n. 物质"]
+        "trans": [
+            "adj. having substance or capable of being treated as fact",
+            "adj. derived from or composed of matter",
+            "adj. having material or physical form or substance"
+        ]
     },
     {
         "name": "jeans",
-        "trans": ["n. 牛仔裤"]
+        "trans": [
+            "n. a coarse durable twill-weave cotton fabric",
+            "n. (usually plural) close-fitting trousers of heavy denim for manual work or casual wear"
+        ]
     },
     {
         "name": "trolley",
-        "trans": ["n. 手推车"]
+        "trans": [
+            "n. a wheeled vehicle that runs on rails and is propelled by electricity"
+        ]
     },
     {
         "name": "sightseeing",
-        "trans": ["n. 观光"]
+        "trans": [
+            "n. going about to look at places of interest"
+        ]
     },
     {
         "name": "post office",
-        "trans": ["n. 邮局"]
+        "trans": [
+            "n. a children's game in which kisses are exchanged for pretended letters",
+            "n. a local branch where postal services are available'"
+        ]
     },
     {
         "name": "rent",
-        "trans": ["n. 租金"]
+        "trans": [
+            "v. engage for service under a term of contract",
+            "v. grant use or occupation of under a term of contract",
+            "v. let for money"
+        ]
     },
     {
         "name": "sports centre",
-        "trans": ["n. 体育中心"]
+        "trans": [
+            "n. sports center"
+        ]
     },
     {
         "name": "Monday",
-        "trans": ["n. 星期一"]
+        "trans": [
+            "n. Monday"
+        ]
     },
     {
         "name": "Sunday",
-        "trans": ["n. 星期天"]
+        "trans": [
+            "n. Sunday"
+        ]
     },
     {
         "name": "rail",
-        "trans": ["n. 铁轨，栏杆"]
+        "trans": [
+            "v. criticize severely",
+            "v. spread negative information about",
+            "v. complain bitterly"
+        ]
     },
     {
         "name": "stair lift",
-        "trans": ["n. 楼梯升降机"]
+        "trans": [
+            "n. stair aerial work platform (e.g. cherry picker or scissor lift)"
+        ]
     },
     {
         "name": "seat",
-        "trans": ["n. 座位"]
+        "trans": [
+            "v. show to a seat",
+            "v. place in or on a seat",
+            "v. place or attach firmly in or on a base"
+        ]
     },
     {
         "name": "living room",
-        "trans": ["n. 客厅起居室"]
+        "trans": [
+            "n. a room in a private house or establishment where people can sit and talk and relax"
+        ]
     },
     {
         "name": "bathroom",
-        "trans": ["n. 浴室，卫生间"]
+        "trans": [
+            "n. a room containing a bathtub or shower and usually a washbasin and toilet",
+            "n. a room or building equipped with one or more toilets"
+        ]
     },
     {
         "name": "kitchen",
-        "trans": ["n. 厨房"]
+        "trans": [
+            "n. a room equipped for preparing meals"
+        ]
     },
     {
         "name": "washing machine",
-        "trans": ["n. 洗衣机"]
+        "trans": [
+            "n. a home appliance for washing clothes and linens automatically"
+        ]
     },
     {
         "name": "video",
-        "trans": ["n. 电视，录像机"]
+        "trans": [
+            "n. a recording of both the visual and audible components, especially one containing a recording of a movie or television program",
+            "n. broadcasting visual images of stationary or moving objects",
+            "n. the visible part of a television transmission"
+        ]
     },
     {
         "name": "basin",
-        "trans": ["n. 盆"]
+        "trans": [
+            "n. a bowl-shaped vessel",
+            "n. a bathroom sink that is permanently installed and connected to a water supply and drainpipe",
+            "n. the entire geographical area drained by a river and its tributaries"
+        ]
     },
     {
         "name": "campus",
-        "trans": ["n. 校园"]
+        "trans": [
+            "n. a field on which the buildings of a university are situated"
+        ]
     },
     {
         "name": "balcony",
-        "trans": ["n. 阳台"]
+        "trans": [
+            "n. a platform projecting from the wall of a building and surrounded by a balustrade or railing or parapet",
+            "n. an upper floor projecting from the rear over the main floor in an auditorium"
+        ]
     },
     {
         "name": "lamp",
-        "trans": ["n. 灯"]
+        "trans": [
+            "n. an artificial source of visible illumination",
+            "n. a piece of furniture holding one or more electric light bulbs"
+        ]
     },
     {
         "name": "survey",
-        "trans": ["n. 调查，测量"]
+        "trans": [
+            "v. consider in a comprehensive way",
+            "v. plot a map of (land)",
+            "v. make a survey of"
+        ]
     },
     {
         "name": "community",
-        "trans": ["n. 社区，共同体"]
+        "trans": [
+            "n. (ecology) a group of interdependent organisms inhabiting the same region and interacting with each other",
+            "n. a group of people living in a particular local area",
+            "n. a group of nations having common interests"
+        ]
     },
     {
         "name": "dissatisfaction",
-        "trans": ["n. 不满"]
+        "trans": [
+            "n. the feeling of being displeased and discontent"
+        ]
     },
     {
         "name": "quality",
-        "trans": ["n. 质量，品质"]
+        "trans": [
+            "adj. of high social status",
+            "adj. of superior grade",
+            "n. an essential and distinguishing attribute of something or someone"
+        ]
     },
     {
         "name": "local",
-        "trans": ["adj. 当地的"]
+        "trans": [
+            "adj. relating to or applicable to or concerned with the administration of a city or town or district rather than a larger area",
+            "adj. affecting only a restricted part or area of the body",
+            "adj. of or belonging to or characteristic of a particular locality or neighborhood"
+        ]
     },
     {
         "name": "swimming pool",
-        "trans": ["n. 游泳池"]
+        "trans": [
+            "n. pool that provides a facility for swimming"
+        ]
     },
     {
         "name": "bedsheet",
-        "trans": ["n. 床单"]
+        "trans": [
+            "n. bed sheet"
+        ]
     },
     {
         "name": "carpet",
-        "trans": ["n. 地毯"]
+        "trans": [
+            "v. to cover with a carpet",
+            "v. to cover completely, as if with a carpet",
+            "v. to form a carpet-like cover over"
+        ]
     },
     {
         "name": "Thursday",
-        "trans": ["n. 星期四"]
+        "trans": [
+            "n. Thursday"
+        ]
     },
     {
         "name": "iron",
-        "trans": ["n. 熨烫"]
+        "trans": [
+            "v. press and smooth with a heated iron",
+            "adj. extremely robust",
+            "n. home appliance consisting of a flat metal base that is heated and used to smooth cloth"
+        ]
     },
     {
         "name": "suburb",
-        "trans": ["n. 郊区"]
+        "trans": [
+            "n. a residential district located on the outskirts of a city"
+        ]
     },
     {
         "name": "exterior",
-        "trans": ["adj. 外面的"]
+        "trans": [
+            "adj. situated in or suitable for the outdoors or outside of a building",
+            "n. the outer side or surface of something",
+            "n. the region that is outside of something"
+        ]
     },
     {
         "name": "setting",
-        "trans": ["n. 环境"]
+        "trans": [
+            "n. the physical position of something",
+            "n. the set of facts or circumstances that surround a situation or event",
+            "n. the state of the environment in which a situation exists"
+        ]
     },
     {
         "name": "ceremony",
-        "trans": ["n. 典礼仪式"]
+        "trans": [
+            "n. any activity that is performed in an especially solemn elaborate or formal way",
+            "n. the proper or conventional behavior on some solemn occasion",
+            "n. a formal event performed on a special occasion"
+        ]
     },
     {
         "name": "consult",
-        "trans": ["v. 咨询"]
+        "trans": [
+            "v. to advise professionally",
+            "v. to have a conference in order to talk something over",
+            "v. to seek information from"
+        ]
     },
     {
         "name": "premium",
-        "trans": ["adj. 高品质的"]
+        "trans": [
+            "adj. having or reflecting superior quality or value",
+            "n. payment or reward (especially from a government) for acts such as catching criminals or killing predatory animals or enlisting in the military",
+            "n. a prize, bonus, or award given as an inducement to purchase products, enter competitions initiated by business interests, etc."
+        ]
     },
     {
         "name": "apply",
-        "trans": ["v. 申请"]
+        "trans": [
+            "v. to ask for something",
+            "v. to refer to a person or thing with a specific word",
+            "v. to put into service"
+        ]
     },
     {
         "name": "brochure",
-        "trans": ["n. 小册子"]
+        "trans": [
+            "n. a small book usually having a paper cover"
+        ]
     },
     {
         "name": "reception",
-        "trans": ["n. 招待"]
+        "trans": [
+            "n. the act of receiving",
+            "n. (American football) the act of catching a pass in football",
+            "n. quality or fidelity of a received broadcast"
+        ]
     },
     {
         "name": "annual",
-        "trans": ["adj. 每年的"]
+        "trans": [
+            "adj. completing its life cycle within a year",
+            "adj. occurring or payable every year",
+            "n. a reference book that is published regularly once every year"
+        ]
     },
     {
         "name": "guard",
-        "trans": ["n. 保卫"]
+        "trans": [
+            "v. watch over or shield from danger or harm",
+            "v. protect against a challenge or attack",
+            "v. to keep watch over"
+        ]
     },
     {
         "name": "poster",
-        "trans": ["n. 海报"]
+        "trans": [
+            "n. a horse kept at an inn or post house for use by mail carriers or for rent to travelers",
+            "n. a sign posted in a public place as an advertisement",
+            "n. someone who pastes up bills or placards on walls or billboards"
+        ]
     },
     {
         "name": "health check",
-        "trans": ["n. 体检"]
+        "trans": [
+            "n. a thorough physical examination"
+        ]
     },
     {
         "name": "petrol",
-        "trans": ["n. 汽油"]
+        "trans": [
+            "n. a volatile flammable mixture of hydrocarbons (hexane and heptane and octane etc.) derived from petroleum"
+        ]
     },
     {
         "name": "literacy",
-        "trans": ["n. 读写能力"]
+        "trans": [
+            "n. the ability to read and write"
+        ]
     },
     {
         "name": "comedy",
-        "trans": ["n. 喜剧"]
+        "trans": [
+            "n. a comic incident or series of incidents",
+            "n. light and humorous drama with a happy ending"
+        ]
     },
     {
         "name": "lounge",
-        "trans": ["n. 休息厅"]
+        "trans": [
+            "v. sit or recline comfortably",
+            "v. be about",
+            "n. a room (as in a hotel or airport) with seating where people can wait"
+        ]
     },
     {
         "name": "Spanish",
-        "trans": ["n. 西班牙语"]
+        "trans": [
+            "adj. of or relating to or characteristic of Spain or the people of Spain",
+            "n. the Spanish language",
+            "n. collectively, the people of Spain"
+        ]
     },
     {
         "name": "yoga",
-        "trans": ["n. 瑜伽"]
+        "trans": [
+            "n. a system of exercises, focusing on breathing techniques, originally practiced as part of the Hindu religion, to promote control of the body and mind"
+        ]
     },
     {
         "name": "headache",
-        "trans": ["n. 头疼"]
+        "trans": [
+            "n. something or someone that causes anxiety",
+            "n. pain in the head caused by dilation of cerebral arteries or muscle contractions or a reaction to drugs"
+        ]
     },
     {
         "name": "burglar",
-        "trans": ["n. 盗贼"]
+        "trans": [
+            "n. a thief who enters a building with intent to steal"
+        ]
     },
     {
         "name": "goods",
-        "trans": ["n. 商品"]
+        "trans": [
+            "adj. promoting or enhancing well-being",
+            "adj. having the normally expected amount",
+            "adj. with or in a close or intimate relationship"
+        ]
     }
 ]

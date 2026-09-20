@@ -1,306 +1,560 @@
 [
     {
         "name": "steel",
-        "trans": ["钢"]
+        "trans": [
+            "v. cover, plate, or edge with steel",
+            "v. get ready for something difficult or unpleasant",
+            "n. knife sharpener consisting of a ridged steel rod"
+        ]
     },
     {
         "name": "preserve",
-        "trans": ["保存"]
+        "trans": [
+            "v. prevent (food) from rotting",
+            "v. to keep up and reserve for personal or special use",
+            "v. keep in safety and protect from harm, decay, loss, or destruction"
+        ]
     },
     {
         "name": "tongue",
-        "trans": ["舌头"]
+        "trans": [
+            "v. lick or explore with the tongue",
+            "v. articulate by tonguing, as when playing wind instruments",
+            "n. metal striker that hangs inside a bell and makes a sound by hitting the side"
+        ]
     },
     {
         "name": "finger",
-        "trans": ["手指"]
+        "trans": [
+            "v. indicate the fingering for the playing of musical scores for keyboard instruments",
+            "v. examine by touch",
+            "v. feel or handle with the fingers"
+        ]
     },
     {
         "name": "protein",
-        "trans": ["蛋白质"]
+        "trans": [
+            "n. any of a large group of nitrogenous organic compounds that are essential constituents of living cells"
+        ]
     },
     {
         "name": "philosopher",
-        "trans": ["哲学家"]
+        "trans": [
+            "n. a specialist in philosophy",
+            "n. a wise person who is calm and rational"
+        ]
     },
     {
         "name": "corporation",
-        "trans": ["公司"]
+        "trans": [
+            "n. slang for a paunch",
+            "n. a business firm whose articles of incorporation have been approved in some state"
+        ]
     },
     {
         "name": "pottery",
-        "trans": ["陶瓷"]
+        "trans": [
+            "n. the craft of making earthenware",
+            "n. ceramic ware made from clay and baked in a kiln",
+            "n. a workshop where clayware is made"
+        ]
     },
     {
         "name": "gun",
-        "trans": ["枪"]
+        "trans": [
+            "v. shoot with a gun",
+            "n. a professional killer who uses a gun",
+            "n. a person who shoots a gun (as regards their ability)"
+        ]
     },
     {
         "name": "lane",
-        "trans": ["车道"]
+        "trans": [
+            "n. a narrow way or road",
+            "n. a well-defined track or path"
+        ]
     },
     {
         "name": "achievement",
-        "trans": ["成就"]
+        "trans": [
+            "n. the action of accomplishing something"
+        ]
     },
     {
         "name": "frequent",
-        "trans": ["频繁的"]
+        "trans": [
+            "v. be a regular or frequent visitor to a certain place",
+            "v. do one's shopping at",
+            "adj. frequently encountered"
+        ]
     },
     {
         "name": "axe",
-        "trans": ["斧头"]
+        "trans": [
+            "v. to terminate",
+            "v. to chop or split with an ax",
+            "n. an edge tool with a heavy bladed head mounted across a handle"
+        ]
     },
     {
         "name": "soldier",
-        "trans": ["士兵"]
+        "trans": [
+            "v. serve as a soldier in the military",
+            "n. a wingless sterile ant or termite having a large head and powerful jaws adapted for defending the colony",
+            "n. an enlisted man or woman who serves in an army"
+        ]
     },
     {
         "name": "energy-saving",
-        "trans": ["节能的"]
+        "trans": [
+            "to conserve energy"
+        ]
     },
     {
         "name": "life span",
-        "trans": ["寿命"]
+        "trans": [
+            "life span"
+        ]
     },
     {
         "name": "presence",
-        "trans": ["存在"]
+        "trans": [
+            "n. the act of being present",
+            "n. dignified manner or conduct",
+            "n. the impression that something is present"
+        ]
     },
     {
         "name": "resistant",
-        "trans": ["反抗的"]
+        "trans": [
+            "adj. incapable of absorbing or mixing with",
+            "adj. disposed to or engaged in defiance of established authority",
+            "adj. impervious to being affected"
+        ]
     },
     {
         "name": "jam",
-        "trans": ["（纸）浆", "果酱"]
+        "trans": [
+            "v. interfere with or prevent the reception of signals",
+            "v. block passage through",
+            "v. crush or bruise"
+        ]
     },
     {
         "name": "barcode",
-        "trans": ["条形码"]
+        "trans": [
+            "barcode"
+        ]
     },
     {
         "name": "argument",
-        "trans": ["论据"]
+        "trans": [
+            "n. a course of reasoning aimed at demonstrating a truth or falsehood",
+            "n. a variable in a logical or mathematical expression whose value determines the dependent variable",
+            "n. (computer science) a reference or value that is passed to a function, procedure, subroutine, command, or program"
+        ]
     },
     {
         "name": "traffic flow",
-        "trans": ["交通吞吐量"]
+        "trans": [
+            "to be connected throughput"
+        ]
     },
     {
         "name": "random",
-        "trans": ["随机的"]
+        "trans": [
+            "adj. lacking any definite plan or order or purpose"
+        ]
     },
     {
         "name": "genetic",
-        "trans": ["基因的", "遗传的"]
+        "trans": [
+            "adj. occurring among members of a family usually by heredity",
+            "adj. of or relating to the science of genetics",
+            "adj. pertaining to or referring to origin"
+        ]
     },
     {
         "name": "generation",
-        "trans": ["一代人", "代"]
+        "trans": [
+            "n. the act of producing offspring or multiplying by such production",
+            "n. the production of heat or electricity",
+            "n. a coming into being"
+        ]
     },
     {
         "name": "mechanism",
-        "trans": ["机理", "途径"]
+        "trans": [
+            "n. the technical aspects of doing something",
+            "n. device consisting of a piece of machinery",
+            "n. (philosophy) the philosophical theory that all phenomena can be explained in terms of physical or biological causes"
+        ]
     },
     {
         "name": "angle",
-        "trans": ["角度"]
+        "trans": [
+            "v. to present with a bias",
+            "v. to fish with a hook",
+            "v. to seek indirectly"
+        ]
     },
     {
         "name": "crowded",
-        "trans": ["拥挤的"]
+        "trans": [
+            "adj. overfilled or compacted or concentrated"
+        ]
     },
     {
         "name": "storm",
-        "trans": ["暴风雨（雪）"]
+        "trans": [
+            "v. attack by storm",
+            "v. take by force",
+            "v. behave violently, as if in state of a great anger"
+        ]
     },
     {
         "name": "shortage",
-        "trans": ["短缺", "不足"]
+        "trans": [
+            "n. the property of being an amount by which something is less than expected or required",
+            "n. an acute insufficiency"
+        ]
     },
     {
         "name": "laboratory",
-        "trans": ["实验室"]
+        "trans": [
+            "n. a workplace for the conduct of scientific research",
+            "n. a region resembling a laboratory inasmuch as it offers opportunities for observation and practice and experimentation"
+        ]
     },
     {
         "name": "aboriginal",
-        "trans": ["土著居民"]
+        "trans": [
+            "adj. of or pertaining to members of the indigenous people of Australia"
+        ]
     },
     {
         "name": "gravity",
-        "trans": ["重力"]
+        "trans": [
+            "n. a manner that is serious and solemn",
+            "n. a solemn and dignified feeling",
+            "n. (physics) the force of attraction between all masses in the universe"
+        ]
     },
     {
         "name": "digest",
-        "trans": ["消化"]
+        "trans": [
+            "v. soften or disintegrate by means of chemical action, heat, or moisture",
+            "v. make more concise",
+            "v. soften or disintegrate, as by undergoing exposure to heat or moisture"
+        ]
     },
     {
         "name": "challenge",
-        "trans": ["挑战"]
+        "trans": [
+            "v. to raise a formal objection in a court of law",
+            "v. to ask for identification",
+            "v. to issue a challenge to"
+        ]
     },
     {
         "name": "comprehension",
-        "trans": ["理解", "理解力"]
+        "trans": [
+            "n. an ability to understand the meaning or importance of something (or the knowledge acquired as a result)",
+            "n. the relation of comprising something"
+        ]
     },
     {
         "name": "enthusiasm",
-        "trans": ["热情"]
+        "trans": [
+            "n. overflowing with eager enjoyment or approval",
+            "n. a lively interest",
+            "n. a feeling of excitement"
+        ]
     },
     {
         "name": "powder",
-        "trans": ["粉末"]
+        "trans": [
+            "v. apply powder to",
+            "v. make into a powder by breaking up or cause to become dust",
+            "n. any of various cosmetic or medical preparations dispensed in the form of a pulverized powder"
+        ]
     },
     {
         "name": "dioxide",
-        "trans": ["二氧化物"]
+        "trans": [
+            "n. an oxide containing two atoms of oxygen in the molecule"
+        ]
     },
     {
         "name": "retain",
-        "trans": ["保持", "记住"]
+        "trans": [
+            "v. keep in one's mind",
+            "v. secure and keep for possible future use or application",
+            "v. allow to remain in a place or position or maintain a property or feature"
+        ]
     },
     {
         "name": "bacteria",
-        "trans": ["细菌"]
+        "trans": [
+            "n. (microbiology) single-celled or noncellular spherical or spiral or rod-shaped organisms lacking chlorophyll that reproduce by fission"
+        ]
     },
     {
         "name": "accountable",
-        "trans": ["有责任的"]
+        "trans": [
+            "adj. liable to account for one's actions"
+        ]
     },
     {
         "name": "morale",
-        "trans": ["士气"]
+        "trans": [
+            "n. the spirit of a group that makes the members want the group to succeed",
+            "n. a state of individual psychological well-being based upon a sense of confidence and usefulness and purpose"
+        ]
     },
     {
         "name": "triangle",
-        "trans": ["三角形"]
+        "trans": [
+            "n. a percussion instrument consisting of a metal bar bent in the shape of an open triangle",
+            "n. any of various triangular drafting instruments used to draw straight lines at specified angles",
+            "n. a three-sided polygon"
+        ]
     },
     {
         "name": "trash",
-        "trans": ["垃圾"]
+        "trans": [
+            "v. express a totally negative opinion of",
+            "v. dispose of something useless or old",
+            "n. an amphetamine derivative (trade name Methedrine) used in the form of a crystalline hydrochloride"
+        ]
     },
     {
         "name": "coin",
-        "trans": ["硬币"]
+        "trans": [
+            "v. to form by stamping, punching, or printing",
+            "v. to make up",
+            "n. a flat metal piece (usually a disc) used as money"
+        ]
     },
     {
         "name": "mall",
-        "trans": ["商场"]
+        "trans": [
+            "n. mercantile establishment consisting of a carefully landscaped complex of shops representing leading merchandisers",
+            "n. a public area set aside as a pedestrian walk"
+        ]
     },
     {
         "name": "aspiration",
-        "trans": ["抱负"]
+        "trans": [
+            "n. the act of inhaling",
+            "n. a will to succeed",
+            "n. a manner of articulation involving an audible release of breath"
+        ]
     },
     {
         "name": "moral",
-        "trans": ["道德的"]
+        "trans": [
+            "adj. concerned with principles of right and wrong or conforming to standards of behavior and character based on those principles",
+            "adj. psychological rather than physical or tangible in effect",
+            "n. the significance of a story or event"
+        ]
     },
     {
         "name": "passage",
-        "trans": ["文章", "通道"]
+        "trans": [
+            "n. the act of passing from one state or place to the next",
+            "n. a journey usually by ship",
+            "n. the act of passing something to another person"
+        ]
     },
     {
         "name": "permit",
-        "trans": ["许可"]
+        "trans": [
+            "v. consent to, give permission",
+            "v. allow the presence of or allow (an activity) without opposing or prohibiting",
+            "v. make it possible through a specific action or lack of action for something to happen"
+        ]
     },
     {
         "name": "adapt",
-        "trans": ["适应"]
+        "trans": [
+            "v. to adapt or conform oneself to new or different conditions",
+            "v. to modify or adjust for a new purpose or condition"
+        ]
     },
     {
         "name": "conservation",
-        "trans": ["保存"]
+        "trans": [
+            "n. the preservation and careful management of the environment and of natural resources",
+            "n. (physics) the maintenance of a certain quantities unchanged during chemical reactions or physical transformations",
+            "n. an occurrence of improvement by virtue of preventing loss or injury or other change"
+        ]
     },
     {
         "name": "geological",
-        "trans": ["地理的"]
+        "trans": [
+            "adj. of or relating to or based on geology"
+        ]
     },
     {
         "name": "polish",
-        "trans": ["抛光"]
+        "trans": [
+            "v. bring to a highly developed, finished, or refined state",
+            "v. improve or perfect by pruning or polishing",
+            "v. make (a surface) shine"
+        ]
     },
     {
         "name": "life cycle",
-        "trans": ["生命周期"]
+        "trans": [
+            "n. a series of stages through which an organism passes between recurrences of a primary stage",
+            "n. the course of developmental changes in an organism from fertilized zygote to maturity when another zygote can be produced"
+        ]
     },
     {
         "name": "operation",
-        "trans": ["操作"]
+        "trans": [
+            "n. the activity of operating something such as a machine or business",
+            "n. a planned activity involving many people performing various actions",
+            "n. a process or series of acts especially of a practical or mechanical nature involved in a particular form of work"
+        ]
     },
     {
         "name": "persuasive",
-        "trans": ["有说服力的"]
+        "trans": [
+            "adj. intended or having the power to induce action or belief"
+        ]
     },
     {
         "name": "efficient",
-        "trans": ["有效率的"]
+        "trans": [
+            "adj. able to accomplish a purpose",
+            "adj. being effective without wasting time or effort or expense"
+        ]
     },
     {
         "name": "rush",
-        "trans": ["仓促行事"]
+        "trans": [
+            "v. urge to an unnatural speed",
+            "v. act or move at high speed",
+            "v. attack suddenly"
+        ]
     },
     {
         "name": "signal",
-        "trans": ["信号"]
+        "trans": [
+            "v. be a signal for or a symptom of",
+            "v. communicate silently and non-verbally by signals or signs",
+            "adj. notably out of the ordinary"
+        ]
     },
     {
         "name": "density",
-        "trans": ["密度", "浓度"]
+        "trans": [
+            "n. the amount per unit size",
+            "n. the spatial property of being crowded together"
+        ]
     },
     {
         "name": "port",
-        "trans": ["港口"]
+        "trans": [
+            "v. turn or go to the port or left side, of a ship",
+            "v. land at or reach a port",
+            "v. bring to port"
+        ]
     },
     {
         "name": "cliff",
-        "trans": ["悬崖"]
+        "trans": [
+            "n. a steep high face of rock"
+        ]
     },
     {
         "name": "mobility",
-        "trans": ["流动性", "移动性"]
+        "trans": [
+            "n. the quality of moving freely"
+        ]
     },
     {
         "name": "velvet",
-        "trans": ["丝绒", "天鹅绒"]
+        "trans": [
+            "adj. resembling velvet in having a smooth soft surface",
+            "adj. smooth and soft to sight or hearing or touch or taste",
+            "n. a silky densely piled fabric with a plain back"
+        ]
     },
     {
         "name": "fence",
-        "trans": ["栅栏"]
+        "trans": [
+            "v. have an argument about something",
+            "v. surround with a wall in order to fortify",
+            "v. fight with fencing swords"
+        ]
     },
     {
         "name": "flock",
-        "trans": ["兽群", "鸟群"]
+        "trans": [
+            "v. come together as in a cluster or flock",
+            "v. move as a crowd or in a group",
+            "n. a group of birds"
+        ]
     },
     {
         "name": "passive",
-        "trans": ["被动的", "消极的"]
+        "trans": [
+            "adj. lacking in energy or will",
+            "adj. expressing that the subject of the sentence is the patient of the action denoted by the verb",
+            "adj. peacefully resistant in response to injustice"
+        ]
     },
     {
         "name": "stem",
-        "trans": ["茎"]
+        "trans": [
+            "v. remove the stem from",
+            "v. stop the flow of a liquid",
+            "v. grow out of, have roots in, originate in"
+        ]
     },
     {
         "name": "industry",
-        "trans": ["工业"]
+        "trans": [
+            "n. the organized action of making of goods and services for sale",
+            "n. persevering determination to perform a task",
+            "n. the people or companies engaged in a particular kind of commercial enterprise"
+        ]
     },
     {
         "name": "cycle",
-        "trans": ["骑自行车"]
+        "trans": [
+            "v. to recur in repeating sequences",
+            "v. to ride a bicycle",
+            "v. to ride a motorcycle"
+        ]
     },
     {
         "name": "oven",
-        "trans": ["烤箱", "烤炉"]
+        "trans": [
+            "n. kitchen appliance used for baking or roasting"
+        ]
     },
     {
         "name": "criteria",
-        "trans": ["标准"]
+        "trans": [
+            "standard"
+        ]
     },
     {
         "name": "license",
-        "trans": ["许可证"]
+        "trans": [
+            "v. authorize officially",
+            "n. the act of giving a formal, usually written, authorization",
+            "n. a legal document giving official permission to do something"
+        ]
     },
     {
         "name": "curriculum vitae",
-        "trans": ["个人简历"]
+        "trans": [
+            "n. a summary of one's academic and work history"
+        ]
     }
 ]

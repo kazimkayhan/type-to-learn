@@ -39,14 +39,21 @@ export default function TextAreaHandler({ updateInput }: { updateInput: (updateO
 
   return (
     <textarea
-      className="absolute left-0 top-0 m-0 h-0 w-0 appearance-none overflow-hidden border-0 p-0 focus:outline-none"
+      className="absolute inset-0 z-[1] h-full w-full resize-none overflow-hidden border-0 bg-transparent p-0 opacity-0 caret-transparent focus:outline-none"
+      style={{ fontSize: 16 }}
       ref={textareaRef}
       autoFocus
-      spellCheck="false"
+      autoCapitalize="none"
+      autoCorrect="off"
+      autoComplete="off"
+      spellCheck={false}
+      inputMode="text"
+      enterKeyHint="done"
+      aria-label="Type the current word"
       onInput={onInput}
       onBlur={onBlur}
       onCompositionStart={() => {
-        alert('您正在使用输入法，请关闭输入法。')
+        alert('You are using an input method editor. Please disable it.')
       }}
     ></textarea>
   )

@@ -1,298 +1,549 @@
 [
     {
         "name": "beginner",
-        "trans": ["n. 初学者"]
+        "trans": [
+            "n. a person who founds or establishes some institution",
+            "n. someone new to a field or activity"
+        ]
     },
     {
         "name": "account",
-        "trans": ["n. 账户"]
+        "trans": [
+            "v. to furnish a justifying analysis or explanation",
+            "v. to give an account or representation of in words",
+            "v. to keep an account of"
+        ]
     },
     {
         "name": "leather shoes",
-        "trans": ["n. 皮鞋"]
+        "trans": [
+            "n. leather shoes"
+        ]
     },
     {
         "name": "garage",
-        "trans": ["n. 车库"]
+        "trans": [
+            "v. keep or store in a garage",
+            "n. an outbuilding (or part of a building) for housing automobiles",
+            "n. a repair shop where cars and trucks are serviced and repaired"
+        ]
     },
     {
         "name": "wheel",
-        "trans": ["n. 轮子"]
+        "trans": [
+            "v. move along on or as if on wheels or a wheeled vehicle",
+            "v. ride a bicycle",
+            "v. change directions as if revolving on a pivot"
+        ]
     },
     {
         "name": "moderate",
-        "trans": ["adj. 温和的：适度的"]
+        "trans": [
+            "v. make less fast or intense",
+            "v. restrain",
+            "v. preside over"
+        ]
     },
     {
         "name": "waterfall",
-        "trans": ["n. 瀑布"]
+        "trans": [
+            "n. a steep descent of the water of a river"
+        ]
     },
     {
         "name": "express",
-        "trans": ["n. 快递"]
+        "trans": [
+            "v. articulate",
+            "v. give expression to",
+            "v. send by rapid transport or special messenger service"
+        ]
     },
     {
         "name": "code",
-        "trans": ["n. 代码编码"]
+        "trans": [
+            "v. to convert ordinary language into code",
+            "v. to attach a code to",
+            "n. a coding system used for transmitting messages requiring brevity or secrecy"
+        ]
     },
     {
         "name": "avenue",
-        "trans": ["n. （南北向）街道"]
+        "trans": [
+            "n. a line of approach",
+            "n. a wide street or thoroughfare"
+        ]
     },
     {
         "name": "drama",
-        "trans": ["n. 戏剧"]
+        "trans": [
+            "n. the quality of being arresting or highly emotional",
+            "n. the literary genre of works intended for the theater",
+            "n. a dramatic work intended for performance by actors on a stage"
+        ]
     },
     {
         "name": "gas",
-        "trans": ["n. 气体"]
+        "trans": [
+            "v. show off",
+            "v. attack with gas",
+            "n. a pedal that controls the throttle valve"
+        ]
     },
     {
         "name": "fluent",
-        "trans": ["adj. 流畅的"]
+        "trans": [
+            "adj. expressing yourself readily, clearly, effectively",
+            "adj. smooth and unconstrained in movement"
+        ]
     },
     {
         "name": "shower",
-        "trans": ["n. 淋浴"]
+        "trans": [
+            "v. take a shower",
+            "v. provide abundantly with",
+            "v. spray or sprinkle with"
+        ]
     },
     {
         "name": "minibus",
-        "trans": ["n. 面包车"]
+        "trans": [
+            "n. a light bus (4 to 10 passengers)"
+        ]
     },
     {
         "name": "plant",
-        "trans": ["n. 工厂"]
+        "trans": [
+            "v. put firmly in the mind",
+            "v. place something or someone in a certain position in order to secretly observe or deceive",
+            "v. fix or set securely or deeply"
+        ]
     },
     {
         "name": "transit",
-        "trans": ["n. 运送"]
+        "trans": [
+            "v. cause or enable to pass through",
+            "v. revolve (the telescope of a surveying transit) about its horizontal transverse axis in order to reverse its direction",
+            "v. pass across (a sign or house of the zodiac) or pass across (the disk of a celestial body or the meridian of a place)"
+        ]
     },
     {
         "name": "cookery",
-        "trans": ["n. 烹饪"]
+        "trans": [
+            "n. the act of preparing something (as food) by the application of heat"
+        ]
     },
     {
         "name": "cinema",
-        "trans": ["n. 电影：电影院"]
+        "trans": [
+            "n. a theater where films are shown",
+            "n. a medium that disseminates moving pictures"
+        ]
     },
     {
         "name": "tank",
-        "trans": ["n. 坦克；水槽；水池"]
+        "trans": [
+            "v. treat in a tank",
+            "v. consume excessive amounts of alcohol",
+            "v. store in a tank by causing (something) to flow into it"
+        ]
     },
     {
         "name": "enjoyable",
-        "trans": ["adj. 快乐的：有乐趣"]
+        "trans": [
+            "adj. affording satisfaction or pleasure"
+        ]
     },
     {
         "name": "warehouse",
-        "trans": ["n. 仓库"]
+        "trans": [
+            "v. store in a warehouse",
+            "n. a storehouse for goods and merchandise"
+        ]
     },
     {
         "name": "yoga",
-        "trans": ["n. 瑜伽"]
+        "trans": [
+            "n. a system of exercises, focusing on breathing techniques, originally practiced as part of the Hindu religion, to promote control of the body and mind"
+        ]
     },
     {
         "name": "mat",
-        "trans": ["n. 垫子"]
+        "trans": [
+            "v. change texture so as to become matted and felt-like",
+            "v. twist together or entwine into a confusing mass",
+            "adj. not reflecting light"
+        ]
     },
     {
         "name": "Asian",
-        "trans": ["n. 亚洲人"]
+        "trans": [
+            "adj. of or relating to or characteristic of Asia or the peoples of Asia or their languages or culture"
+        ]
     },
     {
         "name": "knife",
-        "trans": ["n. 刀子"]
+        "trans": [
+            "v. to use a knife on",
+            "n. an edged tool used as a cutting instrument or weapon"
+        ]
     },
     {
         "name": "container",
-        "trans": ["n. 集装箱：容器"]
+        "trans": [
+            "n. any object that can be used to hold things (especially a large metal boxlike object of standardized dimensions that can be loaded from one form of transport to another)"
+        ]
     },
     {
         "name": "mirror",
-        "trans": ["n. 镜子"]
+        "trans": [
+            "v. reflect or resemble",
+            "v. reflect as if in a mirror",
+            "n. polished surface that forms images by reflecting light"
+        ]
     },
     {
         "name": "first aid",
-        "trans": ["n. 急救"]
+        "trans": [
+            "n. emergency care given before regular medical aid can be obtained"
+        ]
     },
     {
         "name": "campaign",
-        "trans": ["n. 活动"]
+        "trans": [
+            "v. to run, stand, or compete for an office or a position",
+            "v. to exert oneself continuously, vigorously, or obtrusively to gain an end or engage in a crusade for a certain cause or person",
+            "n. an overland journey by hunters (especially in Africa)"
+        ]
     },
     {
         "name": "conference",
-        "trans": ["n. 会议，协商"]
+        "trans": [
+            "n. a discussion among participants who have an agreed (serious) topic",
+            "n. an association of sports teams that organizes matches for its members",
+            "n. a prearranged meeting for consultation or exchange of information or discussion, especially one with a formal agenda"
+        ]
     },
     {
         "name": "limited",
-        "trans": ["adj. 有限的"]
+        "trans": [
+            "adj. including only a part",
+            "adj. not unlimited",
+            "adj. having a specific function or scope"
+        ]
     },
     {
         "name": "exterior",
-        "trans": ["adj. 外部的"]
+        "trans": [
+            "adj. situated in or suitable for the outdoors or outside of a building",
+            "n. the outer side or surface of something",
+            "n. the region that is outside of something"
+        ]
     },
     {
         "name": "basis",
-        "trans": ["n. 基础"]
+        "trans": [
+            "n. the fundamental assumptions from which something is begun or developed or calculated or explained",
+            "n. a relation that provides the foundation for something",
+            "n. the most important or necessary part of something"
+        ]
     },
     {
         "name": "internet",
-        "trans": ["n. 因特网"]
+        "trans": [
+            "n. a computer network consisting of a worldwide network of computer networks that use the TCP/IP network protocols to facilitate data transmission and exchange"
+        ]
     },
     {
         "name": "resume",
-        "trans": ["n. 履历，简历"]
+        "trans": [
+            "v. take up or begin anew",
+            "v. return to a previous location or condition",
+            "v. give a summary (of)"
+        ]
     },
     {
         "name": "type",
-        "trans": ["n. 类型"]
+        "trans": [
+            "v. identify as belonging to a certain type",
+            "v. write by means of a keyboard with types",
+            "n. a small metal block bearing a raised character on one end"
+        ]
     },
     {
         "name": "layout",
-        "trans": ["n. 布局"]
+        "trans": [
+            "n. the act of laying out, as by making plans for something",
+            "n. a plan or design of something that is laid out"
+        ]
     },
     {
         "name": "correction",
-        "trans": ["n. 改正，修正"]
+        "trans": [
+            "n. the act of offering an improvement to replace a mistake",
+            "n. treatment of a specific defect",
+            "n. the act of punishing"
+        ]
     },
     {
         "name": "experience",
-        "trans": ["n. 经验"]
+        "trans": [
+            "v. undergo",
+            "v. have firsthand knowledge of states, situations, emotions, or sensations",
+            "v. undergo an emotional sensation or be in a particular state of mind"
+        ]
     },
     {
         "name": "avoid",
-        "trans": ["v. 避免"]
+        "trans": [
+            "v. to stay clear from",
+            "v. to refrain from certain foods or beverages",
+            "v. to prevent the occurrence of"
+        ]
     },
     {
         "name": "bakery",
-        "trans": ["n. 面包店"]
+        "trans": [
+            "n. a workplace where baked goods (breads and cakes and pastries) are produced or sold"
+        ]
     },
     {
         "name": "reference",
-        "trans": ["n. 参考"]
+        "trans": [
+            "v. to refer to",
+            "n. the act of referring or consulting",
+            "n. the most direct or specific meaning of a word or expression"
+        ]
     },
     {
         "name": "agency",
-        "trans": ["n. 代理"]
+        "trans": [
+            "n. how a result is obtained or an end is achieved",
+            "n. a business that serves other businesses",
+            "n. an administrative unit of government"
+        ]
     },
     {
         "name": "manufacture",
-        "trans": ["v. 制造"]
+        "trans": [
+            "v. make up something artificial or untrue",
+            "v. put together out of artificial or natural components or parts",
+            "v. create or produce in a mechanical way"
+        ]
     },
     {
         "name": "tutor",
-        "trans": ["n. 导师"]
+        "trans": [
+            "v. be a tutor to someone",
+            "v. act as a guardian to someone",
+            "n. a person who gives private instruction (as in singing, acting, etc.)"
+        ]
     },
     {
         "name": "kid",
-        "trans": ["n. 小孩子"]
+        "trans": [
+            "v. tell false information to for fun",
+            "v. be silly or tease one another",
+            "n. young goat"
+        ]
     },
     {
         "name": "example",
-        "trans": ["n. 例子"]
+        "trans": [
+            "n. a task performed or problem solved in order to develop skill or understanding",
+            "n. an item of information that is typical of a class or group",
+            "n. something to be imitated"
+        ]
     },
     {
         "name": "private",
-        "trans": ["adj. 私人的"]
+        "trans": [
+            "adj. not expressed",
+            "adj. concerning one person exclusively",
+            "adj. concerning things deeply private and personal"
+        ]
     },
     {
         "name": "screen",
-        "trans": ["n. 屏幕"]
+        "trans": [
+            "v. examine methodically",
+            "v. protect, hide, or conceal from danger or harm",
+            "v. separate with a riddle, as grain from chaff"
+        ]
     },
     {
         "name": "manager",
-        "trans": ["n. 经理"]
+        "trans": [
+            "n. someone in charge of training an athlete or a team",
+            "n. someone who controls resources and expenditures"
+        ]
     },
     {
         "name": "choice",
-        "trans": ["n. 选择"]
+        "trans": [
+            "adj. of superior grade",
+            "adj. appealing to refined taste",
+            "n. the act of choosing or selecting"
+        ]
     },
     {
         "name": "available",
-        "trans": ["adj. 可利用的"]
+        "trans": [
+            "adj. obtainable or accessible and ready for use or service",
+            "adj. convenient for use or disposal",
+            "adj. not busy"
+        ]
     },
     {
         "name": "instruction",
-        "trans": ["n. 说明"]
+        "trans": [
+            "n. the activities of educating or instructing",
+            "n. the profession of a teacher",
+            "n. (computer science) a line of code written as part of a computer program"
+        ]
     },
     {
         "name": "freezer",
-        "trans": ["n. 冰箱"]
+        "trans": [
+            "n. electric refrigerator (trade name Deepfreeze) in which food is frozen and stored for long periods of time"
+        ]
     },
     {
         "name": "financial",
-        "trans": ["adj. 金融的"]
+        "trans": [
+            "adj. involving financial matters"
+        ]
     },
     {
         "name": "camping",
-        "trans": ["n. 露营度假"]
+        "trans": [
+            "n. the act of encamping and living in tents in a camp"
+        ]
     },
     {
         "name": "block",
-        "trans": ["n. 街区"]
+        "trans": [
+            "v. to hinder or prevent the progress or accomplishment of",
+            "v. to stop from happening or developing",
+            "v. to prohibit the conversion or use of assets"
+        ]
     },
     {
         "name": "climbing",
-        "trans": ["n. 爬山"]
+        "trans": [
+            "n. an event that involves rising to a higher point (as in altitude or temperature or intensity etc.)"
+        ]
     },
     {
         "name": "free",
-        "trans": ["adj. 免费的"]
+        "trans": [
+            "v. make (assets) available",
+            "v. let off the hook",
+            "v. free or remove obstruction from"
+        ]
     },
     {
         "name": "view",
-        "trans": ["n. 视野"]
+        "trans": [
+            "v. to deem to be",
+            "v. look at carefully",
+            "v. see or watch"
+        ]
     },
     {
         "name": "include",
-        "trans": ["v. 包括"]
+        "trans": [
+            "v. add as part of something else",
+            "v. consider as part of something",
+            "v. allow participation in or the right to be part of"
+        ]
     },
     {
         "name": "cancel",
-        "trans": ["v. 取消"]
+        "trans": [
+            "v. to make invalid for use",
+            "v. to remove or make invisible",
+            "v. to declare null and void"
+        ]
     },
     {
         "name": "performer",
-        "trans": ["n. 演奏者"]
+        "trans": [
+            "n. an entertainer who performs a dramatic or musical work for an audience"
+        ]
     },
     {
         "name": "suitable",
-        "trans": ["adj. 适当的"]
+        "trans": [
+            "adj. worthy of being chosen especially as a spouse",
+            "adj. meant or adapted for an occasion or use"
+        ]
     },
     {
         "name": "opera",
-        "trans": ["n. 歌剧院"]
+        "trans": [
+            "n. a building where musical dramas are performed",
+            "n. a drama set to music"
+        ]
     },
     {
         "name": "theatre",
-        "trans": ["n. 戏院"]
+        "trans": [
+            "n. a building where theatrical performances or motion-picture shows can be presented",
+            "n. the art of writing and producing plays",
+            "n. a region in which active military operations are in progress"
+        ]
     },
     {
         "name": "library",
-        "trans": ["n. 图书馆"]
+        "trans": [
+            "n. a depository built to contain books and other materials for reading and study",
+            "n. a room where books are kept",
+            "n. a building that houses a collection of books and other materials"
+        ]
     },
     {
         "name": "townhall",
-        "trans": ["n. 市政厅"]
+        "trans": [
+            "n. city hall"
+        ]
     },
     {
         "name": "studio",
-        "trans": ["n. 工作室"]
+        "trans": [
+            "n. workplace for the teaching or practice of an art",
+            "n. workplace consisting of a room or building where movies or television shows or radio programs are produced and recorded",
+            "n. an apartment with a living space and a bathroom and a small kitchen"
+        ]
     },
     {
         "name": "interview",
-        "trans": ["v. 采访"]
+        "trans": [
+            "v. conduct an interview in television, newspaper, and radio reporting",
+            "v. discuss formally with (somebody) for the purpose of an evaluation",
+            "v. go for an interview in the hope of being hired"
+        ]
     },
     {
         "name": "select",
-        "trans": ["v. 选择"]
+        "trans": [
+            "v. pick out, select, or choose from a number of alternatives",
+            "adj. selected or chosen for special qualifications",
+            "adj. of superior grade"
+        ]
     },
     {
         "name": "edit",
-        "trans": ["v. 编辑"]
+        "trans": [
+            "v. prepare for publication or presentation by correcting, revising, or adapting",
+            "v. cut or eliminate",
+            "v. cut and assemble the components of"
+        ]
     },
     {
         "name": "parking",
-        "trans": ["n. 停车"]
+        "trans": [
+            "n. the act of maneuvering a vehicle into a location where it can be left temporarily",
+            "n. space in which vehicles can be parked"
+        ]
     }
 ]

@@ -2,8 +2,9 @@
     {
         "name": "book",
         "trans": [
-            "书",
-            "书本"
+            "v. to engage for a performance",
+            "v. to record a charge in a police register",
+            "v. to arrange for and reserve something for someone else in advance"
         ],
         "usphone": "bʊk",
         "ukphone": "bʊk"
@@ -11,7 +12,8 @@
     {
         "name": "ruler",
         "trans": [
-            "尺子"
+            "n. measuring stick consisting of a strip of wood or metal or plastic with a straight edge that is used for drawing straight lines and measuring lengths",
+            "n. a person who rules or commands"
         ],
         "usphone": "ˈruːlər",
         "ukphone": "ˈruːlər"
@@ -19,7 +21,9 @@
     {
         "name": "pencil",
         "trans": [
-            "铅笔"
+            "v. to write, draw, or trace with a pencil",
+            "n. a thin cylindrical pointed writing implement",
+            "n. a cosmetic in a long thin stick"
         ],
         "usphone": "ˈpɛnsəl",
         "ukphone": "ˈpɛnsəl"
@@ -27,7 +31,7 @@
     {
         "name": "schoolbag",
         "trans": [
-            "书包"
+            "n. a bag for carrying school books and supplies"
         ],
         "usphone": "ˈskulˌbæɡ",
         "ukphone": "ˈskuːlˌbæɡ"
@@ -35,7 +39,8 @@
     {
         "name": "teacher",
         "trans": [
-            "教师"
+            "n. a personified abstraction that teaches",
+            "n. a person whose occupation is teaching"
         ],
         "usphone": "ˈtiːtʃər",
         "ukphone": "ˈtiːtʃər"
@@ -43,7 +48,8 @@
     {
         "name": "I",
         "trans": [
-            "我"
+            "adj. used of a single unit or thing",
+            "n. the 9th letter of the Roman alphabet"
         ],
         "usphone": "aɪ",
         "ukphone": "aɪ"
@@ -51,7 +57,9 @@
     {
         "name": "have",
         "trans": [
-            "有"
+            "v. cause to be born",
+            "v. suffer from",
+            "v. undergo (as of injuries and illnesses)"
         ],
         "usphone": "hæv",
         "ukphone": "hæv"
@@ -59,7 +67,7 @@
     {
         "name": "a/an",
         "trans": [
-            "一 ( 个 )"
+            "one (classifier used before a noun that has no specific classifier)"
         ],
         "usphone": "",
         "ukphone": ""
@@ -67,7 +75,9 @@
     {
         "name": "face",
         "trans": [
-            "脸"
+            "v. deal with (something unpleasant) head on",
+            "v. present somebody with something, usually to accuse or criticize",
+            "v. oppose, as in hostility or a competition"
         ],
         "usphone": "feɪs",
         "ukphone": "feɪs"
@@ -75,7 +85,9 @@
     {
         "name": "ear",
         "trans": [
-            "耳朵"
+            "n. the sense organ for hearing and equilibrium",
+            "n. the externally visible cartilaginous structure of the external ear",
+            "n. good hearing"
         ],
         "usphone": "ɪr",
         "ukphone": "ɪər"
@@ -83,7 +95,9 @@
     {
         "name": "eye",
         "trans": [
-            "眼睛"
+            "v. look at",
+            "n. a small hole or loop (as in a needle)",
+            "n. the organ of sight"
         ],
         "usphone": "aɪ",
         "ukphone": "aɪ"
@@ -91,7 +105,9 @@
     {
         "name": "nose",
         "trans": [
-            "鼻子"
+            "v. defeat by a narrow margin",
+            "v. rub noses",
+            "v. push or move with the nose"
         ],
         "usphone": "noʊz",
         "ukphone": "nəʊz"
@@ -99,7 +115,9 @@
     {
         "name": "mouth",
         "trans": [
-            "嘴巴"
+            "v. express in speech",
+            "v. articulate silently",
+            "v. touch with the mouth"
         ],
         "usphone": "maʊθ",
         "ukphone": "maʊð"
@@ -107,7 +125,7 @@
     {
         "name": "this",
         "trans": [
-            "这（个）"
+            "(pronoun) this (classifier used before a noun that has no specific classifier)"
         ],
         "usphone": "ðɪs",
         "ukphone": "ðɪs"
@@ -115,7 +133,7 @@
     {
         "name": "is",
         "trans": [
-            "是"
+            "to be (followed by substantives only)"
         ],
         "usphone": "ɪz",
         "ukphone": "ɪz"
@@ -123,7 +141,7 @@
     {
         "name": "my",
         "trans": [
-            "我的"
+            "I"
         ],
         "usphone": "maɪ",
         "ukphone": "maɪ"
@@ -131,7 +149,9 @@
     {
         "name": "dog",
         "trans": [
-            "狗"
+            "v. go after with the intent to catch",
+            "n. a member of the genus Canis (probably descended from the common wolf) that has been domesticated by man since prehistoric times",
+            "n. metal supports for logs in a fireplace"
         ],
         "usphone": "dɔːɡ",
         "ukphone": "dɒɡ"
@@ -139,7 +159,9 @@
     {
         "name": "bird",
         "trans": [
-            "鸟"
+            "v. to watch and study birds in their natural habitat",
+            "n. warm-blooded egg-laying vertebrates characterized by feathers and forelimbs modified as wings",
+            "n. badminton equipment consisting of a ball of cork or rubber with a crown of feathers"
         ],
         "usphone": "bɜːrd",
         "ukphone": "bɜːrd"
@@ -147,7 +169,8 @@
     {
         "name": "tiger",
         "trans": [
-            "老虎"
+            "n. large feline of forests in most of Asia having a tawny coat with black stripes",
+            "n. a fierce or audacious person"
         ],
         "usphone": "ˈtaɪɡər",
         "ukphone": "ˈtaɪɡər"
@@ -155,7 +178,9 @@
     {
         "name": "monkey",
         "trans": [
-            "猴子"
+            "v. do random, unplanned work or activities or spend time idly",
+            "v. play around with or alter or falsify, usually secretively or dishonestly",
+            "n. any of various long-tailed primates (excluding the prosimians)"
         ],
         "usphone": "ˈmʌŋki",
         "ukphone": "ˈmʌŋki"
@@ -163,7 +188,9 @@
     {
         "name": "cat",
         "trans": [
-            "猫"
+            "v. to eject the contents of the stomach through the mouth",
+            "v. to beat with a cat-o'-nine-tails",
+            "n. feline mammal usually having thick soft fur and no ability to roar: domestic cats"
         ],
         "usphone": "kæt",
         "ukphone": "kæt"
@@ -171,7 +198,7 @@
     {
         "name": "what",
         "trans": [
-            "什么"
+            "what?"
         ],
         "usphone": "wʌt",
         "ukphone": "wɒt"
@@ -179,7 +206,7 @@
     {
         "name": "it",
         "trans": [
-            "它"
+            "it"
         ],
         "usphone": "ɪt",
         "ukphone": "ɪt"
@@ -187,7 +214,9 @@
     {
         "name": "one",
         "trans": [
-            "一"
+            "adj. eminent beyond or above comparison",
+            "adj. indefinite in time or position",
+            "adj. used informally as an intensifier"
         ],
         "usphone": "wʌn",
         "ukphone": "wʌn"
@@ -195,7 +224,9 @@
     {
         "name": "two",
         "trans": [
-            "二"
+            "adj. being one more than one",
+            "n. one of the four playing cards in a deck that have two spots",
+            "n. the cardinal number that is the sum of one and one or a numeral representing this number"
         ],
         "usphone": "tuː",
         "ukphone": "tuː"
@@ -203,7 +234,9 @@
     {
         "name": "three",
         "trans": [
-            "三"
+            "adj. being one more than two",
+            "n. one of four playing cards in a deck having three pips",
+            "n. the cardinal number that is the sum of one and one and one"
         ],
         "usphone": "θriː",
         "ukphone": "θriː"
@@ -211,7 +244,9 @@
     {
         "name": "four",
         "trans": [
-            "四"
+            "adj. being one more than three",
+            "n. a playing card or domino or die whose upward face shows four pips",
+            "n. the cardinal number that is the sum of three and one"
         ],
         "usphone": "fɔːr",
         "ukphone": "fɔːr"
@@ -219,7 +254,9 @@
     {
         "name": "five",
         "trans": [
-            "五"
+            "adj. being one more than four",
+            "n. a playing card or a domino or a die whose upward face shows five pips",
+            "n. a team that plays basketball"
         ],
         "usphone": "faɪv",
         "ukphone": "faɪv"
@@ -227,7 +264,9 @@
     {
         "name": "six",
         "trans": [
-            "六"
+            "adj. denoting a quantity consisting of six items or units",
+            "n. a playing card or domino or die whose upward face shows six pips",
+            "n. the cardinal number that is the sum of five and one"
         ],
         "usphone": "sɪks",
         "ukphone": "sɪks"
@@ -235,7 +274,9 @@
     {
         "name": "seven",
         "trans": [
-            "七"
+            "adj. being one more than six",
+            "n. one of four playing cards in a deck with seven pips on the face",
+            "n. the cardinal number that is the sum of six and one"
         ],
         "usphone": "ˈsɛvən",
         "ukphone": "ˈsɛvən"
@@ -243,7 +284,9 @@
     {
         "name": "eight",
         "trans": [
-            "八"
+            "adj. being one more than seven",
+            "n. one of four playing cards in a deck with eight pips on the face",
+            "n. the cardinal number that is the sum of seven and one"
         ],
         "usphone": "eɪt",
         "ukphone": "eɪt"
@@ -251,7 +294,9 @@
     {
         "name": "nine",
         "trans": [
-            "九"
+            "adj. denoting a quantity consisting of one more than eight and one less than ten",
+            "n. one of four playing cards in a deck with nine pips on the face",
+            "n. a team of professional baseball players who play and travel together"
         ],
         "usphone": "naɪn",
         "ukphone": "naɪn"
@@ -259,7 +304,9 @@
     {
         "name": "ten",
         "trans": [
-            "十"
+            "adj. being one more than nine",
+            "n. one of four playing cards in a deck with ten pips on the face",
+            "n. the cardinal number that is the sum of nine and one"
         ],
         "usphone": "tɛn",
         "ukphone": "tɛn"
@@ -267,7 +314,7 @@
     {
         "name": "how",
         "trans": [
-            "多少"
+            "number"
         ],
         "usphone": "haʊ",
         "ukphone": "haʊ"
@@ -275,7 +322,7 @@
     {
         "name": "many",
         "trans": [
-            "多的，许多的"
+            "adj. a quantifier that can be used with count nouns and is often preceded by `as' or `too' or `so' or `that'"
         ],
         "usphone": "ˈmɛni",
         "ukphone": "ˈmɛni"
@@ -283,7 +330,7 @@
     {
         "name": "are",
         "trans": [
-            "是"
+            "n. a unit of surface area equal to 100 square meters"
         ],
         "usphone": "ɑr",
         "ukphone": "ɑr"
@@ -291,7 +338,9 @@
     {
         "name": "there",
         "trans": [
-            "（代替主语）"
+            "adv. in or at that place",
+            "adv. to or toward that place",
+            "adv. in that matter"
         ],
         "usphone": "ðɛr",
         "ukphone": "ðeər"
@@ -299,8 +348,9 @@
     {
         "name": "black",
         "trans": [
-            "黑色",
-            "黑色的"
+            "v. to make or become black",
+            "adj. marked by anger or resentment or hostility",
+            "adj. of or belonging to a racial group having dark skin especially of sub-Saharan African origin"
         ],
         "usphone": "blæk",
         "ukphone": "blæk"
@@ -308,8 +358,9 @@
     {
         "name": "yellow",
         "trans": [
-            "黄色",
-            "黄色的"
+            "v. turn yellow",
+            "adj. typical of tabloids",
+            "adj. easily frightened"
         ],
         "usphone": "ˈjɛloʊ",
         "ukphone": "ˈjɛləʊ"
@@ -317,8 +368,9 @@
     {
         "name": "blue",
         "trans": [
-            "蓝色",
-            "蓝色的"
+            "v. to turn blue",
+            "adj. causing dejection",
+            "adj. of the color intermediate between green and violet"
         ],
         "usphone": "bluː",
         "ukphone": "bluː"
@@ -326,8 +378,9 @@
     {
         "name": "red",
         "trans": [
-            "红色",
-            "红色的"
+            "adj. characterized by violence or bloodshed",
+            "adj. of a color at the end of the color spectrum (next to orange)",
+            "adj. suffused with blood from emotion or exertion, reddened"
         ],
         "usphone": "rɛd",
         "ukphone": "rɛd"
@@ -335,8 +388,7 @@
     {
         "name": "green",
         "trans": [
-            "绿色",
-            "绿色的"
+            "n. an environmentalist who belongs to the Green Party"
         ],
         "usphone": "ɡriːn",
         "ukphone": "ɡriːn"
@@ -344,7 +396,9 @@
     {
         "name": "colour",
         "trans": [
-            "颜色"
+            "v. to change color, often in an undesired manner",
+            "v. to add color to",
+            "v. to affect as in thought or feeling"
         ],
         "usphone": "ˈkʌlər",
         "ukphone": "ˈkʌlər"
@@ -352,7 +406,8 @@
     {
         "name": "apple",
         "trans": [
-            "苹果"
+            "n. fruit with red, yellow, or green skin with a sweet or tart crispy white flesh",
+            "n. native Eurasian tree widely cultivated in many varieties for its firm rounded edible fruits"
         ],
         "usphone": "ˈæpl",
         "ukphone": "ˈæpl"
@@ -360,7 +415,8 @@
     {
         "name": "pear",
         "trans": [
-            "梨"
+            "n. sweet juicy gritty-textured fruit available in many varieties",
+            "n. Old World tree having sweet gritty-textured juicy fruit"
         ],
         "usphone": "pɛr",
         "ukphone": "pɛər"
@@ -368,7 +424,8 @@
     {
         "name": "banana",
         "trans": [
-            "香蕉"
+            "n. elongated crescent-shaped yellow fruit with soft sweet flesh",
+            "n. any of several tropical and subtropical treelike herbs of the genus Musa having a terminal crown of large entire leaves and usually bearing hanging clusters of elongated fruits"
         ],
         "usphone": "bəˈnænə",
         "ukphone": "bəˈnɑːnə"
@@ -376,8 +433,9 @@
     {
         "name": "orange",
         "trans": [
-            "柑橘",
-            "橙"
+            "adj. of the color between red and yellow",
+            "n. any pigment producing the orange color",
+            "n. orange color or pigment"
         ],
         "usphone": "ˈɔrɪndʒ",
         "ukphone": "ˈɒrɪndʒ"
@@ -385,7 +443,9 @@
     {
         "name": "do",
         "trans": [
-            "（助动词）"
+            "v. behave in a certain manner",
+            "v. arrange attractively",
+            "v. create or design, often in a certain way"
         ],
         "usphone": "du",
         "ukphone": "duː"
@@ -393,8 +453,8 @@
     {
         "name": "you",
         "trans": [
-            "你",
-            "你们"
+            "you (informal, as opposed to courteous [nin2])",
+            "you (plural)"
         ],
         "usphone": "ju",
         "ukphone": "juː"
@@ -402,7 +462,9 @@
     {
         "name": "like",
         "trans": [
-            "喜欢，喜爱"
+            "v. feel about or towards",
+            "v. be fond of",
+            "v. find enjoyable or agreeable"
         ],
         "usphone": "laɪk",
         "ukphone": "laɪk"
@@ -410,7 +472,7 @@
     {
         "name": "yes",
         "trans": [
-            "是，是的"
+            "n. an affirmative"
         ],
         "usphone": "jɛs",
         "ukphone": "jɛs"
@@ -418,7 +480,9 @@
     {
         "name": "no",
         "trans": [
-            "不，不是"
+            "adj. quantifier",
+            "adv. used to express refusal or denial or disagreement etc or especially to emphasize a negative statement",
+            "adv. not in any degree or manner"
         ],
         "usphone": "noʊ",
         "ukphone": "nəʊ"

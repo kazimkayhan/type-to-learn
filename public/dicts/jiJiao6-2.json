@@ -2,10 +2,9 @@
     {
         "name": "sport",
         "trans": [
-            "n. 运动；游戏；娱乐；运动会；玩笑",
-            "adj. 运动的",
-            "vt. 游戏；参加体育运动；夸耀",
-            "vi. 游戏"
+            "v. play boisterously",
+            "v. wear or display in an ostentatious or proud manner",
+            "n. the occupation of athletes who compete for pay"
         ],
         "usphone": "[spɔːrt]",
         "ukphone": "[spɔːt]"
@@ -13,8 +12,8 @@
     {
         "name": "football",
         "trans": [
-            "n. 足球，橄榄球",
-            "vi. 踢足球；打橄榄球"
+            "n. any of various games played with a ball (round or oval) in which two teams try to kick or carry or propel the ball into each other's goal",
+            "n. the inflated oblong ball used in playing American football"
         ],
         "usphone": "[ˈfʊtbɔːl]",
         "ukphone": "[ˈfʊtbɔːl]"
@@ -22,9 +21,8 @@
     {
         "name": "any",
         "trans": [
-            "adj. 任何的；所有的；丝毫",
-            "pron. 任何；任何一个；若干",
-            "adv. 稍微；少许"
+            "adj. one or some or every or all without specification",
+            "adv. to any degree or extent"
         ],
         "usphone": "[ˈeni]",
         "ukphone": "[ˈeni]"
@@ -32,9 +30,9 @@
     {
         "name": "some",
         "trans": [
-            "adj. 一些；某个；大约；相当多的",
-            "pron. 一些；若干；其中的一部分；（数量不确切时用）有些人",
-            "adv. 非常；相当；<美>稍微"
+            "adj. remarkable",
+            "adj. relatively many but unspecified in number",
+            "adj. relatively much but unspecified in amount or extent"
         ],
         "usphone": "[sʌm; səm]",
         "ukphone": "[sʌm]"
@@ -42,8 +40,9 @@
     {
         "name": "wear",
         "trans": [
-            "n. 衣物；磨损；耐久性",
-            "v. 穿着；用旧；耗损；面露"
+            "v. have or show an appearance of",
+            "v. have on one's person",
+            "v. put clothing on one's body"
         ],
         "usphone": "[wer]",
         "ukphone": "[weə(r)]"
@@ -51,7 +50,7 @@
     {
         "name": "or",
         "trans": [
-            "conj. 或，或者；还是"
+            "n. a room in a hospital equipped for the performance of surgical operations"
         ],
         "usphone": "[ɔːr]",
         "ukphone": "[ɔː(r)]"
@@ -59,7 +58,8 @@
     {
         "name": "basketball",
         "trans": [
-            "n. 篮球；篮球运动"
+            "n. a game played on a court by two opposing teams of 5 players",
+            "n. an inflated ball used in playing basketball"
         ],
         "usphone": "[ˈbæskɪtbɔːl]",
         "ukphone": "[ˈbɑːskɪtbɔːl]"
@@ -67,9 +67,9 @@
     {
         "name": "try",
         "trans": [
-            "n. 尝试；努力；试验",
-            "vt. 试图，努力；试验；审判；考验",
-            "vi. 尝试；努力；试验"
+            "v. put on a garment in order to see whether it fits and looks nice",
+            "v. melt (fat or lard) in order to separate out impurities",
+            "v. take a sample of"
         ],
         "usphone": "[traɪ]",
         "ukphone": "[traɪ]"
@@ -77,9 +77,9 @@
     {
         "name": "heavy",
         "trans": [
-            "n. 重物；严肃角色",
-            "adj. 沉重的；繁重的，巨大的；拥挤的；阴沉的",
-            "adv. 大量地；笨重地"
+            "adj. prodigious",
+            "adj. requiring or showing effort",
+            "adj. usually describes a large person who is fat but has a large frame to carry it"
         ],
         "usphone": "[ˈhevi]",
         "ukphone": "[ˈhevi]"
@@ -87,7 +87,8 @@
     {
         "name": "difficult",
         "trans": [
-            "adj. 困难的；不随和的；执拗的"
+            "adj. not easy or simple",
+            "adj. hard to control"
         ],
         "usphone": "[ˈdɪfɪkəlt]",
         "ukphone": "[ˈdɪfɪkəlt]"
@@ -95,10 +96,9 @@
     {
         "name": "easy",
         "trans": [
-            "adj. 容易的；舒适的",
-            "vt. 发出停划命令",
-            "adv. 不费力地，从容地",
-            "vi. 停止划桨"
+            "adj. obtained with little effort or sacrifice, often obtained illegally",
+            "adj. less in demand and therefore readily obtainable",
+            "adj. casual and unrestrained in sexual behavior"
         ],
         "usphone": "[ˈiːzi]",
         "ukphone": "[ˈiːzi]"
@@ -106,8 +106,9 @@
     {
         "name": "hand",
         "trans": [
-            "n. 手，手艺；帮助；指针；插手",
-            "vt. 传递，交给；支持；搀扶"
+            "v. guide or conduct or usher somewhere",
+            "v. place into the hands or custody of",
+            "n. physical assistance"
         ],
         "usphone": "[hænd]",
         "ukphone": "[hænd]"
@@ -115,9 +116,9 @@
     {
         "name": "game",
         "trans": [
-            "n. 游戏；比赛",
-            "adj. 勇敢的",
-            "vi. 赌博"
+            "v. place a bet on",
+            "adj. willing to face danger",
+            "adj. disabled in the feet or legs"
         ],
         "usphone": "[ɡeɪm]",
         "ukphone": "[ɡeɪm]"
@@ -125,8 +126,9 @@
     {
         "name": "ask",
         "trans": [
-            "vt. 问，询问；要求；需要；邀请；讨价",
-            "vi. 问，询问；要求"
+            "v. to address a question to and expect an answer from",
+            "v. to inquire or ask for as a price or condition",
+            "v. to require as useful, just, or proper"
         ],
         "usphone": "[æsk]",
         "ukphone": "[ɑːsk]"
@@ -134,8 +136,9 @@
     {
         "name": "very",
         "trans": [
-            "adv. 非常，很；完全",
-            "adj. 恰好是，正是；甚至；十足的；特有的"
+            "adj. precisely as stated",
+            "adj. being the exact same one",
+            "adv. used as intensifiers"
         ],
         "usphone": "[ˈveri]",
         "ukphone": "[ˈveri]"
@@ -143,9 +146,9 @@
     {
         "name": "answer",
         "trans": [
-            "n. 回答；答案；答辩",
-            "vt. 回答；符合",
-            "vi. 回答；符合"
+            "v. to give the correct answer or solution to",
+            "v. to react to a stimulus or command",
+            "v. to give a defence or refutation of a charge or in an argument"
         ],
         "usphone": "[ˈænsər]",
         "ukphone": "[ˈɑːnsə(r)]"
@@ -153,7 +156,7 @@
     {
         "name": "policeman",
         "trans": [
-            "n. 警察，警员；[分化] 淀帚（橡皮头玻璃搅棒）"
+            "n. a member of a police force"
         ],
         "usphone": "[pəˈliːsmən]",
         "ukphone": "[pəˈliːsmən]"
@@ -161,7 +164,9 @@
     {
         "name": "healthy",
         "trans": [
-            "adj. 健康的，健全的；有益于健康的"
+            "adj. large in amount or extent or degree",
+            "adj. having or indicating good health in body or mind",
+            "adj. exercising or showing good judgment"
         ],
         "usphone": "[ˈhelθi]",
         "ukphone": "[ˈhelθi]"
@@ -169,8 +174,9 @@
     {
         "name": "strong",
         "trans": [
-            "adj. 坚强的；强壮的；牢固的；擅长的",
-            "adv. 强劲地；猛烈地"
+            "adj. strong and sure",
+            "adj. freshly made or left",
+            "adj. being distilled rather than fermented"
         ],
         "usphone": "[strɔːŋ]",
         "ukphone": "[strɒŋ]"
@@ -178,9 +184,8 @@
     {
         "name": "before",
         "trans": [
-            "prep. 在…之前，先于",
-            "conj. 在…以前；在…之前",
-            "adv. 以前；在前"
+            "adv. earlier in time",
+            "adv. at or in the front"
         ],
         "usphone": "[bɪˈfɔːr]",
         "ukphone": "[bɪˈfɔː(r)]"
@@ -188,10 +193,9 @@
     {
         "name": "after",
         "trans": [
-            "conj. 在……之后",
-            "prep. 在……之后",
-            "adj. 以后的",
-            "adv. 后来，以后"
+            "adj. located farther aft",
+            "adv. happening at a time subsequent to a reference time",
+            "adv. behind or in the rear"
         ],
         "usphone": "[ˈæftər]",
         "ukphone": "[ˈɑːftə(r)]"
@@ -199,9 +203,9 @@
     {
         "name": "bad",
         "trans": [
-            "n. 坏事；坏人",
-            "adj. 坏的；严重的；劣质的",
-            "adv. 很，非常；坏地；邪恶地"
+            "adj. feeling physical discomfort or pain (`tough' is occasionally used colloquially for `bad')",
+            "adj. not in an edible or usable condition, in referring to foodstuffs",
+            "adj. not working properly"
         ],
         "usphone": "[bæd]",
         "ukphone": "[bæd]"
@@ -209,10 +213,9 @@
     {
         "name": "next",
         "trans": [
-            "adv. 然后；下次；其次",
-            "adj. 下一个的；其次的；贴近的",
-            "n. 下一个",
-            "prep. 靠近；居于…之后"
+            "adj. immediately following in time or order",
+            "adj. nearest in space or position",
+            "adj. (of elected officers) elected but not yet serving"
         ],
         "usphone": "[nekst]",
         "ukphone": "[nekst]"
@@ -220,7 +223,9 @@
     {
         "name": "often",
         "trans": [
-            "adv. 常常，时常"
+            "adv. many times at short intervals",
+            "adv. frequently or in great quantities",
+            "adv. in many cases or instances"
         ],
         "usphone": "[ˈɔːf(ə)n]",
         "ukphone": "[ˈɒf(ə)n]"
@@ -228,9 +233,9 @@
     {
         "name": "exercise",
         "trans": [
-            "n. 运动；练习；运用；操练；礼拜；典礼",
-            "vt. 锻炼；练习；使用；使忙碌；使惊恐",
-            "vi. 运动；练习"
+            "v. do physical exercise",
+            "v. give a workout to",
+            "v. learn by repetition"
         ],
         "usphone": "[ˈeksərsaɪz]",
         "ukphone": "[ˈeksəsaɪz]"
@@ -238,9 +243,9 @@
     {
         "name": "minute",
         "trans": [
-            "n. 分，分钟；片刻，一会儿；备忘录，笔记；会议记录",
-            "vt. 将…记录下来",
-            "adj. 微小的，详细的 [maɪˈnjuːt; US -ˈnuːt; maɪˋnut]"
+            "adj. characterized by painstaking care and detailed examination",
+            "adj. infinitely or immeasurably small",
+            "n. distance measured by the time taken to cover it"
         ],
         "usphone": "[ˈmɪnɪt]",
         "ukphone": "[ˈmɪnɪt]"
@@ -248,7 +253,9 @@
     {
         "name": "hour",
         "trans": [
-            "n. 小时；钟头；课时；…点钟"
+            "n. distance measured by the time taken to cover it",
+            "n. a period of time equal to 1/24th of a day",
+            "n. clock time"
         ],
         "usphone": "[ˈaʊər]",
         "ukphone": "[ˈaʊə(r)]"
@@ -256,9 +263,9 @@
     {
         "name": "high",
         "trans": [
-            "n. 高水平；天空；由麻醉品引起的快感；高压地带",
-            "adj. 高的；高级的；崇高的；高音调的",
-            "adv. 高；奢侈地"
+            "adj. happy and excited and energetic",
+            "adj. slightly and pleasantly intoxicated from alcohol or a drug (especially marijuana)",
+            "adj. (used of the smell of meat) smelling spoiled or tainted"
         ],
         "usphone": "[haɪ]",
         "ukphone": "[haɪ]"
@@ -266,9 +273,9 @@
     {
         "name": "fan",
         "trans": [
-            "n. 迷；风扇；爱好者",
-            "vt. 煽动；刺激；吹拂",
-            "vi. 成扇形散开；飘动"
+            "v. make (an emotion) fiercer",
+            "v. strike out (a batter), (of a pitcher)",
+            "v. separate the chaff from by using air currents"
         ],
         "usphone": "[fæn]",
         "ukphone": "[fæn]"
@@ -276,11 +283,9 @@
     {
         "name": "close",
         "trans": [
-            "n. 结束",
-            "adj. 紧密的；亲密的；亲近的",
-            "vt. 关；结束；使靠近",
-            "vi. 关；结束；关闭",
-            "adv. 紧密地"
+            "v. to finish a game in baseball by protecting a lead",
+            "v. to complete a business deal, negotiation, or an agreement",
+            "v. to unite or bring into contact or bring together the edges of"
         ],
         "usphone": "[kloʊz; kloʊs]",
         "ukphone": "[kləʊz]"
@@ -288,7 +293,9 @@
     {
         "name": "angry",
         "trans": [
-            "adj. 生气的；愤怒的；狂暴的；（伤口等）发炎的"
+            "adj. feeling or showing anger",
+            "adj. (of the elements) as if showing violent anger",
+            "adj. severely inflamed and painful"
         ],
         "usphone": "[ˈæŋɡri]",
         "ukphone": "[ˈæŋɡri]"
@@ -296,9 +303,9 @@
     {
         "name": "lake",
         "trans": [
-            "n. 湖；深红色颜料；胭脂红",
-            "vt. （使）血球溶解",
-            "vi. （使）血球溶解"
+            "n. a body of (usually fresh) water surrounded by land",
+            "n. any of numerous bright translucent organic pigments",
+            "n. a purplish red pigment prepared from lac or cochineal"
         ],
         "usphone": "[leɪk]",
         "ukphone": "[leɪk]"
@@ -306,10 +313,9 @@
     {
         "name": "swim",
         "trans": [
-            "n. 游泳；漂浮；眩晕",
-            "adj. 游泳时穿戴的",
-            "vi. 游泳；漂浮；浸；眩晕",
-            "vt. 游过；使浮起"
+            "v. be dizzy or giddy",
+            "v. be afloat either on or below a liquid surface and not sink to the bottom",
+            "v. move as if gliding through water"
         ],
         "usphone": "[swɪm]",
         "ukphone": "[swɪm]"
@@ -317,7 +323,7 @@
     {
         "name": "swam",
         "trans": [
-            "v. 游泳（swim的过去式）"
+            "v. swimming swim past tense"
         ],
         "usphone": "[swæm]",
         "ukphone": "[swæm]"
@@ -325,9 +331,9 @@
     {
         "name": "ship",
         "trans": [
-            "n. 船；舰；太空船",
-            "vt. 运送，乘船；以船运送",
-            "vi. 上船；乘船旅行；当船员"
+            "v. place on board a ship",
+            "v. travel by ship",
+            "v. transport commercially"
         ],
         "usphone": "[ʃɪp]",
         "ukphone": "[ʃɪp]"
@@ -335,9 +341,9 @@
     {
         "name": "visit",
         "trans": [
-            "n. 访问；参观；逗留",
-            "vt. 访问；参观；视察",
-            "vi. 访问；暂住；闲谈"
+            "v. assail or inflict",
+            "v. impose something unpleasant",
+            "v. talk socially without exchanging too much information"
         ],
         "usphone": "[ˈvɪzɪt]",
         "ukphone": "[ˈvɪzɪt]"
@@ -345,8 +351,9 @@
     {
         "name": "clever",
         "trans": [
-            "adj. 聪明的；机灵的；熟练的",
-            "[ 比较级cleverer 最高级 cleverest ]"
+            "adj. showing inventiveness and skill",
+            "adj. showing self-interest and shrewdness in dealing with others",
+            "adj. mentally quick and resourceful"
         ],
         "usphone": "[ˈklevər]",
         "ukphone": "[ˈklevə(r)]"
@@ -354,9 +361,9 @@
     {
         "name": "find",
         "trans": [
-            "n. 发现",
-            "vi. 裁决",
-            "vt. 查找，找到；发现；认为；感到；获得"
+            "v. accept and make use of one's personality, abilities, and situation",
+            "v. receive a specified treatment (abstract)",
+            "v. come to believe on the basis of emotion, intuitions, or indefinite grounds"
         ],
         "usphone": "[faɪnd]",
         "ukphone": "[faɪnd]"
@@ -364,8 +371,9 @@
     {
         "name": "found",
         "trans": [
-            "v. 找到（find的过去分词）",
-            "vt. 创立，建立；创办"
+            "v. use as a basis for",
+            "v. set up or lay the groundwork for",
+            "v. set up or found"
         ],
         "usphone": "[faʊnd]",
         "ukphone": "[faʊnd]"
@@ -373,9 +381,9 @@
     {
         "name": "get",
         "trans": [
-            "n. 生殖；幼兽",
-            "vi. 成为；变得；到达",
-            "vt. 使得；获得；受到；变成"
+            "v. make children",
+            "v. undergo (as of injuries and illnesses)",
+            "v. be stricken by an illness, fall victim to an illness"
         ],
         "usphone": "[ɡet]",
         "ukphone": "[ɡet]"
@@ -383,7 +391,7 @@
     {
         "name": "got",
         "trans": [
-            "v. 得到，明白（get的过去式和过去分词）"
+            "v. to get, clear get past tense (joining two nouns) and past participle (in European grammar)"
         ],
         "usphone": "[ɡɑːt]",
         "ukphone": "[ɡɒt]"
@@ -391,8 +399,9 @@
     {
         "name": "party",
         "trans": [
-            "n. 政党，党派；聚会，派对；当事人 [复数 parties]",
-            "vi. 参加社交聚会 [ 过去式 partied 过去分词 partied 现在分词 partying ]"
+            "v. have or participate in a party",
+            "n. an occasion on which people can assemble for social interaction and entertainment",
+            "n. a group of people gathered together for pleasure"
         ],
         "usphone": "[ˈpɑːrti]",
         "ukphone": "[ˈpɑːti]"
@@ -400,8 +409,9 @@
     {
         "name": "tell",
         "trans": [
-            "vt. 告诉，说；辨别；吩咐；断定",
-            "vi. 讲述；告发，泄密；识别"
+            "v. mark as different",
+            "v. discern or comprehend",
+            "v. give instructions to or direct somebody to do something with authority"
         ],
         "usphone": "[tel]",
         "ukphone": "[tel]"
@@ -409,8 +419,9 @@
     {
         "name": "begin",
         "trans": [
-            "vi. 开始；首先",
-            "vt. 开始"
+            "v. to take the first step or steps in carrying out an action",
+            "v. to set in motion, cause to start",
+            "v. to achieve or accomplish in the least degree, usually used in the negative"
         ],
         "usphone": "[bɪˈɡɪn]",
         "ukphone": "[bɪˈɡɪn]"
@@ -418,8 +429,9 @@
     {
         "name": "late",
         "trans": [
-            "adj. 晚的；迟的；已故的；最近的",
-            "adv. 晚；迟；最近；在晚期"
+            "adj. being or occurring at an advanced period of time or after a usual or expected time",
+            "adj. at or toward an end or late period or stage of development",
+            "adj. of a later stage in the development of a language or literature"
         ],
         "usphone": "[leɪt]",
         "ukphone": "[leɪt]"
@@ -427,8 +439,9 @@
     {
         "name": "early",
         "trans": [
-            "adj. 早期的；早熟的",
-            "adv. 提早；在初期"
+            "adj. at or near the beginning of a period of time or course of events or before the usual or expected time",
+            "adj. being or occurring at an early stage of development",
+            "adj. of an early stage in the development of a language or literature"
         ],
         "usphone": "[ˈɜːrli]",
         "ukphone": "[ˈɜːli]"
@@ -436,9 +449,9 @@
     {
         "name": "cake",
         "trans": [
-            "n. 蛋糕；块状物；利益总额",
-            "vt. 使结块",
-            "vi. 结成块状"
+            "v. to form a coat over",
+            "n. a block of solid substance (such as soap or wax)",
+            "n. baked goods made from or based on a mixture of flour, sugar, eggs, and fat"
         ],
         "usphone": "[keɪk]",
         "ukphone": "[keɪk]"
@@ -446,7 +459,8 @@
     {
         "name": "every",
         "trans": [
-            "adj. 每一的，每个的；每隔…的"
+            "adj. (used of count nouns) each and all of the members of a group considered singly and without exception",
+            "adj. each and all of a series of entities or intervals as specified"
         ],
         "usphone": "[ˈevri]",
         "ukphone": "[ˈevri]"
@@ -454,10 +468,9 @@
     {
         "name": "all",
         "trans": [
-            "n. 全部",
-            "adj. 全部的",
-            "adv. 全然地；越发",
-            "pron. 全部"
+            "adj. quantifier",
+            "adj. completely given to or absorbed by",
+            "adv. to a complete degree or to the full or entire extent (`whole' is often used informally for `wholly')"
         ],
         "usphone": "[ɔːl]",
         "ukphone": "[ɔːl]"
@@ -465,8 +478,7 @@
     {
         "name": "good-bye",
         "trans": [
-            "n. 告辞",
-            "int. 再见"
+            "n. a farewell remark"
         ],
         "usphone": "[ɡʊd baɪ]",
         "ukphone": "[ˌɡʊd ˈbaɪ]"
@@ -474,8 +486,9 @@
     {
         "name": "hear",
         "trans": [
-            "vi. 听；听见",
-            "vt. 听到，听；听说；审理"
+            "v. get to know or become aware of, usually accidentally",
+            "v. receive a communication from someone",
+            "v. perceive (sound) via the auditory sense"
         ],
         "usphone": "[hɪr]",
         "ukphone": "[hɪə(r)]"

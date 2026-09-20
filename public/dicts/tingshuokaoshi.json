@@ -1,3344 +1,3754 @@
 [
-  {
-    "name": "go out for dinner/dine out",
-    "trans": [
-      "出去吃饭"
-    ]
-  },
-  {
-    "name": "go Dutch/Let's go fifty fifty",
-    "trans": [
-      "AA制"
-    ]
-  },
-  {
-    "name": "buffet",
-    "trans": [
-      "自助餐，小卖部"
-    ]
-  },
-  {
-    "name": "dining hall",
-    "trans": [
-      "餐厅"
-    ]
-  },
-  {
-    "name": "coffee shop/cafe",
-    "trans": [
-      "咖啡店/厅"
-    ]
-  },
-  {
-    "name": "cafeteria",
-    "trans": [
-      "自助餐厅"
-    ]
-  },
-  {
-    "name": "restaurant",
-    "trans": [
-      "餐馆"
-    ]
-  },
-  {
-    "name": "canteen",
-    "trans": [
-      "食堂，小卖部"
-    ]
-  },
-  {
-    "name": "snack bar",
-    "trans": [
-      "小吃街；大排挡"
-    ]
-  },
-  {
-    "name": "appetizer",
-    "trans": [
-      "开胃品"
-    ]
-  },
-  {
-    "name": "steak",
-    "trans": [
-      "牛排"
-    ]
-  },
-  {
-    "name": "cheese",
-    "trans": [
-      "奶酪"
-    ]
-  },
-  {
-    "name": "sandwich",
-    "trans": [
-      "三明治"
-    ]
-  },
-  {
-    "name": "bacon",
-    "trans": [
-      "腌肉"
-    ]
-  },
-  {
-    "name": "soup",
-    "trans": [
-      "汤"
-    ]
-  },
-  {
-    "name": "plain water",
-    "trans": [
-      "自来水(西餐中洗手用的)"
-    ]
-  },
-  {
-    "name": "hamburger",
-    "trans": [
-      "汉堡包"
-    ]
-  },
-  {
-    "name": "doughnut",
-    "trans": [
-      "油炸圈饼"
-    ]
-  },
-  {
-    "name": "dessert",
-    "trans": [
-      "甜品，水果(作为正餐的最后一道)"
-    ]
-  },
-  {
-    "name": "coke",
-    "trans": [
-      "可口可乐"
-    ]
-  },
-  {
-    "name": "French fries",
-    "trans": [
-      "炸薯条"
-    ]
-  },
-  {
-    "name": "order",
-    "trans": [
-      "点菜"
-    ]
-  },
-  {
-    "name": "serve",
-    "trans": [
-      "上菜"
-    ]
-  },
-  {
-    "name": "change",
-    "trans": [
-      "零钱"
-    ]
-  },
-  {
-    "name": "tip",
-    "trans": [
-      "小费"
-    ]
-  },
-  {
-    "name": "treat/This is my treat",
-    "trans": [
-      "请客(我请客!)"
-    ]
-  },
-  {
-    "name": "Keep the change",
-    "trans": [
-      "不用找零钱了!"
-    ]
-  },
-  {
-    "name": "waiter/waitress",
-    "trans": [
-      "男/女侍者"
-    ]
-  },
-  {
-    "name": "menu",
-    "trans": [
-      "菜单"
-    ]
-  },
-  {
-    "name": "knife",
-    "trans": [
-      "小刀"
-    ]
-  },
-  {
-    "name": "fork",
-    "trans": [
-      "叉子"
-    ]
-  },
-  {
-    "name": "spoon",
-    "trans": [
-      "调羹"
-    ]
-  },
-  {
-    "name": "chopsticks",
-    "trans": [
-      "筷子"
-    ]
-  },
-  {
-    "name": "plate",
-    "trans": [
-      "碟子"
-    ]
-  },
-  {
-    "name": "tray",
-    "trans": [
-      "托盘"
-    ]
-  },
-  {
-    "name": "French fries",
-    "trans": [
-      "炸薯条"
-    ]
-  },
-  {
-    "name": "pizza",
-    "trans": [
-      "比萨饼"
-    ]
-  },
-  {
-    "name": "ressing",
-    "trans": [
-      "调味酱"
-    ]
-  },
-  {
-    "name": "rare",
-    "trans": [
-      "半熟的"
-    ]
-  },
-  {
-    "name": "drink",
-    "trans": [
-      "饮料"
-    ]
-  },
-  {
-    "name": "wine",
-    "trans": [
-      "葡萄酒"
-    ]
-  },
-  {
-    "name": "Coca-Cola",
-    "trans": [
-      "可口可乐"
-    ]
-  },
-  {
-    "name": "pay the bill",
-    "trans": [
-      "付账"
-    ]
-  },
-  {
-    "name": "stamp",
-    "trans": [
-      "邮票"
-    ]
-  },
-  {
-    "name": "envelope",
-    "trans": [
-      "信封"
-    ]
-  },
-  {
-    "name": "package/parcel",
-    "trans": [
-      "包裹"
-    ]
-  },
-  {
-    "name": "parcel form",
-    "trans": [
-      "包裹单"
-    ]
-  },
-  {
-    "name": "overweight",
-    "trans": [
-      "超重"
-    ]
-  },
-  {
-    "name": "postage",
-    "trans": [
-      "邮资"
-    ]
-  },
-  {
-    "name": "extra postage",
-    "trans": [
-      "额外邮资"
-    ]
-  },
-  {
-    "name": "send/post/deliver a letter/mail",
-    "trans": [
-      "寄/发信"
-    ]
-  },
-  {
-    "name": "express mail",
-    "trans": [
-      "快件"
-    ]
-  },
-  {
-    "name": "airmail",
-    "trans": [
-      "航空信件"
-    ]
-  },
-  {
-    "name": "surface mail",
-    "trans": [
-      "平邮，陆地邮寄"
-    ]
-  },
-  {
-    "name": "registered letter",
-    "trans": [
-      "挂号信"
-    ]
-  },
-  {
-    "name": "ordinary letter",
-    "trans": [
-      "平信"
-    ]
-  },
-  {
-    "name": "open an account",
-    "trans": [
-      "开一个帐户"
-    ]
-  },
-  {
-    "name": "insurance",
-    "trans": [
-      "保险"
-    ]
-  },
-  {
-    "name": "claim",
-    "trans": [
-      "领取"
-    ]
-  },
-  {
-    "name": "weight",
-    "trans": [
-      "重量"
-    ]
-  },
-  {
-    "name": "zip/post code",
-    "trans": [
-      "邮编"
-    ]
-  },
-  {
-    "name": "international airmail",
-    "trans": [
-      "国际航空邮件"
-    ]
-  },
-  {
-    "name": "open an account",
-    "trans": [
-      "开一个帐户"
-    ]
-  },
-  {
-    "name": "library card",
-    "trans": [
-      "借书证"
-    ]
-  },
-  {
-    "name": "borrow",
-    "trans": [
-      "借进"
-    ]
-  },
-  {
-    "name": "lend",
-    "trans": [
-      "借出"
-    ]
-  },
-  {
-    "name": "keep",
-    "trans": [
-      "保管"
-    ]
-  },
-  {
-    "name": "renew",
-    "trans": [
-      "续借"
-    ]
-  },
-  {
-    "name": "overdue",
-    "trans": [
-      "借书逾期"
-    ]
-  },
-  {
-    "name": "bookshelf",
-    "trans": [
-      "书架"
-    ]
-  },
-  {
-    "name": "novel",
-    "trans": [
-      "小说/新颖的"
-    ]
-  },
-  {
-    "name": "science fiction",
-    "trans": [
-      "科幻小说"
-    ]
-  },
-  {
-    "name": "magazine/newspaper",
-    "trans": [
-      "杂志"
-    ]
-  },
-  {
-    "name": "periodical",
-    "trans": [
-      "期刊"
-    ]
-  },
-  {
-    "name": "reference book",
-    "trans": [
-      "参考书"
-    ]
-  },
-  {
-    "name": "librarian",
-    "trans": [
-      "图书管理员"
-    ]
-  },
-  {
-    "name": "pay a fine",
-    "trans": [
-      "交罚款"
-    ]
-  },
-  {
-    "name": "tuition",
-    "trans": [
-      "学费"
-    ]
-  },
-  {
-    "name": "scholarship",
-    "trans": [
-      "奖学金"
-    ]
-  },
-  {
-    "name": "term/semester",
-    "trans": [
-      "学期"
-    ]
-  },
-  {
-    "name": "register",
-    "trans": [
-      "注册"
-    ]
-  },
-  {
-    "name": "be absent",
-    "trans": [
-      "缺课"
-    ]
-  },
-  {
-    "name": "seminar",
-    "trans": [
-      "讨论班，研讨会"
-    ]
-  },
-  {
-    "name": "assignment",
-    "trans": [
-      "作业"
-    ]
-  },
-  {
-    "name": "presentation",
-    "trans": [
-      "课堂发言"
-    ]
-  },
-  {
-    "name": "final exam",
-    "trans": [
-      "期末考试"
-    ]
-  },
-  {
-    "name": "go over",
-    "trans": [
-      "复习"
-    ]
-  },
-  {
-    "name": "fail",
-    "trans": [
-      "不及格"
-    ]
-  },
-  {
-    "name": "cut a class",
-    "trans": [
-      "逃课"
-    ]
-  },
-  {
-    "name": "graduate",
-    "trans": [
-      "毕业"
-    ]
-  },
-  {
-    "name": "stationery",
-    "trans": [
-      "文具用品"
-    ]
-  },
-  {
-    "name": "skip class",
-    "trans": [
-      "翘课，旷课"
-    ]
-  },
-  {
-    "name": "pay a fine",
-    "trans": [
-      "交罚款"
-    ]
-  },
-  {
-    "name": "hospital",
-    "trans": [
-      "医院"
-    ]
-  },
-  {
-    "name": "emergence department/room",
-    "trans": [
-      "急诊室"
-    ]
-  },
-  {
-    "name": "clinic",
-    "trans": [
-      "诊所"
-    ]
-  },
-  {
-    "name": "ICU /intensive care unit",
-    "trans": [
-      "特护病房"
-    ]
-  },
-  {
-    "name": "treatment",
-    "trans": [
-      "治疗手段"
-    ]
-  },
-  {
-    "name": "take one's temperature/blood pressure",
-    "trans": [
-      "测量体温/血压"
-    ]
-  },
-  {
-    "name": "medicine:pills/tablets",
-    "trans": [
-      "药丸/药片"
-    ]
-  },
-  {
-    "name": "aspirin",
-    "trans": [
-      "阿司匹林"
-    ]
-  },
-  {
-    "name": "heart attack",
-    "trans": [
-      "心脏病"
-    ]
-  },
-  {
-    "name": "cold/flu",
-    "trans": [
-      "流感"
-    ]
-  },
-  {
-    "name": "have/catch a cold",
-    "trans": [
-      "感冒"
-    ]
-  },
-  {
-    "name": "pain",
-    "trans": [
-      "疼痛"
-    ]
-  },
-  {
-    "name": "headache",
-    "trans": [
-      "头痛"
-    ]
-  },
-  {
-    "name": "stomachache",
-    "trans": [
-      "腹痛"
-    ]
-  },
-  {
-    "name": "backache",
-    "trans": [
-      "背痛"
-    ]
-  },
-  {
-    "name": "have a sore throat",
-    "trans": [
-      "喉咙痛"
-    ]
-  },
-  {
-    "name": "cough",
-    "trans": [
-      "咳嗽"
-    ]
-  },
-  {
-    "name": "fever",
-    "trans": [
-      "发烧"
-    ]
-  },
-  {
-    "name": "doctor",
-    "trans": [
-      "医生"
-    ]
-  },
-  {
-    "name": "regular doctor",
-    "trans": [
-      "私人医生"
-    ]
-  },
-  {
-    "name": "dentist",
-    "trans": [
-      "牙医"
-    ]
-  },
-  {
-    "name": "surgeon",
-    "trans": [
-      "外科医生"
-    ]
-  },
-  {
-    "name": "physician",
-    "trans": [
-      "内科医生"
-    ]
-  },
-  {
-    "name": "nurse",
-    "trans": [
-      "护士"
-    ]
-  },
-  {
-    "name": "show one's tongue",
-    "trans": [
-      "伸出舌头"
-    ]
-  },
-  {
-    "name": "write a prescription",
-    "trans": [
-      "开处方"
-    ]
-  },
-  {
-    "name": "give an injection",
-    "trans": [
-      "打针"
-    ]
-  },
-  {
-    "name": "Health Center",
-    "trans": [
-      "医疗中心"
-    ]
-  },
-  {
-    "name": "check-up",
-    "trans": [
-      "检查"
-    ]
-  },
-  {
-    "name": "physical examination",
-    "trans": [
-      "体检"
-    ]
-  },
-  {
-    "name": "treatment",
-    "trans": [
-      "治疗手段"
-    ]
-  },
-  {
-    "name": "treat",
-    "trans": [
-      "治疗"
-    ]
-  },
-  {
-    "name": "cure",
-    "trans": [
-      "治愈"
-    ]
-  },
-  {
-    "name": "dizzy",
-    "trans": [
-      "晕眩的"
-    ]
-  },
-  {
-    "name": "operator",
-    "trans": [
-      "接线员"
-    ]
-  },
-  {
-    "name": "call/telephone/ring/phone sb",
-    "trans": [
-      "给某人打电话"
-    ]
-  },
-  {
-    "name": "a call/ring",
-    "trans": [
-      "给某人打电话"
-    ]
-  },
-  {
-    "name": "long-distance call",
-    "trans": [
-      "长途电话"
-    ]
-  },
-  {
-    "name": "collect call",
-    "trans": [
-      "对方付费电话"
-    ]
-  },
-  {
-    "name": "personal phone call",
-    "trans": [
-      "私人电话"
-    ]
-  },
-  {
-    "name": "busy line",
-    "trans": [
-      "电话占线"
-    ]
-  },
-  {
-    "name": "put through",
-    "trans": [
-      "接通电话"
-    ]
-  },
-  {
-    "name": "leave a message",
-    "trans": [
-      "留口信"
-    ]
-  },
-  {
-    "name": "dial the wrong number",
-    "trans": [
-      "拨错号码"
-    ]
-  },
-  {
-    "name": " ",
-    "trans": [
-      "电话占线。"
-    ]
-  },
-  {
-    "name": "It kept a busy line",
-    "trans": [
-      "电话占线。"
-    ]
-  },
-  {
-    "name": "Hold on",
-    "trans": [
-      "请稍候。"
-    ]
-  },
-  {
-    "name": "I couldn't get through",
-    "trans": [
-      "我打不通。"
-    ]
-  },
-  {
-    "name": "make a reservation",
-    "trans": [
-      "预定房间"
-    ]
-  },
-  {
-    "name": "reception/front desk",
-    "trans": [
-      "接待处，前台"
-    ]
-  },
-  {
-    "name": "front clerk/reception clerk",
-    "trans": [
-      "总台接待员"
-    ]
-  },
-  {
-    "name": "check in",
-    "trans": [
-      "登记入住"
-    ]
-  },
-  {
-    "name": "check out",
-    "trans": [
-      "结账退房"
-    ]
-  },
-  {
-    "name": "fill out/in a form",
-    "trans": [
-      "填表"
-    ]
-  },
-  {
-    "name": "single room",
-    "trans": [
-      "单人间"
-    ]
-  },
-  {
-    "name": "double room",
-    "trans": [
-      "双人间"
-    ]
-  },
-  {
-    "name": "standard room",
-    "trans": [
-      "标准房"
-    ]
-  },
-  {
-    "name": "twin room",
-    "trans": [
-      "双床房"
-    ]
-  },
-  {
-    "name": "superior room",
-    "trans": [
-      "高级房"
-    ]
-  },
-  {
-    "name": "executive room",
-    "trans": [
-      "商务房"
-    ]
-  },
-  {
-    "name": "suite",
-    "trans": [
-      "套间"
-    ]
-  },
-  {
-    "name": "room service",
-    "trans": [
-      "客户服务"
-    ]
-  },
-  {
-    "name": "wake-up call",
-    "trans": [
-      "叫醒电话"
-    ]
-  },
-  {
-    "name": "accommodation",
-    "trans": [
-      "住宿"
-    ]
-  },
-  {
-    "name": "registration",
-    "trans": [
-      "登记"
-    ]
-  },
-  {
-    "name": "receptionist",
-    "trans": [
-      "前台接待员"
-    ]
-  },
-  {
-    "name": "housekeeping staff",
-    "trans": [
-      "客房清洁人员"
-    ]
-  },
-  {
-    "name": "tip",
-    "trans": [
-      "小费"
-    ]
-  },
-  {
-    "name": "service charge",
-    "trans": [
-      "服务费"
-    ]
-  },
-  {
-    "name": "lobby",
-    "trans": [
-      "大堂"
-    ]
-  },
-  {
-    "name": "cook/chef",
-    "trans": [
-      "厨师"
-    ]
-  },
-  {
-    "name": "head chef",
-    "trans": [
-      "厨师长"
-    ]
-  },
-  {
-    "name": "cook",
-    "trans": [
-      "炊事员"
-    ]
-  },
-  {
-    "name": "assistant manager",
-    "trans": [
-      "大堂副理"
-    ]
-  },
-  {
-    "name": "lobby manager",
-    "trans": [
-      "大堂经理"
-    ]
-  },
-  {
-    "name": "tourist guide",
-    "trans": [
-      "导游"
-    ]
-  },
-  {
-    "name": "restaurant manager",
-    "trans": [
-      "饭店经理"
-    ]
-  },
-  {
-    "name": "rooms division manager",
-    "trans": [
-      "房务部经理"
-    ]
-  },
-  {
-    "name": "book/reserve",
-    "trans": [
-      "预定"
-    ]
-  },
-  {
-    "name": "fully booked",
-    "trans": [
-      "客满"
-    ]
-  },
-  {
-    "name": "extra charge",
-    "trans": [
-      "额外费用"
-    ]
-  },
-  {
-    "name": "shuttle bus",
-    "trans": [
-      "班车"
-    ]
-  },
-  {
-    "name": "full price",
-    "trans": [
-      "全价"
-    ]
-  },
-  {
-    "name": "discounted price",
-    "trans": [
-      "折扣价"
-    ]
-  },
-  {
-    "name": "special price",
-    "trans": [
-      "优惠价"
-    ]
-  },
-  {
-    "name": "All the room are occupied",
-    "trans": [
-      "房间已满。"
-    ]
-  },
-  {
-    "name": "Meals included",
-    "trans": [
-      "包括饮食。"
-    ]
-  },
-  {
-    "name": "speeding",
-    "trans": [
-      "超速行驶"
-    ]
-  },
-  {
-    "name": "booking office/ticket office",
-    "trans": [
-      "售票处"
-    ]
-  },
-  {
-    "name": "waiting room",
-    "trans": [
-      "候车室"
-    ]
-  },
-  {
-    "name": "platform",
-    "trans": [
-      "月台"
-    ]
-  },
-  {
-    "name": "coach/carriage",
-    "trans": [
-      "车厢"
-    ]
-  },
-  {
-    "name": "sidewalk/pavement",
-    "trans": [
-      "人行道"
-    ]
-  },
-  {
-    "name": "one-way street",
-    "trans": [
-      "单行道"
-    ]
-  },
-  {
-    "name": "rush hour",
-    "trans": [
-      "交通高峰时间"
-    ]
-  },
-  {
-    "name": "heavy traffic",
-    "trans": [
-      "拥挤的交通"
-    ]
-  },
-  {
-    "name": "traffic jam",
-    "trans": [
-      "交通阻塞"
-    ]
-  },
-  {
-    "name": "traffic lights",
-    "trans": [
-      "交通灯"
-    ]
-  },
-  {
-    "name": "traffic rules",
-    "trans": [
-      "交通规则"
-    ]
-  },
-  {
-    "name": "driving license",
-    "trans": [
-      "驾照"
-    ]
-  },
-  {
-    "name": "crowded",
-    "trans": [
-      "拥挤的"
-    ]
-  },
-  {
-    "name": "by air/plane/airplane/aeroplane",
-    "trans": [
-      "乘飞机"
-    ]
-  },
-  {
-    "name": "by bus",
-    "trans": [
-      "坐公交"
-    ]
-  },
-  {
-    "name": "by coach",
-    "trans": [
-      "乘长途汽车"
-    ]
-  },
-  {
-    "name": "by boat",
-    "trans": [
-      "坐船"
-    ]
-  },
-  {
-    "name": "by land",
-    "trans": [
-      "由陆路"
-    ]
-  },
-  {
-    "name": "by sea",
-    "trans": [
-      "由海路"
-    ]
-  },
-  {
-    "name": "transfer",
-    "trans": [
-      "换乘/转机"
-    ]
-  },
-  {
-    "name": "express train",
-    "trans": [
-      "特快列车"
-    ]
-  },
-  {
-    "name": "dining car",
-    "trans": [
-      "餐车"
-    ]
-  },
-  {
-    "name": "garage",
-    "trans": [
-      "修车场/车库"
-    ]
-  },
-  {
-    "name": "driver",
-    "trans": [
-      "司机"
-    ]
-  },
-  {
-    "name": "conductor",
-    "trans": [
-      "售票员"
-    ]
-  },
-  {
-    "name": "car/traffic accident",
-    "trans": [
-      "交通事故"
-    ]
-  },
-  {
-    "name": "run the red lights",
-    "trans": [
-      "闯红灯"
-    ]
-  },
-  {
-    "name": "flat tire/tyre",
-    "trans": [
-      "爆胎"
-    ]
-  },
-  {
-    "name": "scratches",
-    "trans": [
-      "刮蹭"
-    ]
-  },
-  {
-    "name": "fix/repair",
-    "trans": [
-      "修理"
-    ]
-  },
-  {
-    "name": "survive",
-    "trans": [
-      "活下来"
-    ]
-  },
-  {
-    "name": "flight",
-    "trans": [
-      "航班"
-    ]
-  },
-  {
-    "name": "Welcome on board",
-    "trans": [
-      "欢迎登机!"
-    ]
-  },
-  {
-    "name": "bound for",
-    "trans": [
-      "飞往…方向去的"
-    ]
-  },
-  {
-    "name": "check in",
-    "trans": [
-      "办理登机手续"
-    ]
-  },
-  {
-    "name": "airway",
-    "trans": [
-      "航线"
-    ]
-  },
-  {
-    "name": "flight",
-    "trans": [
-      "航班"
-    ]
-  },
-  {
-    "name": "(Flight Number)",
-    "trans": [
-      "航班号"
-    ]
-  },
-  {
-    "name": "non-stop/direct flight",
-    "trans": [
-      "直航"
-    ]
-  },
-  {
-    "name": "confirm the flight",
-    "trans": [
-      "确认航班"
-    ]
-  },
-  {
-    "name": "departure time",
-    "trans": [
-      "起飞时间"
-    ]
-  },
-  {
-    "name": "cancel",
-    "trans": [
-      "取消"
-    ]
-  },
-  {
-    "name": "one-way ticket",
-    "trans": [
-      "单程票"
-    ]
-  },
-  {
-    "name": "round-trip ticket",
-    "trans": [
-      "往返票"
-    ]
-  },
-  {
-    "name": "departure lounge",
-    "trans": [
-      "候机室"
-    ]
-  },
-  {
-    "name": "book/reserve",
-    "trans": [
-      "预订"
-    ]
-  },
-  {
-    "name": "first/business/economy cabin",
-    "trans": [
-      "头等/商务/经济舱"
-    ]
-  },
-  {
-    "name": "a window seat",
-    "trans": [
-      "靠窗的座位"
-    ]
-  },
-  {
-    "name": "an aisle seat",
-    "trans": [
-      "靠走廊的座位"
-    ]
-  },
-  {
-    "name": "safety/safe belt",
-    "trans": [
-      "安全带"
-    ]
-  },
-  {
-    "name": "fasten",
-    "trans": [
-      "系紧"
-    ]
-  },
-  {
-    "name": "airsick",
-    "trans": [
-      "晕机的"
-    ]
-  },
-  {
-    "name": "jet lag",
-    "trans": [
-      "飞行时差反应"
-    ]
-  },
-  {
-    "name": "captain",
-    "trans": [
-      "机长"
-    ]
-  },
-  {
-    "name": "pilot",
-    "trans": [
-      "飞行员"
-    ]
-  },
-  {
-    "name": "airhostess/stewardess",
-    "trans": [
-      "空姐"
-    ]
-  },
-  {
-    "name": "customs",
-    "trans": [
-      "海关"
-    ]
-  },
-  {
-    "name": "security check",
-    "trans": [
-      "安检"
-    ]
-  },
-  {
-    "name": "departure to",
-    "trans": [
-      "前往……"
-    ]
-  },
-  {
-    "name": "destination",
-    "trans": [
-      "目的地"
-    ]
-  },
-  {
-    "name": "boarding pass/card",
-    "trans": [
-      "登机牌"
-    ]
-  },
-  {
-    "name": "passport",
-    "trans": [
-      "护照"
-    ]
-  },
-  {
-    "name": "board",
-    "trans": [
-      "登机"
-    ]
-  },
-  {
-    "name": "departure gate",
-    "trans": [
-      "登机口"
-    ]
-  },
-  {
-    "name": "luggage/baggage",
-    "trans": [
-      "行李"
-    ]
-  },
-  {
-    "name": "suitcase",
-    "trans": [
-      "行李箱"
-    ]
-  },
-  {
-    "name": "land",
-    "trans": [
-      "着陆"
-    ]
-  },
-  {
-    "name": "safe landing",
-    "trans": [
-      "安全着陆"
-    ]
-  },
-  {
-    "name": "off",
-    "trans": [
-      "为某人送行"
-    ]
-  },
-  {
-    "name": "pick up",
-    "trans": [
-      "接机"
-    ]
-  },
-  {
-    "name": "behind schedule",
-    "trans": [
-      "晚点"
-    ]
-  },
-  {
-    "name": "take off",
-    "trans": [
-      "起飞"
-    ]
-  },
-  {
-    "name": "land",
-    "trans": [
-      "降落"
-    ]
-  },
-  {
-    "name": "You will be fined",
-    "trans": [
-      "你将被罚款20美元。"
-    ]
-  },
-  {
-    "name": "store/shop",
-    "trans": [
-      "商店，杂货店"
-    ]
-  },
-  {
-    "name": "department store",
-    "trans": [
-      "百货商场"
-    ]
-  },
-  {
-    "name": "drugstore",
-    "trans": [
-      "药店，杂货店"
-    ]
-  },
-  {
-    "name": "grocery store",
-    "trans": [
-      "杂货店，食杂店，食品杂货店"
-    ]
-  },
-  {
-    "name": "grocer",
-    "trans": [
-      "食品杂货店，食品杂货商"
-    ]
-  },
-  {
-    "name": "green grocer",
-    "trans": [
-      "蔬菜店"
-    ]
-  },
-  {
-    "name": "convenience store",
-    "trans": [
-      "便利店"
-    ]
-  },
-  {
-    "name": "shopping center",
-    "trans": [
-      "购物中心"
-    ]
-  },
-  {
-    "name": "supermarket",
-    "trans": [
-      "超市"
-    ]
-  },
-  {
-    "name": "mall",
-    "trans": [
-      "商场"
-    ]
-  },
-  {
-    "name": "shop assistant",
-    "trans": [
-      "店员"
-    ]
-  },
-  {
-    "name": "counter",
-    "trans": [
-      "柜台"
-    ]
-  },
-  {
-    "name": "receipt",
-    "trans": [
-      "收据"
-    ]
-  },
-  {
-    "name": "invoice",
-    "trans": [
-      "发票"
-    ]
-  },
-  {
-    "name": "catalogue",
-    "trans": [
-      "产品目录"
-    ]
-  },
-  {
-    "name": "deliver",
-    "trans": [
-      "送货"
-    ]
-  },
-  {
-    "name": "refund",
-    "trans": [
-      "退款"
-    ]
-  },
-  {
-    "name": "brand",
-    "trans": [
-      "品牌"
-    ]
-  },
-  {
-    "name": "bargain",
-    "trans": [
-      "便宜货"
-    ]
-  },
-  {
-    "name": "size",
-    "trans": [
-      "尺寸大小"
-    ]
-  },
-  {
-    "name": "color",
-    "trans": [
-      "颜色"
-    ]
-  },
-  {
-    "name": "style",
-    "trans": [
-      "式样"
-    ]
-  },
-  {
-    "name": "price",
-    "trans": [
-      "价格"
-    ]
-  },
-  {
-    "name": "expensive/dear",
-    "trans": [
-      "昂贵的"
-    ]
-  },
-  {
-    "name": "cheap",
-    "trans": [
-      "便宜的"
-    ]
-  },
-  {
-    "name": "popular/fashionable",
-    "trans": [
-      "流行的，时尚的"
-    ]
-  },
-  {
-    "name": "in fashion",
-    "trans": [
-      "流行的，时尚的"
-    ]
-  },
-  {
-    "name": "high",
-    "trans": [
-      "价格高的"
-    ]
-  },
-  {
-    "name": "low",
-    "trans": [
-      "价格低的"
-    ]
-  },
-  {
-    "name": "second-hand/used",
-    "trans": [
-      "二手的，旧的"
-    ]
-  },
-  {
-    "name": "out of fashion",
-    "trans": [
-      "过时的"
-    ]
-  },
-  {
-    "name": "fair",
-    "trans": [
-      "公平的，集市，交易会"
-    ]
-  },
-  {
-    "name": "cashier",
-    "trans": [
-      "收银员，出纳员"
-    ]
-  },
-  {
-    "name": "window-shopping",
-    "trans": [
-      "逛商店"
-    ]
-  },
-  {
-    "name": "price tag",
-    "trans": [
-      "价格标签"
-    ]
-  },
-  {
-    "name": "purchase",
-    "trans": [
-      "购买"
-    ]
-  },
-  {
-    "name": "customer",
-    "trans": [
-      "顾客"
-    ]
-  },
-  {
-    "name": "annual fee",
-    "trans": [
-      "年费"
-    ]
-  },
-  {
-    "name": "budget",
-    "trans": [
-      "预算"
-    ]
-  },
-  {
-    "name": "retail",
-    "trans": [
-      "零售"
-    ]
-  },
-  {
-    "name": "wholesale",
-    "trans": [
-      "批发"
-    ]
-  },
-  {
-    "name": "bargain vi",
-    "trans": [
-      "讨价还价"
-    ]
-  },
-  {
-    "name": "pay in cash",
-    "trans": [
-      "用现金支付"
-    ]
-  },
-  {
-    "name": "pay in check",
-    "trans": [
-      "用支票支付"
-    ]
-  },
-  {
-    "name": "credit card",
-    "trans": [
-      "信用卡"
-    ]
-  },
-  {
-    "name": "out of stock",
-    "trans": [
-      "脱销/缺货"
-    ]
-  },
-  {
-    "name": "in stock",
-    "trans": [
-      "有货"
-    ]
-  },
-  {
-    "name": "pay by installment",
-    "trans": [
-      "分期付款"
-    ]
-  },
-  {
-    "name": "selling season",
-    "trans": [
-      "销售旺季"
-    ]
-  },
-  {
-    "name": "on sale",
-    "trans": [
-      "廉价出售"
-    ]
-  },
-  {
-    "name": "50%off",
-    "trans": [
-      "打五折"
-    ]
-  },
-  {
-    "name": "a 30%discount",
-    "trans": [
-      "打七折"
-    ]
-  },
-  {
-    "name": "a real bargain",
-    "trans": [
-      "真正的便宜货"
-    ]
-  },
-  {
-    "name": "cloudy",
-    "trans": [
-      "阴天的"
-    ]
-  },
-  {
-    "name": "overcast",
-    "trans": [
-      "多云的"
-    ]
-  },
-  {
-    "name": "fine",
-    "trans": [
-      "晴朗的"
-    ]
-  },
-  {
-    "name": "sunny/bright/clear",
-    "trans": [
-      "阳光充足的"
-    ]
-  },
-  {
-    "name": "rainy",
-    "trans": [
-      "有雨的"
-    ]
-  },
-  {
-    "name": "wet",
-    "trans": [
-      "潮湿的"
-    ]
-  },
-  {
-    "name": "humid",
-    "trans": [
-      "湿润的"
-    ]
-  },
-  {
-    "name": "damp",
-    "trans": [
-      "潮湿的"
-    ]
-  },
-  {
-    "name": "freezing-cold",
-    "trans": [
-      "冰冷的"
-    ]
-  },
-  {
-    "name": "cool",
-    "trans": [
-      "凉爽的"
-    ]
-  },
-  {
-    "name": "mild/agreeable",
-    "trans": [
-      "温和的"
-    ]
-  },
-  {
-    "name": "warm",
-    "trans": [
-      "暖和的"
-    ]
-  },
-  {
-    "name": "hot",
-    "trans": [
-      "炎热的"
-    ]
-  },
-  {
-    "name": "windy",
-    "trans": [
-      "有风的"
-    ]
-  },
-  {
-    "name": "calm",
-    "trans": [
-      "无风的"
-    ]
-  },
-  {
-    "name": "moderate",
-    "trans": [
-      "风力不大的"
-    ]
-  },
-  {
-    "name": "thunder",
-    "trans": [
-      "打雷"
-    ]
-  },
-  {
-    "name": "lightening",
-    "trans": [
-      "闪电"
-    ]
-  },
-  {
-    "name": "strong/high wind",
-    "trans": [
-      "大风"
-    ]
-  },
-  {
-    "name": "breeze /light wind",
-    "trans": [
-      "微风"
-    ]
-  },
-  {
-    "name": "tornado",
-    "trans": [
-      "龙卷风"
-    ]
-  },
-  {
-    "name": "typhoon",
-    "trans": [
-      "台风"
-    ]
-  },
-  {
-    "name": "snow",
-    "trans": [
-      "雪"
-    ]
-  },
-  {
-    "name": "blizzard",
-    "trans": [
-      "暴风雪"
-    ]
-  },
-  {
-    "name": "snowstorm",
-    "trans": [
-      "暴风雪"
-    ]
-  },
-  {
-    "name": "drizzle",
-    "trans": [
-      "毛毛雨"
-    ]
-  },
-  {
-    "name": "light rain",
-    "trans": [
-      "小雨"
-    ]
-  },
-  {
-    "name": "downpour",
-    "trans": [
-      "倾盆大雨"
-    ]
-  },
-  {
-    "name": "storm",
-    "trans": [
-      "暴风雨"
-    ]
-  },
-  {
-    "name": "shower",
-    "trans": [
-      "阵雨"
-    ]
-  },
-  {
-    "name": "fog",
-    "trans": [
-      "雾"
-    ]
-  },
-  {
-    "name": "mist",
-    "trans": [
-      "薄雾"
-    ]
-  },
-  {
-    "name": "smog",
-    "trans": [
-      "烟雾"
-    ]
-  },
-  {
-    "name": "foggy",
-    "trans": [
-      "有雾的"
-    ]
-  },
-  {
-    "name": "misty",
-    "trans": [
-      "有薄雾的"
-    ]
-  },
-  {
-    "name": "lift vi",
-    "trans": [
-      "云、雾等的)消散；(雨等)暂停"
-    ]
-  },
-  {
-    "name": "climate",
-    "trans": [
-      "气候"
-    ]
-  },
-  {
-    "name": "weather forecast",
-    "trans": [
-      "天气预报"
-    ]
-  },
-  {
-    "name": "warm up",
-    "trans": [
-      "转暖"
-    ]
-  },
-  {
-    "name": "By afternoon the smog had lifted",
-    "trans": [
-      "到下午雾气散尽。"
-    ]
-  },
-  {
-    "name": "The rain lifted by morning",
-    "trans": [
-      "到清晨大雨暂停。"
-    ]
-  },
-  {
-    "name": "It rains cats and dogs/The rain is pouring",
-    "trans": [
-      "下着倾盆大雨。"
-    ]
-  },
-  {
-    "name": "clear up",
-    "trans": [
-      "天空放晴"
-    ]
-  },
-  {
-    "name": "put away clothes",
-    "trans": [
-      "下雨收衣服"
-    ]
-  },
-  {
-    "name": "weather in London/Seattle",
-    "trans": [
-      "意指不好的天气"
-    ]
-  },
-  {
-    "name": "weather in California",
-    "trans": [
-      "意指好天气"
-    ]
-  },
-  {
-    "name": "vacation",
-    "trans": [
-      "经常和天气相联系的情况：(度假)和(航班)"
-    ]
-  },
-  {
-    "name": "vacation/holiday",
-    "trans": [
-      "假日"
-    ]
-  },
-  {
-    "name": "historic spot",
-    "trans": [
-      "古迹"
-    ]
-  },
-  {
-    "name": "scenery",
-    "trans": [
-      "风景"
-    ]
-  },
-  {
-    "name": "museum",
-    "trans": [
-      "博物馆"
-    ]
-  },
-  {
-    "name": "mountain",
-    "trans": [
-      "山脉"
-    ]
-  },
-  {
-    "name": "river",
-    "trans": [
-      "河流"
-    ]
-  },
-  {
-    "name": "lake",
-    "trans": [
-      "湖泊"
-    ]
-  },
-  {
-    "name": "waterfall",
-    "trans": [
-      "瀑布"
-    ]
-  },
-  {
-    "name": "beach",
-    "trans": [
-      "沙滩"
-    ]
-  },
-  {
-    "name": "island",
-    "trans": [
-      "岛屿"
-    ]
-  },
-  {
-    "name": "lawn",
-    "trans": [
-      "草地"
-    ]
-  },
-  {
-    "name": "temple",
-    "trans": [
-      "寺庙"
-    ]
-  },
-  {
-    "name": "zoo",
-    "trans": [
-      "动物园"
-    ]
-  },
-  {
-    "name": "a guided tour",
-    "trans": [
-      "有导游的旅行"
-    ]
-  },
-  {
-    "name": "travel agency",
-    "trans": [
-      "旅行社"
-    ]
-  },
-  {
-    "name": "go sightseeing",
-    "trans": [
-      "观光"
-    ]
-  },
-  {
-    "name": "hotel",
-    "trans": [
-      "宾馆"
-    ]
-  },
-  {
-    "name": "souvenir",
-    "trans": [
-      "纪念品"
-    ]
-  },
-  {
-    "name": "ticket",
-    "trans": [
-      "票"
-    ]
-  },
-  {
-    "name": "travel/trip/tour/voyage",
-    "trans": [
-      "旅行"
-    ]
-  },
-  {
-    "name": "plane/airplane/aeroplane",
-    "trans": [
-      "飞机"
-    ]
-  },
-  {
-    "name": "ship",
-    "trans": [
-      "轮船"
-    ]
-  },
-  {
-    "name": "taxi",
-    "trans": [
-      "出租车"
-    ]
-  },
-  {
-    "name": "subway/underground",
-    "trans": [
-      "地铁"
-    ]
-  },
-  {
-    "name": "railway",
-    "trans": [
-      "铁路"
-    ]
-  },
-  {
-    "name": "highway",
-    "trans": [
-      "公路"
-    ]
-  },
-  {
-    "name": "freeway/expressway",
-    "trans": [
-      "高速公路"
-    ]
-  },
-  {
-    "name": "fascinating",
-    "trans": [
-      "迷人的"
-    ]
-  },
-  {
-    "name": "thrilling",
-    "trans": [
-      "刺激的"
-    ]
-  },
-  {
-    "name": "unforgettable",
-    "trans": [
-      "难忘的"
-    ]
-  },
-  {
-    "name": "terrific",
-    "trans": [
-      "好极了"
-    ]
-  },
-  {
-    "name": "fantastic",
-    "trans": [
-      "难忘的"
-    ]
-  },
-  {
-    "name": "part-time job",
-    "trans": [
-      "兼职工作"
-    ]
-  },
-  {
-    "name": "full-time job",
-    "trans": [
-      "全职工作"
-    ]
-  },
-  {
-    "name": "psychologist",
-    "trans": [
-      "心理学家"
-    ]
-  },
-  {
-    "name": "principal",
-    "trans": [
-      "校长"
-    ]
-  },
-  {
-    "name": "professor",
-    "trans": [
-      "教授"
-    ]
-  },
-  {
-    "name": "teacher",
-    "trans": [
-      "教师"
-    ]
-  },
-  {
-    "name": "policeman",
-    "trans": [
-      "警率"
-    ]
-  },
-  {
-    "name": "firefighter",
-    "trans": [
-      "消防员"
-    ]
-  },
-  {
-    "name": "secretary",
-    "trans": [
-      "秘书"
-    ]
-  },
-  {
-    "name": "assistant",
-    "trans": [
-      "助理"
-    ]
-  },
-  {
-    "name": "receptionist",
-    "trans": [
-      "接待员"
-    ]
-  },
-  {
-    "name": "typist",
-    "trans": [
-      "打字员"
-    ]
-  },
-  {
-    "name": "clerk",
-    "trans": [
-      "职员"
-    ]
-  },
-  {
-    "name": "cashier",
-    "trans": [
-      "出纳员"
-    ]
-  },
-  {
-    "name": "lawyer",
-    "trans": [
-      "律炕"
-    ]
-  },
-  {
-    "name": "editor",
-    "trans": [
-      "编辑"
-    ]
-  },
-  {
-    "name": "reporter/journalist",
-    "trans": [
-      "记者"
-    ]
-  },
-  {
-    "name": "author",
-    "trans": [
-      "作家"
-    ]
-  },
-  {
-    "name": "writer",
-    "trans": [
-      "作者"
-    ]
-  },
-  {
-    "name": "artist",
-    "trans": [
-      "艺术家"
-    ]
-  },
-  {
-    "name": "pianist",
-    "trans": [
-      "钢琴家"
-    ]
-  },
-  {
-    "name": "photographer",
-    "trans": [
-      "摄影师"
-    ]
-  },
-  {
-    "name": "painter",
-    "trans": [
-      "画家"
-    ]
-  },
-  {
-    "name": "musician",
-    "trans": [
-      "音乐家"
-    ]
-  },
-  {
-    "name": "singer",
-    "trans": [
-      "歌唱家"
-    ]
-  },
-  {
-    "name": "designer",
-    "trans": [
-      "设计师"
-    ]
-  },
-  {
-    "name": "scientist",
-    "trans": [
-      "科学家"
-    ]
-  },
-  {
-    "name": "actor/actress",
-    "trans": [
-      "男/女演员"
-    ]
-  },
-  {
-    "name": "architect",
-    "trans": [
-      "建筑师"
-    ]
-  },
-  {
-    "name": "engineer",
-    "trans": [
-      "工程师"
-    ]
-  },
-  {
-    "name": "chef/cook",
-    "trans": [
-      "厨师"
-    ]
-  },
-  {
-    "name": "mailman",
-    "trans": [
-      "邮差"
-    ]
-  },
-  {
-    "name": "guide",
-    "trans": [
-      "导游"
-    ]
-  },
-  {
-    "name": "competition",
-    "trans": [
-      "竞赛"
-    ]
-  },
-  {
-    "name": "the sports field",
-    "trans": [
-      "运动场"
-    ]
-  },
-  {
-    "name": "club",
-    "trans": [
-      "俱乐部"
-    ]
-  },
-  {
-    "name": "sportsman/athlete/player",
-    "trans": [
-      "运动员"
-    ]
-  },
-  {
-    "name": "coach",
-    "trans": [
-      "教练"
-    ]
-  },
-  {
-    "name": "champion",
-    "trans": [
-      "冠军"
-    ]
-  },
-  {
-    "name": "gold medal",
-    "trans": [
-      "金牌"
-    ]
-  },
-  {
-    "name": "silver medal",
-    "trans": [
-      "银牌"
-    ]
-  },
-  {
-    "name": "bronze medal",
-    "trans": [
-      "铜牌"
-    ]
-  },
-  {
-    "name": "basketball",
-    "trans": [
-      "篮球"
-    ]
-  },
-  {
-    "name": "football",
-    "trans": [
-      "美式足球"
-    ]
-  },
-  {
-    "name": "soccer",
-    "trans": [
-      "英式足球"
-    ]
-  },
-  {
-    "name": "volleyball",
-    "trans": [
-      "排球"
-    ]
-  },
-  {
-    "name": "baseball",
-    "trans": [
-      "棒球"
-    ]
-  },
-  {
-    "name": "tennis",
-    "trans": [
-      "网球"
-    ]
-  },
-  {
-    "name": "table tennis/ping-pong",
-    "trans": [
-      "乒乓球"
-    ]
-  },
-  {
-    "name": "golf",
-    "trans": [
-      "高尔夫球"
-    ]
-  },
-  {
-    "name": "jogging",
-    "trans": [
-      "慢跑"
-    ]
-  },
-  {
-    "name": "swimming",
-    "trans": [
-      "游泳"
-    ]
-  },
-  {
-    "name": "wrestling",
-    "trans": [
-      "摔跤"
-    ]
-  },
-  {
-    "name": "shooting",
-    "trans": [
-      "射击"
-    ]
-  },
-  {
-    "name": "boxing",
-    "trans": [
-      "拳击"
-    ]
-  },
-  {
-    "name": "weightlifting",
-    "trans": [
-      "举重"
-    ]
-  },
-  {
-    "name": "relay race",
-    "trans": [
-      "接力赛"
-    ]
-  },
-  {
-    "name": "break the world record",
-    "trans": [
-      "打破世界纪录"
-    ]
-  },
-  {
-    "name": "hold the world record",
-    "trans": [
-      "保持世界纪录"
-    ]
-  },
-  {
-    "name": "job opportunity",
-    "trans": [
-      "求职机会"
-    ]
-  },
-  {
-    "name": "interview",
-    "trans": [
-      "面试"
-    ]
-  },
-  {
-    "name": "resume",
-    "trans": [
-      "简历"
-    ]
-  },
-  {
-    "name": "educational background",
-    "trans": [
-      "教育背景"
-    ]
-  },
-  {
-    "name": "application letter",
-    "trans": [
-      "求职信"
-    ]
-  },
-  {
-    "name": "recommendation",
-    "trans": [
-      "推荐信"
-    ]
-  },
-  {
-    "name": "certificate",
-    "trans": [
-      "证书"
-    ]
-  },
-  {
-    "name": "qualification",
-    "trans": [
-      "资历"
-    ]
-  },
-  {
-    "name": "experience",
-    "trans": [
-      "经验/经历"
-    ]
-  },
-  {
-    "name": "position/post",
-    "trans": [
-      "职位"
-    ]
-  },
-  {
-    "name": "salary",
-    "trans": [
-      "薪水"
-    ]
-  },
-  {
-    "name": "allowance",
-    "trans": [
-      "津贴"
-    ]
-  },
-  {
-    "name": "promotion",
-    "trans": [
-      "晋升"
-    ]
-  },
-  {
-    "name": "vacation",
-    "trans": [
-      "休假"
-    ]
-  },
-  {
-    "name": "break",
-    "trans": [
-      "喝杯茶或咖啡的)休息"
-    ]
-  },
-  {
-    "name": "retire",
-    "trans": [
-      "退休"
-    ]
-  },
-  {
-    "name": "shift work",
-    "trans": [
-      "换班工作"
-    ]
-  },
-  {
-    "name": "work overtime",
-    "trans": [
-      "加班"
-    ]
-  },
-  {
-    "name": "pay raise",
-    "trans": [
-      "加薪"
-    ]
-  },
-  {
-    "name": "ask for leave",
-    "trans": [
-      "请假"
-    ]
-  },
-  {
-    "name": "sick leave",
-    "trans": [
-      "病假"
-    ]
-  },
-  {
-    "name": "employee",
-    "trans": [
-      "雇员"
-    ]
-  },
-  {
-    "name": "employer",
-    "trans": [
-      "雇主"
-    ]
-  },
-  {
-    "name": "clerk",
-    "trans": [
-      "职员"
-    ]
-  },
-  {
-    "name": "secretary",
-    "trans": [
-      "秘书"
-    ]
-  },
-  {
-    "name": "manager",
-    "trans": [
-      "经理"
-    ]
-  },
-  {
-    "name": "HR manager",
-    "trans": [
-      "人事经理"
-    ]
-  },
-  {
-    "name": "general manager",
-    "trans": [
-      "总经理"
-    ]
-  },
-  {
-    "name": "client",
-    "trans": [
-      "客户"
-    ]
-  },
-  {
-    "name": "hobby",
-    "trans": [
-      "兴趣"
-    ]
-  },
-  {
-    "name": "entertainment",
-    "trans": [
-      "娱乐"
-    ]
-  },
-  {
-    "name": "go to the theater/movies/cinema",
-    "trans": [
-      "去看电影"
-    ]
-  },
-  {
-    "name": "documentary/film",
-    "trans": [
-      "记录片/文献片"
-    ]
-  },
-  {
-    "name": "detective film",
-    "trans": [
-      "侦探片"
-    ]
-  },
-  {
-    "name": "action movie",
-    "trans": [
-      "动作片"
-    ]
-  },
-  {
-    "name": "cartoon",
-    "trans": [
-      "漫画/动画片"
-    ]
-  },
-  {
-    "name": "comedy",
-    "trans": [
-      "喜剧"
-    ]
-  },
-  {
-    "name": "horror film",
-    "trans": [
-      "恐怖片"
-    ]
-  },
-  {
-    "name": "western film",
-    "trans": [
-      "西部片"
-    ]
-  },
-  {
-    "name": "hiking",
-    "trans": [
-      "徒步旅行"
-    ]
-  },
-  {
-    "name": "camping",
-    "trans": [
-      "野营"
-    ]
-  },
-  {
-    "name": "diving",
-    "trans": [
-      "潜水"
-    ]
-  },
-  {
-    "name": "surfing",
-    "trans": [
-      "冲浪"
-    ]
-  },
-  {
-    "name": "skiing",
-    "trans": [
-      "滑雪"
-    ]
-  },
-  {
-    "name": "seashore",
-    "trans": [
-      "海岸"
-    ]
-  },
-  {
-    "name": "beach",
-    "trans": [
-      "海滩"
-    ]
-  },
-  {
-    "name": "sunburned",
-    "trans": [
-      "晒黑的"
-    ]
-  },
-  {
-    "name": "palace",
-    "trans": [
-      "宫殿"
-    ]
-  },
-  {
-    "name": "castle",
-    "trans": [
-      "城堡"
-    ]
-  },
-  {
-    "name": "spare time",
-    "trans": [
-      "业余时间"
-    ]
-  },
-  {
-    "name": "favorite",
-    "trans": [
-      "最喜欢的"
-    ]
-  },
-  {
-    "name": "interest",
-    "trans": [
-      "兴趣"
-    ]
-  },
-  {
-    "name": "hobby",
-    "trans": [
-      "爱好"
-    ]
-  },
-  {
-    "name": "appetite",
-    "trans": [
-      "嗜好"
-    ]
-  },
-  {
-    "name": "taste",
-    "trans": [
-      "口味"
-    ]
-  },
-  {
-    "name": "read novels",
-    "trans": [
-      "读小说"
-    ]
-  },
-  {
-    "name": "play football/basketball",
-    "trans": [
-      "打足球/篮球"
-    ]
-  },
-  {
-    "name": "surf the Internet",
-    "trans": [
-      "上网"
-    ]
-  },
-  {
-    "name": "chat online",
-    "trans": [
-      "在线聊天"
-    ]
-  },
-  {
-    "name": "play games",
-    "trans": [
-      "玩游戏"
-    ]
-  },
-  {
-    "name": "collect stamps",
-    "trans": [
-      "集邮"
-    ]
-  },
-  {
-    "name": "make e-friends",
-    "trans": [
-      "交网友"
-    ]
-  },
-  {
-    "name": "climb mountains",
-    "trans": [
-      "爬山"
-    ]
-  },
-  {
-    "name": "watch TV",
-    "trans": [
-      "看电视"
-    ]
-  },
-  {
-    "name": "be keen on",
-    "trans": [
-      "喜欢…"
-    ]
-  },
-  {
-    "name": "enjoy popular music",
-    "trans": [
-      "喜欢流行音乐"
-    ]
-  },
-  {
-    "name": "be interested in",
-    "trans": [
-      "对……感兴趣"
-    ]
-  },
-  {
-    "name": "develop an interest in",
-    "trans": [
-      "在……方面发展兴趣"
-    ]
-  },
-  {
-    "name": "be fond of",
-    "trans": [
-      "喜欢……"
-    ]
-  },
-  {
-    "name": "have love for",
-    "trans": [
-      "喜爱……"
-    ]
-  },
-  {
-    "name": "have a taste in",
-    "trans": [
-      "对……有兴趣"
-    ]
-  },
-  {
-    "name": "landlady",
-    "trans": [
-      "女房东"
-    ]
-  },
-  {
-    "name": "landlord",
-    "trans": [
-      "房东"
-    ]
-  },
-  {
-    "name": "rent",
-    "trans": [
-      "租，租金"
-    ]
-  },
-  {
-    "name": "deposit",
-    "trans": [
-      "押金"
-    ]
-  },
-  {
-    "name": "contract",
-    "trans": [
-      "合同"
-    ]
-  },
-  {
-    "name": "furnished",
-    "trans": [
-      "有家具电器的"
-    ]
-  },
-  {
-    "name": "heat",
-    "trans": [
-      "暖气"
-    ]
-  },
-  {
-    "name": "gas",
-    "trans": [
-      "煤气"
-    ]
-  },
-  {
-    "name": "electricity",
-    "trans": [
-      "电"
-    ]
-  },
-  {
-    "name": "lift/elevator",
-    "trans": [
-      "电梯"
-    ]
-  },
-  {
-    "name": "stairs",
-    "trans": [
-      "楼梯"
-    ]
-  },
-  {
-    "name": "balcony",
-    "trans": [
-      "阳台"
-    ]
-  },
-  {
-    "name": "living room",
-    "trans": [
-      "起居室"
-    ]
-  },
-  {
-    "name": "guest room",
-    "trans": [
-      "客厅"
-    ]
-  },
-  {
-    "name": "dining room",
-    "trans": [
-      "餐厅"
-    ]
-  },
-  {
-    "name": "kitchen",
-    "trans": [
-      "厨房"
-    ]
-  },
-  {
-    "name": "bathroom",
-    "trans": [
-      "浴室"
-    ]
-  },
-  {
-    "name": "toilet",
-    "trans": [
-      "卫生间"
-    ]
-  },
-  {
-    "name": "basement",
-    "trans": [
-      "地下室"
-    ]
-  },
-  {
-    "name": "housework",
-    "trans": [
-      "家务"
-    ]
-  },
-  {
-    "name": "channel",
-    "trans": [
-      "频道"
-    ]
-  },
-  {
-    "name": "cook",
-    "trans": [
-      "烹饪"
-    ]
-  },
-  {
-    "name": "furniture",
-    "trans": [
-      "家具"
-    ]
-  },
-  {
-    "name": "dining table",
-    "trans": [
-      "餐桌"
-    ]
-  },
-  {
-    "name": "fridge",
-    "trans": [
-      "冰箱"
-    ]
-  },
-  {
-    "name": "television",
-    "trans": [
-      "电视"
-    ]
-  },
-  {
-    "name": "oven",
-    "trans": [
-      "烤箱"
-    ]
-  },
-  {
-    "name": "cabinet",
-    "trans": [
-      "橱柜"
-    ]
-  },
-  {
-    "name": "dishwasher",
-    "trans": [
-      "洗碗机"
-    ]
-  },
-  {
-    "name": "sheet",
-    "trans": [
-      "床单"
-    ]
-  },
-  {
-    "name": "blanket",
-    "trans": [
-      "毯子"
-    ]
-  },
-  {
-    "name": "carpet",
-    "trans": [
-      "地毯"
-    ]
-  },
-  {
-    "name": "curtain",
-    "trans": [
-      "窗帘"
-    ]
-  },
-  {
-    "name": "towel",
-    "trans": [
-      "毛巾"
-    ]
-  },
-  {
-    "name": "shampoo",
-    "trans": [
-      "洗发水"
-    ]
-  },
-  {
-    "name": "soap",
-    "trans": [
-      "香皂"
-    ]
-  },
-  {
-    "name": "haircut",
-    "trans": [
-      "理发"
-    ]
-  },
-  {
-    "name": "barber",
-    "trans": [
-      "理发师"
-    ]
-  },
-  {
-    "name": "shaver",
-    "trans": [
-      "剃须刀"
-    ]
-  },
-  {
-    "name": "shave",
-    "trans": [
-      "剃须"
-    ]
-  }
+    {
+        "name": "go out for dinner/dine out",
+        "trans": [
+            "to go out to have a meal"
+        ]
+    },
+    {
+        "name": "go Dutch/Let's go fifty fifty",
+        "trans": [
+            "AA system"
+        ]
+    },
+    {
+        "name": "buffet",
+        "trans": [
+            "v. to strike, beat repeatedly",
+            "v. to strike against forcefully",
+            "n. a piece of furniture that stands at the side of a dining room"
+        ]
+    },
+    {
+        "name": "dining hall",
+        "trans": [
+            "dining hall"
+        ]
+    },
+    {
+        "name": "coffee shop/cafe",
+        "trans": [
+            "café, (reception) hall"
+        ]
+    },
+    {
+        "name": "cafeteria",
+        "trans": [
+            "n. a restaurant where you serve yourself and pay a cashier"
+        ]
+    },
+    {
+        "name": "restaurant",
+        "trans": [
+            "n. a building where people go to eat"
+        ]
+    },
+    {
+        "name": "canteen",
+        "trans": [
+            "n. a flask for carrying water",
+            "n. restaurant in a factory",
+            "n. a recreation room in an institution"
+        ]
+    },
+    {
+        "name": "snack bar",
+        "trans": [
+            "n. usually inexpensive bar"
+        ]
+    },
+    {
+        "name": "appetizer",
+        "trans": [
+            "n. food or drink to stimulate the appetite (usually served before a meal or as the first course)"
+        ]
+    },
+    {
+        "name": "steak",
+        "trans": [
+            "n. a slice of meat cut from the fleshy part of an animal or large fish"
+        ]
+    },
+    {
+        "name": "cheese",
+        "trans": [
+            "v. to wind onto a cheese",
+            "v. to get away, or stop it",
+            "n. a solid food prepared from the pressed curd of milk"
+        ]
+    },
+    {
+        "name": "sandwich",
+        "trans": [
+            "v. insert or squeeze tightly between two people or objects",
+            "v. make into a sandwich",
+            "n. two or more slices of bread with a filling between them"
+        ]
+    },
+    {
+        "name": "bacon",
+        "trans": [
+            "n. back and sides of a hog salted and dried or smoked"
+        ]
+    },
+    {
+        "name": "soup",
+        "trans": [
+            "v. dope (a racehorse)",
+            "n. liquid food especially of meat or fish or vegetable stock often containing pieces of solid food",
+            "n. an unfortunate situation"
+        ]
+    },
+    {
+        "name": "plain water",
+        "trans": [
+            "running water Western-style food within to wash one's hands to use"
+        ]
+    },
+    {
+        "name": "hamburger",
+        "trans": [
+            "n. beef that has been ground",
+            "n. a sandwich consisting of a fried cake of minced beef served on a bun, often with other ingredients"
+        ]
+    },
+    {
+        "name": "doughnut",
+        "trans": [
+            "n. a small ring-shaped friedcake",
+            "n. a toroidal shape"
+        ]
+    },
+    {
+        "name": "dessert",
+        "trans": [
+            "n. a dish served as the last course of a meal"
+        ]
+    },
+    {
+        "name": "coke",
+        "trans": [
+            "v. to become coke",
+            "n. street names for cocaine",
+            "n. carbon fuel produced by distillation of coal"
+        ]
+    },
+    {
+        "name": "French fries",
+        "trans": [
+            "n. strips of potato fried in deep fat"
+        ]
+    },
+    {
+        "name": "order",
+        "trans": [
+            "v. place in a certain order",
+            "v. bring order to or into",
+            "v. assign a rank or rating to"
+        ]
+    },
+    {
+        "name": "serve",
+        "trans": [
+            "v. put the ball into play",
+            "v. do duty or hold offices",
+            "v. provide (usually but not necessarily food)"
+        ]
+    },
+    {
+        "name": "change",
+        "trans": [
+            "v. to undergo a change",
+            "v. to become different in some particular way, without permanently losing one's or its former characteristics or essence",
+            "v. to cause to change"
+        ]
+    },
+    {
+        "name": "tip",
+        "trans": [
+            "v. remove the tip from",
+            "v. mark with a tip",
+            "v. give insider information or advise to"
+        ]
+    },
+    {
+        "name": "treat/This is my treat",
+        "trans": [
+            "to give a dinner party I to give a dinner party"
+        ]
+    },
+    {
+        "name": "Keep the change",
+        "trans": [
+            "\"keep the change\" (restaurant expression) change (of money)"
+        ]
+    },
+    {
+        "name": "waiter/waitress",
+        "trans": [
+            "baron, the lowest of the five ranks of nobility [wu3 deng3 jue2 wei4], female attendant"
+        ]
+    },
+    {
+        "name": "menu",
+        "trans": [
+            "n. an agenda of things to do",
+            "n. a list of dishes available at a restaurant",
+            "n. (computer science) a list of options available to a computer user"
+        ]
+    },
+    {
+        "name": "knife",
+        "trans": [
+            "v. to use a knife on",
+            "n. an edged tool used as a cutting instrument or weapon"
+        ]
+    },
+    {
+        "name": "fork",
+        "trans": [
+            "v. shape like a fork",
+            "v. divide into two or more branches so as to form a fork",
+            "v. place under attack with one's own pieces, of two enemy pieces"
+        ]
+    },
+    {
+        "name": "spoon",
+        "trans": [
+            "v. snuggle and lie in a position where one person faces the back of the others",
+            "v. scoop up or take up with a spoon",
+            "n. a piece of cutlery with a shallow bowl-shaped container and a handle"
+        ]
+    },
+    {
+        "name": "chopsticks",
+        "trans": [
+            "n. one of a pair of slender sticks used as oriental tableware to eat food with"
+        ]
+    },
+    {
+        "name": "plate",
+        "trans": [
+            "v. coat with a layer of metal",
+            "n. a dental appliance that artificially replaces missing teeth",
+            "n. (baseball) base consisting of a rubber slab where the batter stands"
+        ]
+    },
+    {
+        "name": "tray",
+        "trans": [
+            "n. an open receptacle for holding, displaying, or serving articles or food"
+        ]
+    },
+    {
+        "name": "French fries",
+        "trans": [
+            "n. strips of potato fried in deep fat"
+        ]
+    },
+    {
+        "name": "pizza",
+        "trans": [
+            "n. Italian open pie made of thin bread dough spread with a spiced mixture of e.g. tomato sauce and cheese"
+        ]
+    },
+    {
+        "name": "ressing",
+        "trans": [
+            "seasoning thick paste of fermented soybean"
+        ]
+    },
+    {
+        "name": "rare",
+        "trans": [
+            "adj. not widely distributed",
+            "adj. not widely known",
+            "adj. of meat, cooked a short time"
+        ]
+    },
+    {
+        "name": "drink",
+        "trans": [
+            "v. be fascinated or spell-bound by",
+            "v. take in liquids",
+            "v. consume alcohol"
+        ]
+    },
+    {
+        "name": "wine",
+        "trans": [
+            "v. treat to wine",
+            "v. drink wine",
+            "n. a red as dark as red wine"
+        ]
+    },
+    {
+        "name": "Coca-Cola",
+        "trans": [
+            "Coca-Cola"
+        ]
+    },
+    {
+        "name": "pay the bill",
+        "trans": [
+            "to settle an account"
+        ]
+    },
+    {
+        "name": "stamp",
+        "trans": [
+            "v. destroy or extinguish as if by stamping with the foot",
+            "v. treat or classify according to a mental stereotype",
+            "v. to mark, or produce an imprint in or on something"
+        ]
+    },
+    {
+        "name": "envelope",
+        "trans": [
+            "n. any wrapper or covering",
+            "n. a flat (usually rectangular) container for a letter, thin package, etc.",
+            "n. the bag containing the gas in a balloon"
+        ]
+    },
+    {
+        "name": "package/parcel",
+        "trans": [
+            "to wrap up"
+        ]
+    },
+    {
+        "name": "parcel form",
+        "trans": [
+            "to wrap up bill"
+        ]
+    },
+    {
+        "name": "overweight",
+        "trans": [
+            "adj. usually describes a large person who is fat but has a large frame to carry it",
+            "n. the property of excessive fatness"
+        ]
+    },
+    {
+        "name": "postage",
+        "trans": [
+            "n. a small adhesive token stuck on a letter or package to indicate that that postal fees have been paid",
+            "n. the charge for mailing something"
+        ]
+    },
+    {
+        "name": "extra postage",
+        "trans": [
+            "extra postage"
+        ]
+    },
+    {
+        "name": "send/post/deliver a letter/mail",
+        "trans": [
+            "to entrust, to post a letter"
+        ]
+    },
+    {
+        "name": "express mail",
+        "trans": [
+            "n. mail that is distributed by a rapid and efficient system"
+        ]
+    },
+    {
+        "name": "airmail",
+        "trans": [
+            "v. to send or transport by airmail",
+            "n. a system of conveying mail by aircraft",
+            "n. letters and packages that are transported by aircraft"
+        ]
+    },
+    {
+        "name": "surface mail",
+        "trans": [
+            "n. mail that is sent by land or sea"
+        ]
+    },
+    {
+        "name": "registered letter",
+        "trans": [
+            "registered letter"
+        ]
+    },
+    {
+        "name": "ordinary letter",
+        "trans": [
+            "ordinary mail (as opposed to air mail etc)"
+        ]
+    },
+    {
+        "name": "open an account",
+        "trans": [
+            "to open (transitive or intransitive) a curtain a household"
+        ]
+    },
+    {
+        "name": "insurance",
+        "trans": [
+            "n. written contract or certificate of insurance",
+            "n. promise of reimbursement in the case of loss",
+            "n. protection against future loss"
+        ]
+    },
+    {
+        "name": "claim",
+        "trans": [
+            "v. to take, as an undesirable consequence of some event or state of affairs",
+            "v. to assert or affirm strongly",
+            "v. to lay claim to"
+        ]
+    },
+    {
+        "name": "weight",
+        "trans": [
+            "v. present with a bias",
+            "v. weight down with a load",
+            "n. an artifact that is heavy"
+        ]
+    },
+    {
+        "name": "zip/post code",
+        "trans": [
+            "postal code"
+        ]
+    },
+    {
+        "name": "international airmail",
+        "trans": [
+            "international airmail"
+        ]
+    },
+    {
+        "name": "open an account",
+        "trans": [
+            "to open (transitive or intransitive) a curtain a household"
+        ]
+    },
+    {
+        "name": "library card",
+        "trans": [
+            "n. a card certifying the bearer's right to use the library"
+        ]
+    },
+    {
+        "name": "borrow",
+        "trans": [
+            "v. to get temporarily",
+            "v. to take up and practice as one's own"
+        ]
+    },
+    {
+        "name": "lend",
+        "trans": [
+            "v. give temporarily",
+            "v. bestow a quality on",
+            "v. have certain characteristics of qualities for something"
+        ]
+    },
+    {
+        "name": "keep",
+        "trans": [
+            "v. prevent (food) from rotting",
+            "v. stick to correctly or closely",
+            "v. maintain by writing regular records"
+        ]
+    },
+    {
+        "name": "renew",
+        "trans": [
+            "v. cause to appear in a new form",
+            "v. reestablish on a new, usually improved, basis or make new or like new"
+        ]
+    },
+    {
+        "name": "overdue",
+        "trans": [
+            "adj. past due"
+        ]
+    },
+    {
+        "name": "bookshelf",
+        "trans": [
+            "n. a shelf on which to keep books"
+        ]
+    },
+    {
+        "name": "novel",
+        "trans": [
+            "adj. pleasantly new or different",
+            "adj. original and of a kind not seen before",
+            "n. a printed and bound book that is an extended work of fiction"
+        ]
+    },
+    {
+        "name": "science fiction",
+        "trans": [
+            "n. literary fantasy involving the imagined impact of science on society"
+        ]
+    },
+    {
+        "name": "magazine/newspaper",
+        "trans": [
+            "magazine"
+        ]
+    },
+    {
+        "name": "periodical",
+        "trans": [
+            "adj. happening or recurring at regular intervals",
+            "n. a publication that appears at fixed intervals"
+        ]
+    },
+    {
+        "name": "reference book",
+        "trans": [
+            "n. a book to which you can refer for authoritative facts"
+        ]
+    },
+    {
+        "name": "librarian",
+        "trans": [
+            "n. a professional person trained in library science and engaged in library services"
+        ]
+    },
+    {
+        "name": "pay a fine",
+        "trans": [
+            "to hand over to fine"
+        ]
+    },
+    {
+        "name": "tuition",
+        "trans": [
+            "n. teaching pupils individually, usually by a tutor hired privately",
+            "n. a fee paid for instruction (especially for higher education)"
+        ]
+    },
+    {
+        "name": "scholarship",
+        "trans": [
+            "n. profound scholarly knowledge",
+            "n. financial aid provided to a student on the basis of academic merit"
+        ]
+    },
+    {
+        "name": "term/semester",
+        "trans": [
+            "term"
+        ]
+    },
+    {
+        "name": "register",
+        "trans": [
+            "v. enter into someone's consciousness",
+            "v. indicate a certain reading",
+            "v. record in a public office or in a court of law"
+        ]
+    },
+    {
+        "name": "be absent",
+        "trans": [
+            "deficiency subject"
+        ]
+    },
+    {
+        "name": "seminar",
+        "trans": [
+            "n. a course offered for a small group of advanced students",
+            "n. any meeting for an exchange of ideas"
+        ]
+    },
+    {
+        "name": "assignment",
+        "trans": [
+            "n. the act of putting a person into a non-elective position",
+            "n. the act of distributing something to designated places or persons",
+            "n. a duty that you are assigned to perform, especially in the armed forces"
+        ]
+    },
+    {
+        "name": "presentation",
+        "trans": [
+            "n. a show or display",
+            "n. the activity of formally presenting something like a prize or reward",
+            "n. a visual representation of something"
+        ]
+    },
+    {
+        "name": "final exam",
+        "trans": [
+            "n. an examination administered at the end of an academic term"
+        ]
+    },
+    {
+        "name": "go over",
+        "trans": [
+            "v. to fall forward and down",
+            "v. to happen in a particular manner",
+            "v. to examine so as to determine accuracy, quality, or condition"
+        ]
+    },
+    {
+        "name": "fail",
+        "trans": [
+            "v. get worse",
+            "v. stop operating or functioning",
+            "v. prove insufficient"
+        ]
+    },
+    {
+        "name": "cut a class",
+        "trans": [
+            "to skip class"
+        ]
+    },
+    {
+        "name": "graduate",
+        "trans": [
+            "v. make fine adjustments or divide into marked intervals for optimal measuring",
+            "v. confer an academic degree upon",
+            "v. receive an academic degree upon completion of one's studies"
+        ]
+    },
+    {
+        "name": "stationery",
+        "trans": [
+            "n. paper cut to an appropriate size for writing letters"
+        ]
+    },
+    {
+        "name": "skip class",
+        "trans": [
+            "to skip school, to play truant"
+        ]
+    },
+    {
+        "name": "pay a fine",
+        "trans": [
+            "to hand over to fine"
+        ]
+    },
+    {
+        "name": "hospital",
+        "trans": [
+            "n. a health facility where patients receive treatment",
+            "n. a medical institution where sick or injured people are given medical or surgical care"
+        ]
+    },
+    {
+        "name": "emergence department/room",
+        "trans": [
+            "emergency room"
+        ]
+    },
+    {
+        "name": "clinic",
+        "trans": [
+            "n. a healthcare facility for outpatient care",
+            "n. meeting for diagnosis of problems and instruction or remedial work in a particular activity",
+            "n. a medical establishment run by a group of medical specialists"
+        ]
+    },
+    {
+        "name": "ICU /intensive care unit",
+        "trans": [
+            "special nursing ward (of a hospital)"
+        ]
+    },
+    {
+        "name": "treatment",
+        "trans": [
+            "n. care provided to improve a situation (especially medical procedures or applications that are intended to relieve illness or injury)",
+            "n. the management of someone or something",
+            "n. a manner of dealing with something artistically"
+        ]
+    },
+    {
+        "name": "take one's temperature/blood pressure",
+        "trans": [
+            "survey (body) temperature, blood pressure"
+        ]
+    },
+    {
+        "name": "medicine:pills/tablets",
+        "trans": [
+            "pill, a (medicine) pill or tablet"
+        ]
+    },
+    {
+        "name": "aspirin",
+        "trans": [
+            "n. the acetylated derivative of salicylic acid"
+        ]
+    },
+    {
+        "name": "heart attack",
+        "trans": [
+            "n. a sudden and severe instance of abnormal heart function resulting from the lack of blood flow to a part of the heart"
+        ]
+    },
+    {
+        "name": "cold/flu",
+        "trans": [
+            "flu"
+        ]
+    },
+    {
+        "name": "have/catch a cold",
+        "trans": [
+            "to catch cold"
+        ]
+    },
+    {
+        "name": "pain",
+        "trans": [
+            "v. cause bodily suffering to and make sick or indisposed",
+            "v. cause emotional anguish or make miserable",
+            "n. a somatic sensation of acute discomfort"
+        ]
+    },
+    {
+        "name": "headache",
+        "trans": [
+            "n. something or someone that causes anxiety",
+            "n. pain in the head caused by dilation of cerebral arteries or muscle contractions or a reaction to drugs"
+        ]
+    },
+    {
+        "name": "stomachache",
+        "trans": [
+            "n. an ache localized in the stomach or abdominal region"
+        ]
+    },
+    {
+        "name": "backache",
+        "trans": [
+            "n. an ache localized in the back"
+        ]
+    },
+    {
+        "name": "have a sore throat",
+        "trans": [
+            "the throat ache"
+        ]
+    },
+    {
+        "name": "cough",
+        "trans": [
+            "v. to exhale abruptly, as when one has a chest cold or congestion",
+            "n. a sudden noisy expulsion of air from the lungs that clears the air passages"
+        ]
+    },
+    {
+        "name": "fever",
+        "trans": [
+            "n. intense nervous anticipation",
+            "n. a rise in the temperature of the body"
+        ]
+    },
+    {
+        "name": "doctor",
+        "trans": [
+            "v. give medical treatment to",
+            "v. restore by replacing a part or putting together what is torn or broken",
+            "v. alter and make impure, as with the intention to deceive"
+        ]
+    },
+    {
+        "name": "regular doctor",
+        "trans": [
+            "private doctor"
+        ]
+    },
+    {
+        "name": "dentist",
+        "trans": [
+            "n. a person qualified to practice dentistry"
+        ]
+    },
+    {
+        "name": "surgeon",
+        "trans": [
+            "n. a physician who specializes in surgery"
+        ]
+    },
+    {
+        "name": "physician",
+        "trans": [
+            "n. a licensed medical practitioner"
+        ]
+    },
+    {
+        "name": "nurse",
+        "trans": [
+            "v. to try to cure by special care of treatment, of an illness or injury",
+            "v. give suck to",
+            "v. maintain (a theory, thoughts, or feelings)"
+        ]
+    },
+    {
+        "name": "show one's tongue",
+        "trans": [
+            "to extend tongue"
+        ]
+    },
+    {
+        "name": "write a prescription",
+        "trans": [
+            "to open (transitive or intransitive) medical prescription"
+        ]
+    },
+    {
+        "name": "give an injection",
+        "trans": [
+            "to give or get an injection"
+        ]
+    },
+    {
+        "name": "Health Center",
+        "trans": [
+            "medical treatment center"
+        ]
+    },
+    {
+        "name": "check-up",
+        "trans": [
+            "inspection"
+        ]
+    },
+    {
+        "name": "physical examination",
+        "trans": [
+            "Taiwan pr. [ti3] to check"
+        ]
+    },
+    {
+        "name": "treatment",
+        "trans": [
+            "n. care provided to improve a situation (especially medical procedures or applications that are intended to relieve illness or injury)",
+            "n. the management of someone or something",
+            "n. a manner of dealing with something artistically"
+        ]
+    },
+    {
+        "name": "treat",
+        "trans": [
+            "v. provide treatment for",
+            "v. subject to a process or treatment, with the aim of readying for some purpose, improving, or remedying a condition",
+            "v. regard or consider in a specific way"
+        ]
+    },
+    {
+        "name": "cure",
+        "trans": [
+            "v. to provide a remedy for or make healthy again",
+            "v. to prepare by drying, salting, or chemical processing in order to preserve",
+            "v. to be or become preserved"
+        ]
+    },
+    {
+        "name": "dizzy",
+        "trans": [
+            "v. make dizzy or giddy",
+            "adj. lacking seriousness",
+            "adj. having or causing a whirling sensation"
+        ]
+    },
+    {
+        "name": "operator",
+        "trans": [
+            "n. a shrewd or unscrupulous person who knows how to circumvent difficulties",
+            "n. an agent that operates some apparatus or machine",
+            "n. someone who owns or operates a business"
+        ]
+    },
+    {
+        "name": "call/telephone/ring/phone sb",
+        "trans": [
+            "someone to make a telephone call"
+        ]
+    },
+    {
+        "name": "a call/ring",
+        "trans": [
+            "someone to make a telephone call"
+        ]
+    },
+    {
+        "name": "long-distance call",
+        "trans": [
+            "long-distance phone call"
+        ]
+    },
+    {
+        "name": "collect call",
+        "trans": [
+            "n. a telephone call that the receiving party is asked to pay for"
+        ]
+    },
+    {
+        "name": "personal phone call",
+        "trans": [
+            "private telephone"
+        ]
+    },
+    {
+        "name": "busy line",
+        "trans": [
+            "telephone busy (telephone line)"
+        ]
+    },
+    {
+        "name": "put through",
+        "trans": [
+            "v. pursue to a conclusion or bring to a successful issue",
+            "v. connect by telephone"
+        ]
+    },
+    {
+        "name": "leave a message",
+        "trans": [
+            "to leave (a message etc) oral message"
+        ]
+    },
+    {
+        "name": "dial the wrong number",
+        "trans": [
+            "to push aside with the hand, foot, a stick etc mistake number"
+        ]
+    },
+    {
+        "name": " ",
+        "trans": [
+            "telephone busy (telephone line)"
+        ]
+    },
+    {
+        "name": "It kept a busy line",
+        "trans": [
+            "telephone busy (telephone line)"
+        ]
+    },
+    {
+        "name": "Hold on",
+        "trans": [
+            "v. be persistent, refuse to stop",
+            "v. stop and wait, as if awaiting further instructions or developments",
+            "v. hold the phone line open"
+        ]
+    },
+    {
+        "name": "I couldn't get through",
+        "trans": [
+            "I cannot get through (on phone)"
+        ]
+    },
+    {
+        "name": "make a reservation",
+        "trans": [
+            "to arrange in advance room"
+        ]
+    },
+    {
+        "name": "reception/front desk",
+        "trans": [
+            "to receive to reside, stage"
+        ]
+    },
+    {
+        "name": "front clerk/reception clerk",
+        "trans": [
+            "front desk receptionist"
+        ]
+    },
+    {
+        "name": "check in",
+        "trans": [
+            "v. to announce one's arrival, e.g. at hotels or airports"
+        ]
+    },
+    {
+        "name": "check out",
+        "trans": [
+            "v. to examine so as to determine accuracy, quality, or condition",
+            "v. to try to learn someone's opinions and intentions",
+            "v. to announce one's departure from a hotel"
+        ]
+    },
+    {
+        "name": "fill out/in a form",
+        "trans": [
+            "to fill out a form"
+        ]
+    },
+    {
+        "name": "single room",
+        "trans": [
+            "single room (hotel)"
+        ]
+    },
+    {
+        "name": "double room",
+        "trans": [
+            "double room (hotel)"
+        ]
+    },
+    {
+        "name": "standard room",
+        "trans": [
+            "standard house"
+        ]
+    },
+    {
+        "name": "twin room",
+        "trans": [
+            "twin room"
+        ]
+    },
+    {
+        "name": "superior room",
+        "trans": [
+            "high level house"
+        ]
+    },
+    {
+        "name": "executive room",
+        "trans": [
+            "commercial affairs house"
+        ]
+    },
+    {
+        "name": "suite",
+        "trans": [
+            "n. apartment consisting of a series of connected rooms used as a living unit (as in a hotel)",
+            "n. a musical composition of several movements only loosely connected",
+            "n. a matching set of furniture"
+        ]
+    },
+    {
+        "name": "room service",
+        "trans": [
+            "customer service"
+        ]
+    },
+    {
+        "name": "wake-up call",
+        "trans": [
+            "n. a telephone call that you request be made a specific time in order to wake you up at that time, usually in hotels",
+            "n. a warning to take action concerning something that was overlooked or neglected"
+        ]
+    },
+    {
+        "name": "accommodation",
+        "trans": [
+            "n. (physiology) the automatic adjustment in focal length of the natural lens of the eye",
+            "n. the act of providing something (lodging or seat or food) to meet a need",
+            "n. living quarters provided for public convenience"
+        ]
+    },
+    {
+        "name": "registration",
+        "trans": [
+            "n. the act of enrolling",
+            "n. the act of adjusting something to match a standard",
+            "n. (music) the sound property resulting from a combination of organ stops used to perform a particular piece of music"
+        ]
+    },
+    {
+        "name": "receptionist",
+        "trans": [
+            "n. an employee whose main duty is to answer the telephone and receive visitors, typically located behind the front desk"
+        ]
+    },
+    {
+        "name": "housekeeping staff",
+        "trans": [
+            "guest room clean staff"
+        ]
+    },
+    {
+        "name": "tip",
+        "trans": [
+            "v. remove the tip from",
+            "v. mark with a tip",
+            "v. give insider information or advise to"
+        ]
+    },
+    {
+        "name": "service charge",
+        "trans": [
+            "n. a percentage of a bill (as at a hotel or restaurant) added in payment for service"
+        ]
+    },
+    {
+        "name": "lobby",
+        "trans": [
+            "v. detain in conversation by or as if by holding on to the outer garments of",
+            "n. a large entrance or reception room or area",
+            "n. a group of people who try actively to influence legislation"
+        ]
+    },
+    {
+        "name": "cook/chef",
+        "trans": [
+            "cook"
+        ]
+    },
+    {
+        "name": "head chef",
+        "trans": [
+            "executive chef"
+        ]
+    },
+    {
+        "name": "cook",
+        "trans": [
+            "v. to transform and make suitable for consumption by heating",
+            "v. to transform by heating",
+            "v. to prepare for eating by applying heat"
+        ]
+    },
+    {
+        "name": "assistant manager",
+        "trans": [
+            "lobby deputy director"
+        ]
+    },
+    {
+        "name": "lobby manager",
+        "trans": [
+            "lobby manager"
+        ]
+    },
+    {
+        "name": "tourist guide",
+        "trans": [
+            "tour guide"
+        ]
+    },
+    {
+        "name": "restaurant manager",
+        "trans": [
+            "restaurant manager"
+        ]
+    },
+    {
+        "name": "rooms division manager",
+        "trans": [
+            "house affair ministry manager"
+        ]
+    },
+    {
+        "name": "book/reserve",
+        "trans": [
+            "to arrange in advance"
+        ]
+    },
+    {
+        "name": "fully booked",
+        "trans": [
+            "to have a full house"
+        ]
+    },
+    {
+        "name": "extra charge",
+        "trans": [
+            "extra cost"
+        ]
+    },
+    {
+        "name": "shuttle bus",
+        "trans": [
+            "n. shuttle consisting of a bus that travels between two points"
+        ]
+    },
+    {
+        "name": "full price",
+        "trans": [
+            "all price"
+        ]
+    },
+    {
+        "name": "discounted price",
+        "trans": [
+            "discount price"
+        ]
+    },
+    {
+        "name": "special price",
+        "trans": [
+            "privilege price"
+        ]
+    },
+    {
+        "name": "All the room are occupied",
+        "trans": [
+            "room already Manchu ethnic group"
+        ]
+    },
+    {
+        "name": "Meals included",
+        "trans": [
+            "to comprise eating and drinking"
+        ]
+    },
+    {
+        "name": "speeding",
+        "trans": [
+            "n. changing location rapidly"
+        ]
+    },
+    {
+        "name": "booking office/ticket office",
+        "trans": [
+            "ticket office"
+        ]
+    },
+    {
+        "name": "waiting room",
+        "trans": [
+            "n. a room (as in a hotel or airport) with seating where people can wait"
+        ]
+    },
+    {
+        "name": "platform",
+        "trans": [
+            "n. a woman's shoe with a very high thick sole",
+            "n. a raised horizontal surface",
+            "n. any military structure or vehicle bearing weapons"
+        ]
+    },
+    {
+        "name": "coach/carriage",
+        "trans": [
+            "carriage"
+        ]
+    },
+    {
+        "name": "sidewalk/pavement",
+        "trans": [
+            "sidewalk"
+        ]
+    },
+    {
+        "name": "one-way street",
+        "trans": [
+            "n. a street on which vehicular traffic is allowed to move in only one direction",
+            "n. unilateral interaction"
+        ]
+    },
+    {
+        "name": "rush hour",
+        "trans": [
+            "n. the times at the beginning and end of the working day when many people are traveling to or from work"
+        ]
+    },
+    {
+        "name": "heavy traffic",
+        "trans": [
+            "crowded to be connected"
+        ]
+    },
+    {
+        "name": "traffic jam",
+        "trans": [
+            "n. a number of vehicles blocking one another until they can scarcely move"
+        ]
+    },
+    {
+        "name": "traffic lights",
+        "trans": [
+            "traffic light"
+        ]
+    },
+    {
+        "name": "traffic rules",
+        "trans": [
+            "traffic rules"
+        ]
+    },
+    {
+        "name": "driving license",
+        "trans": [
+            "n. a license authorizing the bearer to drive a motor vehicle"
+        ]
+    },
+    {
+        "name": "crowded",
+        "trans": [
+            "adj. overfilled or compacted or concentrated"
+        ]
+    },
+    {
+        "name": "by air/plane/airplane/aeroplane",
+        "trans": [
+            "to ride airplane"
+        ]
+    },
+    {
+        "name": "by bus",
+        "trans": [
+            "to sit public transportation"
+        ]
+    },
+    {
+        "name": "by coach",
+        "trans": [
+            "to ride long-distance coach"
+        ]
+    },
+    {
+        "name": "by boat",
+        "trans": [
+            "to sit boat"
+        ]
+    },
+    {
+        "name": "by land",
+        "trans": [
+            "to follow land route"
+        ]
+    },
+    {
+        "name": "by sea",
+        "trans": [
+            "to follow ocean road ("
+        ]
+    },
+    {
+        "name": "transfer",
+        "trans": [
+            "v. transfer from one place or period to another",
+            "v. send from one person or place to another",
+            "v. lift and reset in another soil or situation"
+        ]
+    },
+    {
+        "name": "express train",
+        "trans": [
+            "express (train, delivery etc) (railway) train"
+        ]
+    },
+    {
+        "name": "dining car",
+        "trans": [
+            "n. a passenger car where food is served in transit"
+        ]
+    },
+    {
+        "name": "garage",
+        "trans": [
+            "v. keep or store in a garage",
+            "n. an outbuilding (or part of a building) for housing automobiles",
+            "n. a repair shop where cars and trucks are serviced and repaired"
+        ]
+    },
+    {
+        "name": "driver",
+        "trans": [
+            "n. a golf club (a wood) with a near vertical face that is used for hitting long shots from the tee",
+            "n. (computer science) a program that determines how a computer will communicate with a peripheral device",
+            "n. the operator of a motor vehicle"
+        ]
+    },
+    {
+        "name": "conductor",
+        "trans": [
+            "n. a device designed to transmit electricity, heat, etc.",
+            "n. the person who leads a musical group",
+            "n. the person who collects fares on a public conveyance"
+        ]
+    },
+    {
+        "name": "car/traffic accident",
+        "trans": [
+            "to be connected accident"
+        ]
+    },
+    {
+        "name": "run the red lights",
+        "trans": [
+            "to run a red light"
+        ]
+    },
+    {
+        "name": "flat tire/tyre",
+        "trans": [
+            "(of a car, bike etc) to get a flat tire"
+        ]
+    },
+    {
+        "name": "scratches",
+        "trans": [
+            "v. cause friction",
+            "v. cut the surface of",
+            "v. carve, cut, or etch into a material or surface"
+        ]
+    },
+    {
+        "name": "fix/repair",
+        "trans": [
+            "to repair"
+        ]
+    },
+    {
+        "name": "survive",
+        "trans": [
+            "v. support oneself",
+            "v. continue to live through hardship or adversity",
+            "v. live longer than"
+        ]
+    },
+    {
+        "name": "flight",
+        "trans": [
+            "v. decorate with feathers",
+            "v. fly in a flock",
+            "v. shoot a bird in flight"
+        ]
+    },
+    {
+        "name": "Welcome on board",
+        "trans": [
+            "to welcome to board a plane"
+        ]
+    },
+    {
+        "name": "bound for",
+        "trans": [
+            "to fly to go (in a direction) direction to go"
+        ]
+    },
+    {
+        "name": "check in",
+        "trans": [
+            "v. to announce one's arrival, e.g. at hotels or airports"
+        ]
+    },
+    {
+        "name": "airway",
+        "trans": [
+            "n. a commercial enterprise that provides scheduled flights for passengers",
+            "n. a duct that provides ventilation (as in mines)",
+            "n. the passages through which air enters and leaves the body"
+        ]
+    },
+    {
+        "name": "flight",
+        "trans": [
+            "v. decorate with feathers",
+            "v. fly in a flock",
+            "v. shoot a bird in flight"
+        ]
+    },
+    {
+        "name": "(Flight Number)",
+        "trans": [
+            "(scheduled) flight to mark"
+        ]
+    },
+    {
+        "name": "non-stop/direct flight",
+        "trans": [
+            "to fly or sail direct (to ...)"
+        ]
+    },
+    {
+        "name": "confirm the flight",
+        "trans": [
+            "to confirm (scheduled) flight"
+        ]
+    },
+    {
+        "name": "departure time",
+        "trans": [
+            "n. the time at which a public conveyance is scheduled to depart from a given point of origin"
+        ]
+    },
+    {
+        "name": "cancel",
+        "trans": [
+            "v. to make invalid for use",
+            "v. to remove or make invisible",
+            "v. to declare null and void"
+        ]
+    },
+    {
+        "name": "one-way ticket",
+        "trans": [
+            "one-way ticket"
+        ]
+    },
+    {
+        "name": "round-trip ticket",
+        "trans": [
+            "n. a ticket to a place and back (usually over the same route)"
+        ]
+    },
+    {
+        "name": "departure lounge",
+        "trans": [
+            "n. lounge where passengers can await departure"
+        ]
+    },
+    {
+        "name": "book/reserve",
+        "trans": [
+            "to place an order"
+        ]
+    },
+    {
+        "name": "first/business/economy cabin",
+        "trans": [
+            "first class, commercial affairs, economy class"
+        ]
+    },
+    {
+        "name": "a window seat",
+        "trans": [
+            "by the window (referring to seats on a plane etc) seat"
+        ]
+    },
+    {
+        "name": "an aisle seat",
+        "trans": [
+            "next to the aisle seat"
+        ]
+    },
+    {
+        "name": "safety/safe belt",
+        "trans": [
+            "seat belt"
+        ]
+    },
+    {
+        "name": "fasten",
+        "trans": [
+            "v. make tight or tighter",
+            "v. attach to",
+            "v. cause to be firmly attached"
+        ]
+    },
+    {
+        "name": "airsick",
+        "trans": [
+            "adj. experiencing motion sickness"
+        ]
+    },
+    {
+        "name": "jet lag",
+        "trans": [
+            "n. fatigue and sleep disturbance resulting from disruption of the body's normal circadian rhythm as a result of jet travel"
+        ]
+    },
+    {
+        "name": "captain",
+        "trans": [
+            "v. to be the captain of a sports team",
+            "n. a dining-room attendant who is in charge of the waiters and the seating of customers",
+            "n. the pilot in charge of an airship"
+        ]
+    },
+    {
+        "name": "pilot",
+        "trans": [
+            "v. act as the navigator in a car, plane, or vessel and plan, direct, plot the path and position of the conveyance",
+            "v. operate an airplane",
+            "n. an inclined metal frame at the front of a locomotive to clear the track"
+        ]
+    },
+    {
+        "name": "airhostess/stewardess",
+        "trans": [
+            "stewardess"
+        ]
+    },
+    {
+        "name": "customs",
+        "trans": [
+            "n. money collected under a tariff"
+        ]
+    },
+    {
+        "name": "security check",
+        "trans": [
+            "to do a security check"
+        ]
+    },
+    {
+        "name": "departure to",
+        "trans": [
+            "to leave for"
+        ]
+    },
+    {
+        "name": "destination",
+        "trans": [
+            "n. the ultimate goal for which something is done",
+            "n. written directions for finding some location",
+            "n. the place designated as the end (as of a race or journey)"
+        ]
+    },
+    {
+        "name": "boarding pass/card",
+        "trans": [
+            "boarding pass"
+        ]
+    },
+    {
+        "name": "passport",
+        "trans": [
+            "n. any quality or characteristic that gains a person a favorable reception or acceptance or admission",
+            "n. a document issued by a country to a citizen allowing that person to travel abroad and re-enter the home country",
+            "n. any authorization to pass or go somewhere"
+        ]
+    },
+    {
+        "name": "board",
+        "trans": [
+            "v. to provide food and lodging for",
+            "v. to lodge and take meals at",
+            "v. to get on board of trains, buses, ships, aircraft, etc."
+        ]
+    },
+    {
+        "name": "departure gate",
+        "trans": [
+            "n. gate where passengers embark"
+        ]
+    },
+    {
+        "name": "luggage/baggage",
+        "trans": [
+            "luggage"
+        ]
+    },
+    {
+        "name": "suitcase",
+        "trans": [
+            "n. a portable rectangular container for carrying clothes"
+        ]
+    },
+    {
+        "name": "land",
+        "trans": [
+            "v. bring into a different state",
+            "v. reach or come to rest",
+            "v. cause to come to the ground"
+        ]
+    },
+    {
+        "name": "safe landing",
+        "trans": [
+            "safe landing"
+        ]
+    },
+    {
+        "name": "off",
+        "trans": [
+            "v. kill intentionally and with premeditation",
+            "adj. not performing or scheduled for duties",
+            "adj. not in operation or operational"
+        ]
+    },
+    {
+        "name": "pick up",
+        "trans": [
+            "v. gain or regain energy",
+            "v. improve significantly",
+            "v. lift out or reflect from a background"
+        ]
+    },
+    {
+        "name": "behind schedule",
+        "trans": [
+            "(of trains etc) late"
+        ]
+    },
+    {
+        "name": "take off",
+        "trans": [
+            "v. remove clothes",
+            "v. take away or remove",
+            "v. make a subtraction"
+        ]
+    },
+    {
+        "name": "land",
+        "trans": [
+            "v. bring into a different state",
+            "v. reach or come to rest",
+            "v. cause to come to the ground"
+        ]
+    },
+    {
+        "name": "You will be fined",
+        "trans": [
+            "you (informal, as opposed to courteous [nin2]) to fine 20 American dollar"
+        ]
+    },
+    {
+        "name": "store/shop",
+        "trans": [
+            "store, grocery store"
+        ]
+    },
+    {
+        "name": "department store",
+        "trans": [
+            "n. a large retail store organized into departments offering a variety of merchandise"
+        ]
+    },
+    {
+        "name": "drugstore",
+        "trans": [
+            "n. a retail shop where medicine and other articles are sold"
+        ]
+    },
+    {
+        "name": "grocery store",
+        "trans": [
+            "n. a marketplace where groceries are sold"
+        ]
+    },
+    {
+        "name": "grocer",
+        "trans": [
+            "n. a retail merchant who sells foodstuffs (and some household supplies)"
+        ]
+    },
+    {
+        "name": "green grocer",
+        "trans": [
+            "vegetables inn"
+        ]
+    },
+    {
+        "name": "convenience store",
+        "trans": [
+            "n. a store selling a limited variety of food and pharmaceutical items"
+        ]
+    },
+    {
+        "name": "shopping center",
+        "trans": [
+            "n. mercantile establishment consisting of a carefully landscaped complex of shops representing leading merchandisers"
+        ]
+    },
+    {
+        "name": "supermarket",
+        "trans": [
+            "n. a large self-service grocery store selling groceries and dairy products and household goods"
+        ]
+    },
+    {
+        "name": "mall",
+        "trans": [
+            "n. mercantile establishment consisting of a carefully landscaped complex of shops representing leading merchandisers",
+            "n. a public area set aside as a pedestrian walk"
+        ]
+    },
+    {
+        "name": "shop assistant",
+        "trans": [
+            "n. a salesperson in a store"
+        ]
+    },
+    {
+        "name": "counter",
+        "trans": [
+            "v. to speak in response",
+            "v. to act in advance of",
+            "adj. indicating opposition or resistance"
+        ]
+    },
+    {
+        "name": "receipt",
+        "trans": [
+            "v. mark or stamp as paid",
+            "v. report the receipt of",
+            "n. the act of receiving"
+        ]
+    },
+    {
+        "name": "invoice",
+        "trans": [
+            "v. send an bill to",
+            "n. an itemized statement of money owed for goods shipped or services rendered"
+        ]
+    },
+    {
+        "name": "catalogue",
+        "trans": [
+            "v. to make an itemized list or catalog of",
+            "n. a book or pamphlet containing an enumeration of things",
+            "n. a complete list of things"
+        ]
+    },
+    {
+        "name": "deliver",
+        "trans": [
+            "v. cause to be born",
+            "v. deliver (a speech, oration, or idea)",
+            "v. utter an exclamation or noise of some sort"
+        ]
+    },
+    {
+        "name": "refund",
+        "trans": [
+            "v. pay back",
+            "n. the act of returning money received previously",
+            "n. money returned to a payer"
+        ]
+    },
+    {
+        "name": "brand",
+        "trans": [
+            "v. to mark or expose as infamous",
+            "v. to mark with a brand or trademark",
+            "v. to accuse, condemn, openly or formally, or brand as disgraceful"
+        ]
+    },
+    {
+        "name": "bargain",
+        "trans": [
+            "v. to come to terms",
+            "v. to negotiate the terms of an exchange",
+            "n. an agreement between parties, usually arrived at after discussion, fixing obligations of each"
+        ]
+    },
+    {
+        "name": "size",
+        "trans": [
+            "v. make to a size",
+            "v. sort according to size",
+            "v. cover or stiffen or glaze a porous material with size or sizing (a glutinous substance)"
+        ]
+    },
+    {
+        "name": "color",
+        "trans": [
+            "v. to change color, often in an undesired manner",
+            "v. to add color to",
+            "v. to affect as in thought or feeling"
+        ]
+    },
+    {
+        "name": "style",
+        "trans": [
+            "v. make consistent with certain rules of style",
+            "v. designate by an identifying term",
+            "v. make consistent with a certain fashion or style"
+        ]
+    },
+    {
+        "name": "price",
+        "trans": [
+            "v. ascertain or learn the price of",
+            "v. determine the price of",
+            "n. the high value or worth of something"
+        ]
+    },
+    {
+        "name": "expensive/dear",
+        "trans": [
+            "expensive"
+        ]
+    },
+    {
+        "name": "cheap",
+        "trans": [
+            "adj. relatively low in price or charging low prices",
+            "adj. embarrassingly stingy",
+            "adj. of very poor quality"
+        ]
+    },
+    {
+        "name": "popular/fashionable",
+        "trans": [
+            "(of a contagious disease etc) to spread, fashion"
+        ]
+    },
+    {
+        "name": "in fashion",
+        "trans": [
+            "(of a contagious disease etc) to spread, fashion"
+        ]
+    },
+    {
+        "name": "high",
+        "trans": [
+            "adj. happy and excited and energetic",
+            "adj. slightly and pleasantly intoxicated from alcohol or a drug (especially marijuana)",
+            "adj. (used of the smell of meat) smelling spoiled or tainted"
+        ]
+    },
+    {
+        "name": "low",
+        "trans": [
+            "v. make a low noise, characteristic of bovines",
+            "adj. filled with melancholy and despondency",
+            "adj. of the most contemptible kind"
+        ]
+    },
+    {
+        "name": "second-hand/used",
+        "trans": [
+            "indirectly acquired, old"
+        ]
+    },
+    {
+        "name": "out of fashion",
+        "trans": [
+            "old-fashioned"
+        ]
+    },
+    {
+        "name": "fair",
+        "trans": [
+            "v. join so that the external surfaces blend smoothly",
+            "adj. very pleasing to the eye",
+            "adj. of hair or skin, pale or light-colored"
+        ]
+    },
+    {
+        "name": "cashier",
+        "trans": [
+            "v. to discharge with dishonor, as in the army",
+            "v. to discard or do away with",
+            "n. a person responsible for receiving payments for goods and services (as in a shop or restaurant)"
+        ]
+    },
+    {
+        "name": "window-shopping",
+        "trans": [
+            "to stroll store"
+        ]
+    },
+    {
+        "name": "price tag",
+        "trans": [
+            "n. a tag showing the price of the article it is attached to"
+        ]
+    },
+    {
+        "name": "purchase",
+        "trans": [
+            "v. obtain by purchase",
+            "n. the acquisition of something for payment",
+            "n. a means of exerting influence or gaining advantage"
+        ]
+    },
+    {
+        "name": "customer",
+        "trans": [
+            "n. someone who pays for goods or services"
+        ]
+    },
+    {
+        "name": "annual fee",
+        "trans": [
+            "annual fee"
+        ]
+    },
+    {
+        "name": "budget",
+        "trans": [
+            "v. to make a budget",
+            "n. a summary of intended expenditures along with proposals for how to meet them",
+            "n. a sum of money allocated for a particular purpose"
+        ]
+    },
+    {
+        "name": "retail",
+        "trans": [
+            "v. sell on the retail market",
+            "v. be sold at the retail level",
+            "adv. at a retail price"
+        ]
+    },
+    {
+        "name": "wholesale",
+        "trans": [
+            "v. sell in large quantities",
+            "adj. ignoring distinctions",
+            "adv. on a large scale without careful discrimination"
+        ]
+    },
+    {
+        "name": "bargain vi",
+        "trans": [
+            "to haggle over price"
+        ]
+    },
+    {
+        "name": "pay in cash",
+        "trans": [
+            "to use cash to pay (money)"
+        ]
+    },
+    {
+        "name": "pay in check",
+        "trans": [
+            "to use check (bank) to pay (money)"
+        ]
+    },
+    {
+        "name": "credit card",
+        "trans": [
+            "n. a card (usually plastic) that assures a seller that the person using it has a satisfactory credit rating and that the issuer will see to it that the seller receives payment for the merchandise delivered"
+        ]
+    },
+    {
+        "name": "out of stock",
+        "trans": [
+            "adj. not available for sale or use"
+        ]
+    },
+    {
+        "name": "in stock",
+        "trans": [
+            "adj. available for use or sale"
+        ]
+    },
+    {
+        "name": "pay by installment",
+        "trans": [
+            "to pay in installments"
+        ]
+    },
+    {
+        "name": "selling season",
+        "trans": [
+            "to sell busy season"
+        ]
+    },
+    {
+        "name": "on sale",
+        "trans": [
+            "cheaply-priced to sell"
+        ]
+    },
+    {
+        "name": "50%off",
+        "trans": [
+            "(loanword) dozen five to snap"
+        ]
+    },
+    {
+        "name": "a 30%discount",
+        "trans": [
+            "(loanword) dozen seven to snap"
+        ]
+    },
+    {
+        "name": "a real bargain",
+        "trans": [
+            "genuine a bargain"
+        ]
+    },
+    {
+        "name": "cloudy",
+        "trans": [
+            "adj. full of or covered with clouds",
+            "adj. lacking definite form or limits",
+            "adj. (of liquids) clouded as with sediment"
+        ]
+    },
+    {
+        "name": "overcast",
+        "trans": [
+            "v. sew with an overcast stitch from one section to the next",
+            "v. sew over the edge of with long slanting wide stitches",
+            "v. make overcast or cloudy"
+        ]
+    },
+    {
+        "name": "fine",
+        "trans": [
+            "v. issue a ticket or a fine to as a penalty",
+            "adj. characterized by elegance or refinement or accomplishment",
+            "adj. minutely precise especially in differences in meaning"
+        ]
+    },
+    {
+        "name": "sunny/bright/clear",
+        "trans": [
+            "sunshine adequate"
+        ]
+    },
+    {
+        "name": "rainy",
+        "trans": [
+            "adj. areas or periods of time when it often rains"
+        ]
+    },
+    {
+        "name": "wet",
+        "trans": [
+            "v. make one's bed or clothes wet by urinating",
+            "v. cause to become wet",
+            "adj. supporting or permitting the legal production and sale of alcoholic beverages"
+        ]
+    },
+    {
+        "name": "humid",
+        "trans": [
+            "adj. containing or characterized by a great deal of water vapor"
+        ]
+    },
+    {
+        "name": "damp",
+        "trans": [
+            "v. lessen in force or effect",
+            "v. make vague or obscure or make (an image) less visible",
+            "v. restrain or discourage"
+        ]
+    },
+    {
+        "name": "freezing-cold",
+        "trans": [
+            "ice-cold"
+        ]
+    },
+    {
+        "name": "cool",
+        "trans": [
+            "v. to loose heat",
+            "v. to lose intensity",
+            "v. to make cool or cooler"
+        ]
+    },
+    {
+        "name": "mild/agreeable",
+        "trans": [
+            "mild"
+        ]
+    },
+    {
+        "name": "warm",
+        "trans": [
+            "v. make warm or warmer",
+            "v. get warm or warmer",
+            "adj. of a seeker"
+        ]
+    },
+    {
+        "name": "hot",
+        "trans": [
+            "adj. marked by excited activity",
+            "adj. charged or energized with electricity",
+            "adj. having or dealing with dangerously high levels of radioactivity"
+        ]
+    },
+    {
+        "name": "windy",
+        "trans": [
+            "adj. abounding in or exposed to the wind or breezes",
+            "adj. using or containing too many words",
+            "adj. resembling the wind in speed, force, or variability"
+        ]
+    },
+    {
+        "name": "calm",
+        "trans": [
+            "v. to cause to be calm or quiet as by administering a sedative to",
+            "v. to make steady",
+            "v. to become quiet or calm, especially after a state of agitation"
+        ]
+    },
+    {
+        "name": "moderate",
+        "trans": [
+            "v. make less fast or intense",
+            "v. restrain",
+            "v. preside over"
+        ]
+    },
+    {
+        "name": "thunder",
+        "trans": [
+            "v. utter words loudly and forcefully",
+            "v. to make or produce a loud noise",
+            "v. move fast, noisily, and heavily"
+        ]
+    },
+    {
+        "name": "lightening",
+        "trans": [
+            "n. changing to a lighter color",
+            "n. descent of the uterus into the pelvic cavity that occurs late in pregnancy"
+        ]
+    },
+    {
+        "name": "strong/high wind",
+        "trans": [
+            "gale"
+        ]
+    },
+    {
+        "name": "breeze /light wind",
+        "trans": [
+            "breeze"
+        ]
+    },
+    {
+        "name": "tornado",
+        "trans": [
+            "n. a purified and potent form of cocaine that is smoked rather than snorted",
+            "n. a localized and violently destructive windstorm occurring over land characterized by a funnel-shaped cloud extending toward the ground"
+        ]
+    },
+    {
+        "name": "typhoon",
+        "trans": [
+            "n. a tropical cyclone occurring in the western Pacific or Indian oceans"
+        ]
+    },
+    {
+        "name": "snow",
+        "trans": [
+            "v. to conceal one's true motives from someone, especially by elaborately feigning good intentions so as to gain an end",
+            "v. to fall as snow",
+            "n. a street name for cocaine"
+        ]
+    },
+    {
+        "name": "blizzard",
+        "trans": [
+            "n. a series of unexpected and unpleasant occurrences",
+            "n. a storm with widespread snowfall accompanied by strong winds"
+        ]
+    },
+    {
+        "name": "snowstorm",
+        "trans": [
+            "n. a storm with widespread snowfall accompanied by strong winds"
+        ]
+    },
+    {
+        "name": "drizzle",
+        "trans": [
+            "v. moisten with fine drops",
+            "v. rain lightly",
+            "n. very light rain"
+        ]
+    },
+    {
+        "name": "light rain",
+        "trans": [
+            "light rain"
+        ]
+    },
+    {
+        "name": "downpour",
+        "trans": [
+            "n. a heavy rain"
+        ]
+    },
+    {
+        "name": "storm",
+        "trans": [
+            "v. attack by storm",
+            "v. take by force",
+            "v. behave violently, as if in state of a great anger"
+        ]
+    },
+    {
+        "name": "shower",
+        "trans": [
+            "v. take a shower",
+            "v. provide abundantly with",
+            "v. spray or sprinkle with"
+        ]
+    },
+    {
+        "name": "fog",
+        "trans": [
+            "v. make less visible or unclear",
+            "n. confusion characterized by lack of clarity",
+            "n. droplets of water vapor suspended in the air near the ground"
+        ]
+    },
+    {
+        "name": "mist",
+        "trans": [
+            "v. become covered with mist",
+            "v. spray finely or cover with mist",
+            "v. make less visible or unclear"
+        ]
+    },
+    {
+        "name": "smog",
+        "trans": [
+            "n. air pollution by a mixture of smoke and fog"
+        ]
+    },
+    {
+        "name": "foggy",
+        "trans": [
+            "adj. obscured by fog",
+            "adj. filled or abounding with fog or mist",
+            "adj. indistinct or hazy in outline"
+        ]
+    },
+    {
+        "name": "misty",
+        "trans": [
+            "adj. filled or abounding with fog or mist",
+            "adj. wet with mist"
+        ]
+    },
+    {
+        "name": "lift vi",
+        "trans": [
+            "(classical) to say, fog to wait for to dissipate, rain to wait for to suspend"
+        ]
+    },
+    {
+        "name": "climate",
+        "trans": [
+            "n. the weather in some location averaged over some long period of time",
+            "n. the prevailing psychological state"
+        ]
+    },
+    {
+        "name": "weather forecast",
+        "trans": [
+            "n. a forecast of the weather"
+        ]
+    },
+    {
+        "name": "warm up",
+        "trans": [
+            "v. run until the normal working temperature is reached",
+            "v. make one's body limber or suppler by stretching, as if to prepare for strenuous physical activity",
+            "v. cause to do preliminary exercises so as to stretch the muscles"
+        ]
+    },
+    {
+        "name": "By afternoon the smog had lifted",
+        "trans": [
+            "to reach afternoon fog to be totally dispersed (crowd)"
+        ]
+    },
+    {
+        "name": "The rain lifted by morning",
+        "trans": [
+            "to reach early morning heavy rain to suspend"
+        ]
+    },
+    {
+        "name": "It rains cats and dogs/The rain is pouring",
+        "trans": [
+            "down (idiom) a downpour"
+        ]
+    },
+    {
+        "name": "clear up",
+        "trans": [
+            "v. to free the throat by making a rasping sound",
+            "v. to finish a task completely",
+            "v. to make free from confusion or ambiguity"
+        ]
+    },
+    {
+        "name": "put away clothes",
+        "trans": [
+            "to rain to receive clothes"
+        ]
+    },
+    {
+        "name": "weather in London/Seattle",
+        "trans": [
+            "to mean no good weather"
+        ]
+    },
+    {
+        "name": "weather in California",
+        "trans": [
+            "to mean good weather"
+        ]
+    },
+    {
+        "name": "vacation",
+        "trans": [
+            "v. spend or take a vacation",
+            "n. the act of making something legally void",
+            "n. leisure time away from work devoted to rest or pleasure"
+        ]
+    },
+    {
+        "name": "vacation/holiday",
+        "trans": [
+            "a holiday"
+        ]
+    },
+    {
+        "name": "historic spot",
+        "trans": [
+            "place of historic interest"
+        ]
+    },
+    {
+        "name": "scenery",
+        "trans": [
+            "n. the painted structures of a stage set that are intended to suggest a particular locale",
+            "n. the appearance of a place"
+        ]
+    },
+    {
+        "name": "museum",
+        "trans": [
+            "n. a depository for collecting and displaying objects having scientific or historical or artistic value"
+        ]
+    },
+    {
+        "name": "mountain",
+        "trans": [
+            "n. a land mass that projects well above its surroundings",
+            "n. a large number or amount or extent"
+        ]
+    },
+    {
+        "name": "river",
+        "trans": [
+            "n. a large natural stream of water"
+        ]
+    },
+    {
+        "name": "lake",
+        "trans": [
+            "n. a body of (usually fresh) water surrounded by land",
+            "n. any of numerous bright translucent organic pigments",
+            "n. a purplish red pigment prepared from lac or cochineal"
+        ]
+    },
+    {
+        "name": "waterfall",
+        "trans": [
+            "n. a steep descent of the water of a river"
+        ]
+    },
+    {
+        "name": "beach",
+        "trans": [
+            "v. to land on a beach",
+            "n. an area of sand sloping down to the water of a sea or lake"
+        ]
+    },
+    {
+        "name": "island",
+        "trans": [
+            "n. a zone or area resembling an island",
+            "n. a land mass (smaller than a continent) that is surrounded by water"
+        ]
+    },
+    {
+        "name": "lawn",
+        "trans": [
+            "n. a field of cultivated and mowed grass"
+        ]
+    },
+    {
+        "name": "temple",
+        "trans": [
+            "n. (Judaism) the place of worship for a Jewish congregation",
+            "n. place of worship consisting of an edifice for the worship of a deity",
+            "n. an edifice devoted to special or exalted purposes"
+        ]
+    },
+    {
+        "name": "zoo",
+        "trans": [
+            "n. the facility where wild animals are housed for exhibition"
+        ]
+    },
+    {
+        "name": "a guided tour",
+        "trans": [
+            "to have tour guide to travel"
+        ]
+    },
+    {
+        "name": "travel agency",
+        "trans": [
+            "n. an agency that arranges personal travel"
+        ]
+    },
+    {
+        "name": "go sightseeing",
+        "trans": [
+            "to tour"
+        ]
+    },
+    {
+        "name": "hotel",
+        "trans": [
+            "n. a building where travelers can pay for lodging and meals and other services"
+        ]
+    },
+    {
+        "name": "souvenir",
+        "trans": [
+            "n. something of sentimental value",
+            "n. a reminder of past events"
+        ]
+    },
+    {
+        "name": "ticket",
+        "trans": [
+            "v. provide with a ticket for passage or admission",
+            "v. issue a ticket or a fine to as a penalty",
+            "n. the appropriate or desirable thing"
+        ]
+    },
+    {
+        "name": "travel/trip/tour/voyage",
+        "trans": [
+            "to travel"
+        ]
+    },
+    {
+        "name": "plane/airplane/aeroplane",
+        "trans": [
+            "airplane"
+        ]
+    },
+    {
+        "name": "ship",
+        "trans": [
+            "v. place on board a ship",
+            "v. travel by ship",
+            "v. transport commercially"
+        ]
+    },
+    {
+        "name": "taxi",
+        "trans": [
+            "v. travel slowly",
+            "v. ride in a taxicab",
+            "n. a car driven by a person whose job is to take passengers where they want to go in exchange for money"
+        ]
+    },
+    {
+        "name": "subway/underground",
+        "trans": [
+            "underground railway"
+        ]
+    },
+    {
+        "name": "railway",
+        "trans": [
+            "n. a line of track providing a runway for wheels",
+            "n. line that is the commercial organization responsible for operating a system of transportation for trains that pull passengers or freight"
+        ]
+    },
+    {
+        "name": "highway",
+        "trans": [
+            "n. a major road for any form of motor transport"
+        ]
+    },
+    {
+        "name": "freeway/expressway",
+        "trans": [
+            "expressway"
+        ]
+    },
+    {
+        "name": "fascinating",
+        "trans": [
+            "adj. capturing interest as if by a spell",
+            "adj. capable of arousing and holding the attention"
+        ]
+    },
+    {
+        "name": "thrilling",
+        "trans": [
+            "adj. causing a surge of emotion or excitement",
+            "adj. causing quivering or shivering as by cold or fear or electric shock"
+        ]
+    },
+    {
+        "name": "unforgettable",
+        "trans": [
+            "adj. impossible to forget"
+        ]
+    },
+    {
+        "name": "terrific",
+        "trans": [
+            "adj. causing extreme terror",
+            "adj. very great or intense",
+            "adj. extraordinarily good or great"
+        ]
+    },
+    {
+        "name": "fantastic",
+        "trans": [
+            "adj. ludicrously odd",
+            "adj. extraordinarily good or great",
+            "adj. extravagantly fanciful in design, construction, appearance"
+        ]
+    },
+    {
+        "name": "part-time job",
+        "trans": [
+            "to hold concurrent posts to work"
+        ]
+    },
+    {
+        "name": "full-time job",
+        "trans": [
+            "full-time (job) to work"
+        ]
+    },
+    {
+        "name": "psychologist",
+        "trans": [
+            "n. a scientist trained in psychology"
+        ]
+    },
+    {
+        "name": "principal",
+        "trans": [
+            "adj. most important element",
+            "n. the major party to a financial transaction at a stock exchange",
+            "n. the educator who has executive authority for a school"
+        ]
+    },
+    {
+        "name": "professor",
+        "trans": [
+            "n. someone who is a member of the faculty at a college or university"
+        ]
+    },
+    {
+        "name": "teacher",
+        "trans": [
+            "n. a personified abstraction that teaches",
+            "n. a person whose occupation is teaching"
+        ]
+    },
+    {
+        "name": "policeman",
+        "trans": [
+            "n. a member of a police force"
+        ]
+    },
+    {
+        "name": "firefighter",
+        "trans": [
+            "n. a member of a fire department who tries to extinguish fires"
+        ]
+    },
+    {
+        "name": "secretary",
+        "trans": [
+            "n. a desk used for writing",
+            "n. a person to whom a secret is entrusted",
+            "n. an assistant who handles correspondence and clerical work for a boss or an organization"
+        ]
+    },
+    {
+        "name": "assistant",
+        "trans": [
+            "adj. of or relating to a person who is subordinate to another",
+            "n. a person who contributes to the fulfillment of a need or furtherance of an effort or purpose"
+        ]
+    },
+    {
+        "name": "receptionist",
+        "trans": [
+            "n. an employee whose main duty is to answer the telephone and receive visitors, typically located behind the front desk"
+        ]
+    },
+    {
+        "name": "typist",
+        "trans": [
+            "n. someone that types"
+        ]
+    },
+    {
+        "name": "clerk",
+        "trans": [
+            "v. to work as a clerk, as in the legal business",
+            "n. an employee who performs clerical work, such as keeps records or accounts",
+            "n. a salesperson in a store"
+        ]
+    },
+    {
+        "name": "cashier",
+        "trans": [
+            "v. to discharge with dishonor, as in the army",
+            "v. to discard or do away with",
+            "n. a person responsible for receiving payments for goods and services (as in a shop or restaurant)"
+        ]
+    },
+    {
+        "name": "lawyer",
+        "trans": [
+            "n. a professional person authorized to practice law"
+        ]
+    },
+    {
+        "name": "editor",
+        "trans": [
+            "n. (computer science) a program designed to perform such editorial functions as rearrangement or modification or deletion of data",
+            "n. a person responsible for the editorial aspects of publication"
+        ]
+    },
+    {
+        "name": "reporter/journalist",
+        "trans": [
+            "reporter"
+        ]
+    },
+    {
+        "name": "author",
+        "trans": [
+            "v. to be the author of",
+            "n. someone who originates or causes or initiates something",
+            "n. writes (books or stories or articles or the like) professionally (for pay)"
+        ]
+    },
+    {
+        "name": "writer",
+        "trans": [
+            "n. writes (books or stories or articles or the like) professionally (for pay)",
+            "n. a person who is able to write and has written something"
+        ]
+    },
+    {
+        "name": "artist",
+        "trans": [
+            "n. a person whose creative work shows sensitivity and imagination"
+        ]
+    },
+    {
+        "name": "pianist",
+        "trans": [
+            "n. a person who plays the piano"
+        ]
+    },
+    {
+        "name": "photographer",
+        "trans": [
+            "n. someone who takes photographs professionally"
+        ]
+    },
+    {
+        "name": "painter",
+        "trans": [
+            "n. in the Southern United States, a large American feline resembling a lion, also known as a cougar",
+            "n. a line that is attached to the bow of a boat and used for tying up (as when docking or towing)",
+            "n. an artist who paints"
+        ]
+    },
+    {
+        "name": "musician",
+        "trans": [
+            "n. artist who composes or conducts music as a profession",
+            "n. someone who plays a musical instrument (as a profession)"
+        ]
+    },
+    {
+        "name": "singer",
+        "trans": [
+            "n. a person who sings"
+        ]
+    },
+    {
+        "name": "designer",
+        "trans": [
+            "n. someone who creates plans to be used in making something (such as buildings)",
+            "n. someone who designs clothing",
+            "n. a person who devises plots or intrigues"
+        ]
+    },
+    {
+        "name": "scientist",
+        "trans": [
+            "n. a person with advanced knowledge of one or more sciences"
+        ]
+    },
+    {
+        "name": "actor/actress",
+        "trans": [
+            "baron, the lowest of the five ranks of nobility [wu3 deng3 jue2 wei4], female actor"
+        ]
+    },
+    {
+        "name": "architect",
+        "trans": [
+            "n. someone who creates plans to be used in making something (such as buildings)"
+        ]
+    },
+    {
+        "name": "engineer",
+        "trans": [
+            "v. plan and direct (a complex undertaking)",
+            "v. design as an engineer",
+            "n. a person who uses scientific knowledge to solve practical problems"
+        ]
+    },
+    {
+        "name": "chef/cook",
+        "trans": [
+            "cook"
+        ]
+    },
+    {
+        "name": "mailman",
+        "trans": [
+            "n. a man who delivers the mail"
+        ]
+    },
+    {
+        "name": "guide",
+        "trans": [
+            "v. pass over, across, or through",
+            "v. direct the course",
+            "v. take somebody somewhere"
+        ]
+    },
+    {
+        "name": "competition",
+        "trans": [
+            "n. the act of competing as for profit or a prize",
+            "n. an occasion on which a winner is selected from among two or more contestants",
+            "n. the contestant you hope to defeat"
+        ]
+    },
+    {
+        "name": "the sports field",
+        "trans": [
+            "sports field"
+        ]
+    },
+    {
+        "name": "club",
+        "trans": [
+            "v. to gather into a club-like mass",
+            "v. to strike with a club or a bludgeon",
+            "v. to gather and spend time together"
+        ]
+    },
+    {
+        "name": "sportsman/athlete/player",
+        "trans": [
+            "athlete"
+        ]
+    },
+    {
+        "name": "coach",
+        "trans": [
+            "v. to teach and supervise someone",
+            "v. to drive a coach",
+            "n. a vehicle carrying many passengers"
+        ]
+    },
+    {
+        "name": "champion",
+        "trans": [
+            "v. to protect or fight for as a champion",
+            "adj. holding first place in a contest",
+            "n. someone who is dazzlingly skilled in any field"
+        ]
+    },
+    {
+        "name": "gold medal",
+        "trans": [
+            "n. a trophy made of gold (or having the appearance of gold) that is usually awarded for winning first place in a competition"
+        ]
+    },
+    {
+        "name": "silver medal",
+        "trans": [
+            "n. a trophy made of silver (or having the appearance of silver) that is usually awarded for winning second place in a competition"
+        ]
+    },
+    {
+        "name": "bronze medal",
+        "trans": [
+            "n. a trophy made of bronze, or having the appearance of bronze, that is usually awarded for winning third place in a competition"
+        ]
+    },
+    {
+        "name": "basketball",
+        "trans": [
+            "n. a game played on a court by two opposing teams of 5 players",
+            "n. an inflated ball used in playing basketball"
+        ]
+    },
+    {
+        "name": "football",
+        "trans": [
+            "n. any of various games played with a ball (round or oval) in which two teams try to kick or carry or propel the ball into each other's goal",
+            "n. the inflated oblong ball used in playing American football"
+        ]
+    },
+    {
+        "name": "soccer",
+        "trans": [
+            "n. a football game in which two teams of 11 players try to kick or head a ball into the opponents' goal"
+        ]
+    },
+    {
+        "name": "volleyball",
+        "trans": [
+            "n. a game in which two teams hit an inflated ball over a high net using their hands",
+            "n. an inflated ball used in playing volleyball"
+        ]
+    },
+    {
+        "name": "baseball",
+        "trans": [
+            "n. a ball game played with a bat and ball between two teams of nine players",
+            "n. a ball used in playing baseball"
+        ]
+    },
+    {
+        "name": "tennis",
+        "trans": [
+            "n. a game played with rackets by two or four players who hit a ball back and forth over a net that divides the court"
+        ]
+    },
+    {
+        "name": "table tennis/ping-pong",
+        "trans": [
+            "table tennis"
+        ]
+    },
+    {
+        "name": "golf",
+        "trans": [
+            "v. play golf",
+            "n. a game played on a large open course with 9 or 18 holes"
+        ]
+    },
+    {
+        "name": "jogging",
+        "trans": [
+            "n. running at a slow pace as a form of cardiopulmonary exercise"
+        ]
+    },
+    {
+        "name": "swimming",
+        "trans": [
+            "adj. applied to a fish depicted horizontally",
+            "adj. filled or brimming with tears",
+            "n. the act of swimming"
+        ]
+    },
+    {
+        "name": "wrestling",
+        "trans": [
+            "n. the sport of hand-to-hand struggle between unarmed contestants who try to throw each other down",
+            "n. the act of engaging in close hand-to-hand combat"
+        ]
+    },
+    {
+        "name": "shooting",
+        "trans": [
+            "n. the act of firing a projectile",
+            "n. killing someone by gunfire"
+        ]
+    },
+    {
+        "name": "boxing",
+        "trans": [
+            "n. the enclosure of something in a package or box",
+            "n. fighting with the fists"
+        ]
+    },
+    {
+        "name": "weightlifting",
+        "trans": [
+            "n. bodybuilding by exercise that involves lifting weights"
+        ]
+    },
+    {
+        "name": "relay race",
+        "trans": [
+            "n. a race between teams"
+        ]
+    },
+    {
+        "name": "break the world record",
+        "trans": [
+            "to break world record"
+        ]
+    },
+    {
+        "name": "hold the world record",
+        "trans": [
+            "to keep world record"
+        ]
+    },
+    {
+        "name": "job opportunity",
+        "trans": [
+            "to seek employment opportunity"
+        ]
+    },
+    {
+        "name": "interview",
+        "trans": [
+            "v. conduct an interview in television, newspaper, and radio reporting",
+            "v. discuss formally with (somebody) for the purpose of an evaluation",
+            "v. go for an interview in the hope of being hired"
+        ]
+    },
+    {
+        "name": "resume",
+        "trans": [
+            "v. take up or begin anew",
+            "v. return to a previous location or condition",
+            "v. give a summary (of)"
+        ]
+    },
+    {
+        "name": "educational background",
+        "trans": [
+            "educational background"
+        ]
+    },
+    {
+        "name": "application letter",
+        "trans": [
+            "cover letter"
+        ]
+    },
+    {
+        "name": "recommendation",
+        "trans": [
+            "n. any quality or characteristic that gains a person a favorable reception or acceptance or admission",
+            "n. something, such as a course of action, that is recommended as advisable",
+            "n. something that recommends (or expresses commendation of) a person or thing as worthy or desirable"
+        ]
+    },
+    {
+        "name": "certificate",
+        "trans": [
+            "v. to authorize by certificate",
+            "v. to present someone with a certificate",
+            "n. a document attesting to the truth of certain stated facts"
+        ]
+    },
+    {
+        "name": "qualification",
+        "trans": [
+            "n. the act of modifying or changing the strength of some idea",
+            "n. an attribute that must be met or complied with and that fits a person for something",
+            "n. a statement that limits or restricts some claim"
+        ]
+    },
+    {
+        "name": "experience",
+        "trans": [
+            "v. undergo",
+            "v. have firsthand knowledge of states, situations, emotions, or sensations",
+            "v. undergo an emotional sensation or be in a particular state of mind"
+        ]
+    },
+    {
+        "name": "position/post",
+        "trans": [
+            "position"
+        ]
+    },
+    {
+        "name": "salary",
+        "trans": [
+            "n. something that remunerates"
+        ]
+    },
+    {
+        "name": "allowance",
+        "trans": [
+            "v. to put on a fixed allowance, as of food",
+            "n. the act of allowing",
+            "n. a permissible difference"
+        ]
+    },
+    {
+        "name": "promotion",
+        "trans": [
+            "n. act of raising in rank or position",
+            "n. the advancement of some enterprise",
+            "n. a message issued in behalf of some product or cause or idea or person or institution"
+        ]
+    },
+    {
+        "name": "vacation",
+        "trans": [
+            "v. spend or take a vacation",
+            "n. the act of making something legally void",
+            "n. leisure time away from work devoted to rest or pleasure"
+        ]
+    },
+    {
+        "name": "break",
+        "trans": [
+            "v. to act in disregard of laws, rules, contracts, or promises",
+            "v. to enter someone's virtual or real property in an unauthorized manner, usually with the intent to steal or commit a violent act",
+            "v. to happen or take place"
+        ]
+    },
+    {
+        "name": "retire",
+        "trans": [
+            "v. prepare for sleep",
+            "v. cause to get out",
+            "v. cause to be out on a fielding play"
+        ]
+    },
+    {
+        "name": "shift work",
+        "trans": [
+            "to change shift to work"
+        ]
+    },
+    {
+        "name": "work overtime",
+        "trans": [
+            "to work overtime"
+        ]
+    },
+    {
+        "name": "pay raise",
+        "trans": [
+            "to raise salary"
+        ]
+    },
+    {
+        "name": "ask for leave",
+        "trans": [
+            "to request leave of absence"
+        ]
+    },
+    {
+        "name": "sick leave",
+        "trans": [
+            "n. a leave of absence from work because of illness"
+        ]
+    },
+    {
+        "name": "employee",
+        "trans": [
+            "n. a worker who is hired to perform a job"
+        ]
+    },
+    {
+        "name": "employer",
+        "trans": [
+            "n. a person or firm that employs workers"
+        ]
+    },
+    {
+        "name": "clerk",
+        "trans": [
+            "v. to work as a clerk, as in the legal business",
+            "n. an employee who performs clerical work, such as keeps records or accounts",
+            "n. a salesperson in a store"
+        ]
+    },
+    {
+        "name": "secretary",
+        "trans": [
+            "n. a desk used for writing",
+            "n. a person to whom a secret is entrusted",
+            "n. an assistant who handles correspondence and clerical work for a boss or an organization"
+        ]
+    },
+    {
+        "name": "manager",
+        "trans": [
+            "n. someone in charge of training an athlete or a team",
+            "n. someone who controls resources and expenditures"
+        ]
+    },
+    {
+        "name": "HR manager",
+        "trans": [
+            "personnel manager"
+        ]
+    },
+    {
+        "name": "general manager",
+        "trans": [
+            "n. the highest ranking manager"
+        ]
+    },
+    {
+        "name": "client",
+        "trans": [
+            "n. any computer that is hooked up to a computer network",
+            "n. someone who pays for goods or services",
+            "n. a person who seeks the advice of a lawyer"
+        ]
+    },
+    {
+        "name": "hobby",
+        "trans": [
+            "n. an auxiliary activity",
+            "n. small Old World falcon formerly trained and flown at small birds",
+            "n. a child's plaything consisting of an imitation horse mounted on rockers"
+        ]
+    },
+    {
+        "name": "entertainment",
+        "trans": [
+            "n. an activity that is diverting and that holds the attention"
+        ]
+    },
+    {
+        "name": "go to the theater/movies/cinema",
+        "trans": [
+            "to go to look after movie"
+        ]
+    },
+    {
+        "name": "documentary/film",
+        "trans": [
+            "to record disk, reference material (used in scholarly study) disk"
+        ]
+    },
+    {
+        "name": "detective film",
+        "trans": [
+            "detective disk"
+        ]
+    },
+    {
+        "name": "action movie",
+        "trans": [
+            "action movie"
+        ]
+    },
+    {
+        "name": "cartoon",
+        "trans": [
+            "v. to draw cartoons of",
+            "n. a film made by photographing a series of cartoon drawings to give the illusion of movement when projected in rapid sequence",
+            "n. a humorous or satirical drawing published in a newspaper or magazine"
+        ]
+    },
+    {
+        "name": "comedy",
+        "trans": [
+            "n. a comic incident or series of incidents",
+            "n. light and humorous drama with a happy ending"
+        ]
+    },
+    {
+        "name": "horror film",
+        "trans": [
+            "horror movie"
+        ]
+    },
+    {
+        "name": "western film",
+        "trans": [
+            "Western (film)"
+        ]
+    },
+    {
+        "name": "hiking",
+        "trans": [
+            "n. a long walk usually for exercise or pleasure"
+        ]
+    },
+    {
+        "name": "camping",
+        "trans": [
+            "n. the act of encamping and living in tents in a camp"
+        ]
+    },
+    {
+        "name": "diving",
+        "trans": [
+            "n. a headlong plunge into water",
+            "n. an athletic competition that involves diving into water"
+        ]
+    },
+    {
+        "name": "surfing",
+        "trans": [
+            "n. the sport of riding a surfboard toward the shore on the crest of a wave"
+        ]
+    },
+    {
+        "name": "skiing",
+        "trans": [
+            "n. a sport in which participants must travel on skis"
+        ]
+    },
+    {
+        "name": "seashore",
+        "trans": [
+            "n. the shore of a sea or ocean"
+        ]
+    },
+    {
+        "name": "beach",
+        "trans": [
+            "v. to land on a beach",
+            "n. an area of sand sloping down to the water of a sea or lake"
+        ]
+    },
+    {
+        "name": "sunburned",
+        "trans": [
+            "adj. suffering from overexposure to direct sunlight"
+        ]
+    },
+    {
+        "name": "palace",
+        "trans": [
+            "n. official residence of an exalted person (as a sovereign)",
+            "n. a large and stately mansion",
+            "n. a large ornate exhibition hall"
+        ]
+    },
+    {
+        "name": "castle",
+        "trans": [
+            "v. to move the king two squares toward a rook and in the same move the rook to the square next past the king",
+            "n. interchanging the positions of the king and a rook",
+            "n. a large building formerly occupied by a ruler and fortified against attack"
+        ]
+    },
+    {
+        "name": "spare time",
+        "trans": [
+            "n. time that is free from duties or responsibilities",
+            "n. time available for hobbies and other activities that you enjoy"
+        ]
+    },
+    {
+        "name": "favorite",
+        "trans": [
+            "v. to add something to your collection on the Internet",
+            "adj. preferred above all others and treated with partiality",
+            "adj. appealing to the general public"
+        ]
+    },
+    {
+        "name": "interest",
+        "trans": [
+            "v. excite the curiosity of",
+            "v. be on the mind of",
+            "v. be of importance or consequence"
+        ]
+    },
+    {
+        "name": "hobby",
+        "trans": [
+            "n. an auxiliary activity",
+            "n. small Old World falcon formerly trained and flown at small birds",
+            "n. a child's plaything consisting of an imitation horse mounted on rockers"
+        ]
+    },
+    {
+        "name": "appetite",
+        "trans": [
+            "n. a feeling of craving something"
+        ]
+    },
+    {
+        "name": "taste",
+        "trans": [
+            "v. experience briefly",
+            "v. take a sample of",
+            "v. perceive by the sense of taste"
+        ]
+    },
+    {
+        "name": "read novels",
+        "trans": [
+            "comma novel"
+        ]
+    },
+    {
+        "name": "play football/basketball",
+        "trans": [
+            "(loanword) dozen soccer, basketball"
+        ]
+    },
+    {
+        "name": "surf the Internet",
+        "trans": [
+            "to go online"
+        ]
+    },
+    {
+        "name": "chat online",
+        "trans": [
+            "online to chat"
+        ]
+    },
+    {
+        "name": "play games",
+        "trans": [
+            "to play game ("
+        ]
+    },
+    {
+        "name": "collect stamps",
+        "trans": [
+            "stamp collecting"
+        ]
+    },
+    {
+        "name": "make e-friends",
+        "trans": [
+            "to hand over online friend"
+        ]
+    },
+    {
+        "name": "climb mountains",
+        "trans": [
+            "to go for a hike (esp. in the hills or mountains)"
+        ]
+    },
+    {
+        "name": "watch TV",
+        "trans": [
+            "to look after television"
+        ]
+    },
+    {
+        "name": "be keen on",
+        "trans": [
+            "to like"
+        ]
+    },
+    {
+        "name": "enjoy popular music",
+        "trans": [
+            "to like pop music"
+        ]
+    },
+    {
+        "name": "be interested in",
+        "trans": [
+            "right to be interested (in sth)"
+        ]
+    },
+    {
+        "name": "develop an interest in",
+        "trans": [
+            "to exist respect development interest (desire to know about sth)"
+        ]
+    },
+    {
+        "name": "be fond of",
+        "trans": [
+            "to like"
+        ]
+    },
+    {
+        "name": "have love for",
+        "trans": [
+            "to like"
+        ]
+    },
+    {
+        "name": "have a taste in",
+        "trans": [
+            "right interested"
+        ]
+    },
+    {
+        "name": "landlady",
+        "trans": [
+            "n. a landlord who is a woman"
+        ]
+    },
+    {
+        "name": "landlord",
+        "trans": [
+            "n. a landowner who leases to others"
+        ]
+    },
+    {
+        "name": "rent",
+        "trans": [
+            "v. engage for service under a term of contract",
+            "v. grant use or occupation of under a term of contract",
+            "v. let for money"
+        ]
+    },
+    {
+        "name": "deposit",
+        "trans": [
+            "v. put, fix, force, or implant",
+            "v. put (something somewhere) firmly",
+            "v. put into a bank account"
+        ]
+    },
+    {
+        "name": "contract",
+        "trans": [
+            "v. to be stricken by or fall victim to an illness",
+            "v. to become smaller or draw together",
+            "v. to reduce in scope while retaining essential elements"
+        ]
+    },
+    {
+        "name": "furnished",
+        "trans": [
+            "adj. provided with whatever is necessary for a purpose (as furniture or equipment or authority)"
+        ]
+    },
+    {
+        "name": "heat",
+        "trans": [
+            "v. make hot or hotter",
+            "v. gain heat or get hot",
+            "v. arouse or excite feelings and passions"
+        ]
+    },
+    {
+        "name": "gas",
+        "trans": [
+            "v. show off",
+            "v. attack with gas",
+            "n. a pedal that controls the throttle valve"
+        ]
+    },
+    {
+        "name": "electricity",
+        "trans": [
+            "n. keen and shared excitement",
+            "n. a physical phenomenon associated with stationary or moving electrons and protons",
+            "n. energy made available by the flow of electric charge through a conductor"
+        ]
+    },
+    {
+        "name": "lift/elevator",
+        "trans": [
+            "elevator"
+        ]
+    },
+    {
+        "name": "stairs",
+        "trans": [
+            "n. a flight of stairs or a flight of steps"
+        ]
+    },
+    {
+        "name": "balcony",
+        "trans": [
+            "n. a platform projecting from the wall of a building and surrounded by a balustrade or railing or parapet",
+            "n. an upper floor projecting from the rear over the main floor in an auditorium"
+        ]
+    },
+    {
+        "name": "living room",
+        "trans": [
+            "n. a room in a private house or establishment where people can sit and talk and relax"
+        ]
+    },
+    {
+        "name": "guest room",
+        "trans": [
+            "living room"
+        ]
+    },
+    {
+        "name": "dining room",
+        "trans": [
+            "n. a room used for dining"
+        ]
+    },
+    {
+        "name": "kitchen",
+        "trans": [
+            "n. a room equipped for preparing meals"
+        ]
+    },
+    {
+        "name": "bathroom",
+        "trans": [
+            "n. a room containing a bathtub or shower and usually a washbasin and toilet",
+            "n. a room or building equipped with one or more toilets"
+        ]
+    },
+    {
+        "name": "toilet",
+        "trans": [
+            "n. the act of dressing and preparing yourself",
+            "n. a room or building equipped with one or more toilets",
+            "n. a plumbing fixture for defecation and urination"
+        ]
+    },
+    {
+        "name": "basement",
+        "trans": [
+            "n. the lowermost portion of a structure partly or wholly below ground level",
+            "n. the ground floor facade or interior in Renaissance architecture"
+        ]
+    },
+    {
+        "name": "housework",
+        "trans": [
+            "n. the work of cleaning and running a house"
+        ]
+    },
+    {
+        "name": "channel",
+        "trans": [
+            "v. to send from one person or place to another",
+            "v. to direct the flow of",
+            "v. to transmit or serve as the medium for transmission"
+        ]
+    },
+    {
+        "name": "cook",
+        "trans": [
+            "v. to transform and make suitable for consumption by heating",
+            "v. to transform by heating",
+            "v. to prepare for eating by applying heat"
+        ]
+    },
+    {
+        "name": "furniture",
+        "trans": [
+            "n. furnishings that make a room or other area ready for occupancy"
+        ]
+    },
+    {
+        "name": "dining table",
+        "trans": [
+            "n. a table at which meals are served"
+        ]
+    },
+    {
+        "name": "fridge",
+        "trans": [
+            "n. a refrigerator in which the coolant is pumped around by an electric motor"
+        ]
+    },
+    {
+        "name": "television",
+        "trans": [
+            "n. a telecommunication system that transmits images of objects (stationary or moving) between distant points",
+            "n. an electronic device that receives television signals and displays them on a screen",
+            "n. broadcasting visual images of stationary or moving objects"
+        ]
+    },
+    {
+        "name": "oven",
+        "trans": [
+            "n. kitchen appliance used for baking or roasting"
+        ]
+    },
+    {
+        "name": "cabinet",
+        "trans": [
+            "n. a piece of furniture resembling a cupboard with doors and shelves and drawers",
+            "n. housing for electronic instruments, as radio or television",
+            "n. a storage compartment for clothes and valuables"
+        ]
+    },
+    {
+        "name": "dishwasher",
+        "trans": [
+            "n. a machine for washing dishes",
+            "n. someone who washes dishes"
+        ]
+    },
+    {
+        "name": "sheet",
+        "trans": [
+            "v. cover with a sheet, as if by wrapping",
+            "v. come down as if in sheets",
+            "n. a large piece of fabric (usually canvas fabric) by means of which wind is used to propel a sailing vessel"
+        ]
+    },
+    {
+        "name": "blanket",
+        "trans": [
+            "v. to form a blanket-like cover over",
+            "adj. broad in scope or content",
+            "n. bedding that keeps a person warm in bed"
+        ]
+    },
+    {
+        "name": "carpet",
+        "trans": [
+            "v. to cover with a carpet",
+            "v. to cover completely, as if with a carpet",
+            "v. to form a carpet-like cover over"
+        ]
+    },
+    {
+        "name": "curtain",
+        "trans": [
+            "v. to provide with drapery",
+            "n. hanging cloth used as a blind (especially for a window)",
+            "n. any barrier to communication or vision"
+        ]
+    },
+    {
+        "name": "towel",
+        "trans": [
+            "v. wipe with a towel",
+            "n. a rectangular piece of absorbent cloth (or paper) for drying or wiping"
+        ]
+    },
+    {
+        "name": "shampoo",
+        "trans": [
+            "v. use shampoo on (hair)",
+            "n. the act of washing your hair with shampoo",
+            "n. cleansing agent consisting of soaps or detergents used for washing the hair"
+        ]
+    },
+    {
+        "name": "soap",
+        "trans": [
+            "v. rub soap all over, usually with the purpose of cleaning",
+            "n. a cleansing agent made from the salts of vegetable or animal fats",
+            "n. street names for gamma hydroxybutyrate"
+        ]
+    },
+    {
+        "name": "haircut",
+        "trans": [
+            "n. the act of cutting the hair",
+            "n. the style in which hair has been cut"
+        ]
+    },
+    {
+        "name": "barber",
+        "trans": [
+            "v. to perform the services of a barber: cut the hair and/or beard of",
+            "n. a hairdresser who cuts hair and shaves beards as a trade"
+        ]
+    },
+    {
+        "name": "shaver",
+        "trans": [
+            "n. a razor powered by an electric motor",
+            "n. a young person of either sex",
+            "n. an adult male who shaves"
+        ]
+    },
+    {
+        "name": "shave",
+        "trans": [
+            "v. remove body hair with a razor",
+            "v. touch the surface of lightly",
+            "v. cut closely"
+        ]
+    }
 ]

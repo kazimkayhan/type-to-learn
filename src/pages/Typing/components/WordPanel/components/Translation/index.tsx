@@ -16,7 +16,10 @@ export default function Translation({ trans, showTrans = true, onMouseEnter, onM
   const pronunciationConfig = useAtomValue(pronunciationConfigAtom)
   const fontSizeConfig = useAtomValue(fontSizeConfigAtom)
   const isShowTransRead = window.speechSynthesis && pronunciationConfig.isTransRead
-  const speechOptions = useMemo(() => ({ volume: pronunciationConfig.transVolume }), [pronunciationConfig.transVolume])
+  const speechOptions = useMemo(
+    () => ({ volume: pronunciationConfig.transVolume, lang: 'en-US' }),
+    [pronunciationConfig.transVolume],
+  )
   const { speak, speaking } = useSpeech(trans, speechOptions)
 
   const handleClickSoundIcon = useCallback(() => {
@@ -25,17 +28,17 @@ export default function Translation({ trans, showTrans = true, onMouseEnter, onM
 
   const isTextSelectable = useAtomValue(isTextSelectableAtom)
   return (
-    <div className={`flex items-center justify-center  pb-4 pt-5`} onMouseEnter={onMouseEnter} onMouseLeave={onMouseLeave}>
+    <div className={`flex items-center justify-center px-3 pb-3 pt-3 sm:pb-4 sm:pt-5`} onMouseEnter={onMouseEnter} onMouseLeave={onMouseLeave}>
       <span
-        className={`max-w-4xl text-center font-sans transition-colors duration-300 dark:text-white dark:text-opacity-80 ${
+        className={`max-w-4xl px-2 text-center font-sans transition-colors duration-300 dark:text-white dark:text-opacity-80 ${
           isShowTransRead && 'pl-8'
         } ${isTextSelectable && 'select-text'}`}
-        style={{ fontSize: fontSizeConfig.translateFont.toString() + 'px' }}
+        style={{ fontSize: `min(${fontSizeConfig.translateFont}px, 4.6vw)` }}
       >
         {showTrans ? trans : '\u00A0'}
       </span>
       {isShowTransRead && showTrans && (
-        <Tooltip content="朗读释义" className="ml-3 h-5 w-5 cursor-pointer leading-7">
+        <Tooltip content="Read definition aloud" className="ml-3 h-5 w-5 cursor-pointer leading-7">
           <SoundIcon animated={speaking} onClick={handleClickSoundIcon} className="h-5 w-5" />
         </Tooltip>
       )}

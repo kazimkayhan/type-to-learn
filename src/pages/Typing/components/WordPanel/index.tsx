@@ -148,9 +148,15 @@ export default function WordPanel() {
     return isShowTranslation || state.isTransVisible
   }, [isShowTranslation, state.isTransVisible])
 
+  const startTyping = useCallback(() => {
+    if (!state.isTyping) {
+      dispatch({ type: TypingStateActionType.SET_IS_TYPING, payload: true })
+    }
+  }, [dispatch, state.isTyping])
+
   return (
-    <div className="container flex h-full w-full flex-col items-center justify-center">
-      <div className="container flex h-24 w-full shrink-0 grow-0 justify-between px-12 pt-10">
+    <div className="container flex h-full w-full min-w-0 flex-col items-center justify-center">
+      <div className="container flex h-14 w-full shrink-0 grow-0 justify-between gap-2 px-3 pt-2 sm:h-24 sm:px-12 sm:pt-10">
         {isShowPrevAndNextWord && state.isTyping && (
           <>
             <PrevAndNextWord type="prev" />
@@ -158,23 +164,35 @@ export default function WordPanel() {
           </>
         )}
       </div>
-      <div className="container flex flex-grow flex-col items-center justify-center">
+      <div className="container flex min-h-0 flex-grow flex-col items-center justify-center">
         {currentWord && (
-          <div className="relative flex w-full justify-center">
+          <div className="relative flex w-full min-w-0 justify-center px-2">
             {!state.isTyping && (
-              <div className="absolute flex h-full w-full justify-center">
+              <div
+                className="absolute z-10 flex h-full w-full cursor-pointer justify-center"
+                onClick={startTyping}
+                onKeyDown={(event) => {
+                  if (event.key === 'Enter' || event.key === ' ') {
+                    event.preventDefault()
+                    startTyping()
+                  }
+                }}
+                role="button"
+                tabIndex={0}
+              >
                 <div className="z-10 flex w-full items-center backdrop-blur-sm">
-                  <p className="w-full select-none text-center text-xl text-gray-600 dark:text-gray-50">
-                    按任意键{state.timerData.time ? '继续' : '开始'}
+                  <p className="w-full select-none px-4 text-center text-lg text-gray-600 dark:text-gray-50 sm:text-xl">
+                    <span className="md:hidden">Tap to {state.timerData.time ? 'continue' : 'start'}</span>
+                    <span className="hidden md:inline">Press any key to {state.timerData.time ? 'continue' : 'start'}</span>
                   </p>
                 </div>
               </div>
             )}
-            <div className="relative">
+            <div className="relative max-w-full">
               <WordComponent word={currentWord} onFinish={onFinish} key={wordComponentKey} />
               {phoneticConfig.isOpen && <Phonetic word={currentWord} />}
               <Translation
-                trans={currentWord.trans.join('；')}
+                trans={currentWord.trans.join('; ')}
                 showTrans={shouldShowTranslation}
                 onMouseEnter={() => handleShowTranslation(true)}
                 onMouseLeave={() => handleShowTranslation(false)}
@@ -183,7 +201,7 @@ export default function WordPanel() {
           </div>
         )}
       </div>
-      <Progress className={`mb-10 mt-auto ${state.isTyping ? 'opacity-100' : 'opacity-0'}`} />
+      <Progress className={`mb-4 mt-auto w-3/4 sm:mb-10 sm:w-1/4 ${state.isTyping ? 'opacity-100' : 'opacity-0'}`} />
     </div>
   )
 }

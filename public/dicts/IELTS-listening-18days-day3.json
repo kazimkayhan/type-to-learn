@@ -1,310 +1,577 @@
 [
     {
         "name": "remain",
-        "trans": ["v. 保持"]
+        "trans": [
+            "v. stay the same",
+            "v. be left",
+            "v. continue in a place, position, or situation"
+        ]
     },
     {
         "name": "detailed",
-        "trans": ["adj. 详细的"]
+        "trans": [
+            "adj. developed or executed with care and in minute detail"
+        ]
     },
     {
         "name": "disadvantage",
-        "trans": ["n. 缺点"]
+        "trans": [
+            "v. put at a disadvantage",
+            "n. the quality of having an inferior or less favorable position"
+        ]
     },
     {
         "name": "lift",
-        "trans": ["v. 举起"]
+        "trans": [
+            "v. perform cosmetic surgery on someone's face",
+            "v. remove from a surface",
+            "v. take off or away by decreasing"
+        ]
     },
     {
         "name": "medical",
-        "trans": ["adj. 医学的"]
+        "trans": [
+            "adj. requiring or amenable to treatment by medicine especially as opposed to surgery",
+            "adj. of or belonging to Aesculapius or the healing art",
+            "adj. relating to the study or practice of medicine"
+        ]
     },
     {
         "name": "arrange",
-        "trans": ["v. 安排"]
+        "trans": [
+            "v. to configure or arrange something attractively",
+            "v. to arrange thoughts, ideas, temporal events",
+            "v. to make arrangements for"
+        ]
     },
     {
         "name": "artist",
-        "trans": ["n. 艺术家"]
+        "trans": [
+            "n. a person whose creative work shows sensitivity and imagination"
+        ]
     },
     {
         "name": "passport",
-        "trans": ["n. 护照"]
+        "trans": [
+            "n. any quality or characteristic that gains a person a favorable reception or acceptance or admission",
+            "n. a document issued by a country to a citizen allowing that person to travel abroad and re-enter the home country",
+            "n. any authorization to pass or go somewhere"
+        ]
     },
     {
         "name": "university",
-        "trans": ["n. 大学"]
+        "trans": [
+            "n. establishment where a seat of higher learning is housed, including administrative and living quarters as well as facilities for research and teaching",
+            "n. the body of faculty and students at a university",
+            "n. a large and diverse institution of higher learning created to educate for life and for a profession and to grant degrees"
+        ]
     },
     {
         "name": "occupation",
-        "trans": ["n. 职业"]
+        "trans": [
+            "n. the act of occupying or taking possession of a building",
+            "n. the principal activity in your life that you do to earn money",
+            "n. any activity that occupies a person's attention"
+        ]
     },
     {
         "name": "audience",
-        "trans": ["n. 观众"]
+        "trans": [
+            "n. a conference (usually with someone important)",
+            "n. a gathering of spectators or listeners at a (usually public) performance",
+            "n. the part of the general public interested in a source of information or entertainment"
+        ]
     },
     {
         "name": "landscape",
-        "trans": ["n. 风景"]
+        "trans": [
+            "v. do landscape gardening",
+            "v. embellish with plants",
+            "n. a genre of art dealing with the depiction of natural scenery"
+        ]
     },
     {
         "name": "clay",
-        "trans": ["n. 黏土"]
+        "trans": [
+            "n. the dead body of a human being",
+            "n. a very fine-grained soil that is plastic when moist but hard when fired",
+            "n. water soaked soil"
+        ]
     },
     {
         "name": "advantage",
-        "trans": ["n. 优点"]
+        "trans": [
+            "v. to give an advantage to",
+            "n. benefit resulting from some event or action",
+            "n. the quality of having a superior or more favorable position"
+        ]
     },
     {
         "name": "deck",
-        "trans": ["n. 甲板"]
+        "trans": [
+            "v. knock down with force",
+            "v. decorate",
+            "v. be beautiful to look at"
+        ]
     },
     {
         "name": "tourist",
-        "trans": ["n. 旅行者"]
+        "trans": [
+            "n. someone who travels for pleasure"
+        ]
     },
     {
         "name": "entrance",
-        "trans": ["n. 入口"]
+        "trans": [
+            "v. put into a trance",
+            "v. attract",
+            "n. the act of entering"
+        ]
     },
     {
         "name": "concern",
-        "trans": ["n. 担心的事"]
+        "trans": [
+            "v. to be relevant to",
+            "v. to be on the mind of",
+            "n. something that interests you because it is important or affects you"
+        ]
     },
     {
         "name": "feature",
-        "trans": ["n. 特色"]
+        "trans": [
+            "v. have as a feature",
+            "v. wear or display in an ostentatious or proud manner",
+            "n. an article of merchandise that is displayed or advertised more than other articles"
+        ]
     },
     {
         "name": "service",
-        "trans": ["n. 服务"]
+        "trans": [
+            "v. make fit for use",
+            "v. mate with",
+            "v. be used by"
+        ]
     },
     {
         "name": "opportunity",
-        "trans": ["n. 机会"]
+        "trans": [
+            "n. a possibility due to a favorable combination of circumstances"
+        ]
     },
     {
         "name": "band",
-        "trans": ["n. 队"]
+        "trans": [
+            "v. to attach a ring to the foot of, in order to identify",
+            "v. to bind or tie together, as with a band",
+            "n. a thin flat strip of flexible material that is worn around the body or one of the limbs, especially to decorate the body"
+        ]
     },
     {
         "name": "camp",
-        "trans": ["n. 露营"]
+        "trans": [
+            "v. to give an artificially banal or sexual quality to",
+            "v. to establish or set up a camp",
+            "v. to live in or as if in a tent"
+        ]
     },
     {
         "name": "festival",
-        "trans": ["n. 节日"]
+        "trans": [
+            "n. an organized series of acts and performances (usually in one place)",
+            "n. a day or period of time set aside for feasting and celebration"
+        ]
     },
     {
         "name": "protection",
-        "trans": ["n. 保护"]
+        "trans": [
+            "n. payment extorted by gangsters on threat of violence",
+            "n. the activity of protecting someone or something",
+            "n. in trade, the imposition of duties or quotas on imports in order to protect domestic industry against foreign competition"
+        ]
     },
     {
         "name": "model",
-        "trans": ["n. 模型"]
+        "trans": [
+            "v. form in clay, wax, etc",
+            "v. construct a model of",
+            "v. create a representation or model of"
+        ]
     },
     {
         "name": "salt",
-        "trans": ["n. 盐"]
+        "trans": [
+            "v. preserve with salt",
+            "v. add zest or liveliness to",
+            "v. sprinkle as if with salt"
+        ]
     },
     {
         "name": "purple",
-        "trans": ["n. 紫色"]
+        "trans": [
+            "v. color purple",
+            "v. become purple",
+            "adj. of a color intermediate between red and blue"
+        ]
     },
     {
         "name": "calorie",
-        "trans": ["n. 卡路里"]
+        "trans": [
+            "n. unit of heat defined as the quantity of heat required to raise the temperature of 1 gram of water by 1 degree centigrade at atmospheric pressure"
+        ]
     },
     {
         "name": "race",
-        "trans": ["n. 比赛"]
+        "trans": [
+            "v. compete in a race",
+            "v. move fast",
+            "v. cause to move fast or to rush or race"
+        ]
     },
     {
         "name": "concert",
-        "trans": ["n. 音乐会"]
+        "trans": [
+            "v. to settle by agreement",
+            "v. to contrive a plan by mutual agreement",
+            "n. a performance of music by players or singers not involving theatrical staging"
+        ]
     },
     {
         "name": "provide",
-        "trans": ["v. 提供"]
+        "trans": [
+            "v. take measures in preparation for",
+            "v. determine (what is to happen in certain contingencies), especially by including a proviso condition or stipulation",
+            "v. give what is desired or needed, especially support, food or sustenance"
+        ]
     },
     {
         "name": "broadcast",
-        "trans": ["v. 广播"]
+        "trans": [
+            "v. to cause to become widely known",
+            "v. to broadcast over the airwaves, as in radio or television",
+            "v. to sow over a wide area, especially by hand"
+        ]
     },
     {
         "name": "tent",
-        "trans": ["n. 帐篷"]
+        "trans": [
+            "v. live in or as if in a tent",
+            "n. a portable shelter usually of canvas stretched over supporting poles and fastened to the ground with ropes and pegs",
+            "n. a web that resembles a tent or carpet"
+        ]
     },
     {
         "name": "piano",
-        "trans": ["n. 钢琴"]
+        "trans": [
+            "adj. used chiefly as a direction or description in music",
+            "adv. used as a direction in music",
+            "n. a keyboard instrument that is played by depressing keys that cause hammers to strike tuned strings and produce sounds"
+        ]
     },
     {
         "name": "share",
-        "trans": ["v. 分享"]
+        "trans": [
+            "v. communicate",
+            "v. give out as one's portion or share",
+            "v. have, give, or receive a share of"
+        ]
     },
     {
         "name": "discount",
-        "trans": ["n. 折扣"]
+        "trans": [
+            "v. bar from attention or consideration",
+            "v. give a reduction in price on",
+            "n. the act of reducing the selling price of merchandise"
+        ]
     },
     {
         "name": "tablet",
-        "trans": ["n. 药片"]
+        "trans": [
+            "n. a dose of medicine in the form of a small pellet",
+            "n. a small flat compressed cake of some substance",
+            "n. a slab of stone or wood suitable for bearing an inscription"
+        ]
     },
     {
         "name": "original",
-        "trans": ["adj. 原始的"]
+        "trans": [
+            "adj. not derived or copied or translated from something else",
+            "adj. preceding all others in time or being as first made or performed",
+            "adj. being or productive of something fresh and unusual"
+        ]
     },
     {
         "name": "control",
-        "trans": ["n. 控制"]
+        "trans": [
+            "v. to have a firm understanding or knowledge of",
+            "v. to be careful or certain to do something",
+            "v. to verify by using a duplicate register for comparison"
+        ]
     },
     {
         "name": "handle",
-        "trans": ["v. 操作"]
+        "trans": [
+            "v. act on verbally or in some form of artistic expression",
+            "v. touch, lift, or hold with the hands",
+            "v. handle effectively"
+        ]
     },
     {
         "name": "participant",
-        "trans": ["n. 参与者"]
+        "trans": [
+            "n. someone who takes part in an activity",
+            "n. a person who participates in or is skilled at some game"
+        ]
     },
     {
         "name": "repair",
-        "trans": ["n. 修理"]
+        "trans": [
+            "v. give new life or energy to",
+            "v. set straight or right",
+            "v. restore by replacing a part or putting together what is torn or broken"
+        ]
     },
     {
         "name": "advertisement",
-        "trans": ["n. 广告"]
+        "trans": [
+            "n. a public promotion of some product or service"
+        ]
     },
     {
         "name": "silver",
-        "trans": ["n. 银色"]
+        "trans": [
+            "v. turn silver",
+            "v. make silver in color",
+            "v. coat with a layer of silver or a silver amalgam"
+        ]
     },
     {
         "name": "additional",
-        "trans": ["adj. 附加的"]
+        "trans": [
+            "adj. further or added"
+        ]
     },
     {
         "name": "dining room",
-        "trans": ["n. 餐厅"]
+        "trans": [
+            "n. a room used for dining"
+        ]
     },
     {
         "name": "candle",
-        "trans": ["n. 蜡烛"]
+        "trans": [
+            "v. to examine eggs for freshness by holding them against a light",
+            "n. stick of wax with a wick in the middle",
+            "n. the basic unit of luminous intensity adopted under the Systeme International d'Unites"
+        ]
     },
     {
         "name": "single",
-        "trans": ["n. 单个的"]
+        "trans": [
+            "v. hit a single",
+            "adj. being or characteristic of a single thing or person",
+            "adj. not married or related to the unmarried state"
+        ]
     },
     {
         "name": "performance",
-        "trans": ["n. 表演"]
+        "trans": [
+            "n. any recognized accomplishment",
+            "n. the act of performing",
+            "n. the act of presenting a play, a piece of music, or other entertainment"
+        ]
     },
     {
         "name": "supermarket",
-        "trans": ["n. 超市"]
+        "trans": [
+            "n. a large self-service grocery store selling groceries and dairy products and household goods"
+        ]
     },
     {
         "name": "avenue",
-        "trans": ["n. 大街"]
+        "trans": [
+            "n. a line of approach",
+            "n. a wide street or thoroughfare"
+        ]
     },
     {
         "name": "available",
-        "trans": ["adj. 可获得的"]
+        "trans": [
+            "adj. obtainable or accessible and ready for use or service",
+            "adj. convenient for use or disposal",
+            "adj. not busy"
+        ]
     },
     {
         "name": "vacuum",
-        "trans": ["n. 真空"]
+        "trans": [
+            "v. clean with a vacuum cleaner",
+            "n. an electrical home appliance that cleans by suction",
+            "n. a region that is devoid of matter"
+        ]
     },
     {
         "name": "registration",
-        "trans": ["n. 登记"]
+        "trans": [
+            "n. the act of enrolling",
+            "n. the act of adjusting something to match a standard",
+            "n. (music) the sound property resulting from a combination of organ stops used to perform a particular piece of music"
+        ]
     },
     {
         "name": "sale",
-        "trans": ["n. 出售"]
+        "trans": [
+            "n. a particular instance of selling",
+            "n. the general activity of selling",
+            "n. an occasion (usually brief) for buying at specially reduced prices"
+        ]
     },
     {
         "name": "cousin",
-        "trans": ["n. 堂兄弟姐妹"]
+        "trans": [
+            "n. the child of your aunt or uncle"
+        ]
     },
     {
         "name": "reusable",
-        "trans": ["adj. 可以再使用的"]
+        "trans": [
+            "adj. capable of being used again"
+        ]
     },
     {
         "name": "certificate",
-        "trans": ["n. 证书"]
+        "trans": [
+            "v. to authorize by certificate",
+            "v. to present someone with a certificate",
+            "n. a document attesting to the truth of certain stated facts"
+        ]
     },
     {
         "name": "swimming pool",
-        "trans": ["n. 游泳池"]
+        "trans": [
+            "n. pool that provides a facility for swimming"
+        ]
     },
     {
         "name": "initial",
-        "trans": ["adj. 最初的"]
+        "trans": [
+            "v. mark with one's initials",
+            "adj. occurring at the beginning",
+            "n. the first letter of a word, especially a person's name"
+        ]
     },
     {
         "name": "garage",
-        "trans": ["n. 车库"]
+        "trans": [
+            "v. keep or store in a garage",
+            "n. an outbuilding (or part of a building) for housing automobiles",
+            "n. a repair shop where cars and trucks are serviced and repaired"
+        ]
     },
     {
         "name": "deliver",
-        "trans": ["v. 传递"]
+        "trans": [
+            "v. cause to be born",
+            "v. deliver (a speech, oration, or idea)",
+            "v. utter an exclamation or noise of some sort"
+        ]
     },
     {
         "name": "primary school",
-        "trans": ["n. 小学"]
+        "trans": [
+            "n. a school for young children"
+        ]
     },
     {
         "name": "purchase",
-        "trans": ["n. 购买"]
+        "trans": [
+            "v. obtain by purchase",
+            "n. the acquisition of something for payment",
+            "n. a means of exerting influence or gaining advantage"
+        ]
     },
     {
         "name": "consult",
-        "trans": ["v. 请教：咨询"]
+        "trans": [
+            "v. to advise professionally",
+            "v. to have a conference in order to talk something over",
+            "v. to seek information from"
+        ]
     },
     {
         "name": "alarm",
-        "trans": ["n. 闹钟：警报"]
+        "trans": [
+            "v. to warn or arouse to a sense of danger, or to call to a state of preparedness",
+            "v. to fill with apprehension or alarm",
+            "n. a device that signals the occurrence of some undesirable event"
+        ]
     },
     {
         "name": "driving license",
-        "trans": ["n. 行车执照"]
+        "trans": [
+            "n. a license authorizing the bearer to drive a motor vehicle"
+        ]
     },
     {
         "name": "sandwich",
-        "trans": ["n. 三明治"]
+        "trans": [
+            "v. insert or squeeze tightly between two people or objects",
+            "v. make into a sandwich",
+            "n. two or more slices of bread with a filling between them"
+        ]
     },
     {
         "name": "postcode",
-        "trans": ["n. 邮编"]
+        "trans": [
+            "n. a code of letters and digits added to a postal address to aid in the sorting of mail"
+        ]
     },
     {
         "name": "loss",
-        "trans": ["n. 减少"]
+        "trans": [
+            "n. the act of losing someone or something",
+            "n. the disadvantage that results from losing something",
+            "n. the experience of losing a loved one"
+        ]
     },
     {
         "name": "technician",
-        "trans": ["n. 技术人员"]
+        "trans": [
+            "n. someone whose occupation involves training in a specific technical process or equipment",
+            "n. someone known for high skill in some intellectual or artistic technique"
+        ]
     },
     {
         "name": "tour",
-        "trans": ["n. 旅行"]
+        "trans": [
+            "v. make a tour of a certain place",
+            "n. a journey or route all the way around a particular place or area",
+            "n. a time for working (after which you will be relieved by someone else)"
+        ]
     },
     {
         "name": "valid",
-        "trans": ["adj. 有效的"]
+        "trans": [
+            "adj. still legally acceptable",
+            "adj. well grounded in logic or truth or having legal force"
+        ]
     },
     {
         "name": "wheelchair",
-        "trans": ["n. 轮椅"]
+        "trans": [
+            "n. a movable chair mounted on large wheels"
+        ]
     },
     {
         "name": "fridge",
-        "trans": ["n. 电冰箱"]
+        "trans": [
+            "n. a refrigerator in which the coolant is pumped around by an electric motor"
+        ]
     },
     {
         "name": "poetry",
-        "trans": ["n. 诗"]
+        "trans": [
+            "n. literature in metrical form",
+            "n. any communication resembling poetry in beauty or the evocation of feeling"
+        ]
     }
 ]

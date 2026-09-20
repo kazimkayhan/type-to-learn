@@ -12,7 +12,7 @@ function Phonetic({ word }: PhoneticProps) {
 
   return (
     <div
-      className={`space-x-5 text-center text-sm font-normal text-gray-600 transition-colors duration-300 dark:text-gray-400 ${
+      className={`flex flex-wrap items-center justify-center gap-x-5 text-center text-sm font-normal text-gray-600 transition-colors duration-300 dark:text-gray-400 ${
         isTextSelectable && 'select-text'
       }`}
     >

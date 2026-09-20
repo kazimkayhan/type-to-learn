@@ -1,1376 +1,1640 @@
 [
-  {
-    "name": "airline",
-    "usphone": "ˈerlaɪn",
-    "ukphone": "ˈeəlaɪn",
-    "trans": [
-      "航空公司,航线"
-    ]
-  },
-  {
-    "name": "print",
-    "usphone": "prɪnt",
-    "ukphone": "prɪnt",
-    "trans": [
-      "印"
-    ]
-  },
-  {
-    "name": "terminal",
-    "usphone": "ˈtɜːrmɪnl",
-    "ukphone": "ˈtɜːmɪnl",
-    "trans": [
-      "航空集散站"
-    ]
-  },
-  {
-    "name": "visa",
-    "usphone": "ˈviːzə",
-    "ukphone": "ˈviːzə",
-    "trans": [
-      "(护照的)签证"
-    ]
-  },
-  {
-    "name": "aisle",
-    "usphone": "aɪl",
-    "ukphone": "aɪl",
-    "trans": [
-      "(教堂、剧院、火车等的)过道,(超市架之间的)走道"
-    ]
-  },
-  {
-    "name": "board",
-    "usphone": "bɔːrd",
-    "ukphone": "bɔːd",
-    "trans": [
-      "登机, 等船, 上火车, 汽车等"
-    ]
-  },
-  {
-    "name": "check",
-    "usphone": "tʃek",
-    "ukphone": "tʃek",
-    "trans": [
-      "寄放"
-    ]
-  },
-  {
-    "name": "delay",
-    "usphone": "dɪˈleɪ",
-    "ukphone": "dɪˈleɪ",
-    "trans": [
-      "延期, 推迟"
-    ]
-  },
-  {
-    "name": "depart",
-    "usphone": "dɪˈpɑːrt",
-    "ukphone": "dɪˈpɑːt",
-    "trans": [
-      "离开"
-    ]
-  },
-  {
-    "name": "schedule",
-    "usphone": "ˈskedʒuːl",
-    "ukphone": "ˈʃedjuːl",
-    "trans": [
-      "安排, 计划"
-    ]
-  },
-  {
-    "name": "ticket",
-    "usphone": "ˈtɪkɪt",
-    "ukphone": "ˈtɪkɪt",
-    "trans": [
-      "票, 券, 入场券"
-    ]
-  },
-  {
-    "name": "trip",
-    "usphone": "trɪp",
-    "ukphone": "trɪp",
-    "trans": [
-      "旅行, 旅程"
-    ]
-  },
-  {
-    "name": "pack",
-    "usphone": "pæk",
-    "ukphone": "pæk",
-    "trans": [
-      "收拾行李, 把... 打包"
-    ]
-  },
-  {
-    "name": "luggage",
-    "usphone": "ˈlʌɡɪdʒ",
-    "ukphone": "ˈlʌɡɪdʒ",
-    "trans": [
-      "行李"
-    ]
-  },
-  {
-    "name": "book",
-    "usphone": "bʊk",
-    "ukphone": "bʊk",
-    "trans": [
-      "预定"
-    ]
-  },
-  {
-    "name": "airport",
-    "usphone": "ˈerpɔːrt",
-    "ukphone": "ˈeəpɔːt",
-    "trans": [
-      "机场"
-    ]
-  },
-  {
-    "name": "gate",
-    "usphone": "ɡeɪt",
-    "ukphone": "ɡeɪt",
-    "trans": [
-      "门, 大门, 闸门"
-    ]
-  },
-  {
-    "name": "subway",
-    "usphone": "ˈsʌbweɪ",
-    "ukphone": "ˈsʌbweɪ",
-    "trans": [
-      "地铁"
-    ]
-  },
-  {
-    "name": "option",
-    "usphone": "ˈɑːpʃn",
-    "ukphone": "ˈɒpʃn",
-    "trans": [
-      "选择, 选择权, 选择自由"
-    ]
-  },
-  {
-    "name": "plane",
-    "usphone": "pleɪn",
-    "ukphone": "pleɪn",
-    "trans": [
-      "飞机"
-    ]
-  },
-  {
-    "name": "already",
-    "usphone": "ɔːlˈredi",
-    "ukphone": "ɔːlˈredi",
-    "trans": [
-      "已经, 早已"
-    ]
-  },
-  {
-    "name": "ever",
-    "usphone": "ˈevər",
-    "ukphone": "ˈevə(r)",
-    "trans": [
-      "曾经"
-    ]
-  },
-  {
-    "name": "as",
-    "usphone": "əz",
-    "ukphone": "əz",
-    "trans": [
-      "和 一样"
-    ]
-  },
-  {
-    "name": "flight",
-    "usphone": "flaɪt",
-    "ukphone": "flaɪt",
-    "trans": [
-      "空中旅行"
-    ]
-  },
-  {
-    "name": "unattended",
-    "usphone": "ˌʌnəˈtendɪd",
-    "ukphone": "ˌʌnəˈtendɪd",
-    "trans": [
-      "没人看守的,没人管理的"
-    ]
-  },
-  {
-    "name": "limousine",
-    "usphone": "ˈlɪməziːn",
-    "ukphone": "ˈlɪməziːn",
-    "trans": [
-      "大型豪华轿车"
-    ]
-  },
-  {
-    "name": "shuttle",
-    "usphone": "ˈʃʌtl",
-    "ukphone": "ˈʃʌtl",
-    "trans": [
-      "穿梭班机﹑ 公共汽车"
-    ]
-  },
-  {
-    "name": "customs",
-    "usphone": "ˈkʌstəmz",
-    "ukphone": "ˈkʌstəmz",
-    "trans": [
-      "海关"
-    ]
-  },
-  {
-    "name": "yet",
-    "usphone": "jet",
-    "ukphone": "jet",
-    "trans": [
-      "还, 尚, 仍然"
-    ]
-  },
-  {
-    "name": "exciting",
-    "usphone": "ɪkˈsaɪtɪŋ",
-    "ukphone": "ɪkˈsaɪtɪŋ",
-    "trans": [
-      "令人兴奋的"
-    ]
-  },
-  {
-    "name": "far",
-    "usphone": "fɑːr",
-    "ukphone": "fɑː(r)",
-    "trans": [
-      "远的, 离得远的"
-    ]
-  },
-  {
-    "name": "honest",
-    "usphone": "ˈɑːnɪst",
-    "ukphone": "ˈɒnɪst",
-    "trans": [
-      "诚实的, 老实的"
-    ]
-  },
-  {
-    "name": "team",
-    "usphone": "tiːm",
-    "ukphone": "tiːm",
-    "trans": [
-      "队, 小组,"
-    ]
-  },
-  {
-    "name": "build",
-    "usphone": "bɪld",
-    "ukphone": "bɪld",
-    "trans": [
-      "建造, 修建"
-    ]
-  },
-  {
-    "name": "so",
-    "usphone": "soʊ",
-    "ukphone": "səʊ",
-    "trans": [
-      "因此, 所以, 因而, 从而"
-    ]
-  },
-  {
-    "name": "most",
-    "usphone": "moʊst",
-    "ukphone": "məʊst",
-    "trans": [
-      "(用以构成形容词或副词的最高级)最"
-    ]
-  },
-  {
-    "name": "TRUE",
-    "usphone": "truː",
-    "ukphone": "truː",
-    "trans": [
-      "事实上的"
-    ]
-  },
-  {
-    "name": "decide",
-    "usphone": "dɪˈsaɪd",
-    "ukphone": "dɪˈsaɪd",
-    "trans": [
-      "决定"
-    ]
-  },
-  {
-    "name": "suggest",
-    "usphone": "səˈdʒest",
-    "ukphone": "səˈdʒest",
-    "trans": [
-      "建议"
-    ]
-  },
-  {
-    "name": "best",
-    "usphone": "best",
-    "ukphone": "best",
-    "trans": [
-      "最好的"
-    ]
-  },
-  {
-    "name": "farthest",
-    "usphone": "ˈfɑːrðɪst",
-    "ukphone": "ˈfɑːðɪst",
-    "trans": [
-      "最远地"
-    ]
-  },
-  {
-    "name": "cheap",
-    "usphone": "tʃiːp",
-    "ukphone": "tʃiːp",
-    "trans": [
-      "便宜的"
-    ]
-  },
-  {
-    "name": "near",
-    "usphone": "nɪr",
-    "ukphone": "nɪə(r)",
-    "trans": [
-      "近的"
-    ]
-  },
-  {
-    "name": "expensive",
-    "usphone": "ɪkˈspensɪv",
-    "ukphone": "ɪkˈspensɪv",
-    "trans": [
-      "贵的"
-    ]
-  },
-  {
-    "name": "projector",
-    "usphone": "prəˈdʒektər",
-    "ukphone": "prəˈdʒektə(r)",
-    "trans": [
-      "放映机,投影仪"
-    ]
-  },
-  {
-    "name": "meeting",
-    "usphone": "ˈmiːtɪŋ",
-    "ukphone": "ˈmiːtɪŋ",
-    "trans": [
-      "会议, 集会, 会"
-    ]
-  },
-  {
-    "name": "facility",
-    "usphone": "fəˈsɪləti",
-    "ukphone": "fəˈsɪləti",
-    "trans": [
-      "设施, 设备"
-    ]
-  },
-  {
-    "name": "department",
-    "usphone": "dɪˈpɑːrtmənt",
-    "ukphone": "dɪˈpɑːtmənt",
-    "trans": [
-      "部门"
-    ]
-  },
-  {
-    "name": "venue",
-    "usphone": "ˈvenjuː",
-    "ukphone": "ˈvenjuː",
-    "trans": [
-      "聚集地点; 会场; (尤指)体育比赛场所"
-    ]
-  },
-  {
-    "name": "presentation",
-    "usphone": "ˌpriːzenˈteɪʃn",
-    "ukphone": "ˌpreznˈteɪʃn",
-    "trans": [
-      "展示"
-    ]
-  },
-  {
-    "name": "recommend",
-    "usphone": "ˌrekəˈmend",
-    "ukphone": "ˌrekəˈmend",
-    "trans": [
-      "建议, 推荐"
-    ]
-  },
-  {
-    "name": "conference",
-    "usphone": "ˈkɑːnfərəns",
-    "ukphone": "ˈkɒnfərəns",
-    "trans": [
-      "会议, 大会"
-    ]
-  },
-  {
-    "name": "mention",
-    "usphone": "ˈmenʃn",
-    "ukphone": "ˈmenʃn",
-    "trans": [
-      "提到, 说起"
-    ]
-  },
-  {
-    "name": "discuss",
-    "usphone": "dɪˈskʌs",
-    "ukphone": "dɪˈskʌs",
-    "trans": [
-      "讨论, 探讨"
-    ]
-  },
-  {
-    "name": "choose",
-    "usphone": "tʃuːz",
-    "ukphone": "tʃuːz",
-    "trans": [
-      "选择, 挑选"
-    ]
-  },
-  {
-    "name": "agree",
-    "usphone": "əˈɡriː",
-    "ukphone": "əˈɡriː",
-    "trans": [
-      "接受, 批准"
-    ]
-  },
-  {
-    "name": "better",
-    "usphone": "ˈbetər",
-    "ukphone": "ˈbetə(r)",
-    "trans": [
-      "较好的, 更好的"
-    ]
-  },
-  {
-    "name": "ambulance",
-    "usphone": "ˈæmbjələns",
-    "ukphone": "ˈæmbjələns",
-    "trans": [
-      "救护车"
-    ]
-  },
-  {
-    "name": "seem",
-    "usphone": "siːm",
-    "ukphone": "siːm",
-    "trans": [
-      "看上去, 像是, 似乎"
-    ]
-  },
-  {
-    "name": "beginning",
-    "usphone": "bɪˈɡɪnɪŋ",
-    "ukphone": "bɪˈɡɪnɪŋ",
-    "trans": [
-      "开始, ...初"
-    ]
-  },
-  {
-    "name": "later",
-    "usphone": "ˈleɪtər",
-    "ukphone": "ˈleɪtə(r)",
-    "trans": [
-      "随后, 以后"
-    ]
-  },
-  {
-    "name": "next",
-    "usphone": "nekst",
-    "ukphone": "nekst",
-    "trans": [
-      "接下去, 然后"
-    ]
-  },
-  {
-    "name": "after",
-    "usphone": "ˈæftər",
-    "ukphone": "ˈɑːftə(r)",
-    "trans": [
-      "以后的"
-    ]
-  },
-  {
-    "name": "finally",
-    "usphone": "ˈfaɪnəli",
-    "ukphone": "ˈfaɪnəli",
-    "trans": [
-      "最终地"
-    ]
-  },
-  {
-    "name": "end",
-    "usphone": "end",
-    "ukphone": "end",
-    "trans": [
-      "在 的结尾"
-    ]
-  },
-  {
-    "name": "buddy",
-    "usphone": "ˈbʌdi",
-    "ukphone": "ˈbʌdi",
-    "trans": [
-      "伙伴,好朋友"
-    ]
-  },
-  {
-    "name": "relative",
-    "usphone": "ˈrelətɪv",
-    "ukphone": "ˈrelətɪv",
-    "trans": [
-      "亲戚"
-    ]
-  },
-  {
-    "name": "close",
-    "usphone": "kloʊs",
-    "ukphone": "kləʊs",
-    "trans": [
-      "亲近的"
-    ]
-  },
-  {
-    "name": "old",
-    "usphone": "oʊld",
-    "ukphone": "əʊld",
-    "trans": [
-      "多年的, 长时间的, 旧交的"
-    ]
-  },
-  {
-    "name": "colleague",
-    "usphone": "ˈkɑːliːɡ",
-    "ukphone": "ˈkɒliːɡ",
-    "trans": [
-      "同事, 同仁"
-    ]
-  },
-  {
-    "name": "co-worker",
-    "trans": [
-      "一起工作的人,同事"
-    ]
-  },
-  {
-    "name": "boss",
-    "usphone": "bɔːs",
-    "ukphone": "bɒs",
-    "trans": [
-      "老板, 领导"
-    ]
-  },
-  {
-    "name": "manager",
-    "usphone": "ˈmænɪdʒər",
-    "ukphone": "ˈmænɪdʒə(r)",
-    "trans": [
-      "主管, 经理, 负责人"
-    ]
-  },
-  {
-    "name": "lucky",
-    "usphone": "ˈlʌki",
-    "ukphone": "ˈlʌki",
-    "trans": [
-      "幸运的, 好运的"
-    ]
-  },
-  {
-    "name": "quickly",
-    "usphone": "ˈkwɪkli",
-    "ukphone": "ˈkwɪkli",
-    "trans": [
-      "快速地, 迅速地"
-    ]
-  },
-  {
-    "name": "really",
-    "usphone": "ˈriːəli",
-    "ukphone": "ˈriːəli",
-    "trans": [
-      "真实地, 真正地, 实际上"
-    ]
-  },
-  {
-    "name": "fortunate",
-    "usphone": "ˈfɔːrtʃənət",
-    "ukphone": "ˈfɔːtʃənət",
-    "trans": [
-      "幸运的"
-    ]
-  },
-  {
-    "name": "broken",
-    "usphone": "ˈbroʊkən",
-    "ukphone": "ˈbrəʊkən",
-    "trans": [
-      "被破坏的, 受伤的, 断裂的"
-    ]
-  },
-  {
-    "name": "positive",
-    "usphone": "ˈpɑːzətɪv",
-    "ukphone": "ˈpɒzətɪv",
-    "trans": [
-      "积极的, 有助益的, 建设性的"
-    ]
-  },
-  {
-    "name": "feel",
-    "usphone": "fiːl",
-    "ukphone": "fiːl",
-    "trans": [
-      "感觉"
-    ]
-  },
-  {
-    "name": "surprising",
-    "usphone": "sərˈpraɪzɪŋ",
-    "ukphone": "səˈpraɪzɪŋ",
-    "trans": [
-      "令人惊讶的"
-    ]
-  },
-  {
-    "name": "accident",
-    "usphone": "ˈæksɪdənt",
-    "ukphone": "ˈæksɪdənt",
-    "trans": [
-      "事故"
-    ]
-  },
-  {
-    "name": "acquaintance",
-    "usphone": "əˈkweɪntəns",
-    "ukphone": "əˈkweɪntəns",
-    "trans": [
-      "认识(但不熟悉)的人"
-    ]
-  },
-  {
-    "name": "grateful",
-    "usphone": "ˈɡreɪtfl",
-    "ukphone": "ˈɡreɪtfl",
-    "trans": [
-      "感激的, 感谢的"
-    ]
-  },
-  {
-    "name": "unexpected",
-    "usphone": "ˌʌnɪkˈspektɪd",
-    "ukphone": "ˌʌnɪkˈspektɪd",
-    "trans": [
-      "意外的, 料想不到的, 突然的"
-    ]
-  },
-  {
-    "name": "storm",
-    "usphone": "stɔːrm",
-    "ukphone": "stɔːm",
-    "trans": [
-      "暴风雨"
-    ]
-  },
-  {
-    "name": "authentic",
-    "usphone": "ɔːˈθentɪk",
-    "ukphone": "ɔːˈθentɪk",
-    "trans": [
-      "可信的,可靠地"
-    ]
-  },
-  {
-    "name": "outdoor",
-    "usphone": "ˈaʊtdɔːr",
-    "ukphone": "ˈaʊtdɔː(r)",
-    "trans": [
-      "户外的, 室外的"
-    ]
-  },
-  {
-    "name": "parking",
-    "usphone": "ˈpɑːrkɪŋ",
-    "ukphone": "ˈpɑːkɪŋ",
-    "trans": [
-      "停车,泊车"
-    ]
-  },
-  {
-    "name": "reputation",
-    "usphone": "ˌrepjuˈteɪʃn",
-    "ukphone": "ˌrepjuˈteɪʃn",
-    "trans": [
-      "名誉, 声誉"
-    ]
-  },
-  {
-    "name": "seating",
-    "usphone": "ˈsiːtɪŋ",
-    "ukphone": "ˈsiːtɪŋ",
-    "trans": [
-      "位子, 座位"
-    ]
-  },
-  {
-    "name": "variety",
-    "usphone": "vəˈraɪəti",
-    "ukphone": "vəˈraɪəti",
-    "trans": [
-      "变化, 种种, 多样性"
-    ]
-  },
-  {
-    "name": "appetizer",
-    "usphone": "ˈæpɪtaɪzər",
-    "ukphone": "ˈæpɪtaɪzə(r)",
-    "trans": [
-      "开胃餐,餐前小菜"
-    ]
-  },
-  {
-    "name": "course",
-    "usphone": "kɔːrs",
-    "ukphone": "kɔːs",
-    "trans": [
-      "一道菜"
-    ]
-  },
-  {
-    "name": "main",
-    "usphone": "meɪn",
-    "ukphone": "meɪn",
-    "trans": [
-      "最重要的, 主要的"
-    ]
-  },
-  {
-    "name": "mousse",
-    "usphone": "muːs",
-    "ukphone": "muːs",
-    "trans": [
-      "奶油甜点; 慕斯"
-    ]
-  },
-  {
-    "name": "sorbet",
-    "usphone": "ˈsɔːrbət",
-    "ukphone": "ˈsɔːbeɪ",
-    "trans": [
-      "冰糕"
-    ]
-  },
-  {
-    "name": "starter",
-    "usphone": "ˈstɑːrtər",
-    "ukphone": "ˈstɑːtə(r)",
-    "trans": [
-      "开胃小吃"
-    ]
-  },
-  {
-    "name": "tip",
-    "usphone": "tɪp",
-    "ukphone": "tɪp",
-    "trans": [
-      "小费"
-    ]
-  },
-  {
-    "name": "review",
-    "usphone": "rɪˈvjuː",
-    "ukphone": "rɪˈvjuː",
-    "trans": [
-      "检查, 评审"
-    ]
-  },
-  {
-    "name": "wide",
-    "usphone": "waɪd",
-    "ukphone": "waɪd",
-    "trans": [
-      "广大的, 广泛的"
-    ]
-  },
-  {
-    "name": "reasonable",
-    "usphone": "ˈriːznəbl",
-    "ukphone": "ˈriːznəbl",
-    "trans": [
-      "合理的, 适当的"
-    ]
-  },
-  {
-    "name": "free",
-    "usphone": "friː",
-    "ukphone": "friː",
-    "trans": [
-      "免费的"
-    ]
-  },
-  {
-    "name": "reservation",
-    "usphone": "ˌrezərˈveɪʃn",
-    "ukphone": "ˌrezəˈveɪʃn",
-    "trans": [
-      "预订"
-    ]
-  },
-  {
-    "name": "waiter",
-    "usphone": "ˈweɪtər",
-    "ukphone": "ˈweɪtə(r)",
-    "trans": [
-      "服务员, 侍者"
-    ]
-  },
-  {
-    "name": "dessert",
-    "usphone": "dɪˈzɜːrt",
-    "ukphone": "dɪˈzɜːt",
-    "trans": [
-      "甜点"
-    ]
-  },
-  {
-    "name": "some",
-    "usphone": "səm",
-    "ukphone": "səm",
-    "trans": [
-      "一些"
-    ]
-  },
-  {
-    "name": "any",
-    "usphone": "ˈeni",
-    "ukphone": "ˈeni",
-    "trans": [
-      "任何"
-    ]
-  },
-  {
-    "name": "serve",
-    "usphone": "sɜːrv",
-    "ukphone": "sɜːv",
-    "trans": [
-      "提供食物, 饮料"
-    ]
-  },
-  {
-    "name": "soup",
-    "usphone": "suːp",
-    "ukphone": "suːp",
-    "trans": [
-      "汤"
-    ]
-  },
-  {
-    "name": "salad",
-    "usphone": "ˈsæləd",
-    "ukphone": "ˈsæləd",
-    "trans": [
-      "沙拉, 色拉"
-    ]
-  },
-  {
-    "name": "check",
-    "usphone": "tʃek",
-    "ukphone": "tʃek",
-    "trans": [
-      "支票"
-    ]
-  },
-  {
-    "name": "pay",
-    "usphone": "peɪ",
-    "ukphone": "peɪ",
-    "trans": [
-      "支付"
-    ]
-  },
-  {
-    "name": "bill",
-    "usphone": "bɪl",
-    "ukphone": "bɪl",
-    "trans": [
-      "账单"
-    ]
-  },
-  {
-    "name": "leave",
-    "usphone": "liːv",
-    "ukphone": "liːv",
-    "trans": [
-      "听任, 使处于某种状态"
-    ]
-  },
-  {
-    "name": "speciality",
-    "usphone": "ˌspeʃiˈæləti",
-    "ukphone": "ˌspeʃiˈæləti",
-    "trans": [
-      "特色菜;特产"
-    ]
-  },
-  {
-    "name": "action",
-    "usphone": "ˈækʃn",
-    "ukphone": "ˈækʃn",
-    "trans": [
-      "趣事, 活力刺激, 精彩的情节"
-    ]
-  },
-  {
-    "name": "documentary",
-    "usphone": "ˌdɑːkjuˈmentri",
-    "ukphone": "ˌdɒkjuˈmentri",
-    "trans": [
-      "记录"
-    ]
-  },
-  {
-    "name": "thriller",
-    "usphone": "ˈθrɪlər",
-    "ukphone": "ˈθrɪlə(r)",
-    "trans": [
-      "惊险小说, 惊悚片"
-    ]
-  },
-  {
-    "name": "horror",
-    "usphone": "ˈhɔːrər",
-    "ukphone": "ˈhɒrə(r)",
-    "trans": [
-      "惊骇, 惊恐"
-    ]
-  },
-  {
-    "name": "comedy",
-    "usphone": "ˈkɑːmədi",
-    "ukphone": "ˈkɒmədi",
-    "trans": [
-      "喜剧"
-    ]
-  },
-  {
-    "name": "romance",
-    "usphone": "ˈroʊmæns",
-    "ukphone": "rəʊˈmæns",
-    "trans": [
-      "富于想像力的故事; 浪漫故事"
-    ]
-  },
-  {
-    "name": "one",
-    "usphone": "wʌn",
-    "ukphone": "wʌn",
-    "trans": [
-      "一个"
-    ]
-  },
-  {
-    "name": "actor",
-    "usphone": "ˈæktər",
-    "ukphone": "ˈæktə(r)",
-    "trans": [
-      "男演员"
-    ]
-  },
-  {
-    "name": "director",
-    "usphone": "dəˈrektər",
-    "ukphone": "dəˈrektə(r)",
-    "trans": [
-      "主任, 主管"
-    ]
-  },
-  {
-    "name": "costume",
-    "usphone": "ˈkɑːstuːm",
-    "ukphone": "ˈkɒstjuːm",
-    "trans": [
-      "服装,服装样式"
-    ]
-  },
-  {
-    "name": "direct",
-    "usphone": "dəˈrekt",
-    "ukphone": "dəˈrekt",
-    "trans": [
-      "指挥, 导演"
-    ]
-  },
-  {
-    "name": "beginning",
-    "usphone": "bɪˈɡɪnɪŋ",
-    "ukphone": "bɪˈɡɪnɪŋ",
-    "trans": [
-      "开始, ...初"
-    ]
-  },
-  {
-    "name": "ending",
-    "usphone": "ˈendɪŋ",
-    "ukphone": "ˈendɪŋ",
-    "trans": [
-      "结局, 结尾"
-    ]
-  },
-  {
-    "name": "incredible",
-    "usphone": "ɪnˈkredəbl",
-    "ukphone": "ɪnˈkredəbl",
-    "trans": [
-      "不可信的;不可思议的,惊人的"
-    ]
-  },
-  {
-    "name": "amazing",
-    "usphone": "əˈmeɪzɪŋ",
-    "ukphone": "əˈmeɪzɪŋ",
-    "trans": [
-      "令人惊奇的"
-    ]
-  },
-  {
-    "name": "evil",
-    "usphone": "ˈiːvl",
-    "ukphone": "ˈiːvl",
-    "trans": [
-      "邪恶的, 罪孽的"
-    ]
-  },
-  {
-    "name": "western",
-    "usphone": "ˈwestərn",
-    "ukphone": "ˈwestən",
-    "trans": [
-      "西部片, 西部小说"
-    ]
-  },
-  {
-    "name": "character",
-    "usphone": "ˈkærəktər",
-    "ukphone": "ˈkærəktə(r)",
-    "trans": [
-      "主要人物"
-    ]
-  },
-  {
-    "name": "famous",
-    "usphone": "ˈfeɪməs",
-    "ukphone": "ˈfeɪməs",
-    "trans": [
-      "著名的, 有名的"
-    ]
-  },
-  {
-    "name": "plot",
-    "usphone": "plɑːt",
-    "ukphone": "plɒt",
-    "trans": [
-      "情节"
-    ]
-  },
-  {
-    "name": "soundtrack",
-    "usphone": "ˈsaʊndtræk",
-    "ukphone": "ˈsaʊndtræk",
-    "trans": [
-      "声道; 音带"
-    ]
-  },
-  {
-    "name": "star",
-    "usphone": "stɑːr",
-    "ukphone": "stɑː(r)",
-    "trans": [
-      "明星"
-    ]
-  },
-  {
-    "name": "acting",
-    "usphone": "ˈæktɪŋ",
-    "ukphone": "ˈæktɪŋ",
-    "trans": [
-      "演出,演戏"
-    ]
-  },
-  {
-    "name": "actress",
-    "usphone": "ˈæktrəs",
-    "ukphone": "ˈæktrəs",
-    "trans": [
-      "女演员"
-    ]
-  },
-  {
-    "name": "original",
-    "usphone": "əˈrɪdʒənl",
-    "ukphone": "əˈrɪdʒənl",
-    "trans": [
-      "最初的, 原始的"
-    ]
-  },
-  {
-    "name": "remake",
-    "usphone": "ˈriːmeɪk",
-    "ukphone": "ˈriːmeɪk",
-    "trans": [
-      "重拍的电影,重新录制的歌曲"
-    ]
-  },
-  {
-    "name": "subtitle",
-    "usphone": "ˈsʌbtaɪtl",
-    "ukphone": "ˈsʌbtaɪtl",
-    "trans": [
-      "副题, 说明对白的字幕"
-    ]
-  },
-  {
-    "name": "dark",
-    "usphone": "dɑːrk",
-    "ukphone": "dɑːk",
-    "trans": [
-      "绝望的"
-    ]
-  },
-  {
-    "name": "dreadful",
-    "usphone": "ˈdredfl",
-    "ukphone": "ˈdredfl",
-    "trans": [
-      "可怕"
-    ]
-  },
-  {
-    "name": "baggy",
-    "usphone": "ˈbæɡi",
-    "ukphone": "ˈbæɡi",
-    "trans": [
-      "(衣服)宽松的;不紧绷的"
-    ]
-  },
-  {
-    "name": "cap",
-    "usphone": "kæp",
-    "ukphone": "kæp",
-    "trans": [
-      "制服帽"
-    ]
-  },
-  {
-    "name": "fashionable",
-    "usphone": "ˈfæʃnəbl",
-    "ukphone": "ˈfæʃnəbl",
-    "trans": [
-      "时尚的, 流行的"
-    ]
-  },
-  {
-    "name": "loose",
-    "usphone": "luːs",
-    "ukphone": "luːs",
-    "trans": [
-      "松的, 宽的, 松散的"
-    ]
-  },
-  {
-    "name": "stylish",
-    "usphone": "ˈstaɪlɪʃ",
-    "ukphone": "ˈstaɪlɪʃ",
-    "trans": [
-      "时髦的, 流行的, 潇洒的"
-    ]
-  },
-  {
-    "name": "tight",
-    "usphone": "taɪt",
-    "ukphone": "taɪt",
-    "trans": [
-      "(衣服)拉紧的, 绷紧的"
-    ]
-  },
-  {
-    "name": "trendy",
-    "usphone": "ˈtrendi",
-    "ukphone": "ˈtrendi",
-    "trans": [
-      "时髦的; 流行的"
-    ]
-  },
-  {
-    "name": "leather",
-    "usphone": "ˈleðər",
-    "ukphone": "ˈleðə(r)",
-    "trans": [
-      "皮革, 皮质"
-    ]
-  },
-  {
-    "name": "silk",
-    "usphone": "sɪlk",
-    "ukphone": "sɪlk",
-    "trans": [
-      "丝, 绸"
-    ]
-  },
-  {
-    "name": "suit",
-    "usphone": "suːt",
-    "ukphone": "suːt",
-    "trans": [
-      "套装"
-    ]
-  },
-  {
-    "name": "tie",
-    "usphone": "taɪ",
-    "ukphone": "taɪ",
-    "trans": [
-      "领带"
-    ]
-  },
-  {
-    "name": "casual",
-    "usphone": "ˈkæʒuəl",
-    "ukphone": "ˈkæʒuəl",
-    "trans": [
-      "非正式的"
-    ]
-  },
-  {
-    "name": "formal",
-    "usphone": "ˈfɔːrml",
-    "ukphone": "ˈfɔːml",
-    "trans": [
-      "正式的"
-    ]
-  },
-  {
-    "name": "classic",
-    "usphone": "ˈklæsɪk",
-    "ukphone": "ˈklæsɪk",
-    "trans": [
-      "古典的"
-    ]
-  },
-  {
-    "name": "jeans",
-    "usphone": "dʒiːnz",
-    "ukphone": "dʒiːnz",
-    "trans": [
-      "牛仔裤, 粗斜纹棉布裤, 工装裤"
-    ]
-  },
-  {
-    "name": "plain",
-    "usphone": "pleɪn",
-    "ukphone": "pleɪn",
-    "trans": [
-      "清楚的, 简单的, 平常的, 明白的"
-    ]
-  },
-  {
-    "name": "comfortable",
-    "usphone": "ˈkʌmftəbl",
-    "ukphone": "ˈkʌmftəbl",
-    "trans": [
-      "舒适的"
-    ]
-  },
-  {
-    "name": "waterproof",
-    "usphone": "ˈwɔːtərpruːf",
-    "ukphone": "ˈwɔːtəpruːf",
-    "trans": [
-      "防水的, 不透水的"
-    ]
-  },
-  {
-    "name": "wool",
-    "usphone": "wʊl",
-    "ukphone": "wʊl",
-    "trans": [
-      "羊毛, 毛线, 毛织物"
-    ]
-  },
-  {
-    "name": "cotton",
-    "usphone": "ˈkɑːtn",
-    "ukphone": "ˈkɒtn",
-    "trans": [
-      "棉花"
-    ]
-  },
-  {
-    "name": "handsome",
-    "usphone": "ˈhænsəm",
-    "ukphone": "ˈhænsəm",
-    "trans": [
-      "英俊"
-    ]
-  },
-  {
-    "name": "pretty",
-    "usphone": "ˈprɪti",
-    "ukphone": "ˈprɪti",
-    "trans": [
-      "漂亮的"
-    ]
-  },
-  {
-    "name": "wonderful",
-    "usphone": "ˈwʌndərfl",
-    "ukphone": "ˈwʌndəfl",
-    "trans": [
-      "奇妙的, 令人惊奇的, 极好的"
-    ]
-  },
-  {
-    "name": "handbag",
-    "usphone": "ˈhændbæɡ",
-    "ukphone": "ˈhændbæɡ",
-    "trans": [
-      "手提包"
-    ]
-  },
-  {
-    "name": "outfit",
-    "usphone": "ˈaʊtfɪt",
-    "ukphone": "ˈaʊtfɪt",
-    "trans": [
-      "一套衣服"
-    ]
-  },
-  {
-    "name": "ring",
-    "usphone": "rɪŋ",
-    "ukphone": "rɪŋ",
-    "trans": [
-      "戒指"
-    ]
-  },
-  {
-    "name": "sandal",
-    "usphone": "ˈsændl",
-    "ukphone": "ˈsændl",
-    "trans": [
-      "凉鞋"
-    ]
-  }
+    {
+        "name": "airline",
+        "usphone": "ˈerlaɪn",
+        "ukphone": "ˈeəlaɪn",
+        "trans": [
+            "n. a commercial enterprise that provides scheduled flights for passengers",
+            "n. a hose that carries air under pressure"
+        ]
+    },
+    {
+        "name": "print",
+        "usphone": "prɪnt",
+        "ukphone": "prɪnt",
+        "trans": [
+            "v. put into print",
+            "v. write as if with print",
+            "v. reproduce by printing"
+        ]
+    },
+    {
+        "name": "terminal",
+        "usphone": "ˈtɜːrmɪnl",
+        "ukphone": "ˈtɜːmɪnl",
+        "trans": [
+            "adj. causing or ending in or approaching death",
+            "adj. occurring at or forming an end or termination",
+            "adj. being or situated at an end"
+        ]
+    },
+    {
+        "name": "visa",
+        "usphone": "ˈviːzə",
+        "ukphone": "ˈviːzə",
+        "trans": [
+            "v. to approve officially",
+            "v. to provide with a visa",
+            "n. an endorsement made in a passport that allows the bearer to enter the country issuing it"
+        ]
+    },
+    {
+        "name": "aisle",
+        "usphone": "aɪl",
+        "ukphone": "aɪl",
+        "trans": [
+            "n. passageway between seating areas as in an auditorium or passenger vehicle or between areas of shelves of goods as in stores",
+            "n. part of a church divided laterally from the nave proper by rows of pillars or columns",
+            "n. a long narrow passage, as in a cave or woods"
+        ]
+    },
+    {
+        "name": "board",
+        "usphone": "bɔːrd",
+        "ukphone": "bɔːd",
+        "trans": [
+            "v. to provide food and lodging for",
+            "v. to lodge and take meals at",
+            "v. to get on board of trains, buses, ships, aircraft, etc."
+        ]
+    },
+    {
+        "name": "check",
+        "usphone": "tʃek",
+        "ukphone": "tʃek",
+        "trans": [
+            "v. to make cracks or chinks in",
+            "v. to arrest the motion of something abruptly",
+            "v. to slow the growth or development of"
+        ]
+    },
+    {
+        "name": "delay",
+        "usphone": "dɪˈleɪ",
+        "ukphone": "dɪˈleɪ",
+        "trans": [
+            "v. slow the growth or development of",
+            "v. cause to be slowed down or delayed",
+            "v. stop or halt"
+        ]
+    },
+    {
+        "name": "depart",
+        "usphone": "dɪˈpɑːrt",
+        "ukphone": "dɪˈpɑːt",
+        "trans": [
+            "v. move away from a place into another direction",
+            "v. go away or leave",
+            "v. leave"
+        ]
+    },
+    {
+        "name": "schedule",
+        "usphone": "ˈskedʒuːl",
+        "ukphone": "ˈʃedjuːl",
+        "trans": [
+            "v. plan for an activity or event",
+            "v. make a schedule",
+            "n. a temporally organized plan for matters to be attended to"
+        ]
+    },
+    {
+        "name": "ticket",
+        "usphone": "ˈtɪkɪt",
+        "ukphone": "ˈtɪkɪt",
+        "trans": [
+            "v. provide with a ticket for passage or admission",
+            "v. issue a ticket or a fine to as a penalty",
+            "n. the appropriate or desirable thing"
+        ]
+    },
+    {
+        "name": "trip",
+        "usphone": "trɪp",
+        "ukphone": "trɪp",
+        "trans": [
+            "v. get high, stoned, or drugged",
+            "v. put in motion or move to act",
+            "v. make a trip for pleasure"
+        ]
+    },
+    {
+        "name": "pack",
+        "usphone": "pæk",
+        "ukphone": "pæk",
+        "trans": [
+            "v. treat the body or any part of it by wrapping it, as with blankets or sheets, and applying compresses to it, or stuffing it to provide cover, containment, or therapy, or to absorb blood",
+            "v. carry, as on one's back",
+            "v. arrange in a container"
+        ]
+    },
+    {
+        "name": "luggage",
+        "usphone": "ˈlʌɡɪdʒ",
+        "ukphone": "ˈlʌɡɪdʒ",
+        "trans": [
+            "n. cases used to carry belongings when traveling"
+        ]
+    },
+    {
+        "name": "book",
+        "usphone": "bʊk",
+        "ukphone": "bʊk",
+        "trans": [
+            "v. to engage for a performance",
+            "v. to record a charge in a police register",
+            "v. to arrange for and reserve something for someone else in advance"
+        ]
+    },
+    {
+        "name": "airport",
+        "usphone": "ˈerpɔːrt",
+        "ukphone": "ˈeəpɔːt",
+        "trans": [
+            "n. an airfield equipped with control tower and hangars as well as accommodations for passengers and cargo"
+        ]
+    },
+    {
+        "name": "gate",
+        "usphone": "ɡeɪt",
+        "ukphone": "ɡeɪt",
+        "trans": [
+            "v. restrict (school boys') movement to the dormitory or campus as a means of punishment",
+            "v. control with a valve or other device that functions like a gate",
+            "v. supply with a gate"
+        ]
+    },
+    {
+        "name": "subway",
+        "usphone": "ˈsʌbweɪ",
+        "ukphone": "ˈsʌbweɪ",
+        "trans": [
+            "n. an electric railway operating below the surface of the ground (usually in a city)",
+            "n. an underground tunnel or passage enabling pedestrians to cross a road or railway"
+        ]
+    },
+    {
+        "name": "option",
+        "usphone": "ˈɑːpʃn",
+        "ukphone": "ˈɒpʃn",
+        "trans": [
+            "n. the act of choosing or selecting",
+            "n. one of a number of things from which only one can be chosen",
+            "n. the right to buy or sell property at an agreed price"
+        ]
+    },
+    {
+        "name": "plane",
+        "usphone": "pleɪn",
+        "ukphone": "pleɪn",
+        "trans": [
+            "v. cut or remove with or as if with a plane",
+            "v. make even or smooth, with or as with a carpenter's plane",
+            "v. travel on the surface of water"
+        ]
+    },
+    {
+        "name": "already",
+        "usphone": "ɔːlˈredi",
+        "ukphone": "ɔːlˈredi",
+        "trans": [
+            "adv. prior to a specified or implied time"
+        ]
+    },
+    {
+        "name": "ever",
+        "usphone": "ˈevər",
+        "ukphone": "ˈevə(r)",
+        "trans": [
+            "adv. very, used as an intensifier for adjectives",
+            "adv. at all times",
+            "adv. at any time"
+        ]
+    },
+    {
+        "name": "as",
+        "usphone": "əz",
+        "ukphone": "əz",
+        "trans": [
+            "adv. to the same degree (often followed by `as')"
+        ]
+    },
+    {
+        "name": "flight",
+        "usphone": "flaɪt",
+        "ukphone": "flaɪt",
+        "trans": [
+            "v. decorate with feathers",
+            "v. fly in a flock",
+            "v. shoot a bird in flight"
+        ]
+    },
+    {
+        "name": "unattended",
+        "usphone": "ˌʌnəˈtendɪd",
+        "ukphone": "ˌʌnəˈtendɪd",
+        "trans": [
+            "adj. lacking a caretaker",
+            "adj. lacking accompaniment or a guard or escort",
+            "adj. not watched"
+        ]
+    },
+    {
+        "name": "limousine",
+        "usphone": "ˈlɪməziːn",
+        "ukphone": "ˈlɪməziːn",
+        "trans": [
+            "n. large luxurious car"
+        ]
+    },
+    {
+        "name": "shuttle",
+        "usphone": "ˈʃʌtl",
+        "ukphone": "ˈʃʌtl",
+        "trans": [
+            "v. travel back and forth between two points",
+            "n. bobbin that passes the weft thread between the warp threads",
+            "n. public transport that consists of a bus or train or airplane that plies back and forth between two points"
+        ]
+    },
+    {
+        "name": "customs",
+        "usphone": "ˈkʌstəmz",
+        "ukphone": "ˈkʌstəmz",
+        "trans": [
+            "n. money collected under a tariff"
+        ]
+    },
+    {
+        "name": "yet",
+        "usphone": "jet",
+        "ukphone": "jet",
+        "trans": [
+            "adv. to a greater degree or extent",
+            "adv. despite anything to the contrary, usually following a concession",
+            "adv. up to the present time"
+        ]
+    },
+    {
+        "name": "exciting",
+        "usphone": "ɪkˈsaɪtɪŋ",
+        "ukphone": "ɪkˈsaɪtɪŋ",
+        "trans": [
+            "adj. creating or arousing excitement",
+            "adj. stimulating interest and discussion"
+        ]
+    },
+    {
+        "name": "far",
+        "usphone": "fɑːr",
+        "ukphone": "fɑː(r)",
+        "trans": [
+            "adj. located at a great distance in time or space or degree",
+            "adj. being of a considerable distance or length",
+            "adj. beyond a norm in opinion or actions"
+        ]
+    },
+    {
+        "name": "honest",
+        "usphone": "ˈɑːnɪst",
+        "ukphone": "ˈɒnɪst",
+        "trans": [
+            "adj. gained or earned without cheating or stealing",
+            "adj. not forged",
+            "adj. not disposed to cheat or defraud"
+        ]
+    },
+    {
+        "name": "team",
+        "usphone": "tiːm",
+        "ukphone": "tiːm",
+        "trans": [
+            "v. to form a cooperative unit",
+            "n. two or more draft animals that work together to pull something",
+            "n. a cooperative unit, especially in sports"
+        ]
+    },
+    {
+        "name": "build",
+        "usphone": "bɪld",
+        "ukphone": "bɪld",
+        "trans": [
+            "v. to develop and grow",
+            "v. to form or accumulate steadily",
+            "v. to bolster or strengthen"
+        ]
+    },
+    {
+        "name": "so",
+        "usphone": "soʊ",
+        "ukphone": "səʊ",
+        "trans": [
+            "adv. in truth (often tends to intensify)",
+            "adv. (used to introduce a logical conclusion) from that fact or reason or as a result",
+            "adv. subsequently or soon afterward (often used as sentence connectors)"
+        ]
+    },
+    {
+        "name": "most",
+        "usphone": "moʊst",
+        "ukphone": "məʊst",
+        "trans": [
+            "adj. the superlative of `much' that can be used with mass nouns and is usually preceded by `the'",
+            "adj. (superlative of `many' used with count nouns and often preceded by `the') quantifier meaning the greatest in number",
+            "adv. (of actions or states) slightly short of or not quite accomplished"
+        ]
+    },
+    {
+        "name": "TRUE",
+        "usphone": "truː",
+        "ukphone": "truː",
+        "trans": [
+            "v. make level, square, balanced, or concentric",
+            "adj. worthy of being depended on",
+            "adj. accurately placed or thrown"
+        ]
+    },
+    {
+        "name": "decide",
+        "usphone": "dɪˈsaɪd",
+        "ukphone": "dɪˈsaɪd",
+        "trans": [
+            "v. bring to an end",
+            "v. cause to decide",
+            "v. influence or determine"
+        ]
+    },
+    {
+        "name": "suggest",
+        "usphone": "səˈdʒest",
+        "ukphone": "səˈdʒest",
+        "trans": [
+            "v. make a proposal, declare a plan for something",
+            "v. drop a hint",
+            "v. suggest the necessity of an intervention"
+        ]
+    },
+    {
+        "name": "best",
+        "usphone": "best",
+        "ukphone": "best",
+        "trans": [
+            "v. to get the better of",
+            "adj. (superlative of `good') having the most positive qualities",
+            "adj. (comparative and superlative of `well') wiser or more advantageous and hence advisable"
+        ]
+    },
+    {
+        "name": "farthest",
+        "usphone": "ˈfɑːrðɪst",
+        "ukphone": "ˈfɑːðɪst",
+        "trans": [
+            "adj. (comparatives of `far') most remote in space or time or order",
+            "adv. to the greatest distance in space or time (`farthest' is used more often than `furthest' in this physical sense)",
+            "adv. to the greatest degree or extent, or to the most advanced stage"
+        ]
+    },
+    {
+        "name": "cheap",
+        "usphone": "tʃiːp",
+        "ukphone": "tʃiːp",
+        "trans": [
+            "adj. relatively low in price or charging low prices",
+            "adj. embarrassingly stingy",
+            "adj. of very poor quality"
+        ]
+    },
+    {
+        "name": "near",
+        "usphone": "nɪr",
+        "ukphone": "nɪə(r)",
+        "trans": [
+            "v. move towards",
+            "adj. being on the left side",
+            "adj. not far distant in time or space or degree or circumstances"
+        ]
+    },
+    {
+        "name": "expensive",
+        "usphone": "ɪkˈspensɪv",
+        "ukphone": "ɪkˈspensɪv",
+        "trans": [
+            "adj. high in price or charging high prices"
+        ]
+    },
+    {
+        "name": "projector",
+        "usphone": "prəˈdʒektər",
+        "ukphone": "prəˈdʒektə(r)",
+        "trans": [
+            "n. an optical instrument that projects an enlarged image onto a screen",
+            "n. an optical device for projecting a beam of light"
+        ]
+    },
+    {
+        "name": "meeting",
+        "usphone": "ˈmiːtɪŋ",
+        "ukphone": "ˈmiːtɪŋ",
+        "trans": [
+            "n. the act of joining together as one",
+            "n. the social act of assembling for some common purpose",
+            "n. a casual or unexpected convergence"
+        ]
+    },
+    {
+        "name": "facility",
+        "usphone": "fəˈsɪləti",
+        "ukphone": "fəˈsɪləti",
+        "trans": [
+            "n. a service that an organization or a piece of equipment offers you",
+            "n. something designed and created to serve a particular function and to afford a particular convenience or service",
+            "n. a building or place that provides a particular service or is used for a particular industry"
+        ]
+    },
+    {
+        "name": "department",
+        "usphone": "dɪˈpɑːrtmənt",
+        "ukphone": "dɪˈpɑːtmənt",
+        "trans": [
+            "n. a specialized sphere of knowledge",
+            "n. a specialized division of a large organization",
+            "n. the territorial and administrative division of some countries (such as France)"
+        ]
+    },
+    {
+        "name": "venue",
+        "usphone": "ˈvenjuː",
+        "ukphone": "ˈvenjuː",
+        "trans": [
+            "n. in law: the jurisdiction where a trial will be held",
+            "n. the scene of any event or action, especially the place of a meeting or performance"
+        ]
+    },
+    {
+        "name": "presentation",
+        "usphone": "ˌpriːzenˈteɪʃn",
+        "ukphone": "ˌpreznˈteɪʃn",
+        "trans": [
+            "n. a show or display",
+            "n. the activity of formally presenting something like a prize or reward",
+            "n. a visual representation of something"
+        ]
+    },
+    {
+        "name": "recommend",
+        "usphone": "ˌrekəˈmend",
+        "ukphone": "ˌrekəˈmend",
+        "trans": [
+            "v. make attractive or acceptable",
+            "v. push for something",
+            "v. express a good opinion of"
+        ]
+    },
+    {
+        "name": "conference",
+        "usphone": "ˈkɑːnfərəns",
+        "ukphone": "ˈkɒnfərəns",
+        "trans": [
+            "n. a discussion among participants who have an agreed (serious) topic",
+            "n. an association of sports teams that organizes matches for its members",
+            "n. a prearranged meeting for consultation or exchange of information or discussion, especially one with a formal agenda"
+        ]
+    },
+    {
+        "name": "mention",
+        "usphone": "ˈmenʃn",
+        "ukphone": "ˈmenʃn",
+        "trans": [
+            "v. make mention of",
+            "v. commend",
+            "v. make reference to"
+        ]
+    },
+    {
+        "name": "discuss",
+        "usphone": "dɪˈskʌs",
+        "ukphone": "dɪˈskʌs",
+        "trans": [
+            "v. speak with others about something",
+            "v. to consider or examine in speech or writing"
+        ]
+    },
+    {
+        "name": "choose",
+        "usphone": "tʃuːz",
+        "ukphone": "tʃuːz",
+        "trans": [
+            "v. to pick out, select, or choose from a number of alternatives",
+            "v. to select as an alternative over another",
+            "v. to see fit or proper to act in a certain way"
+        ]
+    },
+    {
+        "name": "agree",
+        "usphone": "əˈɡriː",
+        "ukphone": "əˈɡriː",
+        "trans": [
+            "v. to consent or assent to a condition, or agree to do something",
+            "v. to be in accord",
+            "v. to achieve harmony of opinion, feeling, or purpose"
+        ]
+    },
+    {
+        "name": "better",
+        "usphone": "ˈbetər",
+        "ukphone": "ˈbetə(r)",
+        "trans": [
+            "v. to get better",
+            "v. to improve or make something better",
+            "v. to surpass in excellence"
+        ]
+    },
+    {
+        "name": "ambulance",
+        "usphone": "ˈæmbjələns",
+        "ukphone": "ˈæmbjələns",
+        "trans": [
+            "n. a vehicle that takes people to and from hospitals"
+        ]
+    },
+    {
+        "name": "seem",
+        "usphone": "siːm",
+        "ukphone": "siːm",
+        "trans": [
+            "v. give a certain impression or have a certain outward aspect",
+            "v. appearing to be true or probable",
+            "v. appear to one's own mind or opinion"
+        ]
+    },
+    {
+        "name": "beginning",
+        "usphone": "bɪˈɡɪnɪŋ",
+        "ukphone": "bɪˈɡɪnɪŋ",
+        "trans": [
+            "adj. serving to begin",
+            "n. the act of starting something",
+            "n. the first part or section of something"
+        ]
+    },
+    {
+        "name": "later",
+        "usphone": "ˈleɪtər",
+        "ukphone": "ˈleɪtə(r)",
+        "trans": [
+            "adj. coming at a subsequent time or stage",
+            "adj. at or toward an end or late period or stage of development",
+            "adv. happening at a time subsequent to a reference time"
+        ]
+    },
+    {
+        "name": "next",
+        "usphone": "nekst",
+        "ukphone": "nekst",
+        "trans": [
+            "adj. immediately following in time or order",
+            "adj. nearest in space or position",
+            "adj. (of elected officers) elected but not yet serving"
+        ]
+    },
+    {
+        "name": "after",
+        "usphone": "ˈæftər",
+        "ukphone": "ˈɑːftə(r)",
+        "trans": [
+            "adj. located farther aft",
+            "adv. happening at a time subsequent to a reference time",
+            "adv. behind or in the rear"
+        ]
+    },
+    {
+        "name": "finally",
+        "usphone": "ˈfaɪnəli",
+        "ukphone": "ˈfaɪnəli",
+        "trans": [
+            "adv. as the end result of a succession or process",
+            "adv. after an unspecified period of time or an especially long delay",
+            "adv. the item at the end"
+        ]
+    },
+    {
+        "name": "end",
+        "usphone": "end",
+        "ukphone": "end",
+        "trans": [
+            "v. bring to an end or halt",
+            "v. put an end to",
+            "v. have an end, in a temporal, spatial, or quantitative sense"
+        ]
+    },
+    {
+        "name": "buddy",
+        "usphone": "ˈbʌdi",
+        "ukphone": "ˈbʌdi",
+        "trans": [
+            "n. a close friend who accompanies his buddies in their activities"
+        ]
+    },
+    {
+        "name": "relative",
+        "usphone": "ˈrelətɪv",
+        "ukphone": "ˈrelətɪv",
+        "trans": [
+            "adj. estimated by comparison",
+            "adj. properly related in size or degree or other measurable characteristics",
+            "n. an animal or plant that bears a relationship to another (as related by common descent or by membership in the same genus)"
+        ]
+    },
+    {
+        "name": "close",
+        "usphone": "kloʊs",
+        "ukphone": "kləʊs",
+        "trans": [
+            "v. to finish a game in baseball by protecting a lead",
+            "v. to complete a business deal, negotiation, or an agreement",
+            "v. to unite or bring into contact or bring together the edges of"
+        ]
+    },
+    {
+        "name": "old",
+        "usphone": "oʊld",
+        "ukphone": "əʊld",
+        "trans": [
+            "adj. of a very early stage in development"
+        ]
+    },
+    {
+        "name": "colleague",
+        "usphone": "ˈkɑːliːɡ",
+        "ukphone": "ˈkɒliːɡ",
+        "trans": [
+            "n. a person who is member of one's class or profession",
+            "n. an associate that one works with"
+        ]
+    },
+    {
+        "name": "co-worker",
+        "trans": [
+            "n. an associate that one works with"
+        ]
+    },
+    {
+        "name": "boss",
+        "usphone": "bɔːs",
+        "ukphone": "bɒs",
+        "trans": [
+            "adj. exceptionally good",
+            "n. a circular rounded projection or protuberance",
+            "n. a person responsible for hiring workers"
+        ]
+    },
+    {
+        "name": "manager",
+        "usphone": "ˈmænɪdʒər",
+        "ukphone": "ˈmænɪdʒə(r)",
+        "trans": [
+            "n. someone in charge of training an athlete or a team",
+            "n. someone who controls resources and expenditures"
+        ]
+    },
+    {
+        "name": "lucky",
+        "usphone": "ˈlʌki",
+        "ukphone": "ˈlʌki",
+        "trans": [
+            "adj. presaging or likely to bring good luck",
+            "adj. occurring by chance",
+            "adj. having or bringing good fortune"
+        ]
+    },
+    {
+        "name": "quickly",
+        "usphone": "ˈkwɪkli",
+        "ukphone": "ˈkwɪkli",
+        "trans": [
+            "adv. with rapid movements",
+            "adv. with little or no delay",
+            "adv. without taking pains"
+        ]
+    },
+    {
+        "name": "really",
+        "usphone": "ˈriːəli",
+        "ukphone": "ˈriːəli",
+        "trans": [
+            "adv. used as intensifiers",
+            "adv. in accordance with truth or fact or reality",
+            "adv. in fact (used as intensifiers or sentence modifiers)"
+        ]
+    },
+    {
+        "name": "fortunate",
+        "usphone": "ˈfɔːrtʃənət",
+        "ukphone": "ˈfɔːtʃənət",
+        "trans": [
+            "adj. presaging good fortune",
+            "adj. supremely favored",
+            "adj. having unexpected good fortune"
+        ]
+    },
+    {
+        "name": "broken",
+        "usphone": "ˈbroʊkən",
+        "ukphone": "ˈbrəʊkən",
+        "trans": [
+            "adj. physically and forcibly separated into pieces or cracked or split",
+            "adj. having been violated or disregarded, especially of promises or contracts",
+            "adj. not continuous in space, time, or sequence or varying abruptly"
+        ]
+    },
+    {
+        "name": "positive",
+        "usphone": "ˈpɑːzətɪv",
+        "ukphone": "ˈpɒzətɪv",
+        "trans": [
+            "adj. involving advantage or good",
+            "adj. marked by excessive confidence",
+            "adj. having a positive charge"
+        ]
+    },
+    {
+        "name": "feel",
+        "usphone": "fiːl",
+        "ukphone": "fiːl",
+        "trans": [
+            "v. be conscious of a physical, mental, or emotional state",
+            "v. have a feeling or perception about oneself in reaction to someone's behavior or attitude",
+            "v. come to believe on the basis of emotion, intuitions, or indefinite grounds"
+        ]
+    },
+    {
+        "name": "surprising",
+        "usphone": "sərˈpraɪzɪŋ",
+        "ukphone": "səˈpraɪzɪŋ",
+        "trans": [
+            "adj. causing surprise or wonder or amazement"
+        ]
+    },
+    {
+        "name": "accident",
+        "usphone": "ˈæksɪdənt",
+        "ukphone": "ˈæksɪdənt",
+        "trans": [
+            "n. anything that happens suddenly or by chance without an apparent cause",
+            "n. an unfortunate mishap"
+        ]
+    },
+    {
+        "name": "acquaintance",
+        "usphone": "əˈkweɪntəns",
+        "ukphone": "əˈkweɪntəns",
+        "trans": [
+            "n. personal knowledge or information about someone or something",
+            "n. a person with whom you are acquainted",
+            "n. a relationship less intimate than friendship"
+        ]
+    },
+    {
+        "name": "grateful",
+        "usphone": "ˈɡreɪtfl",
+        "ukphone": "ˈɡreɪtfl",
+        "trans": [
+            "adj. feeling or showing gratitude",
+            "adj. affording comfort or pleasure"
+        ]
+    },
+    {
+        "name": "unexpected",
+        "usphone": "ˌʌnɪkˈspektɪd",
+        "ukphone": "ˌʌnɪkˈspektɪd",
+        "trans": [
+            "adj. not expected or anticipated"
+        ]
+    },
+    {
+        "name": "storm",
+        "usphone": "stɔːrm",
+        "ukphone": "stɔːm",
+        "trans": [
+            "v. attack by storm",
+            "v. take by force",
+            "v. behave violently, as if in state of a great anger"
+        ]
+    },
+    {
+        "name": "authentic",
+        "usphone": "ɔːˈθentɪk",
+        "ukphone": "ɔːˈθentɪk",
+        "trans": [
+            "adj. not counterfeit or copied",
+            "adj. conforming to fact and therefore worthy of belief"
+        ]
+    },
+    {
+        "name": "outdoor",
+        "usphone": "ˈaʊtdɔːr",
+        "ukphone": "ˈaʊtdɔː(r)",
+        "trans": [
+            "adj. pertaining to or concerning the outdoors or outdoor activities",
+            "adj. located, suited for, or taking place in the open air"
+        ]
+    },
+    {
+        "name": "parking",
+        "usphone": "ˈpɑːrkɪŋ",
+        "ukphone": "ˈpɑːkɪŋ",
+        "trans": [
+            "n. the act of maneuvering a vehicle into a location where it can be left temporarily",
+            "n. space in which vehicles can be parked"
+        ]
+    },
+    {
+        "name": "reputation",
+        "usphone": "ˌrepjuˈteɪʃn",
+        "ukphone": "ˌrepjuˈteɪʃn",
+        "trans": [
+            "n. the general estimation that the public has for a person",
+            "n. the state of being held in high esteem and honor",
+            "n. notoriety for some particular characteristic"
+        ]
+    },
+    {
+        "name": "seating",
+        "usphone": "ˈsiːtɪŋ",
+        "ukphone": "ˈsiːtɪŋ",
+        "trans": [
+            "n. the service of ushering people to their seats",
+            "n. an area that includes places where several people can sit"
+        ]
+    },
+    {
+        "name": "variety",
+        "usphone": "vəˈraɪəti",
+        "ukphone": "vəˈraɪəti",
+        "trans": [
+            "n. noticeable heterogeneity",
+            "n. a difference that is usually pleasant",
+            "n. a category of things distinguished by some common characteristic or quality"
+        ]
+    },
+    {
+        "name": "appetizer",
+        "usphone": "ˈæpɪtaɪzər",
+        "ukphone": "ˈæpɪtaɪzə(r)",
+        "trans": [
+            "n. food or drink to stimulate the appetite (usually served before a meal or as the first course)"
+        ]
+    },
+    {
+        "name": "course",
+        "usphone": "kɔːrs",
+        "ukphone": "kɔːs",
+        "trans": [
+            "v. to hunt with hounds",
+            "v. to move along, of liquids",
+            "v. to move swiftly through or over"
+        ]
+    },
+    {
+        "name": "main",
+        "usphone": "meɪn",
+        "ukphone": "meɪn",
+        "trans": [
+            "adj. (of a clause) capable of standing syntactically alone as a complete sentence",
+            "adj. most important element",
+            "adj. of force"
+        ]
+    },
+    {
+        "name": "mousse",
+        "usphone": "muːs",
+        "ukphone": "muːs",
+        "trans": [
+            "v. to apply a styling gel to",
+            "n. toiletry consisting of an aerosol foam used in hair styling",
+            "n. a light creamy dish made from fish or meat and set with gelatin"
+        ]
+    },
+    {
+        "name": "sorbet",
+        "usphone": "ˈsɔːrbət",
+        "ukphone": "ˈsɔːbeɪ",
+        "trans": [
+            "n. an ice containing no milk but having a mushy consistency"
+        ]
+    },
+    {
+        "name": "starter",
+        "usphone": "ˈstɑːrtər",
+        "ukphone": "ˈstɑːtə(r)",
+        "trans": [
+            "n. a culture containing yeast or bacteria that is used to start the process of fermentation or souring in making butter or cheese or dough",
+            "n. a hand tool consisting of a rotating shaft with parallel handle",
+            "n. an electric motor for starting an engine"
+        ]
+    },
+    {
+        "name": "tip",
+        "usphone": "tɪp",
+        "ukphone": "tɪp",
+        "trans": [
+            "v. remove the tip from",
+            "v. mark with a tip",
+            "v. give insider information or advise to"
+        ]
+    },
+    {
+        "name": "review",
+        "usphone": "rɪˈvjuː",
+        "ukphone": "rɪˈvjuː",
+        "trans": [
+            "v. look at again",
+            "v. look back upon (a period of time, sequence of events)",
+            "v. hold a review (of troops)"
+        ]
+    },
+    {
+        "name": "wide",
+        "usphone": "waɪd",
+        "ukphone": "waɪd",
+        "trans": [
+            "adj. not on target",
+            "adj. having ample fabric",
+            "adj. broad in scope or content"
+        ]
+    },
+    {
+        "name": "reasonable",
+        "usphone": "ˈriːznəbl",
+        "ukphone": "ˈriːznəbl",
+        "trans": [
+            "adj. not excessive or extreme",
+            "adj. marked by sound judgment",
+            "adj. showing reason or sound judgment"
+        ]
+    },
+    {
+        "name": "free",
+        "usphone": "friː",
+        "ukphone": "friː",
+        "trans": [
+            "v. make (assets) available",
+            "v. let off the hook",
+            "v. free or remove obstruction from"
+        ]
+    },
+    {
+        "name": "reservation",
+        "usphone": "ˌrezərˈveɪʃn",
+        "ukphone": "ˌrezəˈveɪʃn",
+        "trans": [
+            "n. the act of keeping back or setting aside for some future occasion",
+            "n. the act of reserving a place or passage or engaging the services of a person or group",
+            "n. an unstated doubt that prevents you from accepting something wholeheartedly"
+        ]
+    },
+    {
+        "name": "waiter",
+        "usphone": "ˈweɪtər",
+        "ukphone": "ˈweɪtə(r)",
+        "trans": [
+            "n. a person whose occupation is to serve at table (as in a restaurant)",
+            "n. a person who waits or awaits"
+        ]
+    },
+    {
+        "name": "dessert",
+        "usphone": "dɪˈzɜːrt",
+        "ukphone": "dɪˈzɜːt",
+        "trans": [
+            "n. a dish served as the last course of a meal"
+        ]
+    },
+    {
+        "name": "some",
+        "usphone": "səm",
+        "ukphone": "səm",
+        "trans": [
+            "adj. remarkable",
+            "adj. relatively many but unspecified in number",
+            "adj. relatively much but unspecified in amount or extent"
+        ]
+    },
+    {
+        "name": "any",
+        "usphone": "ˈeni",
+        "ukphone": "ˈeni",
+        "trans": [
+            "adj. one or some or every or all without specification",
+            "adv. to any degree or extent"
+        ]
+    },
+    {
+        "name": "serve",
+        "usphone": "sɜːrv",
+        "ukphone": "sɜːv",
+        "trans": [
+            "v. put the ball into play",
+            "v. do duty or hold offices",
+            "v. provide (usually but not necessarily food)"
+        ]
+    },
+    {
+        "name": "soup",
+        "usphone": "suːp",
+        "ukphone": "suːp",
+        "trans": [
+            "v. dope (a racehorse)",
+            "n. liquid food especially of meat or fish or vegetable stock often containing pieces of solid food",
+            "n. an unfortunate situation"
+        ]
+    },
+    {
+        "name": "salad",
+        "usphone": "ˈsæləd",
+        "ukphone": "ˈsæləd",
+        "trans": [
+            "n. food mixtures either arranged on a plate or tossed and served with a moist dressing"
+        ]
+    },
+    {
+        "name": "check",
+        "usphone": "tʃek",
+        "ukphone": "tʃek",
+        "trans": [
+            "v. to make cracks or chinks in",
+            "v. to arrest the motion of something abruptly",
+            "v. to slow the growth or development of"
+        ]
+    },
+    {
+        "name": "pay",
+        "usphone": "peɪ",
+        "ukphone": "peɪ",
+        "trans": [
+            "v. dedicate",
+            "v. bear a cost or penalty, in recompense for some action",
+            "v. convey, as of a compliment, regards, attention, etc."
+        ]
+    },
+    {
+        "name": "bill",
+        "usphone": "bɪl",
+        "ukphone": "bɪl",
+        "trans": [
+            "v. to advertise especially by posters or placards",
+            "v. to publicize or announce by placards",
+            "v. to demand payment"
+        ]
+    },
+    {
+        "name": "leave",
+        "usphone": "liːv",
+        "ukphone": "liːv",
+        "trans": [
+            "v. leave unchanged or undisturbed or refrain from taking",
+            "v. be survived by after one's death",
+            "v. leave behind unintentionally"
+        ]
+    },
+    {
+        "name": "speciality",
+        "usphone": "ˌspeʃiˈæləti",
+        "ukphone": "ˌspeʃiˈæləti",
+        "trans": [
+            "n. the special line of work you have adopted as your career",
+            "n. a distinguishing trait",
+            "n. an asset of special worth or utility"
+        ]
+    },
+    {
+        "name": "action",
+        "usphone": "ˈækʃn",
+        "ukphone": "ˈækʃn",
+        "trans": [
+            "v. to put in effect",
+            "v. to institute legal proceedings against",
+            "n. something done, usually as opposed to something said"
+        ]
+    },
+    {
+        "name": "documentary",
+        "usphone": "ˌdɑːkjuˈmentri",
+        "ukphone": "ˌdɒkjuˈmentri",
+        "trans": [
+            "adj. emphasizing or expressing things as perceived without distortion of personal feelings, insertion of fictional matter, or interpretation",
+            "adj. relating to or consisting of or derived from documents",
+            "n. a film or TV program presenting the facts about a person or event"
+        ]
+    },
+    {
+        "name": "thriller",
+        "usphone": "ˈθrɪlər",
+        "ukphone": "ˈθrɪlə(r)",
+        "trans": [
+            "n. a suspenseful adventure story or play or movie"
+        ]
+    },
+    {
+        "name": "horror",
+        "usphone": "ˈhɔːrər",
+        "ukphone": "ˈhɒrə(r)",
+        "trans": [
+            "n. something that inspires dislike",
+            "n. intense aversion",
+            "n. intense and profound fear"
+        ]
+    },
+    {
+        "name": "comedy",
+        "usphone": "ˈkɑːmədi",
+        "ukphone": "ˈkɒmədi",
+        "trans": [
+            "n. a comic incident or series of incidents",
+            "n. light and humorous drama with a happy ending"
+        ]
+    },
+    {
+        "name": "romance",
+        "usphone": "ˈroʊmæns",
+        "ukphone": "rəʊˈmæns",
+        "trans": [
+            "v. tell romantic or exaggerated lies",
+            "v. talk or behave amorously, without serious intentions",
+            "v. have a love affair with"
+        ]
+    },
+    {
+        "name": "one",
+        "usphone": "wʌn",
+        "ukphone": "wʌn",
+        "trans": [
+            "adj. eminent beyond or above comparison",
+            "adj. indefinite in time or position",
+            "adj. used informally as an intensifier"
+        ]
+    },
+    {
+        "name": "actor",
+        "usphone": "ˈæktər",
+        "ukphone": "ˈæktə(r)",
+        "trans": [
+            "n. a theatrical performer",
+            "n. a person who acts and gets things done"
+        ]
+    },
+    {
+        "name": "director",
+        "usphone": "dəˈrektər",
+        "ukphone": "dəˈrektə(r)",
+        "trans": [
+            "n. someone who controls resources and expenditures",
+            "n. someone who supervises the actors and directs the action in the production of a show",
+            "n. member of a board of directors"
+        ]
+    },
+    {
+        "name": "costume",
+        "usphone": "ˈkɑːstuːm",
+        "ukphone": "ˈkɒstjuːm",
+        "trans": [
+            "v. to dress in a costume",
+            "v. to furnish with costumes",
+            "n. the attire worn in a play or at a fancy dress ball"
+        ]
+    },
+    {
+        "name": "direct",
+        "usphone": "dəˈrekt",
+        "ukphone": "dəˈrekt",
+        "trans": [
+            "v. plan and direct (a complex undertaking)",
+            "v. specifically design a product, event, or activity for a certain public",
+            "v. command with authority"
+        ]
+    },
+    {
+        "name": "beginning",
+        "usphone": "bɪˈɡɪnɪŋ",
+        "ukphone": "bɪˈɡɪnɪŋ",
+        "trans": [
+            "adj. serving to begin",
+            "n. the act of starting something",
+            "n. the first part or section of something"
+        ]
+    },
+    {
+        "name": "ending",
+        "usphone": "ˈendɪŋ",
+        "ukphone": "ˈendɪŋ",
+        "trans": [
+            "n. the act of ending something",
+            "n. the end of a word (a suffix or inflectional ending or final morpheme)",
+            "n. the last section of a communication"
+        ]
+    },
+    {
+        "name": "incredible",
+        "usphone": "ɪnˈkredəbl",
+        "ukphone": "ɪnˈkredəbl",
+        "trans": [
+            "adj. beyond belief or understanding"
+        ]
+    },
+    {
+        "name": "amazing",
+        "usphone": "əˈmeɪzɪŋ",
+        "ukphone": "əˈmeɪzɪŋ",
+        "trans": [
+            "adj. inspiring awe or admiration or wonder",
+            "adj. surprising greatly"
+        ]
+    },
+    {
+        "name": "evil",
+        "usphone": "ˈiːvl",
+        "ukphone": "ˈiːvl",
+        "trans": [
+            "adj. having or exerting a malignant influence",
+            "adj. morally bad or wrong",
+            "adj. having the nature of vice"
+        ]
+    },
+    {
+        "name": "western",
+        "usphone": "ˈwestərn",
+        "ukphone": "ˈwestən",
+        "trans": [
+            "adj. lying toward or situated in the west",
+            "adj. of wind",
+            "adj. relating to or characteristic of the western parts of the world or the West as opposed to the eastern or oriental parts"
+        ]
+    },
+    {
+        "name": "character",
+        "usphone": "ˈkærəktər",
+        "ukphone": "ˈkærəktə(r)",
+        "trans": [
+            "v. to engrave or inscribe characters on",
+            "n. (genetics) an attribute (structural or functional) that is determined by a gene or group of genes",
+            "n. the inherent complex of attributes that determines a persons moral and ethical actions and reactions"
+        ]
+    },
+    {
+        "name": "famous",
+        "usphone": "ˈfeɪməs",
+        "ukphone": "ˈfeɪməs",
+        "trans": [
+            "adj. widely known and esteemed"
+        ]
+    },
+    {
+        "name": "plot",
+        "usphone": "plɑːt",
+        "ukphone": "plɒt",
+        "trans": [
+            "v. plan secretly, usually something illegal",
+            "v. make a plat of",
+            "v. devise the sequence of events in (a literary work or a play, movie, or ballet)"
+        ]
+    },
+    {
+        "name": "soundtrack",
+        "usphone": "ˈsaʊndtræk",
+        "ukphone": "ˈsaʊndtræk",
+        "trans": [
+            "n. sound recording on a narrow strip of a motion picture film"
+        ]
+    },
+    {
+        "name": "star",
+        "usphone": "stɑːr",
+        "ukphone": "stɑː(r)",
+        "trans": [
+            "v. mark with an asterisk",
+            "v. be the star in a performance",
+            "v. feature as the star"
+        ]
+    },
+    {
+        "name": "acting",
+        "usphone": "ˈæktɪŋ",
+        "ukphone": "ˈæktɪŋ",
+        "trans": [
+            "adj. serving temporarily especially as a substitute",
+            "n. the performance of a part or role in a drama"
+        ]
+    },
+    {
+        "name": "actress",
+        "usphone": "ˈæktrəs",
+        "ukphone": "ˈæktrəs",
+        "trans": [
+            "n. a female actor"
+        ]
+    },
+    {
+        "name": "original",
+        "usphone": "əˈrɪdʒənl",
+        "ukphone": "əˈrɪdʒənl",
+        "trans": [
+            "adj. not derived or copied or translated from something else",
+            "adj. preceding all others in time or being as first made or performed",
+            "adj. being or productive of something fresh and unusual"
+        ]
+    },
+    {
+        "name": "remake",
+        "usphone": "ˈriːmeɪk",
+        "ukphone": "ˈriːmeɪk",
+        "trans": [
+            "v. make new",
+            "n. creation that is created again or anew"
+        ]
+    },
+    {
+        "name": "subtitle",
+        "usphone": "ˈsʌbtaɪtl",
+        "ukphone": "ˈsʌbtaɪtl",
+        "trans": [
+            "v. to supply a movie with subtitles",
+            "n. secondary or explanatory title",
+            "n. translation of foreign dialogue of a movie or TV program"
+        ]
+    },
+    {
+        "name": "dark",
+        "usphone": "dɑːrk",
+        "ukphone": "dɑːk",
+        "trans": [
+            "adj. not giving performances",
+            "adj. having skin rich in melanin pigments",
+            "adj. brunet (used of hair or skin or eyes)"
+        ]
+    },
+    {
+        "name": "dreadful",
+        "usphone": "ˈdredfl",
+        "ukphone": "ˈdredfl",
+        "trans": [
+            "adj. causing fear or dread or terror",
+            "adj. exceptionally bad or displeasing",
+            "adj. very unpleasant"
+        ]
+    },
+    {
+        "name": "baggy",
+        "usphone": "ˈbæɡi",
+        "ukphone": "ˈbæɡi",
+        "trans": [
+            "adj. not fitting closely"
+        ]
+    },
+    {
+        "name": "cap",
+        "usphone": "kæp",
+        "ukphone": "kæp",
+        "trans": [
+            "v. to restrict the number or amount of",
+            "v. to lie at the top of",
+            "n. a tight-fitting headdress"
+        ]
+    },
+    {
+        "name": "fashionable",
+        "usphone": "ˈfæʃnəbl",
+        "ukphone": "ˈfæʃnəbl",
+        "trans": [
+            "adj. being or in accordance with current social fashions",
+            "adj. having elegance or taste or refinement in manners or dress",
+            "adj. patronized by"
+        ]
+    },
+    {
+        "name": "loose",
+        "usphone": "luːs",
+        "ukphone": "luːs",
+        "trans": [
+            "v. become loose or looser or less tight",
+            "v. make loose or looser",
+            "v. turn loose or free from restraint"
+        ]
+    },
+    {
+        "name": "stylish",
+        "usphone": "ˈstaɪlɪʃ",
+        "ukphone": "ˈstaɪlɪʃ",
+        "trans": [
+            "adj. being or in accordance with current social fashions",
+            "adj. having elegance or taste or refinement in manners or dress"
+        ]
+    },
+    {
+        "name": "tight",
+        "usphone": "taɪt",
+        "ukphone": "taɪt",
+        "trans": [
+            "adj. affected by scarcity and expensive to borrow",
+            "adj. packed closely together",
+            "adj. demanding strict attention to rules and procedures"
+        ]
+    },
+    {
+        "name": "trendy",
+        "usphone": "ˈtrendi",
+        "ukphone": "ˈtrendi",
+        "trans": [
+            "adj. in accord with the latest fad"
+        ]
+    },
+    {
+        "name": "leather",
+        "usphone": "ˈleðər",
+        "ukphone": "ˈleðə(r)",
+        "trans": [
+            "v. whip with a leather strap",
+            "n. an animal skin made smooth and flexible by removing the hair and then tanning"
+        ]
+    },
+    {
+        "name": "silk",
+        "usphone": "sɪlk",
+        "ukphone": "sɪlk",
+        "trans": [
+            "n. a fabric made from the fine threads produced by certain insect larvae",
+            "n. animal fibers produced by silkworms and other larvae that spin cocoons and by most spiders"
+        ]
+    },
+    {
+        "name": "suit",
+        "usphone": "suːt",
+        "ukphone": "suːt",
+        "trans": [
+            "v. accord or comport with",
+            "v. be agreeable or acceptable to",
+            "v. enhance the appearance of"
+        ]
+    },
+    {
+        "name": "tie",
+        "usphone": "taɪ",
+        "ukphone": "taɪ",
+        "trans": [
+            "v. form a knot or bow in",
+            "v. limit or restrict to",
+            "v. finish a game with an equal number of points, goals, etc."
+        ]
+    },
+    {
+        "name": "casual",
+        "usphone": "ˈkæʒuəl",
+        "ukphone": "ˈkæʒuəl",
+        "trans": [
+            "adj. hasty and without attention to detail",
+            "adj. marked by blithe unconcern",
+            "adj. not showing effort or strain"
+        ]
+    },
+    {
+        "name": "formal",
+        "usphone": "ˈfɔːrml",
+        "ukphone": "ˈfɔːml",
+        "trans": [
+            "adj. refined or imposing in manner or appearance",
+            "adj. being in accord with established forms and conventions and requirements (as e.g. of formal dress)",
+            "adj. of spoken and written language, adhering to traditional standards of correctness and without casual, contracted, and colloquial forms"
+        ]
+    },
+    {
+        "name": "classic",
+        "usphone": "ˈklæsɪk",
+        "ukphone": "ˈklæsɪk",
+        "trans": [
+            "adj. of or relating to the most highly developed stage of an earlier civilisation and its culture",
+            "adj. of or pertaining to or characteristic of the ancient Greek and Roman cultures",
+            "adj. of recognized authority or excellence"
+        ]
+    },
+    {
+        "name": "jeans",
+        "usphone": "dʒiːnz",
+        "ukphone": "dʒiːnz",
+        "trans": [
+            "n. a coarse durable twill-weave cotton fabric",
+            "n. (usually plural) close-fitting trousers of heavy denim for manual work or casual wear"
+        ]
+    },
+    {
+        "name": "plain",
+        "usphone": "pleɪn",
+        "ukphone": "pleɪn",
+        "trans": [
+            "v. express complaints, discontent, displeasure, or unhappiness",
+            "adj. lacking embellishment or ornamentation",
+            "adj. lacking in physical beauty or proportion"
+        ]
+    },
+    {
+        "name": "comfortable",
+        "usphone": "ˈkʌmftəbl",
+        "ukphone": "ˈkʌmftəbl",
+        "trans": [
+            "adj. providing or experiencing physical well-being or relief (`comfy' is informal)",
+            "adj. free from stress or conducive to mental ease",
+            "adj. in fortunate circumstances financially"
+        ]
+    },
+    {
+        "name": "waterproof",
+        "usphone": "ˈwɔːtərpruːf",
+        "ukphone": "ˈwɔːtəpruːf",
+        "trans": [
+            "v. make watertight",
+            "adj. not permitting the passage of water",
+            "n. a water-resistant coat"
+        ]
+    },
+    {
+        "name": "wool",
+        "usphone": "wʊl",
+        "ukphone": "wʊl",
+        "trans": [
+            "n. outer coat of especially sheep and yaks",
+            "n. a fabric made from the hair of sheep",
+            "n. fiber sheared from animals, such as sheep, and twisted into yarn for weaving"
+        ]
+    },
+    {
+        "name": "cotton",
+        "usphone": "ˈkɑːtn",
+        "ukphone": "ˈkɒtn",
+        "trans": [
+            "v. to take a liking to",
+            "n. fabric woven from cotton fibers",
+            "n. thread made of cotton fibers"
+        ]
+    },
+    {
+        "name": "handsome",
+        "usphone": "ˈhænsəm",
+        "ukphone": "ˈhænsəm",
+        "trans": [
+            "adj. pleasing in appearance especially by reason of conformity to ideals of form and proportion",
+            "adj. given or giving freely"
+        ]
+    },
+    {
+        "name": "pretty",
+        "usphone": "ˈprɪti",
+        "ukphone": "ˈprɪti",
+        "trans": [
+            "adj. pleasing by delicacy or grace",
+            "adj. unexpectedly bad, used in an ironic manner",
+            "adv. to a moderately sufficient extent or degree"
+        ]
+    },
+    {
+        "name": "wonderful",
+        "usphone": "ˈwʌndərfl",
+        "ukphone": "ˈwʌndəfl",
+        "trans": [
+            "adj. extraordinarily good or great"
+        ]
+    },
+    {
+        "name": "handbag",
+        "usphone": "ˈhændbæɡ",
+        "ukphone": "ˈhændbæɡ",
+        "trans": [
+            "n. a container used for carrying money and small personal items or accessories (especially by women)"
+        ]
+    },
+    {
+        "name": "outfit",
+        "usphone": "ˈaʊtfɪt",
+        "ukphone": "ˈaʊtfɪt",
+        "trans": [
+            "v. provide with (something) usually for a specific purpose",
+            "n. gear consisting of a set of articles or tools for a specified purpose",
+            "n. a set of clothing, often with accessories"
+        ]
+    },
+    {
+        "name": "ring",
+        "usphone": "rɪŋ",
+        "ukphone": "rɪŋ",
+        "trans": [
+            "v. get or try to get into communication (with someone) by telephone",
+            "v. attach a ring to the foot of, in order to identify",
+            "v. extend on all sides of simultaneously"
+        ]
+    },
+    {
+        "name": "sandal",
+        "usphone": "ˈsændl",
+        "ukphone": "ˈsændl",
+        "trans": [
+            "n. a shoe consisting of a sole fastened by straps to the foot"
+        ]
+    }
 ]

@@ -23,15 +23,15 @@ export default function DictionaryGroup({ groupedDictsByTag }: { groupedDictsByT
   }, [currentDictInfo.tags, tagList])
 
   return (
-    <div>
+    <section className="w-full min-w-0">
       <DictTagSwitcher tagList={tagList} currentTag={currentTag} onChangeCurrentTag={onChangeCurrentTag} />
-      <div className="mt-8 grid gap-x-5 gap-y-10 px-1 pb-4 sm:grid-cols-1 md:grid-cols-2 dic3:grid-cols-3 dic4:grid-cols-4">
+      <div className="mt-6 grid w-full grid-cols-1 gap-4 px-0 pb-2 sm:mt-8 sm:gap-6 md:grid-cols-2 dic3:grid-cols-3 dic4:grid-cols-4">
         {currentTag && groupedDictsByTag[currentTag] ? (
           groupedDictsByTag[currentTag].map((dict) => <DictionaryComponent key={dict.id} dictionary={dict} />)
         ) : (
-          <div className="col-span-full text-center text-gray-500">当前分类下没有可用的词典</div>
+          <div className="col-span-full text-center text-gray-500">No dictionaries available in this category</div>
         )}
       </div>
-    </div>
+    </section>
   )
 }

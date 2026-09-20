@@ -8,33 +8,34 @@ import phoneticImg from '@/assets/mobile/detail/phonetic.png'
 import speedImg from '@/assets/mobile/detail/speed.png'
 import type React from 'react'
 import { useEffect, useRef, useState } from 'react'
+import { Link } from 'react-router-dom'
 
 const detail = [
   {
-    title: '音标显示与发音功能',
-    description: '帮助用户同时记忆单词的读音与音标',
+    title: 'Phonetic display and pronunciation',
+    description: 'Help users memorize both pronunciation and phonetic symbols',
     img: phoneticImg,
   },
   {
-    title: '默写模式',
-    description: '每章结束后可选择默写，巩固所学单词',
+    title: 'Dictation mode',
+    description: 'Optional dictation after each chapter to reinforce words',
     img: dictationImg,
   },
   {
-    title: '实时反馈',
-    description: '显示输入速度和正确率，量化技能提升',
+    title: 'Real-time feedback',
+    description: 'Shows typing speed and accuracy to track improvement',
     img: speedImg,
   },
   {
-    title: '为程序员定制',
-    description: '内置编程相关词库，提高工作效率',
+    title: 'Built for programmers',
+    description: 'Built-in programming dictionaries to boost productivity',
     img: codeImg,
   },
 ]
 
 const MobilePage: React.FC = () => {
   const [currentSlide, setCurrentSlide] = useState(0)
-  const totalSlides = 3 // 轮播图的总数量
+  const totalSlides = 3 // Total number of carousel slides
   const containerRef = useRef<HTMLDivElement>(null)
   const [activeIndex, setActiveIndex] = useState(0)
 
@@ -66,21 +67,19 @@ const MobilePage: React.FC = () => {
 
   return (
     <div className="flex w-screen flex-col bg-white lg:mx-auto lg:max-w-7xl">
-      <header className="fixed left-0 right-0 top-0 z-50 flex items-center justify-between border-b border-gray-100/50 bg-white/80 px-6 py-6 backdrop-blur-xl lg:px-12">
+      <header className="fixed left-0 right-0 top-0 z-50 flex items-center justify-between border-b border-gray-100/50 bg-white/80 px-4 py-4 backdrop-blur-xl sm:px-6 sm:py-6 lg:px-12">
         <div className="flex items-center">
           <img src={logo} className="mr-4 h-10 w-10 lg:h-12 lg:w-12" alt="Qwerty Learner Logo" />
           <div className="flex flex-col">
             <h1 className="text-lg font-semibold tracking-tight text-indigo-500 lg:text-xl">Qwerty Learner</h1>
-            <span className="text-xs font-normal text-gray-500">官方网站</span>
+            <span className="text-xs font-normal text-gray-500">Official Site</span>
           </div>
         </div>
-        <a
-          href="https://qwerty.kaiyi.cool/"
-          target="_blank"
-          rel="noopener noreferrer"
+        <Link
+          to="/"
           className="hidden items-center gap-2 rounded-xl bg-gray-900 px-6 py-3 text-sm font-medium text-white transition-all duration-200 hover:-translate-y-0.5 hover:bg-gray-800 hover:shadow-lg md:flex"
         >
-          <span>访问官网</span>
+          <span>Start practicing</span>
           <svg className="h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
             <path
               strokeLinecap="round"
@@ -89,14 +88,12 @@ const MobilePage: React.FC = () => {
               d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
             />
           </svg>
-        </a>
-        <a
-          href="https://qwerty.kaiyi.cool/"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="flex items-center gap-1 rounded-xl bg-gray-900 px-4 py-2.5 text-sm text-white transition-all duration-200 hover:bg-gray-800 md:hidden"
+        </Link>
+        <Link
+          to="/"
+          className="flex min-h-11 items-center gap-1 rounded-xl bg-gray-900 px-4 py-2.5 text-sm text-white transition-all duration-200 hover:bg-gray-800 md:hidden"
         >
-          <span>官网</span>
+          <span>Practice</span>
           <svg className="h-3 w-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
             <path
               strokeLinecap="round"
@@ -105,16 +102,16 @@ const MobilePage: React.FC = () => {
               d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
             />
           </svg>
-        </a>
+        </Link>
       </header>
 
       {/* 面包屑导航 */}
-      <nav aria-label="面包屑导航" className="bg-gray-50/50 px-6 py-3 lg:px-24">
+      <nav aria-label="Breadcrumb" className="bg-gray-50/50 px-6 py-3 lg:px-24">
         <div className="mx-auto max-w-7xl">
           <ol className="flex items-center space-x-2 text-sm text-gray-500" itemScope itemType="https://schema.org/BreadcrumbList">
             <li itemProp="itemListElement" itemScope itemType="https://schema.org/ListItem">
               <a href="https://qwerty.kaiyi.cool/" className="transition-colors hover:text-indigo-600" itemProp="item">
-                <span itemProp="name">首页</span>
+                <span itemProp="name">Home</span>
               </a>
               <meta itemProp="position" content="1" />
             </li>
@@ -125,7 +122,7 @@ const MobilePage: React.FC = () => {
             </li>
             <li itemProp="itemListElement" itemScope itemType="https://schema.org/ListItem">
               <span className="font-medium text-gray-900" itemProp="name">
-                Qwerty Learner 官网
+                Qwerty Learner Official Site
               </span>
               <meta itemProp="position" content="2" />
             </li>
@@ -149,24 +146,23 @@ const MobilePage: React.FC = () => {
               <svg className="h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
               </svg>
-              <span>官方网站</span>
+              <span>Official Site</span>
             </div>
 
             {/* 主标题 */}
             <h1 className="mb-8 text-5xl font-bold leading-[1.1] tracking-tight text-gray-900 sm:text-6xl lg:text-7xl" itemProp="name">
-              为<span className="text-indigo-500">键盘工作者</span>
-              <br />
-              设计的<span className="text-indigo-500">英语学习软件</span>
+              English learning software<br />
+              for <span className="text-indigo-500">keyboard workers</span>
             </h1>
 
             {/* 副标题 */}
             <p className="mx-auto mb-16 max-w-3xl text-xl font-light leading-relaxed text-gray-600 sm:text-2xl" itemProp="description">
-              结合打字练习与单词记忆，让英语学习变得高效而有趣
+              Combine typing practice with vocabulary memorization for efficient, fun English learning
             </p>
 
             {/* 功能标签 */}
             <div className="mb-16 flex flex-wrap justify-center gap-3" itemProp="featureList">
-              {['英语单词记忆训练', '国际音标发音练习', 'CET 四六级词库', '程序员专用词汇', '免费在线学习', '完全开源'].map(
+              {['English vocabulary training', 'IPA pronunciation practice', 'CET-4/6 dictionaries', 'Developer vocabulary', 'Free online learning', 'Fully open source'].map(
                 (item, index) => (
                   <span
                     key={index}
@@ -185,7 +181,7 @@ const MobilePage: React.FC = () => {
               rel="noopener noreferrer"
               className="inline-flex items-center gap-3 rounded-full bg-gray-900 px-10 py-5 text-lg font-semibold text-white shadow-xl transition-all duration-300 hover:-translate-y-1 hover:bg-gray-800 hover:shadow-2xl"
             >
-              <span>立即开始</span>
+              <span>Get Started</span>
               <svg className="h-5 w-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M17 8l4 4m0 0l-4 4m4-4H3" />
               </svg>
@@ -205,18 +201,18 @@ const MobilePage: React.FC = () => {
               >
                 <img
                   src={hotImg}
-                  alt="Qwerty Learner 英语学习软件热门词库界面 - CET 四六级雅思托福词汇在线练习"
+                  alt="Qwerty Learner popular dictionaries - CET, IELTS, TOEFL vocabulary practice"
                   className="w-full flex-shrink-0"
                 />
                 <img
                   src={directoryImg}
-                  alt="Qwerty Learner 免费英语学习软件词库目录 - 支持程序员技术英语学习"
+                  alt="Qwerty Learner dictionary catalog - developer and technical English"
                   className="w-full flex-shrink-0"
                 />
-                <img src={indexImg} alt="Qwerty Learner 英语打字练习软件主界面 - 在线英语单词记忆训练" className="w-full flex-shrink-0" />
+                <img src={indexImg} alt="Qwerty Learner main typing interface - online vocabulary training" className="w-full flex-shrink-0" />
                 <img
                   src={hotImg}
-                  alt="Qwerty Learner 英语学习软件热门词库界面 - CET 四六级雅思托福词汇在线练习"
+                  alt="Qwerty Learner popular dictionaries - CET, IELTS, TOEFL vocabulary practice"
                   className="w-full flex-shrink-0"
                 />
               </div>
@@ -237,7 +233,7 @@ const MobilePage: React.FC = () => {
         <section className="mt-24 bg-gray-50/30 px-6 py-24 lg:mt-32 lg:px-24" itemScope itemType="https://schema.org/Product">
           <div className="mx-auto max-w-7xl">
             <meta itemProp="name" content="Qwerty Learner" />
-            <meta itemProp="description" content="为键盘工作者设计的英语学习软件，结合打字练习与单词记忆" />
+            <meta itemProp="description" content="English learning software for keyboard workers combining typing practice and vocabulary memorization" />
             <meta itemProp="brand" content="Qwerty Learner" />
 
             {/* Offers Schema */}
@@ -259,7 +255,7 @@ const MobilePage: React.FC = () => {
 
             {/* Individual Reviews */}
             <div itemProp="review" itemScope itemType="https://schema.org/Review">
-              <meta itemProp="author" content="李某某 - 前端工程师" />
+              <meta itemProp="author" content="Li - Frontend Engineer" />
               <div itemProp="reviewRating" itemScope itemType="https://schema.org/Rating">
                 <meta itemProp="ratingValue" content="5" />
                 <meta itemProp="bestRating" content="5" />
@@ -267,12 +263,12 @@ const MobilePage: React.FC = () => {
               <meta itemProp="datePublished" content="2024-11-15" />
               <meta
                 itemProp="reviewBody"
-                content="作为程序员，这个工具完美解决了我的痛点。一边练习打字一边背单词，效率翻倍！特别是程序员词库，让我快速熟悉了技术文档中的常用词汇。键盘音效配合网站体验感拉满，根本停不下来。"
+                content="As a developer, this tool solved my pain point perfectly. Typing practice and vocabulary at the same time doubled my efficiency! The developer dictionary helped me learn common terms in technical docs fast. Keyboard sounds make the experience addictive."
               />
             </div>
 
             <div itemProp="review" itemScope itemType="https://schema.org/Review">
-              <meta itemProp="author" content="王某某 - 大学生" />
+              <meta itemProp="author" content="Wang - University student" />
               <div itemProp="reviewRating" itemScope itemType="https://schema.org/Rating">
                 <meta itemProp="ratingValue" content="5" />
                 <meta itemProp="bestRating" content="5" />
@@ -280,12 +276,12 @@ const MobilePage: React.FC = () => {
               <meta itemProp="datePublished" content="2024-10-28" />
               <meta
                 itemProp="reviewBody"
-                content="准备六级考试时发现的宝藏！CET-6词库很全面，默写模式帮我巩固了很多易错单词。最喜欢的是错词本功能，可以反复练习不熟悉的单词。一个月下来，打字速度和词汇量都有明显提升。"
+                content="Found this gem while preparing for CET-6! The dictionary is comprehensive and dictation mode helped me fix tricky words. Love the Error Book for reviewing weak words. After a month, both typing speed and vocabulary improved noticeably."
               />
             </div>
 
             <div itemProp="review" itemScope itemType="https://schema.org/Review">
-              <meta itemProp="author" content="张某某 - 后端开发" />
+              <meta itemProp="author" content="Zhang - Backend developer" />
               <div itemProp="reviewRating" itemScope itemType="https://schema.org/Rating">
                 <meta itemProp="ratingValue" content="5" />
                 <meta itemProp="bestRating" content="5" />
@@ -293,12 +289,12 @@ const MobilePage: React.FC = () => {
               <meta itemProp="datePublished" content="2024-09-20" />
               <meta
                 itemProp="reviewBody"
-                content="GitHub上看到17.5k星就来试试，果然没让我失望！VSCode插件版本太方便了，写代码累了就切换过去练几个单词。JavaScript API的练习模式对我帮助很大，现在写JS不用老是查文档了。"
+                content="Saw 17.5k stars on GitHub and tried it — no disappointment! The VSCode extension is so convenient for quick word drills between coding. JavaScript API practice helped a lot — I rarely need to look up docs now."
               />
             </div>
 
             <div itemProp="review" itemScope itemType="https://schema.org/Review">
-              <meta itemProp="author" content="刘某某 - 产品经理" />
+              <meta itemProp="author" content="Liu - Product manager" />
               <div itemProp="reviewRating" itemScope itemType="https://schema.org/Rating">
                 <meta itemProp="ratingValue" content="4" />
                 <meta itemProp="bestRating" content="5" />
@@ -306,12 +302,12 @@ const MobilePage: React.FC = () => {
               <meta itemProp="datePublished" content="2024-08-12" />
               <meta
                 itemProp="reviewBody"
-                content="界面简洁，功能实用。音标显示和发音功能帮助很大，边打字边纠正发音。唯一的建议是希望能增加更多商务英语词汇，不过看到社区很活跃，相信会越来越完善。"
+                content="Clean UI and practical features. Phonetic display and pronunciation help a lot while typing. Would love more business English vocabulary, but the active community gives me confidence it will keep improving."
               />
             </div>
 
             <div itemProp="review" itemScope itemType="https://schema.org/Review">
-              <meta itemProp="author" content="陈某某 - 全栈工程师" />
+              <meta itemProp="author" content="Chen - Full-stack engineer" />
               <div itemProp="reviewRating" itemScope itemType="https://schema.org/Rating">
                 <meta itemProp="ratingValue" content="5" />
                 <meta itemProp="bestRating" content="5" />
@@ -319,14 +315,14 @@ const MobilePage: React.FC = () => {
               <meta itemProp="datePublished" content="2024-07-05" />
               <meta
                 itemProp="reviewBody"
-                content="开源项目的典范！代码质量很高，我还贡献了几个PR。肌肉记忆训练的理念很棒，输错必须重打避免了错误记忆。现在阅读英文文档速度快了很多，打字也更准确了。强烈推荐给所有键盘工作者！"
+                content="A model open-source project with high code quality — I even contributed PRs. Muscle memory training is brilliant: retyping mistakes prevents bad habits. Reading English docs is much faster now and typing is more accurate. Highly recommended for all keyboard workers!"
               />
             </div>
             <h2 className="mb-6 text-center text-4xl font-bold tracking-tight text-gray-900 lg:text-5xl xl:text-6xl">
-              核心功能，<span className="text-indigo-500">专业设计</span>
+              Core features, <span className="text-indigo-500">professionally designed</span>
             </h2>
             <p className="mx-auto mb-16 max-w-3xl text-center text-xl font-light leading-relaxed text-gray-600">
-              每一个细节都为了更好的在线英语学习体验而精心打磨，适合程序员、学生、上班族等所有键盘工作者快速提升英语打字速度和英语单词记忆能力
+              Every detail is crafted for a better online English learning experience — for developers, students, office workers, and all keyboard users to improve typing speed and vocabulary fast
             </p>
 
             <div className="lg:grid lg:grid-cols-2 lg:gap-12">
@@ -353,7 +349,7 @@ const MobilePage: React.FC = () => {
                 <img
                   className="w-full object-contain"
                   src={detail[activeIndex].img}
-                  alt={`Qwerty Learner ${detail[activeIndex].title} 功能展示 - 英语学习软件特色功能截图`}
+                  alt={`Qwerty Learner ${detail[activeIndex].title} feature showcase screenshot`}
                 />
               </div>
             </div>
@@ -373,9 +369,9 @@ const MobilePage: React.FC = () => {
                       />
                     </svg>
                   </div>
-                  <h3 className="mb-3 text-lg font-semibold text-gray-900 sm:text-xl">音标显示与发音功能</h3>
+                  <h3 className="mb-3 text-lg font-semibold text-gray-900 sm:text-xl">Phonetic display and pronunciation</h3>
                   <p className="text-sm leading-relaxed text-gray-600 sm:text-base">
-                    方便用户在记忆单词时，同时记忆读音与音标。支持标准美式发音，帮助用户建立正确的语音记忆，提高听力和口语能力。
+                    Memorize pronunciation and phonetic symbols together. Standard US pronunciation helps build correct audio memory and improve listening and speaking.
                   </p>
                 </div>
 
@@ -391,9 +387,9 @@ const MobilePage: React.FC = () => {
                       />
                     </svg>
                   </div>
-                  <h3 className="mb-3 text-lg font-semibold text-gray-900 sm:text-xl">智能默写模式</h3>
+                  <h3 className="mb-3 text-lg font-semibold text-gray-900 sm:text-xl">Smart dictation mode</h3>
                   <p className="text-sm leading-relaxed text-gray-600 sm:text-base">
-                    在用户完成一个章节的练习后，会弹出选项是否默写本章，方便用户巩固本章学习的单词。通过默写练习强化记忆效果。
+                    After finishing a chapter, choose dictation to reinforce the words you just learned. Dictation strengthens memory retention.
                   </p>
                 </div>
 
@@ -409,9 +405,9 @@ const MobilePage: React.FC = () => {
                       />
                     </svg>
                   </div>
-                  <h3 className="mb-3 text-lg font-semibold text-gray-900 sm:text-xl">精准数据统计</h3>
+                  <h3 className="mb-3 text-lg font-semibold text-gray-900 sm:text-xl">Precise statistics</h3>
                   <p className="text-sm leading-relaxed text-gray-600 sm:text-base">
-                    量化用户输入的速度和输入的正确率，让用户有感知的了解自己技能的提升。支持 WPM 统计、准确率分析和进度跟踪。
+                    Track typing speed and accuracy so you can see your progress. Supports WPM, accuracy analysis, and progress tracking.
                   </p>
                 </div>
 
@@ -422,9 +418,9 @@ const MobilePage: React.FC = () => {
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M13 10V3L4 14h7v7l9-11h-7z" />
                     </svg>
                   </div>
-                  <h3 className="mb-3 text-lg font-semibold text-gray-900 sm:text-xl">英语肌肉记忆训练</h3>
+                  <h3 className="mb-3 text-lg font-semibold text-gray-900 sm:text-xl">English muscle memory training</h3>
                   <p className="text-sm leading-relaxed text-gray-600 sm:text-base">
-                    专为键盘工作者设计，将英语单词记忆与键盘输入的肌肉记忆锻炼相结合，在背诵单词的同时巩固打字技能。
+                    Designed for keyboard workers — combine vocabulary memorization with typing muscle memory to improve both at once.
                   </p>
                 </div>
 
@@ -440,9 +436,9 @@ const MobilePage: React.FC = () => {
                       />
                     </svg>
                   </div>
-                  <h3 className="mb-3 text-lg font-semibold text-gray-900 sm:text-xl">智能错误纠正</h3>
+                  <h3 className="mb-3 text-lg font-semibold text-gray-900 sm:text-xl">Smart error correction</h3>
                   <p className="text-sm leading-relaxed text-gray-600 sm:text-base">
-                    为了避免造成错误的肌肉记忆，如果用户单词输入错误则需要重新输入单词，确保用户维持正确的肌肉记忆和拼写习惯。
+                    To avoid wrong muscle memory, mistyped words must be retyped entirely, ensuring correct habits and spelling.
                   </p>
                 </div>
 
@@ -458,9 +454,9 @@ const MobilePage: React.FC = () => {
                       />
                     </svg>
                   </div>
-                  <h3 className="mb-3 text-lg font-semibold text-gray-900 sm:text-xl">多平台无缝体验</h3>
+                  <h3 className="mb-3 text-lg font-semibold text-gray-900 sm:text-xl">Seamless multi-platform experience</h3>
                   <p className="text-sm leading-relaxed text-gray-600 sm:text-base">
-                    支持网页版和 VSCode 插件版本，随时随地开始练习。还提供了便捷的快速部署方案，满足不同用户的使用需求。
+                    Web app and VSCode extension let you practice anywhere. Easy self-hosting options for different user needs.
                   </p>
                 </div>
               </div>
@@ -473,11 +469,11 @@ const MobilePage: React.FC = () => {
           <div className="mx-auto max-w-7xl">
             <div className="mb-16 text-center">
               <h2 className="mb-6 text-4xl font-bold tracking-tight text-gray-900 lg:text-5xl xl:text-6xl">
-                丰富词库，<span className="text-indigo-500">应有尽有</span>
+                Rich dictionaries, <span className="text-indigo-500">everything you need</span>
               </h2>
               <p className="mx-auto max-w-3xl text-xl font-light leading-relaxed text-gray-600">
-                涵盖 CET-4/6 四六级英语考试、雅思托福 GRE 考研英语、商务英语 BEC 考试以及专为程序员定制的 JavaScript/Java/Python
-                技术词库，满足不同用户的英语学习需求
+                Covers CET-4/6, IELTS, TOEFL, GRE, postgraduate English, BEC business English, and developer dictionaries for JavaScript/Java/Python
+                technical dictionaries for every English learner
               </p>
             </div>
 
@@ -494,35 +490,35 @@ const MobilePage: React.FC = () => {
                     />
                   </svg>
                 </div>
-                <h3 className="mb-4 text-lg font-semibold text-gray-900 sm:text-xl">考试必备词库</h3>
+                <h3 className="mb-4 text-lg font-semibold text-gray-900 sm:text-xl">Exam essentials</h3>
                 <div className="space-y-2 text-xs text-gray-600 sm:text-sm">
                   <div className="flex items-center gap-2">
                     <span className="text-indigo-500">•</span>
-                    <span>CET-4 大学英语四级</span>
+                    <span>CET-4 College English Test Band 4</span>
                   </div>
                   <div className="flex items-center gap-2">
                     <span className="text-indigo-500">•</span>
-                    <span>CET-6 大学英语六级</span>
+                    <span>CET-6 College English Test Band 6</span>
                   </div>
                   <div className="flex items-center gap-2">
                     <span className="text-indigo-500">•</span>
-                    <span>TOEFL 托福考试词汇</span>
+                    <span>TOEFL vocabulary</span>
                   </div>
                   <div className="flex items-center gap-2">
                     <span className="text-indigo-500">•</span>
-                    <span>IELTS 雅思考试词汇</span>
+                    <span>IELTS vocabulary</span>
                   </div>
                   <div className="flex items-center gap-2">
                     <span className="text-indigo-500">•</span>
-                    <span>GRE 研究生入学考试</span>
+                    <span>GRE Graduate Record Examination</span>
                   </div>
                   <div className="flex items-center gap-2">
                     <span className="text-indigo-500">•</span>
-                    <span>GMAT 商学院入学考试</span>
+                    <span>GMAT Graduate Management Admission Test</span>
                   </div>
                   <div className="flex items-center gap-2">
                     <span className="text-indigo-500">•</span>
-                    <span>SAT 学术能力评估测试</span>
+                    <span>SAT Scholastic Assessment Test</span>
                   </div>
                 </div>
               </div>
@@ -539,31 +535,31 @@ const MobilePage: React.FC = () => {
                     />
                   </svg>
                 </div>
-                <h3 className="mb-4 text-lg font-semibold text-gray-900 sm:text-xl">学术专业词库</h3>
+                <h3 className="mb-4 text-lg font-semibold text-gray-900 sm:text-xl">Academic dictionaries</h3>
                 <div className="space-y-2 text-xs text-gray-600 sm:text-sm">
                   <div className="flex items-center gap-2">
                     <span className="text-indigo-500">•</span>
-                    <span>考研英语核心词汇</span>
+                    <span>Postgraduate entrance exam core vocabulary</span>
                   </div>
                   <div className="flex items-center gap-2">
                     <span className="text-indigo-500">•</span>
-                    <span>专业四级英语 TEM-4</span>
+                    <span>TEM-4 (English major band 4)</span>
                   </div>
                   <div className="flex items-center gap-2">
                     <span className="text-indigo-500">•</span>
-                    <span>专业八级英语 TEM-8</span>
+                    <span>TEM-8 (English major band 8)</span>
                   </div>
                   <div className="flex items-center gap-2">
                     <span className="text-indigo-500">•</span>
-                    <span>高考英语必备词汇</span>
+                    <span>Gaokao essential vocabulary</span>
                   </div>
                   <div className="flex items-center gap-2">
                     <span className="text-indigo-500">•</span>
-                    <span>中考英语重点词汇</span>
+                    <span>Zhongkao key vocabulary</span>
                   </div>
                   <div className="flex items-center gap-2">
                     <span className="text-indigo-500">•</span>
-                    <span>人教版英语 3-9 年级</span>
+                    <span>PEP English grades 3-9</span>
                   </div>
                 </div>
               </div>
@@ -580,27 +576,27 @@ const MobilePage: React.FC = () => {
                     />
                   </svg>
                 </div>
-                <h3 className="mb-4 text-lg font-semibold text-gray-900 sm:text-xl">商务与多语言</h3>
+                <h3 className="mb-4 text-lg font-semibold text-gray-900 sm:text-xl">Business and multilingual</h3>
                 <div className="space-y-2 text-xs text-gray-600 sm:text-sm">
                   <div className="flex items-center gap-2">
                     <span className="text-indigo-500">•</span>
-                    <span>商务英语核心词汇</span>
+                    <span>Business English core vocabulary</span>
                   </div>
                   <div className="flex items-center gap-2">
                     <span className="text-indigo-500">•</span>
-                    <span>BEC 商务英语考试</span>
+                    <span>BEC Business English Certificate</span>
                   </div>
                   <div className="flex items-center gap-2">
                     <span className="text-indigo-500">•</span>
-                    <span>王陆雅思王听力语料库</span>
+                    <span>Wang Lu IELTS listening corpus</span>
                   </div>
                   <div className="flex items-center gap-2">
                     <span className="text-indigo-500">•</span>
-                    <span>日语常见词 N1-N5</span>
+                    <span>Japanese common words N1-N5</span>
                   </div>
                   <div className="flex items-center gap-2">
                     <span className="text-indigo-500">•</span>
-                    <span>哈萨克语基础3000词</span>
+                    <span>Kazakh basic 3000 words</span>
                   </div>
                 </div>
               </div>
@@ -613,19 +609,19 @@ const MobilePage: React.FC = () => {
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4" />
                     </svg>
                   </div>
-                  <h3 className="mb-4 text-xl font-bold text-gray-900 sm:text-2xl">程序员专属词库与 API</h3>
+                  <h3 className="mb-4 text-xl font-bold text-gray-900 sm:text-2xl">Developer dictionaries and APIs</h3>
                   <p className="mx-auto max-w-3xl text-gray-600">
-                    专为程序员量身定制的技术词汇和编程 API 练习，提高代码编写效率和技术英语水平
+                    Technical vocabulary and programming API practice tailored for developers to improve coding efficiency and technical English
                   </p>
                 </div>
 
                 <div className="grid grid-cols-2 gap-4 sm:grid-cols-3 lg:grid-cols-5">
                   <div className="text-center">
-                    <div className="mb-2 text-sm font-semibold text-gray-900 sm:text-base">编程词汇</div>
+                    <div className="mb-2 text-sm font-semibold text-gray-900 sm:text-base">Programming vocabulary</div>
                     <div className="text-xs text-gray-600 sm:text-sm">
                       Coder Dict
                       <br />
-                      程序员常用词
+                      Common developer terms
                     </div>
                   </div>
                   <div className="text-center">
@@ -633,7 +629,7 @@ const MobilePage: React.FC = () => {
                     <div className="text-xs text-gray-600 sm:text-sm">
                       JS API
                       <br />
-                      核心方法练习
+                      Core method practice
                     </div>
                   </div>
                   <div className="text-center">
@@ -641,7 +637,7 @@ const MobilePage: React.FC = () => {
                     <div className="text-xs text-gray-600 sm:text-sm">
                       Node API
                       <br />
-                      服务端开发
+                      Server-side development
                     </div>
                   </div>
                   <div className="text-center">
@@ -649,15 +645,15 @@ const MobilePage: React.FC = () => {
                     <div className="text-xs text-gray-600 sm:text-sm">
                       Java API
                       <br />
-                      企业级开发
+                      Enterprise development
                     </div>
                   </div>
                   <div className="text-center">
                     <div className="mb-2 text-sm font-semibold text-gray-900 sm:text-base">Linux</div>
                     <div className="text-xs text-gray-600 sm:text-sm">
-                      命令行指令
+                      CLI commands
                       <br />
-                      系统管理
+                      System administration
                     </div>
                   </div>
                 </div>
@@ -667,7 +663,7 @@ const MobilePage: React.FC = () => {
                     <svg className="h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M13 10V3L4 14h7v7l9-11h-7z" />
                     </svg>
-                    持续更新更多编程语言 API
+                    More programming language APIs coming soon
                   </span>
                 </div>
               </div>
@@ -675,9 +671,9 @@ const MobilePage: React.FC = () => {
 
             <div className="mt-16 text-center">
               <div className="mb-8">
-                <h4 className="mb-4 text-2xl font-bold text-gray-900">社区共建，持续增长</h4>
+                <h4 className="mb-4 text-2xl font-bold text-gray-900">Community-built, always growing</h4>
                 <p className="mx-auto max-w-2xl text-gray-600">
-                  我们的词库由活跃的开源社区持续贡献和维护，如果您需要特定的词库，欢迎在 GitHub 提出 Issue
+                  Our dictionaries are maintained by an active open-source community. Need a specific dictionary? Open an issue on GitHub
                 </p>
               </div>
               <a
@@ -686,7 +682,7 @@ const MobilePage: React.FC = () => {
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 rounded-full bg-indigo-600 px-8 py-4 font-semibold text-white transition-all duration-300 hover:bg-indigo-700 hover:shadow-lg"
               >
-                <span>立即体验丰富词库</span>
+                <span>Try our dictionaries now</span>
                 <svg className="h-5 w-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M17 8l4 4m0 0l-4 4m4-4H3" />
                 </svg>
@@ -710,11 +706,11 @@ const MobilePage: React.FC = () => {
                 <span className="font-semibold">For Coder</span>
               </div>
               <h2 className="mb-6 text-4xl font-bold tracking-tight text-white lg:text-5xl xl:text-6xl">
-                专为<span className="text-indigo-400">程序员</span>量身定制
+                Built for <span className="text-indigo-400">developers</span>
               </h2>
               <p className="mx-auto max-w-3xl text-xl font-light leading-relaxed text-gray-300">
-                内置程序员工作常用技术英语单词词库，包括算法数据结构、设计模式、云计算等技术词汇，提高英语打字速度。同时支持
-                JavaScript/Node.js/Java/Python/Linux 命令等多种编程语言 API 练习，帮助程序员快速熟悉常用编程接口
+                Built-in technical English vocabulary for daily developer work — algorithms, data structures, design patterns, cloud computing, and more. Also supports
+                JavaScript/Node.js/Java/Python/Linux command API practice to learn common programming interfaces quickly
               </p>
             </div>
 
@@ -732,27 +728,27 @@ const MobilePage: React.FC = () => {
                       />
                     </svg>
                   </div>
-                  <h3 className="text-xl font-bold text-white sm:text-2xl">编程技术词汇</h3>
+                  <h3 className="text-xl font-bold text-white sm:text-2xl">Programming technical vocabulary</h3>
                 </div>
                 <p className="mb-6 text-sm leading-relaxed text-gray-300 sm:text-base">
-                  专门收录程序员工作中最常用的英语单词，包括算法、数据结构、设计模式、软件工程等领域的核心词汇
+                  Curated essential English terms for developers — algorithms, data structures, design patterns, software engineering, and more
                 </p>
                 <div className="space-y-3">
                   <div className="flex items-center gap-3 rounded-lg bg-gray-700/50 p-3">
                     <span className="text-indigo-400">•</span>
-                    <span className="text-gray-200">算法与数据结构词汇</span>
+                    <span className="text-gray-200">Algorithms and data structures</span>
                   </div>
                   <div className="flex items-center gap-3 rounded-lg bg-gray-700/50 p-3">
                     <span className="text-indigo-400">•</span>
-                    <span className="text-gray-200">软件架构与设计模式</span>
+                    <span className="text-gray-200">Software architecture and design patterns</span>
                   </div>
                   <div className="flex items-center gap-3 rounded-lg bg-gray-700/50 p-3">
                     <span className="text-indigo-400">•</span>
-                    <span className="text-gray-200">项目管理与协作工具</span>
+                    <span className="text-gray-200">Project management and collaboration</span>
                   </div>
                   <div className="flex items-center gap-3 rounded-lg bg-gray-700/50 p-3">
                     <span className="text-indigo-400">•</span>
-                    <span className="text-gray-200">云计算与 DevOps 术语</span>
+                    <span className="text-gray-200">Cloud computing and DevOps</span>
                   </div>
                 </div>
               </div>
@@ -765,27 +761,27 @@ const MobilePage: React.FC = () => {
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4" />
                     </svg>
                   </div>
-                  <h3 className="text-xl font-bold text-white sm:text-2xl">API 方法练习</h3>
+                  <h3 className="text-xl font-bold text-white sm:text-2xl">API method practice</h3>
                 </div>
                 <p className="mb-6 text-sm leading-relaxed text-gray-300 sm:text-base">
-                  支持多种主流编程语言的 API 练习，通过打字练习熟悉常用方法，提高编码效率和 API 记忆
+                  Practice APIs in major programming languages through typing to improve coding efficiency and API recall
                 </p>
                 <div className="grid gap-3 sm:grid-cols-2">
                   <div className="rounded-lg border border-yellow-500/30 bg-yellow-500/10 p-4">
                     <div className="mb-2 font-semibold text-yellow-400">JavaScript</div>
-                    <div className="text-sm text-gray-300">Array, Object, Promise 等核心 API</div>
+                    <div className="text-sm text-gray-300">Core APIs like Array, Object, Promise</div>
                   </div>
                   <div className="rounded-lg border border-green-500/30 bg-green-500/10 p-4">
                     <div className="mb-2 font-semibold text-green-400">Node.js</div>
-                    <div className="text-sm text-gray-300">fs, http, express 等服务端 API</div>
+                    <div className="text-sm text-gray-300">Server APIs like fs, http, express</div>
                   </div>
                   <div className="rounded-lg border border-orange-500/30 bg-orange-500/10 p-4">
                     <div className="mb-2 font-semibold text-orange-400">Java</div>
-                    <div className="text-sm text-gray-300">Collection, Stream 等企业级 API</div>
+                    <div className="text-sm text-gray-300">Enterprise APIs like Collection, Stream</div>
                   </div>
                   <div className="rounded-lg border border-blue-500/30 bg-blue-500/10 p-4">
                     <div className="mb-2 font-semibold text-blue-400">Linux</div>
-                    <div className="text-sm text-gray-300">常用命令行指令和系统管理</div>
+                    <div className="text-sm text-gray-300">Common CLI commands and system administration</div>
                   </div>
                 </div>
               </div>
@@ -799,8 +795,8 @@ const MobilePage: React.FC = () => {
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M13 10V3L4 14h7v7l9-11h-7z" />
                   </svg>
                 </div>
-                <h4 className="mb-3 text-xl font-semibold text-white">快速熟悉 API</h4>
-                <p className="text-gray-300">通过打字练习快速记忆编程 API，提高开发效率</p>
+                <h4 className="mb-3 text-xl font-semibold text-white">Learn APIs quickly</h4>
+                <p className="text-gray-300">Memorize programming APIs through typing practice to code faster</p>
               </div>
               <div className="text-center">
                 <div className="mb-4 inline-flex items-center justify-center rounded-full bg-green-600/20 p-4">
@@ -813,8 +809,8 @@ const MobilePage: React.FC = () => {
                     />
                   </svg>
                 </div>
-                <h4 className="mb-3 text-xl font-semibold text-white">技术英语提升</h4>
-                <p className="text-gray-300">专业技术词汇训练，提升阅读文档和交流能力</p>
+                <h4 className="mb-3 text-xl font-semibold text-white">Improve technical English</h4>
+                <p className="text-gray-300">Technical vocabulary training for better documentation reading and communication</p>
               </div>
               <div className="text-center">
                 <div className="mb-4 inline-flex items-center justify-center rounded-full bg-purple-600/20 p-4">
@@ -827,16 +823,16 @@ const MobilePage: React.FC = () => {
                     />
                   </svg>
                 </div>
-                <h4 className="mb-3 text-xl font-semibold text-white">VSCode 插件</h4>
-                <p className="text-gray-300">支持 VSCode 插件版本，随时在开发环境中练习</p>
+                <h4 className="mb-3 text-xl font-semibold text-white">VSCode extension</h4>
+                <p className="text-gray-300">VSCode extension lets you practice right in your dev environment</p>
               </div>
             </div>
 
             <div className="mt-16 text-center">
               <div className="mb-8">
-                <h4 className="mb-4 text-2xl font-bold text-white">社区驱动，持续更新</h4>
+                <h4 className="mb-4 text-2xl font-bold text-white">Community-driven updates</h4>
                 <p className="mx-auto max-w-2xl text-gray-300">
-                  我们的 API 词库主要依赖于社区贡献，更多编程语言的 API 正在逐步添加中，欢迎参与贡献
+                  Our API dictionaries rely on community contributions — more languages are being added. Contributions welcome!
                 </p>
               </div>
               <div className="flex flex-col items-center gap-4 sm:flex-row sm:justify-center">
@@ -846,7 +842,7 @@ const MobilePage: React.FC = () => {
                   rel="noopener noreferrer"
                   className="inline-flex items-center gap-2 rounded-full bg-indigo-600 px-8 py-4 font-semibold text-white transition-all duration-300 hover:bg-indigo-700 hover:shadow-lg"
                 >
-                  <span>体验程序员专属功能</span>
+                  <span>Try developer features</span>
                   <svg className="h-5 w-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M17 8l4 4m0 0l-4 4m4-4H3" />
                   </svg>
@@ -860,7 +856,7 @@ const MobilePage: React.FC = () => {
                   <svg className="h-5 w-5" viewBox="0 0 24 24" fill="currentColor">
                     <path d="M23.15 2.587L18.21.21a1.494 1.494 0 0 0-1.705.29l-9.46 8.63-4.12-3.128a.999.999 0 0 0-1.276.057L.327 7.261A1 1 0 0 0 .326 8.74L3.899 12 .326 15.26a1 1 0 0 0 .001 1.479L1.65 17.94a.999.999 0 0 0 1.276.057l4.12-3.128 9.46 8.63a1.492 1.492 0 0 0 1.704.29l4.942-2.377A1.5 1.5 0 0 0 24 20.06V3.939a1.5 1.5 0 0 0-.85-1.352zm-5.146 14.861L10.826 12l7.178-5.448v10.896z" />
                   </svg>
-                  <span>安装 VSCode 插件</span>
+                  <span>Install VSCode extension</span>
                 </a>
               </div>
             </div>
@@ -884,14 +880,14 @@ const MobilePage: React.FC = () => {
                     d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z"
                   />
                 </svg>
-                <span className="font-semibold">荣誉成就</span>
+                <span className="font-semibold">Recognition</span>
               </div>
               <h2 className="mb-6 text-4xl font-bold tracking-tight text-gray-900 lg:text-5xl xl:text-6xl">
-                备受<span className="text-indigo-500">认可</span>的优质项目
+                A project <span className="text-indigo-500">widely recognized</span>
               </h2>
               <p className="mx-auto max-w-3xl text-xl font-light leading-relaxed text-gray-600">
-                获得 GitHub 全球趋势榜第一名、V2EX 全站热搜、Gitee GVP 最有价值开源项目、少数派首页推荐等多个权威平台认可，成为 10 万+
-                用户的首选免费英语学习软件
+                Featured as #1 on GitHub Trending, V2EX hot list, Gitee GVP, and SSPAI homepage — the free English learning app chosen by 100,000+
+                users
               </p>
             </div>
 
@@ -903,8 +899,8 @@ const MobilePage: React.FC = () => {
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M13 10V3L4 14h7v7l9-11h-7z" />
                   </svg>
                 </div>
-                <h3 className="mb-2 text-lg font-bold text-gray-900 sm:text-xl">GitHub 趋势榜</h3>
-                <p className="text-sm text-gray-600 sm:text-base">全球趋势榜第一名</p>
+                <h3 className="mb-2 text-lg font-bold text-gray-900 sm:text-xl">GitHub Trending</h3>
+                <p className="text-sm text-gray-600 sm:text-base">#1 worldwide</p>
               </div>
 
               <div className="rounded-2xl border border-red-200 bg-red-50 p-8 text-center shadow-lg">
@@ -918,8 +914,8 @@ const MobilePage: React.FC = () => {
                     />
                   </svg>
                 </div>
-                <h3 className="mb-2 text-lg font-bold text-gray-900 sm:text-xl">V2EX 热搜</h3>
-                <p className="text-sm text-gray-600 sm:text-base">V2EX 全站热搜项目</p>
+                <h3 className="mb-2 text-lg font-bold text-gray-900 sm:text-xl">V2EX hot list</h3>
+                <p className="text-sm text-gray-600 sm:text-base">V2EX site-wide hot project</p>
               </div>
 
               <div className="rounded-2xl border border-green-200 bg-green-50 p-8 text-center shadow-lg">
@@ -934,7 +930,7 @@ const MobilePage: React.FC = () => {
                   </svg>
                 </div>
                 <h3 className="mb-2 text-lg font-bold text-gray-900 sm:text-xl">Gitee GVP</h3>
-                <p className="text-sm text-gray-600 sm:text-base">最有价值开源项目</p>
+                <p className="text-sm text-gray-600 sm:text-base">Most valuable open-source project</p>
               </div>
 
               <div className="rounded-2xl border border-blue-200 bg-blue-50 p-8 text-center shadow-lg">
@@ -948,15 +944,15 @@ const MobilePage: React.FC = () => {
                     />
                   </svg>
                 </div>
-                <h3 className="mb-2 text-lg font-bold text-gray-900 sm:text-xl">少数派推荐</h3>
-                <p className="text-sm text-gray-600 sm:text-base">少数派首页推荐应用</p>
+                <h3 className="mb-2 text-lg font-bold text-gray-900 sm:text-xl">SSPAI featured</h3>
+                <p className="text-sm text-gray-600 sm:text-base">SSPAI homepage featured app</p>
               </div>
             </div>
 
             {/* 详细荣誉列表 */}
             <div className="grid gap-6 lg:grid-cols-2">
               <div className="rounded-2xl border border-gray-200 bg-white p-6 shadow-lg sm:p-8">
-                <h3 className="mb-6 text-xl font-bold text-gray-900 sm:text-2xl">开源社区认可</h3>
+                <h3 className="mb-6 text-xl font-bold text-gray-900 sm:text-2xl">Open-source community recognition</h3>
                 <div className="space-y-4">
                   <div className="flex items-center gap-3 rounded-lg border border-gray-100 bg-gray-50 p-3 sm:gap-4 sm:p-4">
                     <div className="flex-shrink-0 rounded-full bg-orange-100 p-2">
@@ -965,8 +961,8 @@ const MobilePage: React.FC = () => {
                       </svg>
                     </div>
                     <div>
-                      <div className="font-semibold text-gray-900">GitHub 全球趋势榜第一名</div>
-                      <div className="text-sm text-gray-600">获得全球开发者最高关注和认可</div>
+                      <div className="font-semibold text-gray-900">#1 on GitHub Trending worldwide</div>
+                      <div className="text-sm text-gray-600">Highest attention from developers worldwide</div>
                     </div>
                   </div>
 
@@ -977,8 +973,8 @@ const MobilePage: React.FC = () => {
                       </svg>
                     </div>
                     <div>
-                      <div className="font-semibold text-gray-900">Gitee 最有价值开源项目 (GVP)</div>
-                      <div className="text-sm text-gray-600">国内顶级开源项目认证</div>
+                      <div className="font-semibold text-gray-900">Gitee Most Valuable Open Source Project (GVP)</div>
+                      <div className="text-sm text-gray-600">Top-tier open-source certification in China</div>
                     </div>
                   </div>
 
@@ -989,15 +985,15 @@ const MobilePage: React.FC = () => {
                       </svg>
                     </div>
                     <div>
-                      <div className="font-semibold text-gray-900">GitCode G-Star 计划毕业项目</div>
-                      <div className="text-sm text-gray-600">开源摘星计划优秀项目</div>
+                      <div className="font-semibold text-gray-900">GitCode G-Star program graduate project</div>
+                      <div className="text-sm text-gray-600">Outstanding Open Source Star program project</div>
                     </div>
                   </div>
                 </div>
               </div>
 
               <div className="rounded-2xl border border-gray-200 bg-white p-6 shadow-lg sm:p-8">
-                <h3 className="mb-6 text-xl font-bold text-gray-900 sm:text-2xl">媒体平台推荐</h3>
+                <h3 className="mb-6 text-xl font-bold text-gray-900 sm:text-2xl">Media platform features</h3>
                 <div className="space-y-4">
                   <div className="flex items-center gap-3 rounded-lg border border-gray-100 bg-gray-50 p-3 sm:gap-4 sm:p-4">
                     <div className="flex-shrink-0 rounded-full bg-red-100 p-2">
@@ -1010,8 +1006,8 @@ const MobilePage: React.FC = () => {
                       </svg>
                     </div>
                     <div>
-                      <div className="font-semibold text-gray-900">V2EX 全站热搜项目</div>
-                      <div className="text-sm text-gray-600">技术社区高度关注和讨论</div>
+                      <div className="font-semibold text-gray-900">V2EX site-wide hot project</div>
+                      <div className="text-sm text-gray-600">Highly discussed in tech communities</div>
                     </div>
                   </div>
 
@@ -1026,8 +1022,8 @@ const MobilePage: React.FC = () => {
                       </svg>
                     </div>
                     <div>
-                      <div className="font-semibold text-gray-900">少数派首页推荐</div>
-                      <div className="text-sm text-gray-600">优质应用推荐平台认可</div>
+                      <div className="font-semibold text-gray-900">SSPAI homepage featured</div>
+                      <div className="text-sm text-gray-600">Recognized by quality app recommendation platforms</div>
                     </div>
                   </div>
 
@@ -1042,8 +1038,8 @@ const MobilePage: React.FC = () => {
                       </svg>
                     </div>
                     <div>
-                      <div className="font-semibold text-gray-900">Gitee 全站推荐项目</div>
-                      <div className="text-sm text-gray-600">国内领先代码托管平台推荐</div>
+                      <div className="font-semibold text-gray-900">Gitee site-wide recommended project</div>
+                      <div className="text-sm text-gray-600">Recommended on leading Chinese code hosting platform</div>
                     </div>
                   </div>
                 </div>
@@ -1052,31 +1048,31 @@ const MobilePage: React.FC = () => {
 
             {/* 用户数据统计 */}
             <div className="mt-16 rounded-2xl border border-indigo-200 bg-gradient-to-r from-indigo-50 to-purple-50 p-6 text-center sm:p-8">
-              <h3 className="mb-6 text-xl font-bold text-gray-900 sm:mb-8 sm:text-2xl">用户信赖，数据说话</h3>
+              <h3 className="mb-6 text-xl font-bold text-gray-900 sm:mb-8 sm:text-2xl">Trusted by users — the numbers speak</h3>
               <div className="grid grid-cols-1 gap-6 sm:grid-cols-3 sm:gap-8">
                 <div>
                   <div className="mb-2 text-3xl font-bold text-indigo-600 sm:text-4xl">20000+</div>
                   <div className="text-sm text-gray-600 sm:text-base">GitHub Stars</div>
-                  <div className="text-xs text-gray-500 sm:text-sm">获得开发者广泛认可</div>
+                  <div className="text-xs text-gray-500 sm:text-sm">Widely recognized by developers</div>
                 </div>
                 <div>
                   <div className="mb-2 text-3xl font-bold text-indigo-600 sm:text-4xl">100000+</div>
-                  <div className="text-sm text-gray-600 sm:text-base">月活跃用户</div>
-                  <div className="text-xs text-gray-500 sm:text-sm">持续使用的学习者</div>
+                  <div className="text-sm text-gray-600 sm:text-base">Monthly active users</div>
+                  <div className="text-xs text-gray-500 sm:text-sm">Learners who keep coming back</div>
                 </div>
                 <div>
                   <div className="mb-2 text-3xl font-bold text-indigo-600 sm:text-4xl">100+</div>
-                  <div className="text-sm text-gray-600 sm:text-base">社区贡献者</div>
-                  <div className="text-xs text-gray-500 sm:text-sm">共同完善项目</div>
+                  <div className="text-sm text-gray-600 sm:text-base">Community contributors</div>
+                  <div className="text-xs text-gray-500 sm:text-sm">Helping improve the project together</div>
                 </div>
               </div>
             </div>
 
             <div className="mt-12 text-center sm:mt-16">
               <div className="mb-8">
-                <h4 className="mb-4 text-xl font-bold text-gray-900 sm:text-2xl">加入我们的用户群体</h4>
+                <h4 className="mb-4 text-xl font-bold text-gray-900 sm:text-2xl">Join our user community</h4>
                 <p className="mx-auto max-w-2xl text-sm text-gray-600 sm:text-base">
-                  成为数万名用户中的一员，体验这款备受认可的英语学习工具，提升您的打字技能和英语水平
+                  Join tens of thousands of users on this acclaimed English learning tool — improve your typing and English skills
                 </p>
               </div>
               <a
@@ -1085,7 +1081,7 @@ const MobilePage: React.FC = () => {
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 rounded-full bg-indigo-600 px-8 py-4 font-semibold text-white transition-all duration-300 hover:bg-indigo-700 hover:shadow-lg"
               >
-                <span>立即加入用户群体</span>
+                <span>Join the community now</span>
                 <svg className="h-5 w-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M17 8l4 4m0 0l-4 4m4-4H3" />
                 </svg>
@@ -1110,10 +1106,10 @@ const MobilePage: React.FC = () => {
           </div>
           <div className="relative z-10 flex flex-col items-center justify-center px-6 text-center">
             <h2 className="mb-8 text-5xl font-bold leading-tight tracking-tight text-white lg:text-6xl xl:text-7xl">
-              立即开始<span className="text-indigo-300">体验</span>
+              Start <span className="text-indigo-300">now</span>
             </h2>
             <p className="mb-12 max-w-4xl text-xl font-light leading-relaxed text-white/80 lg:text-2xl">
-              开始你的英语学习之旅，让每一次打字都成为进步
+              Start your English learning journey — make every keystroke count
             </p>
             <div className="flex flex-col items-center gap-4 sm:flex-row">
               <a
@@ -1122,11 +1118,11 @@ const MobilePage: React.FC = () => {
                 rel="noopener noreferrer"
                 className="hover:shadow-3xl group relative overflow-hidden rounded-full bg-white px-12 py-5 text-xl font-semibold text-gray-900 shadow-2xl transition-all duration-300 hover:-translate-y-1 hover:scale-105"
               >
-                <span className="relative z-10">开始学习 →</span>
+                <span className="relative z-10">Start learning →</span>
                 <div className="absolute inset-0 bg-gradient-to-r from-gray-100 to-gray-50 opacity-0 transition-opacity duration-300 group-hover:opacity-100"></div>
               </a>
               <div className="flex items-center gap-2 text-sm font-light text-white/60 lg:hidden">
-                <span>建议使用桌面端浏览器访问</span>
+                <span>Best experienced on desktop browser</span>
               </div>
             </div>
           </div>

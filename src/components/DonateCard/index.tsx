@@ -109,36 +109,36 @@ export const DonateCard = () => {
               leaveFrom="opacity-100 translate-y-0 sm:scale-100"
               leaveTo="opacity-0 translate-y-4 sm:translate-y-0 sm:scale-95"
             >
-              <Dialog.Panel className="relative my-8 w-[37rem] transform select-text overflow-hidden rounded-lg bg-white text-left shadow-xl transition-all">
+              <Dialog.Panel className="relative my-8 w-[min(37rem,calc(100vw-1.5rem))] transform select-text overflow-hidden rounded-lg bg-white text-left shadow-xl transition-all">
                 <div className="flex w-full flex-col justify-center gap-4 bg-white px-2 pb-4 pt-5 dark:bg-gray-800 dark:text-gray-300">
-                  <h1 className="gradient-text w-full pt-3 text-center text-[2.4rem] font-bold">{`${chapterNumber} Chapters Achievement !`}</h1>
+                  <h1 className="gradient-text w-full px-3 pt-3 text-center text-2xl font-bold sm:text-[2.4rem]">{`${chapterNumber} Chapters Achievement !`}</h1>
                   <div className="flex w-full flex-col gap-4 px-4">
                     <p className="mx-auto px-4 indent-4">
-                      Qwerty Learner 已经陪伴您走过
-                      <HighlightedText> {dayFromFirstWord} </HighlightedText>天，一起完成了
+                      Qwerty Learner has been with you for
+                      <HighlightedText> {dayFromFirstWord} </HighlightedText> days. Together you completed
                       <HighlightedText> {wordNumber} </HighlightedText>
-                      个词的练习，帮您纠正了 <HighlightedText> {sumWrongCount} </HighlightedText>
-                      次错误输入。每一次练习，都是您在变得更好的证明
+                      words of practice and corrected <HighlightedText> {sumWrongCount} </HighlightedText>
+                      wrong inputs. Every session is proof that you are getting better
                       <IconParty className="ml-2 inline-block" fontSize={16} />
                       <IconParty className="inline-block" fontSize={16} />
                       <IconParty className="inline-block" fontSize={16} />
                       <br />
                     </p>
                     <p className="mx-auto px-4 indent-4 font-bold">
-                      Qwerty Learner 坚持 <span className="font-medium ">开源、无广告、无商业化</span> 已经
-                      <HighlightedText className="text-indigo-500"> {dayFromQwerty} </HighlightedText>天。
+                      Qwerty Learner has stayed <span className="font-medium ">open source, ad-free, and non-commercial</span> for
+                      <HighlightedText className="text-indigo-500"> {dayFromQwerty} </HighlightedText> days.
                     </p>
                     <p className="mx-auto px-4 indent-4">
-                      随着越来越多的同学加入，服务器和维护成本也在不断增长，
+                      As more learners join, server and maintenance costs keep growing.
                       <span className="font-semibold text-indigo-600 dark:text-indigo-400">
-                        目前项目的运营成本仍由开发者个人承担，Qwerty 的长期运营需要您的一份力量
+                        Operating costs are still covered by the developer personally — Qwerty needs your support to keep running long-term
                       </span>
-                      。如果 Qwerty 对您的学习有所帮助，希望您能考虑捐赠支持我们——哪怕是一杯咖啡的金额，都能帮助 Qwerty
-                      继续陪伴更多学习者成长。
+                      . If Qwerty has helped your learning, please consider donating — even the price of a coffee helps Qwerty keep
+                      growing with more learners.
                     </p>
                     <p className="mx-auto px-4 indent-4 ">
-                      为了感谢您的慷慨，单次 50 rmb 及以上的捐赠， 我们将回赠 Qwerty 的定制贴纸 5 枚
-                      <span className="text-xs">（仅限大陆地区）</span>，希望您可以跟朋友分享您的快乐
+                      As a thank-you for donations of 50 RMB or more, we will send 5 custom Qwerty stickers
+                      <span className="text-xs"> (Mainland China only)</span>. We hope you share the joy with friends!
                     </p>
                     <div className="flex items-center justify-center">
                       <StickerButton />
@@ -146,16 +146,16 @@ export const DonateCard = () => {
                   </div>
 
                   <DonatingCard className="mt-2" onAmountChange={onAmountChange} />
-                  <div className="flex w-full justify-between  px-14 pb-3 pt-0">
+                  <div className="flex w-full flex-col justify-center gap-3 px-4 pb-3 pt-0 sm:flex-row sm:justify-between sm:px-14">
                     <button
                       type="button"
                       className={`my-btn-primary ${!amount && 'invisible'} w-36 bg-amber-500 font-medium transition-all`}
                       onClick={onClickHasDonated}
                     >
-                      我已捐赠
+                      I have donated
                     </button>
                     <button type="button" className="my-btn-primary w-36 font-medium" onClick={onClickRemindMeLater}>
-                      下次再说
+                      Maybe later
                     </button>
                   </div>
                 </div>

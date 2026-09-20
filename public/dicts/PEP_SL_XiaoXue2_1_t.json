@@ -1,434 +1,497 @@
 [
-{
-    "name": "father",
-    "trans": [
-        "父亲 ；爸爸"
-    ],
-    "usphone": "ˈfɑðər",
-    "ukphone": "ˈfɑːðə"
-},
-{
-    "name": "mother",
-    "trans": [
-        "母亲 ；妈妈"
-    ],
-    "usphone": "ˈmʌðər",
-    "ukphone": "ˈmʌðə"
-},
-{
-    "name": "brother",
-    "trans": [
-        "兄 ；弟"
-    ],
-    "usphone": "ˈbrʌðər",
-    "ukphone": "ˈbrʌðə"
-},
-{
-    "name": "sister",
-    "trans": [
-        "姐 ；妹"
-    ],
-    "usphone": "ˈsɪstər",
-    "ukphone": "ˈsɪstə"
-},
-{
-    "name": "grandmother",
-    "trans": [
-        "外祖母"
-    ],
-    "usphone": "ˈɡrændˌmʌðər",
-    "ukphone": "ˈɡrænˌmʌðə"
-},
-{
-    "name": "grandfather",
-    "trans": [
-        "外祖父"
-    ],
-    "usphone": "ˈɡrændˌfɑðər",
-    "ukphone": "ˈɡrænˌfɑːðə"
-},
-{
-    "name": "who",
-    "trans": [
-        "谁"
-    ],
-    "usphone": "huː",
-    "ukphone": "huː"
-},
-{
-    "name": "he",
-    "trans": [
-        "他"
-    ],
-    "usphone": "hiː",
-    "ukphone": "hiː"
-},
-{
-    "name": "she",
-    "trans": [
-        "她"
-    ],
-    "usphone": "ʃiː",
-    "ukphone": "ʃiː"
-},
-{
-    "name": "classmate",
-    "trans": [
-        "同班同学"
-    ],
-    "usphone": "ˈklæsˌmeɪt",
-    "ukphone": "ˈklɑːsmeɪt"
-},
-{
-    "name": "friend",
-    "trans": [
-        "朋友"
-    ],
-    "usphone": "frɛnd",
-    "ukphone": "frɛnd"
-},
-{
-    "name": "woman",
-    "trans": [
-        "女人"
-    ],
-    "usphone": "ˈwʊmən",
-    "ukphone": "ˈwʊmən"
-},
-{
-    "name": "girl",
-    "trans": [
-        "女孩"
-    ],
-    "usphone": "ɡɜrl",
-    "ukphone": "ɡɜːl"
-},
-{
-    "name": "man",
-    "trans": [
-        "男人"
-    ],
-    "usphone": "mæn",
-    "ukphone": "mæn"
-},
-{
-    "name": "boy",
-    "trans": [
-        "男孩"
-    ],
-    "usphone": "bɔɪ",
-    "ukphone": "bɔɪ"
-},
-{
-    "name": "look",
-    "trans": [
-        "看 ；瞧"
-    ],
-    "usphone": "lʊk",
-    "ukphone": "lʊk"
-},
-{
-    "name": "his",
-    "trans": [
-        "他的"
-    ],
-    "usphone": "hɪz",
-    "ukphone": "hɪz"
-},
-{
-    "name": "name",
-    "trans": [
-        "名字"
-    ],
-    "usphone": "neɪm",
-    "ukphone": "neɪm"
-},
-{
-    "name": "her",
-    "trans": [
-        "她的"
-    ],
-    "usphone": "hɜr",
-    "ukphone": "hɜːr"
-},
-{
-    "name": "or",
-    "trans": [
-        "还是"
-    ],
-    "usphone": "ɔr",
-    "ukphone": "ɔr"
-},
-{
-    "name": "big",
-    "trans": [
-        "大的"
-    ],
-    "usphone": "bɪɡ",
-    "ukphone": "bɪɡ"
-},
-{
-    "name": "tall",
-    "trans": [
-        "高的"
-    ],
-    "usphone": "tɔl",
-    "ukphone": "tɔːl"
-},
-{
-    "name": "pretty",
-    "trans": [
-        "漂亮的，可爱的"
-    ],
-    "usphone": "ˈprɪti",
-    "ukphone": "ˈprɪti"
-},
-{
-    "name": "thin",
-    "trans": [
-        "瘦的"
-    ],
-    "usphone": "θɪn",
-    "ukphone": "θɪn"
-},
-{
-    "name": "short",
-    "trans": [
-        "矮的"
-    ],
-    "usphone": "ʃɔrt",
-    "ukphone": "ʃɔrt"
-},
-{
-    "name": "handsome",
-    "trans": [
-        "漂亮的，英俊的"
-    ],
-    "usphone": "ˈhænsəm",
-    "ukphone": "ˈhænsəm"
-},
-{
-    "name": "new",
-    "trans": [
-        "新的"
-    ],
-    "usphone": "nu",
-    "ukphone": "njuː"
-},
-{
-    "name": "does",
-    "trans": [
-        "（助动词）"
-    ],
-    "usphone": "dʌz",
-    "ukphone": "dʌz"
-},
-{
-    "name": "bookshop",
-    "trans": [
-        "书店"
-    ],
-    "usphone": "ˈbʊkˌʃɑp",
-    "ukphone": "ˈbʊkˌʃɒp"
-},
-{
-    "name": "zoo",
-    "trans": [
-        "动物园"
-    ],
-    "usphone": "zu",
-    "ukphone": "zuː"
-},
-{
-    "name": "school",
-    "trans": [
-        "学校"
-    ],
-    "usphone": "skuːl",
-    "ukphone": "skuːl"
-},
-{
-    "name": "supermarket",
-    "trans": [
-        "超市"
-    ],
-    "usphone": "ˈsupərˌmɑrkɪt",
-    "ukphone": "ˈsuːpərˌmɑːrkɪt"
-},
-{
-    "name": "park",
-    "trans": [
-        "公园"
-    ],
-    "usphone": "pɑrk",
-    "ukphone": "pɑːrk"
-},
-{
-    "name": "hospital",
-    "trans": [
-        "医院"
-    ],
-    "usphone": "ˈhɑːspətəl",
-    "ukphone": "ˈhɒspɪtl̩"
-},
-{
-    "name": "go",
-    "trans": [
-        "去"
-    ],
-    "usphone": "ɡoʊ",
-    "ukphone": "ɡəʊ"
-},
-{
-    "name": "to",
-    "trans": [
-        "向，朝"
-    ],
-    "usphone": "tuː",
-    "ukphone": "tuː"
-},
-{
-    "name": "grass",
-    "trans": [
-        "草"
-    ],
-    "usphone": "ɡræs",
-    "ukphone": "ɡrɑːs"
-},
-{
-    "name": "tree",
-    "trans": [
-        "树"
-    ],
-    "usphone": "triː",
-    "ukphone": "triː"
-},
-{
-    "name": "flower",
-    "trans": [
-        "花 ；花朵"
-    ],
-    "usphone": "ˈflaʊər",
-    "ukphone": "ˈflaʊər"
-},
-{
-    "name": "boat",
-    "trans": [
-        "小船"
-    ],
-    "usphone": "boʊt",
-    "ukphone": "bəʊt"
-},
-{
-    "name": "lake",
-    "trans": [
-        "湖"
-    ],
-    "usphone": "leɪk",
-    "ukphone": "leɪk"
-},
-{
-    "name": "hill",
-    "trans": [
-        "小山"
-    ],
-    "usphone": "hɪl",
-    "ukphone": "hɪl"
-},
-{
-    "name": "Christmas",
-    "trans": [
-        "圣诞节"
-    ],
-    "usphone": "ˈkrɪsməs",
-    "ukphone": "ˈkrɪsməs"
-},
-{
-    "name": "Father Christmas",
-    "trans": [
-        "圣诞老人"
-    ],
-    "usphone": "ˈfɑðər ˈkrɪsməs",
-    "ukphone": "ˈfɑːðər ˈkrɪsməs"
-},
-{
-    "name": "Christmas tree",
-    "trans": [
-        "圣诞树"
-    ],
-    "usphone": "ˈkrɪsməs triː",
-    "ukphone": "ˈkrɪsməs triː"
-},
-{
-    "name": "card",
-    "trans": [
-        "贺卡 ；明信片"
-    ],
-    "usphone": "kɑrd",
-    "ukphone": "kɑːd"
-},
-{
-    "name": "present",
-    "trans": [
-        "礼物"
-    ],
-    "usphone": "ˈprɛzənt",
-    "ukphone": "ˈprɛznt"
-},
-{
-    "name": "New Year",
-    "trans": [
-        "新年"
-    ],
-    "usphone": "nu jɪr",
-    "ukphone": "njuː jɪər"
-},
-{
-    "name": "merry",
-    "trans": [
-        "高兴的 ；愉快的"
-    ],
-    "usphone": "ˈmɛri",
-    "ukphone": "ˈmɛri"
-},
-{
-    "name": "too",
-    "trans": [
-        "也 ；又"
-    ],
-    "usphone": "tuː",
-    "ukphone": "tuː"
-},
-{
-    "name": "here",
-    "trans": [
-        "这儿"
-    ],
-    "usphone": "hɪr",
-    "ukphone": "hɪər"
-},
-{
-    "name": "for",
-    "trans": [
-        "（表示接受某事物或从某事物中获益的人）"
-    ],
-    "usphone": "fɔr",
-    "ukphone": "fɔːr"
-},
-{
-    "name": "thank",
-    "trans": [
-        "谢谢"
-    ],
-    "usphone": "θæŋk",
-    "ukphone": "θæŋk"
-},
-{
-    "name": "happy",
-    "trans": [
-        "快乐的 ；幸福的"
-    ],
-    "usphone": "ˈhæpi",
-    "ukphone": "ˈhæpi"
-}
+    {
+        "name": "father",
+        "trans": [
+            "v. make children",
+            "n. the head of an organized crime family",
+            "n. a male parent, also used as a term of address to one's own father"
+        ],
+        "usphone": "ˈfɑðər",
+        "ukphone": "ˈfɑːðə"
+    },
+    {
+        "name": "mother",
+        "trans": [
+            "v. make children",
+            "v. care for like a mother",
+            "n. a condition that is the inspiration for an activity or situation"
+        ],
+        "usphone": "ˈmʌðər",
+        "ukphone": "ˈmʌðə"
+    },
+    {
+        "name": "brother",
+        "trans": [
+            "n. (Roman Catholic Church) a title given to a monk and used as form of address"
+        ],
+        "usphone": "ˈbrʌðər",
+        "ukphone": "ˈbrʌðə"
+    },
+    {
+        "name": "sister",
+        "trans": [
+            "n. (slang) sometimes used as a term of address for attractive young women",
+            "n. a female person who is a fellow member of a sorority or labor union or other group",
+            "n. a female person who has the same parents as another person"
+        ],
+        "usphone": "ˈsɪstər",
+        "ukphone": "ˈsɪstə"
+    },
+    {
+        "name": "grandmother",
+        "trans": [
+            "n. the mother of your father or mother"
+        ],
+        "usphone": "ˈɡrændˌmʌðər",
+        "ukphone": "ˈɡrænˌmʌðə"
+    },
+    {
+        "name": "grandfather",
+        "trans": [
+            "n. the father of your father or mother"
+        ],
+        "usphone": "ˈɡrændˌfɑðər",
+        "ukphone": "ˈɡrænˌfɑːðə"
+    },
+    {
+        "name": "who",
+        "trans": [
+            "who"
+        ],
+        "usphone": "huː",
+        "ukphone": "huː"
+    },
+    {
+        "name": "he",
+        "trans": [
+            "n. the 5th letter of the Hebrew alphabet",
+            "pron. the nominative singular masculine pronoun"
+        ],
+        "usphone": "hiː",
+        "ukphone": "hiː"
+    },
+    {
+        "name": "she",
+        "trans": [
+            "pron. nominative singular feminine pronoun"
+        ],
+        "usphone": "ʃiː",
+        "ukphone": "ʃiː"
+    },
+    {
+        "name": "classmate",
+        "trans": [
+            "n. an acquaintance that you go to school with"
+        ],
+        "usphone": "ˈklæsˌmeɪt",
+        "ukphone": "ˈklɑːsmeɪt"
+    },
+    {
+        "name": "friend",
+        "trans": [
+            "n. a person with whom you are acquainted",
+            "n. an associate who provides cooperation or assistance",
+            "n. a person you know well and regard with affection and trust"
+        ],
+        "usphone": "frɛnd",
+        "ukphone": "frɛnd"
+    },
+    {
+        "name": "woman",
+        "trans": [
+            "n. a human female employed to do housework",
+            "n. women as a class",
+            "n. an adult female human"
+        ],
+        "usphone": "ˈwʊmən",
+        "ukphone": "ˈwʊmən"
+    },
+    {
+        "name": "girl",
+        "trans": [
+            "n. a young woman",
+            "n. a friendly informal reference to a grown woman",
+            "n. a girl or young woman with whom someone is romantically involved"
+        ],
+        "usphone": "ɡɜrl",
+        "ukphone": "ɡɜːl"
+    },
+    {
+        "name": "man",
+        "trans": [
+            "v. provide with workers",
+            "v. take charge of a certain job",
+            "n. any living or extinct member of the family Hominidae characterized by superior intelligence, articulate speech, and erect carriage"
+        ],
+        "usphone": "mæn",
+        "ukphone": "mæn"
+    },
+    {
+        "name": "boy",
+        "trans": [
+            "n. (ethnic slur) offensive and disparaging term for Black man",
+            "n. a friendly informal reference to a grown man",
+            "n. a youthful male person"
+        ],
+        "usphone": "bɔɪ",
+        "ukphone": "bɔɪ"
+    },
+    {
+        "name": "look",
+        "trans": [
+            "v. have a certain outward or facial expression",
+            "v. have faith or confidence in",
+            "v. look forward to the probable occurrence of"
+        ],
+        "usphone": "lʊk",
+        "ukphone": "lʊk"
+    },
+    {
+        "name": "his",
+        "trans": [
+            "pron. singular masculine possessive pronoun"
+        ],
+        "usphone": "hɪz",
+        "ukphone": "hɪz"
+    },
+    {
+        "name": "name",
+        "trans": [
+            "v. determine or distinguish the nature of a problem or an illness through a diagnostic analysis",
+            "v. identify as in botany or biology, for example",
+            "v. give or make a list of"
+        ],
+        "usphone": "neɪm",
+        "ukphone": "neɪm"
+    },
+    {
+        "name": "her",
+        "trans": [
+            "pron. oblique (object) feminine singular pronoun"
+        ],
+        "usphone": "hɜr",
+        "ukphone": "hɜːr"
+    },
+    {
+        "name": "or",
+        "trans": [
+            "n. a room in a hospital equipped for the performance of surgical operations"
+        ],
+        "usphone": "ɔr",
+        "ukphone": "ɔr"
+    },
+    {
+        "name": "big",
+        "trans": [
+            "adj. prodigious",
+            "adj. conspicuous in position or importance",
+            "adj. given or giving freely"
+        ],
+        "usphone": "bɪɡ",
+        "ukphone": "bɪɡ"
+    },
+    {
+        "name": "tall",
+        "trans": [
+            "adj. lofty in style",
+            "adj. great in vertical dimension",
+            "adj. too improbable to admit of belief"
+        ],
+        "usphone": "tɔl",
+        "ukphone": "tɔːl"
+    },
+    {
+        "name": "pretty",
+        "trans": [
+            "adj. pleasing by delicacy or grace",
+            "adj. unexpectedly bad, used in an ironic manner",
+            "adv. to a moderately sufficient extent or degree"
+        ],
+        "usphone": "ˈprɪti",
+        "ukphone": "ˈprɪti"
+    },
+    {
+        "name": "thin",
+        "trans": [
+            "v. to take off weight",
+            "v. to lessen the strength or flavor of a solution or mixture",
+            "v. to make thin or thinner"
+        ],
+        "usphone": "θɪn",
+        "ukphone": "θɪn"
+    },
+    {
+        "name": "short",
+        "trans": [
+            "v. create a short circuit in",
+            "v. cheat someone by not returning him enough money",
+            "adj. tending to crumble or break into flakes due to a large amount of shortening"
+        ],
+        "usphone": "ʃɔrt",
+        "ukphone": "ʃɔrt"
+    },
+    {
+        "name": "handsome",
+        "trans": [
+            "adj. pleasing in appearance especially by reason of conformity to ideals of form and proportion",
+            "adj. given or giving freely"
+        ],
+        "usphone": "ˈhænsəm",
+        "ukphone": "ˈhænsəm"
+    },
+    {
+        "name": "new",
+        "trans": [
+            "adj. used of a living language",
+            "adj. in use after medieval times"
+        ],
+        "usphone": "nu",
+        "ukphone": "njuː"
+    },
+    {
+        "name": "does",
+        "trans": [
+            "auxiliary verb"
+        ],
+        "usphone": "dʌz",
+        "ukphone": "dʌz"
+    },
+    {
+        "name": "bookshop",
+        "trans": [
+            "n. a shop where books are sold"
+        ],
+        "usphone": "ˈbʊkˌʃɑp",
+        "ukphone": "ˈbʊkˌʃɒp"
+    },
+    {
+        "name": "zoo",
+        "trans": [
+            "n. the facility where wild animals are housed for exhibition"
+        ],
+        "usphone": "zu",
+        "ukphone": "zuː"
+    },
+    {
+        "name": "school",
+        "trans": [
+            "v. swim in or form a large group of fish",
+            "v. educate in or as if in a school",
+            "v. teach or refine to be discriminative in taste or judgment"
+        ],
+        "usphone": "skuːl",
+        "ukphone": "skuːl"
+    },
+    {
+        "name": "supermarket",
+        "trans": [
+            "n. a large self-service grocery store selling groceries and dairy products and household goods"
+        ],
+        "usphone": "ˈsupərˌmɑrkɪt",
+        "ukphone": "ˈsuːpərˌmɑːrkɪt"
+    },
+    {
+        "name": "park",
+        "trans": [
+            "v. place temporarily",
+            "v. maneuver a vehicle into a parking space",
+            "n. a facility in which ball games are played (especially baseball games)"
+        ],
+        "usphone": "pɑrk",
+        "ukphone": "pɑːrk"
+    },
+    {
+        "name": "hospital",
+        "trans": [
+            "n. a health facility where patients receive treatment",
+            "n. a medical institution where sick or injured people are given medical or surgical care"
+        ],
+        "usphone": "ˈhɑːspətəl",
+        "ukphone": "ˈhɒspɪtl̩"
+    },
+    {
+        "name": "go",
+        "trans": [
+            "v. enter or assume a certain state or condition",
+            "v. follow a certain course",
+            "v. pass from physical life and lose all bodily attributes and functions necessary to sustain life"
+        ],
+        "usphone": "ɡoʊ",
+        "ukphone": "ɡəʊ"
+    },
+    {
+        "name": "to",
+        "trans": [
+            "towards, imperial or royal court"
+        ],
+        "usphone": "tuː",
+        "ukphone": "tuː"
+    },
+    {
+        "name": "grass",
+        "trans": [
+            "v. give away information about somebody",
+            "v. shoot down, of birds",
+            "v. feed with grass"
+        ],
+        "usphone": "ɡræs",
+        "ukphone": "ɡrɑːs"
+    },
+    {
+        "name": "tree",
+        "trans": [
+            "v. stretch (a shoe) on a shoetree",
+            "v. chase an animal up a tree",
+            "v. plant with trees"
+        ],
+        "usphone": "triː",
+        "ukphone": "triː"
+    },
+    {
+        "name": "flower",
+        "trans": [
+            "v. produce or yield flowers",
+            "n. reproductive organ of angiosperm plants especially one having showy or colorful parts",
+            "n. a plant cultivated for its blooms or blossoms"
+        ],
+        "usphone": "ˈflaʊər",
+        "ukphone": "ˈflaʊər"
+    },
+    {
+        "name": "boat",
+        "trans": [
+            "v. to ride in a boat on water",
+            "n. a small vessel for travel on water",
+            "n. a dish (often boat-shaped) for serving gravy or sauce"
+        ],
+        "usphone": "boʊt",
+        "ukphone": "bəʊt"
+    },
+    {
+        "name": "lake",
+        "trans": [
+            "n. a body of (usually fresh) water surrounded by land",
+            "n. any of numerous bright translucent organic pigments",
+            "n. a purplish red pigment prepared from lac or cochineal"
+        ],
+        "usphone": "leɪk",
+        "ukphone": "leɪk"
+    },
+    {
+        "name": "hill",
+        "trans": [
+            "v. form into a hill",
+            "n. structure consisting of an artificial heap or bank usually of earth or stones",
+            "n. (baseball) the slight elevation on which the pitcher stands"
+        ],
+        "usphone": "hɪl",
+        "ukphone": "hɪl"
+    },
+    {
+        "name": "Christmas",
+        "trans": [
+            "Christmas time"
+        ],
+        "usphone": "ˈkrɪsməs",
+        "ukphone": "ˈkrɪsməs"
+    },
+    {
+        "name": "Father Christmas",
+        "trans": [
+            "Father Christmas"
+        ],
+        "usphone": "ˈfɑðər ˈkrɪsməs",
+        "ukphone": "ˈfɑːðər ˈkrɪsməs"
+    },
+    {
+        "name": "Christmas tree",
+        "trans": [
+            "Christmas tree"
+        ],
+        "usphone": "ˈkrɪsməs triː",
+        "ukphone": "ˈkrɪsməs triː"
+    },
+    {
+        "name": "card",
+        "trans": [
+            "v. to ask someone for identification to determine whether he or she is old enough to consume liquor",
+            "v. to separate the fibers of",
+            "n. one of a set of small pieces of stiff paper marked in various ways and used for playing games or for telling fortunes"
+        ],
+        "usphone": "kɑrd",
+        "ukphone": "kɑːd"
+    },
+    {
+        "name": "present",
+        "trans": [
+            "v. bring forward and present to the mind",
+            "v. recognize with a gesture prescribed by a military regulation",
+            "v. cause to come to know personally"
+        ],
+        "usphone": "ˈprɛzənt",
+        "ukphone": "ˈprɛznt"
+    },
+    {
+        "name": "New Year",
+        "trans": [
+            "New Year"
+        ],
+        "usphone": "nu jɪr",
+        "ukphone": "njuː jɪər"
+    },
+    {
+        "name": "merry",
+        "trans": [
+            "adj. quick and energetic",
+            "adj. offering fun and gaiety",
+            "adj. full of or showing high-spirited merriment"
+        ],
+        "usphone": "ˈmɛri",
+        "ukphone": "ˈmɛri"
+    },
+    {
+        "name": "too",
+        "trans": [
+            "adv. to a degree exceeding normal or proper limits",
+            "adv. in addition"
+        ],
+        "usphone": "tuː",
+        "ukphone": "tuː"
+    },
+    {
+        "name": "here",
+        "trans": [
+            "adj. being here now",
+            "adv. in or at this place",
+            "adv. to this place (especially toward the speaker)"
+        ],
+        "usphone": "hɪr",
+        "ukphone": "hɪər"
+    },
+    {
+        "name": "for",
+        "trans": [
+            "(of sb) to express to accept (a suggestion, punishment, bribe etc) something thing maybe from something thing within to profit from sth person"
+        ],
+        "usphone": "fɔr",
+        "ukphone": "fɔːr"
+    },
+    {
+        "name": "thank",
+        "trans": [
+            "v. express gratitude or show appreciation to"
+        ],
+        "usphone": "θæŋk",
+        "ukphone": "θæŋk"
+    },
+    {
+        "name": "happy",
+        "trans": [
+            "adj. well expressed and to the point",
+            "adj. marked by good fortune",
+            "adj. enjoying or showing or marked by joy or pleasure"
+        ],
+        "usphone": "ˈhæpi",
+        "ukphone": "ˈhæpi"
+    }
 ]

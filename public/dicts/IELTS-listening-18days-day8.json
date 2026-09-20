@@ -1,305 +1,564 @@
 [
     {
         "name": "motor",
-        "trans": ["n. 汽车"]
+        "trans": [
+            "v. to travel or be transported in a vehicle",
+            "adj. causing or able to cause motion",
+            "adj. conveying information to the muscles from the central nervous system"
+        ]
     },
     {
         "name": "hot balloon",
-        "trans": ["n. 热气球"]
+        "trans": [
+            "n. hot air balloon"
+        ]
     },
     {
         "name": "register",
-        "trans": ["v. 注册"]
+        "trans": [
+            "v. enter into someone's consciousness",
+            "v. indicate a certain reading",
+            "v. record in a public office or in a court of law"
+        ]
     },
     {
         "name": "calm",
-        "trans": ["adj. 平静的"]
+        "trans": [
+            "v. to cause to be calm or quiet as by administering a sedative to",
+            "v. to make steady",
+            "v. to become quiet or calm, especially after a state of agitation"
+        ]
     },
     {
         "name": "postal",
-        "trans": ["adj. 邮政的"]
+        "trans": [
+            "adj. of or relating to the system for delivering mail"
+        ]
     },
     {
         "name": "bonus",
-        "trans": ["n. 奖金"]
+        "trans": [
+            "n. anything that tends to arouse",
+            "n. an additional payment (or other remuneration) to employees as a means of increasing output"
+        ]
     },
     {
         "name": "insect",
-        "trans": ["n. 昆虫"]
+        "trans": [
+            "n. small air-breathing arthropod",
+            "n. a person who has a nasty or unethical character undeserving of respect"
+        ]
     },
     {
         "name": "warning",
-        "trans": ["n. 警告"]
+        "trans": [
+            "adj. serving to warn",
+            "n. cautionary advice about something imminent (especially imminent danger or other unpleasantness)",
+            "n. notification of something, usually in advance"
+        ]
     },
     {
         "name": "seed",
-        "trans": ["n. 种子"]
+        "trans": [
+            "v. remove the seeds from",
+            "v. inoculate with microorganisms",
+            "v. sprinkle with silver iodide particles to disperse and cause rain"
+        ]
     },
     {
         "name": "custom",
-        "trans": ["n. 风俗习惯"]
+        "trans": [
+            "adj. made according to the specifications of an individual",
+            "n. accepted or habitual practice",
+            "n. habitual patronage"
+        ]
     },
     {
         "name": "goods",
-        "trans": ["n. 商品"]
+        "trans": [
+            "adj. promoting or enhancing well-being",
+            "adj. having the normally expected amount",
+            "adj. with or in a close or intimate relationship"
+        ]
     },
     {
-        "trans": ["v. 拒绝"]
+        "trans": [
+            "v. to refuse"
+        ]
     },
     {
         "name": "belonging",
-        "trans": ["n. 所有物"]
+        "trans": [
+            "n. happiness felt in a secure relationship"
+        ]
     },
     {
         "name": "monologue",
-        "trans": ["n. 独白"]
+        "trans": [
+            "n. a long dramatic speech by a single actor",
+            "n. a long utterance by one person (especially one that prevents others from participating in the conversation)",
+            "n. speech you make to yourself"
+        ]
     },
     {
         "name": "label",
-        "trans": ["n. 标签"]
+        "trans": [
+            "v. distinguish (an element or atom) by using a radioactive isotope or an isotope of unusual mass for tracing through chemical reactions",
+            "v. distinguish (as a compound or molecule) by introducing a labeled atom",
+            "v. pronounce judgment on"
+        ]
     },
     {
         "name": "applicant",
-        "trans": ["n. 申请人"]
+        "trans": [
+            "n. a person who requests or seeks something such as assistance or employment or admission"
+        ]
     },
     {
         "name": "opportunity",
-        "trans": ["n. 机会"]
+        "trans": [
+            "n. a possibility due to a favorable combination of circumstances"
+        ]
     },
     {
         "name": "document",
-        "trans": ["n. 文件"]
+        "trans": [
+            "v. support or supply with references",
+            "v. record in detail",
+            "n. anything serving as a representation of a person's thinking by means of symbolic marks"
+        ]
     },
     {
         "name": "promotion",
-        "trans": ["n. 晋升"]
+        "trans": [
+            "n. act of raising in rank or position",
+            "n. the advancement of some enterprise",
+            "n. a message issued in behalf of some product or cause or idea or person or institution"
+        ]
     },
     {
         "name": "networking",
-        "trans": ["n. 一种互助性的网络体系"]
+        "trans": [
+            "v. communicate with and within a group",
+            "n. an open fabric of string or rope or wire woven together at regular intervals",
+            "n. in broadcasting, a communication system consisting of a group of broadcasting stations that all transmit the same programs"
+        ]
     },
     {
         "name": "self-employment",
-        "trans": ["n. 自营"]
+        "trans": [
+            "n. self-operated"
+        ]
     },
     {
         "name": "organization",
-        "trans": ["n. 组织"]
+        "trans": [
+            "n. the act of forming or establishing something",
+            "n. the activity or result of distributing or disposing persons or things properly or methodically",
+            "n. the act of organizing a business or an activity related to a business"
+        ]
     },
     {
         "name": "community",
-        "trans": ["n. 社区"]
+        "trans": [
+            "n. (ecology) a group of interdependent organisms inhabiting the same region and interacting with each other",
+            "n. a group of people living in a particular local area",
+            "n. a group of nations having common interests"
+        ]
     },
     {
         "name": "involvement",
-        "trans": ["n. 牵连"]
+        "trans": [
+            "n. the act of sharing in the activities of a group",
+            "n. a sense of concern with and curiosity about someone or something",
+            "n. a connection of inclusion or containment"
+        ]
     },
     {
         "name": "washroom",
-        "trans": ["n. 卫生间"]
+        "trans": [
+            "n. a lavatory (particularly a lavatory in a public place)"
+        ]
     },
     {
         "name": "corridor",
-        "trans": ["n. 走廊"]
+        "trans": [
+            "n. an enclosed passageway"
+        ]
     },
     {
         "name": "control",
-        "trans": ["v. 控制"]
+        "trans": [
+            "v. to have a firm understanding or knowledge of",
+            "v. to be careful or certain to do something",
+            "v. to verify by using a duplicate register for comparison"
+        ]
     },
     {
         "name": "reward",
-        "trans": ["n. 报酬"]
+        "trans": [
+            "v. strengthen and support with rewards",
+            "v. act or give recompense in recognition of someone's behavior or actions",
+            "v. bestow honor or rewards upon"
+        ]
     },
     {
         "name": "competitive",
-        "trans": ["adj. 竞争的"]
+        "trans": [
+            "adj. showing a fighting disposition",
+            "adj. subscribing to capitalistic competition",
+            "adj. involving competition or competitiveness"
+        ]
     },
     {
         "name": "waste",
-        "trans": ["n. 垃圾"]
+        "trans": [
+            "v. become physically weaker",
+            "v. cause extensive destruction or ruin utterly",
+            "v. cause to grow thin or weak"
+        ]
     },
     {
         "name": "reduce",
-        "trans": ["v. 减少"]
+        "trans": [
+            "v. take off weight",
+            "v. lessen the strength or flavor of a solution or mixture",
+            "v. narrow or limit"
+        ]
     },
     {
         "name": "improvement",
-        "trans": ["n. 改善"]
+        "trans": [
+            "n. the act of improving something",
+            "n. a change for the better",
+            "n. a condition superior to an earlier condition"
+        ]
     },
     {
         "name": "safety",
-        "trans": ["n. 安全"]
+        "trans": [
+            "n. (baseball) the successful act of striking a baseball in such a way that the batter reaches base safely",
+            "n. a score in American football",
+            "n. contraceptive device consisting of a sheath of thin rubber or latex that is worn over the penis during intercourse"
+        ]
     },
     {
         "name": "soft",
-        "trans": ["adj. 柔软的"]
+        "trans": [
+            "adj. not brilliant or glaring",
+            "adj. mild and pleasant",
+            "adj. not burdensome or demanding"
+        ]
     },
     {
         "name": "fire disaster",
-        "trans": ["n. 火灾"]
+        "trans": [
+            "n. serious fire (in a city or a forest etc)"
+        ]
     },
     {
         "name": "secure",
-        "trans": ["adj. 安全的"]
+        "trans": [
+            "v. make certain of",
+            "v. furnish with battens",
+            "v. cause to be firmly attached"
+        ]
     },
     {
         "name": "leaf",
-        "trans": ["n. 叶子"]
+        "trans": [
+            "v. produce leaves, of plants",
+            "v. turn over pages",
+            "v. look through a book or other written material"
+        ]
     },
     {
         "name": "rubbish",
-        "trans": ["n. 垃圾"]
+        "trans": [
+            "v. attack strongly",
+            "n. nonsensical talk or writing",
+            "n. worthless material that is to be disposed of"
+        ]
     },
     {
         "name": "roof",
-        "trans": ["n. 屋顶"]
+        "trans": [
+            "v. provide a building with a roof",
+            "n. a protective covering that covers or forms the top of a building",
+            "n. protective covering on top of a motor vehicle"
+        ]
     },
     {
         "name": "gas tank",
-        "trans": ["n. 煤气罐"]
+        "trans": [
+            "n. a tank for holding gasoline to supply a vehicle"
+        ]
     },
     {
         "name": "gap",
-        "trans": ["n. 差距"]
+        "trans": [
+            "v. make an opening or gap in",
+            "n. an act of delaying or interrupting the continuity",
+            "n. a narrow opening"
+        ]
     },
     {
         "name": "yard",
-        "trans": ["n. 院子"]
+        "trans": [
+            "n. an enclosure for animals (as chicken or livestock)",
+            "n. a long horizontal spar tapered at the end and used to support and spread a square sail or lateen",
+            "n. the enclosed land around a house or other building"
+        ]
     },
     {
         "name": "remove",
-        "trans": ["v. 迁移"]
+        "trans": [
+            "v. shift the position or location of, as for business, legal, educational, or military purposes",
+            "v. dispose of",
+            "v. remove from a position or an office"
+        ]
     },
     {
         "name": "occur",
-        "trans": ["v. 发生"]
+        "trans": [
+            "v. come to pass",
+            "v. come to one's mind",
+            "v. to be found to exist"
+        ]
     },
     {
         "name": "brushfire",
-        "trans": ["n. 山林火灾"]
+        "trans": [
+            "n. wooded mountain serious fire (in a city or a forest etc)"
+        ]
     },
     {
         "name": "volunteer",
-        "trans": ["n. 志愿者"]
+        "trans": [
+            "v. tell voluntarily",
+            "v. do volunteer work",
+            "v. agree freely"
+        ]
     },
     {
         "name": "battery",
-        "trans": ["n. 电池"]
+        "trans": [
+            "n. an assault in which the assailant makes physical contact",
+            "n. the heavy fire of artillery to saturate an area rather than hit a specific target",
+            "n. a device that produces electricity"
+        ]
     },
     {
         "name": "bottom",
-        "trans": ["n. 底部"]
+        "trans": [
+            "v. to strike the ground, as with a ship's bottom",
+            "v. to provide with a bottom or a seat",
+            "adj. situated at the bottom or lowest position"
+        ]
     },
     {
         "name": "confirm",
-        "trans": ["v. 确认"]
+        "trans": [
+            "v. to make more firm",
+            "v. to establish or strengthen as with new evidence or facts",
+            "v. to strengthen or make more firm"
+        ]
     },
     {
         "name": "wooden",
-        "trans": ["adj. 木制的"]
+        "trans": [
+            "adj. lacking ease or grace",
+            "adj. made or consisting of (entirely or in part) or employing wood"
+        ]
     },
     {
         "name": "urban",
-        "trans": ["adj. 城市的"]
+        "trans": [
+            "adj. located in or characteristic of a city or city life",
+            "adj. relating to or concerned with a city or densely populated area"
+        ]
     },
     {
         "name": "souvenir",
-        "trans": ["n. 纪念品"]
+        "trans": [
+            "n. something of sentimental value",
+            "n. a reminder of past events"
+        ]
     },
     {
         "name": "recycled",
-        "trans": ["adj. 回收利用的"]
+        "trans": [
+            "v. use again after processing",
+            "v. cause to repeat a cycle"
+        ]
     },
     {
         "name": "golf",
-        "trans": ["n. 高尔夫球"]
+        "trans": [
+            "v. play golf",
+            "n. a game played on a large open course with 9 or 18 holes"
+        ]
     },
     {
         "name": "resort",
-        "trans": ["n. 度假胜地"]
+        "trans": [
+            "v. move, travel, or proceed toward some place",
+            "v. have recourse to",
+            "n. act of turning to for assistance"
+        ]
     },
     {
         "name": "weave",
-        "trans": ["v. 编织"]
+        "trans": [
+            "v. interlace by or as if by weaving",
+            "v. create a piece of cloth by interlacing strands of fabric, such as wool or cotton",
+            "v. sway to and fro"
+        ]
     },
     {
         "name": "car transfer",
-        "trans": ["n. 车辆中转"]
+        "trans": [
+            "n. vehicle to change (train or plane)"
+        ]
     },
     {
         "name": "endangered",
-        "trans": ["adj. 濒危的"]
+        "trans": [
+            "adj. in imminent danger of extinction, usually referring to flora or fauna"
+        ]
     },
     {
         "name": "herbal",
-        "trans": ["adj. 草本的"]
+        "trans": [
+            "adj. of or relating to herbs",
+            "n. tea-like drink made of leaves of various herbs"
+        ]
     },
     {
         "name": "length",
-        "trans": ["n. 长度"]
+        "trans": [
+            "n. a section of something that is long and narrow",
+            "n. continuance in time",
+            "n. the linear extent in space from one end to the other"
+        ]
     },
     {
         "name": "fur",
-        "trans": ["n. 皮毛"]
+        "trans": [
+            "n. dense coat of fine silky hairs on mammals (e.g., cat or seal or weasel)",
+            "n. a garment made of the dressed hairy coat of a mammal",
+            "n. the dressed hairy coat of a mammal"
+        ]
     },
     {
         "name": "consumption",
-        "trans": ["n. 消费"]
+        "trans": [
+            "n. the act of consuming something",
+            "n. the process of taking food into the body through the mouth (as by eating)",
+            "n. (economics) the utilization of economic goods to satisfy needs or in manufacturing"
+        ]
     },
     {
         "name": "fuel",
-        "trans": ["n. 燃料"]
+        "trans": [
+            "v. stimulate",
+            "v. take in fuel, as of a ship",
+            "v. provide with a combustible substance that provides energy"
+        ]
     },
     {
         "name": "natural gas",
-        "trans": ["n. 天然气"]
+        "trans": [
+            "n. a fossil fuel in the gaseous state"
+        ]
     },
     {
         "name": "alter",
-        "trans": ["v. 改变"]
+        "trans": [
+            "v. to remove the ovaries of",
+            "v. to become different in some particular way, without permanently losing one's or its former characteristics or essence",
+            "v. to cause to change"
+        ]
     },
     {
         "name": "smooth",
-        "trans": ["adj. 光滑的"]
+        "trans": [
+            "v. make (a surface) shine",
+            "v. make smooth or smoother, as if by rubbing",
+            "v. free from obstructions"
+        ]
     },
     {
         "name": "utilize",
-        "trans": ["v. 利用"]
+        "trans": [
+            "v. put into service"
+        ]
     },
     {
         "name": "taste",
-        "trans": ["n. 品味"]
+        "trans": [
+            "v. experience briefly",
+            "v. take a sample of",
+            "v. perceive by the sense of taste"
+        ]
     },
     {
         "name": "petrol",
-        "trans": ["n. 汽油"]
+        "trans": [
+            "n. a volatile flammable mixture of hydrocarbons (hexane and heptane and octane etc.) derived from petroleum"
+        ]
     },
     {
         "name": "sheet",
-        "trans": ["n. 纸张"]
+        "trans": [
+            "v. cover with a sheet, as if by wrapping",
+            "v. come down as if in sheets",
+            "n. a large piece of fabric (usually canvas fabric) by means of which wind is used to propel a sailing vessel"
+        ]
     },
     {
         "name": "storage",
-        "trans": ["n. 仓库"]
+        "trans": [
+            "n. depositing in a warehouse",
+            "n. the act of storing something",
+            "n. the commercial enterprise of storing goods and materials"
+        ]
     },
     {
         "name": "rubber",
-        "trans": ["n. 橡胶"]
+        "trans": [
+            "v. coat or impregnate with rubber",
+            "adj. returned for lack of funds",
+            "n. a waterproof overshoe that protects shoes from water or snow"
+        ]
     },
     {
         "name": "download",
-        "trans": ["v. 下载"]
+        "trans": [
+            "v. transfer a file or program from a central computer to a smaller computer or to a computer at a remote location"
+        ]
     },
     {
         "name": "invoice",
-        "trans": ["n. 发票"]
+        "trans": [
+            "v. send an bill to",
+            "n. an itemized statement of money owed for goods shipped or services rendered"
+        ]
     },
     {
         "name": "security",
-        "trans": ["n. 安保"]
+        "trans": [
+            "n. measures taken as a precaution against theft or espionage or sabotage etc.",
+            "n. an electrical device that sets off an alarm when someone tries to break in",
+            "n. a guarantee that an obligation will be met"
+        ]
     },
     {
         "name": "evidence",
-        "trans": ["n. 证据"]
+        "trans": [
+            "v. provide evidence for",
+            "v. give evidence",
+            "n. your basis for belief or disbelief"
+        ]
     }
 ]

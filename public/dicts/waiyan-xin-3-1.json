@@ -1,806 +1,960 @@
 [
-  {
-    "name": "I",
-    "trans": [
-      "adv.我"
-    ]
-  },
-  {
-    "name": "am(I'm=I am)",
-    "trans": [
-      "adv.是（我是）"
-    ]
-  },
-  {
-    "name": "aah",
-    "trans": [
-      "adv.啊"
-    ]
-  },
-  {
-    "name": "hello",
-    "trans": [
-      "adv.你好"
-    ]
-  },
-  {
-    "name": "ooh",
-    "trans": [
-      "adv.嗬"
-    ]
-  },
-  {
-    "name": "goodbye",
-    "trans": [
-      "adv.再见"
-    ]
-  },
-  {
-    "name": "are",
-    "trans": [
-      "adv.是"
-    ]
-  },
-  {
-    "name": "How are you? ",
-    "trans": [
-      "adv.你好么？"
-    ]
-  },
-  {
-    "name": "good",
-    "trans": [
-      "adv.好的"
-    ]
-  },
-  {
-    "name": "morning",
-    "trans": [
-      "adv.早晨，上午"
-    ]
-  },
-  {
-    "name": "fine",
-    "trans": [
-      "adv.健康的"
-    ]
-  },
-  {
-    "name": "thank",
-    "trans": [
-      "adv.谢谢"
-    ]
-  },
-  {
-    "name": "you ",
-    "trans": [
-      "adv.你；你们"
-    ]
-  },
-  {
-    "name": "Ms",
-    "trans": [
-      "adv.女士"
-    ]
-  },
-  {
-    "name": "boy",
-    "trans": [
-      "adv.男孩"
-    ]
-  },
-  {
-    "name": "girl",
-    "trans": [
-      "adv.女孩"
-    ]
-  },
-  {
-    "name": "whoqps",
-    "trans": [
-      "adv.哎哟"
-    ]
-  },
-  {
-    "name": "and",
-    "trans": [
-      "adv.那么；和"
-    ]
-  },
-  {
-    "name": "too",
-    "trans": [
-      "adv.也"
-    ]
-  },
-  {
-    "name": "ha ha ",
-    "trans": [
-      "adv.哈哈"
-    ]
-  },
-  {
-    "name": "what",
-    "trans": [
-      "adv.什么"
-    ]
-  },
-  {
-    "name": "is(what's=what is",
-    "trans": [
-      "adv.是（是什么）"
-    ]
-  },
-  {
-    "name": "your",
-    "trans": [
-      "adv.你的；你们的"
-    ]
-  },
-  {
-    "name": "name",
-    "trans": [
-      "adv.名字"
-    ]
-  },
-  {
-    "name": "please",
-    "trans": [
-      "adv.请"
-    ]
-  },
-  {
-    "name": "afternoon",
-    "trans": [
-      "adv.下午"
-    ]
-  },
-  {
-    "name": "Mr",
-    "trans": [
-      "adv.先生"
-    ]
-  },
-  {
-    "name": "point",
-    "trans": [
-      "adv.指"
-    ]
-  },
-  {
-    "name": "to",
-    "trans": [
-      "adv.向......"
-    ]
-  },
-  {
-    "name": "the",
-    "trans": [
-      "adv.这(那)个，这(那)些"
-    ]
-  },
-  {
-    "name": "door",
-    "trans": [
-      "adv.门"
-    ]
-  },
-  {
-    "name": "sit",
-    "trans": [
-      "adv.坐"
-    ]
-  },
-  {
-    "name": "down",
-    "trans": [
-      "adv.向下"
-    ]
-  },
-  {
-    "name": "stand",
-    "trans": [
-      "adv.站"
-    ]
-  },
-  {
-    "name": "up",
-    "trans": [
-      "adv.向上"
-    ]
-  },
-  {
-    "name": "window",
-    "trans": [
-      "adv.窗户"
-    ]
-  },
-  {
-    "name": "blackboard",
-    "trans": [
-      "adv.黑板"
-    ]
-  },
-  {
-    "name": "bird",
-    "trans": [
-      "adv.鸟"
-    ]
-  },
-  {
-    "name": "tweet",
-    "trans": [
-      "adv.鸟(啾啾的声音)"
-    ]
-  },
-  {
-    "name": "desk",
-    "trans": [
-      "adv.书桌"
-    ]
-  },
-  {
-    "name": "chair",
-    "trans": [
-      "adv.椅子"
-    ]
-  },
-  {
-    "name": "it ",
-    "trans": [
-      "adv.它"
-    ]
-  },
-  {
-    "name": "it's=it is",
-    "trans": [
-      "adv.它是"
-    ]
-  },
-  {
-    "name": "red",
-    "trans": [
-      "adv.红色的"
-    ]
-  },
-  {
-    "name": "look",
-    "trans": [
-      "adv.看"
-    ]
-  },
-  {
-    "name": "wow",
-    "trans": [
-      "adv.呀，哇"
-    ]
-  },
-  {
-    "name": "yellow",
-    "trans": [
-      "adv.黄色的"
-    ]
-  },
-  {
-    "name": "blue",
-    "trans": [
-      "adv.蓝色的"
-    ]
-  },
-  {
-    "name": "a(an)",
-    "trans": [
-      "adv.一个，一"
-    ]
-  },
-  {
-    "name": "chameleon",
-    "trans": [
-      "adv.变色龙"
-    ]
-  },
-  {
-    "name": "my",
-    "trans": [
-      "adv.我的"
-    ]
-  },
-  {
-    "name": "panda",
-    "trans": [
-      "adv.熊猫"
-    ]
-  },
-  {
-    "name": "now",
-    "trans": [
-      "adv.现在"
-    ]
-  },
-  {
-    "name": "green",
-    "trans": [
-      "adv.绿色的"
-    ]
-  },
-  {
-    "name": "black",
-    "trans": [
-      "adv.黑色的"
-    ]
-  },
-  {
-    "name": "dog",
-    "trans": [
-      "adv.狗"
-    ]
-  },
-  {
-    "name": "cat",
-    "trans": [
-      "adv.猫"
-    ]
-  },
-  {
-    "name": "cap",
-    "trans": [
-      "adv.帽子"
-    ]
-  },
-  {
-    "name": "how many",
-    "trans": [
-      "adv.多少"
-    ]
-  },
-  {
-    "name": "one",
-    "trans": [
-      "adv.一"
-    ]
-  },
-  {
-    "name": "two",
-    "trans": [
-      "adv.二"
-    ]
-  },
-  {
-    "name": "three",
-    "trans": [
-      "adv.三"
-    ]
-  },
-  {
-    "name": "four",
-    "trans": [
-      "adv.四"
-    ]
-  },
-  {
-    "name": "five",
-    "trans": [
-      "adv.五"
-    ]
-  },
-  {
-    "name": "six",
-    "trans": [
-      "adv.六"
-    ]
-  },
-  {
-    "name": "seven",
-    "trans": [
-      "adv.七"
-    ]
-  },
-  {
-    "name": "eight",
-    "trans": [
-      "adv.八"
-    ]
-  },
-  {
-    "name": "nine",
-    "trans": [
-      "adv.九"
-    ]
-  },
-  {
-    "name": "oh",
-    "trans": [
-      "adv.哦，噢"
-    ]
-  },
-  {
-    "name": "ten",
-    "trans": [
-      "adv.十"
-    ]
-  },
-  {
-    "name": "eleven",
-    "trans": [
-      "adv.十一"
-    ]
-  },
-  {
-    "name": "twelve",
-    "trans": [
-      "adv.十二"
-    ]
-  },
-  {
-    "name": "happy",
-    "trans": [
-      "adv.快乐的"
-    ]
-  },
-  {
-    "name": "birthday",
-    "trans": [
-      "adv.生日"
-    ]
-  },
-  {
-    "name": "here",
-    "trans": [
-      "adv.这里"
-    ]
-  },
-  {
-    "name": "present",
-    "trans": [
-      "adv.礼物"
-    ]
-  },
-  {
-    "name": "this",
-    "trans": [
-      "adv.这个"
-    ]
-  },
-  {
-    "name": "pencil",
-    "trans": [
-      "adv.铅笔"
-    ]
-  },
-  {
-    "name": "pen",
-    "trans": [
-      "adv.钢笔"
-    ]
-  },
-  {
-    "name": "cake",
-    "trans": [
-      "adv.蛋糕"
-    ]
-  },
-  {
-    "name": "old",
-    "trans": [
-      "adv.岁的"
-    ]
-  },
-  {
-    "name": "how old",
-    "trans": [
-      "adv.多大"
-    ]
-  },
-  {
-    "name": "yes",
-    "trans": [
-      "adv.是的"
-    ]
-  },
-  {
-    "name": "you're=you are",
-    "trans": [
-      "adv.你是"
-    ]
-  },
-  {
-    "name": "teacher",
-    "trans": [
-      "adv.教师"
-    ]
-  },
-  {
-    "name": "pupil",
-    "trans": [
-      "adv.小学生"
-    ]
-  },
-  {
-    "name": "school",
-    "trans": [
-      "adv.学校"
-    ]
-  },
-  {
-    "name": "classroom",
-    "trans": [
-      "adv.教室"
-    ]
-  },
-  {
-    "name": "English",
-    "trans": [
-      "adv.英语"
-    ]
-  },
-  {
-    "name": "that",
-    "trans": [
-      "adv.那个"
-    ]
-  },
-  {
-    "name": "say",
-    "trans": [
-      "adv.说"
-    ]
-  },
-  {
-    "name": "again",
-    "trans": [
-      "adv.再一次"
-    ]
-  },
-  {
-    "name": "schoolbag",
-    "trans": [
-      "adv.书包"
-    ]
-  },
-  {
-    "name": "ball",
-    "trans": [
-      "adv.球"
-    ]
-  },
-  {
-    "name": "book",
-    "trans": [
-      "adv.书"
-    ]
-  },
-  {
-    "name": "monster",
-    "trans": [
-      "adv.怪物"
-    ]
-  },
-  {
-    "name": "new",
-    "trans": [
-      "adv.新的"
-    ]
-  },
-  {
-    "name": "kite",
-    "trans": [
-      "adv.风筝"
-    ]
-  },
-  {
-    "name": "or",
-    "trans": [
-      "adv.或者"
-    ]
-  },
-  {
-    "name": "don't=do not",
-    "trans": [
-      "adv.不"
-    ]
-  },
-  {
-    "name": "know",
-    "trans": [
-      "adv.知道"
-    ]
-  },
-  {
-    "name": "no",
-    "trans": [
-      "adv.不"
-    ]
-  },
-  {
-    "name": "not(isn't=is not)",
-    "trans": [
-      "adv.不(不是）"
-    ]
-  },
-  {
-    "name": "help",
-    "trans": [
-      "adv.救命(呼救用语）"
-    ]
-  },
-  {
-    "name": "where",
-    "trans": [
-      "adv.哪里"
-    ]
-  },
-  {
-    "name": "in",
-    "trans": [
-      "adv.在......里"
-    ]
-  },
-  {
-    "name": "bag",
-    "trans": [
-      "adv.包"
-    ]
-  },
-  {
-    "name": "mother",
-    "trans": [
-      "adv.母亲"
-    ]
-  },
-  {
-    "name": "father",
-    "trans": [
-      "adv.父亲"
-    ]
-  },
-  {
-    "name": "sister",
-    "trans": [
-      "adv.姐妹"
-    ]
-  },
-  {
-    "name": "brother",
-    "trans": [
-      "adv.兄弟"
-    ]
-  },
-  {
-    "name": "she",
-    "trans": [
-      "adv.她"
-    ]
-  },
-  {
-    "name": "grandpa",
-    "trans": [
-      "adv.祖父；外祖父"
-    ]
-  },
-  {
-    "name": "grandma",
-    "trans": [
-      "adv.祖母；外祖母"
-    ]
-  },
-  {
-    "name": "that's=that is",
-    "trans": [
-      "adv.那是"
-    ]
-  },
-  {
-    "name": "me",
-    "trans": [
-      "adv.我"
-    ]
-  },
-  {
-    "name": "he(he's=he is)",
-    "trans": [
-      "adv.他(他是)"
-    ]
-  },
-  {
-    "name": "doctor",
-    "trans": [
-      "adv.医生"
-    ]
-  },
-  {
-    "name": "policeman",
-    "trans": [
-      "adv.警察"
-    ]
-  },
-  {
-    "name": "nurse",
-    "trans": [
-      "adv.护士"
-    ]
-  },
-  {
-    "name": "driver",
-    "trans": [
-      "adv.司机"
-    ]
-  },
-  {
-    "name": "farmer",
-    "trans": [
-      "adv.农民"
-    ]
-  },
-  {
-    "name": "his",
-    "trans": [
-      "adv.他的"
-    ]
-  },
-  {
-    "name": "head",
-    "trans": [
-      "adv.头"
-    ]
-  },
-  {
-    "name": "leg",
-    "trans": [
-      "adv.腿"
-    ]
-  },
-  {
-    "name": "foot",
-    "trans": [
-      "adv.脚"
-    ]
-  },
-  {
-    "name": "on",
-    "trans": [
-      "adv.在......上"
-    ]
-  },
-  {
-    "name": "arm",
-    "trans": [
-      "adv.胳膊"
-    ]
-  },
-  {
-    "name": "hand",
-    "trans": [
-      "adv.手"
-    ]
-  },
-  {
-    "name": "her",
-    "trans": [
-      "adv.她的"
-    ]
-  },
-  {
-    "name": "nose",
-    "trans": [
-      "adv.鼻子"
-    ]
-  },
-  {
-    "name": "eye",
-    "trans": [
-      "adv.眼睛"
-    ]
-  },
-  {
-    "name": "mouth",
-    "trans": [
-      "adv.嘴"
-    ]
-  },
-  {
-    "name": "ear",
-    "trans": [
-      "adv.耳朵"
-    ]
-  }
+    {
+        "name": "I",
+        "trans": [
+            "adj. used of a single unit or thing",
+            "n. the 9th letter of the Roman alphabet"
+        ]
+    },
+    {
+        "name": "am(I'm=I am)",
+        "trans": [
+            "adv. to be (followed by substantives only) I to be (followed by substantives only)"
+        ]
+    },
+    {
+        "name": "aah",
+        "trans": [
+            "v. to express admiration and pleasure by uttering 'ooh' or 'aah'"
+        ]
+    },
+    {
+        "name": "hello",
+        "trans": [
+            "n. an expression of greeting"
+        ]
+    },
+    {
+        "name": "ooh",
+        "trans": [
+            "v. express admiration and pleasure by uttering `ooh' or `aah'"
+        ]
+    },
+    {
+        "name": "goodbye",
+        "trans": [
+            "n. a farewell remark"
+        ]
+    },
+    {
+        "name": "are",
+        "trans": [
+            "n. a unit of surface area equal to 100 square meters"
+        ]
+    },
+    {
+        "name": "How are you? ",
+        "trans": [
+            "adv. hello"
+        ]
+    },
+    {
+        "name": "good",
+        "trans": [
+            "adj. promoting or enhancing well-being",
+            "adj. having the normally expected amount",
+            "adj. with or in a close or intimate relationship"
+        ]
+    },
+    {
+        "name": "morning",
+        "trans": [
+            "n. a conventional expression of greeting or farewell",
+            "n. the earliest period",
+            "n. the time period between dawn and noon"
+        ]
+    },
+    {
+        "name": "fine",
+        "trans": [
+            "v. issue a ticket or a fine to as a penalty",
+            "adj. characterized by elegance or refinement or accomplishment",
+            "adj. minutely precise especially in differences in meaning"
+        ]
+    },
+    {
+        "name": "thank",
+        "trans": [
+            "v. express gratitude or show appreciation to"
+        ]
+    },
+    {
+        "name": "you ",
+        "trans": [
+            "adv. you (informal, as opposed to courteous [nin2]), you (plural)"
+        ]
+    },
+    {
+        "name": "Ms",
+        "trans": [
+            "n. the form of a literary work submitted for publication"
+        ]
+    },
+    {
+        "name": "boy",
+        "trans": [
+            "n. (ethnic slur) offensive and disparaging term for Black man",
+            "n. a friendly informal reference to a grown man",
+            "n. a youthful male person"
+        ]
+    },
+    {
+        "name": "girl",
+        "trans": [
+            "n. a young woman",
+            "n. a friendly informal reference to a grown woman",
+            "n. a girl or young woman with whom someone is romantically involved"
+        ]
+    },
+    {
+        "name": "whoqps",
+        "trans": [
+            "adv. hey"
+        ]
+    },
+    {
+        "name": "and",
+        "trans": [
+            "adv. like that, (joining two nouns) and"
+        ]
+    },
+    {
+        "name": "too",
+        "trans": [
+            "adv. to a degree exceeding normal or proper limits",
+            "adv. in addition"
+        ]
+    },
+    {
+        "name": "ha ha ",
+        "trans": [
+            "adv. (onom.) laughing out loud"
+        ]
+    },
+    {
+        "name": "what",
+        "trans": [
+            "adv. what?"
+        ]
+    },
+    {
+        "name": "is(what's=what is",
+        "trans": [
+            "adv. to be (followed by substantives only) to be (followed by substantives only) what?"
+        ]
+    },
+    {
+        "name": "your",
+        "trans": [
+            "adv. you (informal, as opposed to courteous [nin2]), you (plural)"
+        ]
+    },
+    {
+        "name": "name",
+        "trans": [
+            "v. determine or distinguish the nature of a problem or an illness through a diagnostic analysis",
+            "v. identify as in botany or biology, for example",
+            "v. give or make a list of"
+        ]
+    },
+    {
+        "name": "please",
+        "trans": [
+            "v. give pleasure to or be pleasing to",
+            "v. give satisfaction",
+            "v. be the will of or have the will to"
+        ]
+    },
+    {
+        "name": "afternoon",
+        "trans": [
+            "n. a conventional expression of greeting or farewell",
+            "n. the part of the day between noon and evening"
+        ]
+    },
+    {
+        "name": "Mr",
+        "trans": [
+            "adv. teacher"
+        ]
+    },
+    {
+        "name": "point",
+        "trans": [
+            "v. repair the joints of bricks",
+            "v. give a point to",
+            "v. be a signal for or a symptom of"
+        ]
+    },
+    {
+        "name": "to",
+        "trans": [
+            "adv. towards"
+        ]
+    },
+    {
+        "name": "the",
+        "trans": [
+            "adv. (pronoun) this (specifier) that (classifier used before a noun that has no specific classifier), (pronoun) this (specifier) that classifier indicating a small amount or small number greater than 1: some, a few, several"
+        ]
+    },
+    {
+        "name": "door",
+        "trans": [
+            "n. a swinging or sliding barrier that will close the entrance to a room or building or vehicle",
+            "n. a room that is entered via a door",
+            "n. a structure where people live or work, usually ordered along a street or road"
+        ]
+    },
+    {
+        "name": "sit",
+        "trans": [
+            "v. serve in a specific professional capacity",
+            "v. be seated",
+            "v. show to a seat"
+        ]
+    },
+    {
+        "name": "down",
+        "trans": [
+            "v. improve or perfect by pruning or polishing",
+            "v. bring down or defeat (an opponent)",
+            "v. eat immoderately"
+        ]
+    },
+    {
+        "name": "stand",
+        "trans": [
+            "v. put up with something or somebody unpleasant",
+            "v. have or maintain a position or stand on an issue",
+            "v. withstand the force of something"
+        ]
+    },
+    {
+        "name": "up",
+        "trans": [
+            "v. raise",
+            "adj. extending or moving toward a higher place",
+            "adj. open"
+        ]
+    },
+    {
+        "name": "window",
+        "trans": [
+            "n. a framework of wood or metal that contains a glass windowpane and is built into a wall or roof to admit light or air",
+            "n. a transparent opening in a vehicle that allow vision out of the sides or back",
+            "n. a transparent panel (as of an envelope) inserted in an otherwise opaque material"
+        ]
+    },
+    {
+        "name": "blackboard",
+        "trans": [
+            "n. sheet of slate"
+        ]
+    },
+    {
+        "name": "bird",
+        "trans": [
+            "v. to watch and study birds in their natural habitat",
+            "n. warm-blooded egg-laying vertebrates characterized by feathers and forelimbs modified as wings",
+            "n. badminton equipment consisting of a ball of cork or rubber with a crown of feathers"
+        ]
+    },
+    {
+        "name": "tweet",
+        "trans": [
+            "v. squeeze tightly between the fingers",
+            "v. make a weak, chirping sound",
+            "n. a weak chirping sound as of a small bird"
+        ]
+    },
+    {
+        "name": "desk",
+        "trans": [
+            "n. a piece of furniture with a writing surface and usually drawers or other compartments"
+        ]
+    },
+    {
+        "name": "chair",
+        "trans": [
+            "v. to preside over",
+            "v. to act or preside as chair, as of an academic department in a university",
+            "n. the position of professor"
+        ]
+    },
+    {
+        "name": "it ",
+        "trans": [
+            "adv. it"
+        ]
+    },
+    {
+        "name": "it's=it is",
+        "trans": [
+            "adv. it to be (followed by substantives only)"
+        ]
+    },
+    {
+        "name": "red",
+        "trans": [
+            "adj. characterized by violence or bloodshed",
+            "adj. of a color at the end of the color spectrum (next to orange)",
+            "adj. suffused with blood from emotion or exertion, reddened"
+        ]
+    },
+    {
+        "name": "look",
+        "trans": [
+            "v. have a certain outward or facial expression",
+            "v. have faith or confidence in",
+            "v. look forward to the probable occurrence of"
+        ]
+    },
+    {
+        "name": "wow",
+        "trans": [
+            "v. impress greatly",
+            "n. a joke that seems extremely funny"
+        ]
+    },
+    {
+        "name": "yellow",
+        "trans": [
+            "v. turn yellow",
+            "adj. typical of tabloids",
+            "adj. easily frightened"
+        ]
+    },
+    {
+        "name": "blue",
+        "trans": [
+            "v. to turn blue",
+            "adj. causing dejection",
+            "adj. of the color intermediate between green and violet"
+        ]
+    },
+    {
+        "name": "a(an)",
+        "trans": [
+            "adv. a, one"
+        ]
+    },
+    {
+        "name": "chameleon",
+        "trans": [
+            "n. lizard of Africa and Madagascar able to change skin color and having a projectile tongue",
+            "n. a changeable or inconstant person"
+        ]
+    },
+    {
+        "name": "my",
+        "trans": [
+            "adv. I"
+        ]
+    },
+    {
+        "name": "panda",
+        "trans": [
+            "n. reddish-brown Old World raccoon-like carnivore",
+            "n. large black-and-white herbivorous mammal of bamboo forests of China and Tibet"
+        ]
+    },
+    {
+        "name": "now",
+        "trans": [
+            "adv. in these times",
+            "adv. without delay or hesitation",
+            "adv. used to preface a command or reproof or request"
+        ]
+    },
+    {
+        "name": "green",
+        "trans": [
+            "n. an environmentalist who belongs to the Green Party"
+        ]
+    },
+    {
+        "name": "black",
+        "trans": [
+            "v. to make or become black",
+            "adj. marked by anger or resentment or hostility",
+            "adj. of or belonging to a racial group having dark skin especially of sub-Saharan African origin"
+        ]
+    },
+    {
+        "name": "dog",
+        "trans": [
+            "v. go after with the intent to catch",
+            "n. a member of the genus Canis (probably descended from the common wolf) that has been domesticated by man since prehistoric times",
+            "n. metal supports for logs in a fireplace"
+        ]
+    },
+    {
+        "name": "cat",
+        "trans": [
+            "v. to eject the contents of the stomach through the mouth",
+            "v. to beat with a cat-o'-nine-tails",
+            "n. feline mammal usually having thick soft fur and no ability to roar: domestic cats"
+        ]
+    },
+    {
+        "name": "cap",
+        "trans": [
+            "v. to restrict the number or amount of",
+            "v. to lie at the top of",
+            "n. a tight-fitting headdress"
+        ]
+    },
+    {
+        "name": "how many",
+        "trans": [
+            "adv. number"
+        ]
+    },
+    {
+        "name": "one",
+        "trans": [
+            "adj. eminent beyond or above comparison",
+            "adj. indefinite in time or position",
+            "adj. used informally as an intensifier"
+        ]
+    },
+    {
+        "name": "two",
+        "trans": [
+            "adj. being one more than one",
+            "n. one of the four playing cards in a deck that have two spots",
+            "n. the cardinal number that is the sum of one and one or a numeral representing this number"
+        ]
+    },
+    {
+        "name": "three",
+        "trans": [
+            "adj. being one more than two",
+            "n. one of four playing cards in a deck having three pips",
+            "n. the cardinal number that is the sum of one and one and one"
+        ]
+    },
+    {
+        "name": "four",
+        "trans": [
+            "adj. being one more than three",
+            "n. a playing card or domino or die whose upward face shows four pips",
+            "n. the cardinal number that is the sum of three and one"
+        ]
+    },
+    {
+        "name": "five",
+        "trans": [
+            "adj. being one more than four",
+            "n. a playing card or a domino or a die whose upward face shows five pips",
+            "n. a team that plays basketball"
+        ]
+    },
+    {
+        "name": "six",
+        "trans": [
+            "adj. denoting a quantity consisting of six items or units",
+            "n. a playing card or domino or die whose upward face shows six pips",
+            "n. the cardinal number that is the sum of five and one"
+        ]
+    },
+    {
+        "name": "seven",
+        "trans": [
+            "adj. being one more than six",
+            "n. one of four playing cards in a deck with seven pips on the face",
+            "n. the cardinal number that is the sum of six and one"
+        ]
+    },
+    {
+        "name": "eight",
+        "trans": [
+            "adj. being one more than seven",
+            "n. one of four playing cards in a deck with eight pips on the face",
+            "n. the cardinal number that is the sum of seven and one"
+        ]
+    },
+    {
+        "name": "nine",
+        "trans": [
+            "adj. denoting a quantity consisting of one more than eight and one less than ten",
+            "n. one of four playing cards in a deck with nine pips on the face",
+            "n. a team of professional baseball players who play and travel together"
+        ]
+    },
+    {
+        "name": "oh",
+        "trans": [
+            "adv. to chant, oh"
+        ]
+    },
+    {
+        "name": "ten",
+        "trans": [
+            "adj. being one more than nine",
+            "n. one of four playing cards in a deck with ten pips on the face",
+            "n. the cardinal number that is the sum of nine and one"
+        ]
+    },
+    {
+        "name": "eleven",
+        "trans": [
+            "adj. being one more than ten",
+            "n. a team that plays football",
+            "n. the cardinal number that is the sum of ten and one"
+        ]
+    },
+    {
+        "name": "twelve",
+        "trans": [
+            "adj. denoting a quantity consisting of 12 items or units",
+            "n. the cardinal number that is the sum of eleven and one"
+        ]
+    },
+    {
+        "name": "happy",
+        "trans": [
+            "adj. well expressed and to the point",
+            "adj. marked by good fortune",
+            "adj. enjoying or showing or marked by joy or pleasure"
+        ]
+    },
+    {
+        "name": "birthday",
+        "trans": [
+            "n. an anniversary of the day on which a person was born (or the celebration of it)",
+            "n. the date on which a person was born"
+        ]
+    },
+    {
+        "name": "here",
+        "trans": [
+            "adj. being here now",
+            "adv. in or at this place",
+            "adv. to this place (especially toward the speaker)"
+        ]
+    },
+    {
+        "name": "present",
+        "trans": [
+            "v. bring forward and present to the mind",
+            "v. recognize with a gesture prescribed by a military regulation",
+            "v. cause to come to know personally"
+        ]
+    },
+    {
+        "name": "this",
+        "trans": [
+            "adv. (pronoun) this"
+        ]
+    },
+    {
+        "name": "pencil",
+        "trans": [
+            "v. to write, draw, or trace with a pencil",
+            "n. a thin cylindrical pointed writing implement",
+            "n. a cosmetic in a long thin stick"
+        ]
+    },
+    {
+        "name": "pen",
+        "trans": [
+            "v. produce a literary work",
+            "n. female swan",
+            "n. a writing implement with a point from which ink flows"
+        ]
+    },
+    {
+        "name": "cake",
+        "trans": [
+            "v. to form a coat over",
+            "n. a block of solid substance (such as soap or wax)",
+            "n. baked goods made from or based on a mixture of flour, sugar, eggs, and fat"
+        ]
+    },
+    {
+        "name": "old",
+        "trans": [
+            "adj. of a very early stage in development"
+        ]
+    },
+    {
+        "name": "how old",
+        "trans": [
+            "adv. how old?"
+        ]
+    },
+    {
+        "name": "yes",
+        "trans": [
+            "n. an affirmative"
+        ]
+    },
+    {
+        "name": "you're=you are",
+        "trans": [
+            "adv. you (informal, as opposed to courteous [nin2]) to be (followed by substantives only)"
+        ]
+    },
+    {
+        "name": "teacher",
+        "trans": [
+            "n. a personified abstraction that teaches",
+            "n. a person whose occupation is teaching"
+        ]
+    },
+    {
+        "name": "pupil",
+        "trans": [
+            "n. the contractile aperture in the center of the iris of the eye",
+            "n. a young person attending school (up through senior high school)",
+            "n. a learner who is enrolled in an educational institution"
+        ]
+    },
+    {
+        "name": "school",
+        "trans": [
+            "v. swim in or form a large group of fish",
+            "v. educate in or as if in a school",
+            "v. teach or refine to be discriminative in taste or judgment"
+        ]
+    },
+    {
+        "name": "classroom",
+        "trans": [
+            "n. a room in a school where lessons take place"
+        ]
+    },
+    {
+        "name": "English",
+        "trans": [
+            "adj. of or relating to or characteristic of England or its culture or people",
+            "adj. of or relating to the English language",
+            "n. (sports) the spin given to a ball by striking it on one side or releasing it with a sharp twist"
+        ]
+    },
+    {
+        "name": "that",
+        "trans": [
+            "adv. that one"
+        ]
+    },
+    {
+        "name": "say",
+        "trans": [
+            "v. give instructions to or direct somebody to do something with authority",
+            "v. express a supposition",
+            "v. indicate"
+        ]
+    },
+    {
+        "name": "again",
+        "trans": [
+            "adv. anew or once more"
+        ]
+    },
+    {
+        "name": "schoolbag",
+        "trans": [
+            "n. a bag for carrying school books and supplies"
+        ]
+    },
+    {
+        "name": "ball",
+        "trans": [
+            "v. to form into a ball by winding or rolling",
+            "n. a pitch that is not in the strike zone",
+            "n. the game of baseball"
+        ]
+    },
+    {
+        "name": "book",
+        "trans": [
+            "v. to engage for a performance",
+            "v. to record a charge in a police register",
+            "v. to arrange for and reserve something for someone else in advance"
+        ]
+    },
+    {
+        "name": "monster",
+        "trans": [
+            "n. (medicine) a grossly malformed and usually nonviable fetus",
+            "n. an imaginary creature usually having various human and animal parts",
+            "n. a person or animal that is markedly unusual or deformed"
+        ]
+    },
+    {
+        "name": "new",
+        "trans": [
+            "adj. used of a living language",
+            "adj. in use after medieval times"
+        ]
+    },
+    {
+        "name": "kite",
+        "trans": [
+            "v. to fly a kite",
+            "v. to soar or fly like a kite",
+            "v. to get credit or money by using a bad check"
+        ]
+    },
+    {
+        "name": "or",
+        "trans": [
+            "n. a room in a hospital equipped for the performance of surgical operations"
+        ]
+    },
+    {
+        "name": "don't=do not",
+        "trans": [
+            "adv. no"
+        ]
+    },
+    {
+        "name": "know",
+        "trans": [
+            "v. accept (someone) to be what is claimed or accept his power and authority",
+            "v. be familiar or acquainted with a person or an object",
+            "v. be cognizant or aware of a fact or a specific piece of information"
+        ]
+    },
+    {
+        "name": "no",
+        "trans": [
+            "adj. quantifier",
+            "adv. used to express refusal or denial or disagreement etc or especially to emphasize a negative statement",
+            "adv. not in any degree or manner"
+        ]
+    },
+    {
+        "name": "not(isn't=is not)",
+        "trans": [
+            "adv. no no"
+        ]
+    },
+    {
+        "name": "help",
+        "trans": [
+            "v. improve the condition of",
+            "v. improve",
+            "v. help to some food"
+        ]
+    },
+    {
+        "name": "where",
+        "trans": [
+            "adv. where?"
+        ]
+    },
+    {
+        "name": "in",
+        "trans": [
+            "adj. holding office",
+            "adj. currently fashionable",
+            "adj. directed or bound inward"
+        ]
+    },
+    {
+        "name": "bag",
+        "trans": [
+            "v. to capture or kill, as in hunting",
+            "v. to put into a bag",
+            "v. to take unlawfully"
+        ]
+    },
+    {
+        "name": "mother",
+        "trans": [
+            "v. make children",
+            "v. care for like a mother",
+            "n. a condition that is the inspiration for an activity or situation"
+        ]
+    },
+    {
+        "name": "father",
+        "trans": [
+            "v. make children",
+            "n. the head of an organized crime family",
+            "n. a male parent, also used as a term of address to one's own father"
+        ]
+    },
+    {
+        "name": "sister",
+        "trans": [
+            "n. (slang) sometimes used as a term of address for attractive young women",
+            "n. a female person who is a fellow member of a sorority or labor union or other group",
+            "n. a female person who has the same parents as another person"
+        ]
+    },
+    {
+        "name": "brother",
+        "trans": [
+            "n. (Roman Catholic Church) a title given to a monk and used as form of address"
+        ]
+    },
+    {
+        "name": "she",
+        "trans": [
+            "pron. nominative singular feminine pronoun"
+        ]
+    },
+    {
+        "name": "grandpa",
+        "trans": [
+            "n. the father of your father or mother"
+        ]
+    },
+    {
+        "name": "grandma",
+        "trans": [
+            "n. the mother of your father or mother"
+        ]
+    },
+    {
+        "name": "that's=that is",
+        "trans": [
+            "adv. (coll.) of course"
+        ]
+    },
+    {
+        "name": "me",
+        "trans": [
+            "adv. I"
+        ]
+    },
+    {
+        "name": "he(he's=he is)",
+        "trans": [
+            "adv. (third-person singular) (since the early 20th century, usu. male) he (third-person singular) (since the early 20th century, usu. male) he to be (followed by substantives only)"
+        ]
+    },
+    {
+        "name": "doctor",
+        "trans": [
+            "v. give medical treatment to",
+            "v. restore by replacing a part or putting together what is torn or broken",
+            "v. alter and make impure, as with the intention to deceive"
+        ]
+    },
+    {
+        "name": "policeman",
+        "trans": [
+            "n. a member of a police force"
+        ]
+    },
+    {
+        "name": "nurse",
+        "trans": [
+            "v. to try to cure by special care of treatment, of an illness or injury",
+            "v. give suck to",
+            "v. maintain (a theory, thoughts, or feelings)"
+        ]
+    },
+    {
+        "name": "driver",
+        "trans": [
+            "n. a golf club (a wood) with a near vertical face that is used for hitting long shots from the tee",
+            "n. (computer science) a program that determines how a computer will communicate with a peripheral device",
+            "n. the operator of a motor vehicle"
+        ]
+    },
+    {
+        "name": "farmer",
+        "trans": [
+            "n. a person who operates a farm"
+        ]
+    },
+    {
+        "name": "his",
+        "trans": [
+            "pron. singular masculine possessive pronoun"
+        ]
+    },
+    {
+        "name": "head",
+        "trans": [
+            "v. remove the head of",
+            "v. direct the course",
+            "v. to go or travel towards"
+        ]
+    },
+    {
+        "name": "leg",
+        "trans": [
+            "n. a section or portion of a journey or course",
+            "n. the nautical distance traveled by a sailing vessel on a single tack",
+            "n. a cloth covering consisting of the part of a pair of trousers that covers a person's leg"
+        ]
+    },
+    {
+        "name": "foot",
+        "trans": [
+            "v. add a column of numbers",
+            "v. walk",
+            "v. pay for something"
+        ]
+    },
+    {
+        "name": "on",
+        "trans": [
+            "adj. in operation or operational",
+            "adj. of events, planned or scheduled",
+            "adv. with a forward motion"
+        ]
+    },
+    {
+        "name": "arm",
+        "trans": [
+            "v. to supply with weapons",
+            "n. the part of an armchair or sofa that supports the elbow and forearm of a seated person",
+            "n. any projection that is thought to resemble a human arm"
+        ]
+    },
+    {
+        "name": "hand",
+        "trans": [
+            "v. guide or conduct or usher somewhere",
+            "v. place into the hands or custody of",
+            "n. physical assistance"
+        ]
+    },
+    {
+        "name": "her",
+        "trans": [
+            "pron. oblique (object) feminine singular pronoun"
+        ]
+    },
+    {
+        "name": "nose",
+        "trans": [
+            "v. defeat by a narrow margin",
+            "v. rub noses",
+            "v. push or move with the nose"
+        ]
+    },
+    {
+        "name": "eye",
+        "trans": [
+            "v. look at",
+            "n. a small hole or loop (as in a needle)",
+            "n. the organ of sight"
+        ]
+    },
+    {
+        "name": "mouth",
+        "trans": [
+            "v. express in speech",
+            "v. articulate silently",
+            "v. touch with the mouth"
+        ]
+    },
+    {
+        "name": "ear",
+        "trans": [
+            "n. the sense organ for hearing and equilibrium",
+            "n. the externally visible cartilaginous structure of the external ear",
+            "n. good hearing"
+        ]
+    }
 ]

@@ -18,15 +18,15 @@ test.describe('Practice', () => {
   test.beforeEach(async ({ page }) => {
     test.slow()
     await page.goto('/')
-    await page.getByLabel('关闭提示').click()
+    await page.getByLabel('Dismiss').click()
   })
 
   test('Press any key to start', async ({ page }) => {
-    await expect(await page.getByText('按任意键开始').isVisible()).toBeTruthy()
+    await expect(await page.getByText('Press any key to start').isVisible()).toBeTruthy()
 
     await page.keyboard.press('Enter')
     await page.waitForTimeout(300)
-    await expect(await page.locator('p').getByText('按任意键开始').isHidden()).toBeTruthy()
+    await expect(await page.locator('p').getByText('Press any key to start').isHidden()).toBeTruthy()
   })
 
   test('Enter the correct word', async ({ page }) => {
@@ -34,7 +34,7 @@ test.describe('Practice', () => {
 
     await pressWord(page, 'cancel')
 
-    await page.locator('div', { hasText: '正确率' }).locator('span', { hasText: '100' }).click()
+    await page.locator('div', { hasText: 'Accuracy' }).locator('span', { hasText: '100' }).click()
 
     // auto show next word: explosive
     await expect(await page.locator('span', { hasText: /^e$/ }).first().isVisible()).toBeTruthy()
@@ -53,10 +53,10 @@ test.describe('Practice', () => {
 
     await pressWord(page, 'canca')
 
-    await page.locator('div', { hasText: '输入数' }).locator('span', { hasText: /^5$/ }).first().click()
-    await page.locator('div', { hasText: '正确数' }).locator('span', { hasText: /^4$/ }).first().click()
+    await page.locator('div', { hasText: 'Inputs' }).locator('span', { hasText: /^5$/ }).first().click()
+    await page.locator('div', { hasText: 'Correct' }).locator('span', { hasText: /^4$/ }).first().click()
     await page.waitForTimeout(500)
-    await page.locator('div', { hasText: '正确率' }).locator('span', { hasText: /^80$/ }).click()
+    await page.locator('div', { hasText: 'Accuracy' }).locator('span', { hasText: /^80$/ }).click()
   })
 
   test('Enter the correct letter, should show green color', async ({ page }) => {
@@ -112,10 +112,10 @@ test.describe('Practice', () => {
     await pressWords(page, chapter1)
 
     await expect(await page.getByText('100%').isVisible()).toBeTruthy
-    await expect(await page.getByText('表现不错！全对了！').isVisible()).toBeTruthy()
+    await expect(await page.getByText('Great job! Perfect score!').isVisible()).toBeTruthy()
 
-    await page.getByRole('button', { name: '下一章节' }).click()
+    await page.getByRole('button', { name: 'Next chapter' }).click()
 
-    await expect(await page.getByText('第 2 章').first().isVisible()).toBeTruthy()
+    await expect(await page.getByText('Chapter 2').first().isVisible()).toBeTruthy()
   })
 })

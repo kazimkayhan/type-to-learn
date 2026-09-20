@@ -51,7 +51,7 @@ const DropdownExport: FC<DropdownProps> = ({ renderRecords }) => {
       const dictDataResults = await Promise.all(dictDataPromises)
       const dictDataMap = new Map(dictDataResults.map((result) => [result.url, result.data]))
 
-      const ExportData: Array<{ 单词: string; 释义: string; 错误次数: number; 词典: string }> = []
+      const ExportData: Array<{ Word: string; Definition: string; Mistakes: number; Dictionary: string }> = []
 
       renderRecords.forEach((item: any) => {
         const dictInfo = idDictionaryMap[item.dict]
@@ -60,21 +60,21 @@ const DropdownExport: FC<DropdownProps> = ({ renderRecords }) => {
         if (dictInfo?.url && dictDataMap.has(dictInfo.url)) {
           const wordList = dictDataMap.get(dictInfo.url) || []
           const word = wordList.find((w: any) => w.name === item.word)
-          translation = word ? word.trans.join('；') : ''
+          translation = word ? word.trans.join('; ') : ''
         }
 
         ExportData.push({
-          单词: item.word,
-          释义: translation,
-          错误次数: item.wrongCount,
-          词典: dictInfo?.name || item.dict,
+          Word: item.word,
+          Definition: translation,
+          Mistakes: item.wrongCount,
+          Dictionary: dictInfo?.name || item.dict,
         })
       })
 
       let blob: Blob
 
       if (bookType === 'txt') {
-        const content = ExportData.map((item: any) => `${item.单词}: ${item.释义}`).join('\n')
+        const content = ExportData.map((item: any) => `${item.Word}: ${item.Definition}`).join('\n')
         blob = new Blob([content], { type: 'text/plain' })
       } else {
         const worksheet = XLSX.utils.json_to_sheet(ExportData)
@@ -92,7 +92,7 @@ const DropdownExport: FC<DropdownProps> = ({ renderRecords }) => {
       }
     } catch (error) {
       console.error('Export failed:', error)
-      alert('导出失败，请重试')
+      alert('Export failed. Please try again.')
     } finally {
       setIsExporting(false)
     }
@@ -103,7 +103,7 @@ const DropdownExport: FC<DropdownProps> = ({ renderRecords }) => {
       <DropdownMenu.Root>
         <DropdownMenu.Trigger asChild>
           <button className="my-btn-primary h-8 shadow transition hover:bg-indigo-600 disabled:opacity-50" disabled={isExporting}>
-            {isExporting ? '导出中...' : '导出'}
+            {isExporting ? 'Exporting...' : 'Export'}
           </button>
         </DropdownMenu.Trigger>
         <DropdownMenu.Content className="mt-1 rounded bg-indigo-500 text-white shadow-lg">

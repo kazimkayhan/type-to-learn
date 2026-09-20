@@ -52,15 +52,15 @@ export default function HandPositionIllustration() {
                 leaveFrom="opacity-100 scale-100"
                 leaveTo="opacity-0 scale-95"
               >
-                <Dialog.Panel className="w-200  transform overflow-hidden rounded-2xl bg-white p-6 text-left align-middle shadow-xl transition-all dark:bg-gray-800">
-                  <button type="button" onClick={() => setIsOpen(false)} title="关闭对话框">
-                    <IconX className="absolute right-7 top-5 cursor-pointer text-gray-400" />
+                <Dialog.Panel className="relative w-[min(50rem,calc(100vw-1.5rem))] transform overflow-hidden rounded-2xl bg-white p-4 text-left align-middle shadow-xl transition-all dark:bg-gray-800 sm:p-6">
+                  <button type="button" onClick={() => setIsOpen(false)} title="Close dialog">
+                    <IconX className="absolute right-4 top-4 cursor-pointer text-gray-400 sm:right-7 sm:top-5" />
                   </button>
-                  <Dialog.Title as="h3" className="text-center text-xl font-medium leading-6 text-gray-800 dark:text-gray-200">
-                    推荐打字指法图示
+                  <Dialog.Title as="h3" className="pr-8 text-center text-lg font-medium leading-6 text-gray-800 dark:text-gray-200 sm:text-xl">
+                    Recommended typing hand position guide
                   </Dialog.Title>
                   <div className="mt-8">
-                    <img className="block " src={standTypingHandPosition} alt="" />
+                    <img className="block h-auto w-full" src={standTypingHandPosition} alt="Recommended typing hand position" />
                   </div>
                 </Dialog.Panel>
               </Transition.Child>

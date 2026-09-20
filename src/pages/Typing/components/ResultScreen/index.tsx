@@ -69,10 +69,10 @@ const ResultScreen = () => {
         const ws = utils.json_to_sheet(exportData)
         const wb = utils.book_new()
         utils.book_append_sheet(wb, ws, 'Data')
-        writeFileXLSX(wb, `${currentDictInfo.name}第${currentChapter + 1}章.xlsx`)
+        writeFileXLSX(wb, `${currentDictInfo.name} Chapter ${currentChapter + 1}.xlsx`)
       })
       .catch(() => {
-        console.log('写入 xlsx 模块导入失败')
+        console.log('Failed to import xlsx module')
       })
   }, [currentChapter, currentDictInfo.name, state.chapterData])
 
@@ -217,22 +217,22 @@ const ResultScreen = () => {
         leaveFrom="opacity-100"
         leaveTo="opacity-0"
       >
-        <div className="flex h-screen items-center justify-center">
-          <div className="my-card fixed flex w-[90vw] max-w-6xl flex-col overflow-hidden rounded-3xl bg-white pb-14 pl-10 pr-5 pt-10 shadow-lg dark:bg-gray-800 md:w-4/5 lg:w-3/5">
+        <div className="flex min-h-dvh items-center justify-center p-3 sm:p-4">
+          <div className="my-card relative flex max-h-[92dvh] w-[min(90vw,72rem)] max-w-6xl flex-col overflow-y-auto rounded-3xl bg-white px-4 pb-8 pt-8 shadow-lg dark:bg-gray-800 sm:pb-14 sm:pl-10 sm:pr-5 sm:pt-10 md:w-4/5 lg:w-3/5">
             <div className="text-center font-sans text-xl font-normal text-gray-900 dark:text-gray-400 md:text-2xl">
-              {`${currentDictInfo.name} ${isReviewMode ? '错题复习' : '第' + (currentChapter + 1) + '章'}`}
+              {`${currentDictInfo.name} ${isReviewMode ? 'Error Review' : 'Chapter ' + (currentChapter + 1)}`}
             </div>
             <button className="absolute right-7 top-5" onClick={exitButtonHandler}>
               <IconX className="text-gray-400" />
             </button>
-            <div className="mt-10 flex flex-row gap-2 overflow-hidden">
-              <div className="flex flex-shrink-0 flex-grow-0 flex-col gap-3 px-4 sm:px-1 md:px-2 lg:px-4">
-                <RemarkRing remark={`${state.timerData.accuracy}%`} caption="正确率" percentage={state.timerData.accuracy} />
-                <RemarkRing remark={timeString} caption="章节耗时" />
+            <div className="mt-6 flex flex-col gap-4 overflow-hidden sm:mt-10 sm:flex-row sm:gap-2">
+              <div className="flex flex-shrink-0 flex-grow-0 flex-row justify-center gap-3 px-2 sm:flex-col sm:px-4 md:px-2 lg:px-4">
+                <RemarkRing remark={`${state.timerData.accuracy}%`} caption="Accuracy" percentage={state.timerData.accuracy} />
+                <RemarkRing remark={timeString} caption="Chapter time" />
                 <RemarkRing remark={state.timerData.wpm + ''} caption="WPM" />
               </div>
-              <div className="z-10 ml-6 flex-1 overflow-visible rounded-xl bg-indigo-50 dark:bg-gray-700">
-                <div className="customized-scrollbar z-20 ml-8 mr-1 flex h-80 flex-row flex-wrap content-start gap-4 overflow-y-auto overflow-x-hidden pr-7 pt-9">
+              <div className="z-10 flex-1 overflow-visible rounded-xl bg-indigo-50 dark:bg-gray-700 sm:ml-6">
+                <div className="customized-scrollbar z-20 ml-3 mr-1 flex max-h-56 flex-row flex-wrap content-start gap-3 overflow-y-auto overflow-x-hidden pr-4 pt-6 sm:ml-8 sm:h-80 sm:max-h-none sm:gap-4 sm:pr-7 sm:pt-9">
                   {wrongWords.map((word, index) => (
                     <WordChip key={`${index}-${word.name}`} word={word} />
                   ))}
@@ -241,7 +241,7 @@ const ResultScreen = () => {
                   <ConclusionBar mistakeLevel={mistakeLevel} mistakeCount={wrongWords.length} />
                 </div>
               </div>
-              <div className="ml-2 flex flex-col items-center justify-end gap-3 text-xl">
+              <div className="mt-2 flex flex-row flex-wrap items-center justify-center gap-3 text-xl sm:ml-2 sm:mt-0 sm:flex-col sm:items-center sm:justify-end">
                 <AuthorButton />
                 {!isReviewMode && (
                   <>
@@ -265,7 +265,7 @@ const ResultScreen = () => {
                   }}
                   className="cursor-pointer"
                   type="button"
-                  title="捐赠我们的项目"
+                  title="Donate to our project"
                 >
                   <IconCoffee fontSize={17} className={`text-gray-500 hover:text-amber-500  focus:outline-none ${styles.imgShake}`} />
                 </button>
@@ -277,7 +277,7 @@ const ResultScreen = () => {
                   }}
                   className="cursor-pointer text-gray-500 dark:text-gray-400"
                   type="button"
-                  title="加入我们的社区"
+                  title="Join our community"
                 >
                   <IconWechat fontSize={16} className="text-gray-500 hover:text-green-500 focus:outline-none" />
                 </button>
@@ -287,52 +287,52 @@ const ResultScreen = () => {
                 </a>
               </div>
             </div>
-            <div className="mt-10 flex w-full justify-center gap-5 px-5 text-xl">
+            <div className="mt-6 flex w-full flex-col justify-center gap-3 px-2 text-xl sm:mt-10 sm:flex-row sm:flex-wrap sm:gap-5 sm:px-5">
               {!isReviewMode && (
                 <>
-                  <Tooltip content="快捷键：shift + enter">
+                  <Tooltip content="Shortcut: shift + enter">
                     <button
-                      className="my-btn-primary h-12 border-2 border-solid border-gray-300 bg-white text-base text-gray-700 dark:border-gray-700 dark:bg-gray-600 dark:text-white dark:hover:bg-gray-700"
+                      className="my-btn-primary h-12 w-full border-2 border-solid border-gray-300 bg-white text-base text-gray-700 dark:border-gray-700 dark:bg-gray-600 dark:text-white dark:hover:bg-gray-700 sm:w-auto"
                       type="button"
                       onClick={dictationButtonHandler}
-                      title="默写本章节"
+                      title="Dictate this chapter"
                     >
-                      默写本章节
+                      Dictate this chapter
                     </button>
                   </Tooltip>
-                  <Tooltip content="快捷键：space">
+                  <Tooltip content="Shortcut: space">
                     <button
-                      className="my-btn-primary h-12 border-2 border-solid border-gray-300 bg-white text-base text-gray-700 dark:border-gray-700 dark:bg-gray-600 dark:text-white dark:hover:bg-gray-700"
+                      className="my-btn-primary h-12 w-full border-2 border-solid border-gray-300 bg-white text-base text-gray-700 dark:border-gray-700 dark:bg-gray-600 dark:text-white dark:hover:bg-gray-700 sm:w-auto"
                       type="button"
                       onClick={repeatButtonHandler}
-                      title="重复本章节"
+                      title="Repeat this chapter"
                     >
-                      重复本章节
+                      Repeat this chapter
                     </button>
                   </Tooltip>
                 </>
               )}
               {!isLastChapter && !isReviewMode && (
-                <Tooltip content="快捷键：enter">
+                <Tooltip content="Shortcut: enter">
                   <button
-                    className={`{ isLastChapter ? 'cursor-not-allowed opacity-50' : ''} my-btn-primary h-12 text-base font-bold `}
+                    className={`my-btn-primary h-12 w-full text-base font-bold sm:w-auto`}
                     type="button"
                     onClick={nextButtonHandler}
-                    title="下一章节"
+                    title="Next chapter"
                   >
-                    下一章节
+                    Next chapter
                   </button>
                 </Tooltip>
               )}
 
               {isReviewMode && (
                 <button
-                  className="my-btn-primary h-12 text-base font-bold"
+                  className="my-btn-primary h-12 w-full text-base font-bold sm:w-auto"
                   type="button"
                   onClick={onNavigateToGallery}
-                  title="练习其他章节"
+                  title="Practice other chapters"
                 >
-                  练习其他章节
+                  Practice other chapters
                 </button>
               )}
             </div>

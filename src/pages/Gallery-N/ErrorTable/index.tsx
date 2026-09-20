@@ -30,7 +30,7 @@ export function ErrorTable({ data, isLoading, error, onDelete }: DataTableProps)
   })
 
   return (
-    <div className="h-full w-full rounded-md border p-1">
+    <div className="h-full w-full overflow-x-auto rounded-md border p-1">
       <Table className="h-full w-full" {...{}}>
         <TableHeader className="sticky top-0 bg-white dark:bg-slate-900">
           {table.getHeaderGroups().map((headerGroup) => (
@@ -76,7 +76,7 @@ export function ErrorTable({ data, isLoading, error, onDelete }: DataTableProps)
           ) : (
             <TableRow>
               <TableCell colSpan={table.getAllColumns().length} className="h-[22rem] text-center">
-                {isLoading ? <LoadingUI /> : error ? '好像遇到错误啦！尝试刷新下' : '暂无数据, 快去练习吧！'}
+                {isLoading ? <LoadingUI /> : error ? 'Something went wrong — try refreshing' : 'No data yet — start practicing!'}
               </TableCell>
             </TableRow>
           )}

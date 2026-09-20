@@ -2,235 +2,287 @@
     {
         "name": "job agency",
         "trans": [
-            "n. 求职中介"
+            "n. to seek employment to act as intermediary"
         ]
     },
     {
         "name": "agent",
         "trans": [
-            "n. 代理人，中介人"
+            "n. the semantic role of the animate entity that instigates or causes the happening denoted by the verb in the clause",
+            "n. an active and efficient cause",
+            "n. a businessman who buys or sells for another in exchange for a commission"
         ]
     },
     {
         "name": "recruit",
         "trans": [
-            "v. 招聘，征募"
+            "v. cause to assemble or enlist in the military",
+            "v. seek to employ",
+            "v. register formally as a participant or member"
         ]
     },
     {
         "name": "available",
         "trans": [
-            "adj. 可提供的，可获得的"
+            "adj. obtainable or accessible and ready for use or service",
+            "adj. convenient for use or disposal",
+            "adj. not busy"
         ]
     },
     {
         "name": "vacant",
         "trans": [
-            "adj. 空缺的"
+            "adj. without an occupant or incumbent",
+            "adj. void of thought or knowledge"
         ]
     },
     {
         "name": "applicant",
         "trans": [
-            "n. 申请人，求职者"
+            "n. a person who requests or seeks something such as assistance or employment or admission"
         ]
     },
     {
         "name": "personnel",
         "trans": [
-            "n. 人事部门，人员"
+            "n. the department responsible for hiring and training and placing employees and for setting policies for personnel management",
+            "n. group of people willing to obey orders"
         ]
     },
     {
         "name": "job description",
         "trans": [
-            "n. 职位描述"
+            "n. position to describe"
         ]
     },
     {
         "name": "vouch",
         "trans": [
-            "v. 担保，证明"
+            "v. to give supporting evidence",
+            "v. to summon an individual into court to warrant or defend a title",
+            "v. to give surety or assume responsibility"
         ]
     },
     {
         "name": "referee",
         "trans": [
-            "n. 介绍人；v. 裁判"
+            "v. evaluate professionally a colleague's work",
+            "v. be a referee or umpire in a sports competition",
+            "n. (sports) the chief official (as in boxing or American football) who is expected to ensure fair play"
         ]
     },
     {
         "name": "shift",
         "trans": [
-            "n. 轮班；v. 转换"
+            "v. make a shift in or exchange of",
+            "v. move and exchange for another",
+            "v. lay aside, abandon, or leave for another"
         ]
     },
     {
         "name": "commute",
         "trans": [
-            "n. 通勤；v. 通勤"
+            "v. to exchange or replace with another, usually of the same kind or category",
+            "v. to exchange a penalty for a less severe one",
+            "v. to change the order or arrangement of"
         ]
     },
     {
         "name": "CV",
         "trans": [
-            "n. 简历"
+            "n. a summary of your academic and work history"
         ]
     },
     {
         "name": "résumé",
         "trans": [
-            "n. 简历"
+            "n. curriculum vitae (CV)"
         ]
     },
     {
         "name": "interview",
         "trans": [
-            "n. 面试"
+            "v. conduct an interview in television, newspaper, and radio reporting",
+            "v. discuss formally with (somebody) for the purpose of an evaluation",
+            "v. go for an interview in the hope of being hired"
         ]
     },
     {
         "name": "candidate",
         "trans": [
-            "n. 候选人"
+            "n. a politician who is running for public office",
+            "n. someone who is considered for something (for an office or prize or honor etc.)"
         ]
     },
     {
         "name": "offer",
         "trans": [
-            "n. 录用通知；v. 提供"
+            "v. put forward for consideration",
+            "v. threaten to do something",
+            "v. ask someone to marry you"
         ]
     },
     {
         "name": "employer",
         "trans": [
-            "n. 雇主"
+            "n. a person or firm that employs workers"
         ]
     },
     {
         "name": "employee",
         "trans": [
-            "n. 雇员"
+            "n. a worker who is hired to perform a job"
         ]
     },
     {
         "name": "certificate",
         "trans": [
-            "n. 证书"
+            "v. to authorize by certificate",
+            "v. to present someone with a certificate",
+            "n. a document attesting to the truth of certain stated facts"
         ]
     },
     {
         "name": "licence",
         "trans": [
-            "n. 执照"
+            "v. authorize officially",
+            "n. a legal document giving official permission to do something",
+            "n. freedom to deviate deliberately from normally applicable rules or practices (especially in behavior or speech)"
         ]
     },
     {
         "name": "work permit",
         "trans": [
-            "n. 工作许可证"
+            "n. a legal document giving information required for employment of certain people in certain countries"
         ]
     },
     {
         "name": "experience",
         "trans": [
-            "n. 经验"
+            "v. undergo",
+            "v. have firsthand knowledge of states, situations, emotions, or sensations",
+            "v. undergo an emotional sensation or be in a particular state of mind"
         ]
     },
     {
         "name": "quality",
         "trans": [
-            "n. 品质"
+            "adj. of high social status",
+            "adj. of superior grade",
+            "n. an essential and distinguishing attribute of something or someone"
         ]
     },
     {
         "name": "personality",
         "trans": [
-            "n. 个性，人格特质"
+            "n. the complex of all the attributes--behavioral, temperamental, emotional and mental--that characterize a unique individual",
+            "n. a person of considerable prominence"
         ]
     },
     {
         "name": "education background",
         "trans": [
-            "n. 教育背景"
+            "n. educational background"
         ]
     },
     {
         "name": "degree",
         "trans": [
-            "n. 学位"
+            "n. a position on a scale of intensity or amount or quality",
+            "n. the seriousness of something (e.g., a burn or crime)",
+            "n. the highest power of a term or variable"
         ]
     },
     {
         "name": "major",
         "trans": [
-            "n. 主修科目"
+            "v. have as one's principal field of study",
+            "adj. of the elder of two boys with the same family name",
+            "adj. greater in number or size or amount"
         ]
     },
     {
         "name": "bachelor",
         "trans": [
-            "n. 学士"
+            "n. a man who has never been married",
+            "n. a knight of the lowest order"
         ]
     },
     {
         "name": "master",
         "trans": [
-            "n. 硕士"
+            "v. have a firm understanding or knowledge of",
+            "v. be or become completely proficient or skilled in",
+            "v. get on top of"
         ]
     },
     {
         "name": "suit",
         "trans": [
-            "n. 套装"
+            "v. accord or comport with",
+            "v. be agreeable or acceptable to",
+            "v. enhance the appearance of"
         ]
     },
     {
         "name": "uniform",
         "trans": [
-            "n. 制服"
+            "v. provide with uniforms",
+            "adj. not differentiated",
+            "adj. the same throughout in structure or composition"
         ]
     },
     {
         "name": "smart",
         "trans": [
-            "adj. 讲究时髦的"
+            "v. be the source of pain",
+            "adj. capable of independent and apparently intelligent action",
+            "adj. improperly forward or bold"
         ]
     },
     {
         "name": "casual",
         "trans": [
-            "adj. 休闲的"
+            "adj. hasty and without attention to detail",
+            "adj. marked by blithe unconcern",
+            "adj. not showing effort or strain"
         ]
     },
     {
         "name": "salary",
         "trans": [
-            "n. 薪水"
+            "n. something that remunerates"
         ]
     },
     {
         "name": "tip",
         "trans": [
-            "n. 小费；n. 建议；v. 给小费"
+            "v. remove the tip from",
+            "v. mark with a tip",
+            "v. give insider information or advise to"
         ]
     },
     {
         "name": "pension",
         "trans": [
-            "n. 退休金，津贴"
+            "v. grant a pension to",
+            "n. a regular payment to a person that is intended to allow them to subsist without working"
         ]
     },
     {
         "name": "welfare",
         "trans": [
-            "n. 福利"
+            "n. governmental provision of economic assistance to persons in need",
+            "n. something that aids or promotes well-being",
+            "n. a contented state of being happy and healthy and prosperous"
         ]
     },
     {
         "name": "insurance",
         "trans": [
-            "n. 保险"
+            "n. written contract or certificate of insurance",
+            "n. promise of reimbursement in the case of loss",
+            "n. protection against future loss"
         ]
     }
 ]

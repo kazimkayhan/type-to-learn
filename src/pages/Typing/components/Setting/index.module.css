@@ -1,5 +1,5 @@
 .tab-content {
-  @apply flex w-full flex-col items-start justify-start gap-10 overflow-y-auto pb-40 pl-6 pr-9 pt-8;
+  @apply flex w-full flex-col items-start justify-start gap-8 overflow-y-auto px-4 pb-16 pt-6 sm:gap-10 sm:pb-40 sm:pl-6 sm:pr-9 sm:pt-8;
 }
 
 .section {

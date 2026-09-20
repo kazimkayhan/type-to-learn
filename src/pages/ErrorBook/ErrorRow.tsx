@@ -27,33 +27,35 @@ const ErrorRow: FC<IErrorRowProps> = ({ record, onDelete }) => {
 
   return (
     <li
-      className="opacity-85 flex w-full cursor-pointer items-center justify-between rounded-lg bg-white px-6 py-3 text-black shadow-md dark:bg-gray-800 dark:text-white"
+      className="opacity-85 flex w-full cursor-pointer flex-col gap-2 rounded-lg bg-white px-4 py-3 text-black shadow-md dark:bg-gray-800 dark:text-white md:flex-row md:items-center md:justify-between md:px-6"
       onClick={onClick}
     >
-      <span className="basis-2/12 break-normal">{record.word}</span>
-      <span className="basis-6/12 break-normal">
-        {word ? word.trans.join('；') : <LoadingWordUI isLoading={isLoading} hasError={hasError} />}
+      <span className="basis-2/12 break-normal font-mono text-lg md:text-base">{record.word}</span>
+      <span className="basis-6/12 break-normal text-sm text-gray-600 dark:text-gray-300 md:text-base md:text-black md:dark:text-white">
+        {word ? word.trans.join('; ') : <LoadingWordUI isLoading={isLoading} hasError={hasError} />}
       </span>
-      <span className="basis-1/12 break-normal pl-8">{record.wrongCount}</span>
-      <span className="basis-1/12 break-normal">{dictInfo?.name}</span>
-      <span
-        className="basis-1/12 break-normal"
-        onClick={(e) => {
-          e.stopPropagation()
-          onDelete()
-        }}
-      >
-        <TooltipProvider>
-          <Tooltip>
-            <TooltipTrigger asChild>
-              <DeleteIcon />
-            </TooltipTrigger>
-            <TooltipContent>
-              <p>Delete Records</p>
-            </TooltipContent>
-          </Tooltip>
-        </TooltipProvider>
-      </span>
+      <div className="flex items-center justify-between gap-3 text-sm md:contents">
+        <span className="basis-1/12 break-normal md:pl-8">{record.wrongCount}</span>
+        <span className="basis-1/12 break-normal text-gray-500 md:text-inherit">{dictInfo?.name}</span>
+        <span
+          className="flex min-h-10 min-w-10 items-center justify-center break-normal md:basis-1/12"
+          onClick={(e) => {
+            e.stopPropagation()
+            onDelete()
+          }}
+        >
+          <TooltipProvider>
+            <Tooltip>
+              <TooltipTrigger asChild>
+                <DeleteIcon />
+              </TooltipTrigger>
+              <TooltipContent>
+                <p>Delete Records</p>
+              </TooltipContent>
+            </Tooltip>
+          </TooltipProvider>
+        </span>
+      </div>
     </li>
   )
 }

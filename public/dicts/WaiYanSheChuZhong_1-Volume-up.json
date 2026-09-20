@@ -1,1222 +1,1237 @@
 [
-  {
-      "name": "hello",
-      "trans": [
-          "n. 表示问候， 惊奇或唤起注意时的用语",
-          "int. 喂；哈罗"
-      ],
-      "usphone": "[həˈləʊ]",
-      "ukphone": "[həˈləʊ]"
-  },
-  {
-      "name": "hi",
-      "trans": [
-          "int. 嗨！（表示问候或用以唤起注意）"
-      ],
-      "usphone": "[haɪ]",
-      "ukphone": "[haɪ]"
-  },
-  {
-      "name": "aah",
-      "trans": [
-          "先进攻击直升机（Advanced Attack Helicopter）；不典型增生改变；美国催眠治疗师学会（American Institute of Hypnotherapy）"
-      ],
-      "usphone": "['e 'e 'etʃ]",
-      "ukphone": "[ɑː]"
-  },
-  {
-      "name": "ooh",
-      "trans": [
-          "int. （表示惊异、热心、高兴或不悦的叫声）哦！"
-      ],
-      "usphone": "[uː]",
-      "ukphone": "[uː]"
-  },
-  {
-      "name": "I",
-      "trans": [
-          "n. 碘元素；英语字母I",
-          "pron. 我"
-      ],
-      "usphone": "[aɪ]",
-      "ukphone": "[aɪ]"
-  },
-  {
-      "name": "am",
-      "trans": [
-          "abbr. 调幅",
-          "v. 是"
-      ],
-      "usphone": "[əm; æm]",
-      "ukphone": "[əm; æm]"
-  },
-  {
-      "name": "I'm",
-      "trans": [
-          "abbr. 我是（缩写）"
-      ]
-  },
-  {
-      "name": "I am",
-      "trans": [
-          " 我是；这就是我；唯我是问"
-      ]
-  },
-  {
-      "name": "goodbye",
-      "trans": [
-          "int. 再见",
-          "放弃",
-          "告别"
-      ],
-      "usphone": "[ˌɡʊdˈbaɪ]",
-      "ukphone": "[ˌɡʊdˈbaɪ]"
-  },
-  {
-      "name": "bye",
-      "trans": [
-          "n. 轮空；次要的东西",
-          "int. 再见",
-          "adj. 次要的"
-      ],
-      "usphone": "[baɪ]",
-      "ukphone": "[baɪ]"
-  },
-  {
-      "name": "How are you?",
-      "trans": [
-          " 你身体好吗？"
-      ],
-      "usphone": "[haʊ ɑr ju]",
-      "ukphone": "[haʊ ɑr ju]"
-  },
-  {
-      "name": "woof",
-      "trans": [
-          "n. 纬线；织物；低吠声",
-          "vi. 发出低吠声；发低音"
-      ],
-      "usphone": "[wʊf]",
-      "ukphone": "[wʊf]"
-  },
-  {
-      "name": "no",
-      "trans": [
-          "adv. 不",
-          "adj. 没有；不是",
-          "n. 不；否决票",
-          "abbr. 数字（number）；元素锘（nobelium）的符号"
-      ],
-      "usphone": "[noʊ]",
-      "ukphone": "[nəʊ]"
-  },
-  {
-      "name": "yes",
-      "trans": [
-          "n. 是（表示肯定）",
-          "adv. 是, 是的"
-      ],
-      "usphone": "[jes]",
-      "ukphone": "[jes]"
-  },
-  {
-      "name": "sorry",
-      "trans": [
-          "adj. 遗憾的；对不起的，抱歉的",
-          "int. 对不起，抱歉（表示委婉的拒绝等）"
-      ],
-      "usphone": "[ˈsɑːri]",
-      "ukphone": "[ˈsɒri]"
-  },
-  {
-      "name": "fine",
-      "trans": [
-          "n. 罚款",
-          "adj. 好的；优良的；细小的，精美的；健康的；晴朗的",
-          "vt. 罚款；澄清",
-          "adv. 很好地；精巧地"
-      ],
-      "usphone": "[faɪn]",
-      "ukphone": "[faɪn]"
-  },
-  {
-      "name": "thank",
-      "trans": [
-          "n. 感谢",
-          "vt. 感谢",
-          "int. 谢谢"
-      ],
-      "usphone": "[θæŋk]",
-      "ukphone": "[θæŋk]"
-  },
-  {
-      "name": "you",
-      "trans": [
-          "pron. 你；你们"
-      ],
-      "usphone": "[juː; jə]",
-      "ukphone": "[ju]"
-  },
-  {
-      "name": "what",
-      "trans": [
-          "pron. 什么；多么；多少",
-          "adv. 到什么程度，在哪一方面",
-          "adj. 什么；多么；何等",
-          "int. 什么；多么"
-      ],
-      "usphone": "[wʌt]",
-      "ukphone": "[wɒt]"
-  },
-  {
-      "name": "is",
-      "trans": [
-          "v. 是（be的三单形式）",
-          "n. 存在"
-      ],
-      "usphone": "[ɪz]",
-      "ukphone": "[ɪz]"
-  },
-  {
-      "name": "what's",
-      "trans": [
-          "…是什么（等于what is）；…有什么（等于what has）"
-      ]
-  },
-  {
-      "name": "what is",
-      "trans": [
-          "[计] whatis命令"
-      ]
-  },
-  {
-      "name": "your",
-      "trans": [
-          "pron. 你的，你们的"
-      ],
-      "usphone": "[jʊr; jər]",
-      "ukphone": "[jɔː(r); jə(r)]"
-  },
-  {
-      "name": "name",
-      "trans": [
-          "n. 名称，名字；姓名；名誉",
-          "vt. 命名，任命；指定；称呼；提名；叫出",
-          "adj. 姓名的；据以取名的"
-      ],
-      "usphone": "[neɪm]",
-      "ukphone": "[neɪm]"
-  },
-  {
-      "name": "please",
-      "trans": [
-          "int. 请（礼貌用语）",
-          "vt. 使喜欢；使高兴，使满意",
-          "vi. 讨人喜欢；令人高兴"
-      ],
-      "usphone": "[pliːz]",
-      "ukphone": "[pliːz]"
-  },
-  {
-      "name": "ha ha",
-      "trans": [
-          "n. (造在花园界沟里不遮挡视线的)隐篱；哈哈的笑声；哈哈的笑声；〔美俚〕(对某人的)嘲笑",
-          "int. 哈哈；哈哈!〔表示嘲笑等〕"
-      ]
-  },
-  {
-      "name": "good",
-      "trans": [
-          "n. 好处；善行；慷慨的行为",
-          "adj. 好的；优良的；愉快的；虔诚的",
-          "adv. 好"
-      ],
-      "usphone": "[ɡʊd]",
-      "ukphone": "[ɡʊd]"
-  },
-  {
-      "name": "morning",
-      "trans": [
-          "n. 早晨；黎明；初期"
-      ],
-      "usphone": "[ˈmɔːrnɪŋ]",
-      "ukphone": "[ˈmɔːnɪŋ]"
-  },
-  {
-      "name": "Ms",
-      "trans": [
-          "abbr. 存贮系统（Memory System）；主存储器（Main Storage）；主程序装置（Master Sequecer）；中速，平均速度（Medium Speed）；主（总）开关（Master Switch）"
-      ],
-      "usphone": "[mɪz]",
-      "ukphone": "[mɪz]"
-  },
-  {
-      "name": "my",
-      "trans": [
-          "pron. 我的",
-          "int. 哎呀（表示惊奇等）；喔唷"
-      ],
-      "usphone": "[maɪ]",
-      "ukphone": "[maɪ]"
-  },
-  {
-      "name": "bird",
-      "trans": [
-          "n. 鸟；家伙；羽毛球",
-          "vt. 向…喝倒彩；起哄",
-          "vi. 猎鸟；观察研究野鸟"
-      ],
-      "usphone": "[bɜːrd]",
-      "ukphone": "[bɜːd]"
-  },
-  {
-      "name": "tweet",
-      "trans": [
-          "n. 小鸟叫声；自录音再现装置发出的高音；推特",
-          "vi. 吱吱地叫；啾鸣"
-      ],
-      "usphone": "[twiːt]",
-      "ukphone": "[twiːt]"
-  },
-  {
-      "name": "a",
-      "trans": [
-          "n. 字母A；第一流的；学业成绩达最高标准的评价符号",
-          "abbr. [物]安（ampere）"
-      ],
-      "usphone": "[ə; eɪ]",
-      "ukphone": "[ə]"
-  },
-  {
-      "name": "an",
-      "trans": [
-          "art. 一（在元音音素前）"
-      ],
-      "usphone": "[ən; æn]",
-      "ukphone": "[ən]"
-  },
-  {
-      "name": "boy",
-      "trans": [
-          "n. 男孩；男人"
-      ],
-      "usphone": "[bɔɪ]",
-      "ukphone": "[bɔɪ]"
-  },
-  {
-      "name": "girl",
-      "trans": [
-          "n. 女孩；姑娘，未婚女子；女职员，女演员；（男人的）女朋友",
-          "n. （捷）吉尔"
-      ],
-      "usphone": "[ɡɜːrl]",
-      "ukphone": "[ɡɜːl]"
-  },
-  {
-      "name": "whoops",
-      "trans": [
-          "int. 哎呀！"
-      ],
-      "usphone": "[wʊps]",
-      "ukphone": "[wʊps]"
-  },
-  {
-      "name": "afternoon",
-      "trans": [
-          "n. 午后，下午"
-      ],
-      "usphone": "[ˌæftərˈnuːn]",
-      "ukphone": "[ˌɑːftəˈnuːn]"
-  },
-  {
-      "name": "panda",
-      "trans": [
-          "n. 熊猫；猫熊"
-      ],
-      "usphone": "[ˈpændə]",
-      "ukphone": "[ˈpændə]"
-  },
-  {
-      "name": "sit",
-      "trans": [
-          "vi. 坐；位于",
-          "vt. 使就座"
-      ],
-      "usphone": "[sɪt]",
-      "ukphone": "[sɪt]"
-  },
-  {
-      "name": "down",
-      "trans": [
-          "prep. 沿着，往下",
-          "n. 软毛，绒毛；[地质] 开阔的高地",
-          "adj. 向下的",
-          "vt. 打倒，击败",
-          "adv. 向下，下去；在下面",
-          "vi. 下降；下去"
-      ],
-      "usphone": "[daʊn]",
-      "ukphone": "[daʊn]"
-  },
-  {
-      "name": "stand",
-      "trans": [
-          "n. 站立；立场；看台；停止",
-          "vi. 站立；位于；停滞",
-          "vt. 使站立；忍受；抵抗"
-      ],
-      "usphone": "[stænd]",
-      "ukphone": "[stænd]"
-  },
-  {
-      "name": "up",
-      "trans": [
-          "prep. 在…之上；向…的较高处",
-          "n. 上升；繁荣",
-          "adj. 涨的；起床的；向上的",
-          "adv. 起来；上涨；向上"
-      ],
-      "usphone": "[ʌp]",
-      "ukphone": "[ʌp]"
-  },
-  {
-      "name": "open",
-      "trans": [
-          "adj. 公开的；敞开的；空旷的；坦率的；营业着的",
-          "vi. 开始；展现",
-          "vt. 公开；打开",
-          "n. 公开；空旷；户外"
-      ],
-      "usphone": "[ˈoʊpən]",
-      "ukphone": "[ˈəʊpən]"
-  },
-  {
-      "name": "the",
-      "trans": [
-          "art. 这；那",
-          "adv. 更加（用于比较级，最高级前）"
-      ],
-      "usphone": "[ðə; ði; ðiː]",
-      "ukphone": "[ðə]"
-  },
-  {
-      "name": "window",
-      "trans": [
-          "n. 窗；窗口；窗户"
-      ],
-      "usphone": "[ˈwɪndoʊ]",
-      "ukphone": "[ˈwɪndəʊ]"
-  },
-  {
-      "name": "door",
-      "trans": [
-          "n. 门；家，户；门口；通道"
-      ],
-      "usphone": "[dɔːr]",
-      "ukphone": "[dɔː(r)]"
-  },
-  {
-      "name": "See you!",
-      "trans": [
-          "[口语]再见!"
-      ]
-  },
-  {
-      "name": "point",
-      "trans": [
-          "n. 要点；得分；标点；[机] 尖端",
-          "vt. 指向；弄尖；加标点于",
-          "vi. 表明；指向"
-      ],
-      "usphone": "[pɔɪnt]",
-      "ukphone": "[pɔɪnt]"
-  },
-  {
-      "name": "to",
-      "trans": [
-          "prep. 到；向；（表示时间、方向）朝…方向",
-          "adv. 向前；（门等）关上"
-      ],
-      "usphone": "[tə; tu; tuː]",
-      "ukphone": "[tə]"
-  },
-  {
-      "name": "aargh",
-      "trans": [
-          " 啊 "
-      ],
-      "usphone": "[ɑːr]",
-      "ukphone": "[ɑː(r)]"
-  },
-  {
-      "name": "desk",
-      "trans": [
-          "n. 办公桌；服务台；编辑部；（美）讲道台；乐谱架",
-          "adj. 书桌的；桌上用的；伏案做的"
-      ],
-      "usphone": "[desk]",
-      "ukphone": "[desk]"
-  },
-  {
-      "name": "chair",
-      "trans": [
-          "n. 椅子；讲座；（会议的）主席位；大学教授的职位",
-          "vt. 担任（会议的）主席；使…入座；使就任要职"
-      ],
-      "usphone": "[tʃer]",
-      "ukphone": "[tʃeə(r)]"
-  },
-  {
-      "name": "it",
-      "trans": [
-          "abbr. 信息技术information technology",
-          "abbr. 意大利Italy；意大利的Italian"
-      ],
-      "usphone": "[ɪt]",
-      "ukphone": "[ɪt]"
-  },
-  {
-      "name": "it's",
-      "trans": [
-          "abbr. 它的（it has）；它是（it is）"
-      ]
-  },
-  {
-      "name": "it is",
-      "trans": [
-          " 它是；是的；这是"
-      ]
-  },
-  {
-      "name": "red",
-      "trans": [
-          "n. 红色，红颜料；赤字",
-          "adj. 红色的；红肿的，充血的"
-      ],
-      "usphone": "[red]",
-      "ukphone": "[red]"
-  },
-  {
-      "name": "aha",
-      "trans": [
-          "int. 啊哈（表示喜悦、轻蔑、惊讶等）"
-      ],
-      "usphone": "[ɑːˈhɑː]",
-      "ukphone": "[ɑːˈhɑː]"
-  },
-  {
-      "name": "blue",
-      "trans": [
-          "adj. 蓝色的；沮丧的，忧郁的；下流的",
-          "n. 蓝色；[复数]（美国海、陆、空三军穿的）蓝色制服；蓝颜料；[the blue(s)][用作单数或复数]布鲁斯（歌曲）（一种伤感的美国黑人民歌",
-          "vi. 变成蓝色，呈蓝色",
-          "vt. 把…染成蓝色；使成蓝色；给…用上蓝剂；用上蓝剂于"
-      ],
-      "usphone": "[bluː]",
-      "ukphone": "[bluː]"
-  },
-  {
-      "name": "wow",
-      "trans": [
-          "n. 极大的成功；一鸣惊人之举；魔兽世界(World of Warcraft)；失真",
-          "int. （表示极大的惊奇或钦佩）哇，呀"
-      ],
-      "usphone": "[waʊ]",
-      "ukphone": "[waʊ]"
-  },
-  {
-      "name": "yellow",
-      "trans": [
-          "n. 黄色；黄种人；黄色颜料",
-          "adj. 黄色的；黄皮肤的",
-          "vt. 使变黄或发黄",
-          "vi. 变黄或发黄"
-      ],
-      "usphone": "[ˈjeloʊ]",
-      "ukphone": "[ˈjeləʊ]"
-  },
-  {
-      "name": "oh",
-      "trans": [
-          "int. 哦；哎呀（表示惊讶或恐惧等）"
-      ],
-      "usphone": "[oʊ]",
-      "ukphone": "[əʊ]"
-  },
-  {
-      "name": "colour",
-      "trans": [
-          "n. 颜色；风格；气色，面色；外貌",
-          "vt. 把…涂颜色，粉饰；歪曲；使脸红",
-          "vi. 变色"
-      ],
-      "usphone": "[ˈkʌlər]",
-      "ukphone": "[ˈkʌlə(r)]"
-  },
-  {
-      "name": "green",
-      "trans": [
-          "n. 绿色；青春",
-          "adj. 绿色的；青春的",
-          "vt. 使…变绿色",
-          "vi. 变绿色"
-      ],
-      "usphone": "[ɡriːn]",
-      "ukphone": "[ɡriːn]"
-  },
-  {
-      "name": "now",
-      "trans": [
-          "adv. 现在；如今；立刻",
-          "adj. 现在的",
-          "n. 现在；目前",
-          "conj. 由于；既然"
-      ],
-      "usphone": "[naʊ]",
-      "ukphone": "[naʊ]"
-  },
-  {
-      "name": "black",
-      "trans": [
-          "n. 黑色；黑人；黑颜料",
-          "adj. 黑色的；黑人的；邪恶的",
-          "vt. 使变黑；把鞋油等涂在…上；把（眼眶）打成青肿",
-          "vi. 变黑"
-      ],
-      "usphone": "[blæk]",
-      "ukphone": "[blæk]"
-  },
-  {
-      "name": "white",
-      "trans": [
-          "n. 白色；洁白；白种人",
-          "adj. 白色的；白种的；纯洁的"
-      ],
-      "usphone": "[waɪt]",
-      "ukphone": "[waɪt]"
-  },
-  {
-      "name": "dog",
-      "trans": [
-          "n. 狗；丑女人；卑鄙的人；(俚)朋友",
-          "vt. 跟踪；尾随"
-      ],
-      "usphone": "[dɔːɡ]",
-      "ukphone": "[dɒɡ]"
-  },
-  {
-      "name": "cat",
-      "trans": [
-          "n. 猫，猫科动物"
-      ],
-      "usphone": "[kæt]",
-      "ukphone": "[kæt]"
-  },
-  {
-      "name": "and",
-      "trans": [
-          "conj. 和，与；就；而且；但是；然后"
-      ],
-      "usphone": "[ənd; ən; n; ænd]",
-      "ukphone": "[ənd]"
-  },
-  {
-      "name": "hey",
-      "trans": [
-          "n. 干草（等于hay）",
-          "int. 喂！（引起注意等）；你好！（表示问候）"
-      ],
-      "usphone": "[heɪ]",
-      "ukphone": "[heɪ]"
-  },
-  {
-      "name": "look",
-      "trans": [
-          "vt. 看；期待；注意；面向；看上去像",
-          "vi. 看；看起来；注意；面向",
-          "n. 看；样子；面容"
-      ],
-      "usphone": "[lʊk]",
-      "ukphone": "[lʊk]"
-  },
-  {
-      "name": "orange",
-      "trans": [
-          "adj. 橙色的；橘色的",
-          "n. 橙；橙色；桔子"
-      ],
-      "usphone": "[ˈɔrɪndʒ]",
-      "ukphone": "[ˈɒrɪndʒ]"
-  },
-  {
-      "name": "this",
-      "trans": [
-          "adj. 这；本；这个；今",
-          "pron. 这；这个；这里",
-          "adv. 这样地；这么"
-      ],
-      "usphone": "[ðɪs]",
-      "ukphone": "[ðɪs]"
-  },
-  {
-      "name": "our",
-      "trans": [
-          "pron. 我们的"
-      ],
-      "usphone": "[ɑːr]",
-      "ukphone": "[ɑː(r)]"
-  },
-  {
-      "name": "teacher",
-      "trans": [
-          "n. 教师；导师"
-      ],
-      "usphone": "[ˈtiːtʃər]",
-      "ukphone": "[ˈtiːtʃə(r)]"
-  },
-  {
-      "name": "school",
-      "trans": [
-          "n. 学校；学院；学派；鱼群",
-          "vt. 教育"
-      ],
-      "usphone": "[skuːl]",
-      "ukphone": "[skuːl]"
-  },
-  {
-      "name": "classroom",
-      "trans": [
-          "n. 教室"
-      ],
-      "usphone": "[ˈklæsruːm; ˈklæsrʊm]",
-      "ukphone": "[ˈklɑːsruːm]"
-  },
-  {
-      "name": "Nice to meet you.",
-      "trans": [
-          " 很高兴见到你；很高兴认识你；见到你很高兴"
-      ]
-  },
-  {
-      "name": "child",
-      "trans": [
-          "n. 儿童，小孩，孩子；产物；子孙；幼稚的人；弟子"
-      ],
-      "usphone": "[tʃaɪld]",
-      "ukphone": "[tʃaɪld]"
-  },
-  {
-      "name": "that",
-      "trans": [
-          "conj. 因为；以至于",
-          "adj. 那；那个",
-          "pron. 那；那个",
-          "adv. 那么；那样"
-      ],
-      "usphone": "[ðæt]",
-      "ukphone": "[ðæt]"
-  },
-  {
-      "name": "bag",
-      "trans": [
-          "n. 袋；猎获物；（俚）一瓶啤酒",
-          "vt. 猎获；把…装入袋中；占据，私吞；使膨大",
-          "vi. 松垂"
-      ],
-      "usphone": "[bæɡ]",
-      "ukphone": "[bæɡ]"
-  },
-  {
-      "name": "schoolbag",
-      "trans": [
-          "n. 书包"
-      ],
-      "usphone": "[ˈskuːlˌbæɡ]",
-      "ukphone": "[ˈskuːlbæɡ]"
-  },
-  {
-      "name": "book",
-      "trans": [
-          "n. 书籍；卷；帐簿；名册；工作簿",
-          "vt. 预订；登记"
-      ],
-      "usphone": "[bʊk]",
-      "ukphone": "[bʊk]"
-  },
-  {
-      "name": "pen",
-      "trans": [
-          "n. 钢笔；作家；围栏",
-          "vt. 写；关入栏中"
-      ],
-      "usphone": "[pen]",
-      "ukphone": "[pen]"
-  },
-  {
-      "name": "pencil",
-      "trans": [
-          "n. 铅笔；笔状物",
-          "vt. 用铅笔写；用眉笔涂",
-          "vi. 成铅笔状"
-      ],
-      "usphone": "[ˈpensl]",
-      "ukphone": "[ˈpens(ə)l]"
-  },
-  {
-      "name": "ruler",
-      "trans": [
-          "n. 尺；统治者；[测] 划线板，划线的人"
-      ],
-      "usphone": "[ˈruːlər]",
-      "ukphone": "[ˈruːlə(r)]"
-  },
-  {
-      "name": "eraser",
-      "trans": [
-          "n. 橡皮；擦除器；[计] 清除器"
-      ],
-      "usphone": "[ɪˈreɪsər]",
-      "ukphone": "[ɪˈreɪzə(r)]"
-  },
-  {
-      "name": "pencil case",
-      "trans": [
-          "n. 铅笔盒；铅笔袋"
-      ],
-      "usphone": "[ˈpensl keɪs]",
-      "ukphone": "[ˈpensl keɪs]"
-  },
-  {
-      "name": "crayon",
-      "trans": [
-          "n. 蜡笔，有色粉笔",
-          "vt. 以蜡笔作画，用颜色粉笔画"
-      ],
-      "usphone": "[ˈkreɪən; ˈkreɪɑːn]",
-      "ukphone": "[ˈkreɪən; ˈkreɪɒn]"
-  },
-  {
-      "name": "new",
-      "trans": [
-          "adj. 新的，新鲜的；更新的；初见的",
-          "adv. 新近"
-      ],
-      "usphone": "[nuː]",
-      "ukphone": "[njuː]"
-  },
-  {
-      "name": "kite",
-      "trans": [
-          "n. 风筝",
-          "vi. 使用空头支票；像风筝一样飞；轻快地移动",
-          "vt. 骗钱；涂改（支票）"
-      ],
-      "usphone": "[kaɪt]",
-      "ukphone": "[kaɪt]"
-  },
-  {
-      "name": "or",
-      "trans": [
-          "conj. 或，或者；还是"
-      ],
-      "usphone": "[ɔːr]",
-      "ukphone": "[ɔː(r)]"
-  },
-  {
-      "name": "not",
-      "trans": [
-          "adv. 表示否定，不",
-          "n. “非”（计算机中逻辑运算的一种）"
-      ],
-      "usphone": "[nɑːt]",
-      "ukphone": "[nɒt]"
-  },
-  {
-      "name": "isn't",
-      "trans": [
-          "不是（等于is not）"
-      ]
-  },
-  {
-      "name": "is not"
-  },
-  {
-      "name": "monkey",
-      "trans": [
-          "n. 猴子；顽童",
-          "vi. 胡闹；捣蛋",
-          "vt. 嘲弄"
-      ],
-      "usphone": "[ˈmʌŋki]",
-      "ukphone": "[ˈmʌŋki]"
-  },
-  {
-      "name": "monster",
-      "trans": [
-          "n. 怪物；巨人，巨兽；残忍的人",
-          "adj. 巨大的，庞大的"
-      ],
-      "usphone": "[ˈmɑːnstər]",
-      "ukphone": "[ˈmɒnstə(r)]"
-  },
-  {
-      "name": "help",
-      "trans": [
-          "n. 帮助；补救办法；帮忙者；有益的东西",
-          "vt. 帮助；促进；治疗；补救",
-          "vi. 帮助；有用；招待"
-      ],
-      "usphone": "[help]",
-      "ukphone": "[help]"
-  },
-  {
-      "name": "house",
-      "trans": [
-          "n. 住宅；家庭；机构；议会；某种用途的建筑物",
-          "vt. 覆盖；给…房子住；把…储藏在房内",
-          "vi. 住"
-      ],
-      "usphone": "[haʊs]",
-      "ukphone": "[haʊs]"
-  },
-  {
-      "name": "box",
-      "trans": [
-          "n. 箱，盒子；包厢；一拳",
-          "vt. 拳击；装…入盒中；打耳光",
-          "vi. 拳击"
-      ],
-      "usphone": "[bɑːks]",
-      "ukphone": "[bɒks]"
-  },
-  {
-      "name": "how many",
-      "trans": [
-          "na. 多少"
-      ]
-  },
-  {
-      "name": "one",
-      "trans": [
-          "pron. 一个人；任何人",
-          "adj. 一的；唯一的",
-          "n. 一",
-          "num. 一；一个"
-      ],
-      "usphone": "[wʌn]",
-      "ukphone": "[wʌn]"
-  },
-  {
-      "name": "two",
-      "trans": [
-          "num. 二",
-          "n. 两个",
-          "adj. 两个的"
-      ],
-      "usphone": "[tuː]",
-      "ukphone": "[tuː]"
-  },
-  {
-      "name": "three",
-      "trans": [
-          "num. 三",
-          "n. 三，三个",
-          "adj. 三的，三个的"
-      ],
-      "usphone": "[θriː]",
-      "ukphone": "[θriː]"
-  },
-  {
-      "name": "four",
-      "trans": [
-          "num. 四；四个",
-          "adj. 四的；四个的"
-      ],
-      "usphone": "[fɔːr]",
-      "ukphone": "[fɔː(r)]"
-  },
-  {
-      "name": "count",
-      "trans": [
-          "n. 计数；计算；伯爵",
-          "vt. 计算；认为",
-          "vi. 计数；有价值"
-      ],
-      "usphone": "[kaʊnt]",
-      "ukphone": "[kaʊnt]"
-  },
-  {
-      "name": "say",
-      "trans": [
-          "vt. 讲；说明；例如；声称；假设；指明",
-          "vi. 讲；表示；念；假定；背诵"
-      ],
-      "usphone": "[seɪ]",
-      "ukphone": "[seɪ]"
-  },
-  {
-      "name": "five",
-      "trans": [
-          "num. 五，五个",
-          "n. 五，五个；五美元钞票",
-          "adj. 五的；五个的"
-      ],
-      "usphone": "[faɪv]",
-      "ukphone": "[faɪv]"
-  },
-  {
-      "name": "six",
-      "trans": [
-          "num. 六，六个",
-          "n. 六，六个"
-      ],
-      "usphone": "[sɪks]",
-      "ukphone": "[sɪks]"
-  },
-  {
-      "name": "seven",
-      "trans": [
-          "num. 七个，七",
-          "n. 七个，七",
-          "adj. 七的；七个的"
-      ],
-      "usphone": "[ˈsev(ə)n]",
-      "ukphone": "[ˈsev(ə)n]"
-  },
-  {
-      "name": "eight",
-      "trans": [
-          "num. 八；八个；第八",
-          "n. 八字形",
-          "adj. 八的"
-      ],
-      "usphone": "[eɪt]",
-      "ukphone": "[eɪt]"
-  },
-  {
-      "name": "nine",
-      "trans": [
-          "n. 九，九个",
-          "num. 九；九个",
-          "adj. 九的，九个的"
-      ],
-      "usphone": "[naɪn]",
-      "ukphone": "[naɪn]"
-  },
-  {
-      "name": "ten",
-      "trans": [
-          "num. 十个，十"
-      ],
-      "usphone": "[ten]",
-      "ukphone": "[ten]"
-  },
-  {
-      "name": "pink",
-      "trans": [
-          "n. 粉红色；化身，典范；石竹花；头面人物",
-          "adj. 粉红的；比较激进的；石竹科的；脸色发红的",
-          "vt. 扎，刺，戳；使…变粉红色；使…面红耳赤",
-          "vi. 变粉红色"
-      ],
-      "usphone": "[pɪŋk]",
-      "ukphone": "[pɪŋk]"
-  },
-  {
-      "name": "ball",
-      "trans": [
-          "n. 球；舞会",
-          "vt. 捏成球形",
-          "vi. 成团块"
-      ],
-      "usphone": "[bɔːl]",
-      "ukphone": "[bɔːl]"
-  },
-  {
-      "name": "so",
-      "trans": [
-          "conj. 所以；因此",
-          "adv. 如此，这么；确是如此",
-          "pron. 这样"
-      ],
-      "usphone": "[soʊ]",
-      "ukphone": "[səʊ]"
-  },
-  {
-      "name": "many",
-      "trans": [
-          "pron. 许多；许多人",
-          "adj. 许多的"
-      ],
-      "usphone": "[ˈmeni]",
-      "ukphone": "[ˈmeni]"
-  },
-  {
-      "name": "brown",
-      "trans": [
-          "n. 褐色，棕色",
-          "adj. 棕色的，褐色的；太阳晒黑的",
-          "vt. 使变成褐色",
-          "vi. 变成褐色"
-      ],
-      "usphone": "[braʊn]",
-      "ukphone": "[braʊn]"
-  },
-  {
-      "name": "how old",
-      "trans": [
-          "conj. 多少岁"
-      ]
-  },
-  {
-      "name": "are",
-      "trans": [
-          "v. 是（be的第二人称单复数现在式）",
-          "n. 公亩"
-      ],
-      "usphone": "[ər; ɑːr; er]",
-      "ukphone": "[ɑ:(r)]"
-  },
-  {
-      "name": "too",
-      "trans": [
-          "adv. 太；也；很；还；非常；过度"
-      ],
-      "usphone": "[tuː]",
-      "ukphone": "[tuː]"
-  },
-  {
-      "name": "happy",
-      "trans": [
-          "adj. 幸福的；高兴的；巧妙的"
-      ],
-      "usphone": "[ˈhæpi]",
-      "ukphone": "[ˈhæpi]"
-  },
-  {
-      "name": "birthday",
-      "trans": [
-          "n. 生日，诞辰；诞生的日子"
-      ],
-      "usphone": "[ˈbɜːrθdeɪ]",
-      "ukphone": "[ˈbɜːθdeɪ]"
-  },
-  {
-      "name": "but",
-      "trans": [
-          "conj. 但是；而是；然而",
-          "adv. 仅仅，只",
-          "prep. 除…以外"
-      ],
-      "usphone": "[bət; bʌt]",
-      "ukphone": "[bət]"
-  },
-  {
-      "name": "for",
-      "trans": [
-          "prep. 为，为了；因为；给；对于；至于；适合于",
-          "conj. 因为"
-      ],
-      "usphone": "[fər; fɔːr]",
-      "ukphone": "[fə(r)]"
-  },
-  {
-      "name": "You're welcome!",
-      "trans": [
-          " 不客气；别客气；不用谢"
-      ]
-  },
-  {
-      "name": "father",
-      "trans": [
-          "n. 父亲，爸爸；神父；祖先；前辈",
-          "vt. 发明，创立；当…的父亲"
-      ],
-      "usphone": "[ˈfɑːðər]",
-      "ukphone": "[ˈfɑːðə(r)]"
-  },
-  {
-      "name": "daddy",
-      "trans": [
-          "n. 爸爸"
-      ],
-      "usphone": "[ˈdædi]",
-      "ukphone": "[ˈdædi]"
-  },
-  {
-      "name": "mother",
-      "trans": [
-          "n. 母亲；大娘；女修道院院长",
-          "vt. 生下；养育；像母亲般关怀或照管",
-          "adj. 母亲的；出生地的"
-      ],
-      "usphone": "[ˈmʌðər]",
-      "ukphone": "[ˈmʌðə(r)]"
-  },
-  {
-      "name": "grandpa",
-      "trans": [
-          "n. 爷爷；外公"
-      ],
-      "usphone": "[ˈɡrænpɑː]",
-      "ukphone": "[ˈɡrænpɑː]"
-  },
-  {
-      "name": "grandma",
-      "trans": [
-          "n. 奶奶；外婆"
-      ],
-      "usphone": "[ˈɡrænmɑː]",
-      "ukphone": "[ˈɡrænmɑː]"
-  },
-  {
-      "name": "friend",
-      "trans": [
-          "n. 朋友；助手；赞助者"
-      ],
-      "usphone": "[frend]",
-      "ukphone": "[frend]"
-  },
-  {
-      "name": "his",
-      "trans": [
-          "pron. 他的"
-      ],
-      "usphone": "[hɪz; ɪz]",
-      "ukphone": "[hɪz]"
-  },
-  {
-      "name": "car",
-      "trans": [
-          "n. 汽车；车厢"
-      ],
-      "usphone": "[kɑːr]",
-      "ukphone": "[kɑː(r)]"
-  },
-  {
-      "name": "sister",
-      "trans": [
-          "n. 姐妹；（称志同道合者）姐妹；修女；护士",
-          "adj. 姐妹般的；同类型的"
-      ],
-      "usphone": "[ˈsɪstər]",
-      "ukphone": "[ˈsɪstə(r)]"
-  },
-  {
-      "name": "brother",
-      "trans": [
-          "n. 兄弟；同事；战友",
-          "int. 我的老兄！"
-      ],
-      "usphone": "[ˈbrʌðər]",
-      "ukphone": "[ˈbrʌðə(r)]"
-  },
-  {
-      "name": "her",
-      "trans": [
-          "pron. 她（she的宾格）；她的（she的所有格）；她（指某个国家；一艘船）"
-      ],
-      "usphone": "[hər; ɜːr; ər; hɜːr]",
-      "ukphone": "[hə(r)]"
-  }
+    {
+        "name": "hello",
+        "trans": [
+            "n. an expression of greeting"
+        ],
+        "usphone": "[həˈləʊ]",
+        "ukphone": "[həˈləʊ]"
+    },
+    {
+        "name": "hi",
+        "trans": [
+            "n. an expression of greeting"
+        ],
+        "usphone": "[haɪ]",
+        "ukphone": "[haɪ]"
+    },
+    {
+        "name": "aah",
+        "trans": [
+            "v. to express admiration and pleasure by uttering 'ooh' or 'aah'"
+        ],
+        "usphone": "['e 'e 'etʃ]",
+        "ukphone": "[ɑː]"
+    },
+    {
+        "name": "ooh",
+        "trans": [
+            "v. express admiration and pleasure by uttering `ooh' or `aah'"
+        ],
+        "usphone": "[uː]",
+        "ukphone": "[uː]"
+    },
+    {
+        "name": "I",
+        "trans": [
+            "adj. used of a single unit or thing",
+            "n. the 9th letter of the Roman alphabet"
+        ],
+        "usphone": "[aɪ]",
+        "ukphone": "[aɪ]"
+    },
+    {
+        "name": "am",
+        "trans": [
+            "abbr. amplitude modulation (AM)",
+            "v. to be (followed by substantives only)"
+        ],
+        "usphone": "[əm; æm]",
+        "ukphone": "[əm; æm]"
+    },
+    {
+        "name": "I'm",
+        "trans": [
+            "abbr. I to be (followed by substantives only) abbreviation"
+        ]
+    },
+    {
+        "name": "I am",
+        "trans": [
+            "I to be (followed by substantives only), immediately to be (followed by substantives only) I, only I to be (followed by substantives only) to ask"
+        ]
+    },
+    {
+        "name": "goodbye",
+        "trans": [
+            "n. a farewell remark"
+        ],
+        "usphone": "[ˌɡʊdˈbaɪ]",
+        "ukphone": "[ˌɡʊdˈbaɪ]"
+    },
+    {
+        "name": "bye",
+        "trans": [
+            "n. a farewell remark",
+            "n. advancement to the next round in a tournament without playing an opponent"
+        ],
+        "usphone": "[baɪ]",
+        "ukphone": "[baɪ]"
+    },
+    {
+        "name": "How are you?",
+        "trans": [
+            "you (informal, as opposed to courteous [nin2]) the body good"
+        ],
+        "usphone": "[haʊ ɑr ju]",
+        "ukphone": "[haʊ ɑr ju]"
+    },
+    {
+        "name": "woof",
+        "trans": [
+            "n. the yarn woven across the warp yarn in weaving"
+        ],
+        "usphone": "[wʊf]",
+        "ukphone": "[wʊf]"
+    },
+    {
+        "name": "no",
+        "trans": [
+            "adj. quantifier",
+            "adv. used to express refusal or denial or disagreement etc or especially to emphasize a negative statement",
+            "adv. not in any degree or manner"
+        ],
+        "usphone": "[noʊ]",
+        "ukphone": "[nəʊ]"
+    },
+    {
+        "name": "yes",
+        "trans": [
+            "n. an affirmative"
+        ],
+        "usphone": "[jes]",
+        "ukphone": "[jes]"
+    },
+    {
+        "name": "sorry",
+        "trans": [
+            "adj. causing dejection",
+            "adj. bad",
+            "adj. feeling or expressing regret or sorrow or a sense of loss over something done or undone"
+        ],
+        "usphone": "[ˈsɑːri]",
+        "ukphone": "[ˈsɒri]"
+    },
+    {
+        "name": "fine",
+        "trans": [
+            "v. issue a ticket or a fine to as a penalty",
+            "adj. characterized by elegance or refinement or accomplishment",
+            "adj. minutely precise especially in differences in meaning"
+        ],
+        "usphone": "[faɪn]",
+        "ukphone": "[faɪn]"
+    },
+    {
+        "name": "thank",
+        "trans": [
+            "v. express gratitude or show appreciation to"
+        ],
+        "usphone": "[θæŋk]",
+        "ukphone": "[θæŋk]"
+    },
+    {
+        "name": "you",
+        "trans": [
+            "pron. you (informal, as opposed to courteous [nin2]), you (plural)"
+        ],
+        "usphone": "[juː; jə]",
+        "ukphone": "[ju]"
+    },
+    {
+        "name": "what",
+        "trans": [
+            "pron. what?, how (wonderful etc), number",
+            "adv. to reach what? degree, to exist how on the one hand",
+            "adj. what?, how (wonderful etc), what kind?",
+            "int. what?, how (wonderful etc)"
+        ],
+        "usphone": "[wʌt]",
+        "ukphone": "[wɒt]"
+    },
+    {
+        "name": "is",
+        "trans": [
+            "v. to be (followed by substantives only) be three bill outer appearance",
+            "n. to exist"
+        ],
+        "usphone": "[ɪz]",
+        "ukphone": "[ɪz]"
+    },
+    {
+        "name": "what's",
+        "trans": [
+            "to be (followed by substantives only) what? to equal what is, to have what? to equal what has"
+        ]
+    },
+    {
+        "name": "what is",
+        "trans": [
+            "to calculate whatis order"
+        ]
+    },
+    {
+        "name": "your",
+        "trans": [
+            "pron. you (informal, as opposed to courteous [nin2]), you (plural)"
+        ],
+        "usphone": "[jʊr; jər]",
+        "ukphone": "[jɔː(r); jə(r)]"
+    },
+    {
+        "name": "name",
+        "trans": [
+            "v. determine or distinguish the nature of a problem or an illness through a diagnostic analysis",
+            "v. identify as in botany or biology, for example",
+            "v. give or make a list of"
+        ],
+        "usphone": "[neɪm]",
+        "ukphone": "[neɪm]"
+    },
+    {
+        "name": "please",
+        "trans": [
+            "v. give pleasure to or be pleasing to",
+            "v. give satisfaction",
+            "v. be the will of or have the will to"
+        ],
+        "usphone": "[pliːz]",
+        "ukphone": "[pliːz]"
+    },
+    {
+        "name": "ha ha",
+        "trans": [
+            "n. to make to exist garden (for flowers, ornamental plants etc) boundary ditch lining no to shelter line of sight to lean upon a fence, (onom.) laughing out loud laughter, beautiful old name for the [Li2] ethnic group right someone to jeer at",
+            "int. (onom.) laughing out loud, (onom.) laughing out loud (of sb) to express to jeer at to wait for"
+        ]
+    },
+    {
+        "name": "good",
+        "trans": [
+            "adj. promoting or enhancing well-being",
+            "adj. having the normally expected amount",
+            "adj. with or in a close or intimate relationship"
+        ],
+        "usphone": "[ɡʊd]",
+        "ukphone": "[ɡʊd]"
+    },
+    {
+        "name": "morning",
+        "trans": [
+            "n. a conventional expression of greeting or farewell",
+            "n. the earliest period",
+            "n. the time period between dawn and noon"
+        ],
+        "usphone": "[ˈmɔːrnɪŋ]",
+        "ukphone": "[ˈmɔːnɪŋ]"
+    },
+    {
+        "name": "Ms",
+        "trans": [
+            "n. the form of a literary work submitted for publication"
+        ],
+        "usphone": "[mɪz]",
+        "ukphone": "[mɪz]"
+    },
+    {
+        "name": "my",
+        "trans": [
+            "pron. I",
+            "int. interjection of wonder, shock or admiration (of sb) to express to be amazed to wait for, (interjection) oh (interjection expressing surprise) Oh!"
+        ],
+        "usphone": "[maɪ]",
+        "ukphone": "[maɪ]"
+    },
+    {
+        "name": "bird",
+        "trans": [
+            "v. to watch and study birds in their natural habitat",
+            "n. warm-blooded egg-laying vertebrates characterized by feathers and forelimbs modified as wings",
+            "n. badminton equipment consisting of a ball of cork or rubber with a crown of feathers"
+        ],
+        "usphone": "[bɜːrd]",
+        "ukphone": "[bɜːd]"
+    },
+    {
+        "name": "tweet",
+        "trans": [
+            "v. squeeze tightly between the fingers",
+            "v. make a weak, chirping sound",
+            "n. a weak chirping sound as of a small bird"
+        ],
+        "usphone": "[twiːt]",
+        "ukphone": "[twiːt]"
+    },
+    {
+        "name": "a",
+        "trans": [
+            "n. the 1st letter of the Roman alphabet",
+            "the indefinite article, used to non-specifically identify something"
+        ],
+        "usphone": "[ə; eɪ]",
+        "ukphone": "[ə]"
+    },
+    {
+        "name": "an",
+        "trans": [
+            "art. one to exist vowel phoneme front"
+        ],
+        "usphone": "[ən; æn]",
+        "ukphone": "[ən]"
+    },
+    {
+        "name": "boy",
+        "trans": [
+            "n. (ethnic slur) offensive and disparaging term for Black man",
+            "n. a friendly informal reference to a grown man",
+            "n. a youthful male person"
+        ],
+        "usphone": "[bɔɪ]",
+        "ukphone": "[bɔɪ]"
+    },
+    {
+        "name": "girl",
+        "trans": [
+            "n. a young woman",
+            "n. a friendly informal reference to a grown woman",
+            "n. a girl or young woman with whom someone is romantically involved"
+        ],
+        "usphone": "[ɡɜːrl]",
+        "ukphone": "[ɡɜːl]"
+    },
+    {
+        "name": "whoops",
+        "trans": [
+            "v. cough spasmodically",
+            "v. shout, as if with joy or enthusiasm",
+            "n. a loud hooting cry of exultation or excitement"
+        ],
+        "usphone": "[wʊps]",
+        "ukphone": "[wʊps]"
+    },
+    {
+        "name": "afternoon",
+        "trans": [
+            "n. a conventional expression of greeting or farewell",
+            "n. the part of the day between noon and evening"
+        ],
+        "usphone": "[ˌæftərˈnuːn]",
+        "ukphone": "[ˌɑːftəˈnuːn]"
+    },
+    {
+        "name": "panda",
+        "trans": [
+            "n. reddish-brown Old World raccoon-like carnivore",
+            "n. large black-and-white herbivorous mammal of bamboo forests of China and Tibet"
+        ],
+        "usphone": "[ˈpændə]",
+        "ukphone": "[ˈpændə]"
+    },
+    {
+        "name": "sit",
+        "trans": [
+            "v. serve in a specific professional capacity",
+            "v. be seated",
+            "v. show to a seat"
+        ],
+        "usphone": "[sɪt]",
+        "ukphone": "[sɪt]"
+    },
+    {
+        "name": "down",
+        "trans": [
+            "v. improve or perfect by pruning or polishing",
+            "v. bring down or defeat (an opponent)",
+            "v. eat immoderately"
+        ],
+        "usphone": "[daʊn]",
+        "ukphone": "[daʊn]"
+    },
+    {
+        "name": "stand",
+        "trans": [
+            "v. put up with something or somebody unpleasant",
+            "v. have or maintain a position or stand on an issue",
+            "v. withstand the force of something"
+        ],
+        "usphone": "[stænd]",
+        "ukphone": "[stænd]"
+    },
+    {
+        "name": "up",
+        "trans": [
+            "v. raise",
+            "adj. extending or moving toward a higher place",
+            "adj. open"
+        ],
+        "usphone": "[ʌp]",
+        "ukphone": "[ʌp]"
+    },
+    {
+        "name": "open",
+        "trans": [
+            "v. make available",
+            "v. become available",
+            "v. make the opening move"
+        ],
+        "usphone": "[ˈoʊpən]",
+        "ukphone": "[ˈəʊpən]"
+    },
+    {
+        "name": "the",
+        "trans": [
+            "art. (pronoun) this, (specifier) that",
+            "adv. more (than sth else) to use in (grammar) the comparative, tallest level front"
+        ],
+        "usphone": "[ðə; ði; ðiː]",
+        "ukphone": "[ðə]"
+    },
+    {
+        "name": "window",
+        "trans": [
+            "n. a framework of wood or metal that contains a glass windowpane and is built into a wall or roof to admit light or air",
+            "n. a transparent opening in a vehicle that allow vision out of the sides or back",
+            "n. a transparent panel (as of an envelope) inserted in an otherwise opaque material"
+        ],
+        "usphone": "[ˈwɪndoʊ]",
+        "ukphone": "[ˈwɪndəʊ]"
+    },
+    {
+        "name": "door",
+        "trans": [
+            "n. a swinging or sliding barrier that will close the entrance to a room or building or vehicle",
+            "n. a room that is entered via a door",
+            "n. a structure where people live or work, usually ordered along a street or road"
+        ],
+        "usphone": "[dɔːr]",
+        "ukphone": "[dɔː(r)]"
+    },
+    {
+        "name": "See you!",
+        "trans": [
+            "colloquial speech goodbye"
+        ]
+    },
+    {
+        "name": "point",
+        "trans": [
+            "v. repair the joints of bricks",
+            "v. give a point to",
+            "v. be a signal for or a symptom of"
+        ],
+        "usphone": "[pɔɪnt]",
+        "ukphone": "[pɔɪnt]"
+    },
+    {
+        "name": "to",
+        "trans": [
+            "prep. to reach, towards, (of sb) to express (concept of) time, direction imperial or royal court direction",
+            "adv. forward, gate to wait for to close (a door)"
+        ],
+        "usphone": "[tə; tu; tuː]",
+        "ukphone": "[tə]"
+    },
+    {
+        "name": "aargh",
+        "trans": [
+            "aargh"
+        ],
+        "usphone": "[ɑːr]",
+        "ukphone": "[ɑː(r)]"
+    },
+    {
+        "name": "desk",
+        "trans": [
+            "n. a piece of furniture with a writing surface and usually drawers or other compartments"
+        ],
+        "usphone": "[desk]",
+        "ukphone": "[desk]"
+    },
+    {
+        "name": "chair",
+        "trans": [
+            "v. to preside over",
+            "v. to act or preside as chair, as of an academic department in a university",
+            "n. the position of professor"
+        ],
+        "usphone": "[tʃer]",
+        "ukphone": "[tʃeə(r)]"
+    },
+    {
+        "name": "it",
+        "trans": [
+            "abbr. information technology information technology",
+            "abbr. Italy Italy, Italy Italian"
+        ],
+        "usphone": "[ɪt]",
+        "ukphone": "[ɪt]"
+    },
+    {
+        "name": "it's",
+        "trans": [
+            "abbr. it it has, it to be (followed by substantives only) it is"
+        ]
+    },
+    {
+        "name": "it is",
+        "trans": [
+            "it to be (followed by substantives only), to be (followed by substantives only), (pronoun) this to be (followed by substantives only)"
+        ]
+    },
+    {
+        "name": "red",
+        "trans": [
+            "adj. characterized by violence or bloodshed",
+            "adj. of a color at the end of the color spectrum (next to orange)",
+            "adj. suffused with blood from emotion or exertion, reddened"
+        ],
+        "usphone": "[red]",
+        "ukphone": "[red]"
+    },
+    {
+        "name": "aha",
+        "trans": [
+            "int. (interj.) ha! (of sb) to express happy, scornful, amazed to wait for"
+        ],
+        "usphone": "[ɑːˈhɑː]",
+        "ukphone": "[ɑːˈhɑː]"
+    },
+    {
+        "name": "blue",
+        "trans": [
+            "v. to turn blue",
+            "adj. causing dejection",
+            "adj. of the color intermediate between green and violet"
+        ],
+        "usphone": "[bluː]",
+        "ukphone": "[bluː]"
+    },
+    {
+        "name": "wow",
+        "trans": [
+            "v. impress greatly",
+            "n. a joke that seems extremely funny"
+        ],
+        "usphone": "[waʊ]",
+        "ukphone": "[waʊ]"
+    },
+    {
+        "name": "yellow",
+        "trans": [
+            "v. turn yellow",
+            "adj. typical of tabloids",
+            "adj. easily frightened"
+        ],
+        "usphone": "[ˈjeloʊ]",
+        "ukphone": "[ˈjeləʊ]"
+    },
+    {
+        "name": "oh",
+        "trans": [
+            "int. to chant, interjection of wonder, shock or admiration (of sb) to express amazed maybe to be frightened to wait for"
+        ],
+        "usphone": "[oʊ]",
+        "ukphone": "[əʊ]"
+    },
+    {
+        "name": "colour",
+        "trans": [
+            "v. to change color, often in an undesired manner",
+            "v. to add color to",
+            "v. to affect as in thought or feeling"
+        ],
+        "usphone": "[ˈkʌlər]",
+        "ukphone": "[ˈkʌlə(r)]"
+    },
+    {
+        "name": "green",
+        "trans": [
+            "n. an environmentalist who belongs to the Green Party"
+        ],
+        "usphone": "[ɡriːn]",
+        "ukphone": "[ɡriːn]"
+    },
+    {
+        "name": "now",
+        "trans": [
+            "adv. in these times",
+            "adv. without delay or hesitation",
+            "adv. used to preface a command or reproof or request"
+        ],
+        "usphone": "[naʊ]",
+        "ukphone": "[naʊ]"
+    },
+    {
+        "name": "black",
+        "trans": [
+            "v. to make or become black",
+            "adj. marked by anger or resentment or hostility",
+            "adj. of or belonging to a racial group having dark skin especially of sub-Saharan African origin"
+        ],
+        "usphone": "[blæk]",
+        "ukphone": "[blæk]"
+    },
+    {
+        "name": "white",
+        "trans": [
+            "v. turn white",
+            "adj. of or belonging to a racial group having light skin coloration",
+            "adj. of summer nights in northern latitudes where the sun barely sets"
+        ],
+        "usphone": "[waɪt]",
+        "ukphone": "[waɪt]"
+    },
+    {
+        "name": "dog",
+        "trans": [
+            "v. go after with the intent to catch",
+            "n. a member of the genus Canis (probably descended from the common wolf) that has been domesticated by man since prehistoric times",
+            "n. metal supports for logs in a fireplace"
+        ],
+        "usphone": "[dɔːɡ]",
+        "ukphone": "[dɒɡ]"
+    },
+    {
+        "name": "cat",
+        "trans": [
+            "v. to eject the contents of the stomach through the mouth",
+            "v. to beat with a cat-o'-nine-tails",
+            "n. feline mammal usually having thick soft fur and no ability to roar: domestic cats"
+        ],
+        "usphone": "[kæt]",
+        "ukphone": "[kæt]"
+    },
+    {
+        "name": "and",
+        "trans": [
+            "conj. (joining two nouns) and, (formal) and, (after a suppositional clause) in that case, (not only ...) but also, but, then"
+        ],
+        "usphone": "[ənd; ən; n; ænd]",
+        "ukphone": "[ənd]"
+    },
+    {
+        "name": "hey",
+        "trans": [
+            "n. hay to equal hay",
+            "int. hello (when answering the phone) to give rise to take note of to wait for, hello (of sb) to express to give one's respects"
+        ],
+        "usphone": "[heɪ]",
+        "ukphone": "[heɪ]"
+    },
+    {
+        "name": "look",
+        "trans": [
+            "v. have a certain outward or facial expression",
+            "v. have faith or confidence in",
+            "v. look forward to the probable occurrence of"
+        ],
+        "usphone": "[lʊk]",
+        "ukphone": "[lʊk]"
+    },
+    {
+        "name": "orange",
+        "trans": [
+            "adj. of the color between red and yellow",
+            "n. any pigment producing the orange color",
+            "n. orange color or pigment"
+        ],
+        "usphone": "[ˈɔrɪndʒ]",
+        "ukphone": "[ˈɒrɪndʒ]"
+    },
+    {
+        "name": "this",
+        "trans": [
+            "adj. (pronoun) this, originally, now",
+            "pron. (pronoun) this, here",
+            "adv. this way, so much"
+        ],
+        "usphone": "[ðɪs]",
+        "ukphone": "[ðɪs]"
+    },
+    {
+        "name": "our",
+        "trans": [
+            "pron. we"
+        ],
+        "usphone": "[ɑːr]",
+        "ukphone": "[ɑː(r)]"
+    },
+    {
+        "name": "teacher",
+        "trans": [
+            "n. a personified abstraction that teaches",
+            "n. a person whose occupation is teaching"
+        ],
+        "usphone": "[ˈtiːtʃər]",
+        "ukphone": "[ˈtiːtʃə(r)]"
+    },
+    {
+        "name": "school",
+        "trans": [
+            "v. swim in or form a large group of fish",
+            "v. educate in or as if in a school",
+            "v. teach or refine to be discriminative in taste or judgment"
+        ],
+        "usphone": "[skuːl]",
+        "ukphone": "[skuːl]"
+    },
+    {
+        "name": "classroom",
+        "trans": [
+            "n. a room in a school where lessons take place"
+        ],
+        "usphone": "[ˈklæsruːm; ˈklæsrʊm]",
+        "ukphone": "[ˈklɑːsruːm]"
+    },
+    {
+        "name": "Nice to meet you.",
+        "trans": [
+            "very happy to see you (informal, as opposed to courteous [nin2]), very happy to know you (informal, as opposed to courteous [nin2]), to see you (informal, as opposed to courteous [nin2]) very happy"
+        ]
+    },
+    {
+        "name": "child",
+        "trans": [
+            "n. a young person of either sex",
+            "n. a human offspring of any age",
+            "n. an immature childish person"
+        ],
+        "usphone": "[tʃaɪld]",
+        "ukphone": "[tʃaɪld]"
+    },
+    {
+        "name": "that",
+        "trans": [
+            "conj. because, down to",
+            "adj. (specifier) that, that one",
+            "pron. (specifier) that, that one",
+            "adv. like that, that kind"
+        ],
+        "usphone": "[ðæt]",
+        "ukphone": "[ðæt]"
+    },
+    {
+        "name": "bag",
+        "trans": [
+            "v. to capture or kill, as in hunting",
+            "v. to put into a bag",
+            "v. to take unlawfully"
+        ],
+        "usphone": "[bæɡ]",
+        "ukphone": "[bæɡ]"
+    },
+    {
+        "name": "schoolbag",
+        "trans": [
+            "n. a bag for carrying school books and supplies"
+        ],
+        "usphone": "[ˈskuːlˌbæɡ]",
+        "ukphone": "[ˈskuːlbæɡ]"
+    },
+    {
+        "name": "book",
+        "trans": [
+            "v. to engage for a performance",
+            "v. to record a charge in a police register",
+            "v. to arrange for and reserve something for someone else in advance"
+        ],
+        "usphone": "[bʊk]",
+        "ukphone": "[bʊk]"
+    },
+    {
+        "name": "pen",
+        "trans": [
+            "v. produce a literary work",
+            "n. female swan",
+            "n. a writing implement with a point from which ink flows"
+        ],
+        "usphone": "[pen]",
+        "ukphone": "[pen]"
+    },
+    {
+        "name": "pencil",
+        "trans": [
+            "v. to write, draw, or trace with a pencil",
+            "n. a thin cylindrical pointed writing implement",
+            "n. a cosmetic in a long thin stick"
+        ],
+        "usphone": "[ˈpensl]",
+        "ukphone": "[ˈpens(ə)l]"
+    },
+    {
+        "name": "ruler",
+        "trans": [
+            "n. measuring stick consisting of a strip of wood or metal or plastic with a straight edge that is used for drawing straight lines and measuring lengths",
+            "n. a person who rules or commands"
+        ],
+        "usphone": "[ˈruːlər]",
+        "ukphone": "[ˈruːlə(r)]"
+    },
+    {
+        "name": "eraser",
+        "trans": [
+            "n. an implement used to erase something"
+        ],
+        "usphone": "[ɪˈreɪsər]",
+        "ukphone": "[ɪˈreɪzə(r)]"
+    },
+    {
+        "name": "pencil case",
+        "trans": [
+            "n. a box for holding pencils"
+        ],
+        "usphone": "[ˈpensl keɪs]",
+        "ukphone": "[ˈpensl keɪs]"
+    },
+    {
+        "name": "crayon",
+        "trans": [
+            "v. to write, draw, or trace with a crayon",
+            "n. writing implement consisting of a colored stick of composition wax used for writing and drawing"
+        ],
+        "usphone": "[ˈkreɪən; ˈkreɪɑːn]",
+        "ukphone": "[ˈkreɪən; ˈkreɪɒn]"
+    },
+    {
+        "name": "new",
+        "trans": [
+            "adj. used of a living language",
+            "adj. in use after medieval times"
+        ],
+        "usphone": "[nuː]",
+        "ukphone": "[njuː]"
+    },
+    {
+        "name": "kite",
+        "trans": [
+            "v. to fly a kite",
+            "v. to soar or fly like a kite",
+            "v. to get credit or money by using a bad check"
+        ],
+        "usphone": "[kaɪt]",
+        "ukphone": "[kaɪt]"
+    },
+    {
+        "name": "or",
+        "trans": [
+            "n. a room in a hospital equipped for the performance of surgical operations"
+        ],
+        "usphone": "[ɔːr]",
+        "ukphone": "[ɔː(r)]"
+    },
+    {
+        "name": "not",
+        "trans": [
+            "adv. negation of a word or group of words"
+        ],
+        "usphone": "[nɑːt]",
+        "ukphone": "[nɒt]"
+    },
+    {
+        "name": "isn't",
+        "trans": [
+            "no to equal is not"
+        ]
+    },
+    {
+        "name": "is not",
+        "trans": []
+    },
+    {
+        "name": "monkey",
+        "trans": [
+            "v. do random, unplanned work or activities or spend time idly",
+            "v. play around with or alter or falsify, usually secretively or dishonestly",
+            "n. any of various long-tailed primates (excluding the prosimians)"
+        ],
+        "usphone": "[ˈmʌŋki]",
+        "ukphone": "[ˈmʌŋki]"
+    },
+    {
+        "name": "monster",
+        "trans": [
+            "n. (medicine) a grossly malformed and usually nonviable fetus",
+            "n. an imaginary creature usually having various human and animal parts",
+            "n. a person or animal that is markedly unusual or deformed"
+        ],
+        "usphone": "[ˈmɑːnstər]",
+        "ukphone": "[ˈmɒnstə(r)]"
+    },
+    {
+        "name": "help",
+        "trans": [
+            "v. improve the condition of",
+            "v. improve",
+            "v. help to some food"
+        ],
+        "usphone": "[help]",
+        "ukphone": "[help]"
+    },
+    {
+        "name": "house",
+        "trans": [
+            "v. provide housing for",
+            "v. contain or cover",
+            "n. play in which children take the roles of father or mother or children and pretend to interact like adults"
+        ],
+        "usphone": "[haʊs]",
+        "ukphone": "[haʊs]"
+    },
+    {
+        "name": "box",
+        "trans": [
+            "v. to put into a box",
+            "v. to engage in a boxing match",
+            "v. to hit with the fist"
+        ],
+        "usphone": "[bɑːks]",
+        "ukphone": "[bɒks]"
+    },
+    {
+        "name": "how many",
+        "trans": [
+            "na. number"
+        ]
+    },
+    {
+        "name": "one",
+        "trans": [
+            "adj. eminent beyond or above comparison",
+            "adj. indefinite in time or position",
+            "adj. used informally as an intensifier"
+        ],
+        "usphone": "[wʌn]",
+        "ukphone": "[wʌn]"
+    },
+    {
+        "name": "two",
+        "trans": [
+            "adj. being one more than one",
+            "n. one of the four playing cards in a deck that have two spots",
+            "n. the cardinal number that is the sum of one and one or a numeral representing this number"
+        ],
+        "usphone": "[tuː]",
+        "ukphone": "[tuː]"
+    },
+    {
+        "name": "three",
+        "trans": [
+            "adj. being one more than two",
+            "n. one of four playing cards in a deck having three pips",
+            "n. the cardinal number that is the sum of one and one and one"
+        ],
+        "usphone": "[θriː]",
+        "ukphone": "[θriː]"
+    },
+    {
+        "name": "four",
+        "trans": [
+            "adj. being one more than three",
+            "n. a playing card or domino or die whose upward face shows four pips",
+            "n. the cardinal number that is the sum of three and one"
+        ],
+        "usphone": "[fɔːr]",
+        "ukphone": "[fɔː(r)]"
+    },
+    {
+        "name": "count",
+        "trans": [
+            "v. to include as if by counting",
+            "v. to take account of",
+            "v. to have faith or confidence in"
+        ],
+        "usphone": "[kaʊnt]",
+        "ukphone": "[kaʊnt]"
+    },
+    {
+        "name": "say",
+        "trans": [
+            "v. give instructions to or direct somebody to do something with authority",
+            "v. express a supposition",
+            "v. indicate"
+        ],
+        "usphone": "[seɪ]",
+        "ukphone": "[seɪ]"
+    },
+    {
+        "name": "five",
+        "trans": [
+            "adj. being one more than four",
+            "n. a playing card or a domino or a die whose upward face shows five pips",
+            "n. a team that plays basketball"
+        ],
+        "usphone": "[faɪv]",
+        "ukphone": "[faɪv]"
+    },
+    {
+        "name": "six",
+        "trans": [
+            "adj. denoting a quantity consisting of six items or units",
+            "n. a playing card or domino or die whose upward face shows six pips",
+            "n. the cardinal number that is the sum of five and one"
+        ],
+        "usphone": "[sɪks]",
+        "ukphone": "[sɪks]"
+    },
+    {
+        "name": "seven",
+        "trans": [
+            "adj. being one more than six",
+            "n. one of four playing cards in a deck with seven pips on the face",
+            "n. the cardinal number that is the sum of six and one"
+        ],
+        "usphone": "[ˈsev(ə)n]",
+        "ukphone": "[ˈsev(ə)n]"
+    },
+    {
+        "name": "eight",
+        "trans": [
+            "adj. being one more than seven",
+            "n. one of four playing cards in a deck with eight pips on the face",
+            "n. the cardinal number that is the sum of seven and one"
+        ],
+        "usphone": "[eɪt]",
+        "ukphone": "[eɪt]"
+    },
+    {
+        "name": "nine",
+        "trans": [
+            "adj. denoting a quantity consisting of one more than eight and one less than ten",
+            "n. one of four playing cards in a deck with nine pips on the face",
+            "n. a team of professional baseball players who play and travel together"
+        ],
+        "usphone": "[naɪn]",
+        "ukphone": "[naɪn]"
+    },
+    {
+        "name": "ten",
+        "trans": [
+            "adj. being one more than nine",
+            "n. one of four playing cards in a deck with ten pips on the face",
+            "n. the cardinal number that is the sum of nine and one"
+        ],
+        "usphone": "[ten]",
+        "ukphone": "[ten]"
+    },
+    {
+        "name": "pink",
+        "trans": [
+            "v. cut in a zigzag pattern with pinking shears, in sewing",
+            "v. sound like a car engine that is firing too early",
+            "v. make light, repeated taps on a surface"
+        ],
+        "usphone": "[pɪŋk]",
+        "ukphone": "[pɪŋk]"
+    },
+    {
+        "name": "ball",
+        "trans": [
+            "v. to form into a ball by winding or rolling",
+            "n. a pitch that is not in the strike zone",
+            "n. the game of baseball"
+        ],
+        "usphone": "[bɔːl]",
+        "ukphone": "[bɔːl]"
+    },
+    {
+        "name": "so",
+        "trans": [
+            "adv. in truth (often tends to intensify)",
+            "adv. (used to introduce a logical conclusion) from that fact or reason or as a result",
+            "adv. subsequently or soon afterward (often used as sentence connectors)"
+        ],
+        "usphone": "[soʊ]",
+        "ukphone": "[səʊ]"
+    },
+    {
+        "name": "many",
+        "trans": [
+            "adj. a quantifier that can be used with count nouns and is often preceded by `as' or `too' or `so' or `that'"
+        ],
+        "usphone": "[ˈmeni]",
+        "ukphone": "[ˈmeni]"
+    },
+    {
+        "name": "brown",
+        "trans": [
+            "v. to make brown in color",
+            "v. to fry in a pan until it changes color",
+            "adj. (of skin) deeply suntanned"
+        ],
+        "usphone": "[braʊn]",
+        "ukphone": "[braʊn]"
+    },
+    {
+        "name": "how old",
+        "trans": [
+            "conj. number years old"
+        ]
+    },
+    {
+        "name": "are",
+        "trans": [
+            "n. a unit of surface area equal to 100 square meters"
+        ],
+        "usphone": "[ər; ɑːr; er]",
+        "ukphone": "[ɑ:(r)]"
+    },
+    {
+        "name": "too",
+        "trans": [
+            "adv. to a degree exceeding normal or proper limits",
+            "adv. in addition"
+        ],
+        "usphone": "[tuː]",
+        "ukphone": "[tuː]"
+    },
+    {
+        "name": "happy",
+        "trans": [
+            "adj. well expressed and to the point",
+            "adj. marked by good fortune",
+            "adj. enjoying or showing or marked by joy or pleasure"
+        ],
+        "usphone": "[ˈhæpi]",
+        "ukphone": "[ˈhæpi]"
+    },
+    {
+        "name": "birthday",
+        "trans": [
+            "n. an anniversary of the day on which a person was born (or the celebration of it)",
+            "n. the date on which a person was born"
+        ],
+        "usphone": "[ˈbɜːrθdeɪ]",
+        "ukphone": "[ˈbɜːθdeɪ]"
+    },
+    {
+        "name": "but",
+        "trans": [
+            "adv. and nothing more"
+        ],
+        "usphone": "[bət; bʌt]",
+        "ukphone": "[bət]"
+    },
+    {
+        "name": "for",
+        "trans": [
+            "prep. as (in the capacity of), for, because, regarding, as for, to fit to go",
+            "conj. because"
+        ],
+        "usphone": "[fər; fɔːr]",
+        "ukphone": "[fə(r)]"
+    },
+    {
+        "name": "You're welcome!",
+        "trans": [
+            "you're welcome, don't mention it"
+        ]
+    },
+    {
+        "name": "father",
+        "trans": [
+            "v. make children",
+            "n. the head of an organized crime family",
+            "n. a male parent, also used as a term of address to one's own father"
+        ],
+        "usphone": "[ˈfɑːðər]",
+        "ukphone": "[ˈfɑːðə(r)]"
+    },
+    {
+        "name": "daddy",
+        "trans": [
+            "n. an informal term for a father"
+        ],
+        "usphone": "[ˈdædi]",
+        "ukphone": "[ˈdædi]"
+    },
+    {
+        "name": "mother",
+        "trans": [
+            "v. make children",
+            "v. care for like a mother",
+            "n. a condition that is the inspiration for an activity or situation"
+        ],
+        "usphone": "[ˈmʌðər]",
+        "ukphone": "[ˈmʌðə(r)]"
+    },
+    {
+        "name": "grandpa",
+        "trans": [
+            "n. the father of your father or mother"
+        ],
+        "usphone": "[ˈɡrænpɑː]",
+        "ukphone": "[ˈɡrænpɑː]"
+    },
+    {
+        "name": "grandma",
+        "trans": [
+            "n. the mother of your father or mother"
+        ],
+        "usphone": "[ˈɡrænmɑː]",
+        "ukphone": "[ˈɡrænmɑː]"
+    },
+    {
+        "name": "friend",
+        "trans": [
+            "n. a person with whom you are acquainted",
+            "n. an associate who provides cooperation or assistance",
+            "n. a person you know well and regard with affection and trust"
+        ],
+        "usphone": "[frend]",
+        "ukphone": "[frend]"
+    },
+    {
+        "name": "his",
+        "trans": [
+            "pron. singular masculine possessive pronoun"
+        ],
+        "usphone": "[hɪz; ɪz]",
+        "ukphone": "[hɪz]"
+    },
+    {
+        "name": "car",
+        "trans": [
+            "n. a conveyance for passengers or freight on a cable railway",
+            "n. a motor vehicle with four wheels",
+            "n. a wheeled vehicle adapted to the rails of railroad"
+        ],
+        "usphone": "[kɑːr]",
+        "ukphone": "[kɑː(r)]"
+    },
+    {
+        "name": "sister",
+        "trans": [
+            "n. (slang) sometimes used as a term of address for attractive young women",
+            "n. a female person who is a fellow member of a sorority or labor union or other group",
+            "n. a female person who has the same parents as another person"
+        ],
+        "usphone": "[ˈsɪstər]",
+        "ukphone": "[ˈsɪstə(r)]"
+    },
+    {
+        "name": "brother",
+        "trans": [
+            "n. (Roman Catholic Church) a title given to a monk and used as form of address"
+        ],
+        "usphone": "[ˈbrʌðər]",
+        "ukphone": "[ˈbrʌðə(r)]"
+    },
+    {
+        "name": "her",
+        "trans": [
+            "pron. oblique (object) feminine singular pronoun"
+        ],
+        "usphone": "[hər; ɜːr; ər; hɜːr]",
+        "ukphone": "[hə(r)]"
+    }
 ]

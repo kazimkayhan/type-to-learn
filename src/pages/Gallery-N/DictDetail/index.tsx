@@ -67,21 +67,21 @@ export default function DictDetail({ dictionary: dict }: { dictionary: Dictionar
   )
 
   return (
-    <div className="flex flex-col rounded-[4rem] px-4 py-3 pl-5 text-gray-800 dark:text-gray-300">
-      <div className="text relative flex h-40 flex-col gap-2">
-        <h3 className="text-2xl font-semibold">{dict.name}</h3>
-        <p className="mt-1">{dict.chapterCount} 章节</p>
-        <p>共 {dict.length} 词</p>
-        <p>{dict.description}</p>
-        <div className="absolute bottom-5 right-4">
-          <ToggleGroup type="single" value={curTab} onValueChange={handleTabChange}>
+    <div className="flex min-w-0 flex-col rounded-2xl px-1 py-2 text-gray-800 dark:text-gray-300 sm:rounded-[4rem] sm:px-4 sm:py-3 sm:pl-5">
+      <div className="text relative flex h-auto min-w-0 flex-col gap-2 sm:h-40">
+        <h3 className="pr-8 text-lg font-semibold sm:text-2xl">{dict.name}</h3>
+        <p className="mt-1">{dict.chapterCount} chapters</p>
+        <p>{dict.length} words total</p>
+        <p className="text-sm sm:text-base">{dict.description}</p>
+        <div className="relative bottom-auto right-auto mt-2 min-w-0 sm:absolute sm:bottom-5 sm:right-4 sm:mt-0">
+          <ToggleGroup type="single" value={curTab} onValueChange={handleTabChange} className="flex-wrap justify-start">
             <ToggleGroupItem
               value={Tab.Chapters}
               disabled={curTab === Tab.Chapters}
               className={`${curTab === Tab.Chapters ? 'text-primary-foreground bg-primary' : ''} disabled:opacity-100`}
             >
               <MajesticonsPaperFoldTextLine className="mr-1.5 text-gray-500" />
-              章节选择
+              Chapters
             </ToggleGroupItem>
             {errorWordData.length > 0 && (
               <>
@@ -91,7 +91,7 @@ export default function DictDetail({ dictionary: dict }: { dictionary: Dictionar
                   className={`${curTab === Tab.Errors ? 'text-primary-foreground bg-primary' : ''} disabled:opacity-100`}
                 >
                   <IcOutlineCollectionsBookmark className="mr-1.5 text-gray-500" />
-                  查看错题
+                  View errors
                 </ToggleGroupItem>
                 <ToggleGroupItem
                   value={Tab.Review}
@@ -99,17 +99,17 @@ export default function DictDetail({ dictionary: dict }: { dictionary: Dictionar
                   className={`${curTab === Tab.Review ? 'text-primary-foreground bg-primary' : ''} disabled:opacity-100`}
                 >
                   <PajamasReviewList className="mr-1.5 text-gray-500" />
-                  错题回顾
+                  Error review
                 </ToggleGroupItem>
               </>
             )}
           </ToggleGroup>
         </div>
       </div>
-      <div className="flex pl-0">
-        <Tabs value={curTab} className="h-[30rem] w-full ">
+      <div className="flex min-w-0 pl-0">
+        <Tabs value={curTab} className="h-[min(30rem,55dvh)] w-full min-w-0">
           <TabsContent value={Tab.Chapters} className="h-full ">
-            <ScrollArea className="h-[30rem] ">
+            <ScrollArea className="h-[min(30rem,55dvh)] ">
               <div className="flex w-full flex-wrap gap-3">
                 {range(0, dict.chapterCount, 1).map((index) => (
                   <Chapter

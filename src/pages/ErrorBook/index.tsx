@@ -96,19 +96,26 @@ export function ErrorBook() {
 
   return (
     <>
-      <div className={`relative flex h-screen w-full flex-col items-center pb-4 ease-in ${currentRowDetail && 'blur-sm'}`}>
-        <div className="mr-8 mt-4 flex w-auto items-center justify-center self-end">
-          <h1 className="font-lighter mr-4 w-auto self-end text-gray-500 opacity-70">Tip: 点击错误单词查看详细信息 </h1>
-          <IconX className="h-7 w-7 cursor-pointer text-gray-400" onClick={onBack} />
+      <div className={`relative flex h-dvh w-full flex-col items-center pb-4 ease-in ${currentRowDetail && 'blur-sm'}`}>
+        <div className="mr-3 mt-3 flex w-full items-center justify-between gap-3 px-4 sm:mr-8 sm:mt-4 sm:w-auto sm:justify-center sm:self-end">
+          <h1 className="font-lighter w-auto text-sm text-gray-500 opacity-70 sm:mr-4 sm:text-base">
+            <span className="sm:hidden">Error Book</span>
+            <span className="hidden sm:inline">Tip: Click an error word to view details </span>
+          </h1>
+          <IconX className="h-7 w-7 shrink-0 cursor-pointer text-gray-400" onClick={onBack} />
         </div>
 
-        <div className="flex w-full flex-1 select-text items-start justify-center overflow-hidden">
-          <div className="flex h-full w-5/6 flex-col pt-10">
-            <div className="flex w-full justify-between rounded-lg bg-white px-6 py-5 text-lg text-black shadow-lg dark:bg-gray-800 dark:text-white">
-              <span className="basis-2/12">单词</span>
-              <span className="basis-6/12">释义</span>
+        <div className="flex w-full flex-1 select-text items-start justify-center overflow-hidden px-3 sm:px-0">
+          <div className="flex h-full w-full flex-col pt-4 sm:w-5/6 sm:pt-10">
+            <div className="hidden w-full justify-between rounded-lg bg-white px-6 py-5 text-lg text-black shadow-lg dark:bg-gray-800 dark:text-white md:flex">
+              <span className="basis-2/12">Word</span>
+              <span className="basis-6/12">Definition</span>
               <HeadWrongNumber className="basis-1/12" sortType={sortType} setSortType={setSort} />
-              <span className="basis-1/12">词典</span>
+              <span className="basis-1/12">Dictionary</span>
+              <DropdownExport renderRecords={sortedRecords} />
+            </div>
+            <div className="mb-3 flex items-center justify-between md:hidden">
+              <HeadWrongNumber className="text-sm" sortType={sortType} setSortType={setSort} />
               <DropdownExport renderRecords={sortedRecords} />
             </div>
             <ScrollArea.Root className="flex-1 overflow-y-auto pt-5">

@@ -15,7 +15,7 @@ import Header from '@/components/Header'
 import Tooltip from '@/components/Tooltip'
 import { idDictionaryMap } from '@/resources/dictionary'
 import { currentChapterAtom, currentDictIdAtom, isReviewModeAtom, randomConfigAtom, reviewModeInfoAtom } from '@/store'
-import { IsDesktop, isLegal } from '@/utils'
+import { isLegal } from '@/utils'
 import { useSaveChapterRecord } from '@/utils/db'
 import { useMixPanelChapterLogUploader } from '@/utils/mixpanel'
 import { useAtom, useAtomValue, useSetAtom } from 'jotai'
@@ -36,17 +36,6 @@ const App: React.FC = () => {
 
   const reviewModeInfo = useAtomValue(reviewModeInfoAtom)
   const isReviewMode = useAtomValue(isReviewModeAtom)
-
-  useEffect(() => {
-    // 检测用户设备
-    if (!IsDesktop()) {
-      setTimeout(() => {
-        alert(
-          ' Qwerty Learner 目的为提高键盘工作者的英语输入效率，目前暂未适配移动端，希望您使用桌面端浏览器访问。如您使用的是 Ipad 等平板电脑设备，可以使用外接键盘使用本软件。',
-        )
-      }, 500)
-    }
-  }, [])
 
   // 在组件挂载和currentDictId改变时，检查当前字典是否存在，如果不存在，则将其重置为默认值
   useEffect(() => {
@@ -136,20 +125,20 @@ const App: React.FC = () => {
           <PronunciationSwitcher />
           <Switcher />
           <StartButton isLoading={isLoading} />
-          <Tooltip content="跳过该词">
+          <Tooltip content="Skip this word">
             <button
               className={`${
                 state.isShowSkip ? 'bg-orange-400' : 'invisible w-0 bg-gray-300 px-0 opacity-0'
-              } my-btn-primary transition-all duration-300 `}
+              } my-btn-primary min-h-11 px-3 text-sm transition-all duration-300 sm:min-h-0 sm:text-lg`}
               onClick={skipWord}
             >
               Skip
             </button>
           </Tooltip>
         </Header>
-        <div className="container mx-auto flex h-full flex-1 flex-col items-center justify-center pb-5">
-          <div className="container relative mx-auto flex h-full flex-col items-center">
-            <div className="container flex flex-grow items-center justify-center">
+        <div className="container mx-auto flex h-full min-h-0 w-full flex-1 flex-col items-center justify-center px-3 pb-3 sm:px-4 sm:pb-5">
+          <div className="container relative mx-auto flex h-full min-h-0 w-full flex-col items-center">
+            <div className="container flex min-h-0 flex-grow items-center justify-center">
               {isLoading ? (
                 <div className="flex flex-col items-center justify-center ">
                   <div

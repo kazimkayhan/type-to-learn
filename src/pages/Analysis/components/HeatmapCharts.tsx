@@ -1,3 +1,4 @@
+import useWindowSize from '@/hooks/useWindowSize'
 import { isOpenDarkModeAtom } from '@/store'
 import { useAtom } from 'jotai'
 import type { FC } from 'react'
@@ -14,16 +15,18 @@ interface HeatmapChartsProps {
 
 const HeatmapCharts: FC<HeatmapChartsProps> = ({ data, title }) => {
   const [isOpenDarkMode] = useAtom(isOpenDarkModeAtom)
+  const { width } = useWindowSize()
+  const isNarrow = width < 768
 
   return (
-    <div className="flex flex-col items-center justify-center">
-      <div className="text-center text-xl font-bold text-gray-600	dark:text-white">{title}</div>
+    <div className="flex w-full min-w-0 flex-col items-center justify-center overflow-x-auto">
+      <div className="px-2 text-center text-base font-bold text-gray-600 dark:text-white sm:text-xl">{title}</div>
       <ActivityCalendar
-        fontSize={20}
-        blockSize={22}
-        blockRadius={7}
+        fontSize={isNarrow ? 12 : 20}
+        blockSize={isNarrow ? 10 : 22}
+        blockRadius={isNarrow ? 3 : 7}
         style={{
-          padding: '40px 60px 20px 100px',
+          padding: isNarrow ? '12px 8px 8px' : '40px 60px 20px 100px',
           color: isOpenDarkMode ? '#fff' : '#000',
         }}
         colorScheme={isOpenDarkMode ? 'dark' : 'light'}
@@ -35,17 +38,17 @@ const HeatmapCharts: FC<HeatmapChartsProps> = ({ data, title }) => {
         renderBlock={(block, activity) =>
           React.cloneElement(block, {
             'data-tooltip-id': 'react-tooltip',
-            'data-tooltip-html': `${activity.date} 练习 ${activity.count} 次`,
+            'data-tooltip-html': `${activity.date}: ${activity.count} session${activity.count === 1 ? '' : 's'}`,
           })
         }
-        showWeekdayLabels={true}
+        showWeekdayLabels={!isNarrow}
         labels={{
-          months: ['一月', '二月', '三月', '四月', '五月', '六月', '七月', '八月', '九月', '十月', '十一月', '十二月'],
-          weekdays: ['日', '一', '二', '三', '四', '五', '六'],
-          totalCount: '过去一年总计 {{count}} 次',
+          months: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'],
+          weekdays: ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'],
+          totalCount: '{{count}} sessions in the past year',
           legend: {
-            less: '少',
-            more: '多',
+            less: 'Less',
+            more: 'More',
           },
         }}
       />

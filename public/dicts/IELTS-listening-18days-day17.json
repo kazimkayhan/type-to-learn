@@ -1,186 +1,356 @@
 [
     {
         "name": "compose",
-        "trans": ["构成"]
+        "trans": [
+            "v. to make up plans or basic details for",
+            "v. to put together out of existing material",
+            "v. to produce a literary work"
+        ]
     },
     {
         "name": "trace",
-        "trans": ["痕迹"]
+        "trans": [
+            "v. read with difficulty",
+            "v. follow, discover, or ascertain the course of development of something",
+            "v. make a mark or lines on a surface"
+        ]
     },
     {
         "name": "mineral",
-        "trans": ["矿物"]
+        "trans": [
+            "adj. composed of matter other than plant or animal",
+            "adj. relating to minerals",
+            "n. solid homogeneous inorganic substances occurring in nature having a definite chemical composition"
+        ]
     },
     {
         "name": "metabolism",
-        "trans": ["新陈代谢"]
+        "trans": [
+            "n. the organic processes (in a cell or organism) that are necessary for life",
+            "n. the marked and rapid transformation of a larva into an adult that occurs in some animals"
+        ]
     },
     {
         "name": "deserve",
-        "trans": ["应得"]
+        "trans": [
+            "v. be worthy or deserving"
+        ]
     },
     {
         "name": "maintenance",
-        "trans": ["维护"]
+        "trans": [
+            "n. activity involved in maintaining something in good working order",
+            "n. the unauthorized interference in a legal action by a person having no interest in it (as by helping one party with money or otherwise to continue the action) so as to obstruct justice or promote unnecessary litigation or unsettle the peace of the community",
+            "n. the act of sustaining life by food or providing a means of subsistence"
+        ]
     },
     {
         "name": "intrigue",
-        "trans": ["激起"]
+        "trans": [
+            "v. form intrigues (for) in an underhand manner",
+            "v. cause to be interested or curious",
+            "n. a crafty and involved plot to achieve your (usually sinister) ends"
+        ]
     },
     {
         "name": "poison",
-        "trans": ["毒"]
+        "trans": [
+            "v. administer poison to",
+            "v. add poison to",
+            "v. kill with poison"
+        ]
     },
     {
         "name": "decline",
-        "trans": ["下降"]
+        "trans": [
+            "v. grow worse",
+            "v. grow smaller",
+            "v. show unwillingness towards"
+        ]
     },
     {
         "name": "aging",
-        "trans": ["老化"]
+        "trans": [
+            "adj. growing old",
+            "n. the organic process of growing older and showing the effects of increasing age",
+            "n. acquiring desirable qualities by being left undisturbed for some time"
+        ]
     },
     {
         "name": "ocean",
-        "trans": ["大洋"]
+        "trans": [
+            "n. a large body of water constituting a principal part of the hydrosphere",
+            "n. anything apparently limitless in quantity or volume"
+        ]
     },
     {
         "name": "marriage",
-        "trans": ["结婚"]
+        "trans": [
+            "n. the act of marrying",
+            "n. two people who are married to each other",
+            "n. the state of being a married couple voluntarily joined for life or until divorce"
+        ]
     },
     {
         "name": "curve",
-        "trans": ["曲线"]
+        "trans": [
+            "v. to bend or cause to bend",
+            "v. to form a curl, curve, or kink",
+            "v. to turn sharply"
+        ]
     },
     {
         "name": "constant",
-        "trans": ["不变的"]
+        "trans": [
+            "adj. steadfast in purpose or devotion or affection",
+            "adj. uninterrupted in time and indefinitely long continuing",
+            "adj. unvarying in nature"
+        ]
     },
     {
         "name": "muscle",
-        "trans": ["肌肉"]
+        "trans": [
+            "v. make one's way by force",
+            "n. possessing muscular strength",
+            "n. authority or power or force (especially when used in a coercive way)"
+        ]
     },
     {
         "name": "immune",
-        "trans": ["免疫的"]
+        "trans": [
+            "adj. (usually followed by `to') not affected by a given influence",
+            "adj. relating to or conferring immunity (to disease or infection)",
+            "adj. secure against"
+        ]
     },
     {
         "name": "spider",
-        "trans": ["蜘蛛"]
+        "trans": [
+            "n. predatory arachnid with eight legs, two poison fangs, two feelers, and usually two silk-spinning organs at the back end of the body",
+            "n. a skillet made of cast iron",
+            "n. a computer program that prowls the internet looking for publicly accessible resources that can be added to a database"
+        ]
     },
     {
         "name": "extensive",
-        "trans": ["广泛的"]
+        "trans": [
+            "adj. broad in scope or content",
+            "adj. large in spatial extent or range or scope or quantity",
+            "adj. of agriculture"
+        ]
     },
     {
         "name": "pottery",
-        "trans": ["陶瓷"]
+        "trans": [
+            "n. the craft of making earthenware",
+            "n. ceramic ware made from clay and baked in a kiln",
+            "n. a workshop where clayware is made"
+        ]
     },
     {
         "name": "enrollment",
-        "trans": ["登记"]
+        "trans": [
+            "n. the act of enrolling",
+            "n. the body of people who register or enroll at the same time"
+        ]
     },
     {
         "name": "oxygen",
-        "trans": ["氧气"]
+        "trans": [
+            "n. a nonmetallic bivalent element that is normally a colorless odorless tasteless nonflammable diatomic gas"
+        ]
     },
     {
         "name": "shark",
-        "trans": ["鲨鱼"]
+        "trans": [
+            "v. hunt shark",
+            "v. play the shark",
+            "n. any of numerous elongate mostly marine carnivorous fishes with heterocercal caudal fins and tough skin covered with small toothlike scales"
+        ]
     },
     {
         "name": "straightforward",
-        "trans": ["简单的"]
+        "trans": [
+            "adj. pointed directly ahead",
+            "adj. without evasion or compromise",
+            "adj. free from ambiguity"
+        ]
     },
     {
         "name": "injury",
-        "trans": ["伤害"]
+        "trans": [
+            "n. wrongdoing that violates another's rights and is unjustly inflicted",
+            "n. an act that causes someone or something to receive physical damage",
+            "n. an accident that results in physical damage or hurt"
+        ]
     },
     {
         "name": "corporate",
-        "trans": ["公司的"]
+        "trans": [
+            "adj. possessing or existing in bodily form",
+            "adj. organized and maintained as a legal corporation",
+            "adj. done by or characteristic of individuals acting together"
+        ]
     },
     {
         "name": "attack",
-        "trans": ["攻击"]
+        "trans": [
+            "v. to begin to injure",
+            "v. to set to work upon",
+            "v. to attack in speech or writing"
+        ]
     },
     {
         "name": "reserve",
-        "trans": ["储备"]
+        "trans": [
+            "v. give or assign a resource to a particular person or cause",
+            "v. obtain or arrange in advance",
+            "v. hold back or set aside, especially for future use or contingency"
+        ]
     },
     {
         "name": "plough",
-        "trans": ["耕地"]
+        "trans": [
+            "v. to break and turn over earth especially with a plow",
+            "v. move in a way resembling that of a plow cutting into or going through the soil",
+            "n. a farm tool having one or more heavy blades to break the soil and cut a furrow prior to sowing"
+        ]
     },
     {
         "name": "commodity",
-        "trans": ["商品"]
+        "trans": [
+            "n. articles of commerce"
+        ]
     },
     {
         "name": "transportation",
-        "trans": ["运输"]
+        "trans": [
+            "n. the act of expelling a person from their native land",
+            "n. the act of moving something from one location to another",
+            "n. the commercial enterprise of moving goods and materials"
+        ]
     },
     {
         "name": "operational",
-        "trans": ["合作"]
+        "trans": [
+            "adj. being in effect or operation",
+            "adj. (military) of or intended for or involved in military operations",
+            "adj. fit or ready for use or service"
+        ]
     },
     {
         "name": "aerial",
-        "trans": ["空中的"]
+        "trans": [
+            "adj. existing or living or growing or operating in the air",
+            "adj. characterized by lightness and insubstantiality",
+            "n. a pass to a receiver downfield from the passer"
+        ]
     },
     {
         "name": "barrier",
-        "trans": ["障碍物"]
+        "trans": [
+            "n. a structure or object that impedes free movement",
+            "n. any condition that makes it difficult to make progress or to achieve an objective",
+            "n. anything serving to maintain separation by obstructing vision or access"
+        ]
     },
     {
         "name": "fertilizer",
-        "trans": ["肥料"]
+        "trans": [
+            "n. any substance such as manure or a mixture of nitrates used to make soil more fertile"
+        ]
     },
     {
         "name": "yield",
-        "trans": ["产出"]
+        "trans": [
+            "v. end resistance, as under pressure or force",
+            "v. consent reluctantly",
+            "v. be willing to concede"
+        ]
     },
     {
         "name": "shellfish",
-        "trans": ["甲壳类动物"]
+        "trans": [
+            "n. invertebrate having a soft unsegmented body usually enclosed in a shell",
+            "n. meat of edible aquatic invertebrate with a shell (especially a mollusk or crustacean)"
+        ]
     },
     {
         "name": "nomadic",
-        "trans": ["游动的"]
+        "trans": [
+            "adj. migratory"
+        ]
     },
     {
         "name": "grain",
-        "trans": ["谷类"]
+        "trans": [
+            "v. become granular",
+            "v. form into grains",
+            "v. paint (a surface) to make it look like stone or wood"
+        ]
     },
     {
         "name": "pedal",
-        "trans": ["踏板"]
+        "trans": [
+            "v. operate the pedals on a keyboard instrument",
+            "v. ride a bicycle",
+            "adj. of or relating to the feet"
+        ]
     },
     {
         "name": "stomach",
-        "trans": ["胃"]
+        "trans": [
+            "v. put up with something or somebody unpleasant",
+            "v. bear to eat",
+            "n. an enlarged and muscular saclike organ of the alimentary canal"
+        ]
     },
     {
         "name": "peer",
-        "trans": ["同龄人"]
+        "trans": [
+            "v. look searchingly",
+            "n. a person who is of equal standing with another in a group",
+            "n. a nobleman (duke or marquis or earl or viscount or baron) who is a member of the British peerage"
+        ]
     },
     {
         "name": "confusion",
-        "trans": ["困惑"]
+        "trans": [
+            "n. a mistake that results from taking one thing to be another",
+            "n. an act causing a disorderly combination of elements with identities lost and distinctions blended",
+            "n. a mental state characterized by a lack of clear and orderly thought and behavior"
+        ]
     },
     {
         "name": "drum",
-        "trans": ["鼓"]
+        "trans": [
+            "v. study intensively, as before an exam",
+            "v. play a percussion instrument",
+            "v. make a rhythmic sound"
+        ]
     },
     {
         "name": "intensity",
-        "trans": ["强度"]
+        "trans": [
+            "n. chromatic purity: freedom from dilution with white and hence vivid in hue",
+            "n. the magnitude of sound (usually in a specified direction)",
+            "n. high level or degree"
+        ]
     },
     {
         "name": "fade",
-        "trans": ["逐渐消失"]
+        "trans": [
+            "v. become feeble",
+            "v. become less clearly visible or distinguishable",
+            "v. disappear gradually"
+        ]
     },
     {
         "name": "pirate",
-        "trans": ["海盗"]
+        "trans": [
+            "v. take arbitrarily or by force",
+            "v. copy illegally",
+            "n. a ship that is manned by pirates"
+        ]
     }
 ]

@@ -1,1098 +1,2066 @@
 [
-{
-    "name": "different",
-    "trans": ["adj. 不平常；与众不同的；有区别的"]
-},
-{
-    "name": "notice",
-    "trans": ["v. 注意", "n. 通知；注意"]
-},
-{
-    "name": "swan",
-    "trans": ["n. 天鹅"]
-},
-{
-    "name": "partner",
-    "trans": ["n. 搭配；同伴"]
-},
-{
-    "name": "slim",
-    "trans": ["adj. 苗条的；纤细的"]
-},
-{
-    "name": "fat",
-    "trans": ["adj. 肥的；胖的"]
-},
-{
-    "name": "curly",
-    "trans": ["adj. 卷曲状的"]
-},
-{
-    "name": "straight",
-    "trans": ["adj. 直的"]
-},
-{
-    "name": "T-shirt",
-    "trans": ["n. T恤衫；短袖汗衫"]
-},
-{
-    "name": "jeans",
-    "trans": ["n. (pl.) 牛仔裤"]
-},
-{
-    "name": "size",
-    "trans": ["n. 大小；尺码"]
-},
-{
-    "name": "shape",
-    "trans": ["n. 形状；外形"]
-},
-{
-    "name": "skin",
-    "trans": ["n. 皮肤"]
-},
-{
-    "name": "special",
-    "trans": ["adj. 特殊的；特别的"]
-},
-{
-    "name": "number",
-    "trans": ["n. 编号；数字；数量"]
-},
-{
-    "name": "than",
-    "trans": ["prep. 比"]
-},
-{
-    "name": "fair",
-    "trans": ["adj. （头发或皮肤）浅色的；白皙的"]
-},
-{
-    "name": "talent",
-    "trans": ["n. 天才；天赋"]
-},
-{
-    "name": "programme",
-    "trans": ["n. 节目单；计划；方案；活动安排"]
-},
-{
-    "name": "hall",
-    "trans": ["n. 礼堂；大厅"]
-},
-{
-    "name": "butterfly",
-    "trans": ["n. 蝴蝶"]
-},
-{
-    "name": "violin",
-    "trans": ["n. 小提琴"]
-},
-{
-    "name": "host",
-    "trans": ["n. 节目主持人"]
-},
-{
-    "name": "sound",
-    "trans": ["v. 听起来", "n. 声音"]
-},
-{
-    "name": "excite",
-    "trans": ["v. 使激动；使兴奋"]
-},
-{
-    "name": "exciting",
-    "trans": ["adj. 令人兴奋的；令人激动的"]
-},
-{
-    "name": "anything",
-    "trans": ["pron. 任何东西；任何事物"]
-},
-{
-    "name": "someone",
-    "trans": ["pron. 某人"]
-},
-{
-    "name": "drum",
-    "trans": ["v. 打鼓", "n. 鼓"]
-},
-{
-    "name": "voice",
-    "trans": ["n. 嗓音；说话声；歌唱声"]
-},
-{
-    "name": "person",
-    "trans": ["n. 人；个人"]
-},
-{
-    "name": "hobby",
-    "trans": ["n. 业余爱好"]
-},
-{
-    "name": "personality",
-    "trans": ["n. 性格；个性"]
-},
-{
-    "name": "ability",
-    "trans": ["n. 才能；本领；能力"]
-},
-{
-    "name": "easy-going",
-    "trans": ["adj. 随和的"]
-},
-{
-    "name": "accept",
-    "trans": ["v. 接受；同意"]
-},
-{
-    "name": "peacock",
-    "trans": ["n. 孔雀"]
-},
-{
-    "name": "wise",
-    "trans": ["adj. 充满智慧的；明智的"]
-},
-{
-    "name": "nightingale",
-    "trans": ["n. 夜莺"]
-},
-{
-    "name": "without",
-    "trans": ["prep. 没有；缺乏"]
-},
-{
-    "name": "doubt",
-    "trans": ["n. 疑惑；疑问"]
-},
-{
-    "name": "laugh",
-    "trans": ["v. 笑；发笑"]
-},
-{
-    "name": "laugh at",
-    "trans": ["嘲笑"]
-},
-{
-    "name": "smile",
-    "trans": ["v. 微笑；笑"]
-},
-{
-    "name": "feather",
-    "trans": ["n. 羽毛"]
-},
-{
-    "name": "colourful",
-    "trans": ["adj. 颜色鲜艳的；五彩缤纷的"]
-},
-{
-    "name": "future",
-    "trans": ["n. 将来；未来"]
-},
-{
-    "name": "pat",
-    "trans": ["v. 轻拍"]
-},
-{
-    "name": "skill",
-    "trans": ["n. 技巧；技艺"]
-},
-{
-    "name": "unique",
-    "trans": ["adj. 唯一的；独一无二的"]
-},
-{
-    "name": "mean",
-    "trans": ["v. 意思是"]
-},
-{
-    "name": "noticeboard",
-    "trans": ["n. 布告栏；布告板"]
-},
-{
-    "name": "would",
-    "trans": [" v. （客气地建议或邀请）将；将会"]
-},
-{
-  "name": "rule",
-  "trans": ["n. 规则；规章"]
-},
-{
-  "name": "underground",
-  "trans": ["n. 地铁；地下铁路系统"]
-},
-{
-  "name": "lean",
-  "trans": ["v. 倚靠；倾斜"]
-},
-{
-  "name": "litter",
-  "trans": ["v. 乱扔", "n. 垃圾；废弃物"]
-},
-{
-  "name": "gap",
-  "trans": ["n. 缺口；间隙"]
-},
-{
-  "name": "else",
-  "trans": ["adv. 其他的；别的"]
-},
-{
-  "name": "escalator",
-  "trans": ["n. 自动扶梯"]
-},
-{
-  "name": "station",
-  "trans": ["n. 车站；（服务）台"]
-},
-{
-  "name": "announcement",
-  "trans": ["n. 公告；通告"]
-},
-{
-  "name": "passenger",
-  "trans": ["n. 乘客；旅客"]
-},
-{
-  "name": "lift",
-  "trans": ["n. 电梯；升降机"]
-},
-{
-  "name": "platform",
-  "trans": ["n. 站台"]
-},
-{
-  "name": "line",
-  "trans": ["n. 线；线条"]
-},
-{
-  "name": "rush",
-  "trans": ["v. 迅速移动；急促"]
-},
-{
-  "name": "smoke",
-  "trans": ["v. 吸烟；抽烟"]
-},
-{
-  "name": "seat",
-  "trans": ["n. 座位"]
-},
-{
-  "name": "anyone",
-  "trans": ["pron. 任何人"]
-},
-{
-  "name": "leave",
-  "trans": ["v. 留下；离开"]
-},
-{
-  "name": "rubbish",
-  "trans": ["n. 垃圾；废弃物"]
-},
-{
-  "name": "glove",
-  "trans": ["n. 手套"]
-},
-{
-  "name": "broken",
-  "trans": ["adj. 破损的；伤残的"]
-},
-{
-  "name": "container",
-  "trans": ["n. 容器"]
-},
-{
-  "name": "ready",
-  "trans": ["adj. 准备好；准备完毕"]
-},
-{
-  "name": "follow",
-  "trans": ["v. 遵循；跟随"]
-},
-{
-  "name": "stay",
-  "trans": ["v. 保持；继续是"]
-},
-{
-  "name": "grow",
-  "trans": ["v. 逐渐变得；逐渐成为"]
-},
-{
-  "name": "important",
-  "trans": ["adj. 重要的；有重大影响的"]
-},
-{
-  "name": "take turns",
-  "trans": ["轮流；依次"]
-},
-{
-  "name": "hurrah",
-  "trans": ["excl. 万岁；好哇"]
-},
-{
-  "name": "model",
-  "trans": ["n. 模型"]
-},
-{
-  "name": "pay",
-  "trans": ["v. （与某些名词结合使用，表示将要做或将付出某事物）"]
-},
-{
-  "name": "attention",
-  "trans": ["n. 注意；关注"]
-},
-{
-  "name": "pay attention to",
-  "trans": ["（对某人或某事）注意"]
-},
-{
-  "name": "dream",
-  "trans": ["n. 梦；梦想"]
-},
-{
-  "name": "outing",
-  "trans": ["n. （集体）出外游玩（或学习）；远足"]
-},
-{
-  "name": "gate",
-  "trans": ["n. 大门"]
-},
-{
-  "name": "festival",
-  "trans": ["n. 节日"]
-},
-{
-  "name": "across",
-  "trans": ["prep.&adv. 横过；穿过"]
-},
-{
-  "name": "culture",
-  "trans": ["n. 文化"]
-},
-{
-  "name": "luck",
-  "trans": ["n. 机遇；命运；运气"]
-},
-{
-  "name": "spring roll",
-  "trans": ["n. 春卷"]
-},
-{
-  "name": "porridge",
-  "trans": ["n. 粥"]
-},
-{
-  "name": "lucky",
-  "trans": ["adj. 有好运的；运气好的；幸运的"]
-},
-{
-  "name": "click",
-  "trans": ["v. (在计算机屏幕上用鼠标)点击，单击"]
-},
-{
-  "name": "eve",
-  "trans": ["n. 前夜；前夕"]
-},
-{
-  "name": "tradition",
-  "trans": ["n. 传统"]
-},
-{
-  "name": "country",
-  "trans": ["n. 国家"]
-},
-{
-  "name": "wealth",
-  "trans": ["n. 钱财；财富"]
-},
-{
-  "name": "hope",
-  "trans": ["v. 希望；期望(某事发生)"]
-},
-{
-  "name": "pass",
-  "trans": ["v. 给；递；传递"]
-},
-{
-  "name": "pass on",
-  "trans": ["传递；转交；(用后)递给，传给"]
-},
-{
-  "name": "midnight",
-  "trans": ["n. 午夜"]
-},
-{
-  "name": "international",
-  "trans": ["adj. 国际的"]
-},
-{
-  "name": "event",
-  "trans": ["n. 公开活动；发生的事情"]
-},
-{
-  "name": "square",
-  "trans": ["n. 广场"]
-},
-{
-  "name": "symphony",
-  "trans": ["n. 交响乐；交响曲"]
-},
-{
-  "name": "theatre",
-  "trans": ["n. 戏院；剧场；露天剧场 (AmE theater)"]
-},
-{
-  "name": "firework",
-  "trans": ["n. 烟火；烟花"]
-},
-{
-  "name": "concert",
-  "trans": ["n. 音乐会；演奏会"]
-},
-{
-  "name": "prince",
-  "trans": ["n. 王子"]
-},
-{
-  "name": "check",
-  "trans": ["v. 查明；查看；核实；弄确实"]
-},
-{
-  "name": "check out",
-  "trans": ["察看，观察(有趣或有吸引力的人或事物)"]
-},
-{
-  "name": "information",
-  "trans": ["n. 信息；消息；情报；资料；资讯"]
-},
-{
-  "name": "since",
-  "trans": ["prep. 自......以来；自......以后"]
-},
-{
-  "name": "performance",
-  "trans": ["n. 表演"]
-},
-{
-  "name": "really",
-  "trans": ["adv. 事实上；真正地"]
-},
-{
-  "name": "musical",
-  "trans": ["adj. 音乐的", "n. 音乐剧"]
-},
-{
-  "name": "perform",
-  "trans": ["v. 表演；演出"]
-},
-{
-  "name": "invite",
-  "trans": ["v. 邀请"]
-},
-{
-  "name": "celebrate",
-  "trans": ["v. 庆祝；庆贺"]
-},
-{
-  "name": "calendar",
-  "trans": ["n. 日历；历法"]
-},
-{
-  "name": "lunar calendar",
-  "trans": ["农历"]
-},
-{
-  "name": "reunion",
-  "trans": ["n. 重逢；团聚"]
-},
-{
-  "name": "full",
-  "trans": ["adj. 满的"]
-},
-{
-  "name": "post",
-  "trans": ["v. 发帖；寄；邮寄"]
-},
-{
-  "name": "mostly",
-  "trans": ["adv. 主要地；一般地；通常"]
-},
-{
-  "name": "tonight",
-  "trans": ["adv. 今晚"]
-},
-{
-  "name": "harvest",
-  "trans": ["n. 收获；收获季节"]
-},
-{
-  "name": "traditional",
-  "trans": ["adj. 传统的；习俗的"]
-},
-{
-  "name": "nut",
-  "trans": ["n. 坚果"]
-},
-{
-  "name": "sugar",
-  "trans": ["n. 食糖"]
-},
-{
-  "name": "experience",
-  "trans": ["n. 经历；经验"]
-},
-{
-  "name": "meal",
-  "trans": ["n. 早(或午、晚)餐；一顿饭"]
-},
-{
-  "name": "count",
-  "trans": ["v. 数数；计算"]
-},
-{
-  "name": "search",
-  "trans": ["v. 搜索；搜寻；搜查；查找"]
-},
-{
-  "name": "airport",
-  "trans": ["n. 机场"]
-},
-{
-  "name": "location",
-  "trans": ["n. 地方；地点；位置"]
-},
-{
-  "name": "capital",
-  "trans": ["n. 首都；国都"]
-},
-{
-  "name": "wet",
-  "trans": ["adj. 湿的；潮湿的"]
-},
-{
-  "name": "foggy",
-  "trans": ["adj. 有雾的"]
-},
-{
-  "name": "north",
-  "trans": ["adv. 向北；朝北", "n. 北；北方"]
-},
-{
-  "name": "quite",
-  "trans": ["adv. 相当；非常"]
-},
-{
-  "name": "temperature",
-  "trans": ["n. 温度；气温"]
-},
-{
-  "name": "drop",
-  "trans": ["v. 降低；减少"]
-},
-{
-  "name": "degree",
-  "trans": ["n. 度；度数"]
-},
-{
-  "name": "Celsius",
-  "trans": ["adj. 摄氏的"]
-},
-{
-  "name": "dry",
-  "trans": ["adj. 干的；干燥的"]
-},
-{
-  "name": "south",
-  "trans": ["n. 南部；南方", "adv. 向南；朝南"]
-},
-{
-  "name": "still",
-  "trans": ["adv. 还；仍然"]
-},
-{
-  "name": "wind",
-  "trans": ["n. 风"]
-},
-{
-  "name": "cloud",
-  "trans": ["n. 云；云朵"]
-},
-{
-  "name": "fog",
-  "trans": ["n. 雾"]
-},
-{
-  "name": "skate",
-  "trans": ["v. 滑冰；溜冰"]
-},
-{
-  "name": "picnic",
-  "trans": ["n. 野餐"]
-},
-{
-  "name": "sunshine",
-  "trans": ["n. 阳光；日光"]
-},
-{
-  "name": "hate",
-  "trans": ["v. 讨厌；憎恶"]
-},
-{
-  "name": "extreme",
-  "trans": ["adj. 极度的；极大的"]
-},
-{
-  "name": "news",
-  "trans": ["n. 媒体对重要事情的报道；新闻"]
-},
-{
-  "name": "heat",
-  "trans": ["n. 热；高温"]
-},
-{
-  "name": "wave",
-  "trans": ["n. 海浪；波浪"]
-},
-{
-  "name": "heatwave",
-  "trans": ["n. 酷热期；热浪"]
-},
-{
-  "name": "hit",
-  "trans": ["v. 达到(某水平)"]
-},
-{
-  "name": "several",
-  "trans": ["det.&pron. 几个；数个"]
-},
-{
-  "name": "break",
-  "trans": ["v. 打破；破；裂；碎"]
-},
-{
-  "name": "record",
-  "trans": ["n. 纪录；记录", "v. 记录"]
-},
-{
-  "name": "reach",
-  "trans": ["v. 增加到；达到"]
-},
-{
-  "name": "break out",
-  "trans": ["突然开始；爆发"]
-},
-{
-  "name": "area",
-  "trans": ["n. (地方、城市、国家、世界的)地区，地域"]
-},
-{
-  "name": "runway",
-  "trans": ["n. 飞机跑道"]
-},
-{
-  "name": "action",
-  "trans": ["n. 行动；行为过程"]
-},
-{
-  "name": "pupil",
-  "trans": ["n. 学生；小学生"]
-},
-{
-  "name": "uniform",
-  "trans": ["n. 制服；校服"]
-},
-{
-  "name": "indoors",
-  "trans": ["adv. 在室内"]
-},
-{
-  "name": "leaf",
-  "trans": ["n. 叶子 (pl.leaves)"]
-},
-{
-  "name": "fact",
-  "trans": ["n. 现实；实际情况"]
-},
-{
-  "name": "in fact",
-  "trans": ["事实上"]
-},
-{
-  "name": "average",
-  "trans": ["adj. 平均的"]
-},
-{
-  "name": "increase",
-  "trans": ["v. 增长；增加"]
-},
-{
-  "name": "coal",
-  "trans": ["n. 煤"]
-},
-{
-  "name": "cause",
-  "trans": ["v. 引起；使发生", "n. 原因；事业"]
-},
-{
-  "name": "worse",
-  "trans": ["adj. (bad的比较级)更差的；更糟的"]
-},
-{
-  "name": "soon",
-  "trans": ["adv. 很快；马上；不久"]
-},
-{
-  "name": "regards",
-  "trans": ["n. (pl.)致意；问候"]
-},
-{
-  "name": "neighbourhood",
-  "trans": ["n. 街区；邻近的地方 (AmE neighborhood)"]
-},
-{
-  "name": "build",
-  "trans": ["v. 创建；建造"]
-},
-{
-  "name": "reduce",
-  "trans": ["v. 减少；缩小"]
-},
-{
-  "name": "reuse",
-  "trans": ["v. 重复使用"]
-},
-{
-  "name": "recycle",
-  "trans": ["v. 回收利用"]
-},
-{
-  "name": "bottle",
-  "trans": ["n. 瓶子"]
-},
-{
-  "name": "repair",
-  "trans": ["v. 修理；修补"]
-},
-{
-  "name": "item",
-  "trans": ["n. 一件物品"]
-},
-{
-  "name": "sort",
-  "trans": ["v. 整理；把......分类"]
-},
-{
-  "name": "cloth",
-  "trans": ["n. 织物；布料"]
-},
-{
-  "name": "pick",
-  "trans": ["v. 拿起；挑选；选择"]
-},
-{
-  "name": "pick up",
-  "trans": ["捡起；拾起"]
-},
-{
-  "name": "plastic",
-  "trans": ["adj. 塑料的", "n. 塑料"]
-},
-{
-  "name": "waste",
-  "trans": ["n. 废物；垃圾", "v. 浪费；滥用"]
-},
-{
-  "name": "electricity",
-  "trans": ["n. 电；电能"]
-},
-{
-  "name": "tap",
-  "trans": ["n. 水龙头"]
-},
-{
-  "name": "brush",
-  "trans": ["v. (用刷子)刷净，刷亮，刷平顺"]
-},
-{
-  "name": "tooth",
-  "trans": ["n. 牙；齿 (pl. teeth)"]
-},
-{
-  "name": "bin",
-  "trans": ["n. 垃圾箱"]
-},
-{
-  "name": "save",
-  "trans": ["v. 节省；节约；救"]
-},
-{
-  "name": "mix",
-  "trans": ["v. 混合；融合"]
-},
-{
-  "name": "reusable",
-  "trans": ["adj. 可重复使用的；可再次使用的"]
-},
-{
-  "name": "store",
-  "trans": ["n. 商店；店铺"]
-},
-{
-  "name": "even",
-  "trans": ["adv. (强调出乎意料)甚至，连，即使"]
-},
-{
-  "name": "huge",
-  "trans": ["adj. 巨大的；极多的；程度高的"]
-},
-{
-  "name": "government",
-  "trans": ["n. 政府；内阁"]
-},
-{
-  "name": "encourage",
-  "trans": ["v. 支持；鼓励；激励"]
-},
-{
-  "name": "public",
-  "trans": ["adj. 公共的；公立的"]
-},
-{
-  "name": "transport",
-  "trans": ["n. 交通车辆；旅行方式"]
-},
-{
-  "name": "environmental",
-  "trans": ["adj. 环境的"]
-},
-{
-  "name": "electric",
-  "trans": ["adj. 电的；电动的"]
-},
-{
-  "name": "building",
-  "trans": ["n. 建筑物；房子；楼房"]
-},
-{
-  "name": "low",
-  "trans": ["adj. 低于平均水平的；低的；矮的"]
-},
-{
-  "name": "energy",
-  "trans": ["n. 能源"]
-},
-{
-  "name": "low-energy",
-  "trans": ["adj. 低能耗的"]
-},
-{
-  "name": "however",
-  "trans": ["adv. 然而"]
-},
-{
-  "name": "alone",
-  "trans": ["adv. 独自"]
-},
-{
-  "name": "planet",
-  "trans": ["n. 行星"]
-},
-{
-  "name": "mankind",
-  "trans": ["n. 人类"]
-},
-{
-  "name": "daily",
-  "trans": ["adj. 每日的；日常的"]
-},
-{
-  "name": "changer",
-  "trans": ["n. 改变者；改进者"]
-},
-{
-  "name": "scientist",
-  "trans": ["n. 科学家"]
-},
-{
-  "name": "change",
-  "trans": ["v.&n. 改变；变化"]
-},
-{
-  "name": "publish",
-  "trans": ["v. 出版；发行"]
-},
-{
-  "name": "theory",
-  "trans": ["n. 学说；理论"]
-},
-{
-  "name": "invent",
-  "trans": ["v. 发明；创造"]
-},
-{
-  "name": "inexpensive",
-  "trans": ["adj. 廉价的；不昂贵的"]
-},
-{
-  "name": "bulb",
-  "trans": ["n. 电灯泡"]
-},
-{
-  "name": "discover",
-  "trans": ["v. 发现"]
-},
-{
-  "name": "general",
-  "trans": ["adj. 全体的；普遍的；总的"]
-},
-{
-  "name": "smart",
-  "trans": ["adj. 聪明的；机敏的"]
-},
-{
-  "name": "inventor",
-  "trans": ["n. 发明者；发明家"]
-},
-{
-  "name": "real",
-  "trans": ["adj. 真正的"]
-},
-{
-  "name": "power",
-  "trans": ["n. 电；电力供应"]
-},
-{
-  "name": "power station",
-  "trans": ["发电站；发电厂"]
-},
-{
-  "name": "die",
-  "trans": ["v. 死亡"]
-},
-{
-  "name": "successful",
-  "trans": ["adj. 达到目的的；有成效的；获得成功的"]
-},
-{
-  "name": "invention",
-  "trans": ["n. 发明；创造"]
-},
-{
-  "name": "saver",
-  "trans": ["n. 救助者；救星"]
-},
-{
-  "name": "medicine",
-  "trans": ["n. 医学；药"]
-},
-{
-  "name": "Traditional Chinese Medicine (TCM)",
-  "trans": ["中药"]
-},
-{
-  "name": "spend",
-  "trans": ["v. 花(时间);度过"]
-},
-{
-  "name": "sick",
-  "trans": ["adj. 生病的；有病的"]
-},
-{
-  "name": "penicillin",
-  "trans": ["n. 青霉素；盘尼西林"]
-},
-{
-  "name": "soldier",
-  "trans": ["n. 军人；士兵"]
-},
-{
-  "name": "lose",
-  "trans": ["v. 遗失；丢失"]
-},
-{
-  "name": "admire",
-  "trans": ["v. 钦佩；赞赏；仰慕"]
-},
-{
-  "name": "herb",
-  "trans": ["n. 药草；香草"]
-},
-{
-  "name": "pardon",
-  "trans": ["excl. 请再说一遍"]
-},
-{
-  "name": "pain",
-  "trans": ["n. 疼痛"]
-},
-{
-  "name": "beg",
-  "trans": ["v. 乞讨；乞求"]
-},
-{
-  "name": "beg your pardon",
-  "trans": ["请原谅；请再说一遍"]
-},
-{
-  "name": "storyteller",
-  "trans": ["n. 讲故事的人"]
-},
-{
-  "name": "poem",
-  "trans": ["n. 诗"]
-},
-{
-  "name": "act",
-  "trans": ["v. 表演", "n. 行为"]
-},
-{
-  "name": "poor",
-  "trans": ["adj. 贫穷的"]
-},
-{
-  "name": "tragedy",
-  "trans": ["n. 悲剧；悲剧作品"]
-},
-{
-  "name": "create",
-  "trans": ["v. 创造；创作"]
-},
-{
-  "name": "character",
-  "trans": ["n. 角色"]
-},
-{
-  "name": "stage",
-  "trans": ["n. 舞台"]
-},
-{
-  "name": "million",
-  "trans": ["num. 一百万"]
-},
-{
-  "name": "millions of",
-  "trans": ["数以百万计的；很多"]
-},
-{
-  "name": "mark",
-  "trans": ["v. 做记号；做标记", "n. 标记；记号"]
-},
-{
-  "name": "level",
-  "trans": ["n. 水平；标准"]
-},
-{
-  "name": "until",
-  "trans": ["conj. 直到......为止 (=till)"]
-},
-{
-  "name": "weigh",
-  "trans": ["v. 称重量；权衡"]
-},
-{
-  "name": "weight",
-  "trans": ["n. 重量；分量"]
-},
-{
-  "name": "stamp",
-  "trans": ["n. 邮票"]
-}
+    {
+        "name": "different",
+        "trans": [
+            "adj. differing from all others",
+            "adj. marked by dissimilarity",
+            "adj. unlike in nature or quality or form or degree"
+        ]
+    },
+    {
+        "name": "notice",
+        "trans": [
+            "v. make or write a comment on",
+            "v. express recognition of the presence or existence of, or acquaintance with",
+            "v. notice or perceive"
+        ]
+    },
+    {
+        "name": "swan",
+        "trans": [
+            "v. to declare or affirm solemnly and formally as true",
+            "v. sweep majestically",
+            "v. move about aimlessly or without any destination, often in search of food or employment"
+        ]
+    },
+    {
+        "name": "partner",
+        "trans": [
+            "v. provide with a partner",
+            "v. act as a partner",
+            "n. an associate in an activity or endeavor or sphere of common interest"
+        ]
+    },
+    {
+        "name": "slim",
+        "trans": [
+            "v. take off weight",
+            "adj. being of delicate or slender build",
+            "adj. small in quantity"
+        ]
+    },
+    {
+        "name": "fat",
+        "trans": [
+            "v. make fat or plump",
+            "adj. having an overabundance of flesh",
+            "adj. containing or composed of fat"
+        ]
+    },
+    {
+        "name": "curly",
+        "trans": [
+            "adj. hair having curls or waves"
+        ]
+    },
+    {
+        "name": "straight",
+        "trans": [
+            "adj. in keeping with the facts",
+            "adj. successive, without a break",
+            "adj. rigidly conventional or old-fashioned"
+        ]
+    },
+    {
+        "name": "T-shirt",
+        "trans": [
+            "n. a close-fitting pullover shirt"
+        ]
+    },
+    {
+        "name": "jeans",
+        "trans": [
+            "n. a coarse durable twill-weave cotton fabric",
+            "n. (usually plural) close-fitting trousers of heavy denim for manual work or casual wear"
+        ]
+    },
+    {
+        "name": "size",
+        "trans": [
+            "v. make to a size",
+            "v. sort according to size",
+            "v. cover or stiffen or glaze a porous material with size or sizing (a glutinous substance)"
+        ]
+    },
+    {
+        "name": "shape",
+        "trans": [
+            "v. give shape or form to",
+            "v. shape or influence",
+            "v. make something, usually for a specific function"
+        ]
+    },
+    {
+        "name": "skin",
+        "trans": [
+            "v. strip the skin off",
+            "v. remove the bark of a tree",
+            "v. bruise, cut, or injure the skin or the surface of"
+        ]
+    },
+    {
+        "name": "special",
+        "trans": [
+            "adj. surpassing what is common or usual or expected",
+            "adj. having a specific function or scope",
+            "adj. for a special service or occasion"
+        ]
+    },
+    {
+        "name": "number",
+        "trans": [
+            "v. place a limit on the number of",
+            "v. enumerate",
+            "v. determine the number or amount of"
+        ]
+    },
+    {
+        "name": "than",
+        "trans": [
+            "prep. Belgium"
+        ]
+    },
+    {
+        "name": "fair",
+        "trans": [
+            "v. join so that the external surfaces blend smoothly",
+            "adj. very pleasing to the eye",
+            "adj. of hair or skin, pale or light-colored"
+        ]
+    },
+    {
+        "name": "talent",
+        "trans": [
+            "n. natural abilities or qualities",
+            "n. a person who possesses unusual innate ability in some field or activity"
+        ]
+    },
+    {
+        "name": "programme",
+        "trans": [
+            "v. arrange a program of or for",
+            "v. write a computer program",
+            "n. an announcement of the events that will occur as part of a theatrical or sporting event"
+        ]
+    },
+    {
+        "name": "hall",
+        "trans": [
+            "n. a large entrance or reception room or area",
+            "n. a college or university building containing living quarters for students",
+            "n. a large building for meetings or entertainment"
+        ]
+    },
+    {
+        "name": "butterfly",
+        "trans": [
+            "v. to talk or behave amorously, without serious intentions",
+            "v. to cut and spread open, as in preparation for cooking",
+            "v. to flutter like a butterfly"
+        ]
+    },
+    {
+        "name": "violin",
+        "trans": [
+            "n. bowed stringed instrument that is the highest member of the violin family"
+        ]
+    },
+    {
+        "name": "host",
+        "trans": [
+            "v. be the host of or for",
+            "n. an animal or plant that nourishes and supports a parasite",
+            "n. (computer science) a computer that provides client stations with access to files and printers as shared resources to a computer network"
+        ]
+    },
+    {
+        "name": "sound",
+        "trans": [
+            "v. measure the depth of (a body of water) with a sounding line",
+            "v. utter with vibrating vocal chords",
+            "v. appear in a certain way"
+        ]
+    },
+    {
+        "name": "excite",
+        "trans": [
+            "v. act as a stimulant",
+            "v. produce a magnetic field in",
+            "v. raise to a higher energy level"
+        ]
+    },
+    {
+        "name": "exciting",
+        "trans": [
+            "adj. creating or arousing excitement",
+            "adj. stimulating interest and discussion"
+        ]
+    },
+    {
+        "name": "anything",
+        "trans": [
+            "pron. any east and west, any thing"
+        ]
+    },
+    {
+        "name": "someone",
+        "trans": [
+            "n. a human being"
+        ]
+    },
+    {
+        "name": "drum",
+        "trans": [
+            "v. study intensively, as before an exam",
+            "v. play a percussion instrument",
+            "v. make a rhythmic sound"
+        ]
+    },
+    {
+        "name": "voice",
+        "trans": [
+            "v. allow something to be expressed",
+            "v. utter with vibrating vocal chords",
+            "n. a means or agency by which something is expressed or communicated"
+        ]
+    },
+    {
+        "name": "person",
+        "trans": [
+            "n. a human being",
+            "n. a human body, usually including the clothing",
+            "n. a grammatical category used in the classification of pronouns, possessive determiners, and verb forms according to whether they indicate the speaker, the addressee, or a third party"
+        ]
+    },
+    {
+        "name": "hobby",
+        "trans": [
+            "n. an auxiliary activity",
+            "n. small Old World falcon formerly trained and flown at small birds",
+            "n. a child's plaything consisting of an imitation horse mounted on rockers"
+        ]
+    },
+    {
+        "name": "personality",
+        "trans": [
+            "n. the complex of all the attributes--behavioral, temperamental, emotional and mental--that characterize a unique individual",
+            "n. a person of considerable prominence"
+        ]
+    },
+    {
+        "name": "ability",
+        "trans": [
+            "n. the quality of being able to perform",
+            "n. possession of the qualities (especially mental qualities) required to do something or get something done"
+        ]
+    },
+    {
+        "name": "easy-going",
+        "trans": [
+            "adj. amiable"
+        ]
+    },
+    {
+        "name": "accept",
+        "trans": [
+            "v. to tolerate or accommodate oneself to",
+            "v. to consider or hold as true",
+            "v. to be sexually responsive to, used of a female domesticated mammal"
+        ]
+    },
+    {
+        "name": "peacock",
+        "trans": [
+            "n. male peafowl",
+            "n. European butterfly having reddish-brown wings each marked with a purple eyespot"
+        ]
+    },
+    {
+        "name": "wise",
+        "trans": [
+            "adj. improperly forward or bold",
+            "adj. marked by the exercise of good judgment or common sense in practical matters",
+            "adj. having or prompted by wisdom or discernment"
+        ]
+    },
+    {
+        "name": "nightingale",
+        "trans": [
+            "n. European songbird noted for its melodious nocturnal song"
+        ]
+    },
+    {
+        "name": "without",
+        "trans": [
+            "adv. outside of something",
+            "prep. lacking something"
+        ]
+    },
+    {
+        "name": "doubt",
+        "trans": [
+            "v. consider unlikely or have doubts about",
+            "v. lack confidence in or have doubts about",
+            "n. uncertainty about the truth or factuality or existence of something"
+        ]
+    },
+    {
+        "name": "laugh",
+        "trans": [
+            "v. produce laughter",
+            "n. a humorous anecdote or remark intended to provoke laughter",
+            "n. a facial expression characteristic of a person laughing"
+        ]
+    },
+    {
+        "name": "laugh at",
+        "trans": [
+            "v. subject to laughter or ridicule"
+        ]
+    },
+    {
+        "name": "smile",
+        "trans": [
+            "v. change one's facial expression by spreading the lips, often to signal pleasure",
+            "v. express with a smile",
+            "n. a facial expression characterized by turning up the corners of the mouth"
+        ]
+    },
+    {
+        "name": "feather",
+        "trans": [
+            "v. grow feathers",
+            "v. turn the oar, while rowing",
+            "v. turn the paddle"
+        ]
+    },
+    {
+        "name": "colourful",
+        "trans": [
+            "adj. having striking color",
+            "adj. striking in variety and interest"
+        ]
+    },
+    {
+        "name": "future",
+        "trans": [
+            "adj. of elected officers not yet serving",
+            "adj. yet to be or coming",
+            "adj. effective in or looking toward the future"
+        ]
+    },
+    {
+        "name": "pat",
+        "trans": [
+            "v. hit lightly",
+            "v. pat or squeeze fondly or playfully, especially under the chin",
+            "adj. exactly suited to the occasion"
+        ]
+    },
+    {
+        "name": "skill",
+        "trans": [
+            "n. ability to produce solutions in some problem domain",
+            "n. an ability that has been acquired by training"
+        ]
+    },
+    {
+        "name": "unique",
+        "trans": [
+            "adj. highly unusual or rare but not the single instance",
+            "adj. radically distinctive and without equal",
+            "adj. the single one of its kind"
+        ]
+    },
+    {
+        "name": "mean",
+        "trans": [
+            "v. have in mind as a purpose",
+            "v. destine or designate for a certain purpose",
+            "v. intend to refer to"
+        ]
+    },
+    {
+        "name": "noticeboard",
+        "trans": [
+            "n. bulletin board, posting on a bulletin board board"
+        ]
+    },
+    {
+        "name": "would",
+        "trans": [
+            "v. polite to propose maybe to invite, auxiliary verb introducing future action: may (be able to)"
+        ]
+    },
+    {
+        "name": "rule",
+        "trans": [
+            "v. keep in check",
+            "v. decide with authority",
+            "v. decide on and make a declaration about"
+        ]
+    },
+    {
+        "name": "underground",
+        "trans": [
+            "adj. conducted with or marked by hidden aims or methods",
+            "adj. under the level of the ground",
+            "adv. beneath the surface of the earth"
+        ]
+    },
+    {
+        "name": "lean",
+        "trans": [
+            "v. rely on for support",
+            "v. cause to incline or deviate from vertical",
+            "v. to incline or bend from a vertical position"
+        ]
+    },
+    {
+        "name": "litter",
+        "trans": [
+            "v. give birth to a litter of animals",
+            "v. make a place messy by strewing garbage around",
+            "v. strew"
+        ]
+    },
+    {
+        "name": "gap",
+        "trans": [
+            "v. make an opening or gap in",
+            "n. an act of delaying or interrupting the continuity",
+            "n. a narrow opening"
+        ]
+    },
+    {
+        "name": "else",
+        "trans": [
+            "adv. other, to leave"
+        ]
+    },
+    {
+        "name": "escalator",
+        "trans": [
+            "n. a stairway whose steps move continuously on a circulating belt",
+            "n. a clause in a contract that provides for an increase or a decrease in wages or prices or benefits etc. depending on certain conditions (as a change in the cost of living index)"
+        ]
+    },
+    {
+        "name": "station",
+        "trans": [
+            "v. assign to a station",
+            "n. a facility equipped with special equipment and personnel for a particular purpose",
+            "n. the frequency assigned to a broadcasting station"
+        ]
+    },
+    {
+        "name": "announcement",
+        "trans": [
+            "n. a formal public statement",
+            "n. a public statement containing information about an event that has happened or is going to happen"
+        ]
+    },
+    {
+        "name": "passenger",
+        "trans": [
+            "n. a traveler riding in a vehicle (a boat or bus or car or plane or train etc) who is not operating it"
+        ]
+    },
+    {
+        "name": "lift",
+        "trans": [
+            "v. perform cosmetic surgery on someone's face",
+            "v. remove from a surface",
+            "v. take off or away by decreasing"
+        ]
+    },
+    {
+        "name": "platform",
+        "trans": [
+            "n. a woman's shoe with a very high thick sole",
+            "n. a raised horizontal surface",
+            "n. any military structure or vehicle bearing weapons"
+        ]
+    },
+    {
+        "name": "line",
+        "trans": [
+            "v. reinforce with fabric",
+            "v. fill plentifully",
+            "v. cover the interior of"
+        ]
+    },
+    {
+        "name": "rush",
+        "trans": [
+            "v. urge to an unnatural speed",
+            "v. act or move at high speed",
+            "v. attack suddenly"
+        ]
+    },
+    {
+        "name": "smoke",
+        "trans": [
+            "v. inhale and exhale smoke from cigarettes, cigars, pipes",
+            "v. emit a cloud of fine particles",
+            "n. (baseball) a pitch thrown with maximum velocity"
+        ]
+    },
+    {
+        "name": "seat",
+        "trans": [
+            "v. show to a seat",
+            "v. place in or on a seat",
+            "v. place or attach firmly in or on a base"
+        ]
+    },
+    {
+        "name": "anyone",
+        "trans": [
+            "pron. any person"
+        ]
+    },
+    {
+        "name": "leave",
+        "trans": [
+            "v. leave unchanged or undisturbed or refrain from taking",
+            "v. be survived by after one's death",
+            "v. leave behind unintentionally"
+        ]
+    },
+    {
+        "name": "rubbish",
+        "trans": [
+            "v. attack strongly",
+            "n. nonsensical talk or writing",
+            "n. worthless material that is to be disposed of"
+        ]
+    },
+    {
+        "name": "glove",
+        "trans": [
+            "n. the handwear used by fielders in playing baseball",
+            "n. boxing equipment consisting of big and padded coverings for the fists of the fighters",
+            "n. handwear: covers the hand and wrist"
+        ]
+    },
+    {
+        "name": "broken",
+        "trans": [
+            "adj. physically and forcibly separated into pieces or cracked or split",
+            "adj. having been violated or disregarded, especially of promises or contracts",
+            "adj. not continuous in space, time, or sequence or varying abruptly"
+        ]
+    },
+    {
+        "name": "container",
+        "trans": [
+            "n. any object that can be used to hold things (especially a large metal boxlike object of standardized dimensions that can be loaded from one form of transport to another)"
+        ]
+    },
+    {
+        "name": "ready",
+        "trans": [
+            "v. make ready or suitable or equip in advance for a particular purpose or for some use, event, etc",
+            "v. prepare for eating by applying heat",
+            "adj. (of especially money) immediately available"
+        ]
+    },
+    {
+        "name": "follow",
+        "trans": [
+            "v. keep informed",
+            "v. behave in accordance or in agreement with",
+            "v. keep to"
+        ]
+    },
+    {
+        "name": "stay",
+        "trans": [
+            "v. stay the same",
+            "v. stop or halt",
+            "v. overcome or allay"
+        ]
+    },
+    {
+        "name": "grow",
+        "trans": [
+            "v. come to have or undergo a change of (physical features and attributes)",
+            "v. pass into a condition gradually, take on a specific property or attribute",
+            "v. become larger, greater, or bigger"
+        ]
+    },
+    {
+        "name": "important",
+        "trans": [
+            "adj. of extreme importance",
+            "adj. of great significance or value",
+            "adj. having or suggesting a consciousness of high position"
+        ]
+    },
+    {
+        "name": "take turns",
+        "trans": [
+            "v. do something in turns"
+        ]
+    },
+    {
+        "name": "hurrah",
+        "trans": [
+            "v. shout `hurrah!'",
+            "n. a victory cheer"
+        ]
+    },
+    {
+        "name": "model",
+        "trans": [
+            "v. form in clay, wax, etc",
+            "v. construct a model of",
+            "v. create a representation or model of"
+        ]
+    },
+    {
+        "name": "pay",
+        "trans": [
+            "v. dedicate",
+            "v. bear a cost or penalty, in recompense for some action",
+            "v. convey, as of a compliment, regards, attention, etc."
+        ]
+    },
+    {
+        "name": "attention",
+        "trans": [
+            "n. the work of providing treatment for or attending to someone or something",
+            "n. a courteous act indicating affection",
+            "n. a motionless erect stance with arms at the sides and feet together"
+        ]
+    },
+    {
+        "name": "pay attention to",
+        "trans": [
+            "right someone maybe something to take note of"
+        ]
+    },
+    {
+        "name": "dream",
+        "trans": [
+            "v. have a daydream",
+            "v. experience while sleeping",
+            "n. a fantastic but vain hope, from fantasies induced by the opium pipe"
+        ]
+    },
+    {
+        "name": "outing",
+        "trans": [
+            "n. a journey taken for pleasure",
+            "n. a day devoted to an outdoor social gathering"
+        ]
+    },
+    {
+        "name": "gate",
+        "trans": [
+            "v. restrict (school boys') movement to the dormitory or campus as a means of punishment",
+            "v. control with a valve or other device that functions like a gate",
+            "v. supply with a gate"
+        ]
+    },
+    {
+        "name": "festival",
+        "trans": [
+            "n. an organized series of acts and performances (usually in one place)",
+            "n. a day or period of time set aside for feasting and celebration"
+        ]
+    },
+    {
+        "name": "across",
+        "trans": [
+            "adv. transversely",
+            "adv. to the opposite side"
+        ]
+    },
+    {
+        "name": "culture",
+        "trans": [
+            "v. to grow in a special preparation",
+            "n. the raising of plants or animals",
+            "n. the growing of microorganisms in a nutrient medium, such as gelatin or agar"
+        ]
+    },
+    {
+        "name": "luck",
+        "trans": [
+            "n. an unknown and unpredictable phenomenon that causes an event to result one way rather than another",
+            "n. an unknown and unpredictable phenomenon that leads to a favorable outcome",
+            "n. your overall circumstances or condition in life (including everything that happens to you)"
+        ]
+    },
+    {
+        "name": "spring roll",
+        "trans": [
+            "n. minced vegetables and meat wrapped in a pancake and fried"
+        ]
+    },
+    {
+        "name": "porridge",
+        "trans": [
+            "n. soft food made by boiling oatmeal or other meal or legumes in water or milk until thick"
+        ]
+    },
+    {
+        "name": "lucky",
+        "trans": [
+            "adj. presaging or likely to bring good luck",
+            "adj. occurring by chance",
+            "adj. having or bringing good fortune"
+        ]
+    },
+    {
+        "name": "click",
+        "trans": [
+            "v. to become clear or enter one's consciousness or emotions",
+            "v. to make a clucking sounds, characteristic of hens",
+            "v. to produce a click"
+        ]
+    },
+    {
+        "name": "eve",
+        "trans": [
+            "n. the day before",
+            "n. the latter part of the day, the period of decreasing daylight from late afternoon until nightfall",
+            "n. the period immediately before something"
+        ]
+    },
+    {
+        "name": "tradition",
+        "trans": [
+            "n. a specific practice of long standing",
+            "n. an inherited pattern of thought or action"
+        ]
+    },
+    {
+        "name": "country",
+        "trans": [
+            "n. the people who live in a nation or country",
+            "n. a politically organized body of people under a single government",
+            "n. a particular geographical region of indefinite boundary, usually serving some special purpose or distinguished by its people, culture, or geography"
+        ]
+    },
+    {
+        "name": "wealth",
+        "trans": [
+            "n. the quality of profuse abundance",
+            "n. property that has economic utility: a monetary value or an exchange value",
+            "n. an abundance of material possessions and resources"
+        ]
+    },
+    {
+        "name": "hope",
+        "trans": [
+            "v. intend with some possibility of fulfilment",
+            "v. be optimistic",
+            "v. expect and wish"
+        ]
+    },
+    {
+        "name": "pass",
+        "trans": [
+            "v. eliminate from the body",
+            "v. come to pass",
+            "v. pass from physical life and lose all bodily attributes and functions necessary to sustain life"
+        ]
+    },
+    {
+        "name": "pass on",
+        "trans": [
+            "v. transmit information",
+            "v. move forward, also in the metaphorical sense",
+            "v. cause be distributed"
+        ]
+    },
+    {
+        "name": "midnight",
+        "trans": [
+            "n. 12 o'clock at night"
+        ]
+    },
+    {
+        "name": "international",
+        "trans": [
+            "adj. from or between other countries",
+            "adj. concerning or belonging to all or at least two or more nations"
+        ]
+    },
+    {
+        "name": "event",
+        "trans": [
+            "n. something that happens at a given place and time",
+            "n. a phenomenon that follows and is caused by some previous phenomenon",
+            "n. a phenomenon located at a single point in space-time"
+        ]
+    },
+    {
+        "name": "square",
+        "trans": [
+            "v. make square",
+            "v. raise to the second power",
+            "v. turn the oar, while rowing"
+        ]
+    },
+    {
+        "name": "symphony",
+        "trans": [
+            "n. a long and complex sonata for symphony orchestra",
+            "n. a large orchestra"
+        ]
+    },
+    {
+        "name": "theatre",
+        "trans": [
+            "n. a building where theatrical performances or motion-picture shows can be presented",
+            "n. the art of writing and producing plays",
+            "n. a region in which active military operations are in progress"
+        ]
+    },
+    {
+        "name": "firework",
+        "trans": [
+            "n. (usually plural) a device with an explosive that burns at a low rate and with colored flames"
+        ]
+    },
+    {
+        "name": "concert",
+        "trans": [
+            "v. to settle by agreement",
+            "v. to contrive a plan by mutual agreement",
+            "n. a performance of music by players or singers not involving theatrical staging"
+        ]
+    },
+    {
+        "name": "prince",
+        "trans": [
+            "n. a male member of a royal family other than the sovereign (especially the son of a sovereign)"
+        ]
+    },
+    {
+        "name": "check",
+        "trans": [
+            "v. to make cracks or chinks in",
+            "v. to arrest the motion of something abruptly",
+            "v. to slow the growth or development of"
+        ]
+    },
+    {
+        "name": "check out",
+        "trans": [
+            "v. to examine so as to determine accuracy, quality, or condition",
+            "v. to try to learn someone's opinions and intentions",
+            "v. to announce one's departure from a hotel"
+        ]
+    },
+    {
+        "name": "information",
+        "trans": [
+            "n. (communication theory) a numerical measure of the uncertainty of an outcome",
+            "n. knowledge acquired through study or experience or instruction",
+            "n. a message received and understood"
+        ]
+    },
+    {
+        "name": "since",
+        "trans": [
+            "prep. from since (used after a specified time or event), from after"
+        ]
+    },
+    {
+        "name": "performance",
+        "trans": [
+            "n. any recognized accomplishment",
+            "n. the act of performing",
+            "n. the act of presenting a play, a piece of music, or other entertainment"
+        ]
+    },
+    {
+        "name": "really",
+        "trans": [
+            "adv. used as intensifiers",
+            "adv. in accordance with truth or fact or reality",
+            "adv. in fact (used as intensifiers or sentence modifiers)"
+        ]
+    },
+    {
+        "name": "musical",
+        "trans": [
+            "adj. containing or constituting or characterized by pleasing melody",
+            "adj. characteristic of or resembling or accompanied by music",
+            "adj. talented in or devoted to music"
+        ]
+    },
+    {
+        "name": "perform",
+        "trans": [
+            "v. carry out or perform an action",
+            "v. give a performance (of something)",
+            "v. perform a function"
+        ]
+    },
+    {
+        "name": "invite",
+        "trans": [
+            "v. ask someone in a friendly way to do something",
+            "v. request the participation or presence of",
+            "v. ask to enter"
+        ]
+    },
+    {
+        "name": "celebrate",
+        "trans": [
+            "v. to assign great social importance to",
+            "v. to have a celebration",
+            "v. to behave as expected during holidays or rites"
+        ]
+    },
+    {
+        "name": "calendar",
+        "trans": [
+            "v. to enter into a calendar",
+            "n. a list or register of events",
+            "n. a tabular array of the days (usually for one year)"
+        ]
+    },
+    {
+        "name": "lunar calendar",
+        "trans": [
+            "n. a calendar based on lunar cycles"
+        ]
+    },
+    {
+        "name": "reunion",
+        "trans": [
+            "n. the act of coming together again",
+            "n. a party of former associates who have come together again"
+        ]
+    },
+    {
+        "name": "full",
+        "trans": [
+            "v. increase in phase",
+            "v. make (a garment) fuller by pleating or gathering",
+            "v. beat for the purpose of cleaning and thickening"
+        ]
+    },
+    {
+        "name": "post",
+        "trans": [
+            "v. publicize with, or as if with, a poster",
+            "v. display, as of records in sports games",
+            "v. mark or expose as infamous"
+        ]
+    },
+    {
+        "name": "mostly",
+        "trans": [
+            "adv. in large part",
+            "adv. usually"
+        ]
+    },
+    {
+        "name": "tonight",
+        "trans": [
+            "adv. during the night of the present day",
+            "n. the present or immediately coming night"
+        ]
+    },
+    {
+        "name": "harvest",
+        "trans": [
+            "v. remove from a culture or a living or dead body, as for the purposes of transplantation",
+            "v. gather, as of natural products",
+            "n. the season for gathering crops"
+        ]
+    },
+    {
+        "name": "traditional",
+        "trans": [
+            "adj. consisting of or derived from tradition",
+            "adj. pertaining to time-honored orthodox doctrines"
+        ]
+    },
+    {
+        "name": "nut",
+        "trans": [
+            "v. gather nuts",
+            "n. a small (usually square or hexagonal) metal block with internal screw thread to be fitted onto a bolt",
+            "n. one of the two male reproductive glands that produce spermatozoa and secrete androgens"
+        ]
+    },
+    {
+        "name": "sugar",
+        "trans": [
+            "v. sweeten with sugar",
+            "n. a white crystalline carbohydrate used as a sweetener and preservative",
+            "n. informal terms for money"
+        ]
+    },
+    {
+        "name": "experience",
+        "trans": [
+            "v. undergo",
+            "v. have firsthand knowledge of states, situations, emotions, or sensations",
+            "v. undergo an emotional sensation or be in a particular state of mind"
+        ]
+    },
+    {
+        "name": "meal",
+        "trans": [
+            "n. coarsely ground foodstuff",
+            "n. the food served and eaten at one time",
+            "n. any of the occasions for eating food that occur by custom or habit at more or less fixed times"
+        ]
+    },
+    {
+        "name": "count",
+        "trans": [
+            "v. to include as if by counting",
+            "v. to take account of",
+            "v. to have faith or confidence in"
+        ]
+    },
+    {
+        "name": "search",
+        "trans": [
+            "v. inquire into",
+            "v. try to locate or discover, or try to establish the existence of",
+            "v. subject to a search"
+        ]
+    },
+    {
+        "name": "airport",
+        "trans": [
+            "n. an airfield equipped with control tower and hangars as well as accommodations for passengers and cargo"
+        ]
+    },
+    {
+        "name": "location",
+        "trans": [
+            "n. a point or extent in space",
+            "n. a determination of the place where something is",
+            "n. the act of putting something in a certain place"
+        ]
+    },
+    {
+        "name": "capital",
+        "trans": [
+            "adj. uppercase",
+            "adj. of primary importance",
+            "adj. first-rate"
+        ]
+    },
+    {
+        "name": "wet",
+        "trans": [
+            "v. make one's bed or clothes wet by urinating",
+            "v. cause to become wet",
+            "adj. supporting or permitting the legal production and sale of alcoholic beverages"
+        ]
+    },
+    {
+        "name": "foggy",
+        "trans": [
+            "adj. obscured by fog",
+            "adj. filled or abounding with fog or mist",
+            "adj. indistinct or hazy in outline"
+        ]
+    },
+    {
+        "name": "north",
+        "trans": [
+            "adj. situated in or facing or moving toward or coming from the north",
+            "adv. in a northern direction",
+            "n. a location in the northern part of a country, region, or city"
+        ]
+    },
+    {
+        "name": "quite",
+        "trans": [
+            "adv. to the greatest extent",
+            "adv. to a degree (not used with a negative)",
+            "adv. of an unusually noticeable or exceptional or remarkable kind, not used with a negative"
+        ]
+    },
+    {
+        "name": "temperature",
+        "trans": [
+            "n. the degree of hotness or coldness of a body or environment (corresponding to its molecular activity)",
+            "n. the somatic sensation of cold or heat"
+        ]
+    },
+    {
+        "name": "drop",
+        "trans": [
+            "v. to give birth",
+            "v. to grow worse",
+            "v. to fall or sink into a state of exhaustion or death"
+        ]
+    },
+    {
+        "name": "degree",
+        "trans": [
+            "n. a position on a scale of intensity or amount or quality",
+            "n. the seriousness of something (e.g., a burn or crime)",
+            "n. the highest power of a term or variable"
+        ]
+    },
+    {
+        "name": "Celsius",
+        "trans": [
+            "adj. Celsius"
+        ]
+    },
+    {
+        "name": "dry",
+        "trans": [
+            "v. remove the moisture from and make dry",
+            "v. become dry or drier",
+            "adj. practicing complete abstinence from alcoholic beverages"
+        ]
+    },
+    {
+        "name": "south",
+        "trans": [
+            "adj. situated in or facing or moving toward or coming from the south",
+            "adv. in a southern direction",
+            "n. a location in the southern part of a country, region, or city"
+        ]
+    },
+    {
+        "name": "still",
+        "trans": [
+            "v. cause to be quiet or not talk",
+            "v. make motionless",
+            "v. make calm or still"
+        ]
+    },
+    {
+        "name": "wind",
+        "trans": [
+            "v. raise or haul up with or as if with mechanical help",
+            "v. form into a wreath",
+            "v. coil the spring of (some mechanical device) by turning a stem"
+        ]
+    },
+    {
+        "name": "cloud",
+        "trans": [
+            "v. to make milky or dull",
+            "v. to colour with streaks or blotches of different shades",
+            "v. to make less clear"
+        ]
+    },
+    {
+        "name": "fog",
+        "trans": [
+            "v. make less visible or unclear",
+            "n. confusion characterized by lack of clarity",
+            "n. droplets of water vapor suspended in the air near the ground"
+        ]
+    },
+    {
+        "name": "skate",
+        "trans": [
+            "v. move along on skates",
+            "n. large edible rays having a long snout and thick tail with pectoral fins continuous with the head",
+            "n. sports equipment that is worn on the feet to enable the wearer to glide along and to be propelled by the alternate actions of the legs"
+        ]
+    },
+    {
+        "name": "picnic",
+        "trans": [
+            "v. eat alfresco, in the open air",
+            "n. any undertaking that is easy to do",
+            "n. any informal meal eaten outside or on an excursion"
+        ]
+    },
+    {
+        "name": "sunshine",
+        "trans": [
+            "n. moderate weather",
+            "n. the rays of the sun",
+            "n. the quality of being cheerful and dispelling gloom"
+        ]
+    },
+    {
+        "name": "hate",
+        "trans": [
+            "v. dislike intensely",
+            "n. the emotion of intense dislike"
+        ]
+    },
+    {
+        "name": "extreme",
+        "trans": [
+            "adj. most distant in any direction",
+            "adj. of the greatest possible degree or extent or intensity",
+            "adj. far beyond a norm in quantity or amount or degree"
+        ]
+    },
+    {
+        "name": "news",
+        "trans": [
+            "n. the quality of being sufficiently interesting to be reported in news bulletins",
+            "n. a program devoted to current events, often using interviews and commentary",
+            "n. information about recent and important events"
+        ]
+    },
+    {
+        "name": "heat",
+        "trans": [
+            "v. make hot or hotter",
+            "v. gain heat or get hot",
+            "v. arouse or excite feelings and passions"
+        ]
+    },
+    {
+        "name": "wave",
+        "trans": [
+            "v. set waves in",
+            "v. signal with the hands or nod",
+            "v. twist or roll into coils or ringlets"
+        ]
+    },
+    {
+        "name": "heatwave",
+        "trans": [
+            "n. torrid heat period, heat wave"
+        ]
+    },
+    {
+        "name": "hit",
+        "trans": [
+            "v. to pay unsolicited and usually unwanted sexual attention to",
+            "v. gain points in a game",
+            "v. make a strategic, offensive, assault against an enemy, opponent, or a target"
+        ]
+    },
+    {
+        "name": "several",
+        "trans": [
+            "adj. distinct and individual",
+            "adj. considered individually",
+            "adj. (used with count nouns) of an indefinite number more than 2 or 3 but not many"
+        ]
+    },
+    {
+        "name": "break",
+        "trans": [
+            "v. to act in disregard of laws, rules, contracts, or promises",
+            "v. to enter someone's virtual or real property in an unauthorized manner, usually with the intent to steal or commit a violent act",
+            "v. to happen or take place"
+        ]
+    },
+    {
+        "name": "record",
+        "trans": [
+            "v. be or provide a memorial to a person or an event",
+            "v. indicate a certain reading",
+            "v. register electronically"
+        ]
+    },
+    {
+        "name": "reach",
+        "trans": [
+            "v. be in or establish communication with",
+            "v. to exert much effort or energy",
+            "v. move forward or upward in order to touch"
+        ]
+    },
+    {
+        "name": "break out",
+        "trans": [
+            "v. to have a sudden skin rash or episode of acne",
+            "v. to start abruptly",
+            "v. to take from stowage in preparation for use"
+        ]
+    },
+    {
+        "name": "area",
+        "trans": [
+            "n. a part of a structure having some specific characteristic or function",
+            "n. the extent of a 2-dimensional surface enclosed within a boundary",
+            "n. a part of an animal that has a special function or is supplied by a given artery or nerve"
+        ]
+    },
+    {
+        "name": "runway",
+        "trans": [
+            "n. a strip of level paved surface where planes can take off and land",
+            "n. a narrow platform extending from the stage into the audience in a theater or nightclub etc.",
+            "n. a chute down which logs can slide"
+        ]
+    },
+    {
+        "name": "action",
+        "trans": [
+            "v. to put in effect",
+            "v. to institute legal proceedings against",
+            "n. something done, usually as opposed to something said"
+        ]
+    },
+    {
+        "name": "pupil",
+        "trans": [
+            "n. the contractile aperture in the center of the iris of the eye",
+            "n. a young person attending school (up through senior high school)",
+            "n. a learner who is enrolled in an educational institution"
+        ]
+    },
+    {
+        "name": "uniform",
+        "trans": [
+            "v. provide with uniforms",
+            "adj. not differentiated",
+            "adj. the same throughout in structure or composition"
+        ]
+    },
+    {
+        "name": "indoors",
+        "trans": [
+            "adv. within a building"
+        ]
+    },
+    {
+        "name": "leaf",
+        "trans": [
+            "v. produce leaves, of plants",
+            "v. turn over pages",
+            "v. look through a book or other written material"
+        ]
+    },
+    {
+        "name": "fact",
+        "trans": [
+            "n. a piece of information about circumstances that exist or events that have occurred",
+            "n. a concept whose truth can be proved",
+            "n. a statement or assertion of verified information about something that is the case or has happened"
+        ]
+    },
+    {
+        "name": "in fact",
+        "trans": [
+            "adv. in reality or actuality"
+        ]
+    },
+    {
+        "name": "average",
+        "trans": [
+            "v. to compute the average of",
+            "v. to achieve or reach on average",
+            "v. to amount to or come to an average, without loss or gain"
+        ]
+    },
+    {
+        "name": "increase",
+        "trans": [
+            "v. make bigger or more",
+            "v. become bigger or greater in amount",
+            "n. the act of increasing something"
+        ]
+    },
+    {
+        "name": "coal",
+        "trans": [
+            "v. to take in coal",
+            "v. to supply with coal",
+            "v. to burn to charcoal"
+        ]
+    },
+    {
+        "name": "cause",
+        "trans": [
+            "v. to cause to do",
+            "v. to give rise to",
+            "n. any entity that produces an effect or is responsible for events or results"
+        ]
+    },
+    {
+        "name": "worse",
+        "trans": [
+            "adj. comparative of 'bad,' inferior to another in quality or condition or desirability",
+            "adj. changed for the worse in health or fitness",
+            "adv. in a less effective or successful or desirable manner"
+        ]
+    },
+    {
+        "name": "soon",
+        "trans": [
+            "adv. in the near future"
+        ]
+    },
+    {
+        "name": "regards",
+        "trans": [
+            "v. deem to be",
+            "v. look at attentively",
+            "v. connect closely and often incriminatingly"
+        ]
+    },
+    {
+        "name": "neighbourhood",
+        "trans": [
+            "n. people living near one another",
+            "n. a surrounding or nearby region"
+        ]
+    },
+    {
+        "name": "build",
+        "trans": [
+            "v. to develop and grow",
+            "v. to form or accumulate steadily",
+            "v. to bolster or strengthen"
+        ]
+    },
+    {
+        "name": "reduce",
+        "trans": [
+            "v. take off weight",
+            "v. lessen the strength or flavor of a solution or mixture",
+            "v. narrow or limit"
+        ]
+    },
+    {
+        "name": "reuse",
+        "trans": [
+            "v. use again after processing"
+        ]
+    },
+    {
+        "name": "recycle",
+        "trans": [
+            "v. use again after processing",
+            "v. cause to repeat a cycle"
+        ]
+    },
+    {
+        "name": "bottle",
+        "trans": [
+            "v. to put into bottles",
+            "v. to store liquids or gases in containers, often glass or plastic",
+            "n. a glass or plastic vessel used for storing drinks or other liquids"
+        ]
+    },
+    {
+        "name": "repair",
+        "trans": [
+            "v. give new life or energy to",
+            "v. set straight or right",
+            "v. restore by replacing a part or putting together what is torn or broken"
+        ]
+    },
+    {
+        "name": "item",
+        "trans": [
+            "adv. (used when listing or enumerating items) also",
+            "n. a whole individual unit",
+            "n. an isolated fact that is considered separately from the whole"
+        ]
+    },
+    {
+        "name": "sort",
+        "trans": [
+            "v. arrange or order by classes or categories",
+            "v. examine in order to test suitability",
+            "v. to deal with or have fixed something to a satisfactory level"
+        ]
+    },
+    {
+        "name": "cloth",
+        "trans": [
+            "n. artifact made by weaving or felting or knitting or crocheting natural or synthetic fibers"
+        ]
+    },
+    {
+        "name": "pick",
+        "trans": [
+            "v. remove unwanted substances from, such as feathers or pits",
+            "v. remove in small bits",
+            "v. select carefully from a group"
+        ]
+    },
+    {
+        "name": "pick up",
+        "trans": [
+            "v. gain or regain energy",
+            "v. improve significantly",
+            "v. lift out or reflect from a background"
+        ]
+    },
+    {
+        "name": "plastic",
+        "trans": [
+            "adj. forming or capable of forming or molding or fashioning",
+            "adj. capable of being molded or modeled, especially of earth or clay or other soft material",
+            "adj. capable of being influenced or formed"
+        ]
+    },
+    {
+        "name": "waste",
+        "trans": [
+            "v. become physically weaker",
+            "v. cause extensive destruction or ruin utterly",
+            "v. cause to grow thin or weak"
+        ]
+    },
+    {
+        "name": "electricity",
+        "trans": [
+            "n. keen and shared excitement",
+            "n. a physical phenomenon associated with stationary or moving electrons and protons",
+            "n. energy made available by the flow of electric charge through a conductor"
+        ]
+    },
+    {
+        "name": "tap",
+        "trans": [
+            "v. make a solicitation or entreaty for something",
+            "v. draw from",
+            "v. strike lightly"
+        ]
+    },
+    {
+        "name": "brush",
+        "trans": [
+            "v. to remove with or as if with a brush",
+            "v. to touch lightly and briefly",
+            "v. to rub with a brush, or as if with a brush"
+        ]
+    },
+    {
+        "name": "tooth",
+        "trans": [
+            "n. a means of enforcement",
+            "n. toothlike structure in invertebrates found in the mouth or alimentary canal or on a shell",
+            "n. something resembling the tooth of an animal"
+        ]
+    },
+    {
+        "name": "bin",
+        "trans": [
+            "v. to store in a container",
+            "n. a container",
+            "n. the quantity contained in a bin"
+        ]
+    },
+    {
+        "name": "save",
+        "trans": [
+            "v. make unnecessary an expenditure or effort",
+            "v. record data on a computer",
+            "v. to keep up and reserve for personal or special use"
+        ]
+    },
+    {
+        "name": "mix",
+        "trans": [
+            "v. add as an additional element or part",
+            "v. mix together different elements",
+            "v. combine (electronic signals)"
+        ]
+    },
+    {
+        "name": "reusable",
+        "trans": [
+            "adj. capable of being used again"
+        ]
+    },
+    {
+        "name": "store",
+        "trans": [
+            "v. keep or lay aside for future use",
+            "v. find a place for and put away for storage",
+            "n. an electronic memory device"
+        ]
+    },
+    {
+        "name": "even",
+        "trans": [
+            "v. make even or more even",
+            "v. become even or more even",
+            "v. make level or straight"
+        ]
+    },
+    {
+        "name": "huge",
+        "trans": [
+            "adj. unusually great in size or amount or degree or especially extent or scope"
+        ]
+    },
+    {
+        "name": "government",
+        "trans": [
+            "n. the act of governing",
+            "n. (government) the system or form by which a community or other political unit is governed",
+            "n. the study of government of states and other political units"
+        ]
+    },
+    {
+        "name": "encourage",
+        "trans": [
+            "v. give impetus to",
+            "v. inspire with confidence",
+            "v. contribute to the progress or growth of"
+        ]
+    },
+    {
+        "name": "public",
+        "trans": [
+            "adj. affecting the people or community as a whole",
+            "adj. not private",
+            "n. a body of people sharing some common interest"
+        ]
+    },
+    {
+        "name": "transport",
+        "trans": [
+            "v. send from one person or place to another",
+            "v. move while supporting, either in a vehicle or in one's hands or on one's body",
+            "v. hold spellbound"
+        ]
+    },
+    {
+        "name": "environmental",
+        "trans": [
+            "adj. concerned with the ecological effects of altering the environment",
+            "adj. of or relating to the external conditions or surroundings"
+        ]
+    },
+    {
+        "name": "electric",
+        "trans": [
+            "adj. affected by emotion as if by electricity",
+            "adj. (of a situation) exceptionally tense",
+            "adj. using or providing or producing or transmitting or operated by electricity"
+        ]
+    },
+    {
+        "name": "building",
+        "trans": [
+            "n. the act of constructing something",
+            "n. the commercial activity involved in repairing old structures or constructing new ones",
+            "n. a structure that has a roof and walls and stands more or less permanently in one place"
+        ]
+    },
+    {
+        "name": "low",
+        "trans": [
+            "v. make a low noise, characteristic of bovines",
+            "adj. filled with melancholy and despondency",
+            "adj. of the most contemptible kind"
+        ]
+    },
+    {
+        "name": "energy",
+        "trans": [
+            "n. an imaginative lively style, especially style of writing",
+            "n. enterprising or ambitious drive",
+            "n. forceful exertion"
+        ]
+    },
+    {
+        "name": "low-energy",
+        "trans": [
+            "adj. incapable to waste"
+        ]
+    },
+    {
+        "name": "however",
+        "trans": [
+            "adv. despite anything to the contrary (usually following a concession)",
+            "adv. in whatever way or manner",
+            "adv. to whatever degree or extent"
+        ]
+    },
+    {
+        "name": "alone",
+        "trans": [
+            "adj. radically distinctive and without equal",
+            "adj. exclusive of anyone or anything else",
+            "adj. isolated from others"
+        ]
+    },
+    {
+        "name": "planet",
+        "trans": [
+            "n. (astronomy) any of the nine large celestial bodies in the solar system that revolve around the sun and shine by reflected light",
+            "n. any celestial body (other than comets or satellites) that revolves around a star",
+            "n. a person who follows or serves another"
+        ]
+    },
+    {
+        "name": "mankind",
+        "trans": [
+            "n. all of the living human inhabitants of the earth"
+        ]
+    },
+    {
+        "name": "daily",
+        "trans": [
+            "adj. appropriate for ordinary or routine occasions",
+            "adj. of or belonging to or occurring every day",
+            "adv. every day"
+        ]
+    },
+    {
+        "name": "changer",
+        "trans": [
+            "n. an automatic mechanical device on a record player that causes new records to be played without manual intervention",
+            "n. a person who changes something"
+        ]
+    },
+    {
+        "name": "scientist",
+        "trans": [
+            "n. a person with advanced knowledge of one or more sciences"
+        ]
+    },
+    {
+        "name": "change",
+        "trans": [
+            "v. to undergo a change",
+            "v. to become different in some particular way, without permanently losing one's or its former characteristics or essence",
+            "v. to cause to change"
+        ]
+    },
+    {
+        "name": "publish",
+        "trans": [
+            "v. prepare and issue for public distribution or sale",
+            "v. have one's written work issued for publication",
+            "v. put into print"
+        ]
+    },
+    {
+        "name": "theory",
+        "trans": [
+            "n. a tentative insight into the natural world",
+            "n. a belief that can guide behavior",
+            "n. a well-substantiated explanation of some aspect of the natural world"
+        ]
+    },
+    {
+        "name": "invent",
+        "trans": [
+            "v. come up with (an idea, plan, explanation, theory, or principle) after a mental effort",
+            "v. make up something artificial or untrue"
+        ]
+    },
+    {
+        "name": "inexpensive",
+        "trans": [
+            "adj. relatively low in price or charging low prices"
+        ]
+    },
+    {
+        "name": "bulb",
+        "trans": [
+            "n. a rounded part of a cylindrical instrument (usually at one end)",
+            "n. electric lamp consisting of a transparent or translucent glass housing containing a wire filament (usually tungsten) that emits light when heated by electricity",
+            "n. a rounded dilation or expansion in a canal or vessel or organ"
+        ]
+    },
+    {
+        "name": "discover",
+        "trans": [
+            "v. get to know or become aware of, usually accidentally",
+            "v. identify as in botany or biology, for example",
+            "v. make a discovery"
+        ]
+    },
+    {
+        "name": "general",
+        "trans": [
+            "v. command as a general",
+            "adj. prevailing among and common to the general public",
+            "adj. of worldwide scope or applicability"
+        ]
+    },
+    {
+        "name": "smart",
+        "trans": [
+            "v. be the source of pain",
+            "adj. capable of independent and apparently intelligent action",
+            "adj. improperly forward or bold"
+        ]
+    },
+    {
+        "name": "inventor",
+        "trans": [
+            "n. someone who is the first to think of or make something"
+        ]
+    },
+    {
+        "name": "real",
+        "trans": [
+            "adj. capable of being treated as fact",
+            "adj. having substance or capable of being treated as fact",
+            "adj. being or occurring in fact or actuality"
+        ]
+    },
+    {
+        "name": "power",
+        "trans": [
+            "v. supply the force or power for the functioning of",
+            "n. a state powerful enough to influence events throughout the world",
+            "n. a very wealthy or powerful businessman"
+        ]
+    },
+    {
+        "name": "power station",
+        "trans": [
+            "n. an electrical generating station"
+        ]
+    },
+    {
+        "name": "die",
+        "trans": [
+            "v. suffer spiritual death",
+            "v. disappear or come to an end",
+            "v. to pass from physical life and lose all bodily attributes and functions necessary to sustain life"
+        ]
+    },
+    {
+        "name": "successful",
+        "trans": [
+            "adj. having succeeded or being marked by a favorable outcome"
+        ]
+    },
+    {
+        "name": "invention",
+        "trans": [
+            "n. the act of inventing",
+            "n. a creation, either a new device or process, resulting from study and experimentation",
+            "n. the creation of something in the mind"
+        ]
+    },
+    {
+        "name": "saver",
+        "trans": [
+            "n. someone who saves something from danger or violence",
+            "n. someone who saves, especially money"
+        ]
+    },
+    {
+        "name": "medicine",
+        "trans": [
+            "v. treat medicinally, treat with medicine",
+            "n. the learned profession that is mastered by graduate training in a medical school and that is devoted to preventing or alleviating or curing diseases and injuries",
+            "n. punishment for one's actions"
+        ]
+    },
+    {
+        "name": "Traditional Chinese Medicine (TCM)",
+        "trans": [
+            "traditional Chinese medicine"
+        ]
+    },
+    {
+        "name": "spend",
+        "trans": [
+            "v. pay out",
+            "v. spend completely",
+            "v. pass time in a specific way"
+        ]
+    },
+    {
+        "name": "sick",
+        "trans": [
+            "v. eject the contents of the stomach through the mouth",
+            "adj. shockingly repellent",
+            "adj. deeply affected by a strong feeling"
+        ]
+    },
+    {
+        "name": "penicillin",
+        "trans": [
+            "n. any of various antibiotics obtained from Penicillium molds (or produced synthetically) and used in the treatment of various infections and diseases"
+        ]
+    },
+    {
+        "name": "soldier",
+        "trans": [
+            "v. serve as a soldier in the military",
+            "n. a wingless sterile ant or termite having a large head and powerful jaws adapted for defending the colony",
+            "n. an enlisted man or woman who serves in an army"
+        ]
+    },
+    {
+        "name": "lose",
+        "trans": [
+            "v. be set at a disadvantage",
+            "v. fail to win",
+            "v. retreat"
+        ]
+    },
+    {
+        "name": "admire",
+        "trans": [
+            "v. to feel warm approval or high regard for",
+            "v. to look at with admiration"
+        ]
+    },
+    {
+        "name": "herb",
+        "trans": [
+            "n. aromatic potherb used in cookery for its savory qualities",
+            "n. a plant lacking a permanent woody stem"
+        ]
+    },
+    {
+        "name": "pardon",
+        "trans": [
+            "v. grant a pardon to",
+            "v. accept an excuse for",
+            "n. the act of excusing a mistake or offense"
+        ]
+    },
+    {
+        "name": "pain",
+        "trans": [
+            "v. cause bodily suffering to and make sick or indisposed",
+            "v. cause emotional anguish or make miserable",
+            "n. a somatic sensation of acute discomfort"
+        ]
+    },
+    {
+        "name": "beg",
+        "trans": [
+            "v. to call upon in supplication",
+            "v. to dodge, avoid answering, or take for granted",
+            "v. to ask to obtain free"
+        ]
+    },
+    {
+        "name": "beg your pardon",
+        "trans": [
+            "to ask to excuse, to ask to say again one time (all the way through)"
+        ]
+    },
+    {
+        "name": "storyteller",
+        "trans": [
+            "n. someone who tells a story",
+            "n. someone who tells lies"
+        ]
+    },
+    {
+        "name": "poem",
+        "trans": [
+            "n. a composition written in metrical feet forming rhythmical lines"
+        ]
+    },
+    {
+        "name": "act",
+        "trans": [
+            "v. to behave in a certain manner",
+            "v. to pretend to have certain qualities or state of mind",
+            "v. to discharge one's duties"
+        ]
+    },
+    {
+        "name": "poor",
+        "trans": [
+            "adj. deserving or inciting pity",
+            "adj. unsatisfactory",
+            "adj. having little money or few possessions"
+        ]
+    },
+    {
+        "name": "tragedy",
+        "trans": [
+            "n. drama in which the protagonist is overcome by some superior force or circumstance",
+            "n. an event resulting in great loss and misfortune"
+        ]
+    },
+    {
+        "name": "create",
+        "trans": [
+            "v. to make, cause to be or to become",
+            "v. to create or manufacture a man-made product",
+            "v. to create by artistic means"
+        ]
+    },
+    {
+        "name": "character",
+        "trans": [
+            "v. to engrave or inscribe characters on",
+            "n. (genetics) an attribute (structural or functional) that is determined by a gene or group of genes",
+            "n. the inherent complex of attributes that determines a persons moral and ethical actions and reactions"
+        ]
+    },
+    {
+        "name": "stage",
+        "trans": [
+            "v. to plan, organize, and carry out an event",
+            "v. to perform a play, especially on a stage",
+            "v. to intern at a restaurant, usually as a chef, to learn new techniques"
+        ]
+    },
+    {
+        "name": "million",
+        "trans": [
+            "adj. (in Roman numerals, M written with a macron over it) denoting a quantity consisting of 1,000,000 items or units",
+            "n. the number that is represented as a one followed by 6 zeros",
+            "n. a very large indefinite number (usually hyperbole)"
+        ]
+    },
+    {
+        "name": "millions of",
+        "trans": [
+            "to count to use million to calculate, very many"
+        ]
+    },
+    {
+        "name": "mark",
+        "trans": [
+            "v. insert punctuation marks into",
+            "v. make or leave a mark on",
+            "v. mark by some ceremony or observation"
+        ]
+    },
+    {
+        "name": "level",
+        "trans": [
+            "v. become level or even",
+            "v. talk frankly with",
+            "v. direct into a position for use"
+        ]
+    },
+    {
+        "name": "until",
+        "trans": [
+            "conj. until until till"
+        ]
+    },
+    {
+        "name": "weigh",
+        "trans": [
+            "v. show consideration for",
+            "v. have weight",
+            "v. to be oppressive or burdensome"
+        ]
+    },
+    {
+        "name": "weight",
+        "trans": [
+            "v. present with a bias",
+            "v. weight down with a load",
+            "n. an artifact that is heavy"
+        ]
+    },
+    {
+        "name": "stamp",
+        "trans": [
+            "v. destroy or extinguish as if by stamping with the foot",
+            "v. treat or classify according to a mental stereotype",
+            "v. to mark, or produce an imprint in or on something"
+        ]
+    }
 ]
