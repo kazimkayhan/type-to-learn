@@ -24,15 +24,20 @@ if (!(Test-CommandInstalled node)) {
     }
 }else{
     Write-Host "已安装nodejs!"
+    if (!(Test-CommandInstalled pnpm)) {
+        Write-Host "未检测到 pnpm，尝试启用 corepack..."
+        corepack enable
+        corepack prepare pnpm@12.4.2 --activate
+    }
     Set-Location ..
     Write-Host "开始安装依赖..."
-    yarn install --registry=https://registry.npm.taobao.org
+    pnpm install
     Write-Host "依赖安装完成，启动程序..."
     
     Start-Job -ScriptBlock {
         Start-Sleep 4
         Start-Process http://localhost:5173/
     } | Out-Null
-    npm run start
+    pnpm start
     Set-Location $location
 }

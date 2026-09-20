@@ -11,16 +11,22 @@ if ! type node >/dev/null 2>&1; then
 	fi
 fi
 
+if ! type pnpm >/dev/null 2>&1; then
+	echo "未检测到 pnpm，尝试启用 corepack..."
+	corepack enable
+	corepack prepare pnpm@12.4.2 --activate
+fi
+
 cd ..
 echo "开始安装依赖..."
-yarn install --registry=https://registry.npm.taobao.org
+pnpm install
 echo "依赖安装完成，启动程序..."
 
 # 在浏览器中打开
 open http://localhost:5173/
 
 # 本地开启服务
-npm run start
+pnpm start
 
 # 返回原始目录并退出
 cd `dirname $0`

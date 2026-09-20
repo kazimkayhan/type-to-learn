@@ -11,14 +11,17 @@ jobs:
         node-version: [18.17.0]
     steps:
       - uses: actions/checkout@v3
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v4
       - name: Use Node.js ${{ matrix.node-version }}
         uses: actions/setup-node@v3
         with:
           node-version: ${{ matrix.node-version }}
+          cache: pnpm
       - name: Install Packages
-        run: yarn
+        run: pnpm install --frozen-lockfile
       - name: Build page
-        run: yarn build
+        run: pnpm build
       - name: upload files to OSS
         uses: fangbinwei/aliyun-oss-website-action@v1
         with:

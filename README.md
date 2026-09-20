@@ -138,7 +138,7 @@ GitHub Pages: <https://realkai42.github.io/qwerty-learner/>
 
 1. NodeJS
 2. Git
-3. Yarn
+3. pnpm
 
 > **验证是否已经拥有相关环境**
 >
@@ -148,7 +148,7 @@ GitHub Pages: <https://realkai42.github.io/qwerty-learner/>
 >    ```sh
 >    node --version
 >    git --version
->    yarn --version
+>    pnpm --version
 >    ```
 >
 > 2. 脚本验证  
@@ -160,13 +160,13 @@ GitHub Pages: <https://realkai42.github.io/qwerty-learner/>
 
 > - [NodeJS](https://nodejs.org/en/download)
 > - [Git](https://git-scm.com/downloads)
-> - [yarn](https://classic.yarnpkg.com/lang/en/docs/install)
+> - [pnpm](https://pnpm.io/installation)
 
 ### 手动安装
 
 1. 在命令行中执行 `git clone https://github.com/RealKai42/qwerty-learner.git` 将项目拉取到本地, 如果不使用 git 可能因为缺少依赖而无法运行
-2. 在命令行中执行 `cd qwerty-learner`，进入项目根目录，执行`yarn install`来下载依赖。
-3. 执行`yarn start`来启动项目，项目默认地址为`http://localhost:5173/`
+2. 在命令行中执行 `cd qwerty-learner`，进入项目根目录，执行`pnpm install`来下载依赖。
+3. 执行`pnpm start`来启动项目，项目默认地址为`http://localhost:5173/`
 4. 在浏览器中打开`http://localhost:5173/`来访问项目。
 
 ### 脚本执行

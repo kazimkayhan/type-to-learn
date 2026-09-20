@@ -45,19 +45,19 @@ if (!(Test-CommandInstalled git)) {
     git --version
 }
 
-# 检测Yarn命令是否存在
-if (!(Test-CommandInstalled yarn)) {
-    Write-Host "未检测到 yarn 环境，尝试使用winget安装..."
-    # 检测winget是否存在
-    if (!(Test-CommandInstalled npm)) {
-        Write-Host "未检测到 npm，请尝试手动下载 NodeJS (https://nodejs.org/en/download)"
+# 检测 pnpm 命令是否存在
+if (!(Test-CommandInstalled pnpm)) {
+    Write-Host "未检测到 pnpm 环境，尝试启用 corepack..."
+    if (!(Test-CommandInstalled corepack)) {
+        Write-Host "未检测到 corepack，请尝试手动下载 NodeJS (https://nodejs.org/en/download)"
     }
     else {
-        npm install --global yarn
-        Write-Host "yarn 安装完成，版本为："
-        yarn --version
+        corepack enable
+        corepack prepare pnpm@12.4.2 --activate
+        Write-Host "pnpm 安装完成，版本为："
+        pnpm --version
     }
 }else{
-    Write-Host "检测到 yarn 环境，版本为："
-    yarn --version
+    Write-Host "检测到 pnpm 环境，版本为："
+    pnpm --version
 }

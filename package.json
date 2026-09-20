@@ -2,6 +2,11 @@
   "name": "qwerty-learner",
   "version": "0.1.0",
   "private": true,
+  "packageManager": "pnpm@12.4.2",
+  "engines": {
+    "node": ">=18",
+    "pnpm": ">=9"
+  },
   "homepage": ".",
   "dependencies": {
     "@floating-ui/react": "^0.20.1",

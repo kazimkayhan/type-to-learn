@@ -31,17 +31,17 @@ else
     git --version
 fi
 
-if ! type yarn >/dev/null 2>&1; then
-    echo "未检测到 yarn 环境，尝试使用 homebrew 进行安装" 
-    # 检测 homebrew 是否存在
-    if ! type brew >/dev/null 2>&1; then
-        echo "未检测到 homebrew ，请手动安装 homebrew 后进行尝试 (https://brew.sh/)"
+if ! type pnpm >/dev/null 2>&1; then
+    echo "未检测到 pnpm 环境，尝试启用 corepack"
+    if ! type corepack >/dev/null 2>&1; then
+        echo "未检测到 corepack，请安装 Node.js 后重试 (https://nodejs.org/en/download)"
     else 
-        brew install yarn
-        echo "yarn 安装完成，版本为: "
-        yarn --version
+        corepack enable
+        corepack prepare pnpm@12.4.2 --activate
+        echo "pnpm 安装完成，版本为: "
+        pnpm --version
     fi
 else
-    echo "检测到 yarn 环境，版本为："
-    yarn -v
+    echo "检测到 pnpm 环境，版本为："
+    pnpm -v
 fi
