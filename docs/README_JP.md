@@ -1,9 +1,9 @@
 <div align=center>
-<img  src="../src/assets/logo.svg"/>
+<img src="../src/assets/logo.svg"/>
 </div>
 
 <h1 align="center">
-  Qwerty Learner
+  Type to Learn
 </h1>
 
 <p align="center">
@@ -17,41 +17,18 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/Realkai42/qwerty-learner/blob/master/LICENSE"><img src="https://img.shields.io/github/license/Realkai42/qwerty-learner" alt="License"></a>
+  <a href="https://github.com/kazimkayhan/type-to-learn/blob/master/LICENSE"><img src="https://img.shields.io/github/license/kazimkayhan/type-to-learn" alt="License"></a>
   <a><img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg"/></a>
   <a><img src="https://img.shields.io/badge/Powered%20by-React-blue"/></a>
 </p>
 
 <div align=center>
-<img  src="../docs/Screenshot.png"/>
+<img src="../docs/Screenshot.png"/>
 </div>
 
 ## 📸 オンラインアクセス
 
-Vercel: <https://qwerty.kaiyi.cool/> , <https://qwerty-learner.vercel.app/>
-GitHub Pages: <https://realkai42.github.io/qwerty-learner/>
-Gitee Pages: <https://kaiyiwing.gitee.io/qwerty-learner/>
-
-国内ユーザーは Gitee を使用することをお勧めします
-<br/>
-<br/>
-
-プロジェクトは VSCode プラグイン版をリリースしました。ワンクリックで起動し、いつでも練習を開始できます。
-[VSCode Plugin Market](https://marketplace.visualstudio.com/items?itemName=Kaiyi.qwerty-learner)
-[GitHub](https://github.com/Realkai42/qwerty-learner-vscode)
-
-<br />
-
-## クイックデプロイ
-
-### Vercel
-
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FRealKai42%2Fqwerty-learner)
-
-#### デプロイ手順
-
-1. `Vercel Build & Development Settings` -> `Output Directory` を "build" に更新します。
-2. デプロイボタンをクリックします。
+**GitHub Pages**: <https://kazimkayhan.github.io/type-to-learn/>
 
 <br />
 
@@ -70,7 +47,7 @@ Gitee Pages: <https://kaiyiwing.gitee.io/qwerty-learner/>
 プログラマーが仕事でよく使う単語の辞書が内蔵されており、仕事でよく使う単語を練習し、入力速度を向上させることができます。また、多くのプログラミング言語の API の練習も内蔵されており、プログラマーが一般的な API に迅速に慣れるのに役立ちます。さらに多くの言語の API が順次追加されています...
 
 <div align=center>
-<img  src="https://github.com/Realkai42/qwerty-learner/blob/master/docs/coder.png"/>
+<img src="https://github.com/kazimkayhan/type-to-learn/blob/master/docs/coder.png"/>
 </div>
 
 <br />
@@ -89,7 +66,7 @@ CET-4、CET-6、GMAT、GRE、IELTS、SAT、TOEFL、大学院英語、専門英�
 単語を記憶する際に、発音と音声記号を同時に記憶するのに役立ちます。
 
 <div align=center>
-<img  src="https://github.com/Realkai42/qwerty-learner/blob/master/docs/phonetic.jpeg"/>
+<img src="https://github.com/kazimkayhan/type-to-learn/blob/master/docs/phonetic.jpeg"/>
 </div>
 <br />
 <br />
@@ -99,7 +76,7 @@ CET-4、CET-6、GMAT、GRE、IELTS、SAT、TOEFL、大学院英語、専門英�
 ユーザーが章の練習を完了した後、その章を暗記するかどうかのオプションが表示されます。これにより、ユーザーがその章で学んだ単語を強化するのに役立ちます。
 
 <div align=center>
-<img  src="https://github.com/Realkai42/qwerty-learner/blob/master/docs/dictation.png"/>
+<img src="https://github.com/kazimkayhan/type-to-learn/blob/master/docs/dictation.png"/>
 </div>
 <br />
 <br />
@@ -109,7 +86,7 @@ CET-4、CET-6、GMAT、GRE、IELTS、SAT、TOEFL、大学院英語、専門英�
 ユーザーの入力速度と正確性を定量化し、ユーザーが自分のスキルの向上を実感できるようにします。
 
 <div align=center>
-<img  src="https://github.com/Realkai42/qwerty-learner/blob/master/docs/speed.jpeg"/>
+<img src="https://github.com/kazimkayhan/type-to-learn/blob/master/docs/speed.jpeg"/>
 </div>
 <br />
 <br />
@@ -118,7 +95,6 @@ CET-4、CET-6、GMAT、GRE、IELTS、SAT、TOEFL、大学院英語、専門英�
 
 ### コードの貢献
 
-[Call for Contributor](https://github.com/Realkai42/qwerty-learner/issues/390)
 [貢献ガイドライン](./docs/CONTRIBUTING.md)
 
 ### 辞書の貢献
@@ -132,37 +108,10 @@ CET-4、CET-6、GMAT、GRE、IELTS、SAT、TOEFL、大学院英語、専門英�
 ### 手動インストール
 
 1. NodeJS をインストールします。参考：[公式ドキュメント](https://nodejs.org/en/download)
-2. `git clone` を使用してプロジェクトをローカルにダウンロードします。git を使用しない場合、依存関係が不足して実行できない可能性があります。
+2. `git clone https://github.com/kazimkayhan/type-to-learn.git` を使用してプロジェクトをローカルにダウンロードします。git を使用しない場合、依存関係が不足して実行できない可能性があります。
 3. コマンドラインを開き、プロジェクトのルートディレクトリで `pnpm install` を実行して依存関係をダウンロードします。
 4. `pnpm start` を実行してプロジェクトを起動します。プロジェクトのデフォルトアドレスは `http://localhost:5173/` です。
 5. ブラウザで `http://localhost:5173/` を開いてプロジェクトにアクセスします。
-
-### スクリプトの実行
-
-Windows ユーザーの場合、[install.ps1](scripts/install.ps1) スクリプトを直接実行して、依存関係を一括でインストールし、プロジェクトを起動できます。
-
-1. PowerShell を開き、プロジェクトのルートディレクトリ内の `scripts` ディレクトリに移動します。
-2. コマンドラインで `.\install.ps1` を実行します。
-3. スクリプトの完了を待ちます。
-
-> 注記
-> スクリプトは `winget` を使用して node をインストールします。Windows 10 1709（バージョン 16299）以降でのみサポートされています！
-
-MacOS ユーザーの場合、[install.sh](scripts/install.sh) スクリプトを直接実行して、依存関係を一括でインストールし、プロジェクトを起動できます。
-
-1. ターミナルを開き、このプロジェクトのフォルダに移動します。
-2. コマンドラインで `scripts/install.sh` を実行します。
-3. スクリプトの完了を待ちます。
-
-> このスクリプトは `homebrew` に依存しています。`brew` コマンドが実行できることを確認してください。
-
-## 🏆 栄誉
-
-- GitHub グローバルトレンドプロジェクト
-- V2EX 全サイトトレンドプロジェクト
-- Gitee トレンドプロジェクト
-- [少数派のホームページで推奨](https://sspai.com/post/67535)
-- Gitee 最も価値のあるオープンソースプロジェクト([GVP](https://gitee.com/gvp))
 
 ## 📕 辞書リスト
 
@@ -199,7 +148,7 @@ MacOS ユーザーの場合、[install.sh](scripts/install.sh) スクリプト�
 - Linux Command. [@归谜](https://github.com/vhxubo)
 - C#: List API [@nidbCN](https://github.com/nidbCN)
 
-現在、API 関連の辞書は主にコミュニティの貢献に依存しています。自分の必要な API 辞書を貢献したい場合は、[Issue #42](https://github.com/Realkai42/qwerty-learner/issues/40) [pr #67](https://github.com/Realkai42/qwerty-learner/pull/67) を参考にして辞書を貢献してください。
+現在、API 関連の辞書は主にコミュニティの貢献に依存しています。自分の必要な API 辞書を貢献したい場合は、貢献ガイドラインを参照してください。
 
 <br />
 <br />
@@ -207,8 +156,6 @@ MacOS ユーザーの場合、[install.sh](scripts/install.sh) スクリプト�
 ## 🎙 機能と提案
 
 現在、プロジェクトは開発初期段階にあり、新機能が継続的に追加されています。ソフトウェアに関する機能や提案がある場合は、Issues で提案してください。
-
-プロジェクトの進捗と将来の計画は [Issue](https://github.com/Realkai42/qwerty-learner/issues/42) で詳しく説明されています。内部には将来の機能に関する意見募集なども含まれています。Qwerty Learner の将来に興味がある場合は、議論に参加してください。
 
 このソフトウェアの設計思想が気に入った場合は、pr を提出してください。ご支援いただき、誠にありがとうございます！
 <br />
@@ -218,7 +165,7 @@ MacOS ユーザーの場合、[install.sh](scripts/install.sh) スクリプト�
 
 このプロジェクトに興味がある場合、貢献を歓迎します。できる限りのサポートを提供します。
 
-貢献する前に、[Issue #42](https://github.com/Realkai42/qwerty-learner/issues/42) を読んで、現在の開発計画を理解することをお勧めします。計画中の作業や Issue 区の "Help Wanted" ラベルの付いた作業に参加することをお勧めします。もちろん、完全に新しい機能やアイデアを実現することも歓迎しますが、それには時間がかかるかもしれません。
+貢献する前に、現在の開発計画を理解することをお勧めします。計画中の作業や Issue 区の "Help Wanted" ラベルの付いた作業に参加することをお勧めします。もちろん、完全に新しい機能やアイデアを実現することも歓迎しますが、それには時間がかかるかもしれません。
 
 参加したい作業が決まったら、基本的な進捗があった後に draft pr を提出することをお勧めします。これにより、draft pr で議論を行い、他のコラボレーターの意見を聞くことができます。
 
@@ -226,18 +173,10 @@ MacOS ユーザーの場合、[install.sh](scripts/install.sh) スクリプト�
 
 <br />
 
-## ☕️ コーヒーを買ってください
-
-Qwerty Learner をご利用いただき、誠にありがとうございます。現在、このウェブサイトは 3 人のメンバーが余暇を利用して維持しています。将来的には、独自のドメインを購入し（現在は vercel を使用してデプロイ）、国内ユーザーのアクセスとクラウド同期データのためにサーバーを購入する予定です。
-
-このソフトウェアが気に入った場合、将来のサポートに感謝します！
-
-<img  src="https://github.com/Realkai42/qwerty-learner/blob/master/docs/alipay.png" width="200px"/>
-
 ## 👨‍💻 貢献者
 
-<a href="https://github.com/Realkai42/qwerty-learner/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=Realkai42/qwerty-learner" />
+<a href="https://github.com/kazimkayhan/type-to-learn/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=kazimkayhan/type-to-learn" />
 </a>
 
 ## 🎁 大感謝
@@ -278,20 +217,18 @@ JS API は [react-code-game](https://github.com/webzhd/react-code-game) から�
 
 [libregd](https://github.com/libregd) に感謝します。プロジェクトに複数の素晴らしいアイコンデザインを提供し、プロジェクトの進行中にデザイン、提案、将来の計画など多くのサポートを提供してくれました。
 
-### サポートに感謝
-
-[云谦](https://github.com/sorrycc)、[大圣](https://github.com/shengxinjing) に感謝します。プロジェクトがまだ十数個のスターしかなかったときにプロジェクトに注目してくれ、プロジェクトを進める動機を与えてくれました。
-
-<br/>
-
-プロジェクトの初期段階でアイデアを議論し、提案を提供し、時折プッシュしてくれた友人たちにも感謝します。彼らがいなければ、このアイデアはさらに 1 年遅れることになったかもしれません（🐶
-
-[Pear Mini](https://github.com/pearmini) に感謝します。最初にアイデアを議論し、プロジェクトにサポートを提供してくれました。また、彼のプロジェクトは、学生のアイデアでもクールなものになることを信じさせてくれました。彼の [Gossip](https://github.com/pearmini/gossip) プロジェクトは次世代のプレゼンテーションツールです！
-
-[AZ](https://github.com/sailist) に感謝します。アイデアを実現するように励ましてくれました（ただし、私はまだしばらく遅れました）。彼の無比の行動力は私に影響を与えました。彼は非常にクールなライブラリメーカーであり、多くの優れた Python パッケージを作成しています。たとえば、中国語音声認識のフレームワーク [ASRFrame](https://github.com/sailist/ASRFrame) などです。
-
-[Luyu Cheng](https://github.com/chengluyu) に感謝します。私が知っている最もクールなフロントエンドの達人であり、プロジェクトと私のフロントエンド自学に無限の助けを提供してくれました。プロジェクトの初期段階で技術スタックの選定を手伝い、開発段階で技術的な問題を解決し、実装方法がわからない機能に技術的なアイデアを提供し、プロジェクトに多くの非常に人気のある機能を貢献してくれました。
-
 ## 🌟 時間経過によるスターゲイザー
 
-[![Stargazers over time](https://starchart.cc/Realkai42/qwerty-learner.svg)](https://starchart.cc/Realkai42/qwerty-learner)
+[![Stargazers over time](https://starchart.cc/kazimkayhan/type-to-learn.svg)](https://starchart.cc/kazimkayhan/type-to-learn)
+
+---
+
+## 📝 ライセンスと帰属
+
+このプロジェクトは [Kaiyi](https://github.com/RealKai42) による [Qwerty Learner](https://github.com/RealKai42/qwerty-learner) をベースにしたフォークです。元のプロジェクトは GPL-3.0 ライセンスの下でライセンスされています。このフォークは同じライセンスを維持し、元の作者の作品を認めています。
+
+**元のプロジェクト**: [RealKai42/qwerty-learner](https://github.com/RealKai42/qwerty-learner)  
+**このフォーク**: [kazimkayhan/type-to-learn](https://github.com/kazimkayhan/type-to-learn)  
+**メンテナ**: Kazim Kayhan  
+**ウェブサイト**: [kazimjan.com](https://kazimjan.com)  
+**連絡先**: email4kazim@gmail.com
