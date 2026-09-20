@@ -1,7 +1,6 @@
 import { DISMISS_START_CARD_DATE_KEY } from '@/constants'
 import { dismissStartCardDateAtom } from '@/store'
 import { IS_MAC_OS, recordStarAction } from '@/utils'
-// Transition removed - using shadcn animations
 import { useSetAtom } from 'jotai'
 import { useCallback, useEffect, useLayoutEffect, useMemo, useState } from 'react'
 import IconStar from '~icons/material-symbols/star'
@@ -89,35 +88,23 @@ export default function StarCard() {
     )
   }, [isCounting, onClickWantStar])
 
-  return (
-    <Transition
-      appear
-      show={isShow}
-      enter="transition ease-out duration-300 transform"
-      enterFrom="translate-x-full -translate-y-full"
-      enterTo="translate-x-0 translate-y-0"
-      leave="transition ease-in duration-500 transform"
-      leaveFrom="translate-x-0 translate-y-0"
-      leaveTo="translate-x-full -translate-y-full"
-      className="fixed inset-0 z-30 flex h-0 justify-center"
-    >
-      <div className="fixed inset-x-3 bottom-4 flex w-auto flex-col items-center justify-evenly rounded-2xl bg-white p-6 shadow-2xl dark:bg-gray-800 sm:inset-x-auto sm:bottom-auto sm:right-1 sm:top-4 sm:w-150 sm:p-12">
-        <div className="absolute right-3 top-3 flex h-5 items-center">
-          {isCounting && (
-            <span className="mx-1.5 dark:text-gray-100">
-              <span className="text-indigo-600">{countdown}s </span>
-              until auto-close
-            </span>
-          )}
-          <button type="button" onClick={onClickCloseStar} title="Dismiss" aria-label="Dismiss">
-            <IconCircleX className="h-5 w-5 text-indigo-400" />
-          </button>
-        </div>
-        <span className="pb-4 text-xl text-gray-600 dark:text-gray-50">
-          Keep practicing to improve your language skills. Save <span className="text-indigo-600">Type to Learn</span> to your bookmarks so you never lose it!
-        </span>
-        {content}
+  return isShow ? (
+    <div className="fixed inset-x-3 bottom-4 z-50 flex w-auto flex-col items-center justify-evenly rounded-2xl bg-white p-6 shadow-2xl animate-in fade-in slide-in-from-bottom duration-300 dark:bg-gray-800 sm:inset-x-auto sm:bottom-auto sm:right-1 sm:top-4 sm:w-150 sm:p-12">
+      <div className="absolute right-3 top-3 flex h-5 items-center">
+        {isCounting && (
+          <span className="mx-1.5 dark:text-gray-100">
+            <span className="text-indigo-600">{countdown}s </span>
+            until auto-close
+          </span>
+        )}
+        <button type="button" onClick={onClickCloseStar} title="Dismiss" aria-label="Dismiss">
+          <IconCircleX className="h-5 w-5 text-indigo-400" />
+        </button>
       </div>
-    </Transition>
-  )
+      <span className="pb-4 text-xl text-gray-600 dark:text-gray-50">
+        Keep practicing to improve your language skills. Save <span className="text-indigo-600">Type to Learn</span> to your bookmarks so you never lose it!
+      </span>
+      {content}
+    </div>
+  ) : null
 }
