@@ -69,10 +69,10 @@ const MobilePage: React.FC = () => {
     <div className="flex w-screen flex-col bg-white lg:mx-auto lg:max-w-7xl">
       <header className="fixed left-0 right-0 top-0 z-50 flex items-center justify-between border-b border-gray-100/50 bg-white/80 px-4 py-4 backdrop-blur-xl sm:px-6 sm:py-6 lg:px-12">
         <div className="flex items-center">
-          <img src={logo} className="mr-4 h-10 w-10 lg:h-12 lg:w-12" alt="Qwerty Learner Logo" />
+          <img src={logo} className="mr-4 h-10 w-10 lg:h-12 lg:w-12" alt="Type to Learn Logo" />
           <div className="flex flex-col">
-            <h1 className="text-lg font-semibold tracking-tight text-indigo-500 lg:text-xl">Qwerty Learner</h1>
-            <span className="text-xs font-normal text-gray-500">Official Site</span>
+            <h1 className="text-lg font-semibold tracking-tight text-indigo-500 lg:text-xl">Type to Learn</h1>
+            <span className="text-xs font-normal text-gray-500">by Kazim Kayhan</span>
           </div>
         </div>
         <Link
@@ -110,7 +110,7 @@ const MobilePage: React.FC = () => {
         <div className="mx-auto max-w-7xl">
           <ol className="flex items-center space-x-2 text-sm text-gray-500" itemScope itemType="https://schema.org/BreadcrumbList">
             <li itemProp="itemListElement" itemScope itemType="https://schema.org/ListItem">
-              <a href="https://qwerty.kaiyi.cool/" className="transition-colors hover:text-indigo-600" itemProp="item">
+              <a href="https://kazimkayhan.github.io/type-to-learn/" className="transition-colors hover:text-indigo-600" itemProp="item">
                 <span itemProp="name">Home</span>
               </a>
               <meta itemProp="position" content="1" />
@@ -122,7 +122,7 @@ const MobilePage: React.FC = () => {
             </li>
             <li itemProp="itemListElement" itemScope itemType="https://schema.org/ListItem">
               <span className="font-medium text-gray-900" itemProp="name">
-                Qwerty Learner Official Site
+                Type to Learn
               </span>
               <meta itemProp="position" content="2" />
             </li>
@@ -146,7 +146,7 @@ const MobilePage: React.FC = () => {
               <svg className="h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
               </svg>
-              <span>Official Site</span>
+              <span>by Kazim Kayhan</span>
             </div>
 
             {/* 主标题 */}
@@ -176,7 +176,7 @@ const MobilePage: React.FC = () => {
 
             {/* CTA按钮 */}
             <a
-              href="https://qwerty.kaiyi.cool/"
+              href="https://kazimkayhan.github.io/type-to-learn/"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-3 rounded-full bg-gray-900 px-10 py-5 text-lg font-semibold text-white shadow-xl transition-all duration-300 hover:-translate-y-1 hover:bg-gray-800 hover:shadow-2xl"
@@ -201,18 +201,18 @@ const MobilePage: React.FC = () => {
               >
                 <img
                   src={hotImg}
-                  alt="Qwerty Learner popular dictionaries - CET, IELTS, TOEFL vocabulary practice"
+                  alt="Type to Learn popular dictionaries - CET, IELTS, TOEFL vocabulary practice"
                   className="w-full flex-shrink-0"
                 />
                 <img
                   src={directoryImg}
-                  alt="Qwerty Learner dictionary catalog - developer and technical English"
+                  alt="Type to Learn dictionary catalog - developer and technical English"
                   className="w-full flex-shrink-0"
                 />
-                <img src={indexImg} alt="Qwerty Learner main typing interface - online vocabulary training" className="w-full flex-shrink-0" />
+                <img src={indexImg} alt="Type to Learn main typing interface - online vocabulary training" className="w-full flex-shrink-0" />
                 <img
                   src={hotImg}
-                  alt="Qwerty Learner popular dictionaries - CET, IELTS, TOEFL vocabulary practice"
+                  alt="Type to Learn popular dictionaries - CET, IELTS, TOEFL vocabulary practice"
                   className="w-full flex-shrink-0"
                 />
               </div>
@@ -232,16 +232,16 @@ const MobilePage: React.FC = () => {
 
         <section className="mt-24 bg-gray-50/30 px-6 py-24 lg:mt-32 lg:px-24" itemScope itemType="https://schema.org/Product">
           <div className="mx-auto max-w-7xl">
-            <meta itemProp="name" content="Qwerty Learner" />
+            <meta itemProp="name" content="Type to Learn" />
             <meta itemProp="description" content="English learning software for keyboard workers combining typing practice and vocabulary memorization" />
-            <meta itemProp="brand" content="Qwerty Learner" />
+            <meta itemProp="brand" content="Type to Learn" />
 
             {/* Offers Schema */}
             <div itemProp="offers" itemScope itemType="https://schema.org/Offer">
               <meta itemProp="price" content="0" />
               <meta itemProp="priceCurrency" content="USD" />
               <meta itemProp="availability" content="https://schema.org/InStock" />
-              <meta itemProp="url" content="https://qwerty.kaiyi.cool/" />
+              <meta itemProp="url" content="https://kazimkayhan.github.io/type-to-learn/" />
             </div>
 
             {/* Aggregate Rating */}
@@ -349,7 +349,7 @@ const MobilePage: React.FC = () => {
                 <img
                   className="w-full object-contain"
                   src={detail[activeIndex].img}
-                  alt={`Qwerty Learner ${detail[activeIndex].title} feature showcase screenshot`}
+                  alt={`Type to Learn ${detail[activeIndex].title} feature showcase screenshot`}
                 />
               </div>
             </div>
@@ -677,7 +677,7 @@ const MobilePage: React.FC = () => {
                 </p>
               </div>
               <a
-                href="https://qwerty.kaiyi.cool/"
+                href="https://kazimkayhan.github.io/type-to-learn/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 rounded-full bg-indigo-600 px-8 py-4 font-semibold text-white transition-all duration-300 hover:bg-indigo-700 hover:shadow-lg"
@@ -823,8 +823,8 @@ const MobilePage: React.FC = () => {
                     />
                   </svg>
                 </div>
-                <h4 className="mb-3 text-xl font-semibold text-white">VSCode extension</h4>
-                <p className="text-gray-300">VSCode extension lets you practice right in your dev environment</p>
+                <h4 className="mb-3 text-xl font-semibold text-white">Open source</h4>
+                <p className="text-gray-300">The full source is on GitHub if you want to self-host or contribute</p>
               </div>
             </div>
 
@@ -837,7 +837,7 @@ const MobilePage: React.FC = () => {
               </div>
               <div className="flex flex-col items-center gap-4 sm:flex-row sm:justify-center">
                 <a
-                  href="https://qwerty.kaiyi.cool/"
+                  href="https://kazimkayhan.github.io/type-to-learn/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center gap-2 rounded-full bg-indigo-600 px-8 py-4 font-semibold text-white transition-all duration-300 hover:bg-indigo-700 hover:shadow-lg"
@@ -848,7 +848,7 @@ const MobilePage: React.FC = () => {
                   </svg>
                 </a>
                 <a
-                  href="https://marketplace.visualstudio.com/items?itemName=Kaiyi.qwerty-learner"
+                  href="https://github.com/kazimkayhan/type-to-learn"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center gap-2 rounded-full border border-gray-600 bg-gray-800 px-8 py-4 font-semibold text-white transition-all duration-300 hover:bg-gray-700"
@@ -856,7 +856,7 @@ const MobilePage: React.FC = () => {
                   <svg className="h-5 w-5" viewBox="0 0 24 24" fill="currentColor">
                     <path d="M23.15 2.587L18.21.21a1.494 1.494 0 0 0-1.705.29l-9.46 8.63-4.12-3.128a.999.999 0 0 0-1.276.057L.327 7.261A1 1 0 0 0 .326 8.74L3.899 12 .326 15.26a1 1 0 0 0 .001 1.479L1.65 17.94a.999.999 0 0 0 1.276.057l4.12-3.128 9.46 8.63a1.492 1.492 0 0 0 1.704.29l4.942-2.377A1.5 1.5 0 0 0 24 20.06V3.939a1.5 1.5 0 0 0-.85-1.352zm-5.146 14.861L10.826 12l7.178-5.448v10.896z" />
                   </svg>
-                  <span>Install VSCode extension</span>
+                  <span>View on GitHub</span>
                 </a>
               </div>
             </div>
@@ -1076,7 +1076,7 @@ const MobilePage: React.FC = () => {
                 </p>
               </div>
               <a
-                href="https://qwerty.kaiyi.cool/"
+                href="https://kazimkayhan.github.io/type-to-learn/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 rounded-full bg-indigo-600 px-8 py-4 font-semibold text-white transition-all duration-300 hover:bg-indigo-700 hover:shadow-lg"
@@ -1113,7 +1113,7 @@ const MobilePage: React.FC = () => {
             </p>
             <div className="flex flex-col items-center gap-4 sm:flex-row">
               <a
-                href="https://qwerty.kaiyi.cool/"
+                href="https://kazimkayhan.github.io/type-to-learn/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="hover:shadow-3xl group relative overflow-hidden rounded-full bg-white px-12 py-5 text-xl font-semibold text-gray-900 shadow-2xl transition-all duration-300 hover:-translate-y-1 hover:scale-105"

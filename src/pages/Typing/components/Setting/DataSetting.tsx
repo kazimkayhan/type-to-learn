@@ -60,7 +60,7 @@ export default function DataSetting() {
           <div className={styles.section}>
             <span className={styles.sectionLabel}>Export data</span>
             <span className={styles.sectionDescription}>
-              Your practice data is currently <strong>stored locally only</strong>. If you need to use Qwerty Learner on different
+              Your practice data is currently <strong>stored locally only</strong>. If you need to use Type to Learn on different
               devices, browsers, or unofficial deployments, you must manually sync and back up your data. To preserve your progress and
               use upcoming data analysis and smart training features, we recommend backing up your data regularly.
             </span>

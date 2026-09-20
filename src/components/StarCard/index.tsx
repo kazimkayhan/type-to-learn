@@ -114,7 +114,7 @@ export default function StarCard() {
           </button>
         </div>
         <span className="pb-4 text-xl text-gray-600 dark:text-gray-50">
-          Keep practicing to improve your language skills. Save <span className="text-indigo-600">Qwerty Learner</span> to your bookmarks so you never lose it!
+          Keep practicing to improve your language skills. Save <span className="text-indigo-600">Type to Learn</span> to your bookmarks so you never lose it!
         </span>
         {content}
       </div>

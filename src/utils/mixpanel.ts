@@ -11,8 +11,11 @@ import {
 import type { InfoPanelType } from '@/typings'
 import type { PronunciationType } from '@/typings'
 import { useAtomValue } from 'jotai'
-import mixpanel from 'mixpanel-browser'
 import { useCallback } from 'react'
+
+const mixpanel = {
+  track: (_event: string, _props?: Record<string, unknown>) => {},
+}
 
 export type starAction = 'star' | 'dismiss'
 

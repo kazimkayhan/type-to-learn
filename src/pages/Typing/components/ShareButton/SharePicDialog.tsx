@@ -81,7 +81,7 @@ export default function SharePicDialog({ showState, setShowState, randomChoose }
     const { saveAs } = await import('file-saver')
 
     if (imageURL) {
-      saveAs(imageURL, 'Qwerty-learner.png')
+      saveAs(imageURL, 'type-to-learn.png')
       recordShareAction('download')
     }
   }, [imageURL])
@@ -178,7 +178,7 @@ export default function SharePicDialog({ showState, setShowState, randomChoose }
               <div className="ml-5 mt-2 self-start text-xs text-gray-600">{`Chapter ${currentChapter + 1}`}</div>
             </div>
             <div className="mb-3 ml-5 mt-auto">
-              <div className="text-xs">Qwerty.kaiyi.cool</div>
+              <div className="text-xs">kazimkayhan.github.io/type-to-learn</div>
               <div className="mt-1 text-xs font-normal text-gray-400">Word and muscle memory training for keyboard workers</div>
             </div>
             <div className="absolute -right-9 bottom-10 ">
