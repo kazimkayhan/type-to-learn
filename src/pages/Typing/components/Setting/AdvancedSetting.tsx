@@ -1,7 +1,13 @@
 import styles from './index.module.css'
+<<<<<<< HEAD
 import { Switch } from '@/components/ui/switch'
 import { isIgnoreCaseAtom, isShowAnswerOnHoverAtom, isShowPrevAndNextWordAtom, isTextSelectableAtom, randomConfigAtom } from '@/store'
 import * as ScrollArea from '@radix-ui/react-scroll-area'
+=======
+import { ScrollArea, ScrollBar } from '@/components/ui/scroll-area'
+import { isIgnoreCaseAtom, isShowAnswerOnHoverAtom, isShowPrevAndNextWordAtom, isTextSelectableAtom, randomConfigAtom } from '@/store'
+import { Switch } from '@headlessui/react'
+>>>>>>> e390bb4 (Migrate from Radix UI to Base UI)
 import { useAtom } from 'jotai'
 import { useCallback } from 'react'
 
@@ -50,8 +56,8 @@ export default function AdvancedSetting() {
   )
 
   return (
-    <ScrollArea.Root className="flex-1 select-none overflow-y-auto ">
-      <ScrollArea.Viewport className="h-full w-full px-3">
+    <ScrollArea className="flex-1 select-none overflow-y-auto ">
+      <div className="h-full w-full px-3">
         <div className={styles.tabContent}>
           <div className={styles.section}>
             <span className={styles.sectionLabel}>Shuffle chapters</span>
@@ -118,8 +124,8 @@ export default function AdvancedSetting() {
             </div>
           </div>
         </div>
-      </ScrollArea.Viewport>
-      <ScrollArea.Scrollbar className="flex touch-none select-none bg-transparent " orientation="vertical"></ScrollArea.Scrollbar>
-    </ScrollArea.Root>
+      </div>
+      <ScrollBar className="flex touch-none select-none bg-transparent " orientation="vertical"></ScrollBar>
+    </ScrollArea>
   )
 }

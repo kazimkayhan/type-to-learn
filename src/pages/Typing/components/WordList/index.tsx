@@ -2,9 +2,15 @@ import { TypingContext, TypingStateActionType } from '../../store'
 import WordCard from './WordCard'
 import Drawer from '@/components/Drawer'
 import Tooltip from '@/components/Tooltip'
+<<<<<<< HEAD
 import { Dialog, DialogContent } from '@/components/ui/dialog'
 import { currentChapterAtom, currentDictInfoAtom, isReviewModeAtom } from '@/store'
 import * as ScrollArea from '@radix-ui/react-scroll-area'
+=======
+import { ScrollArea, ScrollBar } from '@/components/ui/scroll-area'
+import { currentChapterAtom, currentDictInfoAtom, isReviewModeAtom } from '@/store'
+import { Dialog } from '@headlessui/react'
+>>>>>>> e390bb4 (Migrate from Radix UI to Base UI)
 import { atom, useAtomValue } from 'jotai'
 import { useContext, useState } from 'react'
 import ListIcon from '~icons/tabler/list'
@@ -53,16 +59,16 @@ export default function WordList() {
           {currentDictTitleValue}
           <IconX onClick={closeModal} className="cursor-pointer" />
         </Dialog.Title>
-        <ScrollArea.Root className="flex-1 select-none overflow-y-auto ">
-          <ScrollArea.Viewport className="h-full w-full px-3">
+        <ScrollArea className="flex-1 select-none overflow-y-auto ">
+          <div className="h-full w-full px-3">
             <div className="flex h-full w-full flex-col gap-1">
               {state.chapterData.words?.map((word, index) => {
                 return <WordCard word={word} key={`${word.name}_${index}`} isActive={state.chapterData.index === index} />
               })}
             </div>
-          </ScrollArea.Viewport>
-          <ScrollArea.Scrollbar className="flex touch-none select-none bg-transparent " orientation="vertical"></ScrollArea.Scrollbar>
-        </ScrollArea.Root>
+          </div>
+          <ScrollBar className="flex touch-none select-none bg-transparent " orientation="vertical"></ScrollBar>
+        </ScrollArea>
       </Drawer>
     </>
   )

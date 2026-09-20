@@ -27,7 +27,7 @@ const ErrorRow: FC<IErrorRowProps> = ({ record, onDelete }) => {
 
   return (
     <li
-      className="opacity-85 flex w-full cursor-pointer flex-col gap-2 rounded-lg bg-white px-4 py-3 text-black shadow-md dark:bg-gray-800 dark:text-white md:flex-row md:items-center md:justify-between md:px-6"
+      className="flex w-full cursor-pointer flex-col gap-2 rounded-lg bg-white px-4 py-3 text-black opacity-85 shadow-md dark:bg-gray-800 dark:text-white md:flex-row md:items-center md:justify-between md:px-6"
       onClick={onClick}
     >
       <span className="basis-2/12 break-normal font-mono text-lg md:text-base">{record.word}</span>
@@ -46,7 +46,7 @@ const ErrorRow: FC<IErrorRowProps> = ({ record, onDelete }) => {
         >
           <TooltipProvider>
             <Tooltip>
-              <TooltipTrigger asChild>
+              <TooltipTrigger>
                 <DeleteIcon />
               </TooltipTrigger>
               <TooltipContent>
