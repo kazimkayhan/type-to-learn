@@ -34,7 +34,7 @@ function Root() {
 
   return (
     <React.StrictMode>
-      <BrowserRouter basename={REACT_APP_DEPLOY_ENV === 'pages' ? '/type-to-learn' : ''}>
+      <BrowserRouter basename={import.meta.env.BASE_URL.replace(/\/$/, '') || '/'}>
         <Suspense fallback={<Loading />}>
           <Routes>
             <Route index element={<TypingPage />} />

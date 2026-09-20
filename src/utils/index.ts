@@ -3,6 +3,9 @@ import type { Howl } from 'howler'
 
 export * from './mixpanel'
 
+/** Public URL prefix for subdirectory deploys (GitHub Pages). Empty when served from `/`. */
+export const PUBLIC_BASE = import.meta.env.BASE_URL.replace(/\/$/, '')
+
 const bannedKeys = [
   'Enter',
   'Backspace',
