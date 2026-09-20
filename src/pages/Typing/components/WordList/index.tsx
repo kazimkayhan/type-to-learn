@@ -55,10 +55,10 @@ export default function WordList() {
       </Tooltip>
 
       <Drawer open={isOpen} onClose={closeModal} classNames="bg-stone-50 dark:bg-gray-900">
-        <Dialog.Title as="h3" className="flex items-center justify-between p-4 text-lg font-medium leading-6 dark:text-gray-50">
+        <h3 className="flex items-center justify-between p-4 text-lg font-medium leading-6 dark:text-gray-50">
           {currentDictTitleValue}
           <IconX onClick={closeModal} className="cursor-pointer" />
-        </Dialog.Title>
+        </h3>
         <ScrollArea className="flex-1 select-none overflow-y-auto ">
           <div className="h-full w-full px-3">
             <div className="flex h-full w-full flex-col gap-1">
