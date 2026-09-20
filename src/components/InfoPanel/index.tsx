@@ -1,4 +1,5 @@
-import { Dialog, Transition } from '@headlessui/react'
+import { Dialog } from '@headlessui/react'
+import { Transition } from '@headlessui/react'
 import classNames from 'classnames'
 import type { ElementType, SVGProps } from 'react'
 import type React from 'react'

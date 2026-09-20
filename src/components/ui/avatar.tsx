@@ -1,4 +1,3 @@
-/* eslint-disable react/prop-types */
 import { cn } from '@/utils/ui'
 import * as AvatarPrimitive from '@radix-ui/react-avatar'
 import * as React from 'react'
@@ -22,7 +21,7 @@ const AvatarFallback = React.forwardRef<
 >(({ className, ...props }, ref) => (
   <AvatarPrimitive.Fallback
     ref={ref}
-    className={cn('flex h-full w-full items-center justify-center rounded-full bg-slate-100 dark:bg-slate-800', className)}
+    className={cn('flex h-full w-full items-center justify-center rounded-full bg-muted', className)}
     {...props}
   />
 ))
