@@ -6,24 +6,21 @@ name: Deployment to AliYun
 jobs:
   deploy:
     runs-on: ubuntu-latest
-    strategy:
-      matrix:
-        node-version: [26]
     steps:
-      - uses: actions/checkout@v3
-      - name: Setup pnpm
-        uses: pnpm/action-setup@v4
-      - name: Use Node.js ${{ matrix.node-version }}
-        uses: actions/setup-node@v3
+      - uses: actions/checkout@v7
+      - name: Setup pnpm and Node
+        uses: pnpm/setup@v2
         with:
-          node-version: ${{ matrix.node-version }}
-          cache: pnpm
+          runtime: node@26
+          cache: true
+          install: false
+          require-lockfile: true
       - name: Install Packages
         run: pnpm install --frozen-lockfile
       - name: Build page
         run: pnpm build
       - name: upload files to OSS
-        uses: fangbinwei/aliyun-oss-website-action@v1
+        uses: fangbinwei/aliyun-oss-website-action@v1.4.1
         with:
           accessKeyId: ${{ secrets.YUN_KEY_ID }}
           accessKeySecret: ${{ secrets.YUN_KEY_SECRET }}
