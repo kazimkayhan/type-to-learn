@@ -43,6 +43,8 @@ export default defineConfig(async ({ mode }) => {
     resolve: {
       alias: {
         '@': path.resolve(__dirname, 'src'),
+        '@/lib': path.resolve(__dirname, 'src/lib'),
+        '@/hooks': path.resolve(__dirname, 'src/hooks'),
       },
     },
     css: {

@@ -1,16 +1,15 @@
 import styles from './index.module.css'
+import { ScrollArea } from '@/components/ui/scroll-area'
+import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@/components/ui/select'
+import { Slider } from '@/components/ui/slider'
+import { Switch } from '@/components/ui/switch'
 import { keySoundResources } from '@/resources/soundResource'
 import { hintSoundsConfigAtom, keySoundsConfigAtom, pronunciationConfigAtom } from '@/store'
 import type { SoundResource } from '@/typings'
 import { toFixedNumber } from '@/utils'
 import { playKeySoundResource } from '@/utils/sounds/keySounds'
-import { Listbox, Switch, Transition } from '@headlessui/react'
-import * as ScrollArea from '@radix-ui/react-scroll-area'
-import * as Slider from '@radix-ui/react-slider'
 import { useAtom } from 'jotai'
-import { Fragment, useCallback } from 'react'
-import IconCheck from '~icons/tabler/check'
-import IconChevronDown from '~icons/tabler/chevron-down'
+import { useCallback } from 'react'
 import IconEar from '~icons/tabler/ear'
 
 export default function SoundSetting() {
@@ -120,200 +119,148 @@ export default function SoundSetting() {
   )
 
   return (
-    <ScrollArea.Root className="flex-1 select-none overflow-y-auto ">
-      <ScrollArea.Viewport className="h-full w-full px-3">
-        <div className={styles.tabContent}>
-          <div className={styles.section}>
-            <span className={styles.sectionLabel}>Word pronunciation</span>
-            <div className={styles.switchBlock}>
-              <Switch checked={pronunciationConfig.isOpen} onChange={onTogglePronunciation} className="switch-root">
-                <span aria-hidden="true" className="switch-thumb" />
-              </Switch>
-              <span className="text-right text-xs font-normal leading-tight text-gray-600">{`Pronunciation ${
-                pronunciationConfig.isOpen ? 'on' : 'off'
-              }`}</span>
-            </div>
-            <div className={styles.block}>
-              <span className={styles.blockLabel}>Volume</span>
-              <div className="flex h-5 w-full items-center justify-between">
-                <Slider.Root
-                  defaultValue={[pronunciationConfig.volume * 100]}
-                  max={100}
-                  step={10}
-                  className="slider"
-                  onValueChange={onChangePronunciationVolume}
-                  disabled={!pronunciationConfig.isOpen}
-                >
-                  <Slider.Track>
-                    <Slider.Range />
-                  </Slider.Track>
-                  <Slider.Thumb />
-                </Slider.Root>
-                <span className="ml-4 w-10 text-xs font-normal text-gray-600">{`${Math.floor(pronunciationConfig.volume * 100)}%`}</span>
-              </div>
-            </div>
-
-            <div className={styles.block}>
-              <span className={styles.blockLabel}>Speed</span>
-              <div className="flex h-5 w-full items-center justify-between">
-                <Slider.Root
-                  defaultValue={[pronunciationConfig.rate ?? 1]}
-                  max={4}
-                  min={0.5}
-                  step={0.1}
-                  className="slider"
-                  onValueChange={onChangePronunciationRate}
-                  disabled={!pronunciationConfig.isOpen}
-                >
-                  <Slider.Track>
-                    <Slider.Range />
-                  </Slider.Track>
-                  <Slider.Thumb />
-                </Slider.Root>
-                <span className="ml-4 w-10 text-xs font-normal text-gray-600">{`${toFixedNumber(pronunciationConfig.rate, 2)}`}</span>
-              </div>
-            </div>
+    <ScrollArea className="h-full w-full flex-1 select-none overflow-y-auto px-3">
+      <div className={styles.tabContent}>
+        <div className={styles.section}>
+          <span className={styles.sectionLabel}>Word pronunciation</span>
+          <div className={styles.switchBlock}>
+            <Switch checked={pronunciationConfig.isOpen} onCheckedChange={onTogglePronunciation} />
+            <span className="text-right text-xs font-normal leading-tight text-gray-600">{`Pronunciation ${
+              pronunciationConfig.isOpen ? 'on' : 'off'
+            }`}</span>
           </div>
-          {window.speechSynthesis && (
-            <div className={styles.section}>
-              <span className={styles.sectionLabel}>Definition pronunciation</span>
-              <div className={styles.switchBlock}>
-                <Switch checked={pronunciationConfig.isTransRead} onChange={onTogglePronunciationIsTransRead} className="switch-root">
-                  <span aria-hidden="true" className="switch-thumb" />
-                </Switch>
-                <span className="text-right text-xs font-normal leading-tight text-gray-600">{`Pronunciation ${
-                  pronunciationConfig.isTransRead ? 'on' : 'off'
-                }`}</span>
-              </div>
-              <div className={styles.block}>
-                <span className={styles.blockLabel}>Volume</span>
-                <div className="flex h-5 w-full items-center justify-between">
-                  <Slider.Root
-                    defaultValue={[pronunciationConfig.transVolume * 100]}
-                    max={100}
-                    step={10}
-                    className="slider"
-                    onValueChange={onChangePronunciationIsTransVolume}
-                  >
-                    <Slider.Track>
-                      <Slider.Range />
-                    </Slider.Track>
-                    <Slider.Thumb />
-                  </Slider.Root>
-                  <span className="ml-4 w-10 text-xs font-normal text-gray-600">{`${Math.floor(
-                    pronunciationConfig.transVolume * 100,
-                  )}%`}</span>
-                </div>
-              </div>
-            </div>
-          )}
-
-          <div className={styles.section}>
-            <span className={styles.sectionLabel}>Key sounds</span>
-            <div className={styles.switchBlock}>
-              <Switch checked={keySoundsConfig.isOpen} onChange={onToggleKeySounds} className="switch-root">
-                <span aria-hidden="true" className="switch-thumb" />
-              </Switch>
-              <span className="text-right text-xs font-normal leading-tight text-gray-600">{`Key sounds ${
-                keySoundsConfig.isOpen ? 'on' : 'off'
-              }`}</span>
-            </div>
-            <div className={styles.block}>
-              <span className={styles.blockLabel}>Volume</span>
-              <div className="flex h-5 w-full items-center justify-between">
-                <Slider.Root
-                  defaultValue={[keySoundsConfig.volume * 100]}
-                  max={100}
-                  min={1}
-                  step={10}
-                  className="slider"
-                  onValueChange={onChangeKeySoundsVolume}
-                  disabled={!keySoundsConfig.isOpen}
-                >
-                  <Slider.Track>
-                    <Slider.Range />
-                  </Slider.Track>
-                  <Slider.Thumb />
-                </Slider.Root>
-                <span className="ml-4 w-10 text-xs font-normal text-gray-600">{`${Math.floor(keySoundsConfig.volume * 100)}%`}</span>
-              </div>
-            </div>
-            <div className={`${styles.block}`}>
-              <span className={styles.blockLabel}>Key sound effect</span>
-              <Listbox value={keySoundsConfig.resource.key} onChange={onChangeKeySoundsResource}>
-                <div className="relative">
-                  <Listbox.Button className="listbox-button w-full max-w-60">
-                    <span>{keySoundsConfig.resource.name}</span>
-                    <span>
-                      <IconChevronDown className="focus:outline-none" />
-                    </span>
-                  </Listbox.Button>
-                  <Transition as={Fragment} leave="transition ease-in duration-100" leaveFrom="opacity-100" leaveTo="opacity-0">
-                    <Listbox.Options className="listbox-options z-10">
-                      {keySoundResources.map((keySoundResource) => (
-                        <Listbox.Option key={keySoundResource.key} value={keySoundResource.key}>
-                          {({ selected }) => (
-                            <>
-                              <div className="group flex cursor-pointer items-center justify-between">
-                                <span>{keySoundResource.name}</span>
-                                {selected ? (
-                                  <span className="listbox-options-icon">
-                                    <IconCheck className="focus:outline-none" />
-                                  </span>
-                                ) : null}
-                                <IconEar
-                                  onClick={(e) => {
-                                    e.stopPropagation()
-                                    onPlayKeySound(keySoundResource)
-                                  }}
-                                  className="mr-2  hidden cursor-pointer text-neutral-500 hover:text-indigo-400 group-hover:block dark:text-neutral-300"
-                                />
-                              </div>
-                            </>
-                          )}
-                        </Listbox.Option>
-                      ))}
-                    </Listbox.Options>
-                  </Transition>
-                </div>
-              </Listbox>
+          <div className={styles.block}>
+            <span className={styles.blockLabel}>Volume</span>
+            <div className="flex h-5 w-full items-center justify-between">
+              <Slider
+                defaultValue={[pronunciationConfig.volume * 100]}
+                max={100}
+                step={10}
+                onValueChange={onChangePronunciationVolume}
+                disabled={!pronunciationConfig.isOpen}
+                className="flex-1"
+              />
+              <span className="ml-4 w-10 text-xs font-normal text-gray-600">{`${Math.floor(pronunciationConfig.volume * 100)}%`}</span>
             </div>
           </div>
 
-          <div className={styles.section}>
-            <span className={styles.sectionLabel}>Effect sounds</span>
-            <div className={styles.switchBlock}>
-              <Switch checked={hintSoundsConfig.isOpen} onChange={onToggleHintSounds} className="switch-root">
-                <span aria-hidden="true" className="switch-thumb" />
-              </Switch>
-              <span className="text-right text-xs font-normal leading-tight text-gray-600">{`Effect sounds ${
-                hintSoundsConfig.isOpen ? 'on' : 'off'
-              }`}</span>
-            </div>
-            <div className={styles.block}>
-              <span className={styles.blockLabel}>Volume</span>
-              <div className="flex h-5 w-full items-center justify-between">
-                <Slider.Root
-                  defaultValue={[hintSoundsConfig.volume * 100]}
-                  max={100}
-                  min={1}
-                  step={10}
-                  className="slider"
-                  onValueChange={onChangeHintSoundsVolume}
-                  disabled={!hintSoundsConfig.isOpen}
-                >
-                  <Slider.Track>
-                    <Slider.Range />
-                  </Slider.Track>
-                  <Slider.Thumb />
-                </Slider.Root>
-                <span className="ml-4 w-10 text-xs font-normal text-gray-600">{`${Math.floor(hintSoundsConfig.volume * 100)}%`}</span>
-              </div>
+          <div className={styles.block}>
+            <span className={styles.blockLabel}>Speed</span>
+            <div className="flex h-5 w-full items-center justify-between">
+              <Slider
+                defaultValue={[pronunciationConfig.rate ?? 1]}
+                max={4}
+                min={0.5}
+                step={0.1}
+                onValueChange={onChangePronunciationRate}
+                disabled={!pronunciationConfig.isOpen}
+                className="flex-1"
+              />
+              <span className="ml-4 w-10 text-xs font-normal text-gray-600">{`${toFixedNumber(pronunciationConfig.rate, 2)}`}</span>
             </div>
           </div>
         </div>
-      </ScrollArea.Viewport>
-      <ScrollArea.Scrollbar className="flex touch-none select-none bg-transparent " orientation="vertical"></ScrollArea.Scrollbar>
-    </ScrollArea.Root>
+        {window.speechSynthesis && (
+          <div className={styles.section}>
+            <span className={styles.sectionLabel}>Definition pronunciation</span>
+            <div className={styles.switchBlock}>
+              <Switch checked={pronunciationConfig.isTransRead} onCheckedChange={onTogglePronunciationIsTransRead} />
+              <span className="text-right text-xs font-normal leading-tight text-gray-600">{`Pronunciation ${
+                pronunciationConfig.isTransRead ? 'on' : 'off'
+              }`}</span>
+            </div>
+            <div className={styles.block}>
+              <span className={styles.blockLabel}>Volume</span>
+              <div className="flex h-5 w-full items-center justify-between">
+                <Slider
+                  defaultValue={[pronunciationConfig.transVolume * 100]}
+                  max={100}
+                  step={10}
+                  onValueChange={onChangePronunciationIsTransVolume}
+                  className="flex-1"
+                />
+                <span className="ml-4 w-10 text-xs font-normal text-gray-600">{`${Math.floor(
+                  pronunciationConfig.transVolume * 100,
+                )}%`}</span>
+              </div>
+            </div>
+          </div>
+        )}
+
+        <div className={styles.section}>
+          <span className={styles.sectionLabel}>Key sounds</span>
+          <div className={styles.switchBlock}>
+            <Switch checked={keySoundsConfig.isOpen} onCheckedChange={onToggleKeySounds} />
+            <span className="text-right text-xs font-normal leading-tight text-gray-600">{`Key sounds ${
+              keySoundsConfig.isOpen ? 'on' : 'off'
+            }`}</span>
+          </div>
+          <div className={styles.block}>
+            <span className={styles.blockLabel}>Volume</span>
+            <div className="flex h-5 w-full items-center justify-between">
+              <Slider
+                defaultValue={[keySoundsConfig.volume * 100]}
+                max={100}
+                min={1}
+                step={10}
+                onValueChange={onChangeKeySoundsVolume}
+                disabled={!keySoundsConfig.isOpen}
+                className="flex-1"
+              />
+              <span className="ml-4 w-10 text-xs font-normal text-gray-600">{`${Math.floor(keySoundsConfig.volume * 100)}%`}</span>
+            </div>
+          </div>
+          <div className={`${styles.block}`}>
+            <span className={styles.blockLabel}>Key sound effect</span>
+            <Select value={keySoundsConfig.resource.key} onValueChange={onChangeKeySoundsResource}>
+              <SelectTrigger className="w-full max-w-60">
+                <SelectValue>{keySoundsConfig.resource.name}</SelectValue>
+              </SelectTrigger>
+              <SelectContent>
+                {keySoundResources.map((keySoundResource) => (
+                  <SelectItem key={keySoundResource.key} value={keySoundResource.key}>
+                    <div className="flex items-center justify-between gap-2">
+                      <span>{keySoundResource.name}</span>
+                      <IconEar
+                        onClick={(e) => {
+                          e.stopPropagation()
+                          onPlayKeySound(keySoundResource)
+                        }}
+                        className="cursor-pointer text-neutral-500 hover:text-indigo-400 dark:text-neutral-300"
+                      />
+                    </div>
+                  </SelectItem>
+                ))}
+              </SelectContent>
+            </Select>
+          </div>
+        </div>
+
+        <div className={styles.section}>
+          <span className={styles.sectionLabel}>Effect sounds</span>
+          <div className={styles.switchBlock}>
+            <Switch checked={hintSoundsConfig.isOpen} onCheckedChange={onToggleHintSounds} />
+            <span className="text-right text-xs font-normal leading-tight text-gray-600">{`Effect sounds ${
+              hintSoundsConfig.isOpen ? 'on' : 'off'
+            }`}</span>
+          </div>
+          <div className={styles.block}>
+            <span className={styles.blockLabel}>Volume</span>
+            <div className="flex h-5 w-full items-center justify-between">
+              <Slider
+                defaultValue={[hintSoundsConfig.volume * 100]}
+                max={100}
+                min={1}
+                step={10}
+                onValueChange={onChangeHintSoundsVolume}
+                disabled={!hintSoundsConfig.isOpen}
+                className="flex-1"
+              />
+              <span className="ml-4 w-10 text-xs font-normal text-gray-600">{`${Math.floor(hintSoundsConfig.volume * 100)}%`}</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </ScrollArea>
   )
 }

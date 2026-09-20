@@ -1,6 +1,7 @@
 import standTypingHandPosition from '@/assets/standard_typing_hand_position.png'
-import { Dialog, Transition } from '@headlessui/react'
-import { Fragment, useState } from 'react'
+import { Dialog } from '@headlessui/react'
+import { Transition } from '@headlessui/react'
+import { useState } from 'react'
 import IconKeyboard from '~icons/ic/round-keyboard'
 import IconX from '~icons/tabler/x'
 
@@ -56,7 +57,10 @@ export default function HandPositionIllustration() {
                   <button type="button" onClick={() => setIsOpen(false)} title="Close dialog">
                     <IconX className="absolute right-4 top-4 cursor-pointer text-gray-400 sm:right-7 sm:top-5" />
                   </button>
-                  <Dialog.Title as="h3" className="pr-8 text-center text-lg font-medium leading-6 text-gray-800 dark:text-gray-200 sm:text-xl">
+                  <Dialog.Title
+                    as="h3"
+                    className="pr-8 text-center text-lg font-medium leading-6 text-gray-800 dark:text-gray-200 sm:text-xl"
+                  >
                     Recommended typing hand position guide
                   </Dialog.Title>
                   <div className="mt-8">

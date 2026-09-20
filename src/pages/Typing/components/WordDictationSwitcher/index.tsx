@@ -2,7 +2,7 @@ import { wordDictationConfigAtom } from '@/store'
 import type { WordDictationType } from '@/typings'
 import { Listbox, Popover, Switch, Transition } from '@headlessui/react'
 import { useAtom } from 'jotai'
-import { Fragment, useLayoutEffect, useState } from 'react'
+import { useLayoutEffect, useState } from 'react'
 import { useHotkeys } from 'react-hotkeys-hook'
 import IconEyeSlash from '~icons/heroicons/eye-slash-solid'
 import IconEye from '~icons/heroicons/eye-solid'
@@ -88,7 +88,9 @@ export default function WordDictationSwitcher() {
             <Popover.Panel className="absolute left-1/2 z-10 mt-2 flex max-w-max -translate-x-1/2 px-4 ">
               <div className="shadow-upper box-border flex w-60 select-none flex-col items-center justify-center gap-4 rounded-xl bg-white p-4 drop-shadow dark:bg-gray-800">
                 <div className="flex w-full  flex-col  items-start gap-2 py-0">
-                  <span className="text-sm font-normal leading-5 text-gray-900 dark:text-white dark:text-opacity-60">Toggle dictation mode</span>
+                  <span className="text-sm font-normal leading-5 text-gray-900 dark:text-white dark:text-opacity-60">
+                    Toggle dictation mode
+                  </span>
                   <div className="flex w-full flex-row items-center justify-between">
                     <Switch checked={wordDictationConfig.isOpen} onChange={onToggleWordDictation} className="switch-root">
                       <span aria-hidden="true" className="switch-thumb" />

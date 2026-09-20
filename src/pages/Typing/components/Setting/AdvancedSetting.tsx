@@ -1,6 +1,6 @@
 import styles from './index.module.css'
+import { Switch } from '@/components/ui/switch'
 import { isIgnoreCaseAtom, isShowAnswerOnHoverAtom, isShowPrevAndNextWordAtom, isTextSelectableAtom, randomConfigAtom } from '@/store'
-import { Switch } from '@headlessui/react'
 import * as ScrollArea from '@radix-ui/react-scroll-area'
 import { useAtom } from 'jotai'
 import { useCallback } from 'react'
