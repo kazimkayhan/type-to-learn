@@ -12,7 +12,6 @@ import {
   randomConfigAtom,
   reviewModeInfoAtom,
 } from "@/store";
-import { isLegal } from "@/utils";
 import { useSaveChapterRecord } from "@/utils/db";
 import { useMixPanelChapterLogUploader } from "@/utils/mixpanel";
 import Layout from "../../components/layout";
@@ -80,30 +79,6 @@ const App: React.FC = () => {
       ? setIsLoading(false)
       : setIsLoading(true);
   }, [state.chapterData.words]);
-
-  useEffect(() => {
-    if (!state.isTyping) {
-      const onKeyDown = (e: KeyboardEvent) => {
-        if (
-          !isLoading &&
-          e.key !== "Enter" &&
-          (isLegal(e.key) || e.key === " ") &&
-          !e.altKey &&
-          !e.ctrlKey &&
-          !e.metaKey
-        ) {
-          e.preventDefault();
-          dispatch({
-            payload: true,
-            type: TypingStateActionType.SET_IS_TYPING,
-          });
-        }
-      };
-      window.addEventListener("keydown", onKeyDown);
-
-      return () => window.removeEventListener("keydown", onKeyDown);
-    }
-  }, [state.isTyping, isLoading, dispatch]);
 
   useEffect(() => {
     const initialIndex =

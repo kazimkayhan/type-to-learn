@@ -1,7 +1,8 @@
 import type { FormEvent } from "react";
 import { useCallback, useEffect, useRef } from "react";
 import { toast } from "sonner";
-import { useTypingContext } from "@/pages/typing/store";
+import { TypingStateActionType, useTypingContext } from "@/pages/typing/store";
+import { isLegal } from "@/utils";
 import type { WordUpdateAction } from "../input-handler";
 
 export default function TextAreaHandler({
@@ -10,7 +11,7 @@ export default function TextAreaHandler({
   updateInput: (updateObj: WordUpdateAction) => void;
 }) {
   const textareaRef = useRef<HTMLTextAreaElement>(null);
-  const { state } = useTypingContext();
+  const { state, dispatch } = useTypingContext();
 
   useEffect(() => {
     if (!textareaRef.current) {
@@ -23,6 +24,43 @@ export default function TextAreaHandler({
       textareaRef.current.blur();
     }
   }, [state.isTyping]);
+
+  // When paused, the textarea is blurred so the first physical key never
+  // reaches onInput. Capture that keystroke here and both start + type.
+  useEffect(() => {
+    if (state.isTyping) {
+      return;
+    }
+
+    const onKeyDown = (e: KeyboardEvent) => {
+      if (
+        e.key === "Enter" ||
+        e.altKey ||
+        e.ctrlKey ||
+        e.metaKey ||
+        e.repeat ||
+        !isLegal(e.key) ||
+        state.chapterData.words.length === 0
+      ) {
+        return;
+      }
+
+      e.preventDefault();
+      dispatch({
+        payload: true,
+        type: TypingStateActionType.SET_IS_TYPING,
+      });
+
+      if (e.key.length === 1) {
+        updateInput({ event: e, type: "add", value: e.key });
+      }
+    };
+
+    window.addEventListener("keydown", onKeyDown);
+    return () => {
+      window.removeEventListener("keydown", onKeyDown);
+    };
+  }, [dispatch, state.chapterData.words.length, state.isTyping, updateInput]);
 
   const onInput = (e: FormEvent<HTMLTextAreaElement>) => {
     const nativeEvent = e.nativeEvent as InputEvent;
