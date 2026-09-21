@@ -1,5 +1,5 @@
 import { useAtom, useAtomValue } from "jotai";
-import { useMemo } from "react";
+import { useEffect, useMemo } from "react";
 import useSWR from "swr";
 import { CHAPTER_LENGTH } from "@/constants";
 import {
@@ -24,10 +24,12 @@ export function useWordList(): UseWordListResult {
   const [currentChapter, setCurrentChapter] = useAtom(currentChapterAtom);
   const { isReviewMode, reviewRecord } = useAtomValue(reviewModeInfoAtom);
 
-  // Reset current chapter to 0, when currentChapter is greater than chapterCount.
-  if (currentChapter >= currentDictInfo.chapterCount) {
-    setCurrentChapter(0);
-  }
+  // Reset current chapter to 0 when it exceeds chapterCount (never during render).
+  useEffect(() => {
+    if (currentChapter >= currentDictInfo.chapterCount) {
+      setCurrentChapter(0);
+    }
+  }, [currentChapter, currentDictInfo.chapterCount, setCurrentChapter]);
 
   const {
     data: wordList,
