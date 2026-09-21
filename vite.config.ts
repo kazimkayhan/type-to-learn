@@ -10,6 +10,9 @@ const REACT_VENDOR_RE = /node_modules[/\\](?:react|react-dom|scheduler)[/\\]/;
 const ECHARTS_VENDOR_RE = /node_modules[/\\]echarts[/\\]/;
 const HOWLER_VENDOR_RE = /node_modules[/\\]howler[/\\]/;
 const DEXIE_VENDOR_RE = /node_modules[/\\]dexie[/\\]/;
+// Keep @base-ui in one chunk — splitting it across maxSize vendor chunks
+// breaks circular imports and crashes the app on load ("it is not iterable").
+const BASE_UI_RE = /node_modules[/\\]@base-ui[/\\]/;
 const NODE_MODULES_RE = /node_modules/;
 
 // https://vitejs.dev/config/
@@ -67,7 +70,11 @@ export default defineConfig(async ({ mode }) => {
                 test: DEXIE_VENDOR_RE,
               },
               {
-                maxSize: 400_000,
+                name: "base-ui",
+                priority: 15,
+                test: BASE_UI_RE,
+              },
+              {
                 name: "vendor",
                 priority: 10,
                 test: NODE_MODULES_RE,
