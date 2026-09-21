@@ -11,13 +11,21 @@ function RadioGroupItem({ className, ...props }: RadioPrimitive.Root.Props) {
     <RadioPrimitive.Root
       data-slot="radio-group-item"
       className={cn(
-        'group/radio-group-item group-has-[:focus-visible]/field-label:not-data-checked:border-slate-200 focus-visible:ring-3 aria-invalid:border-red-500 aria-invalid:ring-3 aria-invalid:ring-red-500/20 aria-invalid:aria-checked:border-slate-900 dark:aria-invalid:border-red-500/50 dark:aria-invalid:ring-red-500/40 data-checked:border-slate-900 data-checked:bg-slate-900 data-checked:text-slate-50 group-has-[:focus-visible]/field-label:data-checked:border-slate-900 dark:data-checked:bg-slate-900 dark:group-has-[:focus-visible]/field-label:not-data-checked:border-slate-800 dark:aria-invalid:border-red-900 dark:aria-invalid:ring-red-900/20 dark:aria-invalid:aria-checked:border-slate-50 dark:dark:aria-invalid:border-red-900/50 dark:dark:aria-invalid:ring-red-900/40 dark:data-checked:border-slate-50 dark:data-checked:bg-slate-50 dark:data-checked:text-slate-900 dark:group-has-[:focus-visible]/field-label:data-checked:border-slate-50 dark:dark:data-checked:bg-slate-50 peer relative flex aspect-square size-4 shrink-0 rounded-full border border-slate-200 outline-none after:absolute after:-inset-x-3 after:-inset-y-2 focus-visible:border-slate-950 focus-visible:ring-slate-950/50 disabled:cursor-not-allowed disabled:opacity-50 group-has-[:focus-visible]/field-label:ring-0 dark:border-slate-800 dark:bg-slate-200/30 dark:dark:bg-slate-800/30 dark:focus-visible:border-slate-300 dark:focus-visible:ring-slate-300/50',
+        'peer relative flex aspect-square size-4 shrink-0 rounded-full border border-slate-300 outline-none transition-all',
+        'hover:border-slate-400 hover:ring-2 hover:ring-slate-200',
+        'focus-visible:border-slate-950 focus-visible:ring-2 focus-visible:ring-slate-950/20',
+        'data-checked:border-indigo-600 data-checked:bg-indigo-600',
+        'disabled:cursor-not-allowed disabled:opacity-50',
+        'dark:border-slate-600 dark:hover:border-slate-500 dark:hover:ring-slate-700',
+        'dark:focus-visible:border-slate-300 dark:focus-visible:ring-slate-300/20',
+        'dark:data-checked:border-indigo-500 dark:data-checked:bg-indigo-500',
+        'aria-invalid:border-red-500 aria-invalid:ring-2 aria-invalid:ring-red-500/20',
         className,
       )}
       {...props}
     >
       <RadioPrimitive.Indicator data-slot="radio-group-indicator" className="flex size-4 items-center justify-center">
-        <span className="absolute left-1/2 top-1/2 size-2 -translate-x-1/2 -translate-y-1/2 rounded-full bg-slate-50 dark:bg-slate-900" />
+        <span className="absolute left-1/2 top-1/2 size-1.5 -translate-x-1/2 -translate-y-1/2 rounded-full bg-white" />
       </RadioPrimitive.Indicator>
     </RadioPrimitive.Root>
   )
