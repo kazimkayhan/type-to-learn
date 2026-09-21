@@ -155,8 +155,8 @@ export default function WordPanel() {
   }, [dispatch, state.isTyping])
 
   return (
-    <div className="container flex h-full w-full min-w-0 flex-col items-center justify-center">
-      <div className="container flex h-14 w-full shrink-0 grow-0 justify-between gap-2 px-3 pt-2 sm:h-24 sm:px-12 sm:pt-10">
+    <div className="container flex h-full w-full min-w-0 flex-col items-center justify-center px-2 sm:px-4">
+      <div className="container flex h-14 w-full max-w-full shrink-0 grow-0 justify-between gap-2 px-1 pt-2 sm:h-24 sm:px-12 sm:pt-10">
         {isShowPrevAndNextWord && state.isTyping && (
           <>
             <PrevAndNextWord type="prev" />
@@ -164,9 +164,9 @@ export default function WordPanel() {
           </>
         )}
       </div>
-      <div className="container flex min-h-0 flex-grow flex-col items-center justify-center">
+      <div className="container flex min-h-0 max-w-full flex-grow flex-col items-center justify-center px-0 sm:px-2">
         {currentWord && (
-          <div className="relative flex w-full min-w-0 justify-center px-2">
+          <div className="relative flex w-full min-w-0 max-w-full justify-center px-1 sm:px-2">
             {!state.isTyping && (
               <div
                 className="absolute z-10 flex h-full w-full cursor-pointer justify-center"

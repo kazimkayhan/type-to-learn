@@ -41,7 +41,7 @@ export default function Switcher() {
   )
 
   return (
-    <div className="flex flex-wrap items-center justify-center gap-1 sm:gap-2 [&_button]:min-h-10 [&_button]:min-w-10 lg:[&_button]:min-h-0 lg:[&_button]:min-w-0">
+    <div className="flex flex-nowrap items-center justify-center gap-1 overflow-x-auto sm:flex-wrap sm:gap-2 [&_button]:min-h-10 [&_button]:min-w-10 lg:[&_button]:min-h-0 lg:[&_button]:min-w-0">
       <Tooltip content="Sound settings">
         <SoundSwitcher />
       </Tooltip>
