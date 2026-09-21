@@ -156,9 +156,7 @@ export const typingReducer = (
       state.chapterData.wordCount += 1;
       state.isShowSkip = false;
 
-      if (action.payload.updateReviewRecord) {
-        action.payload.updateReviewRecord(state);
-      }
+      action.payload?.updateReviewRecord?.(state);
       break;
     }
     case TypingStateActionType.LOOP_CURRENT_WORD:
