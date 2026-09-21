@@ -50,8 +50,10 @@ export interface Word {
   name: string;
   notation?: string;
   trans: string[];
-  ukphone: string;
-  usphone: string;
+  /** Omitted by many dictionary JSON files. */
+  ukphone?: string;
+  /** Omitted by many dictionary JSON files. */
+  usphone?: string;
 }
 
 export type WordWithIndex = Word & {

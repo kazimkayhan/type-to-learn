@@ -10,9 +10,9 @@ function Phonetic({ word }: PhoneticProps) {
   const phoneticConfig = useAtomValue(phoneticConfigAtom);
   const isTextSelectable = useAtomValue(isTextSelectableAtom);
   const isAmerican = phoneticConfig.type === "us";
-  const ipa = (isAmerican ? word.usphone : word.ukphone).trim();
+  const ipa = (isAmerican ? word.usphone : word.ukphone)?.trim() ?? "";
 
-  if (!ipa || ipa.length <= 1) {
+  if (ipa.length <= 1) {
     return null;
   }
 
