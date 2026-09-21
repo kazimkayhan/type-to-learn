@@ -1,7 +1,7 @@
 import { useAtomValue, useSetAtom } from "jotai";
 import { useCallback, useMemo, useState } from "react";
 import { useHotkeys } from "react-hotkeys-hook";
-import { usePrefetchPronunciationSound } from "@/hooks/use-pronunciation";
+import { usePrefetchPronunciationSounds } from "@/hooks/use-pronunciation";
 import {
   isReviewModeAtom,
   isShowPrevAndNextWordAtom,
@@ -9,7 +9,6 @@ import {
   phoneticConfigAtom,
   reviewModeInfoAtom,
 } from "@/store";
-import type { Word } from "@/typings";
 import { TypingStateActionType, useTypingContext } from "../../store";
 import type { TypingState } from "../../store/type";
 import PrevAndNextWord from "../prev-and-next-word";
@@ -26,9 +25,11 @@ export default function WordPanel() {
   const [currentWordExerciseCount, setCurrentWordExerciseCount] = useState(0);
   const { times: loopWordTimes } = useAtomValue(loopWordConfigAtom);
   const currentWord = state.chapterData.words[state.chapterData.index];
-  const nextWord = state.chapterData.words[state.chapterData.index + 1] as
-    | Word
-    | undefined;
+  const isLastWordInChapter =
+    state.chapterData.index >= state.chapterData.words.length - 1;
+  const nextWordName = isLastWordInChapter
+    ? undefined
+    : state.chapterData.words[state.chapterData.index + 1]?.name;
 
   const setReviewModeInfo = useSetAtom(reviewModeInfoAtom);
   const isReviewMode = useAtomValue(isReviewModeAtom);
@@ -44,7 +45,7 @@ export default function WordPanel() {
       : newIndex;
   }, [state.chapterData.index, state.chapterData.words.length]);
 
-  usePrefetchPronunciationSound(nextWord?.name);
+  usePrefetchPronunciationSounds(currentWord?.name, nextWordName);
 
   const reloadCurrentWordComponent = useCallback(() => {
     setWordComponentKey((old) => old + 1);
@@ -201,14 +202,14 @@ export default function WordPanel() {
                       ? "Press any key to continue"
                       : "Press any key to start"
                   }
-                  className="absolute inset-0 z-10 cursor-pointer rounded-lg"
+                  className="absolute inset-0 z-10 cursor-pointer rounded-lg pr-10"
                   onClick={startTyping}
                   tabIndex={-1}
                   type="button"
                 />
               )}
               <WordComponent
-                key={wordComponentKey}
+                key={`${state.chapterData.index}-${wordComponentKey}`}
                 onFinish={onFinish}
                 word={currentWord}
               />
@@ -216,8 +217,8 @@ export default function WordPanel() {
               <Translation
                 onMouseEnter={() => handleShowTranslation(true)}
                 onMouseLeave={() => handleShowTranslation(false)}
+                senses={currentWord.trans}
                 showTrans={shouldShowTranslation}
-                trans={currentWord.trans.join("; ")}
               />
             </div>
             {!state.isTyping && (

@@ -20,6 +20,7 @@ export const SoundIcon = ({
   onClick,
   iconClassName,
   className,
+  disabled = false,
 }: SoundIconProps) => {
   const [animationFrameIndex, setAnimationFrameIndex] = useState(0);
 
@@ -44,7 +45,10 @@ export const SoundIcon = ({
 
   return (
     <button
+      aria-disabled={disabled}
+      aria-label="Play pronunciation"
       className={`focus:outline-none dark:fill-gray-400 dark:opacity-80 ${className}`}
+      disabled={disabled}
       onClick={onClick}
       type="button"
     >
@@ -56,6 +60,7 @@ export const SoundIcon = ({
 export interface SoundIconProps {
   animated?: boolean;
   className?: string;
+  disabled?: boolean;
   duration?: number;
   iconClassName?: string;
   onClick?: MouseEventHandler<HTMLButtonElement>;

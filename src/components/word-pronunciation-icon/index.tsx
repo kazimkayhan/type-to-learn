@@ -1,5 +1,5 @@
 import type React from "react";
-import { useCallback, useEffect, useImperativeHandle } from "react";
+import { useCallback, useEffect, useImperativeHandle, useRef } from "react";
 import usePronunciationSound from "@/hooks/use-pronunciation";
 import type { Word } from "@/typings";
 import { SoundIcon } from "./sound-icon";
@@ -7,37 +7,49 @@ import { SoundIcon } from "./sound-icon";
 const CYRILLIC_REGEX = /[\u0400-\u04FF]/;
 
 export const WordPronunciationIcon = ({
+  autoPlay = false,
+  isTyping = false,
   word,
   lang,
   className,
   iconClassName,
   ref,
 }: {
-  word: Word;
-  lang: string;
+  autoPlay?: boolean;
   className?: string;
   iconClassName?: string;
+  isTyping?: boolean;
+  lang: string;
   ref?: React.RefObject<WordPronunciationIconRef | null>;
+  word: Word;
 }) => {
-  const currentWord = () => {
-    if (lang === "hapin") {
-      if (CYRILLIC_REGEX.test(word.notation || "")) {
-        // 哈萨克语西里尔文字
-        return word.notation || "";
-      }
-      // 哈萨克语老文字
-      return word.trans[2];
-    }
-    return word.name;
-  };
-  const { play, stop, isPlaying } = usePronunciationSound(currentWord());
+  const spokenWord = getSpokenWord(word, lang);
+  const { isPlaying, playExclusive } = usePronunciationSound(spokenWord);
 
   const playSound = useCallback(() => {
-    stop();
-    play();
-  }, [play, stop]);
+    playExclusive();
+  }, [playExclusive]);
+  const playSoundRef = useRef(playSound);
+  playSoundRef.current = playSound;
+  const lastPlayedWordRef = useRef("");
+  const wasTypingRef = useRef(false);
 
-  useEffect(() => stop, [stop]);
+  useEffect(() => {
+    const startedTyping = isTyping && !wasTypingRef.current;
+    wasTypingRef.current = isTyping;
+
+    if (!autoPlay) {
+      return;
+    }
+
+    const wordChanged = lastPlayedWordRef.current !== spokenWord;
+    if (!(wordChanged || startedTyping)) {
+      return;
+    }
+
+    lastPlayedWordRef.current = spokenWord;
+    playSoundRef.current();
+  }, [autoPlay, isTyping, spokenWord]);
 
   useImperativeHandle(
     ref,
@@ -56,6 +68,16 @@ export const WordPronunciationIcon = ({
     />
   );
 };
+
+function getSpokenWord(word: Word, lang: string): string {
+  if (lang === "hapin") {
+    if (CYRILLIC_REGEX.test(word.notation || "")) {
+      return word.notation || "";
+    }
+    return word.trans[2];
+  }
+  return word.name;
+}
 
 WordPronunciationIcon.displayName = "WordPronunciationIcon";
 

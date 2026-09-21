@@ -61,6 +61,8 @@ export default function WordComponent({
   const wordPronunciationIconRef = useRef<WordPronunciationIconRef>(null);
   const handledInputLengthRef = useRef(0);
 
+  const hasFinishedWordRef = useRef(false);
+
   useEffect(() => {
     // run only when word changes
     let headword = "";
@@ -80,6 +82,7 @@ export default function WordComponent({
       .split("")
       .map(() => Math.random() > 0.4);
     handledInputLengthRef.current = 0;
+    hasFinishedWordRef.current = false;
     setWordState(newWordState);
   }, [word, setWordState]);
 
@@ -134,19 +137,13 @@ export default function WordComponent({
   useHotkeys(
     "ctrl+j",
     () => {
-      if (state.isTyping) {
+      if (pronunciationIsOpen) {
         wordPronunciationIconRef.current.play();
       }
     },
-    [state.isTyping],
-    { enableOnFormTags: true, preventDefault: true }
+    { enableOnFormTags: true, preventDefault: true },
+    [pronunciationIsOpen]
   );
-
-  useEffect(() => {
-    if (wordState.inputWord.length === 0 && state.isTyping) {
-      wordPronunciationIconRef.current.play();
-    }
-  }, [state.isTyping, wordState.inputWord.length]);
 
   const getLetterVisible = useCallback(
     (index: number) => {
@@ -280,6 +277,10 @@ export default function WordComponent({
 
   useEffect(() => {
     if (wordState.hasWrong) {
+      if (pronunciationIsOpen) {
+        wordPronunciationIconRef.current.play();
+      }
+
       const timer = setTimeout(() => {
         setWordState((draft) => {
           draft.inputWord = "";
@@ -294,49 +295,37 @@ export default function WordComponent({
         clearTimeout(timer);
       };
     }
-  }, [wordState.hasWrong, setWordState]);
+  }, [wordState.hasWrong, setWordState, pronunciationIsOpen]);
 
   useEffect(() => {
-    if (wordState.isFinished) {
-      dispatch({
-        payload: true,
-        type: TypingStateActionType.SET_IS_SAVING_RECORD,
-      });
-
-      // wordLogUploader({
-      //   headword: word.name,
-      //   timeStart: wordState.startTime,
-      //   timeEnd: wordState.endTime,
-      //   countInput: wordState.correctCount + wordState.wrongCount,
-      //   countCorrect: wordState.correctCount,
-      //   countTypo: wordState.wrongCount,
-      // })
-      saveWordRecord({
-        letterMistake: wordState.letterMistake,
-        letterTimeArray: wordState.letterTimeArray,
-        word: word.name,
-        wrongCount: wordState.wrongCount,
-      });
-
-      onFinish();
+    if (!wordState.isFinished || hasFinishedWordRef.current) {
+      return;
     }
-    // eslint-disable-next-line react-hooks/exhaustive-deps
+
+    hasFinishedWordRef.current = true;
+
+    dispatch({
+      payload: true,
+      type: TypingStateActionType.SET_IS_SAVING_RECORD,
+    });
+
+    saveWordRecord({
+      letterMistake: wordState.letterMistake,
+      letterTimeArray: wordState.letterTimeArray,
+      word: word.name,
+      wrongCount: wordState.wrongCount,
+    });
+
+    onFinish();
   }, [
+    dispatch,
+    onFinish,
+    saveWordRecord,
+    word.name,
     wordState.isFinished,
     wordState.letterMistake,
-    word.name, // wordLogUploader({
-    //   headword: word.name,
-    //   timeStart: wordState.startTime,
-    //   timeEnd: wordState.endTime,
-    //   countInput: wordState.correctCount + wordState.wrongCount,
-    //   countCorrect: wordState.correctCount,
-    //   countTypo: wordState.wrongCount,
-    // })
-    saveWordRecord,
-    onFinish,
-    wordState.wrongCount,
     wordState.letterTimeArray,
-    dispatch,
+    wordState.wrongCount,
   ]);
 
   useEffect(() => {
@@ -380,10 +369,12 @@ export default function WordComponent({
             ))}
           </div>
           {Boolean(pronunciationIsOpen) && (
-            <div className="absolute top-1/2 right-0 h-9 w-9 -translate-y-1/2 transform">
+            <div className="absolute top-1/2 right-0 z-20 h-9 w-9 -translate-y-1/2 transform">
               <Tooltip content={`Shortcut ${CTRL} + J`}>
                 <WordPronunciationIcon
+                  autoPlay
                   className="h-full w-full"
+                  isTyping={state.isTyping}
                   lang={currentLanguage}
                   ref={wordPronunciationIconRef}
                   word={word}

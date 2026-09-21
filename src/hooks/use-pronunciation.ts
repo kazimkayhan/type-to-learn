@@ -1,15 +1,24 @@
-import type { Howl } from "howler";
+import { Howl } from "howler";
 import { useAtomValue } from "jotai";
-import { useEffect, useMemo, useState } from "react";
-import useSound from "use-sound";
-import type { HookOptions } from "use-sound/dist/types";
+import { useCallback, useLayoutEffect, useMemo, useState } from "react";
 import { pronunciationConfigAtom } from "@/store";
 import type { PronunciationType } from "@/typings";
-import { addHowlListener } from "@/utils";
 import { romajiToHiragana } from "@/utils/kana";
-import noop from "@/utils/noop";
 
 const pronunciationApi = "https://dict.youdao.com/dictvoice?audio=";
+const MAX_CACHED_SOUNDS = 3;
+
+interface PronunciationPlayback {
+  loop: boolean;
+  onEnd?: () => void;
+  onPlay?: () => void;
+  rate: number;
+  volume: number;
+}
+
+const soundCache = new Map<string, Howl>();
+let activeHowl: Howl | null = null;
+
 function generateWordSoundSrc(
   word: string,
   pronunciation: Exclude<PronunciationType, false>
@@ -29,12 +38,103 @@ function generateWordSoundSrc(
       return `${pronunciationApi}${word}&le=de`;
     case "hapin":
     case "kk":
-      return `${pronunciationApi}${word}&le=ru`; // 有道不支持哈萨克语, 暂时用俄语发音兜底
+      return `${pronunciationApi}${word}&le=ru`;
     case "id":
       return `${pronunciationApi}${word}&le=id`;
     default:
       return "";
   }
+}
+
+function cacheKey(
+  word: string,
+  pronunciation: Exclude<PronunciationType, false>
+): string {
+  return `${pronunciation}:${word}`;
+}
+
+function getCachedHowl(
+  word: string,
+  pronunciation: Exclude<PronunciationType, false>
+): Howl | null {
+  const src = generateWordSoundSrc(word, pronunciation);
+  if (src === "") {
+    return null;
+  }
+
+  const key = cacheKey(word, pronunciation);
+  const cached = soundCache.get(key);
+  if (cached && cached.state() !== "unloaded") {
+    soundCache.delete(key);
+    soundCache.set(key, cached);
+    return cached;
+  }
+
+  const howl = new Howl({
+    format: ["mp3"],
+    html5: true,
+    preload: true,
+    src: [src],
+  });
+  soundCache.set(key, howl);
+
+  while (soundCache.size > MAX_CACHED_SOUNDS) {
+    const oldestKey = soundCache.keys().next().value;
+    if (!oldestKey || oldestKey === key) {
+      break;
+    }
+    const oldestHowl = soundCache.get(oldestKey);
+    if (oldestHowl && oldestHowl !== activeHowl) {
+      oldestHowl.stop();
+      oldestHowl.unload();
+    }
+    soundCache.delete(oldestKey);
+  }
+
+  return howl;
+}
+
+function stopActiveHowl() {
+  if (!activeHowl) {
+    return;
+  }
+  activeHowl.stop();
+  activeHowl = null;
+}
+
+function playCachedHowl(
+  word: string,
+  pronunciation: Exclude<PronunciationType, false>,
+  playback: PronunciationPlayback
+) {
+  const howl = getCachedHowl(word, pronunciation);
+  if (!howl) {
+    return;
+  }
+
+  if (activeHowl) {
+    activeHowl.stop();
+  }
+
+  howl.loop(playback.loop);
+  howl.volume(playback.volume);
+  howl.rate(playback.rate);
+  howl.off("play");
+  howl.off("end");
+  howl.off("stop");
+  howl.off("playerror");
+  if (playback.onPlay) {
+    howl.once("play", playback.onPlay);
+  }
+  if (playback.onEnd) {
+    howl.once("end", playback.onEnd);
+    howl.once("stop", playback.onEnd);
+    howl.once("playerror", playback.onEnd);
+  }
+
+  activeHowl = howl;
+  howl.seek(0);
+  howl.play();
 }
 
 export default function usePronunciationSound(word: string, isLoop?: boolean) {
@@ -45,82 +145,42 @@ export default function usePronunciationSound(word: string, isLoop?: boolean) {
   );
   const [isPlaying, setIsPlaying] = useState(false);
 
-  const [play, { stop, sound }] = useSound(
-    generateWordSoundSrc(word, pronunciationConfig.type),
-    {
-      format: ["mp3"],
-      html5: true,
+  const playExclusive = useCallback(() => {
+    playCachedHowl(word, pronunciationConfig.type, {
       loop,
+      onEnd: () => setIsPlaying(false),
+      onPlay: () => setIsPlaying(true),
       rate: pronunciationConfig.rate,
       volume: pronunciationConfig.volume,
-    } as HookOptions
-  );
+    });
+  }, [
+    loop,
+    pronunciationConfig.rate,
+    pronunciationConfig.type,
+    pronunciationConfig.volume,
+    word,
+  ]);
 
-  useEffect(() => {
-    if (!sound) {
-      return;
-    }
-    sound.loop(loop);
-    return noop;
-  }, [loop, sound]);
+  const stop = useCallback(() => {
+    stopActiveHowl();
+    setIsPlaying(false);
+  }, []);
 
-  useEffect(() => {
-    if (!sound) {
-      return;
-    }
-    const unListens: Array<() => void> = [];
-
-    unListens.push(addHowlListener(sound, "play", () => setIsPlaying(true)));
-    unListens.push(addHowlListener(sound, "end", () => setIsPlaying(false)));
-    unListens.push(addHowlListener(sound, "pause", () => setIsPlaying(false)));
-    unListens.push(
-      addHowlListener(sound, "playerror", () => setIsPlaying(false))
-    );
-
-    return () => {
-      setIsPlaying(false);
-      for (const unListen of unListens) {
-        unListen();
-      }
-      (sound as Howl).unload();
-    };
-  }, [sound]);
-
-  return { isPlaying, play, stop };
+  return { isPlaying, play: playExclusive, playExclusive, stop };
 }
 
-export function usePrefetchPronunciationSound(word: string | undefined) {
+export function usePrefetchPronunciationSounds(
+  currentWord: string | undefined,
+  nextWord: string | undefined
+) {
   const pronunciationConfig = useAtomValue(pronunciationConfigAtom);
 
-  useEffect(() => {
-    if (!word) {
-      return;
+  useLayoutEffect(() => {
+    if (currentWord) {
+      getCachedHowl(currentWord, pronunciationConfig.type);
     }
-
-    const soundUrl = generateWordSoundSrc(word, pronunciationConfig.type);
-    if (soundUrl === "") {
-      return;
+    if (nextWord && nextWord !== currentWord) {
+      getCachedHowl(nextWord, pronunciationConfig.type);
     }
-
-    const { head } = document;
-    const isPrefetch = (
-      Array.from(head.querySelectorAll("link[href]")) as HTMLLinkElement[]
-    ).some((el) => el.href === soundUrl);
-
-    if (!isPrefetch) {
-      const audio = new Audio();
-      audio.src = soundUrl;
-      audio.preload = "auto";
-
-      // gpt 说这这两行能尽可能规避下载插件被触发问题。 本地测试不加也可以，考虑到别的插件可能有问题，所以加上保险
-      audio.crossOrigin = "anonymous";
-      audio.style.display = "none";
-
-      head.appendChild(audio);
-
-      return () => {
-        head.removeChild(audio);
-      };
-    }
-  }, [pronunciationConfig.type, word]);
+  }, [currentWord, nextWord, pronunciationConfig.type]);
 }
