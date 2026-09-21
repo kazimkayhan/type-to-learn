@@ -35,37 +35,37 @@ export default function Setting() {
         <IconCog6Tooth className="icon" />
       </DialogTrigger>
 
-      <DialogContent className="flex w-full max-w-[50rem] flex-col overflow-hidden rounded-2xl bg-white p-0 shadow-xl dark:bg-gray-800" showCloseButton={true}>
-        <div className="relative flex h-16 items-end justify-between rounded-t-lg border-b border-neutral-100 bg-stone-50 px-4 py-3 dark:border-neutral-700 dark:bg-gray-900 sm:h-22 sm:px-6">
-          <DialogTitle className="text-2xl font-bold text-gray-600 sm:text-3xl">Settings</DialogTitle>
+      <DialogContent className="flex w-full max-w-4xl flex-col overflow-hidden rounded-2xl bg-white p-0 shadow-xl dark:bg-gray-800 sm:max-w-3xl" showCloseButton={true}>
+        <div className="relative flex h-16 items-end justify-between rounded-t-lg border-b border-neutral-100 bg-stone-50 px-4 py-3 dark:border-neutral-700 dark:bg-gray-900 sm:h-20 sm:px-6">
+          <DialogTitle className="text-xl font-bold text-gray-700 dark:text-gray-200 sm:text-2xl">Settings</DialogTitle>
         </div>
 
-        <Tabs defaultValue="sound" className="flex h-auto w-full flex-col md:h-120 md:flex-row">
-          <TabsList className="flex w-full flex-row items-stretch space-x-1 overflow-x-auto border-b border-neutral-100 bg-stone-50 px-2 py-2 dark:border-transparent dark:bg-gray-900 md:h-full md:w-52 md:flex-col md:items-start md:space-x-0 md:space-y-3 md:overflow-visible md:border-b-0 md:border-r md:px-6 md:py-3">
+        <Tabs defaultValue="sound" className="flex h-auto w-full flex-col md:h-[32rem] md:flex-row">
+          <TabsList className="flex w-full flex-row items-stretch space-x-1 overflow-x-auto border-b border-neutral-100 bg-stone-50 px-2 py-2 dark:border-transparent dark:bg-gray-900 md:h-full md:w-48 md:flex-col md:items-start md:space-x-0 md:space-y-2 md:overflow-visible md:border-b-0 md:border-r md:px-4 md:py-3">
             <TabsTrigger
               value="sound"
-              className="flex h-10 flex-shrink-0 items-center justify-start gap-2 rounded-md px-3 font-sans text-sm font-bold text-gray-500 hover:bg-white data-[state=active]:bg-indigo-400 data-[state=active]:text-white dark:hover:bg-gray-800 md:w-full md:justify-start"
+              className="flex h-10 flex-shrink-0 items-center justify-start gap-2 rounded-md px-3 text-sm font-bold text-gray-600 hover:bg-white data-[state=active]:bg-indigo-400 data-[state=active]:text-white dark:text-gray-300 dark:hover:bg-gray-800 md:w-full md:justify-start"
             >
               <IconEar className="icon" />
               Sound
             </TabsTrigger>
             <TabsTrigger
               value="advanced"
-              className="flex h-10 flex-shrink-0 items-center justify-start gap-2 rounded-md px-3 font-sans text-sm font-bold text-gray-500 hover:bg-white data-[state=active]:bg-indigo-400 data-[state=active]:text-white dark:hover:bg-gray-800 md:w-full md:justify-start"
+              className="flex h-10 flex-shrink-0 items-center justify-start gap-2 rounded-md px-3 text-sm font-bold text-gray-600 hover:bg-white data-[state=active]:bg-indigo-400 data-[state=active]:text-white dark:text-gray-300 dark:hover:bg-gray-800 md:w-full md:justify-start"
             >
               <IconAdjustmentsHorizontal className="icon" />
               Advanced
             </TabsTrigger>
             <TabsTrigger
               value="view"
-              className="flex h-10 flex-shrink-0 items-center justify-start gap-2 rounded-md px-3 font-sans text-sm font-bold text-gray-500 hover:bg-white data-[state=active]:bg-indigo-400 data-[state=active]:text-white dark:hover:bg-gray-800 md:w-full md:justify-start"
+              className="flex h-10 flex-shrink-0 items-center justify-start gap-2 rounded-md px-3 text-sm font-bold text-gray-600 hover:bg-white data-[state=active]:bg-indigo-400 data-[state=active]:text-white dark:text-gray-300 dark:hover:bg-gray-800 md:w-full md:justify-start"
             >
               <IconEye className="icon" />
               View
             </TabsTrigger>
             <TabsTrigger
               value="data"
-              className="flex h-10 flex-shrink-0 items-center justify-start gap-2 rounded-md px-3 font-sans text-sm font-bold text-gray-500 hover:bg-white data-[state=active]:bg-indigo-400 data-[state=active]:text-white dark:hover:bg-gray-800 md:w-full md:justify-start"
+              className="flex h-10 flex-shrink-0 items-center justify-start gap-2 rounded-md px-3 text-sm font-bold text-gray-600 hover:bg-white data-[state=active]:bg-indigo-400 data-[state=active]:text-white dark:text-gray-300 dark:hover:bg-gray-800 md:w-full md:justify-start"
             >
               <IconDatabaseCog className="icon" />
               Data
