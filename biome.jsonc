@@ -1,0 +1,68 @@
+{
+  "$schema": "./node_modules/@biomejs/biome/configuration_schema.json",
+  "extends": ["ultracite/biome/core", "ultracite/biome/react"],
+  "files": {
+    "maxSize": 10485760
+  },
+  "css": {
+    "parser": {
+      "cssModules": true
+    }
+  },
+  "linter": {
+    "rules": {
+      "a11y": {
+        "noNoninteractiveElementInteractions": "off",
+        "noStaticElementInteractions": "off",
+        "useKeyWithClickEvents": "off",
+        "useHtmlLang": "off",
+        "noLabelWithoutControl": "off",
+        "useAriaPropsSupportedByRole": "off",
+        "useFocusableInteractive": "off",
+        "useSemanticElements": "off",
+        "useAltText": "off",
+        "noSvgWithoutTitle": "off"
+      },
+      "performance": {
+        "noJsxPropsBind": "off",
+        "noNamespaceImport": "off",
+        "noBarrelFile": "off",
+        "noAccumulatingSpread": "off"
+      },
+      "correctness": {
+        "useImageSize": "off",
+        "useExhaustiveDependencies": "off",
+        "noUnknownFunction": "off",
+        "noUndeclaredVariables": "off",
+        "noUnusedVariables": "off",
+        "noUnusedImports": "off",
+        "noUnusedFunctionParameters": "off"
+      },
+      "suspicious": {
+        "noArrayIndexKey": "off",
+        "noLeakedRender": "off",
+        "noUnusedExpressions": "off",
+        "noShadow": "off",
+        "noExplicitAny": "off",
+        "noUnknownAttribute": "off",
+        "noEvolvingTypes": "off",
+        "useAwait": "off",
+        "noUnknownAtRules": "off",
+        "useGuardForIn": "error",
+        "noUnnecessaryConditions": "error",
+        "noImplicitAnyLet": "error",
+        "noDuplicateProperties": "off",
+        "noAssignInExpressions": "error"
+      },
+      "style": {
+        "noNestedTernary": "off",
+        "useDestructuring": "error",
+        "noDescendingSpecificity": "off"
+      },
+      "complexity": {
+        "noExcessiveCognitiveComplexity": "warn",
+        "noUselessFragments": "error"
+      }
+    }
+  }
+}

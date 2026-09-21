@@ -1,0 +1,434 @@
+[
+  {
+    "name": "play football",
+    "trans": ["to kick soccer"],
+    "usphone": "pleɪ ˈfʊtˌbɔːl",
+    "ukphone": "pleɪ ˈfʊtˌbɔːl"
+  },
+  {
+    "name": "fly a kite",
+    "trans": ["to fly a kite"],
+    "usphone": "flaɪ ə kaɪt",
+    "ukphone": "flaɪ ə kaɪt"
+  },
+  {
+    "name": "ride a bike",
+    "trans": ["(Tw) saddle horse bicycle"],
+    "usphone": "raɪd ə baɪk",
+    "ukphone": "raɪd ə baɪk"
+  },
+  {
+    "name": "make a model plane",
+    "trans": ["to make airplane model"],
+    "usphone": "meɪk ə ˈmɑːdl pleɪn",
+    "ukphone": "meɪk ə ˈmɒdl pleɪn"
+  },
+  {
+    "name": "swim",
+    "trans": [
+      "v. be dizzy or giddy",
+      "v. be afloat either on or below a liquid surface and not sink to the bottom",
+      "v. move as if gliding through water"
+    ],
+    "usphone": "swɪm",
+    "ukphone": "swɪm"
+  },
+  {
+    "name": "make a snowman",
+    "trans": ["to pile up snowman"],
+    "usphone": "meɪk ə ˈsnoʊˌmæn",
+    "ukphone": "meɪk ə ˈsnəʊˌmæn"
+  },
+  {
+    "name": "can't",
+    "trans": ["cannot", "improbable"],
+    "usphone": "kænt",
+    "ukphone": "kɑːnt"
+  },
+  {
+    "name": "rainy",
+    "trans": ["adj. areas or periods of time when it often rains"],
+    "usphone": "ˈreɪni",
+    "ukphone": "ˈreɪni"
+  },
+  {
+    "name": "cloudy",
+    "trans": [
+      "adj. full of or covered with clouds",
+      "adj. lacking definite form or limits",
+      "adj. (of liquids) clouded as with sediment"
+    ],
+    "usphone": "ˈklaʊdi",
+    "ukphone": "ˈklaʊdi"
+  },
+  {
+    "name": "snowy",
+    "trans": [
+      "adj. of the white color of snow",
+      "adj. covered with snow",
+      "adj. marked by the presence of snow"
+    ],
+    "usphone": "ˈsnoʊi",
+    "ukphone": "ˈsnəʊi"
+  },
+  {
+    "name": "windy",
+    "trans": [
+      "adj. abounding in or exposed to the wind or breezes",
+      "adj. using or containing too many words",
+      "adj. resembling the wind in speed, force, or variability"
+    ],
+    "usphone": "ˈwɪndi",
+    "ukphone": "ˈwɪndi"
+  },
+  {
+    "name": "sunny",
+    "trans": ["adj. bright and pleasant"],
+    "usphone": "ˈsʌni",
+    "ukphone": "ˈsʌni"
+  },
+  {
+    "name": "umbrella",
+    "trans": [
+      "adj. covering or applying simultaneously to a number of similar items or elements or groups",
+      "n. having the function of uniting a group of similar things",
+      "n. a formation of military planes maintained over ground operations or targets"
+    ],
+    "usphone": "ʌmˈbrɛlə",
+    "ukphone": "ʌmˈbrɛlə"
+  },
+  {
+    "name": "weather",
+    "trans": [
+      "v. change under the action or influence of the weather",
+      "v. sail to the windward of",
+      "v. cause to slope"
+    ],
+    "usphone": "ˈwɛðər",
+    "ukphone": "ˈwɛðər"
+  },
+  {
+    "name": "wow",
+    "trans": ["v. impress greatly", "n. a joke that seems extremely funny"],
+    "usphone": "waʊ",
+    "ukphone": "waʊ"
+  },
+  {
+    "name": "let's",
+    "trans": [
+      "v. cause to move",
+      "v. leave unchanged",
+      "v. actively cause something to happen"
+    ],
+    "usphone": "lɛts",
+    "ukphone": "lɛts"
+  },
+  {
+    "name": "spring",
+    "trans": [
+      "v. develop suddenly",
+      "v. produce or disclose suddenly or unexpectedly",
+      "v. spring back"
+    ],
+    "usphone": "sprɪŋ",
+    "ukphone": "sprɪŋ"
+  },
+  {
+    "name": "summer",
+    "trans": [
+      "v. spend the summer",
+      "n. the period of finest development, happiness, or beauty",
+      "n. the warmest season of the year"
+    ],
+    "usphone": "ˈsʌmər",
+    "ukphone": "ˈsʌmər"
+  },
+  {
+    "name": "autumn",
+    "trans": ["n. the season when the leaves fall from the trees"],
+    "usphone": "ˈɔːtəm",
+    "ukphone": "ˈɔːtəm"
+  },
+  {
+    "name": "winter",
+    "trans": ["v. spend the winter", "n. the coldest season of the year"],
+    "usphone": "ˈwɪntər",
+    "ukphone": "ˈwɪntər"
+  },
+  {
+    "name": "hot",
+    "trans": [
+      "adj. marked by excited activity",
+      "adj. charged or energized with electricity",
+      "adj. having or dealing with dangerously high levels of radioactivity"
+    ],
+    "usphone": "hɑt",
+    "ukphone": "hɒt"
+  },
+  {
+    "name": "warm",
+    "trans": [
+      "v. make warm or warmer",
+      "v. get warm or warmer",
+      "adj. of a seeker"
+    ],
+    "usphone": "wɔrm",
+    "ukphone": "wɔːm"
+  },
+  {
+    "name": "cool",
+    "trans": [
+      "v. to loose heat",
+      "v. to lose intensity",
+      "v. to make cool or cooler"
+    ],
+    "usphone": "kul",
+    "ukphone": "kuːl"
+  },
+  {
+    "name": "cold",
+    "trans": [
+      "adj. lacking the warmth of life",
+      "adj. of a seeker",
+      "adj. unconscious from a blow or shock or intoxication"
+    ],
+    "usphone": "koʊld",
+    "ukphone": "kəʊld"
+  },
+  {
+    "name": "favourite",
+    "trans": [
+      "v. to add something to your collection on the Internet",
+      "adj. preferred above all others and treated with partiality",
+      "adj. appealing to the general public"
+    ],
+    "usphone": "ˈfeɪvərɪt",
+    "ukphone": "ˈfeɪvərɪt"
+  },
+  {
+    "name": "season",
+    "trans": [
+      "v. make more temperate, acceptable, or suitable by adding something else",
+      "v. make fit",
+      "v. lend flavor to"
+    ],
+    "usphone": "ˈsiːzən",
+    "ukphone": "ˈsiːzən"
+  },
+  {
+    "name": "eleven",
+    "trans": [
+      "adj. being one more than ten",
+      "n. a team that plays football",
+      "n. the cardinal number that is the sum of ten and one"
+    ],
+    "usphone": "ɪˈlɛvən",
+    "ukphone": "ɪˈlɛvən"
+  },
+  {
+    "name": "twelve",
+    "trans": [
+      "adj. denoting a quantity consisting of 12 items or units",
+      "n. the cardinal number that is the sum of eleven and one"
+    ],
+    "usphone": "twɛlv",
+    "ukphone": "twɛlv"
+  },
+  {
+    "name": "twenty",
+    "trans": [
+      "adj. denoting a quantity consisting of 20 items or units",
+      "n. a United States bill worth 20 dollars",
+      "n. the cardinal number that is the sum of nineteen and one"
+    ],
+    "usphone": "ˈtwɛnti",
+    "ukphone": "ˈtwɛnti"
+  },
+  {
+    "name": "thirty",
+    "trans": [
+      "adj. being ten more than twenty",
+      "n. the cardinal number that is the product of ten and three"
+    ],
+    "usphone": "ˈθɜːrti",
+    "ukphone": "ˈθɜːti"
+  },
+  {
+    "name": "forty",
+    "trans": [
+      "adj. being ten more than thirty",
+      "n. the cardinal number that is the product of ten and four"
+    ],
+    "usphone": "ˈfɔːrti",
+    "ukphone": "ˈfɔːrti"
+  },
+  {
+    "name": "fifty",
+    "trans": [
+      "adj. being ten more than forty",
+      "n. a United States bill worth 50 dollars",
+      "n. the cardinal number that is the product of ten and five"
+    ],
+    "usphone": "ˈfɪfti",
+    "ukphone": "ˈfɪfti"
+  },
+  {
+    "name": "thirteen",
+    "trans": [
+      "adj. being one more than twelve",
+      "n. the cardinal number that is the sum of twelve and one"
+    ],
+    "usphone": "ˈθɜːrˌtin",
+    "ukphone": "ˈθɜːrˌtin"
+  },
+  {
+    "name": "fourteen",
+    "trans": [
+      "adj. being one more than thirteen",
+      "n. the cardinal number that is the sum of thirteen and one"
+    ],
+    "usphone": "ˈfɔrtˌtin",
+    "ukphone": "ˈfɔːˌtin"
+  },
+  {
+    "name": "fifteen",
+    "trans": [
+      "adj. being one more than fourteen",
+      "n. the cardinal number that is the sum of fourteen and one"
+    ],
+    "usphone": "ˌfɪfˈtin",
+    "ukphone": "ˌfɪfˈtin"
+  },
+  {
+    "name": "time",
+    "trans": [
+      "v. adjust so that a force is applied and an action occurs at the desired time",
+      "v. regulate or set the time of",
+      "v. measure the time or duration of an event or action or the person who performs an action in a certain period of time"
+    ],
+    "usphone": "taɪm",
+    "ukphone": "taɪm"
+  },
+  {
+    "name": "playtime",
+    "trans": ["n. time for play or diversion"],
+    "usphone": "pleɪtaɪm",
+    "ukphone": "pleɪtaɪm"
+  },
+  {
+    "name": "get up",
+    "trans": [
+      "v. get up and out of bed",
+      "v. cause to rise",
+      "v. put on special clothes to appear particularly appealing and attractive"
+    ],
+    "usphone": "ɡɛt ʌp",
+    "ukphone": "ɡɛt ʌp"
+  },
+  {
+    "name": "eat breakfast",
+    "trans": ["to eat breakfast"],
+    "usphone": "it ˈbrɛkˌfəst",
+    "ukphone": "iːt ˈbrɛkfəst"
+  },
+  {
+    "name": "go to school",
+    "trans": ["to go to school"],
+    "usphone": "ɡoʊ tu skul",
+    "ukphone": "ɡəʊ tuː skuːl"
+  },
+  {
+    "name": "eat lunch",
+    "trans": ["to eat lunch"],
+    "usphone": "it lʌntʃ",
+    "ukphone": "iːt lʌntʃ"
+  },
+  {
+    "name": "go home",
+    "trans": ["v. return home"],
+    "usphone": "ɡoʊ hoʊm",
+    "ukphone": "ɡəʊ həʊm"
+  },
+  {
+    "name": "eat dinner",
+    "trans": ["to eat evening meal"],
+    "usphone": "it ˈdɪnər",
+    "ukphone": "iːt ˈdɪnər"
+  },
+  {
+    "name": "go to bed",
+    "trans": ["v. prepare for sleep"],
+    "usphone": "ɡoʊ tu bɛd",
+    "ukphone": "ɡəʊ tu bɛd"
+  },
+  {
+    "name": "when",
+    "trans": ["when?", "when"],
+    "usphone": "wɛn",
+    "ukphone": "wɛn"
+  },
+  {
+    "name": "every day",
+    "trans": ["every day"],
+    "usphone": "ˈɛvri deɪ",
+    "ukphone": "ˈɛvri deɪ"
+  },
+  {
+    "name": "at",
+    "trans": ["n. 100 at equal 1 kip in Laos"],
+    "usphone": "æt",
+    "ukphone": "æt"
+  },
+  {
+    "name": "Sunday",
+    "trans": ["Sunday"],
+    "usphone": "ˈsʌndeɪ",
+    "ukphone": "ˈsʌndeɪ"
+  },
+  {
+    "name": "Monday",
+    "trans": ["Monday"],
+    "usphone": "ˈmʌndeɪ",
+    "ukphone": "ˈmʌndeɪ"
+  },
+  {
+    "name": "Tuesday",
+    "trans": ["Tuesday"],
+    "usphone": "ˈtuzdeɪ",
+    "ukphone": "ˈtjuːzdeɪ"
+  },
+  {
+    "name": "Wednesday",
+    "trans": ["Wednesday"],
+    "usphone": "ˈwɛnzdeɪ",
+    "ukphone": "ˈwɛnzdeɪ"
+  },
+  {
+    "name": "Thursday",
+    "trans": ["Thursday"],
+    "usphone": "ˈθɜrzdeɪ",
+    "ukphone": "ˈθɜːrzdeɪ"
+  },
+  {
+    "name": "Friday",
+    "trans": ["Friday"],
+    "usphone": "ˈfraɪdeɪ",
+    "ukphone": "ˈfraɪdeɪ"
+  },
+  {
+    "name": "Saturday",
+    "trans": ["Saturday"],
+    "usphone": "ˈsætərdeɪ",
+    "ukphone": "ˈsætərdeɪ"
+  },
+  {
+    "name": "today",
+    "trans": [
+      "adv. in these times",
+      "adv. on this day as distinct from yesterday or tomorrow",
+      "n. the day that includes the present moment, as opposed to yesterday or tomorrow"
+    ],
+    "usphone": "təˈdeɪ",
+    "ukphone": "təˈdeɪ"
+  }
+]

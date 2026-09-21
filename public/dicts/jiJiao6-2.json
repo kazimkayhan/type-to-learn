@@ -1,0 +1,484 @@
+[
+  {
+    "name": "sport",
+    "trans": [
+      "v. play boisterously",
+      "v. wear or display in an ostentatious or proud manner",
+      "n. the occupation of athletes who compete for pay"
+    ],
+    "usphone": "[spɔːrt]",
+    "ukphone": "[spɔːt]"
+  },
+  {
+    "name": "football",
+    "trans": [
+      "n. any of various games played with a ball (round or oval) in which two teams try to kick or carry or propel the ball into each other's goal",
+      "n. the inflated oblong ball used in playing American football"
+    ],
+    "usphone": "[ˈfʊtbɔːl]",
+    "ukphone": "[ˈfʊtbɔːl]"
+  },
+  {
+    "name": "any",
+    "trans": [
+      "adj. one or some or every or all without specification",
+      "adv. to any degree or extent"
+    ],
+    "usphone": "[ˈeni]",
+    "ukphone": "[ˈeni]"
+  },
+  {
+    "name": "some",
+    "trans": [
+      "adj. remarkable",
+      "adj. relatively many but unspecified in number",
+      "adj. relatively much but unspecified in amount or extent"
+    ],
+    "usphone": "[sʌm; səm]",
+    "ukphone": "[sʌm]"
+  },
+  {
+    "name": "wear",
+    "trans": [
+      "v. have or show an appearance of",
+      "v. have on one's person",
+      "v. put clothing on one's body"
+    ],
+    "usphone": "[wer]",
+    "ukphone": "[weə(r)]"
+  },
+  {
+    "name": "or",
+    "trans": [
+      "n. a room in a hospital equipped for the performance of surgical operations"
+    ],
+    "usphone": "[ɔːr]",
+    "ukphone": "[ɔː(r)]"
+  },
+  {
+    "name": "basketball",
+    "trans": [
+      "n. a game played on a court by two opposing teams of 5 players",
+      "n. an inflated ball used in playing basketball"
+    ],
+    "usphone": "[ˈbæskɪtbɔːl]",
+    "ukphone": "[ˈbɑːskɪtbɔːl]"
+  },
+  {
+    "name": "try",
+    "trans": [
+      "v. put on a garment in order to see whether it fits and looks nice",
+      "v. melt (fat or lard) in order to separate out impurities",
+      "v. take a sample of"
+    ],
+    "usphone": "[traɪ]",
+    "ukphone": "[traɪ]"
+  },
+  {
+    "name": "heavy",
+    "trans": [
+      "adj. prodigious",
+      "adj. requiring or showing effort",
+      "adj. usually describes a large person who is fat but has a large frame to carry it"
+    ],
+    "usphone": "[ˈhevi]",
+    "ukphone": "[ˈhevi]"
+  },
+  {
+    "name": "difficult",
+    "trans": ["adj. not easy or simple", "adj. hard to control"],
+    "usphone": "[ˈdɪfɪkəlt]",
+    "ukphone": "[ˈdɪfɪkəlt]"
+  },
+  {
+    "name": "easy",
+    "trans": [
+      "adj. obtained with little effort or sacrifice, often obtained illegally",
+      "adj. less in demand and therefore readily obtainable",
+      "adj. casual and unrestrained in sexual behavior"
+    ],
+    "usphone": "[ˈiːzi]",
+    "ukphone": "[ˈiːzi]"
+  },
+  {
+    "name": "hand",
+    "trans": [
+      "v. guide or conduct or usher somewhere",
+      "v. place into the hands or custody of",
+      "n. physical assistance"
+    ],
+    "usphone": "[hænd]",
+    "ukphone": "[hænd]"
+  },
+  {
+    "name": "game",
+    "trans": [
+      "v. place a bet on",
+      "adj. willing to face danger",
+      "adj. disabled in the feet or legs"
+    ],
+    "usphone": "[ɡeɪm]",
+    "ukphone": "[ɡeɪm]"
+  },
+  {
+    "name": "ask",
+    "trans": [
+      "v. to address a question to and expect an answer from",
+      "v. to inquire or ask for as a price or condition",
+      "v. to require as useful, just, or proper"
+    ],
+    "usphone": "[æsk]",
+    "ukphone": "[ɑːsk]"
+  },
+  {
+    "name": "very",
+    "trans": [
+      "adj. precisely as stated",
+      "adj. being the exact same one",
+      "adv. used as intensifiers"
+    ],
+    "usphone": "[ˈveri]",
+    "ukphone": "[ˈveri]"
+  },
+  {
+    "name": "answer",
+    "trans": [
+      "v. to give the correct answer or solution to",
+      "v. to react to a stimulus or command",
+      "v. to give a defence or refutation of a charge or in an argument"
+    ],
+    "usphone": "[ˈænsər]",
+    "ukphone": "[ˈɑːnsə(r)]"
+  },
+  {
+    "name": "policeman",
+    "trans": ["n. a member of a police force"],
+    "usphone": "[pəˈliːsmən]",
+    "ukphone": "[pəˈliːsmən]"
+  },
+  {
+    "name": "healthy",
+    "trans": [
+      "adj. large in amount or extent or degree",
+      "adj. having or indicating good health in body or mind",
+      "adj. exercising or showing good judgment"
+    ],
+    "usphone": "[ˈhelθi]",
+    "ukphone": "[ˈhelθi]"
+  },
+  {
+    "name": "strong",
+    "trans": [
+      "adj. strong and sure",
+      "adj. freshly made or left",
+      "adj. being distilled rather than fermented"
+    ],
+    "usphone": "[strɔːŋ]",
+    "ukphone": "[strɒŋ]"
+  },
+  {
+    "name": "before",
+    "trans": ["adv. earlier in time", "adv. at or in the front"],
+    "usphone": "[bɪˈfɔːr]",
+    "ukphone": "[bɪˈfɔː(r)]"
+  },
+  {
+    "name": "after",
+    "trans": [
+      "adj. located farther aft",
+      "adv. happening at a time subsequent to a reference time",
+      "adv. behind or in the rear"
+    ],
+    "usphone": "[ˈæftər]",
+    "ukphone": "[ˈɑːftə(r)]"
+  },
+  {
+    "name": "bad",
+    "trans": [
+      "adj. feeling physical discomfort or pain (`tough' is occasionally used colloquially for `bad')",
+      "adj. not in an edible or usable condition, in referring to foodstuffs",
+      "adj. not working properly"
+    ],
+    "usphone": "[bæd]",
+    "ukphone": "[bæd]"
+  },
+  {
+    "name": "next",
+    "trans": [
+      "adj. immediately following in time or order",
+      "adj. nearest in space or position",
+      "adj. (of elected officers) elected but not yet serving"
+    ],
+    "usphone": "[nekst]",
+    "ukphone": "[nekst]"
+  },
+  {
+    "name": "often",
+    "trans": [
+      "adv. many times at short intervals",
+      "adv. frequently or in great quantities",
+      "adv. in many cases or instances"
+    ],
+    "usphone": "[ˈɔːf(ə)n]",
+    "ukphone": "[ˈɒf(ə)n]"
+  },
+  {
+    "name": "exercise",
+    "trans": [
+      "v. do physical exercise",
+      "v. give a workout to",
+      "v. learn by repetition"
+    ],
+    "usphone": "[ˈeksərsaɪz]",
+    "ukphone": "[ˈeksəsaɪz]"
+  },
+  {
+    "name": "minute",
+    "trans": [
+      "adj. characterized by painstaking care and detailed examination",
+      "adj. infinitely or immeasurably small",
+      "n. distance measured by the time taken to cover it"
+    ],
+    "usphone": "[ˈmɪnɪt]",
+    "ukphone": "[ˈmɪnɪt]"
+  },
+  {
+    "name": "hour",
+    "trans": [
+      "n. distance measured by the time taken to cover it",
+      "n. a period of time equal to 1/24th of a day",
+      "n. clock time"
+    ],
+    "usphone": "[ˈaʊər]",
+    "ukphone": "[ˈaʊə(r)]"
+  },
+  {
+    "name": "high",
+    "trans": [
+      "adj. happy and excited and energetic",
+      "adj. slightly and pleasantly intoxicated from alcohol or a drug (especially marijuana)",
+      "adj. (used of the smell of meat) smelling spoiled or tainted"
+    ],
+    "usphone": "[haɪ]",
+    "ukphone": "[haɪ]"
+  },
+  {
+    "name": "fan",
+    "trans": [
+      "v. make (an emotion) fiercer",
+      "v. strike out (a batter), (of a pitcher)",
+      "v. separate the chaff from by using air currents"
+    ],
+    "usphone": "[fæn]",
+    "ukphone": "[fæn]"
+  },
+  {
+    "name": "close",
+    "trans": [
+      "v. to finish a game in baseball by protecting a lead",
+      "v. to complete a business deal, negotiation, or an agreement",
+      "v. to unite or bring into contact or bring together the edges of"
+    ],
+    "usphone": "[kloʊz; kloʊs]",
+    "ukphone": "[kləʊz]"
+  },
+  {
+    "name": "angry",
+    "trans": [
+      "adj. feeling or showing anger",
+      "adj. (of the elements) as if showing violent anger",
+      "adj. severely inflamed and painful"
+    ],
+    "usphone": "[ˈæŋɡri]",
+    "ukphone": "[ˈæŋɡri]"
+  },
+  {
+    "name": "lake",
+    "trans": [
+      "n. a body of (usually fresh) water surrounded by land",
+      "n. any of numerous bright translucent organic pigments",
+      "n. a purplish red pigment prepared from lac or cochineal"
+    ],
+    "usphone": "[leɪk]",
+    "ukphone": "[leɪk]"
+  },
+  {
+    "name": "swim",
+    "trans": [
+      "v. be dizzy or giddy",
+      "v. be afloat either on or below a liquid surface and not sink to the bottom",
+      "v. move as if gliding through water"
+    ],
+    "usphone": "[swɪm]",
+    "ukphone": "[swɪm]"
+  },
+  {
+    "name": "swam",
+    "trans": ["v. swimming swim past tense"],
+    "usphone": "[swæm]",
+    "ukphone": "[swæm]"
+  },
+  {
+    "name": "ship",
+    "trans": [
+      "v. place on board a ship",
+      "v. travel by ship",
+      "v. transport commercially"
+    ],
+    "usphone": "[ʃɪp]",
+    "ukphone": "[ʃɪp]"
+  },
+  {
+    "name": "visit",
+    "trans": [
+      "v. assail or inflict",
+      "v. impose something unpleasant",
+      "v. talk socially without exchanging too much information"
+    ],
+    "usphone": "[ˈvɪzɪt]",
+    "ukphone": "[ˈvɪzɪt]"
+  },
+  {
+    "name": "clever",
+    "trans": [
+      "adj. showing inventiveness and skill",
+      "adj. showing self-interest and shrewdness in dealing with others",
+      "adj. mentally quick and resourceful"
+    ],
+    "usphone": "[ˈklevər]",
+    "ukphone": "[ˈklevə(r)]"
+  },
+  {
+    "name": "find",
+    "trans": [
+      "v. accept and make use of one's personality, abilities, and situation",
+      "v. receive a specified treatment (abstract)",
+      "v. come to believe on the basis of emotion, intuitions, or indefinite grounds"
+    ],
+    "usphone": "[faɪnd]",
+    "ukphone": "[faɪnd]"
+  },
+  {
+    "name": "found",
+    "trans": [
+      "v. use as a basis for",
+      "v. set up or lay the groundwork for",
+      "v. set up or found"
+    ],
+    "usphone": "[faʊnd]",
+    "ukphone": "[faʊnd]"
+  },
+  {
+    "name": "get",
+    "trans": [
+      "v. make children",
+      "v. undergo (as of injuries and illnesses)",
+      "v. be stricken by an illness, fall victim to an illness"
+    ],
+    "usphone": "[ɡet]",
+    "ukphone": "[ɡet]"
+  },
+  {
+    "name": "got",
+    "trans": [
+      "v. to get, clear get past tense (joining two nouns) and past participle (in European grammar)"
+    ],
+    "usphone": "[ɡɑːt]",
+    "ukphone": "[ɡɒt]"
+  },
+  {
+    "name": "party",
+    "trans": [
+      "v. have or participate in a party",
+      "n. an occasion on which people can assemble for social interaction and entertainment",
+      "n. a group of people gathered together for pleasure"
+    ],
+    "usphone": "[ˈpɑːrti]",
+    "ukphone": "[ˈpɑːti]"
+  },
+  {
+    "name": "tell",
+    "trans": [
+      "v. mark as different",
+      "v. discern or comprehend",
+      "v. give instructions to or direct somebody to do something with authority"
+    ],
+    "usphone": "[tel]",
+    "ukphone": "[tel]"
+  },
+  {
+    "name": "begin",
+    "trans": [
+      "v. to take the first step or steps in carrying out an action",
+      "v. to set in motion, cause to start",
+      "v. to achieve or accomplish in the least degree, usually used in the negative"
+    ],
+    "usphone": "[bɪˈɡɪn]",
+    "ukphone": "[bɪˈɡɪn]"
+  },
+  {
+    "name": "late",
+    "trans": [
+      "adj. being or occurring at an advanced period of time or after a usual or expected time",
+      "adj. at or toward an end or late period or stage of development",
+      "adj. of a later stage in the development of a language or literature"
+    ],
+    "usphone": "[leɪt]",
+    "ukphone": "[leɪt]"
+  },
+  {
+    "name": "early",
+    "trans": [
+      "adj. at or near the beginning of a period of time or course of events or before the usual or expected time",
+      "adj. being or occurring at an early stage of development",
+      "adj. of an early stage in the development of a language or literature"
+    ],
+    "usphone": "[ˈɜːrli]",
+    "ukphone": "[ˈɜːli]"
+  },
+  {
+    "name": "cake",
+    "trans": [
+      "v. to form a coat over",
+      "n. a block of solid substance (such as soap or wax)",
+      "n. baked goods made from or based on a mixture of flour, sugar, eggs, and fat"
+    ],
+    "usphone": "[keɪk]",
+    "ukphone": "[keɪk]"
+  },
+  {
+    "name": "every",
+    "trans": [
+      "adj. (used of count nouns) each and all of the members of a group considered singly and without exception",
+      "adj. each and all of a series of entities or intervals as specified"
+    ],
+    "usphone": "[ˈevri]",
+    "ukphone": "[ˈevri]"
+  },
+  {
+    "name": "all",
+    "trans": [
+      "adj. quantifier",
+      "adj. completely given to or absorbed by",
+      "adv. to a complete degree or to the full or entire extent (`whole' is often used informally for `wholly')"
+    ],
+    "usphone": "[ɔːl]",
+    "ukphone": "[ɔːl]"
+  },
+  {
+    "name": "good-bye",
+    "trans": ["n. a farewell remark"],
+    "usphone": "[ɡʊd baɪ]",
+    "ukphone": "[ˌɡʊd ˈbaɪ]"
+  },
+  {
+    "name": "hear",
+    "trans": [
+      "v. get to know or become aware of, usually accidentally",
+      "v. receive a communication from someone",
+      "v. perceive (sound) via the auditory sense"
+    ],
+    "usphone": "[hɪr]",
+    "ukphone": "[hɪə(r)]"
+  }
+]

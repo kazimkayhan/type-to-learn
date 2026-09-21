@@ -1,0 +1,179 @@
+import dayjs from "dayjs";
+import { useEffect, useState } from "react";
+import type { Activity } from "react-activity-calendar";
+import { db } from "@/utils/db";
+import type { IWordRecord } from "@/utils/db/record";
+
+interface IWordStats {
+  accuracyRecord: [string, number][];
+  exerciseRecord: Activity[];
+  isEmpty?: boolean;
+  wordRecord: Activity[];
+  wpmRecord: [string, number][];
+  wrongTimeRecord: { name: string; value: number }[];
+}
+
+// 获取两个日期之间的所有日期，使用dayjs计算
+function getDatesBetween(start: number, end: number) {
+  const dates = [];
+  let curr = dayjs(start).startOf("day");
+  const last = dayjs(end).endOf("day");
+
+  while (curr.diff(last) < 0) {
+    dates.push(curr.clone().format("YYYY-MM-DD"));
+    curr = curr.add(1, "day");
+  }
+
+  return dates;
+}
+
+function getLevel(value: number) {
+  if (value === 0) {
+    return 0;
+  }
+  if (value < 4) {
+    return 1;
+  }
+  if (value < 8) {
+    return 2;
+  }
+  if (value < 12) {
+    return 3;
+  }
+  return 4;
+}
+
+export function useWordStats(startTimeStamp: number, endTimeStamp: number) {
+  const [wordStats, setWordStats] = useState<IWordStats>({
+    accuracyRecord: [],
+    exerciseRecord: [],
+    wordRecord: [],
+    wpmRecord: [],
+    wrongTimeRecord: [],
+  });
+
+  useEffect(() => {
+    const fetchWordStats = async () => {
+      const stats = await getChapterStats(startTimeStamp, endTimeStamp);
+      setWordStats(stats);
+    };
+
+    fetchWordStats();
+  }, [startTimeStamp, endTimeStamp]);
+
+  return wordStats;
+}
+
+async function getChapterStats(
+  startTimeStamp: number,
+  endTimeStamp: number
+): Promise<IWordStats> {
+  // indexedDB查找某个数字范围内的数据
+  const records: IWordRecord[] = await db.wordRecords
+    .where("timeStamp")
+    .between(startTimeStamp, endTimeStamp)
+    .toArray();
+
+  if (records.length === 0) {
+    return {
+      accuracyRecord: [],
+      exerciseRecord: [],
+      isEmpty: true,
+      wordRecord: [],
+      wpmRecord: [],
+      wrongTimeRecord: [],
+    };
+  }
+
+  let data: {
+    [x: string]: {
+      exerciseTime: number; //练习次数
+      words: string[]; //练习词数组（不去重）
+      totalTime: number; //总计用时
+      wrongCount: number; //错误次数
+      wrongKeys: string[]; //按错的按键
+    };
+  } = {};
+
+  const dates = getDatesBetween(startTimeStamp * 1000, endTimeStamp * 1000);
+  data = dates
+    .map((date) => ({
+      [date]: {
+        exerciseTime: 0,
+        totalTime: 0,
+        words: [],
+        wrongCount: 0,
+        wrongKeys: [],
+      },
+    }))
+    .reduce((acc, curr) => ({ ...acc, ...curr }), {});
+
+  for (const record of records) {
+    const date = dayjs(record.timeStamp * 1000).format("YYYY-MM-DD");
+
+    data[date].exerciseTime += 1;
+    data[date].words = [...data[date].words, record.word];
+    data[date].totalTime += record.timing.reduce((acc, curr) => acc + curr, 0);
+    data[date].wrongCount += record.wrongCount;
+    data[date].wrongKeys = [
+      ...(data[date].wrongKeys || []),
+      ...(Object.values(record.mistakes).flat() || []),
+    ];
+  }
+
+  const RecordArray = Object.entries(data);
+
+  // 练习次数统计
+  const exerciseRecord: IWordStats["exerciseRecord"] = RecordArray.map(
+    ([date, { exerciseTime }]) => ({
+      count: exerciseTime,
+      date,
+      level: getLevel(exerciseTime),
+    })
+  );
+  // 练习词数统计（去重）
+  const wordRecord: IWordStats["wordRecord"] = RecordArray.map(
+    ([date, { words }]) => ({
+      count: Array.from(new Set(words)).length,
+      date,
+      level: getLevel(Array.from(new Set(words)).length),
+    })
+  );
+  // wpm=练习词数（不去重）/总时间
+  const wpmRecord: IWordStats["wpmRecord"] = RecordArray.map<[string, number]>(
+    ([date, { words, totalTime }]) => [
+      date,
+      Math.round(words.length / (totalTime / 1000 / 60)),
+    ]
+  ).filter((d) => d[1]);
+  // 正确率=每个单词的长度合计/(每个单词的长度合计+总错误次数)
+  const accuracyRecord: IWordStats["accuracyRecord"] = RecordArray.map<
+    [string, number]
+  >(([date, { words, wrongCount }]) => [
+    date,
+    Math.round(
+      (words.join("").length / (words.join("").length + wrongCount)) * 100
+    ),
+  ]).filter((d) => d[1]);
+  // 错误次数统计
+  const wrongTimeRecord: IWordStats["wrongTimeRecord"] = [];
+  const allWrongTime = RecordArray.flatMap(
+    ([, { wrongKeys }]) => wrongKeys
+  ).map((key) => key.toUpperCase());
+  for (const key of allWrongTime) {
+    const index = wrongTimeRecord.findIndex((item) => item.name === key);
+    if (index === -1) {
+      wrongTimeRecord.push({ name: key, value: 1 });
+    } else {
+      wrongTimeRecord[index].value += 1;
+    }
+  }
+
+  return {
+    accuracyRecord,
+    exerciseRecord,
+    wordRecord,
+    wpmRecord,
+    wrongTimeRecord,
+  };
+}
