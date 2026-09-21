@@ -19,7 +19,7 @@ export default function Speed() {
         description="Correct"
         info={`${state.chapterData.correctCount}`}
       />
-      <InfoBox description="Accuracy" info={`${state.timerData.accuracy}`} />
+      <InfoBox description="Accuracy" info={`${state.timerData.accuracy}%`} />
     </div>
   );
 }

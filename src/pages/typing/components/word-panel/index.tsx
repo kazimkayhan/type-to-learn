@@ -182,7 +182,7 @@ export default function WordPanel() {
 
   return (
     <div className="container flex h-full w-full min-w-0 flex-col items-center justify-center px-2 sm:px-4">
-      <div className="container flex h-14 w-full max-w-full shrink-0 grow-0 justify-between gap-2 px-1 pt-2 sm:h-24 sm:px-12 sm:pt-10">
+      <div className="container flex h-14 w-full max-w-full shrink-0 grow-0 items-center justify-between gap-2 overflow-hidden px-1 pt-2 sm:h-20 sm:px-12 sm:pt-6">
         {isShowPrevAndNextWord && state.isTyping && (
           <>
             <PrevAndNextWord type="prev" />
@@ -192,34 +192,21 @@ export default function WordPanel() {
       </div>
       <div className="container flex min-h-0 max-w-full flex-grow flex-col items-center justify-center px-0 sm:px-2">
         {Boolean(currentWord) && (
-          <div className="relative flex w-full min-w-0 max-w-full justify-center px-1 sm:px-2">
-            {!state.isTyping && (
-              <div
-                className="absolute z-10 flex h-full w-full cursor-pointer justify-center"
-                onClick={startTyping}
-                onKeyDown={(event) => {
-                  if (event.key === "Enter" || event.key === " ") {
-                    event.preventDefault();
-                    startTyping();
-                  }
-                }}
-                role="button"
-                tabIndex={0}
-              >
-                <div className="z-10 flex w-full items-center backdrop-blur-sm">
-                  <p className="w-full select-none px-4 text-center text-gray-600 text-lg sm:text-xl dark:text-gray-50">
-                    <span className="md:hidden">
-                      Tap to {state.timerData.time ? "continue" : "start"}
-                    </span>
-                    <span className="hidden md:inline">
-                      Press any key to{" "}
-                      {state.timerData.time ? "continue" : "start"}
-                    </span>
-                  </p>
-                </div>
-              </div>
-            )}
+          <div className="relative flex w-full min-w-0 max-w-full flex-col items-center px-1 sm:px-2">
             <div className="relative max-w-full">
+              {!state.isTyping && (
+                <button
+                  aria-label={
+                    state.timerData.time
+                      ? "Press any key to continue"
+                      : "Press any key to start"
+                  }
+                  className="absolute inset-0 z-10 cursor-pointer rounded-lg"
+                  onClick={startTyping}
+                  tabIndex={-1}
+                  type="button"
+                />
+              )}
               <WordComponent
                 key={wordComponentKey}
                 onFinish={onFinish}
@@ -233,6 +220,13 @@ export default function WordPanel() {
                 trans={currentWord.trans.join("; ")}
               />
             </div>
+            {!state.isTyping && (
+              <p className="pointer-events-none mt-4 rounded-full bg-white px-5 py-2 text-center font-medium text-base text-gray-800 shadow-md sm:text-lg dark:bg-indigo-500 dark:text-white">
+                {state.timerData.time
+                  ? "Press any key to continue"
+                  : "Press any key to start"}
+              </p>
+            )}
           </div>
         )}
       </div>

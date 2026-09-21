@@ -13,9 +13,8 @@ const AnalysisButton = () => {
 
   return (
     <button
-      className={
-        "flex items-center justify-center rounded p-[2px] text-indigo-500 text-lg outline-none transition-colors duration-300 ease-in-out hover:bg-indigo-400 hover:text-white"
-      }
+      aria-label="View statistics"
+      className="flex items-center justify-center rounded p-[2px] text-indigo-500 text-lg outline-none transition-colors duration-300 ease-in-out hover:bg-indigo-400 hover:text-white focus-visible:ring-2 focus-visible:ring-indigo-400"
       onClick={toAnalysis}
       title="View statistics"
       type="button"

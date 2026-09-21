@@ -20,7 +20,7 @@ export default function KeyEventHandler({
         return;
       }
 
-      if (isLegal(char) && !e.altKey && !e.ctrlKey && !e.metaKey) {
+      if (isLegal(char) && !e.altKey && !e.ctrlKey && !e.metaKey && !e.repeat) {
         updateInput({ event: e, type: "add", value: char });
       }
     },

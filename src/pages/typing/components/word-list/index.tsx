@@ -45,7 +45,8 @@ export default function WordList() {
         placement="top"
       >
         <button
-          className="fixed top-[50%] left-0 z-20 min-h-11 rounded-lg rounded-l-none bg-indigo-50 px-2 py-3 text-lg hover:bg-indigo-200 focus:outline-none dark:bg-indigo-900 dark:hover:bg-indigo-800"
+          aria-label="Open chapter word list"
+          className="fixed top-[50%] left-0 z-20 min-h-11 rounded-lg rounded-l-none bg-indigo-50 px-2 py-3 text-lg hover:bg-indigo-200 focus-visible:ring-2 focus-visible:ring-indigo-400 dark:bg-indigo-900 dark:hover:bg-indigo-800"
           onClick={openModal}
           type="button"
         >
@@ -60,7 +61,14 @@ export default function WordList() {
       >
         <h3 className="flex items-center justify-between p-4 font-medium text-lg leading-6 dark:text-gray-50">
           {currentDictTitleValue}
-          <IconX className="cursor-pointer" onClick={closeModal} />
+          <button
+            aria-label="Close word list"
+            className="rounded p-1 hover:bg-gray-200 focus-visible:ring-2 focus-visible:ring-indigo-400 dark:hover:bg-gray-700"
+            onClick={closeModal}
+            type="button"
+          >
+            <IconX />
+          </button>
         </h3>
         <ScrollArea className="flex-1 overflow-y-auto">
           <div className="h-full w-full px-3 pb-4">

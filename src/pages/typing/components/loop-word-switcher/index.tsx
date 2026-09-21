@@ -38,10 +38,7 @@ export default function LoopWordSwitcher() {
         aria-label="Select word loop count"
         className={`p-[2px] ${
           loopTimes === 1 ? "text-gray-500" : "text-indigo-500"
-        } rounded text-lg hover:bg-indigo-400 hover:text-white focus:outline-none`}
-        onClick={(e) => {
-          e.currentTarget.blur();
-        }}
+        } rounded text-lg hover:bg-indigo-400 hover:text-white focus-visible:ring-2 focus-visible:ring-indigo-400`}
         type="button"
       >
         <div className="relative">

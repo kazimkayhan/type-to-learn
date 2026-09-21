@@ -29,9 +29,11 @@ const Tooltip = ({
         {children}
       </div>
       <div
+        aria-hidden="true"
         className={`${
-          visible ? "opacity-100" : "opacity-0"
+          visible ? "opacity-100" : "pointer-events-none opacity-0"
         } ${placementClasses} pointer-events-none absolute left-1/2 flex -translate-x-1/2 transform items-center justify-center transition-opacity`}
+        role="tooltip"
       >
         <span className="tooltip">{content}</span>
       </div>

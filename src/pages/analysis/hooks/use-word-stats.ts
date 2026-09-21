@@ -47,6 +47,7 @@ export function useWordStats(startTimeStamp: number, endTimeStamp: number) {
   const [wordStats, setWordStats] = useState<IWordStats>({
     accuracyRecord: [],
     exerciseRecord: [],
+    isEmpty: true,
     wordRecord: [],
     wpmRecord: [],
     wrongTimeRecord: [],

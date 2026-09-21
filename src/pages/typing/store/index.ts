@@ -99,6 +99,19 @@ export type TypingStateAction =
 
 type Dispatch = (action: TypingStateAction) => void;
 
+function refreshTimerStats(state: TypingState) {
+  const inputSum =
+    state.chapterData.correctCount + state.chapterData.wrongCount;
+  state.timerData.accuracy = Math.round(
+    (state.chapterData.correctCount / (inputSum === 0 ? 1 : inputSum)) * 100
+  );
+  if (state.timerData.time > 0) {
+    state.timerData.wpm = Math.round(
+      (state.chapterData.wordCount / state.timerData.time) * 60
+    );
+  }
+}
+
 export const typingReducer = (
   state: TypingState,
   action: TypingStateAction
@@ -137,6 +150,7 @@ export const typingReducer = (
 
       const wordLog = state.chapterData.userInputLogs[state.chapterData.index];
       wordLog.correctCount += 1;
+      refreshTimerStats(state);
       break;
     }
     case TypingStateActionType.REPORT_WRONG_WORD: {
@@ -149,6 +163,7 @@ export const typingReducer = (
         wordLog.LetterMistakes,
         letterMistake
       );
+      refreshTimerStats(state);
       break;
     }
     case TypingStateActionType.NEXT_WORD: {
@@ -215,19 +230,8 @@ export const typingReducer = (
       break;
     case TypingStateActionType.TICK_TIMER: {
       const increment = action.addTime === undefined ? 1 : action.addTime;
-      const newTime = state.timerData.time + increment;
-      const inputSum =
-        state.chapterData.correctCount + state.chapterData.wrongCount === 0
-          ? 1
-          : state.chapterData.correctCount + state.chapterData.wrongCount;
-
-      state.timerData.time = newTime;
-      state.timerData.accuracy = Math.round(
-        (state.chapterData.correctCount / inputSum) * 100
-      );
-      state.timerData.wpm = Math.round(
-        (state.chapterData.wordCount / newTime) * 60
-      );
+      state.timerData.time += increment;
+      refreshTimerStats(state);
       break;
     }
     case TypingStateActionType.ADD_WORD_RECORD_ID: {

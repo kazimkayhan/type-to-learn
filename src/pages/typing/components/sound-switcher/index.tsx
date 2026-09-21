@@ -31,10 +31,7 @@ export default function SoundSwitcher() {
     <Popover>
       <PopoverTrigger
         aria-label="Sound settings"
-        className="flex items-center justify-center rounded p-[2px] text-indigo-500 text-lg outline-none transition-colors duration-300 ease-in-out hover:bg-indigo-400 hover:text-white"
-        onFocus={(e) => {
-          e.currentTarget.blur();
-        }}
+        className="flex items-center justify-center rounded p-[2px] text-indigo-500 text-lg outline-none transition-colors duration-300 ease-in-out hover:bg-indigo-400 hover:text-white focus-visible:ring-2 focus-visible:ring-indigo-400"
         title="Sound settings"
       >
         <IconSpeakerWave className="icon" />

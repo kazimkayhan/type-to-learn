@@ -22,6 +22,7 @@ export default function DictTagSwitcher({
     <div className="flex flex-wrap items-center gap-2">
       {tagList.map((option) => (
         <button
+          aria-pressed={currentTag === option}
           className={`min-h-10 cursor-pointer whitespace-nowrap rounded-full px-3 py-1.5 text-sm sm:min-h-0 sm:px-4 sm:py-2 sm:text-base ${
             currentTag === option
               ? "bg-indigo-400 text-white"

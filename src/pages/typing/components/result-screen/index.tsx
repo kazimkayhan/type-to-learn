@@ -211,125 +211,121 @@ const ResultScreen = () => {
   return (
     <div className="fixed inset-0 z-30 overflow-y-auto">
       <div className="absolute inset-0 bg-gray-300 opacity-80 dark:bg-gray-600" />
-      <div
-        className="fade-in animate-in duration-300"
-        enterTo="opacity-100"
-        leave="ease-out duration-100"
-        leaveFrom="opacity-100"
-        leaveTo="opacity-0"
-      >
-        <div className="flex min-h-dvh items-center justify-center p-3 sm:p-4">
-          <div className="relative my-card flex max-h-[92dvh] w-[min(90vw,72rem)] max-w-6xl flex-col overflow-y-auto rounded-3xl bg-white px-4 pt-8 pb-8 shadow-lg sm:pt-10 sm:pr-5 sm:pb-14 sm:pl-10 md:w-4/5 lg:w-3/5 dark:bg-gray-800">
-            <div className="text-center font-normal font-sans text-gray-900 text-xl md:text-2xl dark:text-gray-400">
-              {`${currentDictInfo.name} ${isReviewMode ? "Error Review" : `Chapter ${currentChapter + 1}`}`}
+      <div className="flex min-h-dvh items-center justify-center p-3 sm:p-4">
+        <div className="relative my-card flex max-h-[92dvh] w-[min(90vw,72rem)] max-w-6xl flex-col overflow-y-auto rounded-3xl bg-white px-4 pt-8 pb-8 shadow-lg sm:pt-10 sm:pr-5 sm:pb-14 sm:pl-10 md:w-4/5 lg:w-3/5 dark:bg-gray-800">
+          <div className="text-center font-normal font-sans text-gray-900 text-xl md:text-2xl dark:text-gray-400">
+            {`${currentDictInfo.name} ${isReviewMode ? "Error Review" : `Chapter ${currentChapter + 1}`}`}
+          </div>
+          <button
+            aria-label="Close result"
+            className="absolute top-5 right-7 rounded p-1 hover:bg-gray-100 focus-visible:ring-2 focus-visible:ring-indigo-400 dark:hover:bg-gray-700"
+            onClick={exitButtonHandler}
+            type="button"
+          >
+            <IconX className="text-gray-400" />
+          </button>
+          <div className="mt-6 flex flex-col gap-4 overflow-hidden sm:mt-10 sm:flex-row sm:gap-2">
+            <div className="flex flex-shrink-0 flex-grow-0 flex-row justify-center gap-3 px-2 sm:flex-col sm:px-4 md:px-2 lg:px-4">
+              <RemarkRing
+                caption="Accuracy"
+                percentage={state.timerData.accuracy}
+                remark={`${state.timerData.accuracy}%`}
+              />
+              <RemarkRing caption="Chapter time" remark={timeString} />
+              <RemarkRing caption="WPM" remark={`${state.timerData.wpm}`} />
             </div>
-            <button
-              className="absolute top-5 right-7"
-              onClick={exitButtonHandler}
-              type="button"
-            >
-              <IconX className="text-gray-400" />
-            </button>
-            <div className="mt-6 flex flex-col gap-4 overflow-hidden sm:mt-10 sm:flex-row sm:gap-2">
-              <div className="flex flex-shrink-0 flex-grow-0 flex-row justify-center gap-3 px-2 sm:flex-col sm:px-4 md:px-2 lg:px-4">
-                <RemarkRing
-                  caption="Accuracy"
-                  percentage={state.timerData.accuracy}
-                  remark={`${state.timerData.accuracy}%`}
+            <div className="z-10 flex-1 overflow-visible rounded-xl bg-indigo-50 sm:ml-6 dark:bg-gray-700">
+              <div className="customized-scrollbar z-20 mr-1 ml-3 flex max-h-56 flex-row flex-wrap content-start gap-3 overflow-y-auto overflow-x-hidden pt-6 pr-4 sm:ml-8 sm:h-80 sm:max-h-none sm:gap-4 sm:pt-9 sm:pr-7">
+                {wrongWords.map((word, index) => (
+                  <WordChip key={`${index}-${word.name}`} word={word} />
+                ))}
+              </div>
+              <div className="flex w-full flex-row items-center justify-start rounded-b-xl bg-indigo-200 px-4 dark:bg-indigo-400">
+                <ConclusionBar
+                  mistakeCount={wrongWords.length}
+                  mistakeLevel={mistakeLevel}
                 />
-                <RemarkRing caption="Chapter time" remark={timeString} />
-                <RemarkRing caption="WPM" remark={`${state.timerData.wpm}`} />
-              </div>
-              <div className="z-10 flex-1 overflow-visible rounded-xl bg-indigo-50 sm:ml-6 dark:bg-gray-700">
-                <div className="customized-scrollbar z-20 mr-1 ml-3 flex max-h-56 flex-row flex-wrap content-start gap-3 overflow-y-auto overflow-x-hidden pt-6 pr-4 sm:ml-8 sm:h-80 sm:max-h-none sm:gap-4 sm:pt-9 sm:pr-7">
-                  {wrongWords.map((word, index) => (
-                    <WordChip key={`${index}-${word.name}`} word={word} />
-                  ))}
-                </div>
-                <div className="flex w-full flex-row justify-start rounded-b-xl bg-indigo-200 px-4 align-center dark:bg-indigo-400">
-                  <ConclusionBar
-                    mistakeCount={wrongWords.length}
-                    mistakeLevel={mistakeLevel}
-                  />
-                </div>
-              </div>
-              <div className="mt-2 flex flex-row flex-wrap items-center justify-center gap-3 text-xl sm:mt-0 sm:ml-2 sm:flex-col sm:items-center sm:justify-end">
-                <AuthorButton />
-                {!isReviewMode && (
-                  <>
-                    <ShareButton />
-                    <IexportWords
-                      className="cursor-pointer text-gray-500"
-                      fontSize={18}
-                      onClick={exportWords}
-                    />
-                  </>
-                )}
-                <a
-                  aria-label="GitHub"
-                  className="leading-[0px]"
-                  href={SITE.github}
-                  rel="noreferrer"
-                  target="_blank"
-                >
-                  <IconGithub
-                    className="text-gray-500 hover:text-green-800 focus:outline-none"
-                    fontSize={16}
-                  />
-                </a>
               </div>
             </div>
-            <div className="mt-6 flex w-full flex-col justify-center gap-3 px-2 text-xl sm:mt-10 sm:flex-row sm:flex-wrap sm:gap-5 sm:px-5">
+            <div className="mt-2 flex flex-row flex-wrap items-center justify-center gap-3 text-xl sm:mt-0 sm:ml-2 sm:flex-col sm:items-center sm:justify-end">
+              <AuthorButton />
               {!isReviewMode && (
                 <>
-                  <Tooltip content="Shortcut: shift + enter">
-                    <button
-                      className="my-btn-primary h-12 w-full border-2 border-gray-300 border-solid bg-white text-base text-gray-700 sm:w-auto dark:border-gray-700 dark:bg-gray-600 dark:text-white dark:hover:bg-gray-700"
-                      onClick={dictationButtonHandler}
-                      title="Dictate this chapter"
-                      type="button"
-                    >
-                      Dictate this chapter
-                    </button>
-                  </Tooltip>
-                  <Tooltip content="Shortcut: space">
-                    <button
-                      className="my-btn-primary h-12 w-full border-2 border-gray-300 border-solid bg-white text-base text-gray-700 sm:w-auto dark:border-gray-700 dark:bg-gray-600 dark:text-white dark:hover:bg-gray-700"
-                      onClick={repeatButtonHandler}
-                      title="Repeat this chapter"
-                      type="button"
-                    >
-                      Repeat this chapter
-                    </button>
-                  </Tooltip>
-                </>
-              )}
-              {!(isLastChapter || isReviewMode) && (
-                <Tooltip content="Shortcut: enter">
+                  <ShareButton />
                   <button
-                    className={
-                      "my-btn-primary h-12 w-full font-bold text-base sm:w-auto"
-                    }
-                    onClick={nextButtonHandler}
-                    title="Next chapter"
+                    aria-label="Export chapter words to Excel"
+                    className="rounded p-1 text-gray-500 hover:text-indigo-400 focus-visible:ring-2 focus-visible:ring-indigo-400"
+                    onClick={exportWords}
                     type="button"
                   >
-                    Next chapter
+                    <IexportWords fontSize={18} />
+                  </button>
+                </>
+              )}
+              <a
+                aria-label="GitHub"
+                className="leading-[0px]"
+                href={SITE.github}
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                <IconGithub
+                  className="text-gray-500 hover:text-green-800 focus:outline-none"
+                  fontSize={16}
+                />
+              </a>
+            </div>
+          </div>
+          <div className="mt-6 flex w-full flex-col justify-center gap-3 px-2 text-xl sm:mt-10 sm:flex-row sm:flex-wrap sm:gap-5 sm:px-5">
+            {!isReviewMode && (
+              <>
+                <Tooltip content="Shortcut: shift + enter">
+                  <button
+                    className="my-btn-primary h-12 w-full border-2 border-gray-300 border-solid bg-white text-base text-gray-700 sm:w-auto dark:border-gray-700 dark:bg-gray-600 dark:text-white dark:hover:bg-gray-700"
+                    onClick={dictationButtonHandler}
+                    title="Dictate this chapter"
+                    type="button"
+                  >
+                    Dictate this chapter
                   </button>
                 </Tooltip>
-              )}
-
-              {Boolean(isReviewMode) && (
+                <Tooltip content="Shortcut: space">
+                  <button
+                    className="my-btn-primary h-12 w-full border-2 border-gray-300 border-solid bg-white text-base text-gray-700 sm:w-auto dark:border-gray-700 dark:bg-gray-600 dark:text-white dark:hover:bg-gray-700"
+                    onClick={repeatButtonHandler}
+                    title="Repeat this chapter"
+                    type="button"
+                  >
+                    Repeat this chapter
+                  </button>
+                </Tooltip>
+              </>
+            )}
+            {!(isLastChapter || isReviewMode) && (
+              <Tooltip content="Shortcut: enter">
                 <button
-                  className="my-btn-primary h-12 w-full font-bold text-base sm:w-auto"
-                  onClick={onNavigateToGallery}
-                  title="Practice other chapters"
+                  className={
+                    "my-btn-primary h-12 w-full font-bold text-base sm:w-auto"
+                  }
+                  onClick={nextButtonHandler}
+                  title="Next chapter"
                   type="button"
                 >
-                  Practice other chapters
+                  Next chapter
                 </button>
-              )}
-            </div>
+              </Tooltip>
+            )}
+
+            {Boolean(isReviewMode) && (
+              <button
+                className="my-btn-primary h-12 w-full font-bold text-base sm:w-auto"
+                onClick={onNavigateToGallery}
+                title="Practice other chapters"
+                type="button"
+              >
+                Practice other chapters
+              </button>
+            )}
           </div>
         </div>
       </div>

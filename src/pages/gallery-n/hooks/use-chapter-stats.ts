@@ -3,6 +3,43 @@ import { toFixedNumber } from "@/utils";
 import { db } from "@/utils/db";
 import type { IChapterRecord } from "@/utils/db/record";
 
+export function useChapterExerciseCounts(dictID: string) {
+  const [counts, setCounts] = useState<Record<number, number> | null>(null);
+
+  useEffect(() => {
+    let cancelled = false;
+    setCounts(null);
+
+    db.chapterRecords
+      .where({ dict: dictID })
+      .toArray()
+      .then((records) => {
+        if (cancelled) {
+          return;
+        }
+        const nextCounts: Record<number, number> = {};
+        for (const record of records) {
+          if (record.chapter === null) {
+            continue;
+          }
+          nextCounts[record.chapter] = (nextCounts[record.chapter] ?? 0) + 1;
+        }
+        setCounts(nextCounts);
+      })
+      .catch(() => {
+        if (!cancelled) {
+          setCounts({});
+        }
+      });
+
+    return () => {
+      cancelled = true;
+    };
+  }, [dictID]);
+
+  return counts;
+}
+
 export function useChapterStats(
   chapter: number,
   dictID: string,

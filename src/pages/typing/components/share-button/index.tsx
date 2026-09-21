@@ -30,7 +30,8 @@ export default function ShareButton() {
       )}
 
       <button
-        className="cursor-pointer text-gray-500 text-xl hover:text-indigo-400"
+        aria-label="Share your score"
+        className="cursor-pointer rounded p-1 text-gray-500 text-xl hover:text-indigo-400 focus-visible:ring-2 focus-visible:ring-indigo-400"
         onClick={onClickShare}
         title="Share your score with friends"
         type="button"

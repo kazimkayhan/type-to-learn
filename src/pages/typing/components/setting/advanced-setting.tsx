@@ -116,7 +116,7 @@ export default function AdvancedSetting() {
           <div className={styles.section}>
             <span className={styles.sectionLabel}>Allow text selection</span>
             <span className={styles.sectionDescription}>
-              When enabled, text can be selected with the mouse{" "}
+              When enabled, text can be selected with the mouse
             </span>
             <div className={styles.switchBlock}>
               <Switch
@@ -133,7 +133,7 @@ export default function AdvancedSetting() {
               Show hints in dictation mode
             </span>
             <span className={styles.sectionDescription}>
-              When enabled, hover over a word to reveal the correct answer{" "}
+              When enabled, hover over a word to reveal the correct answer
             </span>
             <div className={styles.switchBlock}>
               <Switch

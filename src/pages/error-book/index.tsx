@@ -27,7 +27,7 @@ export function ErrorBook() {
   const navigate = useNavigate();
   const currentRowDetail = useAtomValue(currentRowDetailAtom);
   const { deleteWordRecord } = useDeleteWordRecord();
-  const [_reload, setReload] = useState(false);
+  const [reload, setReload] = useState(false);
 
   const onBack = useCallback(() => {
     navigate("/");
@@ -102,7 +102,7 @@ export function ErrorBook() {
 
         setGroupedRecords(groups);
       });
-  }, []);
+  }, [reload]);
 
   const handleDelete = async (word: string, dict: string) => {
     await deleteWordRecord(word, dict);
@@ -114,30 +114,32 @@ export function ErrorBook() {
       <div
         className={`relative flex h-dvh w-full flex-col items-center pb-4 ease-in ${currentRowDetail && "blur-sm"}`}
       >
-        <div className="mt-3 mr-3 flex w-full items-center justify-between gap-3 px-4 sm:mt-4 sm:mr-8 sm:w-auto sm:justify-center sm:self-end">
-          <h1 className="w-auto font-lighter text-gray-500 text-sm opacity-70 sm:mr-4 sm:text-base">
-            <span className="sm:hidden">Error Book</span>
-            <span className="hidden sm:inline">
-              Tip: Click an error word to view details{" "}
-            </span>
-          </h1>
-          <IconX
-            className="h-7 w-7 shrink-0 cursor-pointer text-gray-400"
+        <div className="mt-4 flex w-full items-start justify-between gap-3 px-4 sm:px-8">
+          <div className="min-w-0">
+            <h1 className="font-medium text-gray-700 text-lg dark:text-gray-200">
+              Error Book
+            </h1>
+            <p className="mt-0.5 text-gray-500 text-sm">
+              Mistakes from practice. Click a word for details.
+            </p>
+          </div>
+          <button
+            aria-label="Close Error Book"
+            className="rounded p-1 text-gray-400 hover:bg-gray-100 focus-visible:ring-2 focus-visible:ring-indigo-400 dark:hover:bg-gray-800"
             onClick={onBack}
-          />
+            type="button"
+          >
+            <IconX className="h-7 w-7" />
+          </button>
         </div>
 
         <div className="flex w-full flex-1 select-text items-start justify-center overflow-hidden px-3 sm:px-0">
           <div className="flex h-full w-full flex-col pt-4 sm:w-5/6 sm:pt-10">
-            <div className="hidden w-full justify-between rounded-lg bg-white px-6 py-5 text-black text-lg shadow-lg md:flex dark:bg-gray-800 dark:text-white">
-              <span className="basis-2/12">Word</span>
-              <span className="basis-6/12">Definition</span>
-              <HeadWrongNumber
-                className="basis-1/12"
-                setSortType={setSort}
-                sortType={sortType}
-              />
-              <span className="basis-1/12">Dictionary</span>
+            <div className="hidden w-full items-center gap-4 rounded-lg bg-white px-6 py-4 text-base text-black shadow-lg md:grid md:grid-cols-[minmax(6.5rem,1fr)_minmax(0,2.5fr)_6.5rem_minmax(7rem,1fr)_auto] dark:bg-gray-800 dark:text-white">
+              <span>Word</span>
+              <span>Definition</span>
+              <HeadWrongNumber setSortType={setSort} sortType={sortType} />
+              <span>Dictionary</span>
               <DropdownExport renderRecords={sortedRecords} />
             </div>
             <div className="mb-3 flex items-center justify-between md:hidden">
@@ -150,15 +152,22 @@ export function ErrorBook() {
             </div>
             <ScrollArea className="flex-1 overflow-y-auto pt-5">
               <div className="h-full">
-                <div className="flex flex-col gap-3">
-                  {renderRecords.map((record) => (
-                    <ErrorRow
-                      key={`${record.dict}-${record.word}`}
-                      onDelete={() => handleDelete(record.word, record.dict)}
-                      record={record}
-                    />
-                  ))}
-                </div>
+                {renderRecords.length === 0 ? (
+                  <div className="flex h-60 items-center justify-center px-4 text-center text-gray-500">
+                    No missed words yet. Mistakes from practice will show up
+                    here.
+                  </div>
+                ) : (
+                  <ul className="flex flex-col gap-3">
+                    {renderRecords.map((record) => (
+                      <ErrorRow
+                        key={`${record.dict}-${record.word}`}
+                        onDelete={() => handleDelete(record.word, record.dict)}
+                        record={record}
+                      />
+                    ))}
+                  </ul>
+                )}
               </div>
               <ScrollBar
                 className="flex touch-none select-none bg-transparent"
@@ -167,12 +176,14 @@ export function ErrorBook() {
             </ScrollArea>
           </div>
         </div>
-        <Pagination
-          className="pt-3"
-          page={currentPage}
-          setPage={setPage}
-          totalPages={totalPages}
-        />
+        {totalPages > 0 ? (
+          <Pagination
+            className="pt-3"
+            page={currentPage}
+            setPage={setPage}
+            totalPages={totalPages}
+          />
+        ) : null}
       </div>
       {Boolean(currentRowDetail) && (
         <RowDetail

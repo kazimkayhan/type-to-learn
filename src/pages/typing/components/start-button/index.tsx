@@ -9,9 +9,16 @@ export default function StartButton({ isLoading }: { isLoading: boolean }) {
   const { state, dispatch } = useTypingContext();
   const randomConfig = useAtomValue(randomConfigAtom);
 
-  const onToggleIsTyping = useCallback(() => {
-    !isLoading && dispatch({ type: TypingStateActionType.TOGGLE_IS_TYPING });
-  }, [isLoading, dispatch]);
+  const onToggleIsTyping = useCallback(
+    (event?: { currentTarget?: { blur?: () => void } }) => {
+      if (isLoading) {
+        return;
+      }
+      event?.currentTarget?.blur?.();
+      dispatch({ type: TypingStateActionType.TOGGLE_IS_TYPING });
+    },
+    [isLoading, dispatch]
+  );
 
   const onClickRestart = useCallback(() => {
     dispatch({
@@ -34,7 +41,7 @@ export default function StartButton({ isLoading }: { isLoading: boolean }) {
           aria-label={state.isTyping ? "Pause" : "Start"}
           className={`${
             state.isTyping
-              ? "bg-gray-400 shadow-gray-200 dark:bg-gray-600 dark:shadow-none dark:hover:bg-gray-500"
+              ? "bg-indigo-600 shadow-indigo-300 dark:bg-indigo-500 dark:shadow-indigo-500/40"
               : "bg-indigo-500 shadow-indigo-300 dark:shadow-indigo-500/60"
           } my-btn-primary min-h-11 min-w-[4.5rem] px-4 text-sm shadow sm:min-h-8 sm:w-20 sm:text-lg`}
           onClick={onToggleIsTyping}
@@ -48,11 +55,7 @@ export default function StartButton({ isLoading }: { isLoading: boolean }) {
       <Tooltip content="Restart this chapter">
         <button
           aria-label="Restart"
-          className={`${
-            state.isTyping
-              ? "bg-gray-500 dark:bg-gray-700 dark:hover:bg-gray-500"
-              : "bg-indigo-400"
-          } my-btn-primary min-h-11 min-w-[4.5rem] px-3 text-sm sm:min-h-8 sm:w-18 sm:text-lg`}
+          className="my-btn-primary min-h-11 min-w-[4.5rem] bg-indigo-400 px-3 text-sm sm:min-h-8 sm:w-18 sm:text-lg"
           onClick={onClickRestart}
           type="button"
         >

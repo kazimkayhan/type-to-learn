@@ -59,6 +59,7 @@ export default function WordComponent({
 
   const [showTipAlert, setShowTipAlert] = useState(false);
   const wordPronunciationIconRef = useRef<WordPronunciationIconRef>(null);
+  const handledInputLengthRef = useRef(0);
 
   useEffect(() => {
     // run only when word changes
@@ -78,6 +79,7 @@ export default function WordComponent({
     newWordState.randomLetterVisible = headword
       .split("")
       .map(() => Math.random() > 0.4);
+    handledInputLengthRef.current = 0;
     setWordState(newWordState);
   }, [word, setWordState]);
 
@@ -186,19 +188,20 @@ export default function WordComponent({
 
   useEffect(() => {
     const inputLength = wordState.inputWord.length;
-    /**
-     * TODO: 当用户输入错误时，会报错
-     * Cannot update a component (`App`) while rendering a different component (`WordComponent`). To locate the bad setState() call inside `WordComponent`, follow the stack trace as described in https://reactjs.org/link/setstate-in-render
-     * 目前不影响生产环境，猜测是因为开发环境下 react 会两次调用 useEffect 从而展示了这个 warning
-     * 但这终究是一个 bug，需要修复
-     */
+    if (inputLength === 0) {
+      handledInputLengthRef.current = 0;
+    }
+
     if (
       wordState.hasWrong ||
       inputLength === 0 ||
-      wordState.displayWord.length === 0
+      wordState.displayWord.length === 0 ||
+      inputLength === handledInputLengthRef.current
     ) {
       return;
     }
+
+    handledInputLengthRef.current = inputLength;
 
     const inputChar = wordState.inputWord[inputLength - 1];
     const correctChar = wordState.displayWord[inputLength - 1];
@@ -210,74 +213,69 @@ export default function WordComponent({
     }
 
     if (isEqual) {
-      // 输入正确时
       setWordState((draft) => {
         draft.letterTimeArray.push(Date.now());
         draft.correctCount += 1;
+        draft.letterStates[inputLength - 1] = "correct";
+        if (inputLength >= draft.displayWord.length) {
+          draft.isFinished = true;
+          draft.endTime = getUtcStringForMixpanel();
+        }
       });
 
       if (inputLength >= wordState.displayWord.length) {
-        // 完成输入时
-        setWordState((draft) => {
-          draft.letterStates[inputLength - 1] = "correct";
-          draft.isFinished = true;
-          draft.endTime = getUtcStringForMixpanel();
-        });
         playHintSound();
       } else {
-        setWordState((draft) => {
-          draft.letterStates[inputLength - 1] = "correct";
-        });
         playKeySound();
       }
 
       dispatch({ type: TypingStateActionType.REPORT_CORRECT_WORD });
-    } else {
-      // 出错时
-      playBeepSound();
-      setWordState((draft) => {
-        draft.letterStates[inputLength - 1] = "wrong";
-        draft.hasWrong = true;
-        draft.hasMadeInputWrong = true;
-        draft.wrongCount += 1;
-        draft.letterTimeArray = [];
-
-        if (draft.letterMistake[inputLength - 1]) {
-          draft.letterMistake[inputLength - 1].push(inputChar);
-        } else {
-          draft.letterMistake[inputLength - 1] = [inputChar];
-        }
-
-        const currentState = JSON.parse(JSON.stringify(state));
-        dispatch({
-          payload: { letterMistake: currentState.letterMistake },
-          type: TypingStateActionType.REPORT_WRONG_WORD,
-        });
-      });
-
-      if (
-        currentChapter === 0 &&
-        state.chapterData.index === 0 &&
-        wordState.wrongCount >= 3
-      ) {
-        setShowTipAlert(true);
-      }
+      return;
     }
-    // eslint-disable-next-line react-hooks/exhaustive-deps
+
+    playBeepSound();
+    const letterMistake = {
+      ...wordState.letterMistake,
+      [inputLength - 1]: [
+        ...(wordState.letterMistake[inputLength - 1] ?? []),
+        inputChar,
+      ],
+    };
+
+    setWordState((draft) => {
+      draft.letterStates[inputLength - 1] = "wrong";
+      draft.hasWrong = true;
+      draft.hasMadeInputWrong = true;
+      draft.wrongCount += 1;
+      draft.letterTimeArray = [];
+      draft.letterMistake = letterMistake;
+    });
+
+    dispatch({
+      payload: { letterMistake },
+      type: TypingStateActionType.REPORT_WRONG_WORD,
+    });
+
+    if (
+      currentChapter === 0 &&
+      state.chapterData.index === 0 &&
+      wordState.wrongCount >= 3
+    ) {
+      setShowTipAlert(true);
+    }
   }, [
     wordState.inputWord,
     wordState.displayWord,
     wordState.hasWrong,
-    playKeySound,
-    currentChapter,
-    playBeepSound,
-    state.chapterData.index,
-    setWordState,
     wordState.wrongCount,
+    playKeySound,
+    playBeepSound,
     playHintSound,
+    currentChapter,
+    setWordState,
     isIgnoreCase,
     dispatch,
-    state,
+    state.chapterData.index,
   ]);
 
   useEffect(() => {

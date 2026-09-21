@@ -18,6 +18,7 @@ import { useDeleteWordRecord } from "../../../utils/db";
 import Chapter from "../chapter";
 import { ErrorTable } from "../error-table";
 import { getRowsFromErrorWordData } from "../error-table/columns";
+import { useChapterExerciseCounts } from "../hooks/use-chapter-stats";
 import useErrorWordData from "../hooks/use-error-words";
 import { ReviewDetail } from "../review-detail";
 
@@ -47,6 +48,7 @@ export default function DictDetail({
     [currentChapter, currentDictId, dict.id]
   );
   const { errorWordData, isLoading, error } = useErrorWordData(dict, reload);
+  const chapterExerciseCounts = useChapterExerciseCounts(dict.id);
 
   const tableData = useMemo(
     () => getRowsFromErrorWordData(errorWordData),
@@ -71,59 +73,71 @@ export default function DictDetail({
     [dict.id, navigate, setCurrentChapter, setCurrentDictId, setReviewModeInfo]
   );
 
-  const handleTabChange = useCallback(
-    (value: Tab) => {
-      if (value !== curTab) {
-        setCurTab(value);
-      }
-    },
-    [curTab]
-  );
+  const handleTabChange = useCallback((value: string) => {
+    if (
+      value === Tab.Chapters ||
+      value === Tab.Errors ||
+      value === Tab.Review
+    ) {
+      setCurTab(value);
+    }
+  }, []);
 
   return (
-    <div className="flex min-w-0 flex-col rounded-2xl px-1 py-2 text-gray-800 sm:rounded-[4rem] sm:px-4 sm:py-3 sm:pl-5 dark:text-gray-300">
-      <div className="text relative flex h-auto min-w-0 flex-col gap-2 sm:h-40">
-        <h3 className="pr-8 font-semibold text-lg sm:text-2xl">{dict.name}</h3>
-        <p className="mt-1">{dict.chapterCount} chapters</p>
-        <p>{dict.length} words total</p>
-        <p className="text-sm sm:text-base">{dict.description}</p>
-        <div className="relative right-auto bottom-auto mt-2 min-w-0 sm:absolute sm:right-4 sm:bottom-5 sm:mt-0">
-          <ToggleGroup
-            className="flex-wrap justify-start"
-            onValueChange={handleTabChange}
-            type="single"
-            value={curTab}
-          >
-            <ToggleGroupItem
-              className={`${curTab === Tab.Chapters ? "bg-primary text-primary-foreground" : ""} disabled:opacity-100`}
-              disabled={curTab === Tab.Chapters}
-              value={Tab.Chapters}
-            >
-              <MajesticonsPaperFoldTextLine className="mr-1.5 text-gray-500" />
-              Chapters
-            </ToggleGroupItem>
-            {errorWordData.length > 0 && (
-              <>
-                <ToggleGroupItem
-                  className={`${curTab === Tab.Errors ? "bg-primary text-primary-foreground" : ""} disabled:opacity-100`}
-                  disabled={curTab === Tab.Errors}
-                  value={Tab.Errors}
-                >
-                  <IcOutlineCollectionsBookmark className="mr-1.5 text-gray-500" />
-                  View errors
-                </ToggleGroupItem>
-                <ToggleGroupItem
-                  className={`${curTab === Tab.Review ? "bg-primary text-primary-foreground" : ""} disabled:opacity-100`}
-                  disabled={curTab === Tab.Review}
-                  value={Tab.Review}
-                >
-                  <PajamasReviewList className="mr-1.5 text-gray-500" />
-                  Error review
-                </ToggleGroupItem>
-              </>
-            )}
-          </ToggleGroup>
+    <div className="flex min-w-0 flex-col rounded-2xl px-1 py-2 text-gray-800 sm:px-4 sm:py-3 dark:text-gray-300">
+      <div className="flex min-w-0 flex-col gap-3">
+        <div className="min-w-0 pr-8">
+          <h3 className="font-semibold text-lg sm:text-2xl">{dict.name}</h3>
+          <p className="mt-1 tabular-nums">{dict.chapterCount} chapters</p>
+          <p className="tabular-nums">
+            {dict.length.toLocaleString()} words total
+          </p>
+          <p className="mt-1 text-sm sm:text-base">{dict.description}</p>
         </div>
+        <ToggleGroup
+          className="flex-wrap justify-start"
+          onValueChange={handleTabChange}
+          type="single"
+          value={curTab}
+        >
+          <ToggleGroupItem
+            className={
+              curTab === Tab.Chapters
+                ? "bg-primary text-primary-foreground"
+                : ""
+            }
+            value={Tab.Chapters}
+          >
+            <MajesticonsPaperFoldTextLine className="mr-1.5 text-gray-500" />
+            Chapters
+          </ToggleGroupItem>
+          {errorWordData.length > 0 && (
+            <>
+              <ToggleGroupItem
+                className={
+                  curTab === Tab.Errors
+                    ? "bg-primary text-primary-foreground"
+                    : ""
+                }
+                value={Tab.Errors}
+              >
+                <IcOutlineCollectionsBookmark className="mr-1.5 text-gray-500" />
+                View errors
+              </ToggleGroupItem>
+              <ToggleGroupItem
+                className={
+                  curTab === Tab.Review
+                    ? "bg-primary text-primary-foreground"
+                    : ""
+                }
+                value={Tab.Review}
+              >
+                <PajamasReviewList className="mr-1.5 text-gray-500" />
+                Error review
+              </ToggleGroupItem>
+            </>
+          )}
+        </ToggleGroup>
       </div>
       <div className="flex min-w-0 pl-0">
         <Tabs className="h-[min(30rem,55dvh)] w-full min-w-0" value={curTab}>
@@ -133,7 +147,11 @@ export default function DictDetail({
                 {range(0, dict.chapterCount, 1).map((index) => (
                   <Chapter
                     checked={chapter === index}
-                    dictID={dict.id}
+                    exerciseCount={
+                      chapterExerciseCounts === null
+                        ? null
+                        : (chapterExerciseCounts[index] ?? 0)
+                    }
                     index={index}
                     key={`${dict.id}-${index}`}
                     onChange={onChangeChapter}

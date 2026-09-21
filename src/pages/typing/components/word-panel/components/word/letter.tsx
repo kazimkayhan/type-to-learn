@@ -36,7 +36,7 @@ const Letter: React.FC<LetterProps> = ({
         stateClassNameMap[(letter === EXPLICIT_SPACE) as unknown as string][
           state
         ]
-      } pr-0.8 duration-0 dark:text-gray-800/80`}
+      } pr-0.8 duration-0`}
       style={{ fontSize: `min(${fontSizeConfig.foreignFont}px, 11vw)` }}
     >
       {visible ? letter : "_"}

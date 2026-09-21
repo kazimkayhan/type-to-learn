@@ -18,6 +18,14 @@ const HeatmapCharts: FC<HeatmapChartsProps> = ({ data, title }) => {
   const { width } = useWindowSize();
   const isNarrow = width < 768;
 
+  if (data.length === 0) {
+    return (
+      <div className="flex w-full min-w-0 flex-col items-center justify-center px-4 py-8 text-center text-gray-500">
+        {title}
+      </div>
+    );
+  }
+
   return (
     <div className="flex w-full min-w-0 flex-col items-center justify-center overflow-x-auto">
       <div className="px-2 text-center font-bold text-base text-gray-600 sm:text-xl dark:text-white">

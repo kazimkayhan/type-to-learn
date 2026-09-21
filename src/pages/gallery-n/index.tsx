@@ -35,18 +35,21 @@ export default function GalleryPage() {
   return (
     <Layout fillViewport={false}>
       <div className="relative mx-auto w-full min-w-0 max-w-7xl flex-1 px-4 pt-4 pb-8 sm:px-6 lg:px-8">
-        <div className="mb-6 flex items-center justify-end gap-2 sm:mb-8">
-          <div className="min-w-0">
+        <div className="mb-6 flex items-center justify-between gap-3 sm:mb-8">
+          <h1 className="min-w-0 text-pretty font-semibold text-2xl text-gray-800 sm:text-3xl dark:text-gray-100">
+            Dictionaries
+          </h1>
+          <div className="flex min-w-0 items-center justify-end gap-2">
             <DictRequest />
+            <button
+              aria-label="Close dictionary gallery"
+              className="flex h-11 w-11 shrink-0 items-center justify-center rounded-lg text-gray-400 hover:bg-gray-100 hover:text-gray-600 focus-visible:ring-2 focus-visible:ring-indigo-400 dark:hover:bg-gray-800 dark:hover:text-gray-200"
+              onClick={onBack}
+              type="button"
+            >
+              <IconX className="h-7 w-7" />
+            </button>
           </div>
-          <button
-            aria-label="Close dictionary gallery"
-            className="flex h-11 w-11 shrink-0 items-center justify-center rounded-lg text-gray-400 hover:bg-gray-100 hover:text-gray-600 dark:hover:bg-gray-800 dark:hover:text-gray-200"
-            onClick={onBack}
-            type="button"
-          >
-            <IconX className="h-7 w-7" />
-          </button>
         </div>
 
         <div className="flex w-full min-w-0 flex-col gap-10 sm:gap-14">
@@ -61,16 +64,9 @@ export default function GalleryPage() {
             Dictionary data in this project comes from multiple open-source
             projects and voluntary community contributors. We are deeply
             grateful and respect the intellectual property of every contributor.
-            This data is for personal learning and research only — commercial
-            use is strictly prohibited. If you are a copyright owner and believe
-            our use infringes your rights, please contact us via the email at
-            the bottom of the site. Upon receiving a valid copyright complaint,
-            we will remove the relevant content or seek necessary permission as
-            soon as possible. We also encourage all users to respect copyright
-            holders and comply with applicable laws when using this data. While
-            we strive to ensure legality and accuracy, we make no guarantees
-            regarding accuracy, completeness, legality, or reliability. Use of
-            this data is entirely at your own risk.
+            This data is for personal learning and research only. If you are a
+            copyright owner and believe our use infringes your rights, contact
+            us using the email at the bottom of the site.
           </p>
         </div>
       </div>

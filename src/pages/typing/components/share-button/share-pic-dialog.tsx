@@ -169,7 +169,7 @@ export default function SharePicDialog({
             </button>
             <div className="h-auto w-full max-w-[29rem] sm:h-152 sm:w-116">
               {imageURL ? (
-                <img className="h-auto w-full" src={imageURL} />
+                <img alt="" className="h-auto w-full" src={imageURL} />
               ) : (
                 <div className="flex h-full w-full items-center justify-center rounded-lg border-2 border-white border-solid">
                   <svg

@@ -32,45 +32,45 @@ const ErrorRow: FC<IErrorRowProps> = ({ record, onDelete }) => {
 
   return (
     <li
-      className="flex w-full cursor-pointer flex-col gap-2 rounded-lg bg-white px-4 py-3 text-black opacity-85 shadow-md md:flex-row md:items-center md:justify-between md:px-6 dark:bg-gray-800 dark:text-white"
+      className="grid w-full cursor-pointer grid-cols-1 gap-2 rounded-lg bg-white px-4 py-3 text-black shadow-md md:grid-cols-[minmax(6.5rem,1fr)_minmax(0,2.5fr)_6.5rem_minmax(7rem,1fr)_auto] md:items-center md:gap-4 md:px-6 dark:bg-gray-800 dark:text-white"
       onClick={onClick}
     >
-      <span className="basis-2/12 break-normal font-mono text-lg md:text-base">
+      <span className="min-w-0 break-words font-mono text-lg md:text-base">
         {record.word}
       </span>
-      <span className="basis-6/12 break-normal text-gray-600 text-sm md:text-base md:text-black dark:text-gray-300 md:dark:text-white">
+      <span className="min-w-0 break-words text-gray-600 text-sm md:text-base md:text-black dark:text-gray-300 md:dark:text-white">
         {word ? (
           word.trans.join("; ")
         ) : (
           <LoadingWordUI hasError={hasError} isLoading={isLoading} />
         )}
       </span>
-      <div className="flex items-center justify-between gap-3 text-sm md:contents">
-        <span className="basis-1/12 break-normal md:pl-8">
-          {record.wrongCount}
-        </span>
-        <span className="basis-1/12 break-normal text-gray-500 md:text-inherit">
-          {dictInfo?.name}
-        </span>
-        <span
-          className="flex min-h-10 min-w-10 items-center justify-center break-normal md:basis-1/12"
-          onClick={(e) => {
-            e.stopPropagation();
-            onDelete();
-          }}
-        >
-          <TooltipProvider>
-            <Tooltip>
-              <TooltipTrigger>
-                <DeleteIcon />
-              </TooltipTrigger>
-              <TooltipContent>
-                <p>Delete Records</p>
-              </TooltipContent>
-            </Tooltip>
-          </TooltipProvider>
-        </span>
-      </div>
+      <span className="tabular-nums">{record.wrongCount}</span>
+      <span className="min-w-0 truncate text-gray-500 md:text-inherit">
+        {dictInfo?.name}
+      </span>
+      <span
+        className="flex min-h-10 min-w-10 items-center justify-center"
+        onClick={(event) => {
+          event.stopPropagation();
+        }}
+      >
+        <TooltipProvider>
+          <Tooltip>
+            <TooltipTrigger
+              aria-label="Delete records"
+              className="rounded p-1 hover:text-red-500"
+              onClick={onDelete}
+              type="button"
+            >
+              <DeleteIcon />
+            </TooltipTrigger>
+            <TooltipContent>
+              <p>Delete records</p>
+            </TooltipContent>
+          </Tooltip>
+        </TooltipProvider>
+      </span>
     </li>
   );
 };

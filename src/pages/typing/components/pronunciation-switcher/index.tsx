@@ -133,10 +133,8 @@ const PronunciationSwitcher = () => {
   return (
     <Popover>
       <PopoverTrigger
-        className="flex h-8 min-w-max cursor-pointer items-center justify-center rounded-md px-1 transition-colors duration-300 ease-in-out hover:bg-indigo-400 hover:text-white focus:outline-none dark:text-white dark:text-opacity-60 dark:hover:text-opacity-100"
-        onFocus={(e) => {
-          e.currentTarget.blur();
-        }}
+        aria-label={`Pronunciation settings, ${currentLabel}`}
+        className="flex h-8 min-w-max cursor-pointer items-center justify-center rounded-md px-2 transition-colors duration-300 ease-in-out hover:bg-indigo-400 hover:text-white focus-visible:ring-2 focus-visible:ring-indigo-400 dark:text-white dark:text-opacity-60 dark:hover:text-opacity-100"
       >
         <Tooltip content="Switch pronunciation and phonetic">
           {currentLabel}

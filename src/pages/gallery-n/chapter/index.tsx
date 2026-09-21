@@ -1,24 +1,18 @@
 import { useEffect, useRef } from "react";
-import useIntersectionObserver from "@/hooks/use-intersection-observer";
 import IconCheckCircle from "~icons/heroicons/check-circle-solid";
-import { useChapterStats } from "../hooks/use-chapter-stats";
 
 export default function Chapter({
   index,
   checked,
-  dictID,
+  exerciseCount,
   onChange,
 }: {
   index: number;
   checked: boolean;
-  dictID: string;
+  exerciseCount: number | null;
   onChange: (index: number) => void;
 }) {
-  const ref = useRef<HTMLTableRowElement>(null);
-
-  const entry = useIntersectionObserver(ref, {});
-  const isVisible = !!entry?.isIntersecting;
-  const chapterStatus = useChapterStats(index, dictID, isVisible);
+  const ref = useRef<HTMLButtonElement>(null);
 
   useEffect(() => {
     if (checked && ref.current !== null) {
@@ -31,23 +25,26 @@ export default function Chapter({
     }
   }, [checked]);
 
+  const statusLabel =
+    exerciseCount && exerciseCount > 0
+      ? `${exerciseCount} ${exerciseCount === 1 ? "session" : "sessions"}`
+      : "Not practiced";
+
   return (
-    <div
-      className="relative flex h-16 w-[calc(50%-0.375rem)] cursor-pointer flex-col items-start justify-center overflow-hidden rounded-xl bg-slate-100 px-3 py-2 sm:w-40 dark:bg-slate-800"
+    <button
+      aria-current={checked ? "true" : undefined}
+      className="relative flex h-16 w-[calc(50%-0.375rem)] cursor-pointer flex-col items-start justify-center overflow-hidden rounded-xl bg-slate-100 px-3 py-2 pr-8 text-left focus-visible:ring-2 focus-visible:ring-indigo-400 sm:w-40 dark:bg-slate-800"
       onClick={() => onChange(index)}
       ref={ref}
+      type="button"
     >
-      <h1>Chapter {index + 1}</h1>
-      <p className="pt-[2px] text-slate-600 text-xs">
-        {chapterStatus
-          ? chapterStatus.exerciseCount > 0
-            ? `${chapterStatus.exerciseCount} sessions`
-            : "Not practiced"
-          : "Loading..."}
-      </p>
+      <span className="font-medium">Chapter {index + 1}</span>
+      <span className="pt-[2px] text-slate-600 text-xs dark:text-slate-400">
+        {statusLabel}
+      </span>
       {Boolean(checked) && (
-        <IconCheckCircle className="absolute -right-4 -bottom-4 h-18 w-18 text-6xl text-green-500 opacity-40 dark:text-green-300" />
+        <IconCheckCircle className="absolute top-2 right-2 h-5 w-5 text-green-500 dark:text-green-300" />
       )}
-    </div>
+    </button>
   );
 }

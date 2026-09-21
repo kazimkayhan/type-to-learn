@@ -18,7 +18,7 @@ const Footer: React.FC = () => {
       <a
         aria-label="Go to GitHub project page"
         href={SITE.github}
-        rel="noreferrer"
+        rel="noopener noreferrer"
         target="_blank"
       >
         <IconGithub
@@ -29,7 +29,7 @@ const Footer: React.FC = () => {
       <a
         aria-label={`Visit ${SITE.author}'s website`}
         href={SITE.website}
-        rel="noreferrer"
+        rel="noopener noreferrer"
         target="_blank"
       >
         <IconWorld
@@ -41,7 +41,7 @@ const Footer: React.FC = () => {
         aria-label={`Send email to ${SITE.email}`}
         href={`mailto:${SITE.email}`}
         onClick={handleBlur}
-        rel="noreferrer"
+        rel="noopener noreferrer"
         target="_blank"
       >
         <IconMail
@@ -52,10 +52,10 @@ const Footer: React.FC = () => {
       <a
         className="cursor-pointer text-gray-500 hover:text-gray-700 dark:text-gray-400 dark:hover:text-gray-200"
         href={SITE.website}
-        rel="noreferrer"
+        rel="noopener noreferrer"
         target="_blank"
       >
-        @ {SITE.author}
+        @{SITE.author}
       </a>
       <span className="hidden select-none rounded bg-slate-200 px-1 text-slate-600 text-xs sm:inline dark:bg-slate-800 dark:text-slate-400">
         Build <span className="select-all">{LATEST_COMMIT_HASH}</span>

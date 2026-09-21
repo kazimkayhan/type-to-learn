@@ -62,9 +62,11 @@ export default function PrevAndNextWord({ type }: LastAndNextWordProps) {
     <>
       {word ? (
         <Tooltip content={`Shortcut: ${shortCutKey}`}>
-          <div
-            className="flex max-w-[42vw] cursor-pointer select-none items-center text-gray-700 opacity-60 duration-200 ease-in-out hover:opacity-100 sm:max-w-xs dark:text-gray-400"
+          <button
+            aria-label={`${type === "prev" ? "Previous" : "Next"} word${headWord ? `: ${headWord}` : ""}`}
+            className="flex max-h-16 max-w-[38vw] cursor-pointer select-none items-center overflow-hidden text-gray-700 opacity-60 duration-200 ease-in-out hover:opacity-100 sm:max-w-xs dark:text-gray-400"
             onClick={onClickWord}
+            type="button"
           >
             {type === "prev" && (
               <IconPrev className="mr-4 shrink-0 grow-0 text-2xl" />
@@ -83,7 +85,7 @@ export default function PrevAndNextWord({ type }: LastAndNextWordProps) {
                 {headWord}
               </p>
               {Boolean(state.isTransVisible) && (
-                <p className="line-clamp-1 hidden max-w-full font-normal text-gray-600 text-sm sm:block dark:text-gray-500">
+                <p className="mt-0.5 hidden max-w-full truncate font-normal text-gray-600 text-sm sm:block dark:text-gray-500">
                   {word.trans.join("; ")}
                 </p>
               )}
@@ -91,7 +93,7 @@ export default function PrevAndNextWord({ type }: LastAndNextWordProps) {
             {type === "next" && (
               <IconNext className="ml-4 shrink-0 grow-0 text-2xl" />
             )}
-          </div>
+          </button>
         </Tooltip>
       ) : (
         <div />

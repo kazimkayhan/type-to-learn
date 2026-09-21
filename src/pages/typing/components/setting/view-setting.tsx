@@ -40,7 +40,7 @@ export default function ViewSetting() {
           <div className={styles.section}>
             <span className={styles.sectionLabel}>Font settings</span>
             <div className={styles.block}>
-              <span className={styles.blockLabel}>Foreign language font</span>
+              <span className={styles.blockLabel}>Word font</span>
               <div className="flex h-5 w-full items-center justify-between">
                 <Slider
                   className="slider"

@@ -163,12 +163,16 @@ const App: React.FC = () => {
           <StartButton isLoading={isLoading} />
           <Tooltip content="Skip this word">
             <button
+              aria-hidden={!state.isShowSkip}
+              aria-label="Skip this word"
               className={`${
                 state.isShowSkip
                   ? "bg-orange-400"
                   : "invisible w-0 bg-gray-300 px-0 opacity-0"
               } my-btn-primary min-h-11 px-3 text-sm transition-all duration-300 sm:min-h-0 sm:text-lg`}
+              disabled={!state.isShowSkip}
               onClick={skipWord}
+              tabIndex={state.isShowSkip ? 0 : -1}
               type="button"
             >
               Skip
@@ -183,7 +187,9 @@ const App: React.FC = () => {
                   <div
                     className="inline-block h-8 w-8 animate-spin rounded-full border-4 border-indigo-400 border-r-transparent border-solid align-[-0.125em] motion-reduce:animate-[spin_1.5s_linear_infinite]"
                     role="status"
-                  />
+                  >
+                    <span className="sr-only">Loading…</span>
+                  </div>
                 </div>
               ) : (
                 !state.isFinished && <WordPanel />
