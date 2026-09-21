@@ -28,13 +28,12 @@ async function getDictStats(dict: string): Promise<IDictStats> {
   const records: IChapterRecord[] = await db.chapterRecords
     .where({ dict })
     .toArray();
-  const allChapter = records
-    .map(({ chapter }) => chapter)
-    .filter((item) => item !== null) as number[];
-  const uniqueChapter = allChapter.filter(
-    (value, index, self) => self.indexOf(value) === index
+  const uniqueChapter = new Set(
+    records
+      .map(({ chapter }) => chapter)
+      .filter((item): item is number => item !== null && item >= 0)
   );
-  const exercisedChapterCount = uniqueChapter.length;
+  const exercisedChapterCount = uniqueChapter.size;
 
   return { exercisedChapterCount };
 }

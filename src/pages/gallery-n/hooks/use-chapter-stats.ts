@@ -19,7 +19,8 @@ export function useChapterExerciseCounts(dictID: string) {
         }
         const nextCounts: Record<number, number> = {};
         for (const record of records) {
-          if (record.chapter === null) {
+          // Skip review sessions (chapter === -1) and null chapters.
+          if (record.chapter === null || record.chapter < 0) {
             continue;
           }
           nextCounts[record.chapter] = (nextCounts[record.chapter] ?? 0) + 1;

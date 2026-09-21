@@ -64,7 +64,7 @@ function ToggleGroupItem({
   return (
     <TogglePrimitive
       className={cn(
-        "data-[state=on]:bg-accent data-[state=on]:text-accent-foreground",
+        "data-pressed:bg-accent data-pressed:text-accent-foreground",
         toggleVariants({
           size: context.size || size,
           variant: context.variant || variant,

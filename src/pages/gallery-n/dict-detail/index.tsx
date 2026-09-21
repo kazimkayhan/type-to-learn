@@ -73,7 +73,8 @@ export default function DictDetail({
     [dict.id, navigate, setCurrentChapter, setCurrentDictId, setReviewModeInfo]
   );
 
-  const handleTabChange = useCallback((value: string) => {
+  const handleTabChange = useCallback((groupValue: string[]) => {
+    const [value] = groupValue;
     if (
       value === Tab.Chapters ||
       value === Tab.Errors ||
@@ -82,6 +83,14 @@ export default function DictDetail({
       setCurTab(value);
     }
   }, []);
+
+  const practicedChapterCount = useMemo(() => {
+    if (!chapterExerciseCounts) {
+      return 0;
+    }
+    return Object.values(chapterExerciseCounts).filter((count) => count > 0)
+      .length;
+  }, [chapterExerciseCounts]);
 
   return (
     <div className="flex min-w-0 flex-col rounded-2xl px-1 py-2 text-gray-800 sm:px-4 sm:py-3 dark:text-gray-300">
@@ -92,13 +101,15 @@ export default function DictDetail({
           <p className="tabular-nums">
             {dict.length.toLocaleString()} words total
           </p>
+          <p className="mt-1 text-sm tabular-nums sm:text-base">
+            {practicedChapterCount} of {dict.chapterCount} chapters practiced
+          </p>
           <p className="mt-1 text-sm sm:text-base">{dict.description}</p>
         </div>
         <ToggleGroup
           className="flex-wrap justify-start"
           onValueChange={handleTabChange}
-          type="single"
-          value={curTab}
+          value={[curTab]}
         >
           <ToggleGroupItem
             className={
