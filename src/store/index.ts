@@ -46,7 +46,11 @@ export const loopWordConfigAtom = atomForConfig<{ times: LoopWordTimesOption }>(
 export const keySoundsConfigAtom = atomForConfig("keySoundsConfig", {
   isOpen: true,
   isOpenClickSound: true,
-  resource: keySoundResources[0],
+  resource: keySoundResources[0] ?? {
+    filename: "Default.wav",
+    key: "Default",
+    name: "Default",
+  },
   volume: 1,
 });
 
