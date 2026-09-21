@@ -31,20 +31,38 @@ export default function useKeySound(): [
     wrongResource,
     correctResource,
   } = useAtomValue(hintSoundsConfigAtom);
-  const [keySoundUrl, setKeySoundUrl] = useState(
-    `${KEY_SOUND_URL_PREFIX}${keyResource.filename}`
-  );
+
+  const [keySoundUrl, setKeySoundUrl] = useState(() => {
+    if (!keyResource?.filename) {
+      const fallback = keySoundResources[0] ?? {
+        filename: "Default.wav",
+        key: "Default",
+        name: "Default",
+      };
+      return `${KEY_SOUND_URL_PREFIX}${fallback.filename}`;
+    }
+    return `${KEY_SOUND_URL_PREFIX}${keyResource.filename}`;
+  });
 
   useEffect(() => {
     if (
-      !keySoundResources.some(
-        (item) =>
-          item.filename === keyResource.filename && item.key === keyResource.key
+      !(
+        keyResource?.filename &&
+        keySoundResources.some(
+          (item) =>
+            item.filename === keyResource.filename &&
+            item.key === keyResource.key
+        )
       )
     ) {
-      const defaultKeySoundResource =
-        keySoundResources.find((item) => item.key === "Default") ||
-        keySoundResources[0];
+      const defaultKeySoundResource = keySoundResources.find(
+        (item) => item.key === "Default"
+      ) ||
+        keySoundResources[0] || {
+          filename: "Default.wav",
+          key: "Default",
+          name: "Default",
+        };
 
       setKeySoundUrl(
         `${KEY_SOUND_URL_PREFIX}${defaultKeySoundResource.filename}`
