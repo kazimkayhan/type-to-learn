@@ -134,13 +134,13 @@ const App: React.FC = () => {
             </button>
           </Tooltip>
         </Header>
-        <div className="container mx-auto flex h-full min-h-0 w-full flex-1 flex-col items-center justify-center px-3 pb-3 sm:px-4 sm:pb-5">
-          <div className="container relative mx-auto flex h-full min-h-0 w-full flex-col items-center">
-            <div className="container flex min-h-0 flex-grow items-center justify-center">
+        <div className="container mx-auto flex h-full min-h-0 w-full flex-1 flex-col items-center justify-center gap-3 px-3 pb-3 sm:gap-4 sm:px-4 sm:pb-5">
+          <div className="container relative mx-auto flex h-full min-h-0 w-full max-w-4xl flex-col items-center">
+            <div className="container flex min-h-0 flex-grow items-center justify-center px-2 sm:px-4">
               {isLoading ? (
-                <div className="flex flex-col items-center justify-center ">
+                <div className="flex flex-col items-center justify-center">
                   <div
-                    className="inline-block h-8 w-8 animate-spin rounded-full border-4 border-solid  border-indigo-400 border-r-transparent align-[-0.125em] motion-reduce:animate-[spin_1.5s_linear_infinite]"
+                    className="inline-block h-8 w-8 animate-spin rounded-full border-4 border-solid border-indigo-400 border-r-transparent align-[-0.125em] motion-reduce:animate-[spin_1.5s_linear_infinite]"
                     role="status"
                   ></div>
                 </div>

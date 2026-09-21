@@ -25,7 +25,7 @@ export default function Drawer(props: DrawerProps) {
     <Sheet open={open} onOpenChange={(open) => !open && onClose?.()}>
       <SheetContent
         side={sideMap[placement]}
-        className={classNames(props.classNames || '', 'flex h-full w-full max-w-full flex-col sm:w-[35rem]')}
+        className={classNames(props.classNames || '', 'flex h-full w-full max-w-full flex-col overflow-hidden sm:w-[35rem] sm:max-w-sm')}
       >
         {children}
       </SheetContent>

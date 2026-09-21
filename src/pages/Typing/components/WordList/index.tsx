@@ -52,15 +52,15 @@ export default function WordList() {
           {currentDictTitleValue}
           <IconX onClick={closeModal} className="cursor-pointer" />
         </h3>
-        <ScrollArea className="flex-1 select-none overflow-y-auto ">
-          <div className="h-full w-full px-3">
+        <ScrollArea className="flex-1 overflow-y-auto">
+          <div className="h-full w-full px-3 pb-4">
             <div className="flex h-full w-full flex-col gap-1">
               {state.chapterData.words?.map((word, index) => {
                 return <WordCard word={word} key={`${word.name}_${index}`} isActive={state.chapterData.index === index} />
               })}
             </div>
           </div>
-          <ScrollBar className="flex touch-none select-none bg-transparent " orientation="vertical"></ScrollBar>
+          <ScrollBar className="flex touch-none select-none bg-transparent" orientation="vertical" />
         </ScrollArea>
       </Drawer>
     </>
