@@ -1,276 +1,298 @@
 export function isKanji(ch: string) {
-  ch = ch[0]
-  return (ch >= '\u4e00' && ch <= '\u9fcf') || (ch >= '\uf900' && ch <= '\ufaff') || (ch >= '\u3400' && ch <= '\u4dbf')
+  ch = ch[0];
+  return (
+    (ch >= "\u4e00" && ch <= "\u9fcf") ||
+    (ch >= "\uf900" && ch <= "\ufaff") ||
+    (ch >= "\u3400" && ch <= "\u4dbf")
+  );
 }
 
 /**
  * source: https://github.com/andree-surya/moji4j
  */
 export function romajiToHiragana(romaji: string): string {
-  const changeStr: string = romaji.toLowerCase()
-  const resultStr: string[] = changeStr.split('')
+  const changeStr: string = romaji.toLowerCase();
+  const resultStr: string[] = changeStr.split("");
 
   for (let i = 0; i < changeStr.length - 1; i++) {
-    const currentCharacter = changeStr[i]
-    const nextCharacter = changeStr[i + 1]
+    const currentCharacter = changeStr[i];
+    const nextCharacter = changeStr[i + 1];
 
-    const isDoubleConsonant = currentCharacter == nextCharacter && currentCharacter !== 'n'
-    const isExceptionalCase = currentCharacter == 't' && nextCharacter == 'c'
+    const isDoubleConsonant =
+      currentCharacter == nextCharacter && currentCharacter !== "n";
+    const isExceptionalCase = currentCharacter == "t" && nextCharacter == "c";
 
-    if (isRomanConsonant(currentCharacter) && (isDoubleConsonant || isExceptionalCase)) {
-      resultStr[i] = 'っ'
+    if (
+      isRomanConsonant(currentCharacter) &&
+      (isDoubleConsonant || isExceptionalCase)
+    ) {
+      resultStr[i] = "っ";
     }
   }
 
-  let result = ''
-  let currentOffset = 0
+  let result = "";
+  let currentOffset = 0;
   while (currentOffset < resultStr.length) {
-    const maxSubstringLength = Math.min(4, resultStr.length - currentOffset)
+    const maxSubstringLength = Math.min(4, resultStr.length - currentOffset);
 
-    for (let substringLength = maxSubstringLength; substringLength > 0; substringLength--) {
-      const substring = resultStr.slice(currentOffset, currentOffset + substringLength)
+    for (
+      let substringLength = maxSubstringLength;
+      substringLength > 0;
+      substringLength--
+    ) {
+      const substring = resultStr.slice(
+        currentOffset,
+        currentOffset + substringLength
+      );
 
-      const replacementString: string = romajiToHiraganaJson[substring.join('')]
+      const replacementString: string =
+        romajiToHiraganaJson[substring.join("")];
 
       if (replacementString !== undefined && replacementString !== null) {
-        result += replacementString
-        currentOffset += substring.length
-        break
+        result += replacementString;
+        currentOffset += substring.length;
+        break;
       }
 
       if (substringLength == 1) {
-        result += substring
+        result += substring;
 
-        currentOffset += 1
-        break
+        currentOffset += 1;
+        break;
       }
     }
   }
 
-  return result
+  return result;
 }
 
 function isRomanConsonant(character: string): boolean {
-  return character >= 'a' && character <= 'z' && !isRomanVowel(character)
+  return character >= "a" && character <= "z" && !isRomanVowel(character);
 }
 
 function isRomanVowel(character: string): boolean {
-  return character == 'a' || character == 'i' || character == 'u' || character == 'e' || character == 'o'
+  return (
+    character == "a" ||
+    character == "i" ||
+    character == "u" ||
+    character == "e" ||
+    character == "o"
+  );
 }
 
 interface RomajiToHiragana {
-  [key: string]: string
+  [key: string]: string;
 }
 const romajiToHiraganaJson: RomajiToHiragana = {
-  a: 'あ',
-  i: 'い',
-  u: 'う',
-  e: 'え',
-  o: 'お',
-  '-': 'ー',
-  xa: 'ぁ',
-  xi: 'ぃ',
-  xu: 'ぅ',
-  xe: 'ぇ',
-  xo: 'ぉ',
-  ka: 'か',
-  ki: 'き',
-  ku: 'く',
-  ke: 'け',
-  ko: 'こ',
-  ca: 'か',
-  cu: 'く',
-  co: 'こ',
-  ga: 'が',
-  gi: 'ぎ',
-  gu: 'ぐ',
-  ge: 'げ',
-  go: 'ご',
-  sa: 'さ',
-  si: 'し',
-  su: 'す',
-  se: 'せ',
-  so: 'そ',
-  za: 'ざ',
-  zi: 'じ',
-  zu: 'ず',
-  ze: 'ぜ',
-  zo: 'ぞ',
-  ja: 'じゃ',
-  ji: 'じ',
-  ju: 'じゅ',
-  je: 'じぇ',
-  jo: 'じょ',
-  ta: 'た',
-  ti: 'ち',
-  tu: 'つ',
-  te: 'て',
-  to: 'と',
-  da: 'だ',
-  di: 'ぢ',
-  du: 'づ',
-  de: 'で',
-  do: 'ど',
-  na: 'な',
-  ni: 'に',
-  nu: 'ぬ',
-  ne: 'ね',
-  no: 'の',
-  ha: 'は',
-  hi: 'ひ',
-  hu: 'ふ',
-  he: 'へ',
-  ho: 'ほ',
-  ba: 'ば',
-  bi: 'び',
-  bu: 'ぶ',
-  be: 'べ',
-  bo: 'ぼ',
-  pa: 'ぱ',
-  pi: 'ぴ',
-  pu: 'ぷ',
-  pe: 'ぺ',
-  po: 'ぽ',
-  va: 'ヴぁ',
-  vi: 'ヴぃ',
-  vu: 'ヴ',
-  ve: 'ヴぇ',
-  vo: 'ヴぉ',
-  fa: 'ふぁ',
-  fi: 'ふぃ',
-  fu: 'ふ',
-  fe: 'ふぇ',
-  fo: 'ふぉ',
-  ma: 'ま',
-  mi: 'み',
-  mu: 'む',
-  me: 'め',
-  mo: 'も',
-  ya: 'や',
-  yi: 'い',
-  yu: 'ゆ',
-  ye: 'いぇ',
-  yo: 'よ',
-  ra: 'ら',
-  ri: 'り',
-  ru: 'る',
-  re: 'れ',
-  ro: 'ろ',
-  la: 'ら',
-  li: 'り',
-  lu: 'る',
-  le: 'れ',
-  lo: 'ろ',
-  wa: 'わ',
-  wi: 'ゐ',
-  wu: 'う',
-  we: 'ゑ',
-  wo: 'を',
-  tsu: 'つ',
-  xka: 'ヵ',
-  xke: 'ヶ',
-  xwa: 'ゎ',
-  xtsu: 'っ',
-  xya: 'ゃ',
-  xyu: 'ゅ',
-  xyo: 'ょ',
-  kya: 'きゃ',
-  kyi: 'きぃ',
-  kyu: 'きゅ',
-  kye: 'きぇ',
-  kyo: 'きょ',
-  gya: 'ぎゃ',
-  gyi: 'ぎぃ',
-  gyu: 'ぎゅ',
-  gye: 'ぎぇ',
-  gyo: 'ぎょ',
-  sya: 'しゃ',
-  syi: 'しぃ',
-  syu: 'しゅ',
-  sye: 'しぇ',
-  syo: 'しょ',
-  sha: 'しゃ',
-  shi: 'し',
-  shu: 'しゅ',
-  she: 'しぇ',
-  sho: 'しょ',
-  zya: 'じゃ',
-  zyi: 'じぃ',
-  zyu: 'じゅ',
-  zye: 'じぇ',
-  zyo: 'じょ',
-  jya: 'じゃ',
-  jyi: 'じぃ',
-  jyu: 'じゅ',
-  jye: 'じぇ',
-  jyo: 'じょ',
-  tya: 'ちゃ',
-  tyi: 'ちぃ',
-  tyu: 'ちゅ',
-  tye: 'ちぇ',
-  tyo: 'ちょ',
-  cya: 'ちゃ',
-  cyi: 'ちぃ',
-  cyu: 'ちゅ',
-  cye: 'ちぇ',
-  cyo: 'ちょ',
-  cha: 'ちゃ',
-  chi: 'ち',
-  chu: 'ちゅ',
-  che: 'ちぇ',
-  cho: 'ちょ',
-  tha: 'てゃ',
-  thi: 'てぃ',
-  thu: 'てゅ',
-  the: 'てぇ',
-  tho: 'てょ',
-  dya: 'ぢゃ',
-  dyi: 'ぢぃ',
-  dyu: 'ぢゅ',
-  dye: 'ぢぇ',
-  dyo: 'ぢょ',
-  dha: 'でゃ',
-  dhi: 'でぃ',
-  dhu: 'でゅ',
-  dhe: 'でぇ',
-  dho: 'でょ',
-  nya: 'にゃ',
-  nyi: 'にぃ',
-  nyu: 'にゅ',
-  nye: 'にぇ',
-  nyo: 'にょ',
-  hya: 'ひゃ',
-  hyi: 'ひぃ',
-  hyu: 'ひゅ',
-  hye: 'ひぇ',
-  hyo: 'ひょ',
-  bya: 'びゃ',
-  byi: 'びぃ',
-  byu: 'びゅ',
-  bye: 'びぇ',
-  byo: 'びょ',
-  pya: 'ぴゃ',
-  pyi: 'ぴぃ',
-  pyu: 'ぴゅ',
-  pye: 'ぴぇ',
-  pyo: 'ぴょ',
-  mya: 'みゃ',
-  myi: 'みぃ',
-  myu: 'みゅ',
-  mye: 'みぇ',
-  myo: 'みょ',
-  rya: 'りゃ',
-  ryi: 'りぃ',
-  ryu: 'りゅ',
-  rye: 'りぇ',
-  ryo: 'りょ',
-  lya: 'りゃ',
-  lyi: 'りぃ',
-  lyu: 'りゅ',
-  lye: 'りぇ',
-  lyo: 'りょ',
-  n: 'ん',
-  m: 'ん',
-  "n'": 'ん',
-  dzu: 'づ',
-}
+  "-": "ー",
+  a: "あ",
+  ba: "ば",
+  be: "べ",
+  bi: "び",
+  bo: "ぼ",
+  bu: "ぶ",
+  bya: "びゃ",
+  bye: "びぇ",
+  byi: "びぃ",
+  byo: "びょ",
+  byu: "びゅ",
+  ca: "か",
+  cha: "ちゃ",
+  che: "ちぇ",
+  chi: "ち",
+  cho: "ちょ",
+  chu: "ちゅ",
+  co: "こ",
+  cu: "く",
+  cya: "ちゃ",
+  cye: "ちぇ",
+  cyi: "ちぃ",
+  cyo: "ちょ",
+  cyu: "ちゅ",
+  da: "だ",
+  de: "で",
+  dha: "でゃ",
+  dhe: "でぇ",
+  dhi: "でぃ",
+  dho: "でょ",
+  dhu: "でゅ",
+  di: "ぢ",
+  do: "ど",
+  du: "づ",
+  dya: "ぢゃ",
+  dye: "ぢぇ",
+  dyi: "ぢぃ",
+  dyo: "ぢょ",
+  dyu: "ぢゅ",
+  dzu: "づ",
+  e: "え",
+  fa: "ふぁ",
+  fe: "ふぇ",
+  fi: "ふぃ",
+  fo: "ふぉ",
+  fu: "ふ",
+  ga: "が",
+  ge: "げ",
+  gi: "ぎ",
+  go: "ご",
+  gu: "ぐ",
+  gya: "ぎゃ",
+  gye: "ぎぇ",
+  gyi: "ぎぃ",
+  gyo: "ぎょ",
+  gyu: "ぎゅ",
+  ha: "は",
+  he: "へ",
+  hi: "ひ",
+  ho: "ほ",
+  hu: "ふ",
+  hya: "ひゃ",
+  hye: "ひぇ",
+  hyi: "ひぃ",
+  hyo: "ひょ",
+  hyu: "ひゅ",
+  i: "い",
+  ja: "じゃ",
+  je: "じぇ",
+  ji: "じ",
+  jo: "じょ",
+  ju: "じゅ",
+  jya: "じゃ",
+  jye: "じぇ",
+  jyi: "じぃ",
+  jyo: "じょ",
+  jyu: "じゅ",
+  ka: "か",
+  ke: "け",
+  ki: "き",
+  ko: "こ",
+  ku: "く",
+  kya: "きゃ",
+  kye: "きぇ",
+  kyi: "きぃ",
+  kyo: "きょ",
+  kyu: "きゅ",
+  la: "ら",
+  le: "れ",
+  li: "り",
+  lo: "ろ",
+  lu: "る",
+  lya: "りゃ",
+  lye: "りぇ",
+  lyi: "りぃ",
+  lyo: "りょ",
+  lyu: "りゅ",
+  m: "ん",
+  ma: "ま",
+  me: "め",
+  mi: "み",
+  mo: "も",
+  mu: "む",
+  mya: "みゃ",
+  mye: "みぇ",
+  myi: "みぃ",
+  myo: "みょ",
+  myu: "みゅ",
+  n: "ん",
+  "n'": "ん",
+  na: "な",
+  ne: "ね",
+  ni: "に",
+  no: "の",
+  nu: "ぬ",
+  nya: "にゃ",
+  nye: "にぇ",
+  nyi: "にぃ",
+  nyo: "にょ",
+  nyu: "にゅ",
+  o: "お",
+  pa: "ぱ",
+  pe: "ぺ",
+  pi: "ぴ",
+  po: "ぽ",
+  pu: "ぷ",
+  pya: "ぴゃ",
+  pye: "ぴぇ",
+  pyi: "ぴぃ",
+  pyo: "ぴょ",
+  pyu: "ぴゅ",
+  ra: "ら",
+  re: "れ",
+  ri: "り",
+  ro: "ろ",
+  ru: "る",
+  rya: "りゃ",
+  rye: "りぇ",
+  ryi: "りぃ",
+  ryo: "りょ",
+  ryu: "りゅ",
+  sa: "さ",
+  se: "せ",
+  sha: "しゃ",
+  she: "しぇ",
+  shi: "し",
+  sho: "しょ",
+  shu: "しゅ",
+  si: "し",
+  so: "そ",
+  su: "す",
+  sya: "しゃ",
+  sye: "しぇ",
+  syi: "しぃ",
+  syo: "しょ",
+  syu: "しゅ",
+  ta: "た",
+  te: "て",
+  tha: "てゃ",
+  the: "てぇ",
+  thi: "てぃ",
+  tho: "てょ",
+  thu: "てゅ",
+  ti: "ち",
+  to: "と",
+  tsu: "つ",
+  tu: "つ",
+  tya: "ちゃ",
+  tye: "ちぇ",
+  tyi: "ちぃ",
+  tyo: "ちょ",
+  tyu: "ちゅ",
+  u: "う",
+  va: "ヴぁ",
+  ve: "ヴぇ",
+  vi: "ヴぃ",
+  vo: "ヴぉ",
+  vu: "ヴ",
+  wa: "わ",
+  we: "ゑ",
+  wi: "ゐ",
+  wo: "を",
+  wu: "う",
+  xa: "ぁ",
+  xe: "ぇ",
+  xi: "ぃ",
+  xka: "ヵ",
+  xke: "ヶ",
+  xo: "ぉ",
+  xtsu: "っ",
+  xu: "ぅ",
+  xwa: "ゎ",
+  xya: "ゃ",
+  xyo: "ょ",
+  xyu: "ゅ",
+  ya: "や",
+  ye: "いぇ",
+  yi: "い",
+  yo: "よ",
+  yu: "ゆ",
+  za: "ざ",
+  ze: "ぜ",
+  zi: "じ",
+  zo: "ぞ",
+  zu: "ず",
+  zya: "じゃ",
+  zye: "じぇ",
+  zyi: "じぃ",
+  zyo: "じょ",
+  zyu: "じゅ",
+};

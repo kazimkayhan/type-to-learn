@@ -1,389 +1,375 @@
 [
-    {
-        "name": "evidence",
-        "trans": [
-            "v. provide evidence for",
-            "v. give evidence",
-            "n. your basis for belief or disbelief"
-        ]
-    },
-    {
-        "name": "alternative",
-        "trans": [
-            "adj. necessitating a choice between mutually exclusive possibilities",
-            "adj. pertaining to unconventional choices",
-            "adj. serving or used in place of another"
-        ]
-    },
-    {
-        "name": "intention",
-        "trans": [
-            "n. an act of intending",
-            "n. an anticipated outcome that is intended or that guides your planned actions",
-            "n. usually plural, the goal with respect to a marriage proposal"
-        ]
-    },
-    {
-        "name": "relevant",
-        "trans": [
-            "adj. having a bearing on or connection with the subject at issue"
-        ]
-    },
-    {
-        "name": "outline",
-        "trans": [
-            "v. describe roughly or briefly or give the main points or summary of",
-            "v. trace the shape of",
-            "v. draw up an outline or sketch for something"
-        ]
-    },
-    {
-        "name": "extinct",
-        "trans": [
-            "adj. (of e.g. volcanos) permanently inactive",
-            "adj. being out or having grown cold",
-            "adj. no longer in existence"
-        ]
-    },
-    {
-        "name": "wing",
-        "trans": [
-            "v. travel through the air",
-            "n. a movable organ for flying (one of a pair)",
-            "n. an addition that extends a main building"
-        ]
-    },
-    {
-        "name": "nest",
-        "trans": [
-            "v. gather nests",
-            "v. move or arrange oneself in a comfortable and cozy position",
-            "v. fit together or fit inside"
-        ]
-    },
-    {
-        "name": "interference",
-        "trans": [
-            "n. in American football, blocking a player's path with your body",
-            "n. the act of hindering or obstructing or impeding",
-            "n. any obstruction that impedes or is burdensome"
-        ]
-    },
-    {
-        "name": "standard",
-        "trans": [
-            "adj. commonly used or supplied",
-            "adj. regularly and widely used or sold",
-            "adj. established or well-known or widely recognized as a model of authority or excellence"
-        ]
-    },
-    {
-        "name": "subtopic",
-        "trans": [
-            "secondary theme"
-        ]
-    },
-    {
-        "name": "therapy",
-        "trans": [
-            "n. (medicine) the act of caring for someone (as by medication or remedial training etc.)"
-        ]
-    },
-    {
-        "name": "morality",
-        "trans": [
-            "n. concern with the distinction between good and evil or right and wrong",
-            "n. motivation based on ideas of right and wrong"
-        ]
-    },
-    {
-        "name": "participation",
-        "trans": [
-            "n. the act of sharing in the activities of a group",
-            "n. the condition of sharing in common with others (as fellows or partners etc.)"
-        ]
-    },
-    {
-        "name": "faculty",
-        "trans": [
-            "n. one of the inherent cognitive or perceptual powers of the mind",
-            "n. the body of teachers and administrators at a school"
-        ]
-    },
-    {
-        "name": "fit",
-        "trans": [
-            "v. insert or adjust several objects or people",
-            "v. make fit",
-            "v. make correspond or harmonize"
-        ]
-    },
-    {
-        "name": "useful",
-        "trans": [
-            "adj. having a useful function",
-            "adj. being of use or service"
-        ]
-    },
-    {
-        "name": "confuse",
-        "trans": [
-            "v. to mistake one thing for another",
-            "v. to make unclear, indistinct, or blurred",
-            "v. to be confusing or perplexing to"
-        ]
-    },
-    {
-        "name": "inconvenient",
-        "trans": [
-            "adj. not suited to your comfort, purpose or needs",
-            "adj. not conveniently timed"
-        ]
-    },
-    {
-        "name": "valuable",
-        "trans": [
-            "adj. having great material or monetary value, especially for use or exchange",
-            "adj. having worth, merit, or value",
-            "n. something of value"
-        ]
-    },
-    {
-        "name": "advisor",
-        "trans": [
-            "n. an expert who gives advice"
-        ]
-    },
-    {
-        "name": "forget",
-        "trans": [
-            "v. be unable to remember",
-            "v. dismiss from the mind",
-            "v. leave behind unintentionally"
-        ]
-    },
-    {
-        "name": "lecturer",
-        "trans": [
-            "n. a public lecturer at certain universities",
-            "n. someone who lectures professionally"
-        ]
-    },
-    {
-        "name": "content",
-        "trans": [
-            "v. to satisfy in a limited way",
-            "v. to make content",
-            "adj. satisfied or showing satisfaction with things as they are"
-        ]
-    },
-    {
-        "name": "practical",
-        "trans": [
-            "adj. having or put to a practical purpose or use",
-            "adj. concerned with actual use or practice",
-            "adj. guided by practical experience and observation rather than theory"
-        ]
-    },
-    {
-        "name": "improvement",
-        "trans": [
-            "n. the act of improving something",
-            "n. a change for the better",
-            "n. a condition superior to an earlier condition"
-        ]
-    },
-    {
-        "name": "repetitive",
-        "trans": [
-            "adj. repetitive and persistent",
-            "adj. characterized by repetition"
-        ]
-    },
-    {
-        "name": "village",
-        "trans": [
-            "n. a community of people smaller than a town",
-            "n. a settlement smaller than a town"
-        ]
-    },
-    {
-        "name": "mission",
-        "trans": [
-            "n. the organized work of a religious missionary",
-            "n. a special assignment that is given to a person or group",
-            "n. an operation that is assigned by a higher headquarters"
-        ]
-    },
-    {
-        "name": "qualification",
-        "trans": [
-            "n. the act of modifying or changing the strength of some idea",
-            "n. an attribute that must be met or complied with and that fits a person for something",
-            "n. a statement that limits or restricts some claim"
-        ]
-    },
-    {
-        "name": "curriculum",
-        "trans": [
-            "n. an integrated course of academic studies"
-        ]
-    },
-    {
-        "name": "training",
-        "trans": [
-            "n. activity leading to skilled behavior",
-            "n. the result of good upbringing (especially knowledge of correct social behavior)"
-        ]
-    },
-    {
-        "name": "colleague",
-        "trans": [
-            "n. a person who is member of one's class or profession",
-            "n. an associate that one works with"
-        ]
-    },
-    {
-        "name": "description",
-        "trans": [
-            "n. sort or variety",
-            "n. a statement that represents something in words",
-            "n. the act of describing something"
-        ]
-    },
-    {
-        "name": "administration",
-        "trans": [
-            "n. the act of meting out justice according to the law",
-            "n. the act of administering medication",
-            "n. the act of governing"
-        ]
-    },
-    {
-        "name": "farming",
-        "trans": [
-            "adj. relating to rural matters",
-            "n. agriculture considered as an occupation or way of life",
-            "n. the practice of cultivating the land or raising stock"
-        ]
-    },
-    {
-        "name": "damage",
-        "trans": [
-            "v. inflict damage upon",
-            "v. suffer or be susceptible to damage",
-            "n. the act of damaging something or someone"
-        ]
-    },
-    {
-        "name": "checklist",
-        "trans": [
-            "n. a list of items (names or tasks etc.) to be checked or consulted"
-        ]
-    },
-    {
-        "name": "figures",
-        "trans": [
-            "price",
-            "sum of money"
-        ]
-    },
-    {
-        "name": "presentation",
-        "trans": [
-            "n. a show or display",
-            "n. the activity of formally presenting something like a prize or reward",
-            "n. a visual representation of something"
-        ]
-    },
-    {
-        "name": "professor",
-        "trans": [
-            "n. someone who is a member of the faculty at a college or university"
-        ]
-    },
-    {
-        "name": "seminar",
-        "trans": [
-            "n. a course offered for a small group of advanced students",
-            "n. any meeting for an exchange of ideas"
-        ]
-    },
-    {
-        "name": "chemistry",
-        "trans": [
-            "n. the science of matter",
-            "n. the way two individuals relate to each other",
-            "n. the chemical composition and properties of a substance or object"
-        ]
-    },
-    {
-        "name": "trade",
-        "trans": [
-            "v. do business",
-            "v. exchange or give (something) in exchange for",
-            "v. turn in as payment or part payment for a purchase"
-        ]
-    },
-    {
-        "name": "payment",
-        "trans": [
-            "n. the act of paying money",
-            "n. an act of requiting",
-            "n. a sum of money paid or a claim discharged"
-        ]
-    },
-    {
-        "name": "portable",
-        "trans": [
-            "adj. of a motor designed to be attached to the outside of a boat's hull",
-            "adj. easily or conveniently transported",
-            "n. a small light typewriter"
-        ]
-    },
-    {
-        "name": "comedy",
-        "trans": [
-            "n. a comic incident or series of incidents",
-            "n. light and humorous drama with a happy ending"
-        ]
-    },
-    {
-        "name": "pattern",
-        "trans": [
-            "v. plan or create according to a model or models",
-            "v. form a pattern",
-            "n. a customary way of operation or behavior"
-        ]
-    },
-    {
-        "name": "fresh",
-        "trans": [
-            "adj. not canned or otherwise preserved",
-            "adj. not containing or composed of salt water",
-            "adj. imparting vitality and energy"
-        ]
-    },
-    {
-        "name": "application",
-        "trans": [
-            "n. the action of putting something into operation",
-            "n. a diligent effort",
-            "n. the work of applying something"
-        ]
-    },
-    {
-        "name": "employee",
-        "trans": [
-            "n. a worker who is hired to perform a job"
-        ]
-    },
-    {
-        "name": "evaporate",
-        "trans": [
-            "v. become less intense and fade away gradually",
-            "v. lose or cause to lose liquid by vaporization leaving a more concentrated residue",
-            "v. change into a vapor"
-        ]
-    }
+  {
+    "name": "evidence",
+    "trans": [
+      "v. provide evidence for",
+      "v. give evidence",
+      "n. your basis for belief or disbelief"
+    ]
+  },
+  {
+    "name": "alternative",
+    "trans": [
+      "adj. necessitating a choice between mutually exclusive possibilities",
+      "adj. pertaining to unconventional choices",
+      "adj. serving or used in place of another"
+    ]
+  },
+  {
+    "name": "intention",
+    "trans": [
+      "n. an act of intending",
+      "n. an anticipated outcome that is intended or that guides your planned actions",
+      "n. usually plural, the goal with respect to a marriage proposal"
+    ]
+  },
+  {
+    "name": "relevant",
+    "trans": [
+      "adj. having a bearing on or connection with the subject at issue"
+    ]
+  },
+  {
+    "name": "outline",
+    "trans": [
+      "v. describe roughly or briefly or give the main points or summary of",
+      "v. trace the shape of",
+      "v. draw up an outline or sketch for something"
+    ]
+  },
+  {
+    "name": "extinct",
+    "trans": [
+      "adj. (of e.g. volcanos) permanently inactive",
+      "adj. being out or having grown cold",
+      "adj. no longer in existence"
+    ]
+  },
+  {
+    "name": "wing",
+    "trans": [
+      "v. travel through the air",
+      "n. a movable organ for flying (one of a pair)",
+      "n. an addition that extends a main building"
+    ]
+  },
+  {
+    "name": "nest",
+    "trans": [
+      "v. gather nests",
+      "v. move or arrange oneself in a comfortable and cozy position",
+      "v. fit together or fit inside"
+    ]
+  },
+  {
+    "name": "interference",
+    "trans": [
+      "n. in American football, blocking a player's path with your body",
+      "n. the act of hindering or obstructing or impeding",
+      "n. any obstruction that impedes or is burdensome"
+    ]
+  },
+  {
+    "name": "standard",
+    "trans": [
+      "adj. commonly used or supplied",
+      "adj. regularly and widely used or sold",
+      "adj. established or well-known or widely recognized as a model of authority or excellence"
+    ]
+  },
+  {
+    "name": "subtopic",
+    "trans": ["secondary theme"]
+  },
+  {
+    "name": "therapy",
+    "trans": [
+      "n. (medicine) the act of caring for someone (as by medication or remedial training etc.)"
+    ]
+  },
+  {
+    "name": "morality",
+    "trans": [
+      "n. concern with the distinction between good and evil or right and wrong",
+      "n. motivation based on ideas of right and wrong"
+    ]
+  },
+  {
+    "name": "participation",
+    "trans": [
+      "n. the act of sharing in the activities of a group",
+      "n. the condition of sharing in common with others (as fellows or partners etc.)"
+    ]
+  },
+  {
+    "name": "faculty",
+    "trans": [
+      "n. one of the inherent cognitive or perceptual powers of the mind",
+      "n. the body of teachers and administrators at a school"
+    ]
+  },
+  {
+    "name": "fit",
+    "trans": [
+      "v. insert or adjust several objects or people",
+      "v. make fit",
+      "v. make correspond or harmonize"
+    ]
+  },
+  {
+    "name": "useful",
+    "trans": ["adj. having a useful function", "adj. being of use or service"]
+  },
+  {
+    "name": "confuse",
+    "trans": [
+      "v. to mistake one thing for another",
+      "v. to make unclear, indistinct, or blurred",
+      "v. to be confusing or perplexing to"
+    ]
+  },
+  {
+    "name": "inconvenient",
+    "trans": [
+      "adj. not suited to your comfort, purpose or needs",
+      "adj. not conveniently timed"
+    ]
+  },
+  {
+    "name": "valuable",
+    "trans": [
+      "adj. having great material or monetary value, especially for use or exchange",
+      "adj. having worth, merit, or value",
+      "n. something of value"
+    ]
+  },
+  {
+    "name": "advisor",
+    "trans": ["n. an expert who gives advice"]
+  },
+  {
+    "name": "forget",
+    "trans": [
+      "v. be unable to remember",
+      "v. dismiss from the mind",
+      "v. leave behind unintentionally"
+    ]
+  },
+  {
+    "name": "lecturer",
+    "trans": [
+      "n. a public lecturer at certain universities",
+      "n. someone who lectures professionally"
+    ]
+  },
+  {
+    "name": "content",
+    "trans": [
+      "v. to satisfy in a limited way",
+      "v. to make content",
+      "adj. satisfied or showing satisfaction with things as they are"
+    ]
+  },
+  {
+    "name": "practical",
+    "trans": [
+      "adj. having or put to a practical purpose or use",
+      "adj. concerned with actual use or practice",
+      "adj. guided by practical experience and observation rather than theory"
+    ]
+  },
+  {
+    "name": "improvement",
+    "trans": [
+      "n. the act of improving something",
+      "n. a change for the better",
+      "n. a condition superior to an earlier condition"
+    ]
+  },
+  {
+    "name": "repetitive",
+    "trans": [
+      "adj. repetitive and persistent",
+      "adj. characterized by repetition"
+    ]
+  },
+  {
+    "name": "village",
+    "trans": [
+      "n. a community of people smaller than a town",
+      "n. a settlement smaller than a town"
+    ]
+  },
+  {
+    "name": "mission",
+    "trans": [
+      "n. the organized work of a religious missionary",
+      "n. a special assignment that is given to a person or group",
+      "n. an operation that is assigned by a higher headquarters"
+    ]
+  },
+  {
+    "name": "qualification",
+    "trans": [
+      "n. the act of modifying or changing the strength of some idea",
+      "n. an attribute that must be met or complied with and that fits a person for something",
+      "n. a statement that limits or restricts some claim"
+    ]
+  },
+  {
+    "name": "curriculum",
+    "trans": ["n. an integrated course of academic studies"]
+  },
+  {
+    "name": "training",
+    "trans": [
+      "n. activity leading to skilled behavior",
+      "n. the result of good upbringing (especially knowledge of correct social behavior)"
+    ]
+  },
+  {
+    "name": "colleague",
+    "trans": [
+      "n. a person who is member of one's class or profession",
+      "n. an associate that one works with"
+    ]
+  },
+  {
+    "name": "description",
+    "trans": [
+      "n. sort or variety",
+      "n. a statement that represents something in words",
+      "n. the act of describing something"
+    ]
+  },
+  {
+    "name": "administration",
+    "trans": [
+      "n. the act of meting out justice according to the law",
+      "n. the act of administering medication",
+      "n. the act of governing"
+    ]
+  },
+  {
+    "name": "farming",
+    "trans": [
+      "adj. relating to rural matters",
+      "n. agriculture considered as an occupation or way of life",
+      "n. the practice of cultivating the land or raising stock"
+    ]
+  },
+  {
+    "name": "damage",
+    "trans": [
+      "v. inflict damage upon",
+      "v. suffer or be susceptible to damage",
+      "n. the act of damaging something or someone"
+    ]
+  },
+  {
+    "name": "checklist",
+    "trans": [
+      "n. a list of items (names or tasks etc.) to be checked or consulted"
+    ]
+  },
+  {
+    "name": "figures",
+    "trans": ["price", "sum of money"]
+  },
+  {
+    "name": "presentation",
+    "trans": [
+      "n. a show or display",
+      "n. the activity of formally presenting something like a prize or reward",
+      "n. a visual representation of something"
+    ]
+  },
+  {
+    "name": "professor",
+    "trans": [
+      "n. someone who is a member of the faculty at a college or university"
+    ]
+  },
+  {
+    "name": "seminar",
+    "trans": [
+      "n. a course offered for a small group of advanced students",
+      "n. any meeting for an exchange of ideas"
+    ]
+  },
+  {
+    "name": "chemistry",
+    "trans": [
+      "n. the science of matter",
+      "n. the way two individuals relate to each other",
+      "n. the chemical composition and properties of a substance or object"
+    ]
+  },
+  {
+    "name": "trade",
+    "trans": [
+      "v. do business",
+      "v. exchange or give (something) in exchange for",
+      "v. turn in as payment or part payment for a purchase"
+    ]
+  },
+  {
+    "name": "payment",
+    "trans": [
+      "n. the act of paying money",
+      "n. an act of requiting",
+      "n. a sum of money paid or a claim discharged"
+    ]
+  },
+  {
+    "name": "portable",
+    "trans": [
+      "adj. of a motor designed to be attached to the outside of a boat's hull",
+      "adj. easily or conveniently transported",
+      "n. a small light typewriter"
+    ]
+  },
+  {
+    "name": "comedy",
+    "trans": [
+      "n. a comic incident or series of incidents",
+      "n. light and humorous drama with a happy ending"
+    ]
+  },
+  {
+    "name": "pattern",
+    "trans": [
+      "v. plan or create according to a model or models",
+      "v. form a pattern",
+      "n. a customary way of operation or behavior"
+    ]
+  },
+  {
+    "name": "fresh",
+    "trans": [
+      "adj. not canned or otherwise preserved",
+      "adj. not containing or composed of salt water",
+      "adj. imparting vitality and energy"
+    ]
+  },
+  {
+    "name": "application",
+    "trans": [
+      "n. the action of putting something into operation",
+      "n. a diligent effort",
+      "n. the work of applying something"
+    ]
+  },
+  {
+    "name": "employee",
+    "trans": ["n. a worker who is hired to perform a job"]
+  },
+  {
+    "name": "evaporate",
+    "trans": [
+      "v. become less intense and fade away gradually",
+      "v. lose or cause to lose liquid by vaporization leaving a more concentrated residue",
+      "v. change into a vapor"
+    ]
+  }
 ]

@@ -1,4 +1,4 @@
-import type { groupedWordRecords } from '../type'
-import { atom } from 'jotai'
+import { atom } from "jotai";
+import type { groupedWordRecords } from "../type";
 
-export const currentRowDetailAtom = atom<groupedWordRecords | null>(null)
+export const currentRowDetailAtom = atom<groupedWordRecords | null>(null);

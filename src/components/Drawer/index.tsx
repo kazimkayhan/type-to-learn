@@ -1,34 +1,37 @@
-import { Sheet, SheetContent } from '@/components/ui/sheet'
-import classNames from 'classnames'
+import classNames from "classnames";
+import { Sheet, SheetContent } from "@/components/ui/sheet";
 
-export type Placement = 'left' | 'top' | 'right' | 'bottom'
+type Placement = "left" | "top" | "right" | "bottom";
 
 interface DrawerProps {
-  open?: boolean
-  placement?: Placement
-  onClose?: () => void
-  children?: React.ReactNode
-  classNames?: string
+  children?: React.ReactNode;
+  classNames?: string;
+  onClose?: () => void;
+  open?: boolean;
+  placement?: Placement;
 }
 
 export default function Drawer(props: DrawerProps) {
-  const { open = false, placement = 'left', onClose, children } = props
+  const { open = false, placement = "left", onClose, children } = props;
 
-  const sideMap: Record<Placement, 'left' | 'right' | 'top' | 'bottom'> = {
-    left: 'left',
-    right: 'right',
-    top: 'top',
-    bottom: 'bottom',
-  }
+  const sideMap: Record<Placement, "left" | "right" | "top" | "bottom"> = {
+    bottom: "bottom",
+    left: "left",
+    right: "right",
+    top: "top",
+  };
 
   return (
-    <Sheet open={open} onOpenChange={(open) => !open && onClose?.()}>
+    <Sheet onOpenChange={(open) => !open && onClose?.()} open={open}>
       <SheetContent
+        className={classNames(
+          props.classNames || "",
+          "flex h-full w-full max-w-full flex-col overflow-hidden sm:w-[35rem] sm:max-w-sm"
+        )}
         side={sideMap[placement]}
-        className={classNames(props.classNames || '', 'flex h-full w-full max-w-full flex-col overflow-hidden sm:w-[35rem] sm:max-w-sm')}
       >
         {children}
       </SheetContent>
     </Sheet>
-  )
+  );
 }

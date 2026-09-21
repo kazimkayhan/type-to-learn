@@ -1,105 +1,123 @@
-import logo from '@/assets/logo.svg'
-import directoryImg from '@/assets/mobile/carousel/directory.png'
-import hotImg from '@/assets/mobile/carousel/hot.png'
-import indexImg from '@/assets/mobile/carousel/index.png'
-import codeImg from '@/assets/mobile/detail/code.png'
-import dictationImg from '@/assets/mobile/detail/dictation.png'
-import phoneticImg from '@/assets/mobile/detail/phonetic.png'
-import speedImg from '@/assets/mobile/detail/speed.png'
-import type React from 'react'
-import { useEffect, useRef, useState } from 'react'
-import { Link } from 'react-router-dom'
+import type React from "react";
+import { useEffect, useRef, useState } from "react";
+import { Link } from "react-router-dom";
+import logo from "@/assets/logo.svg";
+import directoryImg from "@/assets/mobile/carousel/directory.png";
+import hotImg from "@/assets/mobile/carousel/hot.png";
+import indexImg from "@/assets/mobile/carousel/index.png";
+import codeImg from "@/assets/mobile/detail/code.png";
+import dictationImg from "@/assets/mobile/detail/dictation.png";
+import phoneticImg from "@/assets/mobile/detail/phonetic.png";
+import speedImg from "@/assets/mobile/detail/speed.png";
 
 const detail = [
   {
-    title: 'Phonetic display and pronunciation',
-    description: 'Help users memorize both pronunciation and phonetic symbols',
+    description: "Help users memorize both pronunciation and phonetic symbols",
     img: phoneticImg,
+    title: "Phonetic display and pronunciation",
   },
   {
-    title: 'Dictation mode',
-    description: 'Optional dictation after each chapter to reinforce words',
+    description: "Optional dictation after each chapter to reinforce words",
     img: dictationImg,
+    title: "Dictation mode",
   },
   {
-    title: 'Real-time feedback',
-    description: 'Shows typing speed and accuracy to track improvement',
+    description: "Shows typing speed and accuracy to track improvement",
     img: speedImg,
+    title: "Real-time feedback",
   },
   {
-    title: 'Built for programmers',
-    description: 'Built-in programming dictionaries to boost productivity',
+    description: "Built-in programming dictionaries to boost productivity",
     img: codeImg,
+    title: "Built for programmers",
   },
-]
+];
 
 const MobilePage: React.FC = () => {
-  const [currentSlide, setCurrentSlide] = useState(0)
-  const totalSlides = 3 // Total number of carousel slides
-  const containerRef = useRef<HTMLDivElement>(null)
-  const [activeIndex, setActiveIndex] = useState(0)
+  const [currentSlide, setCurrentSlide] = useState(0);
+  const totalSlides = 3; // Total number of carousel slides
+  const containerRef = useRef<HTMLDivElement>(null);
+  const [activeIndex, setActiveIndex] = useState(0);
 
   useEffect(() => {
     const timer = setInterval(() => {
-      setCurrentSlide((prevSlide) => (prevSlide + 1) % totalSlides)
-    }, 3000)
+      setCurrentSlide((prevSlide) => (prevSlide + 1) % totalSlides);
+    }, 3000);
 
-    return () => clearInterval(timer)
-  }, [])
+    return () => clearInterval(timer);
+  }, []);
 
   useEffect(() => {
     if (containerRef.current) {
-      const container = containerRef.current
-      const slideWidth = container.offsetWidth
+      const container = containerRef.current;
+      const slideWidth = container.offsetWidth;
 
       if (currentSlide === 0) {
-        container.style.transform = `translateX(-${totalSlides * slideWidth}px)`
+        container.style.transform = `translateX(-${totalSlides * slideWidth}px)`;
         setTimeout(() => {
-          container.style.transition = 'none'
-          container.style.transform = `translateX(0)`
-        }, 500)
+          container.style.transition = "none";
+          container.style.transform = "translateX(0)";
+        }, 500);
       } else {
-        container.style.transition = 'transform 0.5s ease'
-        container.style.transform = `translateX(-${currentSlide * slideWidth}px)`
+        container.style.transition = "transform 0.5s ease";
+        container.style.transform = `translateX(-${currentSlide * slideWidth}px)`;
       }
     }
-  }, [currentSlide])
+  }, [currentSlide]);
 
   return (
     <div className="flex w-screen flex-col bg-white lg:mx-auto lg:max-w-7xl">
-      <header className="fixed left-0 right-0 top-0 z-50 flex items-center justify-between border-b border-gray-100/50 bg-white/80 px-4 py-4 backdrop-blur-xl sm:px-6 sm:py-6 lg:px-12">
+      <header className="fixed top-0 right-0 left-0 z-50 flex items-center justify-between border-gray-100/50 border-b bg-white/80 px-4 py-4 backdrop-blur-xl sm:px-6 sm:py-6 lg:px-12">
         <div className="flex items-center">
-          <img src={logo} className="mr-4 h-10 w-10 lg:h-12 lg:w-12" alt="Type to Learn Logo" />
+          <img
+            alt="Type to Learn Logo"
+            className="mr-4 h-10 w-10 lg:h-12 lg:w-12"
+            src={logo}
+          />
           <div className="flex flex-col">
-            <h1 className="text-lg font-semibold tracking-tight text-indigo-500 lg:text-xl">Type to Learn</h1>
-            <span className="text-xs font-normal text-gray-500">by Kazim Kayhan</span>
+            <h1 className="font-semibold text-indigo-500 text-lg tracking-tight lg:text-xl">
+              Type to Learn
+            </h1>
+            <span className="font-normal text-gray-500 text-xs">
+              by Kazim Kayhan
+            </span>
           </div>
         </div>
         <Link
+          className="hidden items-center gap-2 rounded-xl bg-gray-900 px-6 py-3 font-medium text-sm text-white transition-all duration-200 hover:-translate-y-0.5 hover:bg-gray-800 hover:shadow-lg md:flex"
           to="/"
-          className="hidden items-center gap-2 rounded-xl bg-gray-900 px-6 py-3 text-sm font-medium text-white transition-all duration-200 hover:-translate-y-0.5 hover:bg-gray-800 hover:shadow-lg md:flex"
         >
           <span>Start practicing</span>
-          <svg className="h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <svg
+            className="h-4 w-4"
+            fill="none"
+            stroke="currentColor"
+            viewBox="0 0 24 24"
+          >
             <path
+              d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
               strokeLinecap="round"
               strokeLinejoin="round"
               strokeWidth="2"
-              d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
             />
           </svg>
         </Link>
         <Link
-          to="/"
           className="flex min-h-11 items-center gap-1 rounded-xl bg-gray-900 px-4 py-2.5 text-sm text-white transition-all duration-200 hover:bg-gray-800 md:hidden"
+          to="/"
         >
           <span>Practice</span>
-          <svg className="h-3 w-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <svg
+            className="h-3 w-3"
+            fill="none"
+            stroke="currentColor"
+            viewBox="0 0 24 24"
+          >
             <path
+              d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
               strokeLinecap="round"
               strokeLinejoin="round"
               strokeWidth="2"
-              d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
             />
           </svg>
         </Link>
@@ -108,23 +126,49 @@ const MobilePage: React.FC = () => {
       {/* 面包屑导航 */}
       <nav aria-label="Breadcrumb" className="bg-gray-50/50 px-6 py-3 lg:px-24">
         <div className="mx-auto max-w-7xl">
-          <ol className="flex items-center space-x-2 text-sm text-gray-500" itemScope itemType="https://schema.org/BreadcrumbList">
-            <li itemProp="itemListElement" itemScope itemType="https://schema.org/ListItem">
-              <a href="https://kazimkayhan.github.io/type-to-learn/" className="transition-colors hover:text-indigo-600" itemProp="item">
+          <ol
+            className="flex items-center space-x-2 text-gray-500 text-sm"
+            itemScope
+            itemType="https://schema.org/BreadcrumbList"
+          >
+            <li
+              itemProp="itemListElement"
+              itemScope
+              itemType="https://schema.org/ListItem"
+            >
+              <a
+                className="transition-colors hover:text-indigo-600"
+                href="https://kazimkayhan.github.io/type-to-learn/"
+                itemProp="item"
+              >
                 <span itemProp="name">Home</span>
               </a>
-              <meta itemProp="position" content="1" />
+              <meta content="1" itemProp="position" />
             </li>
             <li className="flex items-center">
-              <svg className="h-4 w-4 text-gray-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 5l7 7-7 7" />
+              <svg
+                className="h-4 w-4 text-gray-300"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M9 5l7 7-7 7"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth="2"
+                />
               </svg>
             </li>
-            <li itemProp="itemListElement" itemScope itemType="https://schema.org/ListItem">
+            <li
+              itemProp="itemListElement"
+              itemScope
+              itemType="https://schema.org/ListItem"
+            >
               <span className="font-medium text-gray-900" itemProp="name">
                 Type to Learn
               </span>
-              <meta itemProp="position" content="2" />
+              <meta content="2" itemProp="position" />
             </li>
           </ol>
         </div>
@@ -137,53 +181,89 @@ const MobilePage: React.FC = () => {
           itemType="https://schema.org/SoftwareApplication"
         >
           {/* 简洁渐变背景 */}
-          <div className="absolute inset-0 bg-gradient-to-br from-gray-50/50 via-white to-slate-50/30"></div>
+          <div className="absolute inset-0 bg-gradient-to-br from-gray-50/50 via-white to-slate-50/30" />
 
           {/* 主要内容 */}
           <div className="relative z-10 mx-auto w-full max-w-5xl px-6 py-24 text-center">
             {/* 官网标识 */}
-            <div className="mb-8 inline-flex items-center gap-2 rounded-full border border-indigo-100 bg-indigo-50 px-5 py-2.5 text-sm font-medium text-indigo-600">
-              <svg className="h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+            <div className="mb-8 inline-flex items-center gap-2 rounded-full border border-indigo-100 bg-indigo-50 px-5 py-2.5 font-medium text-indigo-600 text-sm">
+              <svg
+                className="h-4 w-4"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth="2"
+                />
               </svg>
               <span>by Kazim Kayhan</span>
             </div>
 
             {/* 主标题 */}
-            <h1 className="mb-8 text-5xl font-bold leading-[1.1] tracking-tight text-gray-900 sm:text-6xl lg:text-7xl" itemProp="name">
-              English learning software<br />
+            <h1
+              className="mb-8 font-bold text-5xl text-gray-900 leading-[1.1] tracking-tight sm:text-6xl lg:text-7xl"
+              itemProp="name"
+            >
+              English learning software
+              <br />
               for <span className="text-indigo-500">keyboard workers</span>
             </h1>
 
             {/* 副标题 */}
-            <p className="mx-auto mb-16 max-w-3xl text-xl font-light leading-relaxed text-gray-600 sm:text-2xl" itemProp="description">
-              Combine typing practice with vocabulary memorization for efficient, fun English learning
+            <p
+              className="mx-auto mb-16 max-w-3xl font-light text-gray-600 text-xl leading-relaxed sm:text-2xl"
+              itemProp="description"
+            >
+              Combine typing practice with vocabulary memorization for
+              efficient, fun English learning
             </p>
 
             {/* 功能标签 */}
-            <div className="mb-16 flex flex-wrap justify-center gap-3" itemProp="featureList">
-              {['English vocabulary training', 'IPA pronunciation practice', 'CET-4/6 dictionaries', 'Developer vocabulary', 'Free online learning', 'Fully open source'].map(
-                (item, index) => (
-                  <span
-                    key={index}
-                    className="rounded-full border border-gray-200/50 bg-gray-50 px-6 py-3 text-sm font-medium text-gray-700 transition-all duration-200 hover:bg-white hover:shadow-sm"
-                  >
-                    {item}
-                  </span>
-                ),
-              )}
+            <div
+              className="mb-16 flex flex-wrap justify-center gap-3"
+              itemProp="featureList"
+            >
+              {[
+                "English vocabulary training",
+                "IPA pronunciation practice",
+                "CET-4/6 dictionaries",
+                "Developer vocabulary",
+                "Free online learning",
+                "Fully open source",
+              ].map((item, index) => (
+                <span
+                  className="rounded-full border border-gray-200/50 bg-gray-50 px-6 py-3 font-medium text-gray-700 text-sm transition-all duration-200 hover:bg-white hover:shadow-sm"
+                  key={index}
+                >
+                  {item}
+                </span>
+              ))}
             </div>
 
             {/* CTA按钮 */}
             <a
+              className="inline-flex items-center gap-3 rounded-full bg-gray-900 px-10 py-5 font-semibold text-lg text-white shadow-xl transition-all duration-300 hover:-translate-y-1 hover:bg-gray-800 hover:shadow-2xl"
               href="https://kazimkayhan.github.io/type-to-learn/"
-              target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center gap-3 rounded-full bg-gray-900 px-10 py-5 text-lg font-semibold text-white shadow-xl transition-all duration-300 hover:-translate-y-1 hover:bg-gray-800 hover:shadow-2xl"
+              target="_blank"
             >
               <span>Get Started</span>
-              <svg className="h-5 w-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M17 8l4 4m0 0l-4 4m4-4H3" />
+              <svg
+                className="h-5 w-5"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M17 8l4 4m0 0l-4 4m4-4H3"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth="2"
+                />
               </svg>
             </a>
           </div>
@@ -195,161 +275,233 @@ const MobilePage: React.FC = () => {
               <div
                 ref={containerRef}
                 style={{
-                  display: 'flex',
-                  transition: 'transform 0.5s ease',
+                  display: "flex",
+                  transition: "transform 0.5s ease",
                 }}
               >
                 <img
-                  src={hotImg}
                   alt="Type to Learn popular dictionaries - CET, IELTS, TOEFL vocabulary practice"
                   className="w-full flex-shrink-0"
+                  src={hotImg}
                 />
                 <img
-                  src={directoryImg}
                   alt="Type to Learn dictionary catalog - developer and technical English"
                   className="w-full flex-shrink-0"
+                  src={directoryImg}
                 />
-                <img src={indexImg} alt="Type to Learn main typing interface - online vocabulary training" className="w-full flex-shrink-0" />
                 <img
-                  src={hotImg}
+                  alt="Type to Learn main typing interface - online vocabulary training"
+                  className="w-full flex-shrink-0"
+                  src={indexImg}
+                />
+                <img
                   alt="Type to Learn popular dictionaries - CET, IELTS, TOEFL vocabulary practice"
                   className="w-full flex-shrink-0"
+                  src={hotImg}
                 />
               </div>
             </div>
             <div className="mt-8 flex justify-center space-x-3">
               {[0, 1, 2].map((index) => (
                 <div
-                  key={index}
                   className={`h-2 w-2 rounded-full transition-all duration-500 ${
-                    currentSlide === index ? 'w-8 bg-indigo-500' : 'bg-gray-300 hover:bg-indigo-300'
+                    currentSlide === index
+                      ? "w-8 bg-indigo-500"
+                      : "bg-gray-300 hover:bg-indigo-300"
                   }`}
+                  key={index}
                 />
               ))}
             </div>
           </div>
         </section>
 
-        <section className="mt-24 bg-gray-50/30 px-6 py-24 lg:mt-32 lg:px-24" itemScope itemType="https://schema.org/Product">
+        <section
+          className="mt-24 bg-gray-50/30 px-6 py-24 lg:mt-32 lg:px-24"
+          itemScope
+          itemType="https://schema.org/Product"
+        >
           <div className="mx-auto max-w-7xl">
-            <meta itemProp="name" content="Type to Learn" />
-            <meta itemProp="description" content="English learning software for keyboard workers combining typing practice and vocabulary memorization" />
-            <meta itemProp="brand" content="Type to Learn" />
+            <meta content="Type to Learn" itemProp="name" />
+            <meta
+              content="English learning software for keyboard workers combining typing practice and vocabulary memorization"
+              itemProp="description"
+            />
+            <meta content="Type to Learn" itemProp="brand" />
 
             {/* Offers Schema */}
-            <div itemProp="offers" itemScope itemType="https://schema.org/Offer">
-              <meta itemProp="price" content="0" />
-              <meta itemProp="priceCurrency" content="USD" />
-              <meta itemProp="availability" content="https://schema.org/InStock" />
-              <meta itemProp="url" content="https://kazimkayhan.github.io/type-to-learn/" />
+            <div
+              itemProp="offers"
+              itemScope
+              itemType="https://schema.org/Offer"
+            >
+              <meta content="0" itemProp="price" />
+              <meta content="USD" itemProp="priceCurrency" />
+              <meta
+                content="https://schema.org/InStock"
+                itemProp="availability"
+              />
+              <meta
+                content="https://kazimkayhan.github.io/type-to-learn/"
+                itemProp="url"
+              />
             </div>
 
             {/* Aggregate Rating */}
-            <div itemProp="aggregateRating" itemScope itemType="https://schema.org/AggregateRating">
-              <meta itemProp="ratingValue" content="4.8" />
-              <meta itemProp="bestRating" content="5" />
-              <meta itemProp="worstRating" content="1" />
-              <meta itemProp="ratingCount" content="2156" />
-              <meta itemProp="reviewCount" content="486" />
+            <div
+              itemProp="aggregateRating"
+              itemScope
+              itemType="https://schema.org/AggregateRating"
+            >
+              <meta content="4.8" itemProp="ratingValue" />
+              <meta content="5" itemProp="bestRating" />
+              <meta content="1" itemProp="worstRating" />
+              <meta content="2156" itemProp="ratingCount" />
+              <meta content="486" itemProp="reviewCount" />
             </div>
 
             {/* Individual Reviews */}
-            <div itemProp="review" itemScope itemType="https://schema.org/Review">
-              <meta itemProp="author" content="Li - Frontend Engineer" />
-              <div itemProp="reviewRating" itemScope itemType="https://schema.org/Rating">
-                <meta itemProp="ratingValue" content="5" />
-                <meta itemProp="bestRating" content="5" />
+            <div
+              itemProp="review"
+              itemScope
+              itemType="https://schema.org/Review"
+            >
+              <meta content="Li - Frontend Engineer" itemProp="author" />
+              <div
+                itemProp="reviewRating"
+                itemScope
+                itemType="https://schema.org/Rating"
+              >
+                <meta content="5" itemProp="ratingValue" />
+                <meta content="5" itemProp="bestRating" />
               </div>
-              <meta itemProp="datePublished" content="2024-11-15" />
+              <meta content="2024-11-15" itemProp="datePublished" />
               <meta
-                itemProp="reviewBody"
                 content="As a developer, this tool solved my pain point perfectly. Typing practice and vocabulary at the same time doubled my efficiency! The developer dictionary helped me learn common terms in technical docs fast. Keyboard sounds make the experience addictive."
+                itemProp="reviewBody"
               />
             </div>
 
-            <div itemProp="review" itemScope itemType="https://schema.org/Review">
-              <meta itemProp="author" content="Wang - University student" />
-              <div itemProp="reviewRating" itemScope itemType="https://schema.org/Rating">
-                <meta itemProp="ratingValue" content="5" />
-                <meta itemProp="bestRating" content="5" />
+            <div
+              itemProp="review"
+              itemScope
+              itemType="https://schema.org/Review"
+            >
+              <meta content="Wang - University student" itemProp="author" />
+              <div
+                itemProp="reviewRating"
+                itemScope
+                itemType="https://schema.org/Rating"
+              >
+                <meta content="5" itemProp="ratingValue" />
+                <meta content="5" itemProp="bestRating" />
               </div>
-              <meta itemProp="datePublished" content="2024-10-28" />
+              <meta content="2024-10-28" itemProp="datePublished" />
               <meta
-                itemProp="reviewBody"
                 content="Found this gem while preparing for CET-6! The dictionary is comprehensive and dictation mode helped me fix tricky words. Love the Error Book for reviewing weak words. After a month, both typing speed and vocabulary improved noticeably."
+                itemProp="reviewBody"
               />
             </div>
 
-            <div itemProp="review" itemScope itemType="https://schema.org/Review">
-              <meta itemProp="author" content="Zhang - Backend developer" />
-              <div itemProp="reviewRating" itemScope itemType="https://schema.org/Rating">
-                <meta itemProp="ratingValue" content="5" />
-                <meta itemProp="bestRating" content="5" />
+            <div
+              itemProp="review"
+              itemScope
+              itemType="https://schema.org/Review"
+            >
+              <meta content="Zhang - Backend developer" itemProp="author" />
+              <div
+                itemProp="reviewRating"
+                itemScope
+                itemType="https://schema.org/Rating"
+              >
+                <meta content="5" itemProp="ratingValue" />
+                <meta content="5" itemProp="bestRating" />
               </div>
-              <meta itemProp="datePublished" content="2024-09-20" />
+              <meta content="2024-09-20" itemProp="datePublished" />
               <meta
-                itemProp="reviewBody"
                 content="Saw 17.5k stars on GitHub and tried it — no disappointment! The VSCode extension is so convenient for quick word drills between coding. JavaScript API practice helped a lot — I rarely need to look up docs now."
+                itemProp="reviewBody"
               />
             </div>
 
-            <div itemProp="review" itemScope itemType="https://schema.org/Review">
-              <meta itemProp="author" content="Liu - Product manager" />
-              <div itemProp="reviewRating" itemScope itemType="https://schema.org/Rating">
-                <meta itemProp="ratingValue" content="4" />
-                <meta itemProp="bestRating" content="5" />
+            <div
+              itemProp="review"
+              itemScope
+              itemType="https://schema.org/Review"
+            >
+              <meta content="Liu - Product manager" itemProp="author" />
+              <div
+                itemProp="reviewRating"
+                itemScope
+                itemType="https://schema.org/Rating"
+              >
+                <meta content="4" itemProp="ratingValue" />
+                <meta content="5" itemProp="bestRating" />
               </div>
-              <meta itemProp="datePublished" content="2024-08-12" />
+              <meta content="2024-08-12" itemProp="datePublished" />
               <meta
-                itemProp="reviewBody"
                 content="Clean UI and practical features. Phonetic display and pronunciation help a lot while typing. Would love more business English vocabulary, but the active community gives me confidence it will keep improving."
+                itemProp="reviewBody"
               />
             </div>
 
-            <div itemProp="review" itemScope itemType="https://schema.org/Review">
-              <meta itemProp="author" content="Chen - Full-stack engineer" />
-              <div itemProp="reviewRating" itemScope itemType="https://schema.org/Rating">
-                <meta itemProp="ratingValue" content="5" />
-                <meta itemProp="bestRating" content="5" />
+            <div
+              itemProp="review"
+              itemScope
+              itemType="https://schema.org/Review"
+            >
+              <meta content="Chen - Full-stack engineer" itemProp="author" />
+              <div
+                itemProp="reviewRating"
+                itemScope
+                itemType="https://schema.org/Rating"
+              >
+                <meta content="5" itemProp="ratingValue" />
+                <meta content="5" itemProp="bestRating" />
               </div>
-              <meta itemProp="datePublished" content="2024-07-05" />
+              <meta content="2024-07-05" itemProp="datePublished" />
               <meta
-                itemProp="reviewBody"
                 content="A model open-source project with high code quality — I even contributed PRs. Muscle memory training is brilliant: retyping mistakes prevents bad habits. Reading English docs is much faster now and typing is more accurate. Highly recommended for all keyboard workers!"
+                itemProp="reviewBody"
               />
             </div>
-            <h2 className="mb-6 text-center text-4xl font-bold tracking-tight text-gray-900 lg:text-5xl xl:text-6xl">
-              Core features, <span className="text-indigo-500">professionally designed</span>
+            <h2 className="mb-6 text-center font-bold text-4xl text-gray-900 tracking-tight lg:text-5xl xl:text-6xl">
+              Core features,{" "}
+              <span className="text-indigo-500">professionally designed</span>
             </h2>
-            <p className="mx-auto mb-16 max-w-3xl text-center text-xl font-light leading-relaxed text-gray-600">
-              Every detail is crafted for a better online English learning experience — for developers, students, office workers, and all keyboard users to improve typing speed and vocabulary fast
+            <p className="mx-auto mb-16 max-w-3xl text-center font-light text-gray-600 text-xl leading-relaxed">
+              Every detail is crafted for a better online English learning
+              experience — for developers, students, office workers, and all
+              keyboard users to improve typing speed and vocabulary fast
             </p>
 
             <div className="lg:grid lg:grid-cols-2 lg:gap-12">
               <div>
-                {detail.map((item, index) => {
-                  return (
-                    <div
-                      key={index}
-                      className={`my-6 cursor-pointer rounded-2xl border px-8 py-8 transition-all duration-300 ${
-                        activeIndex === index
-                          ? 'scale-[1.02] transform border-indigo-200 bg-indigo-50/50 shadow-xl'
-                          : 'border-gray-200 bg-white/50 hover:scale-[1.01] hover:transform hover:border-gray-300 hover:bg-white hover:shadow-lg'
-                      }`}
-                      onClick={() => setActiveIndex(index)}
-                    >
-                      <h3 className="mb-3 text-xl font-semibold text-indigo-500 lg:text-2xl">{item.title}</h3>
-                      <p className="text-base font-light leading-relaxed text-gray-600 lg:text-lg">{item.description}</p>
-                    </div>
-                  )
-                })}
+                {detail.map((item, index) => (
+                  <div
+                    className={`my-6 cursor-pointer rounded-2xl border px-8 py-8 transition-all duration-300 ${
+                      activeIndex === index
+                        ? "scale-[1.02] transform border-indigo-200 bg-indigo-50/50 shadow-xl"
+                        : "border-gray-200 bg-white/50 hover:scale-[1.01] hover:transform hover:border-gray-300 hover:bg-white hover:shadow-lg"
+                    }`}
+                    key={index}
+                    onClick={() => setActiveIndex(index)}
+                  >
+                    <h3 className="mb-3 font-semibold text-indigo-500 text-xl lg:text-2xl">
+                      {item.title}
+                    </h3>
+                    <p className="font-light text-base text-gray-600 leading-relaxed lg:text-lg">
+                      {item.description}
+                    </p>
+                  </div>
+                ))}
               </div>
 
               <div className="mt-16 flex h-[14rem] items-center justify-center rounded-3xl border border-gray-200 bg-white p-8 shadow-2xl lg:mt-0 lg:h-auto lg:p-12">
                 <img
+                  alt={`Type to Learn ${detail[activeIndex].title} feature showcase screenshot`}
                   className="w-full object-contain"
                   src={detail[activeIndex].img}
-                  alt={`Type to Learn ${detail[activeIndex].title} feature showcase screenshot`}
                 />
               </div>
             </div>
@@ -360,103 +512,160 @@ const MobilePage: React.FC = () => {
                 {/* 音标显示与发音 */}
                 <div className="rounded-2xl border border-gray-200 bg-white p-6 shadow-lg transition-all duration-300 hover:shadow-xl sm:p-8">
                   <div className="mb-4 inline-flex items-center justify-center rounded-full bg-indigo-100 p-3">
-                    <svg className="h-6 w-6 text-indigo-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <svg
+                      className="h-6 w-6 text-indigo-600"
+                      fill="none"
+                      stroke="currentColor"
+                      viewBox="0 0 24 24"
+                    >
                       <path
+                        d="M15.536 8.464a5 5 0 010 7.072m2.828-9.9a9 9 0 010 12.728M5.586 15H4a1 1 0 01-1-1v-4a1 1 0 011-1h1.586l4.707-4.707C10.923 3.663 12 4.109 12 5v14c0 .891-1.077 1.337-1.707.707L5.586 15z"
                         strokeLinecap="round"
                         strokeLinejoin="round"
                         strokeWidth="2"
-                        d="M15.536 8.464a5 5 0 010 7.072m2.828-9.9a9 9 0 010 12.728M5.586 15H4a1 1 0 01-1-1v-4a1 1 0 011-1h1.586l4.707-4.707C10.923 3.663 12 4.109 12 5v14c0 .891-1.077 1.337-1.707.707L5.586 15z"
                       />
                     </svg>
                   </div>
-                  <h3 className="mb-3 text-lg font-semibold text-gray-900 sm:text-xl">Phonetic display and pronunciation</h3>
-                  <p className="text-sm leading-relaxed text-gray-600 sm:text-base">
-                    Memorize pronunciation and phonetic symbols together. Standard US pronunciation helps build correct audio memory and improve listening and speaking.
+                  <h3 className="mb-3 font-semibold text-gray-900 text-lg sm:text-xl">
+                    Phonetic display and pronunciation
+                  </h3>
+                  <p className="text-gray-600 text-sm leading-relaxed sm:text-base">
+                    Memorize pronunciation and phonetic symbols together.
+                    Standard US pronunciation helps build correct audio memory
+                    and improve listening and speaking.
                   </p>
                 </div>
 
                 {/* 默写模式 */}
                 <div className="rounded-2xl border border-gray-200 bg-white p-6 shadow-lg transition-all duration-300 hover:shadow-xl sm:p-8">
                   <div className="mb-4 inline-flex items-center justify-center rounded-full bg-indigo-100 p-3">
-                    <svg className="h-6 w-6 text-indigo-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <svg
+                      className="h-6 w-6 text-indigo-600"
+                      fill="none"
+                      stroke="currentColor"
+                      viewBox="0 0 24 24"
+                    >
                       <path
+                        d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"
                         strokeLinecap="round"
                         strokeLinejoin="round"
                         strokeWidth="2"
-                        d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"
                       />
                     </svg>
                   </div>
-                  <h3 className="mb-3 text-lg font-semibold text-gray-900 sm:text-xl">Smart dictation mode</h3>
-                  <p className="text-sm leading-relaxed text-gray-600 sm:text-base">
-                    After finishing a chapter, choose dictation to reinforce the words you just learned. Dictation strengthens memory retention.
+                  <h3 className="mb-3 font-semibold text-gray-900 text-lg sm:text-xl">
+                    Smart dictation mode
+                  </h3>
+                  <p className="text-gray-600 text-sm leading-relaxed sm:text-base">
+                    After finishing a chapter, choose dictation to reinforce the
+                    words you just learned. Dictation strengthens memory
+                    retention.
                   </p>
                 </div>
 
                 {/* 速度统计 */}
                 <div className="rounded-2xl border border-gray-200 bg-white p-6 shadow-lg transition-all duration-300 hover:shadow-xl sm:p-8">
                   <div className="mb-4 inline-flex items-center justify-center rounded-full bg-indigo-100 p-3">
-                    <svg className="h-6 w-6 text-indigo-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <svg
+                      className="h-6 w-6 text-indigo-600"
+                      fill="none"
+                      stroke="currentColor"
+                      viewBox="0 0 24 24"
+                    >
                       <path
+                        d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"
                         strokeLinecap="round"
                         strokeLinejoin="round"
                         strokeWidth="2"
-                        d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"
                       />
                     </svg>
                   </div>
-                  <h3 className="mb-3 text-lg font-semibold text-gray-900 sm:text-xl">Precise statistics</h3>
-                  <p className="text-sm leading-relaxed text-gray-600 sm:text-base">
-                    Track typing speed and accuracy so you can see your progress. Supports WPM, accuracy analysis, and progress tracking.
+                  <h3 className="mb-3 font-semibold text-gray-900 text-lg sm:text-xl">
+                    Precise statistics
+                  </h3>
+                  <p className="text-gray-600 text-sm leading-relaxed sm:text-base">
+                    Track typing speed and accuracy so you can see your
+                    progress. Supports WPM, accuracy analysis, and progress
+                    tracking.
                   </p>
                 </div>
 
                 {/* 肌肉记忆 */}
                 <div className="rounded-2xl border border-gray-200 bg-white p-6 shadow-lg transition-all duration-300 hover:shadow-xl sm:p-8">
                   <div className="mb-4 inline-flex items-center justify-center rounded-full bg-indigo-100 p-3">
-                    <svg className="h-6 w-6 text-indigo-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M13 10V3L4 14h7v7l9-11h-7z" />
+                    <svg
+                      className="h-6 w-6 text-indigo-600"
+                      fill="none"
+                      stroke="currentColor"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M13 10V3L4 14h7v7l9-11h-7z"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth="2"
+                      />
                     </svg>
                   </div>
-                  <h3 className="mb-3 text-lg font-semibold text-gray-900 sm:text-xl">English muscle memory training</h3>
-                  <p className="text-sm leading-relaxed text-gray-600 sm:text-base">
-                    Designed for keyboard workers — combine vocabulary memorization with typing muscle memory to improve both at once.
+                  <h3 className="mb-3 font-semibold text-gray-900 text-lg sm:text-xl">
+                    English muscle memory training
+                  </h3>
+                  <p className="text-gray-600 text-sm leading-relaxed sm:text-base">
+                    Designed for keyboard workers — combine vocabulary
+                    memorization with typing muscle memory to improve both at
+                    once.
                   </p>
                 </div>
 
                 {/* 错误纠正 */}
                 <div className="rounded-2xl border border-gray-200 bg-white p-6 shadow-lg transition-all duration-300 hover:shadow-xl sm:p-8">
                   <div className="mb-4 inline-flex items-center justify-center rounded-full bg-indigo-100 p-3">
-                    <svg className="h-6 w-6 text-indigo-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <svg
+                      className="h-6 w-6 text-indigo-600"
+                      fill="none"
+                      stroke="currentColor"
+                      viewBox="0 0 24 24"
+                    >
                       <path
+                        d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"
                         strokeLinecap="round"
                         strokeLinejoin="round"
                         strokeWidth="2"
-                        d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"
                       />
                     </svg>
                   </div>
-                  <h3 className="mb-3 text-lg font-semibold text-gray-900 sm:text-xl">Smart error correction</h3>
-                  <p className="text-sm leading-relaxed text-gray-600 sm:text-base">
-                    To avoid wrong muscle memory, mistyped words must be retyped entirely, ensuring correct habits and spelling.
+                  <h3 className="mb-3 font-semibold text-gray-900 text-lg sm:text-xl">
+                    Smart error correction
+                  </h3>
+                  <p className="text-gray-600 text-sm leading-relaxed sm:text-base">
+                    To avoid wrong muscle memory, mistyped words must be retyped
+                    entirely, ensuring correct habits and spelling.
                   </p>
                 </div>
 
                 {/* 多平台支持 */}
                 <div className="rounded-2xl border border-gray-200 bg-white p-6 shadow-lg transition-all duration-300 hover:shadow-xl sm:p-8">
                   <div className="mb-4 inline-flex items-center justify-center rounded-full bg-indigo-100 p-3">
-                    <svg className="h-6 w-6 text-indigo-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <svg
+                      className="h-6 w-6 text-indigo-600"
+                      fill="none"
+                      stroke="currentColor"
+                      viewBox="0 0 24 24"
+                    >
                       <path
+                        d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
                         strokeLinecap="round"
                         strokeLinejoin="round"
                         strokeWidth="2"
-                        d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
                       />
                     </svg>
                   </div>
-                  <h3 className="mb-3 text-lg font-semibold text-gray-900 sm:text-xl">Seamless multi-platform experience</h3>
-                  <p className="text-sm leading-relaxed text-gray-600 sm:text-base">
-                    Web app and VSCode extension let you practice anywhere. Easy self-hosting options for different user needs.
+                  <h3 className="mb-3 font-semibold text-gray-900 text-lg sm:text-xl">
+                    Seamless multi-platform experience
+                  </h3>
+                  <p className="text-gray-600 text-sm leading-relaxed sm:text-base">
+                    Web app and VSCode extension let you practice anywhere. Easy
+                    self-hosting options for different user needs.
                   </p>
                 </div>
               </div>
@@ -465,15 +674,22 @@ const MobilePage: React.FC = () => {
         </section>
 
         {/* 词库展示区 */}
-        <section className="mt-24 px-6 py-24 lg:mt-32 lg:px-24" itemScope itemType="https://schema.org/EducationalOrganization">
+        <section
+          className="mt-24 px-6 py-24 lg:mt-32 lg:px-24"
+          itemScope
+          itemType="https://schema.org/EducationalOrganization"
+        >
           <div className="mx-auto max-w-7xl">
             <div className="mb-16 text-center">
-              <h2 className="mb-6 text-4xl font-bold tracking-tight text-gray-900 lg:text-5xl xl:text-6xl">
-                Rich dictionaries, <span className="text-indigo-500">everything you need</span>
+              <h2 className="mb-6 font-bold text-4xl text-gray-900 tracking-tight lg:text-5xl xl:text-6xl">
+                Rich dictionaries,{" "}
+                <span className="text-indigo-500">everything you need</span>
               </h2>
-              <p className="mx-auto max-w-3xl text-xl font-light leading-relaxed text-gray-600">
-                Covers CET-4/6, IELTS, TOEFL, GRE, postgraduate English, BEC business English, and developer dictionaries for JavaScript/Java/Python
-                technical dictionaries for every English learner
+              <p className="mx-auto max-w-3xl font-light text-gray-600 text-xl leading-relaxed">
+                Covers CET-4/6, IELTS, TOEFL, GRE, postgraduate English, BEC
+                business English, and developer dictionaries for
+                JavaScript/Java/Python technical dictionaries for every English
+                learner
               </p>
             </div>
 
@@ -481,17 +697,24 @@ const MobilePage: React.FC = () => {
               {/* 考试词库 */}
               <div className="rounded-2xl border border-gray-200 bg-white p-6 shadow-lg transition-all duration-300 hover:shadow-xl sm:p-8">
                 <div className="mb-6 inline-flex items-center justify-center rounded-full bg-red-100 p-3">
-                  <svg className="h-6 w-6 text-red-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <svg
+                    className="h-6 w-6 text-red-600"
+                    fill="none"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                  >
                     <path
+                      d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"
                       strokeLinecap="round"
                       strokeLinejoin="round"
                       strokeWidth="2"
-                      d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"
                     />
                   </svg>
                 </div>
-                <h3 className="mb-4 text-lg font-semibold text-gray-900 sm:text-xl">Exam essentials</h3>
-                <div className="space-y-2 text-xs text-gray-600 sm:text-sm">
+                <h3 className="mb-4 font-semibold text-gray-900 text-lg sm:text-xl">
+                  Exam essentials
+                </h3>
+                <div className="space-y-2 text-gray-600 text-xs sm:text-sm">
                   <div className="flex items-center gap-2">
                     <span className="text-indigo-500">•</span>
                     <span>CET-4 College English Test Band 4</span>
@@ -526,17 +749,24 @@ const MobilePage: React.FC = () => {
               {/* 学术词库 */}
               <div className="rounded-2xl border border-gray-200 bg-white p-6 shadow-lg transition-all duration-300 hover:shadow-xl sm:p-8">
                 <div className="mb-6 inline-flex items-center justify-center rounded-full bg-blue-100 p-3">
-                  <svg className="h-6 w-6 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <svg
+                    className="h-6 w-6 text-blue-600"
+                    fill="none"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                  >
                     <path
+                      d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.746 0 3.332.477 4.5 1.253v13C19.832 18.477 18.246 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"
                       strokeLinecap="round"
                       strokeLinejoin="round"
                       strokeWidth="2"
-                      d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.746 0 3.332.477 4.5 1.253v13C19.832 18.477 18.246 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"
                     />
                   </svg>
                 </div>
-                <h3 className="mb-4 text-lg font-semibold text-gray-900 sm:text-xl">Academic dictionaries</h3>
-                <div className="space-y-2 text-xs text-gray-600 sm:text-sm">
+                <h3 className="mb-4 font-semibold text-gray-900 text-lg sm:text-xl">
+                  Academic dictionaries
+                </h3>
+                <div className="space-y-2 text-gray-600 text-xs sm:text-sm">
                   <div className="flex items-center gap-2">
                     <span className="text-indigo-500">•</span>
                     <span>Postgraduate entrance exam core vocabulary</span>
@@ -567,17 +797,24 @@ const MobilePage: React.FC = () => {
               {/* 商务与语言 */}
               <div className="rounded-2xl border border-gray-200 bg-white p-6 shadow-lg transition-all duration-300 hover:shadow-xl sm:p-8">
                 <div className="mb-6 inline-flex items-center justify-center rounded-full bg-green-100 p-3">
-                  <svg className="h-6 w-6 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <svg
+                    className="h-6 w-6 text-green-600"
+                    fill="none"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                  >
                     <path
+                      d="M21 13.255A23.931 23.931 0 0112 15c-3.183 0-6.22-.62-9-1.745M16 6V4a2 2 0 00-2-2h-4a2 2 0 00-2-2v2m8 0H8m8 0v2a2 2 0 01-2 2H10a2 2 0 01-2-2V6m8 0H8"
                       strokeLinecap="round"
                       strokeLinejoin="round"
                       strokeWidth="2"
-                      d="M21 13.255A23.931 23.931 0 0112 15c-3.183 0-6.22-.62-9-1.745M16 6V4a2 2 0 00-2-2h-4a2 2 0 00-2-2v2m8 0H8m8 0v2a2 2 0 01-2 2H10a2 2 0 01-2-2V6m8 0H8"
                     />
                   </svg>
                 </div>
-                <h3 className="mb-4 text-lg font-semibold text-gray-900 sm:text-xl">Business and multilingual</h3>
-                <div className="space-y-2 text-xs text-gray-600 sm:text-sm">
+                <h3 className="mb-4 font-semibold text-gray-900 text-lg sm:text-xl">
+                  Business and multilingual
+                </h3>
+                <div className="space-y-2 text-gray-600 text-xs sm:text-sm">
                   <div className="flex items-center gap-2">
                     <span className="text-indigo-500">•</span>
                     <span>Business English core vocabulary</span>
@@ -605,52 +842,76 @@ const MobilePage: React.FC = () => {
               <div className="col-span-full rounded-2xl border border-indigo-200 bg-gradient-to-r from-indigo-50 to-purple-50 p-6 shadow-lg sm:p-8">
                 <div className="mb-8 text-center">
                   <div className="mb-4 inline-flex items-center justify-center rounded-full bg-indigo-100 p-4">
-                    <svg className="h-8 w-8 text-indigo-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4" />
+                    <svg
+                      className="h-8 w-8 text-indigo-600"
+                      fill="none"
+                      stroke="currentColor"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth="2"
+                      />
                     </svg>
                   </div>
-                  <h3 className="mb-4 text-xl font-bold text-gray-900 sm:text-2xl">Developer dictionaries and APIs</h3>
+                  <h3 className="mb-4 font-bold text-gray-900 text-xl sm:text-2xl">
+                    Developer dictionaries and APIs
+                  </h3>
                   <p className="mx-auto max-w-3xl text-gray-600">
-                    Technical vocabulary and programming API practice tailored for developers to improve coding efficiency and technical English
+                    Technical vocabulary and programming API practice tailored
+                    for developers to improve coding efficiency and technical
+                    English
                   </p>
                 </div>
 
                 <div className="grid grid-cols-2 gap-4 sm:grid-cols-3 lg:grid-cols-5">
                   <div className="text-center">
-                    <div className="mb-2 text-sm font-semibold text-gray-900 sm:text-base">Programming vocabulary</div>
-                    <div className="text-xs text-gray-600 sm:text-sm">
+                    <div className="mb-2 font-semibold text-gray-900 text-sm sm:text-base">
+                      Programming vocabulary
+                    </div>
+                    <div className="text-gray-600 text-xs sm:text-sm">
                       Coder Dict
                       <br />
                       Common developer terms
                     </div>
                   </div>
                   <div className="text-center">
-                    <div className="mb-2 text-sm font-semibold text-gray-900 sm:text-base">JavaScript</div>
-                    <div className="text-xs text-gray-600 sm:text-sm">
+                    <div className="mb-2 font-semibold text-gray-900 text-sm sm:text-base">
+                      JavaScript
+                    </div>
+                    <div className="text-gray-600 text-xs sm:text-sm">
                       JS API
                       <br />
                       Core method practice
                     </div>
                   </div>
                   <div className="text-center">
-                    <div className="mb-2 text-sm font-semibold text-gray-900 sm:text-base">Node.js</div>
-                    <div className="text-xs text-gray-600 sm:text-sm">
+                    <div className="mb-2 font-semibold text-gray-900 text-sm sm:text-base">
+                      Node.js
+                    </div>
+                    <div className="text-gray-600 text-xs sm:text-sm">
                       Node API
                       <br />
                       Server-side development
                     </div>
                   </div>
                   <div className="text-center">
-                    <div className="mb-2 text-sm font-semibold text-gray-900 sm:text-base">Java</div>
-                    <div className="text-xs text-gray-600 sm:text-sm">
+                    <div className="mb-2 font-semibold text-gray-900 text-sm sm:text-base">
+                      Java
+                    </div>
+                    <div className="text-gray-600 text-xs sm:text-sm">
                       Java API
                       <br />
                       Enterprise development
                     </div>
                   </div>
                   <div className="text-center">
-                    <div className="mb-2 text-sm font-semibold text-gray-900 sm:text-base">Linux</div>
-                    <div className="text-xs text-gray-600 sm:text-sm">
+                    <div className="mb-2 font-semibold text-gray-900 text-sm sm:text-base">
+                      Linux
+                    </div>
+                    <div className="text-gray-600 text-xs sm:text-sm">
                       CLI commands
                       <br />
                       System administration
@@ -659,9 +920,19 @@ const MobilePage: React.FC = () => {
                 </div>
 
                 <div className="mt-8 text-center">
-                  <span className="inline-flex items-center gap-2 rounded-full bg-indigo-100 px-6 py-2 text-sm font-medium text-indigo-600">
-                    <svg className="h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M13 10V3L4 14h7v7l9-11h-7z" />
+                  <span className="inline-flex items-center gap-2 rounded-full bg-indigo-100 px-6 py-2 font-medium text-indigo-600 text-sm">
+                    <svg
+                      className="h-4 w-4"
+                      fill="none"
+                      stroke="currentColor"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M13 10V3L4 14h7v7l9-11h-7z"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth="2"
+                      />
                     </svg>
                     More programming language APIs coming soon
                   </span>
@@ -671,20 +942,33 @@ const MobilePage: React.FC = () => {
 
             <div className="mt-16 text-center">
               <div className="mb-8">
-                <h4 className="mb-4 text-2xl font-bold text-gray-900">Community-built, always growing</h4>
+                <h4 className="mb-4 font-bold text-2xl text-gray-900">
+                  Community-built, always growing
+                </h4>
                 <p className="mx-auto max-w-2xl text-gray-600">
-                  Our dictionaries are maintained by an active open-source community. Need a specific dictionary? Open an issue on GitHub
+                  Our dictionaries are maintained by an active open-source
+                  community. Need a specific dictionary? Open an issue on GitHub
                 </p>
               </div>
               <a
-                href="https://kazimkayhan.github.io/type-to-learn/"
-                target="_blank"
-                rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 rounded-full bg-indigo-600 px-8 py-4 font-semibold text-white transition-all duration-300 hover:bg-indigo-700 hover:shadow-lg"
+                href="https://kazimkayhan.github.io/type-to-learn/"
+                rel="noopener noreferrer"
+                target="_blank"
               >
                 <span>Try our dictionaries now</span>
-                <svg className="h-5 w-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                <svg
+                  className="h-5 w-5"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M17 8l4 4m0 0l-4 4m4-4H3"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="2"
+                  />
                 </svg>
               </a>
             </div>
@@ -700,17 +984,30 @@ const MobilePage: React.FC = () => {
           <div className="mx-auto max-w-7xl">
             <div className="mb-16 text-center">
               <div className="mb-6 inline-flex items-center gap-3 rounded-full bg-indigo-100 px-6 py-3 text-indigo-600">
-                <svg className="h-5 w-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4" />
+                <svg
+                  className="h-5 w-5"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="2"
+                  />
                 </svg>
                 <span className="font-semibold">For Coder</span>
               </div>
-              <h2 className="mb-6 text-4xl font-bold tracking-tight text-white lg:text-5xl xl:text-6xl">
+              <h2 className="mb-6 font-bold text-4xl text-white tracking-tight lg:text-5xl xl:text-6xl">
                 Built for <span className="text-indigo-400">developers</span>
               </h2>
-              <p className="mx-auto max-w-3xl text-xl font-light leading-relaxed text-gray-300">
-                Built-in technical English vocabulary for daily developer work — algorithms, data structures, design patterns, cloud computing, and more. Also supports
-                JavaScript/Node.js/Java/Python/Linux command API practice to learn common programming interfaces quickly
+              <p className="mx-auto max-w-3xl font-light text-gray-300 text-xl leading-relaxed">
+                Built-in technical English vocabulary for daily developer work —
+                algorithms, data structures, design patterns, cloud computing,
+                and more. Also supports JavaScript/Node.js/Java/Python/Linux
+                command API practice to learn common programming interfaces
+                quickly
               </p>
             </div>
 
@@ -719,36 +1016,53 @@ const MobilePage: React.FC = () => {
               <div className="rounded-2xl border border-gray-700 bg-gray-800/50 p-6 backdrop-blur-sm sm:p-8">
                 <div className="mb-6 flex items-center gap-4">
                   <div className="rounded-full bg-indigo-600 p-3">
-                    <svg className="h-6 w-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <svg
+                      className="h-6 w-6 text-white"
+                      fill="none"
+                      stroke="currentColor"
+                      viewBox="0 0 24 24"
+                    >
                       <path
+                        d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"
                         strokeLinecap="round"
                         strokeLinejoin="round"
                         strokeWidth="2"
-                        d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"
                       />
                     </svg>
                   </div>
-                  <h3 className="text-xl font-bold text-white sm:text-2xl">Programming technical vocabulary</h3>
+                  <h3 className="font-bold text-white text-xl sm:text-2xl">
+                    Programming technical vocabulary
+                  </h3>
                 </div>
-                <p className="mb-6 text-sm leading-relaxed text-gray-300 sm:text-base">
-                  Curated essential English terms for developers — algorithms, data structures, design patterns, software engineering, and more
+                <p className="mb-6 text-gray-300 text-sm leading-relaxed sm:text-base">
+                  Curated essential English terms for developers — algorithms,
+                  data structures, design patterns, software engineering, and
+                  more
                 </p>
                 <div className="space-y-3">
                   <div className="flex items-center gap-3 rounded-lg bg-gray-700/50 p-3">
                     <span className="text-indigo-400">•</span>
-                    <span className="text-gray-200">Algorithms and data structures</span>
+                    <span className="text-gray-200">
+                      Algorithms and data structures
+                    </span>
                   </div>
                   <div className="flex items-center gap-3 rounded-lg bg-gray-700/50 p-3">
                     <span className="text-indigo-400">•</span>
-                    <span className="text-gray-200">Software architecture and design patterns</span>
+                    <span className="text-gray-200">
+                      Software architecture and design patterns
+                    </span>
                   </div>
                   <div className="flex items-center gap-3 rounded-lg bg-gray-700/50 p-3">
                     <span className="text-indigo-400">•</span>
-                    <span className="text-gray-200">Project management and collaboration</span>
+                    <span className="text-gray-200">
+                      Project management and collaboration
+                    </span>
                   </div>
                   <div className="flex items-center gap-3 rounded-lg bg-gray-700/50 p-3">
                     <span className="text-indigo-400">•</span>
-                    <span className="text-gray-200">Cloud computing and DevOps</span>
+                    <span className="text-gray-200">
+                      Cloud computing and DevOps
+                    </span>
                   </div>
                 </div>
               </div>
@@ -757,31 +1071,60 @@ const MobilePage: React.FC = () => {
               <div className="rounded-2xl border border-gray-700 bg-gray-800/50 p-6 backdrop-blur-sm sm:p-8">
                 <div className="mb-6 flex items-center gap-4">
                   <div className="rounded-full bg-green-600 p-3">
-                    <svg className="h-6 w-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4" />
+                    <svg
+                      className="h-6 w-6 text-white"
+                      fill="none"
+                      stroke="currentColor"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth="2"
+                      />
                     </svg>
                   </div>
-                  <h3 className="text-xl font-bold text-white sm:text-2xl">API method practice</h3>
+                  <h3 className="font-bold text-white text-xl sm:text-2xl">
+                    API method practice
+                  </h3>
                 </div>
-                <p className="mb-6 text-sm leading-relaxed text-gray-300 sm:text-base">
-                  Practice APIs in major programming languages through typing to improve coding efficiency and API recall
+                <p className="mb-6 text-gray-300 text-sm leading-relaxed sm:text-base">
+                  Practice APIs in major programming languages through typing to
+                  improve coding efficiency and API recall
                 </p>
                 <div className="grid gap-3 sm:grid-cols-2">
                   <div className="rounded-lg border border-yellow-500/30 bg-yellow-500/10 p-4">
-                    <div className="mb-2 font-semibold text-yellow-400">JavaScript</div>
-                    <div className="text-sm text-gray-300">Core APIs like Array, Object, Promise</div>
+                    <div className="mb-2 font-semibold text-yellow-400">
+                      JavaScript
+                    </div>
+                    <div className="text-gray-300 text-sm">
+                      Core APIs like Array, Object, Promise
+                    </div>
                   </div>
                   <div className="rounded-lg border border-green-500/30 bg-green-500/10 p-4">
-                    <div className="mb-2 font-semibold text-green-400">Node.js</div>
-                    <div className="text-sm text-gray-300">Server APIs like fs, http, express</div>
+                    <div className="mb-2 font-semibold text-green-400">
+                      Node.js
+                    </div>
+                    <div className="text-gray-300 text-sm">
+                      Server APIs like fs, http, express
+                    </div>
                   </div>
                   <div className="rounded-lg border border-orange-500/30 bg-orange-500/10 p-4">
-                    <div className="mb-2 font-semibold text-orange-400">Java</div>
-                    <div className="text-sm text-gray-300">Enterprise APIs like Collection, Stream</div>
+                    <div className="mb-2 font-semibold text-orange-400">
+                      Java
+                    </div>
+                    <div className="text-gray-300 text-sm">
+                      Enterprise APIs like Collection, Stream
+                    </div>
                   </div>
                   <div className="rounded-lg border border-blue-500/30 bg-blue-500/10 p-4">
-                    <div className="mb-2 font-semibold text-blue-400">Linux</div>
-                    <div className="text-sm text-gray-300">Common CLI commands and system administration</div>
+                    <div className="mb-2 font-semibold text-blue-400">
+                      Linux
+                    </div>
+                    <div className="text-gray-300 text-sm">
+                      Common CLI commands and system administration
+                    </div>
                   </div>
                 </div>
               </div>
@@ -791,69 +1134,121 @@ const MobilePage: React.FC = () => {
             <div className="mt-16 grid gap-8 md:grid-cols-3">
               <div className="text-center">
                 <div className="mb-4 inline-flex items-center justify-center rounded-full bg-indigo-600/20 p-4">
-                  <svg className="h-8 w-8 text-indigo-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M13 10V3L4 14h7v7l9-11h-7z" />
+                  <svg
+                    className="h-8 w-8 text-indigo-400"
+                    fill="none"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M13 10V3L4 14h7v7l9-11h-7z"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth="2"
+                    />
                   </svg>
                 </div>
-                <h4 className="mb-3 text-xl font-semibold text-white">Learn APIs quickly</h4>
-                <p className="text-gray-300">Memorize programming APIs through typing practice to code faster</p>
+                <h4 className="mb-3 font-semibold text-white text-xl">
+                  Learn APIs quickly
+                </h4>
+                <p className="text-gray-300">
+                  Memorize programming APIs through typing practice to code
+                  faster
+                </p>
               </div>
               <div className="text-center">
                 <div className="mb-4 inline-flex items-center justify-center rounded-full bg-green-600/20 p-4">
-                  <svg className="h-8 w-8 text-green-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <svg
+                    className="h-8 w-8 text-green-400"
+                    fill="none"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                  >
                     <path
+                      d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"
                       strokeLinecap="round"
                       strokeLinejoin="round"
                       strokeWidth="2"
-                      d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"
                     />
                   </svg>
                 </div>
-                <h4 className="mb-3 text-xl font-semibold text-white">Improve technical English</h4>
-                <p className="text-gray-300">Technical vocabulary training for better documentation reading and communication</p>
+                <h4 className="mb-3 font-semibold text-white text-xl">
+                  Improve technical English
+                </h4>
+                <p className="text-gray-300">
+                  Technical vocabulary training for better documentation reading
+                  and communication
+                </p>
               </div>
               <div className="text-center">
                 <div className="mb-4 inline-flex items-center justify-center rounded-full bg-purple-600/20 p-4">
-                  <svg className="h-8 w-8 text-purple-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <svg
+                    className="h-8 w-8 text-purple-400"
+                    fill="none"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                  >
                     <path
+                      d="M12 18h.01M8 21h8a2 2 0 002-2V5a2 2 0 00-2-2H8a2 2 0 00-2 2v14a2 2 0 002 2z"
                       strokeLinecap="round"
                       strokeLinejoin="round"
                       strokeWidth="2"
-                      d="M12 18h.01M8 21h8a2 2 0 002-2V5a2 2 0 00-2-2H8a2 2 0 00-2 2v14a2 2 0 002 2z"
                     />
                   </svg>
                 </div>
-                <h4 className="mb-3 text-xl font-semibold text-white">Open source</h4>
-                <p className="text-gray-300">The full source is on GitHub if you want to self-host or contribute</p>
+                <h4 className="mb-3 font-semibold text-white text-xl">
+                  Open source
+                </h4>
+                <p className="text-gray-300">
+                  The full source is on GitHub if you want to self-host or
+                  contribute
+                </p>
               </div>
             </div>
 
             <div className="mt-16 text-center">
               <div className="mb-8">
-                <h4 className="mb-4 text-2xl font-bold text-white">Community-driven updates</h4>
+                <h4 className="mb-4 font-bold text-2xl text-white">
+                  Community-driven updates
+                </h4>
                 <p className="mx-auto max-w-2xl text-gray-300">
-                  Our API dictionaries rely on community contributions — more languages are being added. Contributions welcome!
+                  Our API dictionaries rely on community contributions — more
+                  languages are being added. Contributions welcome!
                 </p>
               </div>
               <div className="flex flex-col items-center gap-4 sm:flex-row sm:justify-center">
                 <a
-                  href="https://kazimkayhan.github.io/type-to-learn/"
-                  target="_blank"
-                  rel="noopener noreferrer"
                   className="inline-flex items-center gap-2 rounded-full bg-indigo-600 px-8 py-4 font-semibold text-white transition-all duration-300 hover:bg-indigo-700 hover:shadow-lg"
+                  href="https://kazimkayhan.github.io/type-to-learn/"
+                  rel="noopener noreferrer"
+                  target="_blank"
                 >
                   <span>Try developer features</span>
-                  <svg className="h-5 w-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                  <svg
+                    className="h-5 w-5"
+                    fill="none"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M17 8l4 4m0 0l-4 4m4-4H3"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth="2"
+                    />
                   </svg>
                 </a>
                 <a
-                  href="https://github.com/kazimkayhan/type-to-learn"
-                  target="_blank"
-                  rel="noopener noreferrer"
                   className="inline-flex items-center gap-2 rounded-full border border-gray-600 bg-gray-800 px-8 py-4 font-semibold text-white transition-all duration-300 hover:bg-gray-700"
+                  href="https://github.com/kazimkayhan/type-to-learn"
+                  rel="noopener noreferrer"
+                  target="_blank"
                 >
-                  <svg className="h-5 w-5" viewBox="0 0 24 24" fill="currentColor">
+                  <svg
+                    className="h-5 w-5"
+                    fill="currentColor"
+                    viewBox="0 0 24 24"
+                  >
                     <path d="M23.15 2.587L18.21.21a1.494 1.494 0 0 0-1.705.29l-9.46 8.63-4.12-3.128a.999.999 0 0 0-1.276.057L.327 7.261A1 1 0 0 0 .326 8.74L3.899 12 .326 15.26a1 1 0 0 0 .001 1.479L1.65 17.94a.999.999 0 0 0 1.276.057l4.12-3.128 9.46 8.63a1.492 1.492 0 0 0 1.704.29l4.942-2.377A1.5 1.5 0 0 0 24 20.06V3.939a1.5 1.5 0 0 0-.85-1.352zm-5.146 14.861L10.826 12l7.178-5.448v10.896z" />
                   </svg>
                   <span>View on GitHub</span>
@@ -872,22 +1267,29 @@ const MobilePage: React.FC = () => {
           <div className="mx-auto max-w-7xl">
             <div className="mb-16 text-center">
               <div className="mb-6 inline-flex items-center gap-3 rounded-full bg-yellow-100 px-6 py-3 text-yellow-600">
-                <svg className="h-5 w-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <svg
+                  className="h-5 w-5"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                >
                   <path
+                    d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z"
                     strokeLinecap="round"
                     strokeLinejoin="round"
                     strokeWidth="2"
-                    d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z"
                   />
                 </svg>
                 <span className="font-semibold">Recognition</span>
               </div>
-              <h2 className="mb-6 text-4xl font-bold tracking-tight text-gray-900 lg:text-5xl xl:text-6xl">
-                A project <span className="text-indigo-500">widely recognized</span>
+              <h2 className="mb-6 font-bold text-4xl text-gray-900 tracking-tight lg:text-5xl xl:text-6xl">
+                A project{" "}
+                <span className="text-indigo-500">widely recognized</span>
               </h2>
-              <p className="mx-auto max-w-3xl text-xl font-light leading-relaxed text-gray-600">
-                Featured as #1 on GitHub Trending, V2EX hot list, Gitee GVP, and SSPAI homepage — the free English learning app chosen by 100,000+
-                users
+              <p className="mx-auto max-w-3xl font-light text-gray-600 text-xl leading-relaxed">
+                Featured as #1 on GitHub Trending, V2EX hot list, Gitee GVP, and
+                SSPAI homepage — the free English learning app chosen by
+                100,000+ users
               </p>
             </div>
 
@@ -895,151 +1297,244 @@ const MobilePage: React.FC = () => {
             <div className="mb-16 grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-4">
               <div className="rounded-2xl border border-orange-200 bg-orange-50 p-6 text-center shadow-lg sm:p-8">
                 <div className="mb-4 inline-flex items-center justify-center rounded-full bg-orange-100 p-4">
-                  <svg className="h-8 w-8 text-orange-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M13 10V3L4 14h7v7l9-11h-7z" />
+                  <svg
+                    className="h-8 w-8 text-orange-600"
+                    fill="none"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M13 10V3L4 14h7v7l9-11h-7z"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth="2"
+                    />
                   </svg>
                 </div>
-                <h3 className="mb-2 text-lg font-bold text-gray-900 sm:text-xl">GitHub Trending</h3>
-                <p className="text-sm text-gray-600 sm:text-base">#1 worldwide</p>
+                <h3 className="mb-2 font-bold text-gray-900 text-lg sm:text-xl">
+                  GitHub Trending
+                </h3>
+                <p className="text-gray-600 text-sm sm:text-base">
+                  #1 worldwide
+                </p>
               </div>
 
               <div className="rounded-2xl border border-red-200 bg-red-50 p-8 text-center shadow-lg">
                 <div className="mb-4 inline-flex items-center justify-center rounded-full bg-red-100 p-4">
-                  <svg className="h-8 w-8 text-red-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <svg
+                    className="h-8 w-8 text-red-600"
+                    fill="none"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                  >
                     <path
+                      d="M17.657 18.657A8 8 0 016.343 7.343S7 9 9 10c0-2 .5-5 2.986-7C14 5 16.09 5.777 17.656 7.343A7.975 7.975 0 0120 13a7.975 7.975 0 01-2.343 5.657z"
                       strokeLinecap="round"
                       strokeLinejoin="round"
                       strokeWidth="2"
-                      d="M17.657 18.657A8 8 0 016.343 7.343S7 9 9 10c0-2 .5-5 2.986-7C14 5 16.09 5.777 17.656 7.343A7.975 7.975 0 0120 13a7.975 7.975 0 01-2.343 5.657z"
                     />
                   </svg>
                 </div>
-                <h3 className="mb-2 text-lg font-bold text-gray-900 sm:text-xl">V2EX hot list</h3>
-                <p className="text-sm text-gray-600 sm:text-base">V2EX site-wide hot project</p>
+                <h3 className="mb-2 font-bold text-gray-900 text-lg sm:text-xl">
+                  V2EX hot list
+                </h3>
+                <p className="text-gray-600 text-sm sm:text-base">
+                  V2EX site-wide hot project
+                </p>
               </div>
 
               <div className="rounded-2xl border border-green-200 bg-green-50 p-8 text-center shadow-lg">
                 <div className="mb-4 inline-flex items-center justify-center rounded-full bg-green-100 p-4">
-                  <svg className="h-8 w-8 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <svg
+                    className="h-8 w-8 text-green-600"
+                    fill="none"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                  >
                     <path
+                      d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z"
                       strokeLinecap="round"
                       strokeLinejoin="round"
                       strokeWidth="2"
-                      d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z"
                     />
                   </svg>
                 </div>
-                <h3 className="mb-2 text-lg font-bold text-gray-900 sm:text-xl">Gitee GVP</h3>
-                <p className="text-sm text-gray-600 sm:text-base">Most valuable open-source project</p>
+                <h3 className="mb-2 font-bold text-gray-900 text-lg sm:text-xl">
+                  Gitee GVP
+                </h3>
+                <p className="text-gray-600 text-sm sm:text-base">
+                  Most valuable open-source project
+                </p>
               </div>
 
               <div className="rounded-2xl border border-blue-200 bg-blue-50 p-8 text-center shadow-lg">
                 <div className="mb-4 inline-flex items-center justify-center rounded-full bg-blue-100 p-4">
-                  <svg className="h-8 w-8 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <svg
+                    className="h-8 w-8 text-blue-600"
+                    fill="none"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                  >
                     <path
+                      d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"
                       strokeLinecap="round"
                       strokeLinejoin="round"
                       strokeWidth="2"
-                      d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"
                     />
                   </svg>
                 </div>
-                <h3 className="mb-2 text-lg font-bold text-gray-900 sm:text-xl">SSPAI featured</h3>
-                <p className="text-sm text-gray-600 sm:text-base">SSPAI homepage featured app</p>
+                <h3 className="mb-2 font-bold text-gray-900 text-lg sm:text-xl">
+                  SSPAI featured
+                </h3>
+                <p className="text-gray-600 text-sm sm:text-base">
+                  SSPAI homepage featured app
+                </p>
               </div>
             </div>
 
             {/* 详细荣誉列表 */}
             <div className="grid gap-6 lg:grid-cols-2">
               <div className="rounded-2xl border border-gray-200 bg-white p-6 shadow-lg sm:p-8">
-                <h3 className="mb-6 text-xl font-bold text-gray-900 sm:text-2xl">Open-source community recognition</h3>
+                <h3 className="mb-6 font-bold text-gray-900 text-xl sm:text-2xl">
+                  Open-source community recognition
+                </h3>
                 <div className="space-y-4">
                   <div className="flex items-center gap-3 rounded-lg border border-gray-100 bg-gray-50 p-3 sm:gap-4 sm:p-4">
                     <div className="flex-shrink-0 rounded-full bg-orange-100 p-2">
-                      <svg className="h-5 w-5 text-orange-600" fill="currentColor" viewBox="0 0 20 20">
+                      <svg
+                        className="h-5 w-5 text-orange-600"
+                        fill="currentColor"
+                        viewBox="0 0 20 20"
+                      >
                         <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
                       </svg>
                     </div>
                     <div>
-                      <div className="font-semibold text-gray-900">#1 on GitHub Trending worldwide</div>
-                      <div className="text-sm text-gray-600">Highest attention from developers worldwide</div>
+                      <div className="font-semibold text-gray-900">
+                        #1 on GitHub Trending worldwide
+                      </div>
+                      <div className="text-gray-600 text-sm">
+                        Highest attention from developers worldwide
+                      </div>
                     </div>
                   </div>
 
                   <div className="flex items-center gap-3 rounded-lg border border-gray-100 bg-gray-50 p-3 sm:gap-4 sm:p-4">
                     <div className="flex-shrink-0 rounded-full bg-green-100 p-2">
-                      <svg className="h-5 w-5 text-green-600" fill="currentColor" viewBox="0 0 20 20">
+                      <svg
+                        className="h-5 w-5 text-green-600"
+                        fill="currentColor"
+                        viewBox="0 0 20 20"
+                      >
                         <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
                       </svg>
                     </div>
                     <div>
-                      <div className="font-semibold text-gray-900">Gitee Most Valuable Open Source Project (GVP)</div>
-                      <div className="text-sm text-gray-600">Top-tier open-source certification in China</div>
+                      <div className="font-semibold text-gray-900">
+                        Gitee Most Valuable Open Source Project (GVP)
+                      </div>
+                      <div className="text-gray-600 text-sm">
+                        Top-tier open-source certification in China
+                      </div>
                     </div>
                   </div>
 
                   <div className="flex items-center gap-3 rounded-lg border border-gray-100 bg-gray-50 p-3 sm:gap-4 sm:p-4">
                     <div className="flex-shrink-0 rounded-full bg-purple-100 p-2">
-                      <svg className="h-5 w-5 text-purple-600" fill="currentColor" viewBox="0 0 20 20">
+                      <svg
+                        className="h-5 w-5 text-purple-600"
+                        fill="currentColor"
+                        viewBox="0 0 20 20"
+                      >
                         <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
                       </svg>
                     </div>
                     <div>
-                      <div className="font-semibold text-gray-900">GitCode G-Star program graduate project</div>
-                      <div className="text-sm text-gray-600">Outstanding Open Source Star program project</div>
+                      <div className="font-semibold text-gray-900">
+                        GitCode G-Star program graduate project
+                      </div>
+                      <div className="text-gray-600 text-sm">
+                        Outstanding Open Source Star program project
+                      </div>
                     </div>
                   </div>
                 </div>
               </div>
 
               <div className="rounded-2xl border border-gray-200 bg-white p-6 shadow-lg sm:p-8">
-                <h3 className="mb-6 text-xl font-bold text-gray-900 sm:text-2xl">Media platform features</h3>
+                <h3 className="mb-6 font-bold text-gray-900 text-xl sm:text-2xl">
+                  Media platform features
+                </h3>
                 <div className="space-y-4">
                   <div className="flex items-center gap-3 rounded-lg border border-gray-100 bg-gray-50 p-3 sm:gap-4 sm:p-4">
                     <div className="flex-shrink-0 rounded-full bg-red-100 p-2">
-                      <svg className="h-5 w-5 text-red-600" fill="currentColor" viewBox="0 0 20 20">
+                      <svg
+                        className="h-5 w-5 text-red-600"
+                        fill="currentColor"
+                        viewBox="0 0 20 20"
+                      >
                         <path
-                          fillRule="evenodd"
-                          d="M3.172 5.172a4 4 0 015.656 0L10 6.343l1.172-1.171a4 4 0 115.656 5.656L10 17.657l-6.828-6.829a4 4 0 010-5.656z"
                           clipRule="evenodd"
+                          d="M3.172 5.172a4 4 0 015.656 0L10 6.343l1.172-1.171a4 4 0 115.656 5.656L10 17.657l-6.828-6.829a4 4 0 010-5.656z"
+                          fillRule="evenodd"
                         />
                       </svg>
                     </div>
                     <div>
-                      <div className="font-semibold text-gray-900">V2EX site-wide hot project</div>
-                      <div className="text-sm text-gray-600">Highly discussed in tech communities</div>
+                      <div className="font-semibold text-gray-900">
+                        V2EX site-wide hot project
+                      </div>
+                      <div className="text-gray-600 text-sm">
+                        Highly discussed in tech communities
+                      </div>
                     </div>
                   </div>
 
                   <div className="flex items-center gap-3 rounded-lg border border-gray-100 bg-gray-50 p-3 sm:gap-4 sm:p-4">
                     <div className="flex-shrink-0 rounded-full bg-blue-100 p-2">
-                      <svg className="h-5 w-5 text-blue-600" fill="currentColor" viewBox="0 0 20 20">
+                      <svg
+                        className="h-5 w-5 text-blue-600"
+                        fill="currentColor"
+                        viewBox="0 0 20 20"
+                      >
                         <path
-                          fillRule="evenodd"
-                          d="M12.586 4.586a2 2 0 112.828 2.828l-3 3a2 2 0 01-2.828 0 1 1 0 00-1.414 1.414 4 4 0 005.656 0l3-3a4 4 0 00-5.656-5.656l-1.5 1.5a1 1 0 101.414 1.414l1.5-1.5zm-5 5a2 2 0 012.828 0 1 1 0 101.414-1.414 4 4 0 00-5.656 0l-3 3a4 4 0 105.656 5.656l1.5-1.5a1 1 0 10-1.414-1.414l-1.5 1.5a2 2 0 11-2.828-2.828l3-3z"
                           clipRule="evenodd"
+                          d="M12.586 4.586a2 2 0 112.828 2.828l-3 3a2 2 0 01-2.828 0 1 1 0 00-1.414 1.414 4 4 0 005.656 0l3-3a4 4 0 00-5.656-5.656l-1.5 1.5a1 1 0 101.414 1.414l1.5-1.5zm-5 5a2 2 0 012.828 0 1 1 0 101.414-1.414 4 4 0 00-5.656 0l-3 3a4 4 0 105.656 5.656l1.5-1.5a1 1 0 10-1.414-1.414l-1.5 1.5a2 2 0 11-2.828-2.828l3-3z"
+                          fillRule="evenodd"
                         />
                       </svg>
                     </div>
                     <div>
-                      <div className="font-semibold text-gray-900">SSPAI homepage featured</div>
-                      <div className="text-sm text-gray-600">Recognized by quality app recommendation platforms</div>
+                      <div className="font-semibold text-gray-900">
+                        SSPAI homepage featured
+                      </div>
+                      <div className="text-gray-600 text-sm">
+                        Recognized by quality app recommendation platforms
+                      </div>
                     </div>
                   </div>
 
                   <div className="flex items-center gap-3 rounded-lg border border-gray-100 bg-gray-50 p-3 sm:gap-4 sm:p-4">
                     <div className="flex-shrink-0 rounded-full bg-gray-100 p-2">
-                      <svg className="h-5 w-5 text-gray-600" fill="currentColor" viewBox="0 0 20 20">
+                      <svg
+                        className="h-5 w-5 text-gray-600"
+                        fill="currentColor"
+                        viewBox="0 0 20 20"
+                      >
                         <path
-                          fillRule="evenodd"
-                          d="M4 2a1 1 0 011 1v2.101a7.002 7.002 0 0111.601 2.566 1 1 0 11-1.885.666A5.002 5.002 0 005.999 7H9a1 1 0 010 2H4a1 1 0 01-1-1V3a1 1 0 011-1zm.008 9.057a1 1 0 011.276.61A5.002 5.002 0 0014.001 13H11a1 1 0 110-2h5a1 1 0 011 1v5a1 1 0 11-2 0v-2.101a7.002 7.002 0 01-11.601-2.566 1 1 0 01.61-1.276z"
                           clipRule="evenodd"
+                          d="M4 2a1 1 0 011 1v2.101a7.002 7.002 0 0111.601 2.566 1 1 0 11-1.885.666A5.002 5.002 0 005.999 7H9a1 1 0 010 2H4a1 1 0 01-1-1V3a1 1 0 011-1zm.008 9.057a1 1 0 011.276.61A5.002 5.002 0 0014.001 13H11a1 1 0 110-2h5a1 1 0 011 1v5a1 1 0 11-2 0v-2.101a7.002 7.002 0 01-11.601-2.566 1 1 0 01.61-1.276z"
+                          fillRule="evenodd"
                         />
                       </svg>
                     </div>
                     <div>
-                      <div className="font-semibold text-gray-900">Gitee site-wide recommended project</div>
-                      <div className="text-sm text-gray-600">Recommended on leading Chinese code hosting platform</div>
+                      <div className="font-semibold text-gray-900">
+                        Gitee site-wide recommended project
+                      </div>
+                      <div className="text-gray-600 text-sm">
+                        Recommended on leading Chinese code hosting platform
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -1048,42 +1543,75 @@ const MobilePage: React.FC = () => {
 
             {/* 用户数据统计 */}
             <div className="mt-16 rounded-2xl border border-indigo-200 bg-gradient-to-r from-indigo-50 to-purple-50 p-6 text-center sm:p-8">
-              <h3 className="mb-6 text-xl font-bold text-gray-900 sm:mb-8 sm:text-2xl">Trusted by users — the numbers speak</h3>
+              <h3 className="mb-6 font-bold text-gray-900 text-xl sm:mb-8 sm:text-2xl">
+                Trusted by users — the numbers speak
+              </h3>
               <div className="grid grid-cols-1 gap-6 sm:grid-cols-3 sm:gap-8">
                 <div>
-                  <div className="mb-2 text-3xl font-bold text-indigo-600 sm:text-4xl">20000+</div>
-                  <div className="text-sm text-gray-600 sm:text-base">GitHub Stars</div>
-                  <div className="text-xs text-gray-500 sm:text-sm">Widely recognized by developers</div>
+                  <div className="mb-2 font-bold text-3xl text-indigo-600 sm:text-4xl">
+                    20000+
+                  </div>
+                  <div className="text-gray-600 text-sm sm:text-base">
+                    GitHub Stars
+                  </div>
+                  <div className="text-gray-500 text-xs sm:text-sm">
+                    Widely recognized by developers
+                  </div>
                 </div>
                 <div>
-                  <div className="mb-2 text-3xl font-bold text-indigo-600 sm:text-4xl">100000+</div>
-                  <div className="text-sm text-gray-600 sm:text-base">Monthly active users</div>
-                  <div className="text-xs text-gray-500 sm:text-sm">Learners who keep coming back</div>
+                  <div className="mb-2 font-bold text-3xl text-indigo-600 sm:text-4xl">
+                    100000+
+                  </div>
+                  <div className="text-gray-600 text-sm sm:text-base">
+                    Monthly active users
+                  </div>
+                  <div className="text-gray-500 text-xs sm:text-sm">
+                    Learners who keep coming back
+                  </div>
                 </div>
                 <div>
-                  <div className="mb-2 text-3xl font-bold text-indigo-600 sm:text-4xl">100+</div>
-                  <div className="text-sm text-gray-600 sm:text-base">Community contributors</div>
-                  <div className="text-xs text-gray-500 sm:text-sm">Helping improve the project together</div>
+                  <div className="mb-2 font-bold text-3xl text-indigo-600 sm:text-4xl">
+                    100+
+                  </div>
+                  <div className="text-gray-600 text-sm sm:text-base">
+                    Community contributors
+                  </div>
+                  <div className="text-gray-500 text-xs sm:text-sm">
+                    Helping improve the project together
+                  </div>
                 </div>
               </div>
             </div>
 
             <div className="mt-12 text-center sm:mt-16">
               <div className="mb-8">
-                <h4 className="mb-4 text-xl font-bold text-gray-900 sm:text-2xl">Join our user community</h4>
-                <p className="mx-auto max-w-2xl text-sm text-gray-600 sm:text-base">
-                  Join tens of thousands of users on this acclaimed English learning tool — improve your typing and English skills
+                <h4 className="mb-4 font-bold text-gray-900 text-xl sm:text-2xl">
+                  Join our user community
+                </h4>
+                <p className="mx-auto max-w-2xl text-gray-600 text-sm sm:text-base">
+                  Join tens of thousands of users on this acclaimed English
+                  learning tool — improve your typing and English skills
                 </p>
               </div>
               <a
-                href="https://kazimkayhan.github.io/type-to-learn/"
-                target="_blank"
-                rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 rounded-full bg-indigo-600 px-8 py-4 font-semibold text-white transition-all duration-300 hover:bg-indigo-700 hover:shadow-lg"
+                href="https://kazimkayhan.github.io/type-to-learn/"
+                rel="noopener noreferrer"
+                target="_blank"
               >
                 <span>Join the community now</span>
-                <svg className="h-5 w-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                <svg
+                  className="h-5 w-5"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M17 8l4 4m0 0l-4 4m4-4H3"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="2"
+                  />
                 </svg>
               </a>
             </div>
@@ -1091,37 +1619,37 @@ const MobilePage: React.FC = () => {
         </section>
 
         <section className="relative mt-24 w-full overflow-hidden py-24 lg:mt-32 lg:py-32">
-          <div className="absolute inset-0 bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900"></div>
-          <div className="absolute inset-0 bg-gradient-to-t from-black/10 to-transparent"></div>
+          <div className="absolute inset-0 bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900" />
+          <div className="absolute inset-0 bg-gradient-to-t from-black/10 to-transparent" />
           <div className="absolute inset-0">
-            <div className="absolute -left-4 top-0 h-96 w-96 animate-pulse rounded-full bg-white/5 opacity-50 mix-blend-multiply blur-3xl filter"></div>
+            <div className="absolute top-0 -left-4 h-96 w-96 animate-pulse rounded-full bg-white/5 opacity-50 mix-blend-multiply blur-3xl filter" />
             <div
-              className="absolute -right-4 top-0 h-96 w-96 animate-pulse rounded-full bg-white/5 opacity-50 mix-blend-multiply blur-3xl filter"
-              style={{ animationDelay: '2s' }}
-            ></div>
+              className="absolute top-0 -right-4 h-96 w-96 animate-pulse rounded-full bg-white/5 opacity-50 mix-blend-multiply blur-3xl filter"
+              style={{ animationDelay: "2s" }}
+            />
             <div
               className="absolute -bottom-8 left-20 h-96 w-96 animate-pulse rounded-full bg-white/5 opacity-50 mix-blend-multiply blur-3xl filter"
-              style={{ animationDelay: '4s' }}
-            ></div>
+              style={{ animationDelay: "4s" }}
+            />
           </div>
           <div className="relative z-10 flex flex-col items-center justify-center px-6 text-center">
-            <h2 className="mb-8 text-5xl font-bold leading-tight tracking-tight text-white lg:text-6xl xl:text-7xl">
+            <h2 className="mb-8 font-bold text-5xl text-white leading-tight tracking-tight lg:text-6xl xl:text-7xl">
               Start <span className="text-indigo-300">now</span>
             </h2>
-            <p className="mb-12 max-w-4xl text-xl font-light leading-relaxed text-white/80 lg:text-2xl">
+            <p className="mb-12 max-w-4xl font-light text-white/80 text-xl leading-relaxed lg:text-2xl">
               Start your English learning journey — make every keystroke count
             </p>
             <div className="flex flex-col items-center gap-4 sm:flex-row">
               <a
+                className="group relative overflow-hidden rounded-full bg-white px-12 py-5 font-semibold text-gray-900 text-xl shadow-2xl transition-all duration-300 hover:-translate-y-1 hover:scale-105 hover:shadow-3xl"
                 href="https://kazimkayhan.github.io/type-to-learn/"
-                target="_blank"
                 rel="noopener noreferrer"
-                className="hover:shadow-3xl group relative overflow-hidden rounded-full bg-white px-12 py-5 text-xl font-semibold text-gray-900 shadow-2xl transition-all duration-300 hover:-translate-y-1 hover:scale-105"
+                target="_blank"
               >
                 <span className="relative z-10">Start learning →</span>
-                <div className="absolute inset-0 bg-gradient-to-r from-gray-100 to-gray-50 opacity-0 transition-opacity duration-300 group-hover:opacity-100"></div>
+                <div className="absolute inset-0 bg-gradient-to-r from-gray-100 to-gray-50 opacity-0 transition-opacity duration-300 group-hover:opacity-100" />
               </a>
-              <div className="flex items-center gap-2 text-sm font-light text-white/60 lg:hidden">
+              <div className="flex items-center gap-2 font-light text-sm text-white/60 lg:hidden">
                 <span>Best experienced on desktop browser</span>
               </div>
             </div>
@@ -1129,7 +1657,7 @@ const MobilePage: React.FC = () => {
         </section>
       </main>
     </div>
-  )
-}
+  );
+};
 
-export default MobilePage
+export default MobilePage;

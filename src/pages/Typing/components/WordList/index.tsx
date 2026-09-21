@@ -1,68 +1,86 @@
-import { TypingContext, TypingStateActionType } from '../../store'
-import WordCard from './WordCard'
-import Drawer from '@/components/Drawer'
-import Tooltip from '@/components/Tooltip'
-import { ScrollArea, ScrollBar } from '@/components/ui/scroll-area'
-import { currentChapterAtom, currentDictInfoAtom, isReviewModeAtom } from '@/store'
-import { atom, useAtomValue } from 'jotai'
-import { useContext, useState } from 'react'
-import ListIcon from '~icons/tabler/list'
-import IconX from '~icons/tabler/x'
+import { atom, useAtomValue } from "jotai";
+import { useContext, useState } from "react";
+import Drawer from "@/components/Drawer";
+import Tooltip from "@/components/Tooltip";
+import { ScrollArea, ScrollBar } from "@/components/ui/scroll-area";
+import {
+  currentChapterAtom,
+  currentDictInfoAtom,
+  isReviewModeAtom,
+} from "@/store";
+import ListIcon from "~icons/tabler/list";
+import IconX from "~icons/tabler/x";
+import { TypingContext, TypingStateActionType } from "../../store";
+import WordCard from "./WordCard";
 
 const currentDictTitle = atom((get) => {
-  const isReviewMode = get(isReviewModeAtom)
+  const isReviewMode = get(isReviewModeAtom);
 
   if (isReviewMode) {
-    return `${get(currentDictInfoAtom).name} Error Review`
-  } else {
-    return `${get(currentDictInfoAtom).name} Chapter ${get(currentChapterAtom) + 1}`
+    return `${get(currentDictInfoAtom).name} Error Review`;
   }
-})
+  return `${get(currentDictInfoAtom).name} Chapter ${get(currentChapterAtom) + 1}`;
+});
 
 export default function WordList() {
   // eslint-disable-next-line  @typescript-eslint/no-non-null-assertion
-  const { state, dispatch } = useContext(TypingContext)!
+  const { state, dispatch } = useContext(TypingContext)!;
 
-  const [isOpen, setIsOpen] = useState(false)
-  const currentDictTitleValue = useAtomValue(currentDictTitle)
+  const [isOpen, setIsOpen] = useState(false);
+  const currentDictTitleValue = useAtomValue(currentDictTitle);
 
   function closeModal() {
-    setIsOpen(false)
+    setIsOpen(false);
   }
 
   function openModal() {
-    setIsOpen(true)
-    dispatch({ type: TypingStateActionType.SET_IS_TYPING, payload: false })
+    setIsOpen(true);
+    dispatch({ payload: false, type: TypingStateActionType.SET_IS_TYPING });
   }
 
   return (
     <>
-      <Tooltip content="List" placement="top" className="!absolute left-[max(0.5rem,env(safe-area-inset-left))] top-[50%] z-20">
+      <Tooltip
+        className="!absolute top-[50%] left-[max(0.5rem,env(safe-area-inset-left))] z-20"
+        content="List"
+        placement="top"
+      >
         <button
-          type="button"
+          className="fixed top-[50%] left-0 z-20 min-h-11 rounded-lg rounded-l-none bg-indigo-50 px-2 py-3 text-lg hover:bg-indigo-200 focus:outline-none dark:bg-indigo-900 dark:hover:bg-indigo-800"
           onClick={openModal}
-          className="fixed left-0 top-[50%] z-20 min-h-11 rounded-lg rounded-l-none bg-indigo-50 px-2 py-3 text-lg hover:bg-indigo-200 focus:outline-none dark:bg-indigo-900 dark:hover:bg-indigo-800"
+          type="button"
         >
-          <ListIcon className="h-6 w-6 text-lg text-indigo-500 dark:text-white" />
+          <ListIcon className="h-6 w-6 text-indigo-500 text-lg dark:text-white" />
         </button>
       </Tooltip>
 
-      <Drawer open={isOpen} onClose={closeModal} classNames="bg-stone-50 dark:bg-gray-900">
-        <h3 className="flex items-center justify-between p-4 text-lg font-medium leading-6 dark:text-gray-50">
+      <Drawer
+        classNames="bg-stone-50 dark:bg-gray-900"
+        onClose={closeModal}
+        open={isOpen}
+      >
+        <h3 className="flex items-center justify-between p-4 font-medium text-lg leading-6 dark:text-gray-50">
           {currentDictTitleValue}
-          <IconX onClick={closeModal} className="cursor-pointer" />
+          <IconX className="cursor-pointer" onClick={closeModal} />
         </h3>
         <ScrollArea className="flex-1 overflow-y-auto">
           <div className="h-full w-full px-3 pb-4">
             <div className="flex h-full w-full flex-col gap-1">
-              {state.chapterData.words?.map((word, index) => {
-                return <WordCard word={word} key={`${word.name}_${index}`} isActive={state.chapterData.index === index} />
-              })}
+              {state.chapterData.words?.map((word, index) => (
+                <WordCard
+                  isActive={state.chapterData.index === index}
+                  key={`${word.name}_${index}`}
+                  word={word}
+                />
+              ))}
             </div>
           </div>
-          <ScrollBar className="flex touch-none select-none bg-transparent" orientation="vertical" />
+          <ScrollBar
+            className="flex touch-none select-none bg-transparent"
+            orientation="vertical"
+          />
         </ScrollArea>
       </Drawer>
     </>
-  )
+  );
 }

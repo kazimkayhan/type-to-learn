@@ -4,3 +4,7 @@
 pnpm exec lint-staged
 pnpm exec eslint . --fix
 pnpm prettier --write .
+# ultracite
+#!/bin/sh
+pnpm dlx lint-staged
+# ultracite end

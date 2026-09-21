@@ -1,906 +1,877 @@
 [
-    {
-        "name": "run",
-        "trans": [
-            "v. be affected by",
-            "v. have a particular form",
-            "v. change or be different within limits"
-        ],
-        "usphone": "[rʌn]",
-        "ukphone": "[rʌn]"
-    },
-    {
-        "name": "sorry",
-        "trans": [
-            "adj. causing dejection",
-            "adj. bad",
-            "adj. feeling or expressing regret or sorrow or a sense of loss over something done or undone"
-        ],
-        "usphone": "[ˈsɑːri]",
-        "ukphone": "[ˈsɒri]"
-    },
-    {
-        "name": "jump",
-        "trans": [
-            "v. go back and forth",
-            "v. rise in rank or status",
-            "v. increase suddenly and significantly"
-        ],
-        "usphone": "[dʒʌmp]",
-        "ukphone": "[dʒʌmp]"
-    },
-    {
-        "name": "sing",
-        "trans": [
-            "v. divulge confidential information or secrets",
-            "v. make a whining, ringing, or whistling sound",
-            "v. to make melodious sounds"
-        ],
-        "usphone": "[sɪŋ]",
-        "ukphone": "[sɪŋ]"
-    },
-    {
-        "name": "dance",
-        "trans": [
-            "v. move in a pattern",
-            "v. move in a graceful and rhythmical way",
-            "v. skip, leap, or move up and down or sideways"
-        ],
-        "usphone": "[dæns]",
-        "ukphone": "[dɑːns]"
-    },
-    {
-        "name": "sit",
-        "trans": [
-            "v. serve in a specific professional capacity",
-            "v. be seated",
-            "v. show to a seat"
-        ],
-        "usphone": "[sɪt]",
-        "ukphone": "[sɪt]"
-    },
-    {
-        "name": "down",
-        "trans": [
-            "v. improve or perfect by pruning or polishing",
-            "v. bring down or defeat (an opponent)",
-            "v. eat immoderately"
-        ],
-        "usphone": "[daʊn]",
-        "ukphone": "[daʊn]"
-    },
-    {
-        "name": "stand",
-        "trans": [
-            "v. put up with something or somebody unpleasant",
-            "v. have or maintain a position or stand on an issue",
-            "v. withstand the force of something"
-        ],
-        "usphone": "[stænd]",
-        "ukphone": "[stænd]"
-    },
-    {
-        "name": "up",
-        "trans": [
-            "v. raise",
-            "adj. extending or moving toward a higher place",
-            "adj. open"
-        ],
-        "usphone": "[ʌp]",
-        "ukphone": "[ʌp]"
-    },
-    {
-        "name": "see",
-        "trans": [
-            "v. perceive (an idea or situation) mentally",
-            "v. get to know or become aware of, usually accidentally",
-            "v. make sense of"
-        ],
-        "usphone": "[siː]",
-        "ukphone": "[siː]"
-    },
-    {
-        "name": "saw",
-        "trans": [
-            "v. cut with a saw",
-            "n. a power tool for cutting wood",
-            "n. hand tool having a toothed blade for cutting"
-        ],
-        "usphone": "[sɔː]",
-        "ukphone": "[sɔː]"
-    },
-    {
-        "name": "look",
-        "trans": [
-            "v. have a certain outward or facial expression",
-            "v. have faith or confidence in",
-            "v. look forward to the probable occurrence of"
-        ],
-        "usphone": "[lʊk]",
-        "ukphone": "[lʊk]"
-    },
-    {
-        "name": "look out of",
-        "trans": [
-            "outward to look after, imperial or royal court outside to look after, from imperial or royal court outside to look after"
-        ]
-    },
-    {
-        "name": "look at",
-        "trans": [
-            "v. take into consideration for exemplifying purposes",
-            "v. look at carefully"
-        ]
-    },
-    {
-        "name": "boy",
-        "trans": [
-            "n. (ethnic slur) offensive and disparaging term for Black man",
-            "n. a friendly informal reference to a grown man",
-            "n. a youthful male person"
-        ],
-        "usphone": "[bɔɪ]",
-        "ukphone": "[bɔɪ]"
-    },
-    {
-        "name": "girl",
-        "trans": [
-            "n. a young woman",
-            "n. a friendly informal reference to a grown woman",
-            "n. a girl or young woman with whom someone is romantically involved"
-        ],
-        "usphone": "[ɡɜːrl]",
-        "ukphone": "[ɡɜːl]"
-    },
-    {
-        "name": "now",
-        "trans": [
-            "adv. in these times",
-            "adv. without delay or hesitation",
-            "adv. used to preface a command or reproof or request"
-        ],
-        "usphone": "[naʊ]",
-        "ukphone": "[naʊ]"
-    },
-    {
-        "name": "draw",
-        "trans": [
-            "v. direct toward itself or oneself by means of some psychological power or physical attributes",
-            "v. take in, also metaphorically",
-            "v. make a mark or lines on a surface"
-        ],
-        "usphone": "[drɔː]",
-        "ukphone": "[drɔː]"
-    },
-    {
-        "name": "picture",
-        "trans": [
-            "v. imagine",
-            "v. show in, or as in, a picture",
-            "n. graphic art consisting of an artistic composition made by applying paints to a surface"
-        ],
-        "usphone": "[ˈpɪktʃər]",
-        "ukphone": "[ˈpɪktʃə(r)]"
-    },
-    {
-        "name": "woman",
-        "trans": [
-            "n. a human female employed to do housework",
-            "n. women as a class",
-            "n. an adult female human"
-        ],
-        "usphone": "[ˈwʊmən]",
-        "ukphone": "[ˈwʊmən]"
-    },
-    {
-        "name": "baby",
-        "trans": [
-            "v. to treat with excessive indulgence",
-            "n. a project of personal concern to someone",
-            "n. a very young mammal"
-        ],
-        "usphone": "[ˈbeɪbi]",
-        "ukphone": "[ˈbeɪbi]"
-    },
-    {
-        "name": "cry",
-        "trans": [
-            "v. to shed tears because of sadness, rage, or pain",
-            "v. to bring into a particular state by crying",
-            "v. to utter aloud"
-        ],
-        "usphone": "[kraɪ]",
-        "ukphone": "[kraɪ]"
-    },
-    {
-        "name": "talk",
-        "trans": [
-            "v. to deliver a lecture or talk",
-            "v. divulge confidential information or secrets",
-            "v. express in speech"
-        ],
-        "usphone": "[tɔːk]",
-        "ukphone": "[tɔːk]"
-    },
-    {
-        "name": "man",
-        "trans": [
-            "v. provide with workers",
-            "v. take charge of a certain job",
-            "n. any living or extinct member of the family Hominidae characterized by superior intelligence, articulate speech, and erect carriage"
-        ],
-        "usphone": "[mæn]",
-        "ukphone": "[mæn]"
-    },
-    {
-        "name": "sleep",
-        "trans": [
-            "v. be asleep",
-            "v. be able to accommodate for sleeping",
-            "n. euphemisms for death (based on an analogy between lying in a bed and in a tomb)"
-        ],
-        "usphone": "[sliːp]",
-        "ukphone": "[sliːp]"
-    },
-    {
-        "name": "who",
-        "trans": [
-            "pron. who, who?"
-        ],
-        "usphone": "[huː]",
-        "ukphone": "[huː]"
-    },
-    {
-        "name": "hungry",
-        "trans": [
-            "adj. (usually followed by `for') extremely desirous",
-            "adj. feeling hunger"
-        ],
-        "usphone": "[ˈhʌŋɡri]",
-        "ukphone": "[ˈhʌŋɡri]"
-    },
-    {
-        "name": "water",
-        "trans": [
-            "v. secrete or form water, as tears or saliva",
-            "v. supply with water, as with channels or ditches or streams",
-            "v. fill with tears"
-        ],
-        "usphone": "[ˈwɔːtər]",
-        "ukphone": "[ˈwɔːtə(r)]"
-    },
-    {
-        "name": "tea",
-        "trans": [
-            "n. a light midafternoon meal of tea and sandwiches or cakes",
-            "n. dried leaves of the tea shrub",
-            "n. a beverage made by steeping tea leaves in water"
-        ],
-        "usphone": "[tiː]",
-        "ukphone": "[tiː]"
-    },
-    {
-        "name": "candy",
-        "trans": [
-            "v. to coat with something sweet, such as a hard sugar glaze",
-            "n. a rich sweet made of flavored sugar and often combined with fruit or nuts"
-        ],
-        "usphone": "[ˈkændi]",
-        "ukphone": "[ˈkændi]"
-    },
-    {
-        "name": "people",
-        "trans": [
-            "v. fill with people",
-            "v. furnish with people",
-            "n. (plural) any group of human beings (men or women or children) collectively"
-        ],
-        "usphone": "[ˈpiːpl]",
-        "ukphone": "[ˈpiːp(ə)l]"
-    },
-    {
-        "name": "many",
-        "trans": [
-            "adj. a quantifier that can be used with count nouns and is often preceded by `as' or `too' or `so' or `that'"
-        ],
-        "usphone": "[ˈmeni]",
-        "ukphone": "[ˈmeni]"
-    },
-    {
-        "name": "child",
-        "trans": [
-            "n. a young person of either sex",
-            "n. a human offspring of any age",
-            "n. an immature childish person"
-        ],
-        "usphone": "[tʃaɪld]",
-        "ukphone": "[tʃaɪld]"
-    },
-    {
-        "name": "children",
-        "trans": [
-            "n. children child (linguistics) plural"
-        ],
-        "usphone": "[ˈtʃɪldrən]",
-        "ukphone": "[ˈtʃɪldrən]"
-    },
-    {
-        "name": "women",
-        "trans": [
-            "n. woman woman (linguistics) plural"
-        ],
-        "usphone": "[ˈwɪmɪn]",
-        "ukphone": "[ˈwɪmɪn]"
-    },
-    {
-        "name": "woman",
-        "trans": [
-            "n. a human female employed to do housework",
-            "n. women as a class",
-            "n. an adult female human"
-        ],
-        "usphone": "[ˈwʊmən]",
-        "ukphone": "[ˈwʊmən]"
-    },
-    {
-        "name": "men",
-        "trans": [
-            "n. the force of workers available"
-        ],
-        "usphone": "[men]",
-        "ukphone": "[men]"
-    },
-    {
-        "name": "man",
-        "trans": [
-            "v. provide with workers",
-            "v. take charge of a certain job",
-            "n. any living or extinct member of the family Hominidae characterized by superior intelligence, articulate speech, and erect carriage"
-        ],
-        "usphone": "[mæn]",
-        "ukphone": "[mæn]"
-    },
-    {
-        "name": "say",
-        "trans": [
-            "v. give instructions to or direct somebody to do something with authority",
-            "v. express a supposition",
-            "v. indicate"
-        ],
-        "usphone": "[seɪ]",
-        "ukphone": "[seɪ]"
-    },
-    {
-        "name": "help",
-        "trans": [
-            "v. improve the condition of",
-            "v. improve",
-            "v. help to some food"
-        ],
-        "usphone": "[help]",
-        "ukphone": "[help]"
-    },
-    {
-        "name": "worry",
-        "trans": [
-            "v. touch or rub constantly",
-            "v. lacerate by biting",
-            "v. disturb the peace of mind of"
-        ],
-        "usphone": "[ˈwɜːri]",
-        "ukphone": "[ˈwʌri]"
-    },
-    {
-        "name": "sad",
-        "trans": [
-            "adj. bad",
-            "adj. experiencing or showing sorrow or unhappiness",
-            "adj. of things that make you feel sad"
-        ],
-        "usphone": "[sæd]",
-        "ukphone": "[sæd]"
-    },
-    {
-        "name": "take",
-        "trans": [
-            "v. take by force",
-            "v. buy, select",
-            "v. engage for service under a term of contract"
-        ],
-        "usphone": "[teɪk]",
-        "ukphone": "[teɪk]"
-    },
-    {
-        "name": "take a picture",
-        "trans": [
-            "v. to take a photograph"
-        ]
-    },
-    {
-        "name": "be",
-        "trans": [
-            "v. to spend or use time",
-            "v. to work in a specific place, with a specific subject, or in a specific function",
-            "v. to have an existence, be extant"
-        ],
-        "usphone": "[bi; biː]",
-        "ukphone": "[bi]"
-    },
-    {
-        "name": "am",
-        "trans": [
-            "abbr. amplitude modulation (AM)",
-            "v. to be (followed by substantives only)"
-        ],
-        "usphone": "[əm; æm]",
-        "ukphone": "[əm; æm]"
-    },
-    {
-        "name": "is",
-        "trans": [
-            "v. to be (followed by substantives only) be three bill outer appearance",
-            "n. to exist"
-        ],
-        "usphone": "[ɪz]",
-        "ukphone": "[ɪz]"
-    },
-    {
-        "name": "are",
-        "trans": [
-            "n. a unit of surface area equal to 100 square meters"
-        ],
-        "usphone": "[ər; ɑːr; er]",
-        "ukphone": "[ɑ:(r)]"
-    },
-    {
-        "name": "feel",
-        "trans": [
-            "v. be conscious of a physical, mental, or emotional state",
-            "v. have a feeling or perception about oneself in reaction to someone's behavior or attitude",
-            "v. come to believe on the basis of emotion, intuitions, or indefinite grounds"
-        ],
-        "usphone": "[fiːl]",
-        "ukphone": "[fiːl]"
-    },
-    {
-        "name": "tired",
-        "trans": [
-            "adj. repeated too often",
-            "adj. depleted of strength or energy"
-        ],
-        "usphone": "[ˈtaɪərd]",
-        "ukphone": "[ˈtaɪəd]"
-    },
-    {
-        "name": "stop",
-        "trans": [
-            "v. prevent completion",
-            "v. stop and wait, as if awaiting further instructions or developments",
-            "v. hold back, as of a danger or an enemy"
-        ],
-        "usphone": "[stɑːp]",
-        "ukphone": "[stɒp]"
-    },
-    {
-        "name": "wait",
-        "trans": [
-            "v. look forward to the probable occurrence of",
-            "v. serve as a waiter or waitress in a restaurant",
-            "v. stay in one place and anticipate or expect something"
-        ],
-        "usphone": "[weɪt]",
-        "ukphone": "[weɪt]"
-    },
-    {
-        "name": "afraid",
-        "trans": [
-            "adj. filled with fear or apprehension",
-            "adj. filled with regret or concern",
-            "adj. feeling worry or concern or insecurity"
-        ],
-        "usphone": "[əˈfreɪd]",
-        "ukphone": "[əˈfreɪd]"
-    },
-    {
-        "name": "for",
-        "trans": [
-            "prep. as (in the capacity of), for, because, regarding, as for, to fit to go",
-            "conj. because"
-        ],
-        "usphone": "[fər; fɔːr]",
-        "ukphone": "[fə(r)]"
-    },
-    {
-        "name": "busy",
-        "trans": [
-            "v. to keep busy with",
-            "adj. crowded with or characterized by much activity",
-            "adj. actively or fully engaged or occupied"
-        ],
-        "usphone": "[ˈbɪzi]",
-        "ukphone": "[ˈbɪzi]"
-    },
-    {
-        "name": "much",
-        "trans": [
-            "adj. (quantifier used with mass nouns) great in quantity or degree or extent",
-            "adv. (degree adverb used before a noun phrase) for all practical purposes but not completely",
-            "adv. very, particularly"
-        ],
-        "usphone": "[mʌtʃ]",
-        "ukphone": "[mʌtʃ]"
-    },
-    {
-        "name": "how much",
-        "trans": [
-            "conj. number"
-        ],
-        "usphone": "[haʊ mʌtʃ]",
-        "ukphone": "[haʊ mʌtʃ]"
-    },
-    {
-        "name": "write",
-        "trans": [
-            "v. communicate or express by writing",
-            "v. record data on a computer",
-            "v. the act of composing a text"
-        ],
-        "usphone": "[raɪt]",
-        "ukphone": "[raɪt]"
-    },
-    {
-        "name": "mum",
-        "trans": [
-            "adj. failing to speak or communicate etc when expected to",
-            "n. secrecy",
-            "n. informal terms for a mother"
-        ],
-        "usphone": "[mʌm]",
-        "ukphone": "[mʌm]"
-    },
-    {
-        "name": "dad",
-        "trans": [
-            "n. an informal term for a father"
-        ],
-        "usphone": "[dæd]",
-        "ukphone": "[dæd]"
-    },
-    {
-        "name": "dear",
-        "trans": [
-            "adj. with or in a close or intimate relationship",
-            "adj. dearly loved",
-            "adj. earnest"
-        ],
-        "usphone": "[dɪr]",
-        "ukphone": "[dɪə(r)]"
-    },
-    {
-        "name": "fine",
-        "trans": [
-            "v. issue a ticket or a fine to as a penalty",
-            "adj. characterized by elegance or refinement or accomplishment",
-            "adj. minutely precise especially in differences in meaning"
-        ],
-        "usphone": "[faɪn]",
-        "ukphone": "[faɪn]"
-    },
-    {
-        "name": "left",
-        "trans": [
-            "adj. intended for the left hand",
-            "adj. being or located on or directed toward the side of the body to the west when facing north",
-            "adj. of or belonging to the political or intellectual left"
-        ],
-        "usphone": "[left]",
-        "ukphone": "[left]"
-    },
-    {
-        "name": "right",
-        "trans": [
-            "v. make right or correct",
-            "v. regain an upright or proper position",
-            "v. put in or restore to an upright position"
-        ],
-        "usphone": "[raɪt]",
-        "ukphone": "[raɪt]"
-    },
-    {
-        "name": "turn",
-        "trans": [
-            "v. to twist suddenly so as to sprain",
-            "v. to pass into a condition gradually, take on a specific property or attribute",
-            "v. to change to the contrary"
-        ],
-        "usphone": "[tɜːrn]",
-        "ukphone": "[tɜːn]"
-    },
-    {
-        "name": "wrong",
-        "trans": [
-            "v. treat unjustly",
-            "adj. based on or acting or judging in error",
-            "adj. badly timed"
-        ],
-        "usphone": "[rɔːŋ]",
-        "ukphone": "[rɒŋ]"
-    },
-    {
-        "name": "email",
-        "trans": [
-            "v. communicate electronically on the computer",
-            "n. (computer science) a system of world-wide electronic communication in which a computer user can compose a message at one terminal that can be regenerated at the recipient's terminal when the recipient logs in"
-        ],
-        "usphone": "[ˈiːmeɪl]",
-        "ukphone": "[ˈiːmeɪl]"
-    },
-    {
-        "name": "idea",
-        "trans": [
-            "n. an approximate calculation of quantity or degree or worth",
-            "n. the content of cognition",
-            "n. a personal view"
-        ],
-        "usphone": "[aɪˈdiːə]",
-        "ukphone": "[aɪˈdɪə]"
-    },
-    {
-        "name": "computer",
-        "trans": [
-            "n. a machine for performing calculations automatically",
-            "n. an expert at calculation (or at operating calculating machines)"
-        ],
-        "usphone": "[kəmˈpjuːtər]",
-        "ukphone": "[kəmˈpjuːtə(r)]"
-    },
-    {
-        "name": "use",
-        "trans": [
-            "v. to take or consume regularly or habitually",
-            "v. to habitually do something, only in the past tense",
-            "v. to seek or achieve an end by using to one's advantage"
-        ],
-        "usphone": "[juːz]",
-        "ukphone": "[juːz]"
-    },
-    {
-        "name": "kind",
-        "trans": [
-            "adj. tolerant and forgiving under provocation",
-            "adj. agreeable, conducive to comfort",
-            "adj. having or showing a tender and considerate and helpful nature"
-        ],
-        "usphone": "[kaɪnd]",
-        "ukphone": "[kaɪnd]"
-    },
-    {
-        "name": "us",
-        "trans": [
-            "pron. we"
-        ],
-        "usphone": "[əs; ʌs]",
-        "ukphone": "[əs; ʌs]"
-    },
-    {
-        "name": "we",
-        "trans": [
-            "v. to be, plural; replaceable with 'we are' or 'we be'",
-            "pron. first person singular pronoun, for a monarch or person of high status",
-            "pron. first person plural, typically"
-        ],
-        "usphone": "[wi]",
-        "ukphone": "[wi; wiː]"
-    },
-    {
-        "name": "story",
-        "trans": [
-            "n. a structure consisting of a room or set of rooms at a single position along a vertical scale",
-            "n. a piece of fiction that narrates a chain of related events",
-            "n. a record or narrative description of past events"
-        ],
-        "usphone": "[ˈstɔːri]",
-        "ukphone": "[ˈstɔːri]"
-    },
-    {
-        "name": "did",
-        "trans": [
-            "v. to make do past tense"
-        ],
-        "usphone": "[dɪd]",
-        "ukphone": "[dɪd]"
-    },
-    {
-        "name": "do",
-        "trans": [
-            "v. behave in a certain manner",
-            "v. arrange attractively",
-            "v. create or design, often in a certain way"
-        ],
-        "usphone": "[duː; də; du; doʊ]",
-        "ukphone": "[duː; də; du; dəʊ]"
-    },
-    {
-        "name": "yesterday",
-        "trans": [
-            "adv. on the day preceding today",
-            "adv. in the recent past",
-            "n. the day immediately before today"
-        ],
-        "usphone": "[ˈjestərdeɪ; ˈjestərdi]",
-        "ukphone": "[ˈjestədeɪ]"
-    },
-    {
-        "name": "night",
-        "trans": [
-            "n. darkness",
-            "n. the dark part of the diurnal cycle considered a time unit",
-            "n. the time after sunset and before sunrise while it is dark outside"
-        ],
-        "usphone": "[naɪt]",
-        "ukphone": "[naɪt]"
-    },
-    {
-        "name": "had",
-        "trans": [
-            "v. to have, to eat, to get verb have past tense (joining two nouns) and past participle (in European grammar)",
-            "aux. already to use in perfect tense (grammar) (joining two nouns) and to complete (of a process etc) to proceed o'clock"
-        ],
-        "usphone": "[həd; əd; hæd]",
-        "ukphone": "[həd; əd; hæd]"
-    },
-    {
-        "name": "have",
-        "trans": [
-            "v. cause to be born",
-            "v. suffer from",
-            "v. undergo (as of injuries and illnesses)"
-        ],
-        "usphone": "[həv; əv; hæv]",
-        "ukphone": "[həv]"
-    },
-    {
-        "name": "went",
-        "trans": [
-            "v. to go, (in the) past go past tense"
-        ],
-        "usphone": "[went]",
-        "ukphone": "[went]"
-    },
-    {
-        "name": "go",
-        "trans": [
-            "v. enter or assume a certain state or condition",
-            "v. follow a certain course",
-            "v. pass from physical life and lose all bodily attributes and functions necessary to sustain life"
-        ],
-        "usphone": "[ɡoʊ]",
-        "ukphone": "[ɡəʊ]"
-    },
-    {
-        "name": "saw",
-        "trans": [
-            "v. cut with a saw",
-            "n. a power tool for cutting wood",
-            "n. hand tool having a toothed blade for cutting"
-        ],
-        "usphone": "[sɔː]",
-        "ukphone": "[sɔː]"
-    },
-    {
-        "name": "see",
-        "trans": [
-            "v. perceive (an idea or situation) mentally",
-            "v. get to know or become aware of, usually accidentally",
-            "v. make sense of"
-        ],
-        "usphone": "[siː]",
-        "ukphone": "[siː]"
-    },
-    {
-        "name": "ate",
-        "trans": [
-            "v. to eat eat past tense"
-        ],
-        "usphone": "[eɪt]",
-        "ukphone": "[et; eɪt]"
-    },
-    {
-        "name": "eat",
-        "trans": [
-            "v. cause to deteriorate due to the action of water, air, or an acid",
-            "v. use up (resources or materials)",
-            "v. eat a meal"
-        ],
-        "usphone": "[iːt]",
-        "ukphone": "[iːt]"
-    },
-    {
-        "name": "photo",
-        "trans": [
-            "n. a representation of a person or scene in the form of a print or transparent slide"
-        ],
-        "usphone": "[ˈfoʊtoʊ]",
-        "ukphone": "[ˈfəʊtəʊ]"
-    },
-    {
-        "name": "were",
-        "trans": [
-            "v. to be (followed by substantives only), to exist are past tense"
-        ],
-        "usphone": "[wər; wɜːr]",
-        "ukphone": "[wə(r); wɜː(r)]"
-    },
-    {
-        "name": "are",
-        "trans": [
-            "n. a unit of surface area equal to 100 square meters"
-        ],
-        "usphone": "[ər; ɑːr; er]",
-        "ukphone": "[ɑ:(r)]"
-    },
-    {
-        "name": "was",
-        "trans": [
-            "be first (joining two nouns) and third person (grammar) positive odd number (also written, ) past tense"
-        ],
-        "usphone": "[wəz; wʌz]",
-        "ukphone": "[wəz; wɒz]"
-    },
-    {
-        "name": "am",
-        "trans": [
-            "abbr. amplitude modulation (AM)",
-            "v. to be (followed by substantives only)"
-        ],
-        "usphone": "[əm; æm]",
-        "ukphone": "[əm; æm]"
-    },
-    {
-        "name": "is",
-        "trans": [
-            "v. to be (followed by substantives only) be three bill outer appearance",
-            "n. to exist"
-        ],
-        "usphone": "[ɪz]",
-        "ukphone": "[ɪz]"
-    },
-    {
-        "name": "happy",
-        "trans": [
-            "adj. well expressed and to the point",
-            "adj. marked by good fortune",
-            "adj. enjoying or showing or marked by joy or pleasure"
-        ],
-        "usphone": "[ˈhæpi]",
-        "ukphone": "[ˈhæpi]"
-    },
-    {
-        "name": "bought",
-        "trans": [
-            "v. to buy buy past tense (joining two nouns) and past participle (in European grammar)"
-        ],
-        "usphone": "[bɔːt]",
-        "ukphone": "[bɔːt]"
-    },
-    {
-        "name": "buy",
-        "trans": [
-            "v. to accept as true",
-            "v. to obtain by purchase",
-            "v. to acquire by trade or sacrifice or exchange"
-        ],
-        "usphone": "[baɪ]",
-        "ukphone": "[baɪ]"
-    },
-    {
-        "name": "back",
-        "trans": [
-            "v. to strengthen by providing with a back or backing",
-            "v. to establish as valid or genuine",
-            "v. to shift to a counterclockwise direction"
-        ],
-        "usphone": "[bæk]",
-        "ukphone": "[bæk]"
-    }
+  {
+    "name": "run",
+    "trans": [
+      "v. be affected by",
+      "v. have a particular form",
+      "v. change or be different within limits"
+    ],
+    "usphone": "[rʌn]",
+    "ukphone": "[rʌn]"
+  },
+  {
+    "name": "sorry",
+    "trans": [
+      "adj. causing dejection",
+      "adj. bad",
+      "adj. feeling or expressing regret or sorrow or a sense of loss over something done or undone"
+    ],
+    "usphone": "[ˈsɑːri]",
+    "ukphone": "[ˈsɒri]"
+  },
+  {
+    "name": "jump",
+    "trans": [
+      "v. go back and forth",
+      "v. rise in rank or status",
+      "v. increase suddenly and significantly"
+    ],
+    "usphone": "[dʒʌmp]",
+    "ukphone": "[dʒʌmp]"
+  },
+  {
+    "name": "sing",
+    "trans": [
+      "v. divulge confidential information or secrets",
+      "v. make a whining, ringing, or whistling sound",
+      "v. to make melodious sounds"
+    ],
+    "usphone": "[sɪŋ]",
+    "ukphone": "[sɪŋ]"
+  },
+  {
+    "name": "dance",
+    "trans": [
+      "v. move in a pattern",
+      "v. move in a graceful and rhythmical way",
+      "v. skip, leap, or move up and down or sideways"
+    ],
+    "usphone": "[dæns]",
+    "ukphone": "[dɑːns]"
+  },
+  {
+    "name": "sit",
+    "trans": [
+      "v. serve in a specific professional capacity",
+      "v. be seated",
+      "v. show to a seat"
+    ],
+    "usphone": "[sɪt]",
+    "ukphone": "[sɪt]"
+  },
+  {
+    "name": "down",
+    "trans": [
+      "v. improve or perfect by pruning or polishing",
+      "v. bring down or defeat (an opponent)",
+      "v. eat immoderately"
+    ],
+    "usphone": "[daʊn]",
+    "ukphone": "[daʊn]"
+  },
+  {
+    "name": "stand",
+    "trans": [
+      "v. put up with something or somebody unpleasant",
+      "v. have or maintain a position or stand on an issue",
+      "v. withstand the force of something"
+    ],
+    "usphone": "[stænd]",
+    "ukphone": "[stænd]"
+  },
+  {
+    "name": "up",
+    "trans": [
+      "v. raise",
+      "adj. extending or moving toward a higher place",
+      "adj. open"
+    ],
+    "usphone": "[ʌp]",
+    "ukphone": "[ʌp]"
+  },
+  {
+    "name": "see",
+    "trans": [
+      "v. perceive (an idea or situation) mentally",
+      "v. get to know or become aware of, usually accidentally",
+      "v. make sense of"
+    ],
+    "usphone": "[siː]",
+    "ukphone": "[siː]"
+  },
+  {
+    "name": "saw",
+    "trans": [
+      "v. cut with a saw",
+      "n. a power tool for cutting wood",
+      "n. hand tool having a toothed blade for cutting"
+    ],
+    "usphone": "[sɔː]",
+    "ukphone": "[sɔː]"
+  },
+  {
+    "name": "look",
+    "trans": [
+      "v. have a certain outward or facial expression",
+      "v. have faith or confidence in",
+      "v. look forward to the probable occurrence of"
+    ],
+    "usphone": "[lʊk]",
+    "ukphone": "[lʊk]"
+  },
+  {
+    "name": "look out of",
+    "trans": [
+      "outward to look after, imperial or royal court outside to look after, from imperial or royal court outside to look after"
+    ]
+  },
+  {
+    "name": "look at",
+    "trans": [
+      "v. take into consideration for exemplifying purposes",
+      "v. look at carefully"
+    ]
+  },
+  {
+    "name": "boy",
+    "trans": [
+      "n. (ethnic slur) offensive and disparaging term for Black man",
+      "n. a friendly informal reference to a grown man",
+      "n. a youthful male person"
+    ],
+    "usphone": "[bɔɪ]",
+    "ukphone": "[bɔɪ]"
+  },
+  {
+    "name": "girl",
+    "trans": [
+      "n. a young woman",
+      "n. a friendly informal reference to a grown woman",
+      "n. a girl or young woman with whom someone is romantically involved"
+    ],
+    "usphone": "[ɡɜːrl]",
+    "ukphone": "[ɡɜːl]"
+  },
+  {
+    "name": "now",
+    "trans": [
+      "adv. in these times",
+      "adv. without delay or hesitation",
+      "adv. used to preface a command or reproof or request"
+    ],
+    "usphone": "[naʊ]",
+    "ukphone": "[naʊ]"
+  },
+  {
+    "name": "draw",
+    "trans": [
+      "v. direct toward itself or oneself by means of some psychological power or physical attributes",
+      "v. take in, also metaphorically",
+      "v. make a mark or lines on a surface"
+    ],
+    "usphone": "[drɔː]",
+    "ukphone": "[drɔː]"
+  },
+  {
+    "name": "picture",
+    "trans": [
+      "v. imagine",
+      "v. show in, or as in, a picture",
+      "n. graphic art consisting of an artistic composition made by applying paints to a surface"
+    ],
+    "usphone": "[ˈpɪktʃər]",
+    "ukphone": "[ˈpɪktʃə(r)]"
+  },
+  {
+    "name": "woman",
+    "trans": [
+      "n. a human female employed to do housework",
+      "n. women as a class",
+      "n. an adult female human"
+    ],
+    "usphone": "[ˈwʊmən]",
+    "ukphone": "[ˈwʊmən]"
+  },
+  {
+    "name": "baby",
+    "trans": [
+      "v. to treat with excessive indulgence",
+      "n. a project of personal concern to someone",
+      "n. a very young mammal"
+    ],
+    "usphone": "[ˈbeɪbi]",
+    "ukphone": "[ˈbeɪbi]"
+  },
+  {
+    "name": "cry",
+    "trans": [
+      "v. to shed tears because of sadness, rage, or pain",
+      "v. to bring into a particular state by crying",
+      "v. to utter aloud"
+    ],
+    "usphone": "[kraɪ]",
+    "ukphone": "[kraɪ]"
+  },
+  {
+    "name": "talk",
+    "trans": [
+      "v. to deliver a lecture or talk",
+      "v. divulge confidential information or secrets",
+      "v. express in speech"
+    ],
+    "usphone": "[tɔːk]",
+    "ukphone": "[tɔːk]"
+  },
+  {
+    "name": "man",
+    "trans": [
+      "v. provide with workers",
+      "v. take charge of a certain job",
+      "n. any living or extinct member of the family Hominidae characterized by superior intelligence, articulate speech, and erect carriage"
+    ],
+    "usphone": "[mæn]",
+    "ukphone": "[mæn]"
+  },
+  {
+    "name": "sleep",
+    "trans": [
+      "v. be asleep",
+      "v. be able to accommodate for sleeping",
+      "n. euphemisms for death (based on an analogy between lying in a bed and in a tomb)"
+    ],
+    "usphone": "[sliːp]",
+    "ukphone": "[sliːp]"
+  },
+  {
+    "name": "who",
+    "trans": ["pron. who, who?"],
+    "usphone": "[huː]",
+    "ukphone": "[huː]"
+  },
+  {
+    "name": "hungry",
+    "trans": [
+      "adj. (usually followed by `for') extremely desirous",
+      "adj. feeling hunger"
+    ],
+    "usphone": "[ˈhʌŋɡri]",
+    "ukphone": "[ˈhʌŋɡri]"
+  },
+  {
+    "name": "water",
+    "trans": [
+      "v. secrete or form water, as tears or saliva",
+      "v. supply with water, as with channels or ditches or streams",
+      "v. fill with tears"
+    ],
+    "usphone": "[ˈwɔːtər]",
+    "ukphone": "[ˈwɔːtə(r)]"
+  },
+  {
+    "name": "tea",
+    "trans": [
+      "n. a light midafternoon meal of tea and sandwiches or cakes",
+      "n. dried leaves of the tea shrub",
+      "n. a beverage made by steeping tea leaves in water"
+    ],
+    "usphone": "[tiː]",
+    "ukphone": "[tiː]"
+  },
+  {
+    "name": "candy",
+    "trans": [
+      "v. to coat with something sweet, such as a hard sugar glaze",
+      "n. a rich sweet made of flavored sugar and often combined with fruit or nuts"
+    ],
+    "usphone": "[ˈkændi]",
+    "ukphone": "[ˈkændi]"
+  },
+  {
+    "name": "people",
+    "trans": [
+      "v. fill with people",
+      "v. furnish with people",
+      "n. (plural) any group of human beings (men or women or children) collectively"
+    ],
+    "usphone": "[ˈpiːpl]",
+    "ukphone": "[ˈpiːp(ə)l]"
+  },
+  {
+    "name": "many",
+    "trans": [
+      "adj. a quantifier that can be used with count nouns and is often preceded by `as' or `too' or `so' or `that'"
+    ],
+    "usphone": "[ˈmeni]",
+    "ukphone": "[ˈmeni]"
+  },
+  {
+    "name": "child",
+    "trans": [
+      "n. a young person of either sex",
+      "n. a human offspring of any age",
+      "n. an immature childish person"
+    ],
+    "usphone": "[tʃaɪld]",
+    "ukphone": "[tʃaɪld]"
+  },
+  {
+    "name": "children",
+    "trans": ["n. children child (linguistics) plural"],
+    "usphone": "[ˈtʃɪldrən]",
+    "ukphone": "[ˈtʃɪldrən]"
+  },
+  {
+    "name": "women",
+    "trans": ["n. woman woman (linguistics) plural"],
+    "usphone": "[ˈwɪmɪn]",
+    "ukphone": "[ˈwɪmɪn]"
+  },
+  {
+    "name": "woman",
+    "trans": [
+      "n. a human female employed to do housework",
+      "n. women as a class",
+      "n. an adult female human"
+    ],
+    "usphone": "[ˈwʊmən]",
+    "ukphone": "[ˈwʊmən]"
+  },
+  {
+    "name": "men",
+    "trans": ["n. the force of workers available"],
+    "usphone": "[men]",
+    "ukphone": "[men]"
+  },
+  {
+    "name": "man",
+    "trans": [
+      "v. provide with workers",
+      "v. take charge of a certain job",
+      "n. any living or extinct member of the family Hominidae characterized by superior intelligence, articulate speech, and erect carriage"
+    ],
+    "usphone": "[mæn]",
+    "ukphone": "[mæn]"
+  },
+  {
+    "name": "say",
+    "trans": [
+      "v. give instructions to or direct somebody to do something with authority",
+      "v. express a supposition",
+      "v. indicate"
+    ],
+    "usphone": "[seɪ]",
+    "ukphone": "[seɪ]"
+  },
+  {
+    "name": "help",
+    "trans": [
+      "v. improve the condition of",
+      "v. improve",
+      "v. help to some food"
+    ],
+    "usphone": "[help]",
+    "ukphone": "[help]"
+  },
+  {
+    "name": "worry",
+    "trans": [
+      "v. touch or rub constantly",
+      "v. lacerate by biting",
+      "v. disturb the peace of mind of"
+    ],
+    "usphone": "[ˈwɜːri]",
+    "ukphone": "[ˈwʌri]"
+  },
+  {
+    "name": "sad",
+    "trans": [
+      "adj. bad",
+      "adj. experiencing or showing sorrow or unhappiness",
+      "adj. of things that make you feel sad"
+    ],
+    "usphone": "[sæd]",
+    "ukphone": "[sæd]"
+  },
+  {
+    "name": "take",
+    "trans": [
+      "v. take by force",
+      "v. buy, select",
+      "v. engage for service under a term of contract"
+    ],
+    "usphone": "[teɪk]",
+    "ukphone": "[teɪk]"
+  },
+  {
+    "name": "take a picture",
+    "trans": ["v. to take a photograph"]
+  },
+  {
+    "name": "be",
+    "trans": [
+      "v. to spend or use time",
+      "v. to work in a specific place, with a specific subject, or in a specific function",
+      "v. to have an existence, be extant"
+    ],
+    "usphone": "[bi; biː]",
+    "ukphone": "[bi]"
+  },
+  {
+    "name": "am",
+    "trans": [
+      "abbr. amplitude modulation (AM)",
+      "v. to be (followed by substantives only)"
+    ],
+    "usphone": "[əm; æm]",
+    "ukphone": "[əm; æm]"
+  },
+  {
+    "name": "is",
+    "trans": [
+      "v. to be (followed by substantives only) be three bill outer appearance",
+      "n. to exist"
+    ],
+    "usphone": "[ɪz]",
+    "ukphone": "[ɪz]"
+  },
+  {
+    "name": "are",
+    "trans": ["n. a unit of surface area equal to 100 square meters"],
+    "usphone": "[ər; ɑːr; er]",
+    "ukphone": "[ɑ:(r)]"
+  },
+  {
+    "name": "feel",
+    "trans": [
+      "v. be conscious of a physical, mental, or emotional state",
+      "v. have a feeling or perception about oneself in reaction to someone's behavior or attitude",
+      "v. come to believe on the basis of emotion, intuitions, or indefinite grounds"
+    ],
+    "usphone": "[fiːl]",
+    "ukphone": "[fiːl]"
+  },
+  {
+    "name": "tired",
+    "trans": ["adj. repeated too often", "adj. depleted of strength or energy"],
+    "usphone": "[ˈtaɪərd]",
+    "ukphone": "[ˈtaɪəd]"
+  },
+  {
+    "name": "stop",
+    "trans": [
+      "v. prevent completion",
+      "v. stop and wait, as if awaiting further instructions or developments",
+      "v. hold back, as of a danger or an enemy"
+    ],
+    "usphone": "[stɑːp]",
+    "ukphone": "[stɒp]"
+  },
+  {
+    "name": "wait",
+    "trans": [
+      "v. look forward to the probable occurrence of",
+      "v. serve as a waiter or waitress in a restaurant",
+      "v. stay in one place and anticipate or expect something"
+    ],
+    "usphone": "[weɪt]",
+    "ukphone": "[weɪt]"
+  },
+  {
+    "name": "afraid",
+    "trans": [
+      "adj. filled with fear or apprehension",
+      "adj. filled with regret or concern",
+      "adj. feeling worry or concern or insecurity"
+    ],
+    "usphone": "[əˈfreɪd]",
+    "ukphone": "[əˈfreɪd]"
+  },
+  {
+    "name": "for",
+    "trans": [
+      "prep. as (in the capacity of), for, because, regarding, as for, to fit to go",
+      "conj. because"
+    ],
+    "usphone": "[fər; fɔːr]",
+    "ukphone": "[fə(r)]"
+  },
+  {
+    "name": "busy",
+    "trans": [
+      "v. to keep busy with",
+      "adj. crowded with or characterized by much activity",
+      "adj. actively or fully engaged or occupied"
+    ],
+    "usphone": "[ˈbɪzi]",
+    "ukphone": "[ˈbɪzi]"
+  },
+  {
+    "name": "much",
+    "trans": [
+      "adj. (quantifier used with mass nouns) great in quantity or degree or extent",
+      "adv. (degree adverb used before a noun phrase) for all practical purposes but not completely",
+      "adv. very, particularly"
+    ],
+    "usphone": "[mʌtʃ]",
+    "ukphone": "[mʌtʃ]"
+  },
+  {
+    "name": "how much",
+    "trans": ["conj. number"],
+    "usphone": "[haʊ mʌtʃ]",
+    "ukphone": "[haʊ mʌtʃ]"
+  },
+  {
+    "name": "write",
+    "trans": [
+      "v. communicate or express by writing",
+      "v. record data on a computer",
+      "v. the act of composing a text"
+    ],
+    "usphone": "[raɪt]",
+    "ukphone": "[raɪt]"
+  },
+  {
+    "name": "mum",
+    "trans": [
+      "adj. failing to speak or communicate etc when expected to",
+      "n. secrecy",
+      "n. informal terms for a mother"
+    ],
+    "usphone": "[mʌm]",
+    "ukphone": "[mʌm]"
+  },
+  {
+    "name": "dad",
+    "trans": ["n. an informal term for a father"],
+    "usphone": "[dæd]",
+    "ukphone": "[dæd]"
+  },
+  {
+    "name": "dear",
+    "trans": [
+      "adj. with or in a close or intimate relationship",
+      "adj. dearly loved",
+      "adj. earnest"
+    ],
+    "usphone": "[dɪr]",
+    "ukphone": "[dɪə(r)]"
+  },
+  {
+    "name": "fine",
+    "trans": [
+      "v. issue a ticket or a fine to as a penalty",
+      "adj. characterized by elegance or refinement or accomplishment",
+      "adj. minutely precise especially in differences in meaning"
+    ],
+    "usphone": "[faɪn]",
+    "ukphone": "[faɪn]"
+  },
+  {
+    "name": "left",
+    "trans": [
+      "adj. intended for the left hand",
+      "adj. being or located on or directed toward the side of the body to the west when facing north",
+      "adj. of or belonging to the political or intellectual left"
+    ],
+    "usphone": "[left]",
+    "ukphone": "[left]"
+  },
+  {
+    "name": "right",
+    "trans": [
+      "v. make right or correct",
+      "v. regain an upright or proper position",
+      "v. put in or restore to an upright position"
+    ],
+    "usphone": "[raɪt]",
+    "ukphone": "[raɪt]"
+  },
+  {
+    "name": "turn",
+    "trans": [
+      "v. to twist suddenly so as to sprain",
+      "v. to pass into a condition gradually, take on a specific property or attribute",
+      "v. to change to the contrary"
+    ],
+    "usphone": "[tɜːrn]",
+    "ukphone": "[tɜːn]"
+  },
+  {
+    "name": "wrong",
+    "trans": [
+      "v. treat unjustly",
+      "adj. based on or acting or judging in error",
+      "adj. badly timed"
+    ],
+    "usphone": "[rɔːŋ]",
+    "ukphone": "[rɒŋ]"
+  },
+  {
+    "name": "email",
+    "trans": [
+      "v. communicate electronically on the computer",
+      "n. (computer science) a system of world-wide electronic communication in which a computer user can compose a message at one terminal that can be regenerated at the recipient's terminal when the recipient logs in"
+    ],
+    "usphone": "[ˈiːmeɪl]",
+    "ukphone": "[ˈiːmeɪl]"
+  },
+  {
+    "name": "idea",
+    "trans": [
+      "n. an approximate calculation of quantity or degree or worth",
+      "n. the content of cognition",
+      "n. a personal view"
+    ],
+    "usphone": "[aɪˈdiːə]",
+    "ukphone": "[aɪˈdɪə]"
+  },
+  {
+    "name": "computer",
+    "trans": [
+      "n. a machine for performing calculations automatically",
+      "n. an expert at calculation (or at operating calculating machines)"
+    ],
+    "usphone": "[kəmˈpjuːtər]",
+    "ukphone": "[kəmˈpjuːtə(r)]"
+  },
+  {
+    "name": "use",
+    "trans": [
+      "v. to take or consume regularly or habitually",
+      "v. to habitually do something, only in the past tense",
+      "v. to seek or achieve an end by using to one's advantage"
+    ],
+    "usphone": "[juːz]",
+    "ukphone": "[juːz]"
+  },
+  {
+    "name": "kind",
+    "trans": [
+      "adj. tolerant and forgiving under provocation",
+      "adj. agreeable, conducive to comfort",
+      "adj. having or showing a tender and considerate and helpful nature"
+    ],
+    "usphone": "[kaɪnd]",
+    "ukphone": "[kaɪnd]"
+  },
+  {
+    "name": "us",
+    "trans": ["pron. we"],
+    "usphone": "[əs; ʌs]",
+    "ukphone": "[əs; ʌs]"
+  },
+  {
+    "name": "we",
+    "trans": [
+      "v. to be, plural; replaceable with 'we are' or 'we be'",
+      "pron. first person singular pronoun, for a monarch or person of high status",
+      "pron. first person plural, typically"
+    ],
+    "usphone": "[wi]",
+    "ukphone": "[wi; wiː]"
+  },
+  {
+    "name": "story",
+    "trans": [
+      "n. a structure consisting of a room or set of rooms at a single position along a vertical scale",
+      "n. a piece of fiction that narrates a chain of related events",
+      "n. a record or narrative description of past events"
+    ],
+    "usphone": "[ˈstɔːri]",
+    "ukphone": "[ˈstɔːri]"
+  },
+  {
+    "name": "did",
+    "trans": ["v. to make do past tense"],
+    "usphone": "[dɪd]",
+    "ukphone": "[dɪd]"
+  },
+  {
+    "name": "do",
+    "trans": [
+      "v. behave in a certain manner",
+      "v. arrange attractively",
+      "v. create or design, often in a certain way"
+    ],
+    "usphone": "[duː; də; du; doʊ]",
+    "ukphone": "[duː; də; du; dəʊ]"
+  },
+  {
+    "name": "yesterday",
+    "trans": [
+      "adv. on the day preceding today",
+      "adv. in the recent past",
+      "n. the day immediately before today"
+    ],
+    "usphone": "[ˈjestərdeɪ; ˈjestərdi]",
+    "ukphone": "[ˈjestədeɪ]"
+  },
+  {
+    "name": "night",
+    "trans": [
+      "n. darkness",
+      "n. the dark part of the diurnal cycle considered a time unit",
+      "n. the time after sunset and before sunrise while it is dark outside"
+    ],
+    "usphone": "[naɪt]",
+    "ukphone": "[naɪt]"
+  },
+  {
+    "name": "had",
+    "trans": [
+      "v. to have, to eat, to get verb have past tense (joining two nouns) and past participle (in European grammar)",
+      "aux. already to use in perfect tense (grammar) (joining two nouns) and to complete (of a process etc) to proceed o'clock"
+    ],
+    "usphone": "[həd; əd; hæd]",
+    "ukphone": "[həd; əd; hæd]"
+  },
+  {
+    "name": "have",
+    "trans": [
+      "v. cause to be born",
+      "v. suffer from",
+      "v. undergo (as of injuries and illnesses)"
+    ],
+    "usphone": "[həv; əv; hæv]",
+    "ukphone": "[həv]"
+  },
+  {
+    "name": "went",
+    "trans": ["v. to go, (in the) past go past tense"],
+    "usphone": "[went]",
+    "ukphone": "[went]"
+  },
+  {
+    "name": "go",
+    "trans": [
+      "v. enter or assume a certain state or condition",
+      "v. follow a certain course",
+      "v. pass from physical life and lose all bodily attributes and functions necessary to sustain life"
+    ],
+    "usphone": "[ɡoʊ]",
+    "ukphone": "[ɡəʊ]"
+  },
+  {
+    "name": "saw",
+    "trans": [
+      "v. cut with a saw",
+      "n. a power tool for cutting wood",
+      "n. hand tool having a toothed blade for cutting"
+    ],
+    "usphone": "[sɔː]",
+    "ukphone": "[sɔː]"
+  },
+  {
+    "name": "see",
+    "trans": [
+      "v. perceive (an idea or situation) mentally",
+      "v. get to know or become aware of, usually accidentally",
+      "v. make sense of"
+    ],
+    "usphone": "[siː]",
+    "ukphone": "[siː]"
+  },
+  {
+    "name": "ate",
+    "trans": ["v. to eat eat past tense"],
+    "usphone": "[eɪt]",
+    "ukphone": "[et; eɪt]"
+  },
+  {
+    "name": "eat",
+    "trans": [
+      "v. cause to deteriorate due to the action of water, air, or an acid",
+      "v. use up (resources or materials)",
+      "v. eat a meal"
+    ],
+    "usphone": "[iːt]",
+    "ukphone": "[iːt]"
+  },
+  {
+    "name": "photo",
+    "trans": [
+      "n. a representation of a person or scene in the form of a print or transparent slide"
+    ],
+    "usphone": "[ˈfoʊtoʊ]",
+    "ukphone": "[ˈfəʊtəʊ]"
+  },
+  {
+    "name": "were",
+    "trans": [
+      "v. to be (followed by substantives only), to exist are past tense"
+    ],
+    "usphone": "[wər; wɜːr]",
+    "ukphone": "[wə(r); wɜː(r)]"
+  },
+  {
+    "name": "are",
+    "trans": ["n. a unit of surface area equal to 100 square meters"],
+    "usphone": "[ər; ɑːr; er]",
+    "ukphone": "[ɑ:(r)]"
+  },
+  {
+    "name": "was",
+    "trans": [
+      "be first (joining two nouns) and third person (grammar) positive odd number (also written, ) past tense"
+    ],
+    "usphone": "[wəz; wʌz]",
+    "ukphone": "[wəz; wɒz]"
+  },
+  {
+    "name": "am",
+    "trans": [
+      "abbr. amplitude modulation (AM)",
+      "v. to be (followed by substantives only)"
+    ],
+    "usphone": "[əm; æm]",
+    "ukphone": "[əm; æm]"
+  },
+  {
+    "name": "is",
+    "trans": [
+      "v. to be (followed by substantives only) be three bill outer appearance",
+      "n. to exist"
+    ],
+    "usphone": "[ɪz]",
+    "ukphone": "[ɪz]"
+  },
+  {
+    "name": "happy",
+    "trans": [
+      "adj. well expressed and to the point",
+      "adj. marked by good fortune",
+      "adj. enjoying or showing or marked by joy or pleasure"
+    ],
+    "usphone": "[ˈhæpi]",
+    "ukphone": "[ˈhæpi]"
+  },
+  {
+    "name": "bought",
+    "trans": [
+      "v. to buy buy past tense (joining two nouns) and past participle (in European grammar)"
+    ],
+    "usphone": "[bɔːt]",
+    "ukphone": "[bɔːt]"
+  },
+  {
+    "name": "buy",
+    "trans": [
+      "v. to accept as true",
+      "v. to obtain by purchase",
+      "v. to acquire by trade or sacrifice or exchange"
+    ],
+    "usphone": "[baɪ]",
+    "ukphone": "[baɪ]"
+  },
+  {
+    "name": "back",
+    "trans": [
+      "v. to strengthen by providing with a back or backing",
+      "v. to establish as valid or genuine",
+      "v. to shift to a counterclockwise direction"
+    ],
+    "usphone": "[bæk]",
+    "ukphone": "[bæk]"
+  }
 ]

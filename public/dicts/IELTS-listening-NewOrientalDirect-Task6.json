@@ -1,226 +1,206 @@
 [
-    {
-        "name": "pulse",
-        "trans": [
-            "v. produce or modulate (as electromagnetic waves) in the form of short bursts or pulses or cause an apparatus to produce pulses",
-            "v. expand and contract rhythmically",
-            "v. drive by or as if by pulsation"
-        ]
-    },
-    {
-        "name": "take one's temperature",
-        "trans": [
-            "survey (body) temperature"
-        ]
-    },
-    {
-        "name": "blood pressure",
-        "trans": [
-            "n. the pressure of the circulating blood against the walls of the blood vessels"
-        ]
-    },
-    {
-        "name": "have a blood analysis",
-        "trans": [
-            "blood manner to analyze"
-        ]
-    },
-    {
-        "name": "X-Ray film",
-        "trans": [
-            "n. X light disk"
-        ]
-    },
-    {
-        "name": "asthma",
-        "trans": [
-            "n. respiratory disorder characterized by wheezing"
-        ]
-    },
-    {
-        "name": "heart disease",
-        "trans": [
-            "n. a disease of the heart"
-        ]
-    },
-    {
-        "name": "obesity",
-        "trans": [
-            "n. more than average fatness"
-        ]
-    },
-    {
-        "name": "overweight",
-        "trans": [
-            "adj. usually describes a large person who is fat but has a large frame to carry it",
-            "n. the property of excessive fatness"
-        ]
-    },
-    {
-        "name": "depression",
-        "trans": [
-            "n. pushing down",
-            "n. sad feelings of gloom and inadequacy",
-            "n. a sunken or depressed geological formation"
-        ]
-    },
-    {
-        "name": "Yellow Fever",
-        "trans": [
-            "n. caused by a flavivirus transmitted by a mosquito"
-        ]
-    },
-    {
-        "name": "diabetes",
-        "trans": [
-            "n. a polygenic disease characterized by abnormally high glucose levels in the blood"
-        ]
-    },
-    {
-        "name": "diabetic",
-        "trans": [
-            "adj. suffering from diabetes",
-            "adj. of or relating to or causing diabetes",
-            "n. someone who has diabetes"
-        ]
-    },
-    {
-        "name": "treatment",
-        "trans": [
-            "n. care provided to improve a situation (especially medical procedures or applications that are intended to relieve illness or injury)",
-            "n. the management of someone or something",
-            "n. a manner of dealing with something artistically"
-        ]
-    },
-    {
-        "name": "remedy",
-        "trans": [
-            "v. provide relief for",
-            "v. set straight or right",
-            "n. act of correcting an error or a fault or an evil"
-        ]
-    },
-    {
-        "name": "therapy",
-        "trans": [
-            "n. (medicine) the act of caring for someone (as by medication or remedial training etc.)"
-        ]
-    },
-    {
-        "name": "massage",
-        "trans": [
-            "v. give a massage to",
-            "v. manually manipulate (someone's body), usually for medicinal or relaxation purposes",
-            "n. kneading and rubbing parts of the body to increase circulation and promote relaxation"
-        ]
-    },
-    {
-        "name": "message",
-        "trans": [
-            "v. send a message",
-            "v. send as a message",
-            "v. send a message to"
-        ]
-    },
-    {
-        "name": "acupuncture",
-        "trans": [
-            "n. treatment of pain or disease by inserting the tips of needles at specific points on the skin"
-        ]
-    },
-    {
-        "name": "operate",
-        "trans": [
-            "v. perform surgery on",
-            "v. happen",
-            "v. perform a movement in military or naval tactics in order to secure an advantage in attack or defense"
-        ]
-    },
-    {
-        "name": "vaccinate",
-        "trans": [
-            "v. to perform vaccinations or produce immunity in by inoculation"
-        ]
-    },
-    {
-        "name": "prescribe",
-        "trans": [
-            "v. issue commands or orders for"
-        ]
-    },
-    {
-        "name": "pharmacy",
-        "trans": [
-            "n. a retail shop where medicine and other articles are sold",
-            "n. the art and science of preparing and dispensing drugs and medicines,"
-        ]
-    },
-    {
-        "name": "tablet",
-        "trans": [
-            "n. a dose of medicine in the form of a small pellet",
-            "n. a small flat compressed cake of some substance",
-            "n. a slab of stone or wood suitable for bearing an inscription"
-        ]
-    },
-    {
-        "name": "pill",
-        "trans": [
-            "n. a dose of medicine in the form of a small pellet",
-            "n. something that resembles a tablet of medicine in shape or size",
-            "n. a contraceptive in the form of a pill containing estrogen and progestin to inhibit ovulation and so prevent conception"
-        ]
-    },
-    {
-        "name": "capsule",
-        "trans": [
-            "v. to put in a short or concise form",
-            "v. to enclose in a capsule",
-            "n. a pill in the form of a small rounded gelatinous container with medicine inside"
-        ]
-    },
-    {
-        "name": "antibiotic",
-        "trans": [
-            "adj. of or relating to antibiotic drugs",
-            "n. a chemical substance derivable from a mold or bacterium that can kill microorganisms and cure bacterial infections"
-        ]
-    },
-    {
-        "name": "painkiller",
-        "trans": [
-            "n. a medicine used to relieve pain"
-        ]
-    },
-    {
-        "name": "aspirin",
-        "trans": [
-            "n. the acetylated derivative of salicylic acid"
-        ]
-    },
-    {
-        "name": "penicillin",
-        "trans": [
-            "n. any of various antibiotics obtained from Penicillium molds (or produced synthetically) and used in the treatment of various infections and diseases"
-        ]
-    },
-    {
-        "name": "vitamin",
-        "trans": [
-            "n. any of a group of organic substances essential in small quantities to normal metabolism"
-        ]
-    },
-    {
-        "name": "side effect",
-        "trans": [
-            "n. any adverse and unwanted secondary effect",
-            "n. a secondary and usually adverse effect of a drug or therapy"
-        ]
-    },
-    {
-        "name": "first-aid kit",
-        "trans": [
-            "n. kit consisting of a set of bandages and medicines for giving first aid"
-        ]
-    }
+  {
+    "name": "pulse",
+    "trans": [
+      "v. produce or modulate (as electromagnetic waves) in the form of short bursts or pulses or cause an apparatus to produce pulses",
+      "v. expand and contract rhythmically",
+      "v. drive by or as if by pulsation"
+    ]
+  },
+  {
+    "name": "take one's temperature",
+    "trans": ["survey (body) temperature"]
+  },
+  {
+    "name": "blood pressure",
+    "trans": [
+      "n. the pressure of the circulating blood against the walls of the blood vessels"
+    ]
+  },
+  {
+    "name": "have a blood analysis",
+    "trans": ["blood manner to analyze"]
+  },
+  {
+    "name": "X-Ray film",
+    "trans": ["n. X light disk"]
+  },
+  {
+    "name": "asthma",
+    "trans": ["n. respiratory disorder characterized by wheezing"]
+  },
+  {
+    "name": "heart disease",
+    "trans": ["n. a disease of the heart"]
+  },
+  {
+    "name": "obesity",
+    "trans": ["n. more than average fatness"]
+  },
+  {
+    "name": "overweight",
+    "trans": [
+      "adj. usually describes a large person who is fat but has a large frame to carry it",
+      "n. the property of excessive fatness"
+    ]
+  },
+  {
+    "name": "depression",
+    "trans": [
+      "n. pushing down",
+      "n. sad feelings of gloom and inadequacy",
+      "n. a sunken or depressed geological formation"
+    ]
+  },
+  {
+    "name": "Yellow Fever",
+    "trans": ["n. caused by a flavivirus transmitted by a mosquito"]
+  },
+  {
+    "name": "diabetes",
+    "trans": [
+      "n. a polygenic disease characterized by abnormally high glucose levels in the blood"
+    ]
+  },
+  {
+    "name": "diabetic",
+    "trans": [
+      "adj. suffering from diabetes",
+      "adj. of or relating to or causing diabetes",
+      "n. someone who has diabetes"
+    ]
+  },
+  {
+    "name": "treatment",
+    "trans": [
+      "n. care provided to improve a situation (especially medical procedures or applications that are intended to relieve illness or injury)",
+      "n. the management of someone or something",
+      "n. a manner of dealing with something artistically"
+    ]
+  },
+  {
+    "name": "remedy",
+    "trans": [
+      "v. provide relief for",
+      "v. set straight or right",
+      "n. act of correcting an error or a fault or an evil"
+    ]
+  },
+  {
+    "name": "therapy",
+    "trans": [
+      "n. (medicine) the act of caring for someone (as by medication or remedial training etc.)"
+    ]
+  },
+  {
+    "name": "massage",
+    "trans": [
+      "v. give a massage to",
+      "v. manually manipulate (someone's body), usually for medicinal or relaxation purposes",
+      "n. kneading and rubbing parts of the body to increase circulation and promote relaxation"
+    ]
+  },
+  {
+    "name": "message",
+    "trans": [
+      "v. send a message",
+      "v. send as a message",
+      "v. send a message to"
+    ]
+  },
+  {
+    "name": "acupuncture",
+    "trans": [
+      "n. treatment of pain or disease by inserting the tips of needles at specific points on the skin"
+    ]
+  },
+  {
+    "name": "operate",
+    "trans": [
+      "v. perform surgery on",
+      "v. happen",
+      "v. perform a movement in military or naval tactics in order to secure an advantage in attack or defense"
+    ]
+  },
+  {
+    "name": "vaccinate",
+    "trans": [
+      "v. to perform vaccinations or produce immunity in by inoculation"
+    ]
+  },
+  {
+    "name": "prescribe",
+    "trans": ["v. issue commands or orders for"]
+  },
+  {
+    "name": "pharmacy",
+    "trans": [
+      "n. a retail shop where medicine and other articles are sold",
+      "n. the art and science of preparing and dispensing drugs and medicines,"
+    ]
+  },
+  {
+    "name": "tablet",
+    "trans": [
+      "n. a dose of medicine in the form of a small pellet",
+      "n. a small flat compressed cake of some substance",
+      "n. a slab of stone or wood suitable for bearing an inscription"
+    ]
+  },
+  {
+    "name": "pill",
+    "trans": [
+      "n. a dose of medicine in the form of a small pellet",
+      "n. something that resembles a tablet of medicine in shape or size",
+      "n. a contraceptive in the form of a pill containing estrogen and progestin to inhibit ovulation and so prevent conception"
+    ]
+  },
+  {
+    "name": "capsule",
+    "trans": [
+      "v. to put in a short or concise form",
+      "v. to enclose in a capsule",
+      "n. a pill in the form of a small rounded gelatinous container with medicine inside"
+    ]
+  },
+  {
+    "name": "antibiotic",
+    "trans": [
+      "adj. of or relating to antibiotic drugs",
+      "n. a chemical substance derivable from a mold or bacterium that can kill microorganisms and cure bacterial infections"
+    ]
+  },
+  {
+    "name": "painkiller",
+    "trans": ["n. a medicine used to relieve pain"]
+  },
+  {
+    "name": "aspirin",
+    "trans": ["n. the acetylated derivative of salicylic acid"]
+  },
+  {
+    "name": "penicillin",
+    "trans": [
+      "n. any of various antibiotics obtained from Penicillium molds (or produced synthetically) and used in the treatment of various infections and diseases"
+    ]
+  },
+  {
+    "name": "vitamin",
+    "trans": [
+      "n. any of a group of organic substances essential in small quantities to normal metabolism"
+    ]
+  },
+  {
+    "name": "side effect",
+    "trans": [
+      "n. any adverse and unwanted secondary effect",
+      "n. a secondary and usually adverse effect of a drug or therapy"
+    ]
+  },
+  {
+    "name": "first-aid kit",
+    "trans": [
+      "n. kit consisting of a set of bandages and medicines for giving first aid"
+    ]
+  }
 ]

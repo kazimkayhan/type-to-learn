@@ -1,1371 +1,1298 @@
 [
-    {
-        "name": "accommodate",
-        "trans": [
-            "v. to make fit for, or change to suit a new purpose",
-            "v. to make one thing compatible with another",
-            "v. to provide a service or favor for someone"
-        ]
-    },
-    {
-        "name": "adverse",
-        "trans": [
-            "adj. in an opposing direction",
-            "adj. contrary to your interests or welfare"
-        ]
-    },
-    {
-        "name": "ailment",
-        "trans": [
-            "n. an often persistent bodily disorder or disease"
-        ]
-    },
-    {
-        "name": "airborne",
-        "trans": [
-            "adj. moved or conveyed by or through air"
-        ]
-    },
-    {
-        "name": "alcohol",
-        "trans": [
-            "n. a liquor or brew containing alcohol as the active agent",
-            "n. any of a series of volatile hydroxyl compounds that are made from hydrocarbons by distillation"
-        ]
-    },
-    {
-        "name": "alert",
-        "trans": [
-            "v. to warn or arouse to a sense of danger or call to a state of preparedness",
-            "adj. engaged in or accustomed to close observation",
-            "adj. mentally perceptive and responsive"
-        ]
-    },
-    {
-        "name": "alien",
-        "trans": [
-            "v. to arouse hostility or indifference in where there had formerly been love, affection, or friendliness",
-            "v. to transfer property or ownership",
-            "adj. being or from or characteristic of another place or part of the world"
-        ]
-    },
-    {
-        "name": "amass",
-        "trans": [
-            "v. to collect or gather"
-        ]
-    },
-    {
-        "name": "anxiety",
-        "trans": [
-            "n. a vague unpleasant emotion that is experienced in anticipation of some (usually ill-defined) misfortune",
-            "n. (psychiatry) a relatively permanent state of worry and nervousness occurring in a variety of mental disorders, usually accompanied by compulsive behavior or attacks of panic"
-        ]
-    },
-    {
-        "name": "approve",
-        "trans": [
-            "v. to judge to be right or commendable",
-            "v. to give sanction to"
-        ]
-    },
-    {
-        "name": "array",
-        "trans": [
-            "v. to lay out orderly or logically in a line or as if in a line",
-            "n. an arrangement of aerials spaced to give desired directional characteristics",
-            "n. especially fine or decorative clothing"
-        ]
-    },
-    {
-        "name": "authentic",
-        "trans": [
-            "adj. not counterfeit or copied",
-            "adj. conforming to fact and therefore worthy of belief"
-        ]
-    },
-    {
-        "name": "automatic",
-        "trans": [
-            "adj. operating with minimal human intervention",
-            "adj. resembling the unthinking functioning of a machine",
-            "adj. without volition or conscious control"
-        ]
-    },
-    {
-        "name": "autonomy",
-        "trans": [
-            "n. immunity from arbitrary exercise of authority: political independence",
-            "n. personal independence"
-        ]
-    },
-    {
-        "name": "beforehand",
-        "trans": [
-            "adj. being ahead of time or need",
-            "adv. ahead of time"
-        ]
-    },
-    {
-        "name": "blast",
-        "trans": [
-            "v. to shrivel, wither or mature imperfectly",
-            "v. to shatter as if by explosion",
-            "v. to criticize harshly or violently"
-        ]
-    },
-    {
-        "name": "bolt",
-        "trans": [
-            "v. to make or roll into bolts",
-            "v. to eat hastily without proper chewing",
-            "v. to swallow hastily"
-        ]
-    },
-    {
-        "name": "bother",
-        "trans": [
-            "v. to cause annoyance in",
-            "v. to make confused, perplexed, or puzzled",
-            "v. to make nervous or agitated"
-        ]
-    },
-    {
-        "name": "bound",
-        "trans": [
-            "v. to place limits on extent or access",
-            "v. to move forward by leaps and bounds",
-            "v. to form the boundary of"
-        ]
-    },
-    {
-        "name": "buffet",
-        "trans": [
-            "v. to strike, beat repeatedly",
-            "v. to strike against forcefully",
-            "n. a piece of furniture that stands at the side of a dining room"
-        ]
-    },
-    {
-        "name": "captive",
-        "trans": [
-            "adj. giving or marked by complete attention to",
-            "adj. being in captivity",
-            "n. an animal that is confined"
-        ]
-    },
-    {
-        "name": "catalogue",
-        "trans": [
-            "v. to make an itemized list or catalog of",
-            "n. a book or pamphlet containing an enumeration of things",
-            "n. a complete list of things"
-        ]
-    },
-    {
-        "name": "ceremony",
-        "trans": [
-            "n. any activity that is performed in an especially solemn elaborate or formal way",
-            "n. the proper or conventional behavior on some solemn occasion",
-            "n. a formal event performed on a special occasion"
-        ]
-    },
-    {
-        "name": "circular",
-        "trans": [
-            "adj. describing a circle",
-            "adj. having a circular shape",
-            "n. an advertisement, usually printed on a page or in a leaflet, intended for wide distribution"
-        ]
-    },
-    {
-        "name": "clarity",
-        "trans": [
-            "n. the quality of clear water",
-            "n. free from obscurity and easy to understand"
-        ]
-    },
-    {
-        "name": "classification",
-        "trans": [
-            "n. the act of distributing things into classes or categories of the same type",
-            "n. restriction imposed by the government on documents or weapons that are available only to certain authorized people",
-            "n. the basic cognitive process of arranging into classes or categories"
-        ]
-    },
-    {
-        "name": "clientele",
-        "trans": [
-            "n. customers collectively"
-        ]
-    },
-    {
-        "name": "cluster",
-        "trans": [
-            "v. to gather or cause to gather into a cluster",
-            "v. to come together as in a cluster or flock",
-            "n. a grouping of a number of similar things"
-        ]
-    },
-    {
-        "name": "commit",
-        "trans": [
-            "v. to give entirely to a specific person, activity, or cause",
-            "v. to make an investment",
-            "v. to cause to be admitted"
-        ]
-    },
-    {
-        "name": "conceal",
-        "trans": [
-            "v. to prevent from being seen or discovered",
-            "v. to hold back"
-        ]
-    },
-    {
-        "name": "concrete",
-        "trans": [
-            "v. to form into a solid mass",
-            "v. to cover with cement",
-            "adj. capable of being perceived by the senses"
-        ]
-    },
-    {
-        "name": "confidential",
-        "trans": [
-            "adj. the level of official classification for documents next above restricted and below secret",
-            "adj. denoting confidence or intimacy",
-            "adj. (of information) given in confidence or in secret"
-        ]
-    },
-    {
-        "name": "confirmation",
-        "trans": [
-            "n. a sacrament admitting a baptized person to full participation in the church",
-            "n. a ceremony held in the synagogue (usually at Pentecost) to admit as adult members of the Jewish community young men and women who have successfully completed a course of study in Judaism",
-            "n. additional proof that something that was believed (some fact or hypothesis or theory) is correct"
-        ]
-    },
-    {
-        "name": "confront",
-        "trans": [
-            "v. to deal with something unpleasant head on",
-            "v. to present somebody with something, usually to accuse or criticize",
-            "v. to oppose, as in hostility or a competition"
-        ]
-    },
-    {
-        "name": "consensus",
-        "trans": [
-            "n. agreement in the judgment or opinion reached by a group as a whole"
-        ]
-    },
-    {
-        "name": "consolidation",
-        "trans": [
-            "n. the act of combining into an integral whole",
-            "n. combining into a solid mass",
-            "n. something that has consolidated into a compact mass"
-        ]
-    },
-    {
-        "name": "constitute",
-        "trans": [
-            "v. to set up or lay the groundwork for",
-            "v. to create and charge with a task or function",
-            "v. to form or compose"
-        ]
-    },
-    {
-        "name": "consumerism",
-        "trans": [
-            "n. a movement advocating greater protection of the interests of consumers",
-            "n. the theory that an increasing consumption of goods is economically beneficial"
-        ]
-    },
-    {
-        "name": "convention",
-        "trans": [
-            "n. the act of convening",
-            "n. orthodoxy as a consequence of being conventional",
-            "n. something regarded as a normative example"
-        ]
-    },
-    {
-        "name": "correspond",
-        "trans": [
-            "v. to exchange messages",
-            "v. to be equivalent or parallel, in mathematics",
-            "v. to be compatible, similar or consistent"
-        ]
-    },
-    {
-        "name": "craft",
-        "trans": [
-            "v. to make by hand and with much skill",
-            "n. the skilled practice of a practical occupation",
-            "n. a vehicle designed for navigation in or on water or air or through outer space"
-        ]
-    },
-    {
-        "name": "criterion",
-        "trans": [
-            "n. the ideal in terms of which something can be judged",
-            "n. a basis for comparison"
-        ]
-    },
-    {
-        "name": "curiosity",
-        "trans": [
-            "n. something unusual -- perhaps worthy of collecting",
-            "n. a state in which you want to learn more about something"
-        ]
-    },
-    {
-        "name": "cushion",
-        "trans": [
-            "v. to protect from impact",
-            "n. a soft bag filled with air or a mass of padding such as feathers or foam rubber etc.",
-            "n. the layer of air that supports a hovercraft or similar vehicle"
-        ]
-    },
-    {
-        "name": "deadly",
-        "trans": [
-            "adj. (of a disease) having a rapid course and violent effect",
-            "adj. causing or capable of causing death",
-            "adj. of an instrument of certain death"
-        ]
-    },
-    {
-        "name": "deliberately",
-        "trans": [
-            "adv. with intention",
-            "adv. in a deliberate unhurried manner"
-        ]
-    },
-    {
-        "name": "delicate",
-        "trans": [
-            "adj. exquisitely fine and subtle and pleasing",
-            "adj. easily broken or damaged or destroyed",
-            "adj. difficult to handle"
-        ]
-    },
-    {
-        "name": "digest",
-        "trans": [
-            "v. soften or disintegrate by means of chemical action, heat, or moisture",
-            "v. make more concise",
-            "v. soften or disintegrate, as by undergoing exposure to heat or moisture"
-        ]
-    },
-    {
-        "name": "discrepancy",
-        "trans": [
-            "n. a difference between conflicting facts or claims or opinions",
-            "n. an event that departs from expectations"
-        ]
-    },
-    {
-        "name": "dismiss",
-        "trans": [
-            "v. declare void",
-            "v. rid of attention or consideration",
-            "v. cease to consider"
-        ]
-    },
-    {
-        "name": "dispense",
-        "trans": [
-            "v. give or apply (medications)",
-            "v. administer or bestow, as in small portions",
-            "v. grant a dispensation"
-        ]
-    },
-    {
-        "name": "displace",
-        "trans": [
-            "v. cause to move or shift into a new position or place, both in a concrete and in an abstract sense",
-            "v. cause to move, usually with force or pressure",
-            "v. terminate the employment of"
-        ]
-    },
-    {
-        "name": "district",
-        "trans": [
-            "v. regulate housing in",
-            "n. a region marked off for administrative or other purposes"
-        ]
-    },
-    {
-        "name": "drain",
-        "trans": [
-            "v. make weak",
-            "v. empty of liquid",
-            "v. deplete of resources"
-        ]
-    },
-    {
-        "name": "duplicate",
-        "trans": [
-            "v. increase twofold",
-            "v. make or do or perform again",
-            "v. make a duplicate or duplicates of"
-        ]
-    },
-    {
-        "name": "dweller",
-        "trans": [
-            "n. a person who inhabits a particular place"
-        ]
-    },
-    {
-        "name": "emit",
-        "trans": [
-            "v. express audibly",
-            "v. give off, send forth, or discharge",
-            "v. expel (gases or odors)"
-        ]
-    },
-    {
-        "name": "enclose",
-        "trans": [
-            "v. introduce",
-            "v. enclose or enfold completely with or as if with a covering",
-            "v. surround completely"
-        ]
-    },
-    {
-        "name": "erect",
-        "trans": [
-            "v. construct, build, or erect",
-            "v. cause to rise up",
-            "adj. of sexual organs"
-        ]
-    },
-    {
-        "name": "evident",
-        "trans": [
-            "adj. capable of being seen or noticed",
-            "adj. clearly revealed to the mind or the senses or judgment"
-        ]
-    },
-    {
-        "name": "exaggerate",
-        "trans": [
-            "v. to enlarge beyond bounds or the truth",
-            "v. do something to an excessive degree"
-        ]
-    },
-    {
-        "name": "excess",
-        "trans": [
-            "adj. more than is needed, desired, or required",
-            "n. excessive indulgence",
-            "n. immoderation as a consequence of going beyond sufficient or permitted limits"
-        ]
-    },
-    {
-        "name": "exert",
-        "trans": [
-            "v. put to use",
-            "v. have and exercise",
-            "v. make a great effort at a mental or physical task"
-        ]
-    },
-    {
-        "name": "explicit",
-        "trans": [
-            "adj. precisely and clearly expressed or readily observable",
-            "adj. in accordance with fact or the primary meaning of a term"
-        ]
-    },
-    {
-        "name": "faith",
-        "trans": [
-            "n. loyalty or allegiance to a cause or a person",
-            "n. complete confidence in a thing",
-            "n. a strong belief in a supernatural power or powers that control human destiny"
-        ]
-    },
-    {
-        "name": "fantastic",
-        "trans": [
-            "adj. ludicrously odd",
-            "adj. extraordinarily good or great",
-            "adj. extravagantly fanciful in design, construction, appearance"
-        ]
-    },
-    {
-        "name": "fare",
-        "trans": [
-            "v. eat well",
-            "v. proceed or get along",
-            "n. an agenda of things to do"
-        ]
-    },
-    {
-        "name": "fascinating",
-        "trans": [
-            "adj. capturing interest as if by a spell",
-            "adj. capable of arousing and holding the attention"
-        ]
-    },
-    {
-        "name": "feat",
-        "trans": [
-            "n. a notable achievement"
-        ]
-    },
-    {
-        "name": "fertile",
-        "trans": [
-            "adj. capable of reproducing",
-            "adj. marked by great fruitfulness",
-            "adj. bearing in abundance especially offspring"
-        ]
-    },
-    {
-        "name": "fluid",
-        "trans": [
-            "adj. subject to change",
-            "adj. affording change (especially in social status)",
-            "adj. in cash or easily convertible to cash"
-        ]
-    },
-    {
-        "name": "fragment",
-        "trans": [
-            "v. break or cause to break into pieces",
-            "n. a broken piece of a brittle artifact",
-            "n. an incomplete piece"
-        ]
-    },
-    {
-        "name": "galaxy",
-        "trans": [
-            "n. a splendid assemblage (especially of famous people)",
-            "n. a collection of star systems",
-            "n. tufted evergreen perennial herb having spikes of tiny white flowers and glossy green round to heart-shaped leaves that become coppery to maroon or purplish in fall"
-        ]
-    },
-    {
-        "name": "genre",
-        "trans": [
-            "n. a class of art (or artistic endeavor) having a characteristic form or technique",
-            "n. a kind of literary or artistic work",
-            "n. an expressive style of music"
-        ]
-    },
-    {
-        "name": "glow",
-        "trans": [
-            "v. experience a feeling of well-being or happiness, as from good health or an intense emotion",
-            "v. be exuberant or high-spirited",
-            "v. emit a steady even light without flames"
-        ]
-    },
-    {
-        "name": "glue",
-        "trans": [
-            "v. be fixed as if by glue",
-            "v. join or attach with or as if with glue",
-            "n. cement consisting of a sticky substance that is used as an adhesive"
-        ]
-    },
-    {
-        "name": "govern",
-        "trans": [
-            "v. direct or strongly influence the behavior of",
-            "v. bring into conformity with rules or principles or usage",
-            "v. exercise authority over"
-        ]
-    },
-    {
-        "name": "grand",
-        "trans": [
-            "adj. used of a person's appearance or behavior",
-            "adj. the most important and magnificent in adornment",
-            "adj. of behavior that is impressive and ambitious in scale or scope"
-        ]
-    },
-    {
-        "name": "handout",
-        "trans": [
-            "n. giving money or food or clothing to a needy person",
-            "n. an announcement distributed to members of the press in order to supplement or replace an oral presentation"
-        ]
-    },
-    {
-        "name": "harden",
-        "trans": [
-            "v. cause to accept or become hardened to",
-            "v. make fit",
-            "v. harden by reheating and cooling in oil"
-        ]
-    },
-    {
-        "name": "hemisphere",
-        "trans": [
-            "n. either half of the cerebrum",
-            "n. half of the terrestrial globe",
-            "n. half of a sphere"
-        ]
-    },
-    {
-        "name": "hospitality",
-        "trans": [
-            "n. kindness in welcoming guests or strangers"
-        ]
-    },
-    {
-        "name": "humpback",
-        "trans": [
-            "n. large whalebone whale with long flippers noted for arching or humping its back as it dives",
-            "n. a person whose back is hunched because of abnormal curvature of the upper spine",
-            "n. an abnormal backward curve to the vertebral column"
-        ]
-    },
-    {
-        "name": "identification",
-        "trans": [
-            "n. the act of designating or identifying something",
-            "n. the attribution to yourself (consciously or unconsciously) of the characteristics of another person (or group of persons)",
-            "n. the process of recognizing something or someone by remembering"
-        ]
-    },
-    {
-        "name": "imagery",
-        "trans": [
-            "n. the ability to form mental images of things or events"
-        ]
-    },
-    {
-        "name": "immense",
-        "trans": [
-            "adj. unusually great in size or amount or degree or especially extent or scope"
-        ]
-    },
-    {
-        "name": "impair",
-        "trans": [
-            "v. make worse or less effective",
-            "v. make imperfect"
-        ]
-    },
-    {
-        "name": "inevitable",
-        "trans": [
-            "adj. incapable of being avoided or prevented",
-            "adj. invariably occurring or appearing",
-            "n. an unavoidable event"
-        ]
-    },
-    {
-        "name": "informative",
-        "trans": [
-            "adj. providing or conveying information",
-            "adj. serving to instruct or enlighten or inform",
-            "adj. tending to increase knowledge or dissipate ignorance"
-        ]
-    },
-    {
-        "name": "inspection",
-        "trans": [
-            "n. a formal or official examination"
-        ]
-    },
-    {
-        "name": "instinct",
-        "trans": [
-            "adj. (followed by `with')deeply filled or permeated",
-            "n. inborn pattern of behavior often responsive to specific stimuli"
-        ]
-    },
-    {
-        "name": "intact",
-        "trans": [
-            "adj. constituting the undiminished entirety",
-            "adj. undamaged in any way",
-            "adj. having the hymen unbroken"
-        ]
-    },
-    {
-        "name": "intention",
-        "trans": [
-            "n. an act of intending",
-            "n. an anticipated outcome that is intended or that guides your planned actions",
-            "n. usually plural, the goal with respect to a marriage proposal"
-        ]
-    },
-    {
-        "name": "intersection",
-        "trans": [
-            "n. the act of intersecting (as joining by causing your path to intersect your target's path)",
-            "n. a junction where one street or road crosses another",
-            "n. a representation of common ground between theories or phenomena"
-        ]
-    },
-    {
-        "name": "kit",
-        "trans": [
-            "v. supply with a set of articles or tools",
-            "n. young of any of various fur-bearing animals",
-            "n. gear consisting of a set of articles or tools for a specified purpose"
-        ]
-    },
-    {
-        "name": "licence",
-        "trans": [
-            "v. authorize officially",
-            "n. a legal document giving official permission to do something",
-            "n. freedom to deviate deliberately from normally applicable rules or practices (especially in behavior or speech)"
-        ]
-    },
-    {
-        "name": "limitation",
-        "trans": [
-            "n. an act of limiting or restricting (as by regulation)",
-            "n. the quality of being limited or restricted",
-            "n. a principle that limits the extent of something"
-        ]
-    },
-    {
-        "name": "lobby",
-        "trans": [
-            "v. detain in conversation by or as if by holding on to the outer garments of",
-            "n. a large entrance or reception room or area",
-            "n. a group of people who try actively to influence legislation"
-        ]
-    },
-    {
-        "name": "logo",
-        "trans": [
-            "n. a company emblem or device"
-        ]
-    },
-    {
-        "name": "loose",
-        "trans": [
-            "v. become loose or looser or less tight",
-            "v. make loose or looser",
-            "v. turn loose or free from restraint"
-        ]
-    },
-    {
-        "name": "marvellous",
-        "trans": [
-            "adj. too improbable to admit of belief",
-            "adj. being or having the character of a miracle",
-            "adj. extraordinarily good or great"
-        ]
-    },
-    {
-        "name": "metropolitan",
-        "trans": [
-            "adj. relating to or characteristic of a metropolis",
-            "n. a person who lives in a metropolis",
-            "n. in the Eastern Orthodox Church this title is given to a position between bishop and patriarch"
-        ]
-    },
-    {
-        "name": "mitigate",
-        "trans": [
-            "v. make less severe or harsh",
-            "v. lessen or to try to lessen the seriousness or extent of"
-        ]
-    },
-    {
-        "name": "moisture",
-        "trans": [
-            "n. wetness caused by water"
-        ]
-    },
-    {
-        "name": "multiple",
-        "trans": [
-            "adj. having or involving or consisting of more than one part or entity or individual",
-            "n. the product of a quantity by an integer"
-        ]
-    },
-    {
-        "name": "norm",
-        "trans": [
-            "n. a statistic describing the location of a distribution",
-            "n. a standard or model or pattern regarded as typical"
-        ]
-    },
-    {
-        "name": "nourish",
-        "trans": [
-            "v. provide with nourishment",
-            "v. give nourishment to"
-        ]
-    },
-    {
-        "name": "obligation",
-        "trans": [
-            "n. the social force that binds you to the courses of action demanded by that force",
-            "n. a legal agreement specifying a payment or action and the penalty for failure to comply",
-            "n. a written promise to repay a debt"
-        ]
-    },
-    {
-        "name": "officially",
-        "trans": [
-            "adv. in an official role",
-            "adv. with official authorization"
-        ]
-    },
-    {
-        "name": "opt",
-        "trans": [
-            "v. select as an alternative over another"
-        ]
-    },
-    {
-        "name": "originate",
-        "trans": [
-            "v. bring into being",
-            "v. come into existence",
-            "v. begin a trip at a certain point, as of a plane, train, bus, etc."
-        ]
-    },
-    {
-        "name": "overhead",
-        "trans": [
-            "adj. located or originating from above",
-            "adv. above the head",
-            "adv. above your head"
-        ]
-    },
-    {
-        "name": "overlap",
-        "trans": [
-            "v. coincide partially or wholly",
-            "v. extend over and cover a part of",
-            "n. a flap that lies over another part"
-        ]
-    },
-    {
-        "name": "overview",
-        "trans": [
-            "n. a general summary of a subject"
-        ]
-    },
-    {
-        "name": "passport",
-        "trans": [
-            "n. any quality or characteristic that gains a person a favorable reception or acceptance or admission",
-            "n. a document issued by a country to a citizen allowing that person to travel abroad and re-enter the home country",
-            "n. any authorization to pass or go somewhere"
-        ]
-    },
-    {
-        "name": "pat",
-        "trans": [
-            "v. hit lightly",
-            "v. pat or squeeze fondly or playfully, especially under the chin",
-            "adj. exactly suited to the occasion"
-        ]
-    },
-    {
-        "name": "patent",
-        "trans": [
-            "v. make open to sight or notice",
-            "v. obtain a patent for",
-            "v. grant rights to"
-        ]
-    },
-    {
-        "name": "payable",
-        "trans": [
-            "adj. subject to or requiring payment especially as specified",
-            "n. a liability account showing how much is owed for goods and services purchased on credit"
-        ]
-    },
-    {
-        "name": "persuade",
-        "trans": [
-            "v. cause somebody to adopt a certain position, belief, or course of action",
-            "v. win approval or support for"
-        ]
-    },
-    {
-        "name": "photography",
-        "trans": [
-            "n. the occupation of taking and printing photographs or making movies",
-            "n. the act of taking and printing photographs",
-            "n. the process of producing images of objects on photosensitive surfaces"
-        ]
-    },
-    {
-        "name": "pitched",
-        "trans": [
-            "adj. set at a slant",
-            "adj. (of sound) set to a certain pitch or key"
-        ]
-    },
-    {
-        "name": "plantation",
-        "trans": [
-            "n. garden consisting of a small cultivated wood without undergrowth",
-            "n. an estate where cash crops are grown on a large scale, especially in tropical areas"
-        ]
-    },
-    {
-        "name": "plot",
-        "trans": [
-            "v. plan secretly, usually something illegal",
-            "v. make a plat of",
-            "v. devise the sequence of events in (a literary work or a play, movie, or ballet)"
-        ]
-    },
-    {
-        "name": "prefrontal",
-        "trans": [
-            "adj. anterior to a frontal structure"
-        ]
-    },
-    {
-        "name": "prehistoric",
-        "trans": [
-            "adj. no longer fashionable",
-            "adj. belonging to or existing in times before recorded history",
-            "adj. of or relating to times before written history"
-        ]
-    },
-    {
-        "name": "preservation",
-        "trans": [
-            "n. the activity of protecting something from loss or danger",
-            "n. an occurrence of improvement by virtue of preventing loss or injury or other change",
-            "n. a process that saves organic substances from decay"
-        ]
-    },
-    {
-        "name": "proceed",
-        "trans": [
-            "v. follow a certain course",
-            "v. continue talking",
-            "v. move ahead"
-        ]
-    },
-    {
-        "name": "profound",
-        "trans": [
-            "adj. situated at or extending to great depth",
-            "adj. (of sleep) deep and complete",
-            "adj. coming from deep within one"
-        ]
-    },
-    {
-        "name": "prolong",
-        "trans": [
-            "v. lengthen in time",
-            "v. lengthen or extend in duration or space"
-        ]
-    },
-    {
-        "name": "punishment",
-        "trans": [
-            "n. the act of punishing"
-        ]
-    },
-    {
-        "name": "recruit",
-        "trans": [
-            "v. cause to assemble or enlist in the military",
-            "v. seek to employ",
-            "v. register formally as a participant or member"
-        ]
-    },
-    {
-        "name": "refund",
-        "trans": [
-            "v. pay back",
-            "n. the act of returning money received previously",
-            "n. money returned to a payer"
-        ]
-    },
-    {
-        "name": "relevance",
-        "trans": [
-            "n. the relation of something to the matter at hand"
-        ]
-    },
-    {
-        "name": "relief",
-        "trans": [
-            "n. the act of reducing something unpleasant",
-            "n. the act of freeing a city or town that has been besieged",
-            "n. aid for the aged or indigent or handicapped"
-        ]
-    },
-    {
-        "name": "reluctant",
-        "trans": [
-            "adj. not eager",
-            "adj. disinclined to become involved",
-            "adj. unwillingness to do something contrary to your custom"
-        ]
-    },
-    {
-        "name": "renewed",
-        "trans": [
-            "adj. restored to a new condition"
-        ]
-    },
-    {
-        "name": "reproduce",
-        "trans": [
-            "v. have offspring or produce more individuals of a given animal or plant",
-            "v. repeat after memorization",
-            "v. make a copy or equivalent of"
-        ]
-    },
-    {
-        "name": "rigorous",
-        "trans": [
-            "adj. demanding strict attention to rules and procedures",
-            "adj. rigidly accurate"
-        ]
-    },
-    {
-        "name": "ritual",
-        "trans": [
-            "adj. of or relating to or employed in social rites or rituals",
-            "adj. of or relating to or characteristic of religious rituals",
-            "n. stereotyped behavior"
-        ]
-    },
-    {
-        "name": "routine",
-        "trans": [
-            "adj. found in the ordinary course of events",
-            "n. an unvarying or habitual method or procedure",
-            "n. a set sequence of steps, part of larger computer program"
-        ]
-    },
-    {
-        "name": "sail",
-        "trans": [
-            "v. travel on water propelled by wind or by other means",
-            "v. traverse or travel on (a body of water)",
-            "v. move with sweeping, effortless, gliding motions"
-        ]
-    },
-    {
-        "name": "salespeople",
-        "trans": [
-            "n. sales clerk, shop assistant"
-        ]
-    },
-    {
-        "name": "scarce",
-        "trans": [
-            "adj. deficient in quantity or number compared with the demand",
-            "adv. only a very short time before"
-        ]
-    },
-    {
-        "name": "scholar",
-        "trans": [
-            "n. someone (especially a child) who learns (as from a teacher) or takes up knowledge or beliefs",
-            "n. a learned person (especially in the humanities)",
-            "n. a student who holds a scholarship"
-        ]
-    },
-    {
-        "name": "semantic",
-        "trans": [
-            "adj. of or relating to meaning or the study of meaning"
-        ]
-    },
-    {
-        "name": "serial",
-        "trans": [
-            "adj. in regular succession without gaps",
-            "adj. of or relating to the sequential performance of multiple operations",
-            "adj. pertaining to or occurring in or producing a series"
-        ]
-    },
-    {
-        "name": "shatter",
-        "trans": [
-            "v. break into many pieces",
-            "v. cause to break into many pieces",
-            "v. damage or destroy"
-        ]
-    },
-    {
-        "name": "shelf",
-        "trans": [
-            "n. a support that consists of a horizontal surface for holding objects",
-            "n. a projecting ridge on a mountain or submerged under water"
-        ]
-    },
-    {
-        "name": "silt",
-        "trans": [
-            "v. become chocked with silt",
-            "n. mud or clay or small rocks deposited by a river or lake"
-        ]
-    },
-    {
-        "name": "soar",
-        "trans": [
-            "v. go or move upward",
-            "v. fly a plane without an engine",
-            "v. fly upwards or high in the sky"
-        ]
-    },
-    {
-        "name": "split",
-        "trans": [
-            "v. come open suddenly and violently, as if from internal pressure",
-            "v. separate or cut with a tool, such as a sharp instrument",
-            "v. go one's own way"
-        ]
-    },
-    {
-        "name": "squash",
-        "trans": [
-            "v. to compress with violence, out of natural shape or condition",
-            "n. a game played in an enclosed court by two or four players who strike the ball with long-handled rackets",
-            "n. edible fruit of a squash plant"
-        ]
-    },
-    {
-        "name": "squeeze",
-        "trans": [
-            "v. squeeze or press together",
-            "v. squeeze (someone) tightly in your arms, usually with fondness",
-            "v. press firmly"
-        ]
-    },
-    {
-        "name": "stack",
-        "trans": [
-            "v. arrange the order of so as to increase one's winning chances",
-            "v. arrange in stacks",
-            "v. load or cover with stacks"
-        ]
-    },
-    {
-        "name": "stomach",
-        "trans": [
-            "v. put up with something or somebody unpleasant",
-            "v. bear to eat",
-            "n. an enlarged and muscular saclike organ of the alimentary canal"
-        ]
-    },
-    {
-        "name": "straightforward",
-        "trans": [
-            "adj. pointed directly ahead",
-            "adj. without evasion or compromise",
-            "adj. free from ambiguity"
-        ]
-    },
-    {
-        "name": "strain",
-        "trans": [
-            "v. cause to be tense and uneasy or nervous or anxious",
-            "v. alter the shape of (something) by stress",
-            "v. to exert much effort or energy"
-        ]
-    },
-    {
-        "name": "sudden",
-        "trans": [
-            "adj. happening without warning or in a short space of time"
-        ]
-    },
-    {
-        "name": "sufferer",
-        "trans": [
-            "n. one who suffers for the sake of principle",
-            "n. a person suffering from an illness"
-        ]
-    },
-    {
-        "name": "surge",
-        "trans": [
-            "v. see one's performance improve",
-            "v. rise or heave upward under the influence of a natural force such as a wave",
-            "v. rise or move forward"
-        ]
-    },
-    {
-        "name": "sustain",
-        "trans": [
-            "v. undergo, as of injuries and illnesses",
-            "v. establish or strengthen as with new evidence or facts",
-            "v. admit as valid"
-        ]
-    },
-    {
-        "name": "symptom",
-        "trans": [
-            "n. anything that accompanies X and is regarded as an indication of X's existence",
-            "n. (medicine) any sensation or change in bodily function that is experienced by a patient and is associated with a particular disease"
-        ]
-    },
-    {
-        "name": "tackle",
-        "trans": [
-            "v. seize and throw down an opponent player, who usually carries the ball",
-            "v. put a harness",
-            "v. accept as a challenge"
-        ]
-    },
-    {
-        "name": "texture",
-        "trans": [
-            "n. the physical composition of something, especially with respect to the size and shape of the small constituents of a substance",
-            "n. the feel of a surface or a fabric",
-            "n. the characteristic appearance of a surface having a tactile quality"
-        ]
-    },
-    {
-        "name": "topsoil",
-        "trans": [
-            "n. the layer of soil on the surface"
-        ]
-    },
-    {
-        "name": "trance",
-        "trans": [
-            "v. attract",
-            "n. a state of mind in which consciousness is fragile and voluntary action is poor or missing",
-            "n. a psychological state induced by (or as if induced by) a magical incantation"
-        ]
-    },
-    {
-        "name": "transmit",
-        "trans": [
-            "v. broadcast over the airwaves, as in radio or television",
-            "v. send from one person or place to another",
-            "v. transmit or serve as the medium for transmission"
-        ]
-    },
-    {
-        "name": "transparent",
-        "trans": [
-            "adj. transmitting light",
-            "adj. easily understood or seen through (because of a lack of subtlety)",
-            "adj. free of deceit"
-        ]
-    },
-    {
-        "name": "triple",
-        "trans": [
-            "v. increase threefold",
-            "v. hit a three-base hit",
-            "adj. having three units or components or elements"
-        ]
-    },
-    {
-        "name": "tune",
-        "trans": [
-            "v. adjust the pitches of musical instruments",
-            "v. adjust for (better) functioning",
-            "n. the adjustment of a radio receiver or other circuit to a required frequency"
-        ]
-    },
-    {
-        "name": "ultimate",
-        "trans": [
-            "adj. being the last or concluding element of a series",
-            "adj. furthest or highest in degree or order",
-            "n. the finest or most superior quality of its kind"
-        ]
-    },
-    {
-        "name": "unbiased",
-        "trans": [
-            "adj. without bias",
-            "adj. characterized by a lack of partiality"
-        ]
-    },
-    {
-        "name": "undergo",
-        "trans": [
-            "v. pass through"
-        ]
-    },
-    {
-        "name": "undermine",
-        "trans": [
-            "v. hollow out as if making a cave or opening",
-            "v. destroy property or hinder normal operations"
-        ]
-    },
-    {
-        "name": "unprecedented",
-        "trans": [
-            "adj. having no precedent"
-        ]
-    },
-    {
-        "name": "update",
-        "trans": [
-            "v. modernize or bring up to date",
-            "v. bring to the latest state of technology",
-            "v. bring up to date"
-        ]
-    },
-    {
-        "name": "utilise",
-        "trans": [
-            "v. put into service"
-        ]
-    },
-    {
-        "name": "viable",
-        "trans": [
-            "adj. capable of life or normal growth and development",
-            "adj. capable of being done with means at hand and circumstances as they are"
-        ]
-    },
-    {
-        "name": "vigilance",
-        "trans": [
-            "n. vigilant attentiveness",
-            "n. the process of paying close and continuous attention"
-        ]
-    },
-    {
-        "name": "violence",
-        "trans": [
-            "n. an act of aggression, as one against a person who resists",
-            "n. the property of being wild or turbulent",
-            "n. a turbulent state resulting in injuries and destruction etc."
-        ]
-    },
-    {
-        "name": "weave",
-        "trans": [
-            "v. interlace by or as if by weaving",
-            "v. create a piece of cloth by interlacing strands of fabric, such as wool or cotton",
-            "v. sway to and fro"
-        ]
-    },
-    {
-        "name": "wreck",
-        "trans": [
-            "v. smash or break forcefully",
-            "n. a ship that has been destroyed at sea",
-            "n. a serious accident (usually involving one or more vehicles)"
-        ]
-    },
-    {
-        "name": "yacht",
-        "trans": [
-            "v. travel in a yacht",
-            "n. an expensive vessel propelled by sail or power and used for cruising or racing"
-        ]
-    }
+  {
+    "name": "accommodate",
+    "trans": [
+      "v. to make fit for, or change to suit a new purpose",
+      "v. to make one thing compatible with another",
+      "v. to provide a service or favor for someone"
+    ]
+  },
+  {
+    "name": "adverse",
+    "trans": [
+      "adj. in an opposing direction",
+      "adj. contrary to your interests or welfare"
+    ]
+  },
+  {
+    "name": "ailment",
+    "trans": ["n. an often persistent bodily disorder or disease"]
+  },
+  {
+    "name": "airborne",
+    "trans": ["adj. moved or conveyed by or through air"]
+  },
+  {
+    "name": "alcohol",
+    "trans": [
+      "n. a liquor or brew containing alcohol as the active agent",
+      "n. any of a series of volatile hydroxyl compounds that are made from hydrocarbons by distillation"
+    ]
+  },
+  {
+    "name": "alert",
+    "trans": [
+      "v. to warn or arouse to a sense of danger or call to a state of preparedness",
+      "adj. engaged in or accustomed to close observation",
+      "adj. mentally perceptive and responsive"
+    ]
+  },
+  {
+    "name": "alien",
+    "trans": [
+      "v. to arouse hostility or indifference in where there had formerly been love, affection, or friendliness",
+      "v. to transfer property or ownership",
+      "adj. being or from or characteristic of another place or part of the world"
+    ]
+  },
+  {
+    "name": "amass",
+    "trans": ["v. to collect or gather"]
+  },
+  {
+    "name": "anxiety",
+    "trans": [
+      "n. a vague unpleasant emotion that is experienced in anticipation of some (usually ill-defined) misfortune",
+      "n. (psychiatry) a relatively permanent state of worry and nervousness occurring in a variety of mental disorders, usually accompanied by compulsive behavior or attacks of panic"
+    ]
+  },
+  {
+    "name": "approve",
+    "trans": [
+      "v. to judge to be right or commendable",
+      "v. to give sanction to"
+    ]
+  },
+  {
+    "name": "array",
+    "trans": [
+      "v. to lay out orderly or logically in a line or as if in a line",
+      "n. an arrangement of aerials spaced to give desired directional characteristics",
+      "n. especially fine or decorative clothing"
+    ]
+  },
+  {
+    "name": "authentic",
+    "trans": [
+      "adj. not counterfeit or copied",
+      "adj. conforming to fact and therefore worthy of belief"
+    ]
+  },
+  {
+    "name": "automatic",
+    "trans": [
+      "adj. operating with minimal human intervention",
+      "adj. resembling the unthinking functioning of a machine",
+      "adj. without volition or conscious control"
+    ]
+  },
+  {
+    "name": "autonomy",
+    "trans": [
+      "n. immunity from arbitrary exercise of authority: political independence",
+      "n. personal independence"
+    ]
+  },
+  {
+    "name": "beforehand",
+    "trans": ["adj. being ahead of time or need", "adv. ahead of time"]
+  },
+  {
+    "name": "blast",
+    "trans": [
+      "v. to shrivel, wither or mature imperfectly",
+      "v. to shatter as if by explosion",
+      "v. to criticize harshly or violently"
+    ]
+  },
+  {
+    "name": "bolt",
+    "trans": [
+      "v. to make or roll into bolts",
+      "v. to eat hastily without proper chewing",
+      "v. to swallow hastily"
+    ]
+  },
+  {
+    "name": "bother",
+    "trans": [
+      "v. to cause annoyance in",
+      "v. to make confused, perplexed, or puzzled",
+      "v. to make nervous or agitated"
+    ]
+  },
+  {
+    "name": "bound",
+    "trans": [
+      "v. to place limits on extent or access",
+      "v. to move forward by leaps and bounds",
+      "v. to form the boundary of"
+    ]
+  },
+  {
+    "name": "buffet",
+    "trans": [
+      "v. to strike, beat repeatedly",
+      "v. to strike against forcefully",
+      "n. a piece of furniture that stands at the side of a dining room"
+    ]
+  },
+  {
+    "name": "captive",
+    "trans": [
+      "adj. giving or marked by complete attention to",
+      "adj. being in captivity",
+      "n. an animal that is confined"
+    ]
+  },
+  {
+    "name": "catalogue",
+    "trans": [
+      "v. to make an itemized list or catalog of",
+      "n. a book or pamphlet containing an enumeration of things",
+      "n. a complete list of things"
+    ]
+  },
+  {
+    "name": "ceremony",
+    "trans": [
+      "n. any activity that is performed in an especially solemn elaborate or formal way",
+      "n. the proper or conventional behavior on some solemn occasion",
+      "n. a formal event performed on a special occasion"
+    ]
+  },
+  {
+    "name": "circular",
+    "trans": [
+      "adj. describing a circle",
+      "adj. having a circular shape",
+      "n. an advertisement, usually printed on a page or in a leaflet, intended for wide distribution"
+    ]
+  },
+  {
+    "name": "clarity",
+    "trans": [
+      "n. the quality of clear water",
+      "n. free from obscurity and easy to understand"
+    ]
+  },
+  {
+    "name": "classification",
+    "trans": [
+      "n. the act of distributing things into classes or categories of the same type",
+      "n. restriction imposed by the government on documents or weapons that are available only to certain authorized people",
+      "n. the basic cognitive process of arranging into classes or categories"
+    ]
+  },
+  {
+    "name": "clientele",
+    "trans": ["n. customers collectively"]
+  },
+  {
+    "name": "cluster",
+    "trans": [
+      "v. to gather or cause to gather into a cluster",
+      "v. to come together as in a cluster or flock",
+      "n. a grouping of a number of similar things"
+    ]
+  },
+  {
+    "name": "commit",
+    "trans": [
+      "v. to give entirely to a specific person, activity, or cause",
+      "v. to make an investment",
+      "v. to cause to be admitted"
+    ]
+  },
+  {
+    "name": "conceal",
+    "trans": ["v. to prevent from being seen or discovered", "v. to hold back"]
+  },
+  {
+    "name": "concrete",
+    "trans": [
+      "v. to form into a solid mass",
+      "v. to cover with cement",
+      "adj. capable of being perceived by the senses"
+    ]
+  },
+  {
+    "name": "confidential",
+    "trans": [
+      "adj. the level of official classification for documents next above restricted and below secret",
+      "adj. denoting confidence or intimacy",
+      "adj. (of information) given in confidence or in secret"
+    ]
+  },
+  {
+    "name": "confirmation",
+    "trans": [
+      "n. a sacrament admitting a baptized person to full participation in the church",
+      "n. a ceremony held in the synagogue (usually at Pentecost) to admit as adult members of the Jewish community young men and women who have successfully completed a course of study in Judaism",
+      "n. additional proof that something that was believed (some fact or hypothesis or theory) is correct"
+    ]
+  },
+  {
+    "name": "confront",
+    "trans": [
+      "v. to deal with something unpleasant head on",
+      "v. to present somebody with something, usually to accuse or criticize",
+      "v. to oppose, as in hostility or a competition"
+    ]
+  },
+  {
+    "name": "consensus",
+    "trans": [
+      "n. agreement in the judgment or opinion reached by a group as a whole"
+    ]
+  },
+  {
+    "name": "consolidation",
+    "trans": [
+      "n. the act of combining into an integral whole",
+      "n. combining into a solid mass",
+      "n. something that has consolidated into a compact mass"
+    ]
+  },
+  {
+    "name": "constitute",
+    "trans": [
+      "v. to set up or lay the groundwork for",
+      "v. to create and charge with a task or function",
+      "v. to form or compose"
+    ]
+  },
+  {
+    "name": "consumerism",
+    "trans": [
+      "n. a movement advocating greater protection of the interests of consumers",
+      "n. the theory that an increasing consumption of goods is economically beneficial"
+    ]
+  },
+  {
+    "name": "convention",
+    "trans": [
+      "n. the act of convening",
+      "n. orthodoxy as a consequence of being conventional",
+      "n. something regarded as a normative example"
+    ]
+  },
+  {
+    "name": "correspond",
+    "trans": [
+      "v. to exchange messages",
+      "v. to be equivalent or parallel, in mathematics",
+      "v. to be compatible, similar or consistent"
+    ]
+  },
+  {
+    "name": "craft",
+    "trans": [
+      "v. to make by hand and with much skill",
+      "n. the skilled practice of a practical occupation",
+      "n. a vehicle designed for navigation in or on water or air or through outer space"
+    ]
+  },
+  {
+    "name": "criterion",
+    "trans": [
+      "n. the ideal in terms of which something can be judged",
+      "n. a basis for comparison"
+    ]
+  },
+  {
+    "name": "curiosity",
+    "trans": [
+      "n. something unusual -- perhaps worthy of collecting",
+      "n. a state in which you want to learn more about something"
+    ]
+  },
+  {
+    "name": "cushion",
+    "trans": [
+      "v. to protect from impact",
+      "n. a soft bag filled with air or a mass of padding such as feathers or foam rubber etc.",
+      "n. the layer of air that supports a hovercraft or similar vehicle"
+    ]
+  },
+  {
+    "name": "deadly",
+    "trans": [
+      "adj. (of a disease) having a rapid course and violent effect",
+      "adj. causing or capable of causing death",
+      "adj. of an instrument of certain death"
+    ]
+  },
+  {
+    "name": "deliberately",
+    "trans": ["adv. with intention", "adv. in a deliberate unhurried manner"]
+  },
+  {
+    "name": "delicate",
+    "trans": [
+      "adj. exquisitely fine and subtle and pleasing",
+      "adj. easily broken or damaged or destroyed",
+      "adj. difficult to handle"
+    ]
+  },
+  {
+    "name": "digest",
+    "trans": [
+      "v. soften or disintegrate by means of chemical action, heat, or moisture",
+      "v. make more concise",
+      "v. soften or disintegrate, as by undergoing exposure to heat or moisture"
+    ]
+  },
+  {
+    "name": "discrepancy",
+    "trans": [
+      "n. a difference between conflicting facts or claims or opinions",
+      "n. an event that departs from expectations"
+    ]
+  },
+  {
+    "name": "dismiss",
+    "trans": [
+      "v. declare void",
+      "v. rid of attention or consideration",
+      "v. cease to consider"
+    ]
+  },
+  {
+    "name": "dispense",
+    "trans": [
+      "v. give or apply (medications)",
+      "v. administer or bestow, as in small portions",
+      "v. grant a dispensation"
+    ]
+  },
+  {
+    "name": "displace",
+    "trans": [
+      "v. cause to move or shift into a new position or place, both in a concrete and in an abstract sense",
+      "v. cause to move, usually with force or pressure",
+      "v. terminate the employment of"
+    ]
+  },
+  {
+    "name": "district",
+    "trans": [
+      "v. regulate housing in",
+      "n. a region marked off for administrative or other purposes"
+    ]
+  },
+  {
+    "name": "drain",
+    "trans": ["v. make weak", "v. empty of liquid", "v. deplete of resources"]
+  },
+  {
+    "name": "duplicate",
+    "trans": [
+      "v. increase twofold",
+      "v. make or do or perform again",
+      "v. make a duplicate or duplicates of"
+    ]
+  },
+  {
+    "name": "dweller",
+    "trans": ["n. a person who inhabits a particular place"]
+  },
+  {
+    "name": "emit",
+    "trans": [
+      "v. express audibly",
+      "v. give off, send forth, or discharge",
+      "v. expel (gases or odors)"
+    ]
+  },
+  {
+    "name": "enclose",
+    "trans": [
+      "v. introduce",
+      "v. enclose or enfold completely with or as if with a covering",
+      "v. surround completely"
+    ]
+  },
+  {
+    "name": "erect",
+    "trans": [
+      "v. construct, build, or erect",
+      "v. cause to rise up",
+      "adj. of sexual organs"
+    ]
+  },
+  {
+    "name": "evident",
+    "trans": [
+      "adj. capable of being seen or noticed",
+      "adj. clearly revealed to the mind or the senses or judgment"
+    ]
+  },
+  {
+    "name": "exaggerate",
+    "trans": [
+      "v. to enlarge beyond bounds or the truth",
+      "v. do something to an excessive degree"
+    ]
+  },
+  {
+    "name": "excess",
+    "trans": [
+      "adj. more than is needed, desired, or required",
+      "n. excessive indulgence",
+      "n. immoderation as a consequence of going beyond sufficient or permitted limits"
+    ]
+  },
+  {
+    "name": "exert",
+    "trans": [
+      "v. put to use",
+      "v. have and exercise",
+      "v. make a great effort at a mental or physical task"
+    ]
+  },
+  {
+    "name": "explicit",
+    "trans": [
+      "adj. precisely and clearly expressed or readily observable",
+      "adj. in accordance with fact or the primary meaning of a term"
+    ]
+  },
+  {
+    "name": "faith",
+    "trans": [
+      "n. loyalty or allegiance to a cause or a person",
+      "n. complete confidence in a thing",
+      "n. a strong belief in a supernatural power or powers that control human destiny"
+    ]
+  },
+  {
+    "name": "fantastic",
+    "trans": [
+      "adj. ludicrously odd",
+      "adj. extraordinarily good or great",
+      "adj. extravagantly fanciful in design, construction, appearance"
+    ]
+  },
+  {
+    "name": "fare",
+    "trans": [
+      "v. eat well",
+      "v. proceed or get along",
+      "n. an agenda of things to do"
+    ]
+  },
+  {
+    "name": "fascinating",
+    "trans": [
+      "adj. capturing interest as if by a spell",
+      "adj. capable of arousing and holding the attention"
+    ]
+  },
+  {
+    "name": "feat",
+    "trans": ["n. a notable achievement"]
+  },
+  {
+    "name": "fertile",
+    "trans": [
+      "adj. capable of reproducing",
+      "adj. marked by great fruitfulness",
+      "adj. bearing in abundance especially offspring"
+    ]
+  },
+  {
+    "name": "fluid",
+    "trans": [
+      "adj. subject to change",
+      "adj. affording change (especially in social status)",
+      "adj. in cash or easily convertible to cash"
+    ]
+  },
+  {
+    "name": "fragment",
+    "trans": [
+      "v. break or cause to break into pieces",
+      "n. a broken piece of a brittle artifact",
+      "n. an incomplete piece"
+    ]
+  },
+  {
+    "name": "galaxy",
+    "trans": [
+      "n. a splendid assemblage (especially of famous people)",
+      "n. a collection of star systems",
+      "n. tufted evergreen perennial herb having spikes of tiny white flowers and glossy green round to heart-shaped leaves that become coppery to maroon or purplish in fall"
+    ]
+  },
+  {
+    "name": "genre",
+    "trans": [
+      "n. a class of art (or artistic endeavor) having a characteristic form or technique",
+      "n. a kind of literary or artistic work",
+      "n. an expressive style of music"
+    ]
+  },
+  {
+    "name": "glow",
+    "trans": [
+      "v. experience a feeling of well-being or happiness, as from good health or an intense emotion",
+      "v. be exuberant or high-spirited",
+      "v. emit a steady even light without flames"
+    ]
+  },
+  {
+    "name": "glue",
+    "trans": [
+      "v. be fixed as if by glue",
+      "v. join or attach with or as if with glue",
+      "n. cement consisting of a sticky substance that is used as an adhesive"
+    ]
+  },
+  {
+    "name": "govern",
+    "trans": [
+      "v. direct or strongly influence the behavior of",
+      "v. bring into conformity with rules or principles or usage",
+      "v. exercise authority over"
+    ]
+  },
+  {
+    "name": "grand",
+    "trans": [
+      "adj. used of a person's appearance or behavior",
+      "adj. the most important and magnificent in adornment",
+      "adj. of behavior that is impressive and ambitious in scale or scope"
+    ]
+  },
+  {
+    "name": "handout",
+    "trans": [
+      "n. giving money or food or clothing to a needy person",
+      "n. an announcement distributed to members of the press in order to supplement or replace an oral presentation"
+    ]
+  },
+  {
+    "name": "harden",
+    "trans": [
+      "v. cause to accept or become hardened to",
+      "v. make fit",
+      "v. harden by reheating and cooling in oil"
+    ]
+  },
+  {
+    "name": "hemisphere",
+    "trans": [
+      "n. either half of the cerebrum",
+      "n. half of the terrestrial globe",
+      "n. half of a sphere"
+    ]
+  },
+  {
+    "name": "hospitality",
+    "trans": ["n. kindness in welcoming guests or strangers"]
+  },
+  {
+    "name": "humpback",
+    "trans": [
+      "n. large whalebone whale with long flippers noted for arching or humping its back as it dives",
+      "n. a person whose back is hunched because of abnormal curvature of the upper spine",
+      "n. an abnormal backward curve to the vertebral column"
+    ]
+  },
+  {
+    "name": "identification",
+    "trans": [
+      "n. the act of designating or identifying something",
+      "n. the attribution to yourself (consciously or unconsciously) of the characteristics of another person (or group of persons)",
+      "n. the process of recognizing something or someone by remembering"
+    ]
+  },
+  {
+    "name": "imagery",
+    "trans": ["n. the ability to form mental images of things or events"]
+  },
+  {
+    "name": "immense",
+    "trans": [
+      "adj. unusually great in size or amount or degree or especially extent or scope"
+    ]
+  },
+  {
+    "name": "impair",
+    "trans": ["v. make worse or less effective", "v. make imperfect"]
+  },
+  {
+    "name": "inevitable",
+    "trans": [
+      "adj. incapable of being avoided or prevented",
+      "adj. invariably occurring or appearing",
+      "n. an unavoidable event"
+    ]
+  },
+  {
+    "name": "informative",
+    "trans": [
+      "adj. providing or conveying information",
+      "adj. serving to instruct or enlighten or inform",
+      "adj. tending to increase knowledge or dissipate ignorance"
+    ]
+  },
+  {
+    "name": "inspection",
+    "trans": ["n. a formal or official examination"]
+  },
+  {
+    "name": "instinct",
+    "trans": [
+      "adj. (followed by `with')deeply filled or permeated",
+      "n. inborn pattern of behavior often responsive to specific stimuli"
+    ]
+  },
+  {
+    "name": "intact",
+    "trans": [
+      "adj. constituting the undiminished entirety",
+      "adj. undamaged in any way",
+      "adj. having the hymen unbroken"
+    ]
+  },
+  {
+    "name": "intention",
+    "trans": [
+      "n. an act of intending",
+      "n. an anticipated outcome that is intended or that guides your planned actions",
+      "n. usually plural, the goal with respect to a marriage proposal"
+    ]
+  },
+  {
+    "name": "intersection",
+    "trans": [
+      "n. the act of intersecting (as joining by causing your path to intersect your target's path)",
+      "n. a junction where one street or road crosses another",
+      "n. a representation of common ground between theories or phenomena"
+    ]
+  },
+  {
+    "name": "kit",
+    "trans": [
+      "v. supply with a set of articles or tools",
+      "n. young of any of various fur-bearing animals",
+      "n. gear consisting of a set of articles or tools for a specified purpose"
+    ]
+  },
+  {
+    "name": "licence",
+    "trans": [
+      "v. authorize officially",
+      "n. a legal document giving official permission to do something",
+      "n. freedom to deviate deliberately from normally applicable rules or practices (especially in behavior or speech)"
+    ]
+  },
+  {
+    "name": "limitation",
+    "trans": [
+      "n. an act of limiting or restricting (as by regulation)",
+      "n. the quality of being limited or restricted",
+      "n. a principle that limits the extent of something"
+    ]
+  },
+  {
+    "name": "lobby",
+    "trans": [
+      "v. detain in conversation by or as if by holding on to the outer garments of",
+      "n. a large entrance or reception room or area",
+      "n. a group of people who try actively to influence legislation"
+    ]
+  },
+  {
+    "name": "logo",
+    "trans": ["n. a company emblem or device"]
+  },
+  {
+    "name": "loose",
+    "trans": [
+      "v. become loose or looser or less tight",
+      "v. make loose or looser",
+      "v. turn loose or free from restraint"
+    ]
+  },
+  {
+    "name": "marvellous",
+    "trans": [
+      "adj. too improbable to admit of belief",
+      "adj. being or having the character of a miracle",
+      "adj. extraordinarily good or great"
+    ]
+  },
+  {
+    "name": "metropolitan",
+    "trans": [
+      "adj. relating to or characteristic of a metropolis",
+      "n. a person who lives in a metropolis",
+      "n. in the Eastern Orthodox Church this title is given to a position between bishop and patriarch"
+    ]
+  },
+  {
+    "name": "mitigate",
+    "trans": [
+      "v. make less severe or harsh",
+      "v. lessen or to try to lessen the seriousness or extent of"
+    ]
+  },
+  {
+    "name": "moisture",
+    "trans": ["n. wetness caused by water"]
+  },
+  {
+    "name": "multiple",
+    "trans": [
+      "adj. having or involving or consisting of more than one part or entity or individual",
+      "n. the product of a quantity by an integer"
+    ]
+  },
+  {
+    "name": "norm",
+    "trans": [
+      "n. a statistic describing the location of a distribution",
+      "n. a standard or model or pattern regarded as typical"
+    ]
+  },
+  {
+    "name": "nourish",
+    "trans": ["v. provide with nourishment", "v. give nourishment to"]
+  },
+  {
+    "name": "obligation",
+    "trans": [
+      "n. the social force that binds you to the courses of action demanded by that force",
+      "n. a legal agreement specifying a payment or action and the penalty for failure to comply",
+      "n. a written promise to repay a debt"
+    ]
+  },
+  {
+    "name": "officially",
+    "trans": ["adv. in an official role", "adv. with official authorization"]
+  },
+  {
+    "name": "opt",
+    "trans": ["v. select as an alternative over another"]
+  },
+  {
+    "name": "originate",
+    "trans": [
+      "v. bring into being",
+      "v. come into existence",
+      "v. begin a trip at a certain point, as of a plane, train, bus, etc."
+    ]
+  },
+  {
+    "name": "overhead",
+    "trans": [
+      "adj. located or originating from above",
+      "adv. above the head",
+      "adv. above your head"
+    ]
+  },
+  {
+    "name": "overlap",
+    "trans": [
+      "v. coincide partially or wholly",
+      "v. extend over and cover a part of",
+      "n. a flap that lies over another part"
+    ]
+  },
+  {
+    "name": "overview",
+    "trans": ["n. a general summary of a subject"]
+  },
+  {
+    "name": "passport",
+    "trans": [
+      "n. any quality or characteristic that gains a person a favorable reception or acceptance or admission",
+      "n. a document issued by a country to a citizen allowing that person to travel abroad and re-enter the home country",
+      "n. any authorization to pass or go somewhere"
+    ]
+  },
+  {
+    "name": "pat",
+    "trans": [
+      "v. hit lightly",
+      "v. pat or squeeze fondly or playfully, especially under the chin",
+      "adj. exactly suited to the occasion"
+    ]
+  },
+  {
+    "name": "patent",
+    "trans": [
+      "v. make open to sight or notice",
+      "v. obtain a patent for",
+      "v. grant rights to"
+    ]
+  },
+  {
+    "name": "payable",
+    "trans": [
+      "adj. subject to or requiring payment especially as specified",
+      "n. a liability account showing how much is owed for goods and services purchased on credit"
+    ]
+  },
+  {
+    "name": "persuade",
+    "trans": [
+      "v. cause somebody to adopt a certain position, belief, or course of action",
+      "v. win approval or support for"
+    ]
+  },
+  {
+    "name": "photography",
+    "trans": [
+      "n. the occupation of taking and printing photographs or making movies",
+      "n. the act of taking and printing photographs",
+      "n. the process of producing images of objects on photosensitive surfaces"
+    ]
+  },
+  {
+    "name": "pitched",
+    "trans": [
+      "adj. set at a slant",
+      "adj. (of sound) set to a certain pitch or key"
+    ]
+  },
+  {
+    "name": "plantation",
+    "trans": [
+      "n. garden consisting of a small cultivated wood without undergrowth",
+      "n. an estate where cash crops are grown on a large scale, especially in tropical areas"
+    ]
+  },
+  {
+    "name": "plot",
+    "trans": [
+      "v. plan secretly, usually something illegal",
+      "v. make a plat of",
+      "v. devise the sequence of events in (a literary work or a play, movie, or ballet)"
+    ]
+  },
+  {
+    "name": "prefrontal",
+    "trans": ["adj. anterior to a frontal structure"]
+  },
+  {
+    "name": "prehistoric",
+    "trans": [
+      "adj. no longer fashionable",
+      "adj. belonging to or existing in times before recorded history",
+      "adj. of or relating to times before written history"
+    ]
+  },
+  {
+    "name": "preservation",
+    "trans": [
+      "n. the activity of protecting something from loss or danger",
+      "n. an occurrence of improvement by virtue of preventing loss or injury or other change",
+      "n. a process that saves organic substances from decay"
+    ]
+  },
+  {
+    "name": "proceed",
+    "trans": [
+      "v. follow a certain course",
+      "v. continue talking",
+      "v. move ahead"
+    ]
+  },
+  {
+    "name": "profound",
+    "trans": [
+      "adj. situated at or extending to great depth",
+      "adj. (of sleep) deep and complete",
+      "adj. coming from deep within one"
+    ]
+  },
+  {
+    "name": "prolong",
+    "trans": [
+      "v. lengthen in time",
+      "v. lengthen or extend in duration or space"
+    ]
+  },
+  {
+    "name": "punishment",
+    "trans": ["n. the act of punishing"]
+  },
+  {
+    "name": "recruit",
+    "trans": [
+      "v. cause to assemble or enlist in the military",
+      "v. seek to employ",
+      "v. register formally as a participant or member"
+    ]
+  },
+  {
+    "name": "refund",
+    "trans": [
+      "v. pay back",
+      "n. the act of returning money received previously",
+      "n. money returned to a payer"
+    ]
+  },
+  {
+    "name": "relevance",
+    "trans": ["n. the relation of something to the matter at hand"]
+  },
+  {
+    "name": "relief",
+    "trans": [
+      "n. the act of reducing something unpleasant",
+      "n. the act of freeing a city or town that has been besieged",
+      "n. aid for the aged or indigent or handicapped"
+    ]
+  },
+  {
+    "name": "reluctant",
+    "trans": [
+      "adj. not eager",
+      "adj. disinclined to become involved",
+      "adj. unwillingness to do something contrary to your custom"
+    ]
+  },
+  {
+    "name": "renewed",
+    "trans": ["adj. restored to a new condition"]
+  },
+  {
+    "name": "reproduce",
+    "trans": [
+      "v. have offspring or produce more individuals of a given animal or plant",
+      "v. repeat after memorization",
+      "v. make a copy or equivalent of"
+    ]
+  },
+  {
+    "name": "rigorous",
+    "trans": [
+      "adj. demanding strict attention to rules and procedures",
+      "adj. rigidly accurate"
+    ]
+  },
+  {
+    "name": "ritual",
+    "trans": [
+      "adj. of or relating to or employed in social rites or rituals",
+      "adj. of or relating to or characteristic of religious rituals",
+      "n. stereotyped behavior"
+    ]
+  },
+  {
+    "name": "routine",
+    "trans": [
+      "adj. found in the ordinary course of events",
+      "n. an unvarying or habitual method or procedure",
+      "n. a set sequence of steps, part of larger computer program"
+    ]
+  },
+  {
+    "name": "sail",
+    "trans": [
+      "v. travel on water propelled by wind or by other means",
+      "v. traverse or travel on (a body of water)",
+      "v. move with sweeping, effortless, gliding motions"
+    ]
+  },
+  {
+    "name": "salespeople",
+    "trans": ["n. sales clerk, shop assistant"]
+  },
+  {
+    "name": "scarce",
+    "trans": [
+      "adj. deficient in quantity or number compared with the demand",
+      "adv. only a very short time before"
+    ]
+  },
+  {
+    "name": "scholar",
+    "trans": [
+      "n. someone (especially a child) who learns (as from a teacher) or takes up knowledge or beliefs",
+      "n. a learned person (especially in the humanities)",
+      "n. a student who holds a scholarship"
+    ]
+  },
+  {
+    "name": "semantic",
+    "trans": ["adj. of or relating to meaning or the study of meaning"]
+  },
+  {
+    "name": "serial",
+    "trans": [
+      "adj. in regular succession without gaps",
+      "adj. of or relating to the sequential performance of multiple operations",
+      "adj. pertaining to or occurring in or producing a series"
+    ]
+  },
+  {
+    "name": "shatter",
+    "trans": [
+      "v. break into many pieces",
+      "v. cause to break into many pieces",
+      "v. damage or destroy"
+    ]
+  },
+  {
+    "name": "shelf",
+    "trans": [
+      "n. a support that consists of a horizontal surface for holding objects",
+      "n. a projecting ridge on a mountain or submerged under water"
+    ]
+  },
+  {
+    "name": "silt",
+    "trans": [
+      "v. become chocked with silt",
+      "n. mud or clay or small rocks deposited by a river or lake"
+    ]
+  },
+  {
+    "name": "soar",
+    "trans": [
+      "v. go or move upward",
+      "v. fly a plane without an engine",
+      "v. fly upwards or high in the sky"
+    ]
+  },
+  {
+    "name": "split",
+    "trans": [
+      "v. come open suddenly and violently, as if from internal pressure",
+      "v. separate or cut with a tool, such as a sharp instrument",
+      "v. go one's own way"
+    ]
+  },
+  {
+    "name": "squash",
+    "trans": [
+      "v. to compress with violence, out of natural shape or condition",
+      "n. a game played in an enclosed court by two or four players who strike the ball with long-handled rackets",
+      "n. edible fruit of a squash plant"
+    ]
+  },
+  {
+    "name": "squeeze",
+    "trans": [
+      "v. squeeze or press together",
+      "v. squeeze (someone) tightly in your arms, usually with fondness",
+      "v. press firmly"
+    ]
+  },
+  {
+    "name": "stack",
+    "trans": [
+      "v. arrange the order of so as to increase one's winning chances",
+      "v. arrange in stacks",
+      "v. load or cover with stacks"
+    ]
+  },
+  {
+    "name": "stomach",
+    "trans": [
+      "v. put up with something or somebody unpleasant",
+      "v. bear to eat",
+      "n. an enlarged and muscular saclike organ of the alimentary canal"
+    ]
+  },
+  {
+    "name": "straightforward",
+    "trans": [
+      "adj. pointed directly ahead",
+      "adj. without evasion or compromise",
+      "adj. free from ambiguity"
+    ]
+  },
+  {
+    "name": "strain",
+    "trans": [
+      "v. cause to be tense and uneasy or nervous or anxious",
+      "v. alter the shape of (something) by stress",
+      "v. to exert much effort or energy"
+    ]
+  },
+  {
+    "name": "sudden",
+    "trans": ["adj. happening without warning or in a short space of time"]
+  },
+  {
+    "name": "sufferer",
+    "trans": [
+      "n. one who suffers for the sake of principle",
+      "n. a person suffering from an illness"
+    ]
+  },
+  {
+    "name": "surge",
+    "trans": [
+      "v. see one's performance improve",
+      "v. rise or heave upward under the influence of a natural force such as a wave",
+      "v. rise or move forward"
+    ]
+  },
+  {
+    "name": "sustain",
+    "trans": [
+      "v. undergo, as of injuries and illnesses",
+      "v. establish or strengthen as with new evidence or facts",
+      "v. admit as valid"
+    ]
+  },
+  {
+    "name": "symptom",
+    "trans": [
+      "n. anything that accompanies X and is regarded as an indication of X's existence",
+      "n. (medicine) any sensation or change in bodily function that is experienced by a patient and is associated with a particular disease"
+    ]
+  },
+  {
+    "name": "tackle",
+    "trans": [
+      "v. seize and throw down an opponent player, who usually carries the ball",
+      "v. put a harness",
+      "v. accept as a challenge"
+    ]
+  },
+  {
+    "name": "texture",
+    "trans": [
+      "n. the physical composition of something, especially with respect to the size and shape of the small constituents of a substance",
+      "n. the feel of a surface or a fabric",
+      "n. the characteristic appearance of a surface having a tactile quality"
+    ]
+  },
+  {
+    "name": "topsoil",
+    "trans": ["n. the layer of soil on the surface"]
+  },
+  {
+    "name": "trance",
+    "trans": [
+      "v. attract",
+      "n. a state of mind in which consciousness is fragile and voluntary action is poor or missing",
+      "n. a psychological state induced by (or as if induced by) a magical incantation"
+    ]
+  },
+  {
+    "name": "transmit",
+    "trans": [
+      "v. broadcast over the airwaves, as in radio or television",
+      "v. send from one person or place to another",
+      "v. transmit or serve as the medium for transmission"
+    ]
+  },
+  {
+    "name": "transparent",
+    "trans": [
+      "adj. transmitting light",
+      "adj. easily understood or seen through (because of a lack of subtlety)",
+      "adj. free of deceit"
+    ]
+  },
+  {
+    "name": "triple",
+    "trans": [
+      "v. increase threefold",
+      "v. hit a three-base hit",
+      "adj. having three units or components or elements"
+    ]
+  },
+  {
+    "name": "tune",
+    "trans": [
+      "v. adjust the pitches of musical instruments",
+      "v. adjust for (better) functioning",
+      "n. the adjustment of a radio receiver or other circuit to a required frequency"
+    ]
+  },
+  {
+    "name": "ultimate",
+    "trans": [
+      "adj. being the last or concluding element of a series",
+      "adj. furthest or highest in degree or order",
+      "n. the finest or most superior quality of its kind"
+    ]
+  },
+  {
+    "name": "unbiased",
+    "trans": ["adj. without bias", "adj. characterized by a lack of partiality"]
+  },
+  {
+    "name": "undergo",
+    "trans": ["v. pass through"]
+  },
+  {
+    "name": "undermine",
+    "trans": [
+      "v. hollow out as if making a cave or opening",
+      "v. destroy property or hinder normal operations"
+    ]
+  },
+  {
+    "name": "unprecedented",
+    "trans": ["adj. having no precedent"]
+  },
+  {
+    "name": "update",
+    "trans": [
+      "v. modernize or bring up to date",
+      "v. bring to the latest state of technology",
+      "v. bring up to date"
+    ]
+  },
+  {
+    "name": "utilise",
+    "trans": ["v. put into service"]
+  },
+  {
+    "name": "viable",
+    "trans": [
+      "adj. capable of life or normal growth and development",
+      "adj. capable of being done with means at hand and circumstances as they are"
+    ]
+  },
+  {
+    "name": "vigilance",
+    "trans": [
+      "n. vigilant attentiveness",
+      "n. the process of paying close and continuous attention"
+    ]
+  },
+  {
+    "name": "violence",
+    "trans": [
+      "n. an act of aggression, as one against a person who resists",
+      "n. the property of being wild or turbulent",
+      "n. a turbulent state resulting in injuries and destruction etc."
+    ]
+  },
+  {
+    "name": "weave",
+    "trans": [
+      "v. interlace by or as if by weaving",
+      "v. create a piece of cloth by interlacing strands of fabric, such as wool or cotton",
+      "v. sway to and fro"
+    ]
+  },
+  {
+    "name": "wreck",
+    "trans": [
+      "v. smash or break forcefully",
+      "n. a ship that has been destroyed at sea",
+      "n. a serious accident (usually involving one or more vehicles)"
+    ]
+  },
+  {
+    "name": "yacht",
+    "trans": [
+      "v. travel in a yacht",
+      "n. an expensive vessel propelled by sail or power and used for cruising or racing"
+    ]
+  }
 ]

@@ -1,727 +1,702 @@
 [
-    {
-        "name": "shirt",
-        "trans": [
-            "v. put a shirt on",
-            "n. a garment worn on the upper half of the body"
-        ],
-        "usphone": "[ʃɜːrt]",
-        "ukphone": "[ʃɜːt]"
-    },
-    {
-        "name": "skirt",
-        "trans": [
-            "v. avoid or try to avoid fulfilling, answering, or performing (duties, questions, or issues)",
-            "v. extend on all sides of simultaneously",
-            "v. pass around or about"
-        ],
-        "usphone": "[skɜːrt]",
-        "ukphone": "[skɜːt]"
-    },
-    {
-        "name": "trousers",
-        "trans": [
-            "n. a garment or part of a garment designed for or relating to trousers, otherwise known as pants",
-            "n. a garment extending from the waist to the knee or ankle, covering each leg separately"
-        ],
-        "usphone": "[ˈtraʊzərz]",
-        "ukphone": "[ˈtraʊzəz]"
-    },
-    {
-        "name": "sweater",
-        "trans": [
-            "n. a crocheted or knitted garment covering the upper part of the body",
-            "n. a person who perspires"
-        ],
-        "usphone": "[ˈswetər]",
-        "ukphone": "[ˈswetə(r)]"
-    },
-    {
-        "name": "this",
-        "trans": [
-            "adj. (pronoun) this, originally, now",
-            "pron. (pronoun) this, here",
-            "adv. this way, so much"
-        ],
-        "usphone": "[ðɪs]",
-        "ukphone": "[ðɪs]"
-    },
-    {
-        "name": "these",
-        "trans": [
-            "adj. these",
-            "pron. these"
-        ],
-        "usphone": "[ðiːz]",
-        "ukphone": "[ðiːz]"
-    },
-    {
-        "name": "is",
-        "trans": [
-            "v. to be (followed by substantives only) be three bill outer appearance",
-            "n. to exist"
-        ],
-        "usphone": "[ɪz]",
-        "ukphone": "[ɪz]"
-    },
-    {
-        "name": "are",
-        "trans": [
-            "n. a unit of surface area equal to 100 square meters"
-        ],
-        "usphone": "[ər; ɑːr; er]",
-        "ukphone": "[ɑ:(r)]"
-    },
-    {
-        "name": "new",
-        "trans": [
-            "adj. used of a living language",
-            "adj. in use after medieval times"
-        ],
-        "usphone": "[nuː]",
-        "ukphone": "[njuː]"
-    },
-    {
-        "name": "old",
-        "trans": [
-            "adj. of a very early stage in development"
-        ],
-        "usphone": "[oʊld]",
-        "ukphone": "[əʊld]"
-    },
-    {
-        "name": "it",
-        "trans": [
-            "abbr. information technology information technology",
-            "abbr. Italy Italy, Italy Italian"
-        ],
-        "usphone": "[ɪt]",
-        "ukphone": "[ɪt]"
-    },
-    {
-        "name": "they",
-        "trans": [
-            "pron. 3rd person nominative singular pronoun, indicating a person who is hypothetical or whose identity is unknown; used with plural verbs",
-            "pron. 3rd person nominative singular gender-neutral pronoun, indicating a specific person without specifying a male or female gender, or indicating a person who is genderqueer; used with plural verbs",
-            "pron. the 3rd person nominative plural pronoun; can stand in for any 3rd person nominative plural noun"
-        ],
-        "usphone": "[ðeɪ]",
-        "ukphone": "[ðeɪ]"
-    },
-    {
-        "name": "coat",
-        "trans": [
-            "v. to cover or provide with a coat",
-            "v. to form a coat over",
-            "v. to put a coat on"
-        ],
-        "usphone": "[koʊt]",
-        "ukphone": "[kəʊt]"
-    },
-    {
-        "name": "cap",
-        "trans": [
-            "v. to restrict the number or amount of",
-            "v. to lie at the top of",
-            "n. a tight-fitting headdress"
-        ],
-        "usphone": "[kæp]",
-        "ukphone": "[kæp]"
-    },
-    {
-        "name": "Miss",
-        "trans": [
-            "v. leave undone or leave out",
-            "v. fail to experience",
-            "v. fail to reach"
-        ]
-    },
-    {
-        "name": "dress",
-        "trans": [
-            "v. arrange attractively",
-            "v. dress or groom with elaborate care",
-            "v. to attire with clothing in a certain manner"
-        ],
-        "usphone": "[dres]",
-        "ukphone": "[dres]"
-    },
-    {
-        "name": "shoe",
-        "trans": [
-            "v. furnish with shoes",
-            "n. a restraint provided when the brake linings are moved hydraulically against the brake drum to retard the wheel's rotation",
-            "n. U-shaped plate nailed to underside of horse's hoof"
-        ],
-        "usphone": "[ʃuː]",
-        "ukphone": "[ʃuː]"
-    },
-    {
-        "name": "sock",
-        "trans": [
-            "v. hit hard",
-            "n. hosiery consisting of a cloth covering for the foot",
-            "n. a truncated cloth cone mounted on a mast"
-        ],
-        "usphone": "[sɑːk]",
-        "ukphone": "[sɒk]"
-    },
-    {
-        "name": "shorts",
-        "trans": [
-            "n. underpants worn by men",
-            "n. trousers that end at or above the knee"
-        ],
-        "usphone": "[ʃɔːrts]",
-        "ukphone": "[ʃɔːts]"
-    },
-    {
-        "name": "not",
-        "trans": [
-            "adv. negation of a word or group of words"
-        ],
-        "usphone": "[nɑːt]",
-        "ukphone": "[nɒt]"
-    },
-    {
-        "name": "day",
-        "trans": [
-            "n. a period of opportunity",
-            "n. some point or period in time",
-            "n. the recurring hours when you are not sleeping, especially those when you are working"
-        ],
-        "usphone": "[deɪ]",
-        "ukphone": "[deɪ]"
-    },
-    {
-        "name": "today",
-        "trans": [
-            "adv. in these times",
-            "adv. on this day as distinct from yesterday or tomorrow",
-            "n. the day that includes the present moment, as opposed to yesterday or tomorrow"
-        ],
-        "usphone": "[təˈdeɪ]",
-        "ukphone": "[təˈdeɪ]"
-    },
-    {
-        "name": "week",
-        "trans": [
-            "n. hours or days of work in a calendar week",
-            "n. a period of seven consecutive days starting on Sunday",
-            "n. any period of seven consecutive days"
-        ],
-        "usphone": "[wiːk]",
-        "ukphone": "[wiːk]"
-    },
-    {
-        "name": "do",
-        "trans": [
-            "v. behave in a certain manner",
-            "v. arrange attractively",
-            "v. create or design, often in a certain way"
-        ],
-        "usphone": "[duː; də; du; doʊ]",
-        "ukphone": "[duː; də; du; dəʊ]"
-    },
-    {
-        "name": "my",
-        "trans": [
-            "pron. I",
-            "int. interjection of wonder, shock or admiration (of sb) to express to be amazed to wait for, (interjection) oh (interjection expressing surprise) Oh!"
-        ],
-        "usphone": "[maɪ]",
-        "ukphone": "[maɪ]"
-    },
-    {
-        "name": "homework",
-        "trans": [
-            "n. preparatory school work done outside school (especially at home)"
-        ],
-        "usphone": "[ˈhoʊmwɜːrk]",
-        "ukphone": "[ˈhəʊmwɜːk]"
-    },
-    {
-        "name": "read",
-        "trans": [
-            "v. make sense of a language",
-            "v. to be a student of a certain subject",
-            "v. to hear and understand"
-        ],
-        "usphone": "[riːd]",
-        "ukphone": "[riːd]"
-    },
-    {
-        "name": "book",
-        "trans": [
-            "v. to engage for a performance",
-            "v. to record a charge in a police register",
-            "v. to arrange for and reserve something for someone else in advance"
-        ],
-        "usphone": "[bʊk]",
-        "ukphone": "[bʊk]"
-    },
-    {
-        "name": "watch",
-        "trans": [
-            "v. find out, learn, or determine with certainty, usually by making an inquiry or other effort",
-            "v. observe with attention",
-            "v. observe or determine by looking"
-        ],
-        "usphone": "[wɑːtʃ]",
-        "ukphone": "[wɒtʃ]"
-    },
-    {
-        "name": "TV",
-        "trans": [
-            "n. broadcasting visual images of stationary or moving objects"
-        ],
-        "usphone": "[ˌtiː ˈviː]",
-        "ukphone": "[ˌtiː ˈviː]"
-    },
-    {
-        "name": "bed",
-        "trans": [
-            "v. to have sexual intercourse with",
-            "v. to put to bed",
-            "v. to place plants in a prepared bed of soil"
-        ],
-        "usphone": "[bed]",
-        "ukphone": "[bed]"
-    },
-    {
-        "name": "clean",
-        "trans": [
-            "v. to be cleanable",
-            "v. to remove unwanted substances from",
-            "v. to remove while making clean"
-        ],
-        "usphone": "[kliːn]",
-        "ukphone": "[kliːn]"
-    },
-    {
-        "name": "listen",
-        "trans": [
-            "v. hear with intention",
-            "v. listen and pay attention",
-            "v. pay close attention to"
-        ],
-        "usphone": "[ˈlɪsn]",
-        "ukphone": "[ˈlɪs(ə)n]"
-    },
-    {
-        "name": "listen to",
-        "trans": [
-            "v. to listen to"
-        ],
-        "usphone": "[ˈlɪsn tu]",
-        "ukphone": "[ˈlɪsn tʊ]"
-    },
-    {
-        "name": "wash",
-        "trans": [
-            "v. to cleanse (itself or another animal) by licking",
-            "v. cleanse (one's body) with soap and water",
-            "v. wash or flow against"
-        ],
-        "usphone": "[wɑːʃ]",
-        "ukphone": "[wɒʃ]"
-    },
-    {
-        "name": "face",
-        "trans": [
-            "v. deal with (something unpleasant) head on",
-            "v. present somebody with something, usually to accuse or criticize",
-            "v. oppose, as in hostility or a competition"
-        ],
-        "usphone": "[feɪs]",
-        "ukphone": "[feɪs]"
-    },
-    {
-        "name": "toy",
-        "trans": [
-            "v. engage in an activity as if it were a game rather than take it seriously",
-            "v. manipulate manually or in one's mind or imagination",
-            "v. behave carelessly or indifferently"
-        ],
-        "usphone": "[tɔɪ]",
-        "ukphone": "[tɔɪ]"
-    },
-    {
-        "name": "ball",
-        "trans": [
-            "v. to form into a ball by winding or rolling",
-            "n. a pitch that is not in the strike zone",
-            "n. the game of baseball"
-        ],
-        "usphone": "[bɔːl]",
-        "ukphone": "[bɔːl]"
-    },
-    {
-        "name": "kite",
-        "trans": [
-            "v. to fly a kite",
-            "v. to soar or fly like a kite",
-            "v. to get credit or money by using a bad check"
-        ],
-        "usphone": "[kaɪt]",
-        "ukphone": "[kaɪt]"
-    },
-    {
-        "name": "fly",
-        "trans": [
-            "v. decrease rapidly and disappear",
-            "v. change quickly from one emotional state to another",
-            "v. hit a fly"
-        ],
-        "usphone": "[flaɪ]",
-        "ukphone": "[flaɪ]"
-    },
-    {
-        "name": "play",
-        "trans": [
-            "v. engage in an activity as if it were a game rather than take it seriously",
-            "v. pretend to have certain qualities or state of mind",
-            "v. exhaust by allowing to pull on the line"
-        ],
-        "usphone": "[pleɪ]",
-        "ukphone": "[pleɪ]"
-    },
-    {
-        "name": "with",
-        "trans": [
-            "prep. to use, along with, to be in favor of, (joining two nouns) and together"
-        ],
-        "usphone": "[wɪð; wɪθ]",
-        "ukphone": "[wɪð]"
-    },
-    {
-        "name": "play with",
-        "trans": [
-            "na. to play with fire to wait for, to use to amuse oneself"
-        ],
-        "usphone": "[pleɪ wɪð]",
-        "ukphone": "[pleɪ wɪð]"
-    },
-    {
-        "name": "school",
-        "trans": [
-            "v. swim in or form a large group of fish",
-            "v. educate in or as if in a school",
-            "v. teach or refine to be discriminative in taste or judgment"
-        ],
-        "usphone": "[skuːl]",
-        "ukphone": "[skuːl]"
-    },
-    {
-        "name": "classroom",
-        "trans": [
-            "n. a room in a school where lessons take place"
-        ],
-        "usphone": "[ˈklæsruːm; ˈklæsrʊm]",
-        "ukphone": "[ˈklɑːsruːm]"
-    },
-    {
-        "name": "library",
-        "trans": [
-            "n. a depository built to contain books and other materials for reading and study",
-            "n. a room where books are kept",
-            "n. a building that houses a collection of books and other materials"
-        ],
-        "usphone": "[ˈlaɪbreri]",
-        "ukphone": "[ˈlaɪbrəri; ˈlaɪbri]"
-    },
-    {
-        "name": "playground",
-        "trans": [
-            "n. yard consisting of an outdoor area for children's play",
-            "n. an area where many people go for recreation"
-        ],
-        "usphone": "[ˈpleɪɡraʊnd]",
-        "ukphone": "[ˈpleɪɡraʊnd]"
-    },
-    {
-        "name": "where",
-        "trans": [
-            "conj. to exist region",
-            "n. place",
-            "adv. to exist where?",
-            "pron. where?"
-        ],
-        "usphone": "[wer]",
-        "ukphone": "[weə(r)]"
-    },
-    {
-        "name": "near",
-        "trans": [
-            "v. move towards",
-            "adj. being on the left side",
-            "adj. not far distant in time or space or degree or circumstances"
-        ],
-        "usphone": "[nɪr]",
-        "ukphone": "[nɪə(r)]"
-    },
-    {
-        "name": "far",
-        "trans": [
-            "adj. located at a great distance in time or space or degree",
-            "adj. being of a considerable distance or length",
-            "adj. beyond a norm in opinion or actions"
-        ],
-        "usphone": "[fɑːr]",
-        "ukphone": "[fɑː(r)]"
-    },
-    {
-        "name": "from",
-        "trans": [
-            "prep. to come from (a place), from, due to, hereafter"
-        ],
-        "usphone": "[frəm; frʌm; frɑːm]",
-        "ukphone": "[frəm; frɒm]"
-    },
-    {
-        "name": "far from",
-        "trans": [
-            "na. to be far from, not at all"
-        ]
-    },
-    {
-        "name": "the",
-        "trans": [
-            "art. (pronoun) this, (specifier) that",
-            "adv. more (than sth else) to use in (grammar) the comparative, tallest level front"
-        ],
-        "usphone": "[ðə; ði; ðiː]",
-        "ukphone": "[ðə]"
-    },
-    {
-        "name": "street",
-        "trans": [
-            "n. a thoroughfare (usually including sidewalks) that is lined with buildings",
-            "n. the part of a thoroughfare between the sidewalks",
-            "n. people living or working on the same street"
-        ],
-        "usphone": "[striːt]",
-        "ukphone": "[striːt]"
-    },
-    {
-        "name": "bike",
-        "trans": [
-            "v. to ride a bicycle",
-            "n. a wheeled vehicle that has two wheels and is moved by foot pedals",
-            "n. a motor vehicle with two wheels and a strong frame"
-        ],
-        "usphone": "[baɪk]",
-        "ukphone": "[baɪk]"
-    },
-    {
-        "name": "taxi",
-        "trans": [
-            "v. travel slowly",
-            "v. ride in a taxicab",
-            "n. a car driven by a person whose job is to take passengers where they want to go in exchange for money"
-        ],
-        "usphone": "[ˈtæksi]",
-        "ukphone": "[ˈtæksi]"
-    },
-    {
-        "name": "car",
-        "trans": [
-            "n. a conveyance for passengers or freight on a cable railway",
-            "n. a motor vehicle with four wheels",
-            "n. a wheeled vehicle adapted to the rails of railroad"
-        ],
-        "usphone": "[kɑːr]",
-        "ukphone": "[kɑː(r)]"
-    },
-    {
-        "name": "bus",
-        "trans": [
-            "v. to remove used dishes from the table in restaurants",
-            "v. to ride in a bus",
-            "v. to send or move around by bus"
-        ],
-        "usphone": "[bʌs]",
-        "ukphone": "[bʌs]"
-    },
-    {
-        "name": "thirty",
-        "trans": [
-            "adj. being ten more than twenty",
-            "n. the cardinal number that is the product of ten and three"
-        ],
-        "usphone": "[ˈθɜːrti]",
-        "ukphone": "[ˈθɜːti]"
-    },
-    {
-        "name": "light",
-        "trans": [
-            "v. make lighter or brighter",
-            "v. begin to smoke",
-            "v. alight from (a horse)"
-        ],
-        "usphone": "[laɪt]",
-        "ukphone": "[laɪt]"
-    },
-    {
-        "name": "red",
-        "trans": [
-            "adj. characterized by violence or bloodshed",
-            "adj. of a color at the end of the color spectrum (next to orange)",
-            "adj. suffused with blood from emotion or exertion, reddened"
-        ],
-        "usphone": "[red]",
-        "ukphone": "[red]"
-    },
-    {
-        "name": "yellow",
-        "trans": [
-            "v. turn yellow",
-            "adj. typical of tabloids",
-            "adj. easily frightened"
-        ],
-        "usphone": "[ˈjeloʊ]",
-        "ukphone": "[ˈjeləʊ]"
-    },
-    {
-        "name": "green",
-        "trans": [
-            "n. an environmentalist who belongs to the Green Party"
-        ],
-        "usphone": "[ɡriːn]",
-        "ukphone": "[ɡriːn]"
-    },
-    {
-        "name": "shop",
-        "trans": [
-            "v. give away information about somebody",
-            "v. do one's shopping",
-            "v. shop around"
-        ],
-        "usphone": "[ʃɑːp]",
-        "ukphone": "[ʃɒp]"
-    },
-    {
-        "name": "let's",
-        "trans": [
-            "v. cause to move",
-            "v. leave unchanged",
-            "v. actively cause something to happen"
-        ]
-    },
-    {
-        "name": "let us",
-        "trans": [
-            "to yield we, to yield we oneself, to yield we (in) the same place"
-        ]
-    },
-    {
-        "name": "go",
-        "trans": [
-            "v. enter or assume a certain state or condition",
-            "v. follow a certain course",
-            "v. pass from physical life and lose all bodily attributes and functions necessary to sustain life"
-        ],
-        "usphone": "[ɡoʊ]",
-        "ukphone": "[ɡəʊ]"
-    },
-    {
-        "name": "go shopping",
-        "trans": [
-            "na. to go to do one's shopping"
-        ]
-    },
-    {
-        "name": "want",
-        "trans": [
-            "v. wish or demand the presence of",
-            "v. have need of",
-            "v. hunt or look for"
-        ],
-        "usphone": "[wɑːnt]",
-        "ukphone": "[wɒnt]"
-    },
-    {
-        "name": "to",
-        "trans": [
-            "prep. to reach, towards, (of sb) to express (concept of) time, direction imperial or royal court direction",
-            "adv. forward, gate to wait for to close (a door)"
-        ],
-        "usphone": "[tə; tu; tuː]",
-        "ukphone": "[tə]"
-    },
-    {
-        "name": "buy",
-        "trans": [
-            "v. to accept as true",
-            "v. to obtain by purchase",
-            "v. to acquire by trade or sacrifice or exchange"
-        ],
-        "usphone": "[baɪ]",
-        "ukphone": "[baɪ]"
-    },
-    {
-        "name": "way",
-        "trans": [
-            "adv. to a great degree or by a great distance",
-            "n. how a result is obtained or an end is achieved",
-            "n. a journey or passage"
-        ],
-        "usphone": "[weɪ]",
-        "ukphone": "[weɪ]"
-    },
-    {
-        "name": "cinema",
-        "trans": [
-            "n. a theater where films are shown",
-            "n. a medium that disseminates moving pictures"
-        ],
-        "usphone": "[ˈsɪnəmə]",
-        "ukphone": "[ˈsɪnəmə]"
-    },
-    {
-        "name": "park",
-        "trans": [
-            "v. place temporarily",
-            "v. maneuver a vehicle into a parking space",
-            "n. a facility in which ball games are played (especially baseball games)"
-        ],
-        "usphone": "[pɑːrk]",
-        "ukphone": "[pɑːk]"
-    },
-    {
-        "name": "supermarket",
-        "trans": [
-            "n. a large self-service grocery store selling groceries and dairy products and household goods"
-        ],
-        "usphone": "[ˈsuːpərmɑːrkɪt]",
-        "ukphone": "[ˈsuːpəmɑːkɪt]"
-    },
-    {
-        "name": "tomato",
-        "trans": [
-            "n. mildly acid red or yellow pulpy fruit eaten as a vegetable",
-            "n. native to South America"
-        ],
-        "usphone": "[təˈmeɪtoʊ]",
-        "ukphone": "[təˈmɑːtəʊ]"
-    },
-    {
-        "name": "potato",
-        "trans": [
-            "n. an edible tuber native to South America",
-            "n. annual native to South America having underground stolons bearing edible starchy tubers"
-        ],
-        "usphone": "[pəˈteɪtoʊ]",
-        "ukphone": "[pəˈteɪtəʊ]"
-    },
-    {
-        "name": "bag",
-        "trans": [
-            "v. to capture or kill, as in hunting",
-            "v. to put into a bag",
-            "v. to take unlawfully"
-        ],
-        "usphone": "[bæɡ]",
-        "ukphone": "[bæɡ]"
-    }
+  {
+    "name": "shirt",
+    "trans": [
+      "v. put a shirt on",
+      "n. a garment worn on the upper half of the body"
+    ],
+    "usphone": "[ʃɜːrt]",
+    "ukphone": "[ʃɜːt]"
+  },
+  {
+    "name": "skirt",
+    "trans": [
+      "v. avoid or try to avoid fulfilling, answering, or performing (duties, questions, or issues)",
+      "v. extend on all sides of simultaneously",
+      "v. pass around or about"
+    ],
+    "usphone": "[skɜːrt]",
+    "ukphone": "[skɜːt]"
+  },
+  {
+    "name": "trousers",
+    "trans": [
+      "n. a garment or part of a garment designed for or relating to trousers, otherwise known as pants",
+      "n. a garment extending from the waist to the knee or ankle, covering each leg separately"
+    ],
+    "usphone": "[ˈtraʊzərz]",
+    "ukphone": "[ˈtraʊzəz]"
+  },
+  {
+    "name": "sweater",
+    "trans": [
+      "n. a crocheted or knitted garment covering the upper part of the body",
+      "n. a person who perspires"
+    ],
+    "usphone": "[ˈswetər]",
+    "ukphone": "[ˈswetə(r)]"
+  },
+  {
+    "name": "this",
+    "trans": [
+      "adj. (pronoun) this, originally, now",
+      "pron. (pronoun) this, here",
+      "adv. this way, so much"
+    ],
+    "usphone": "[ðɪs]",
+    "ukphone": "[ðɪs]"
+  },
+  {
+    "name": "these",
+    "trans": ["adj. these", "pron. these"],
+    "usphone": "[ðiːz]",
+    "ukphone": "[ðiːz]"
+  },
+  {
+    "name": "is",
+    "trans": [
+      "v. to be (followed by substantives only) be three bill outer appearance",
+      "n. to exist"
+    ],
+    "usphone": "[ɪz]",
+    "ukphone": "[ɪz]"
+  },
+  {
+    "name": "are",
+    "trans": ["n. a unit of surface area equal to 100 square meters"],
+    "usphone": "[ər; ɑːr; er]",
+    "ukphone": "[ɑ:(r)]"
+  },
+  {
+    "name": "new",
+    "trans": [
+      "adj. used of a living language",
+      "adj. in use after medieval times"
+    ],
+    "usphone": "[nuː]",
+    "ukphone": "[njuː]"
+  },
+  {
+    "name": "old",
+    "trans": ["adj. of a very early stage in development"],
+    "usphone": "[oʊld]",
+    "ukphone": "[əʊld]"
+  },
+  {
+    "name": "it",
+    "trans": [
+      "abbr. information technology information technology",
+      "abbr. Italy Italy, Italy Italian"
+    ],
+    "usphone": "[ɪt]",
+    "ukphone": "[ɪt]"
+  },
+  {
+    "name": "they",
+    "trans": [
+      "pron. 3rd person nominative singular pronoun, indicating a person who is hypothetical or whose identity is unknown; used with plural verbs",
+      "pron. 3rd person nominative singular gender-neutral pronoun, indicating a specific person without specifying a male or female gender, or indicating a person who is genderqueer; used with plural verbs",
+      "pron. the 3rd person nominative plural pronoun; can stand in for any 3rd person nominative plural noun"
+    ],
+    "usphone": "[ðeɪ]",
+    "ukphone": "[ðeɪ]"
+  },
+  {
+    "name": "coat",
+    "trans": [
+      "v. to cover or provide with a coat",
+      "v. to form a coat over",
+      "v. to put a coat on"
+    ],
+    "usphone": "[koʊt]",
+    "ukphone": "[kəʊt]"
+  },
+  {
+    "name": "cap",
+    "trans": [
+      "v. to restrict the number or amount of",
+      "v. to lie at the top of",
+      "n. a tight-fitting headdress"
+    ],
+    "usphone": "[kæp]",
+    "ukphone": "[kæp]"
+  },
+  {
+    "name": "Miss",
+    "trans": [
+      "v. leave undone or leave out",
+      "v. fail to experience",
+      "v. fail to reach"
+    ]
+  },
+  {
+    "name": "dress",
+    "trans": [
+      "v. arrange attractively",
+      "v. dress or groom with elaborate care",
+      "v. to attire with clothing in a certain manner"
+    ],
+    "usphone": "[dres]",
+    "ukphone": "[dres]"
+  },
+  {
+    "name": "shoe",
+    "trans": [
+      "v. furnish with shoes",
+      "n. a restraint provided when the brake linings are moved hydraulically against the brake drum to retard the wheel's rotation",
+      "n. U-shaped plate nailed to underside of horse's hoof"
+    ],
+    "usphone": "[ʃuː]",
+    "ukphone": "[ʃuː]"
+  },
+  {
+    "name": "sock",
+    "trans": [
+      "v. hit hard",
+      "n. hosiery consisting of a cloth covering for the foot",
+      "n. a truncated cloth cone mounted on a mast"
+    ],
+    "usphone": "[sɑːk]",
+    "ukphone": "[sɒk]"
+  },
+  {
+    "name": "shorts",
+    "trans": [
+      "n. underpants worn by men",
+      "n. trousers that end at or above the knee"
+    ],
+    "usphone": "[ʃɔːrts]",
+    "ukphone": "[ʃɔːts]"
+  },
+  {
+    "name": "not",
+    "trans": ["adv. negation of a word or group of words"],
+    "usphone": "[nɑːt]",
+    "ukphone": "[nɒt]"
+  },
+  {
+    "name": "day",
+    "trans": [
+      "n. a period of opportunity",
+      "n. some point or period in time",
+      "n. the recurring hours when you are not sleeping, especially those when you are working"
+    ],
+    "usphone": "[deɪ]",
+    "ukphone": "[deɪ]"
+  },
+  {
+    "name": "today",
+    "trans": [
+      "adv. in these times",
+      "adv. on this day as distinct from yesterday or tomorrow",
+      "n. the day that includes the present moment, as opposed to yesterday or tomorrow"
+    ],
+    "usphone": "[təˈdeɪ]",
+    "ukphone": "[təˈdeɪ]"
+  },
+  {
+    "name": "week",
+    "trans": [
+      "n. hours or days of work in a calendar week",
+      "n. a period of seven consecutive days starting on Sunday",
+      "n. any period of seven consecutive days"
+    ],
+    "usphone": "[wiːk]",
+    "ukphone": "[wiːk]"
+  },
+  {
+    "name": "do",
+    "trans": [
+      "v. behave in a certain manner",
+      "v. arrange attractively",
+      "v. create or design, often in a certain way"
+    ],
+    "usphone": "[duː; də; du; doʊ]",
+    "ukphone": "[duː; də; du; dəʊ]"
+  },
+  {
+    "name": "my",
+    "trans": [
+      "pron. I",
+      "int. interjection of wonder, shock or admiration (of sb) to express to be amazed to wait for, (interjection) oh (interjection expressing surprise) Oh!"
+    ],
+    "usphone": "[maɪ]",
+    "ukphone": "[maɪ]"
+  },
+  {
+    "name": "homework",
+    "trans": [
+      "n. preparatory school work done outside school (especially at home)"
+    ],
+    "usphone": "[ˈhoʊmwɜːrk]",
+    "ukphone": "[ˈhəʊmwɜːk]"
+  },
+  {
+    "name": "read",
+    "trans": [
+      "v. make sense of a language",
+      "v. to be a student of a certain subject",
+      "v. to hear and understand"
+    ],
+    "usphone": "[riːd]",
+    "ukphone": "[riːd]"
+  },
+  {
+    "name": "book",
+    "trans": [
+      "v. to engage for a performance",
+      "v. to record a charge in a police register",
+      "v. to arrange for and reserve something for someone else in advance"
+    ],
+    "usphone": "[bʊk]",
+    "ukphone": "[bʊk]"
+  },
+  {
+    "name": "watch",
+    "trans": [
+      "v. find out, learn, or determine with certainty, usually by making an inquiry or other effort",
+      "v. observe with attention",
+      "v. observe or determine by looking"
+    ],
+    "usphone": "[wɑːtʃ]",
+    "ukphone": "[wɒtʃ]"
+  },
+  {
+    "name": "TV",
+    "trans": ["n. broadcasting visual images of stationary or moving objects"],
+    "usphone": "[ˌtiː ˈviː]",
+    "ukphone": "[ˌtiː ˈviː]"
+  },
+  {
+    "name": "bed",
+    "trans": [
+      "v. to have sexual intercourse with",
+      "v. to put to bed",
+      "v. to place plants in a prepared bed of soil"
+    ],
+    "usphone": "[bed]",
+    "ukphone": "[bed]"
+  },
+  {
+    "name": "clean",
+    "trans": [
+      "v. to be cleanable",
+      "v. to remove unwanted substances from",
+      "v. to remove while making clean"
+    ],
+    "usphone": "[kliːn]",
+    "ukphone": "[kliːn]"
+  },
+  {
+    "name": "listen",
+    "trans": [
+      "v. hear with intention",
+      "v. listen and pay attention",
+      "v. pay close attention to"
+    ],
+    "usphone": "[ˈlɪsn]",
+    "ukphone": "[ˈlɪs(ə)n]"
+  },
+  {
+    "name": "listen to",
+    "trans": ["v. to listen to"],
+    "usphone": "[ˈlɪsn tu]",
+    "ukphone": "[ˈlɪsn tʊ]"
+  },
+  {
+    "name": "wash",
+    "trans": [
+      "v. to cleanse (itself or another animal) by licking",
+      "v. cleanse (one's body) with soap and water",
+      "v. wash or flow against"
+    ],
+    "usphone": "[wɑːʃ]",
+    "ukphone": "[wɒʃ]"
+  },
+  {
+    "name": "face",
+    "trans": [
+      "v. deal with (something unpleasant) head on",
+      "v. present somebody with something, usually to accuse or criticize",
+      "v. oppose, as in hostility or a competition"
+    ],
+    "usphone": "[feɪs]",
+    "ukphone": "[feɪs]"
+  },
+  {
+    "name": "toy",
+    "trans": [
+      "v. engage in an activity as if it were a game rather than take it seriously",
+      "v. manipulate manually or in one's mind or imagination",
+      "v. behave carelessly or indifferently"
+    ],
+    "usphone": "[tɔɪ]",
+    "ukphone": "[tɔɪ]"
+  },
+  {
+    "name": "ball",
+    "trans": [
+      "v. to form into a ball by winding or rolling",
+      "n. a pitch that is not in the strike zone",
+      "n. the game of baseball"
+    ],
+    "usphone": "[bɔːl]",
+    "ukphone": "[bɔːl]"
+  },
+  {
+    "name": "kite",
+    "trans": [
+      "v. to fly a kite",
+      "v. to soar or fly like a kite",
+      "v. to get credit or money by using a bad check"
+    ],
+    "usphone": "[kaɪt]",
+    "ukphone": "[kaɪt]"
+  },
+  {
+    "name": "fly",
+    "trans": [
+      "v. decrease rapidly and disappear",
+      "v. change quickly from one emotional state to another",
+      "v. hit a fly"
+    ],
+    "usphone": "[flaɪ]",
+    "ukphone": "[flaɪ]"
+  },
+  {
+    "name": "play",
+    "trans": [
+      "v. engage in an activity as if it were a game rather than take it seriously",
+      "v. pretend to have certain qualities or state of mind",
+      "v. exhaust by allowing to pull on the line"
+    ],
+    "usphone": "[pleɪ]",
+    "ukphone": "[pleɪ]"
+  },
+  {
+    "name": "with",
+    "trans": [
+      "prep. to use, along with, to be in favor of, (joining two nouns) and together"
+    ],
+    "usphone": "[wɪð; wɪθ]",
+    "ukphone": "[wɪð]"
+  },
+  {
+    "name": "play with",
+    "trans": ["na. to play with fire to wait for, to use to amuse oneself"],
+    "usphone": "[pleɪ wɪð]",
+    "ukphone": "[pleɪ wɪð]"
+  },
+  {
+    "name": "school",
+    "trans": [
+      "v. swim in or form a large group of fish",
+      "v. educate in or as if in a school",
+      "v. teach or refine to be discriminative in taste or judgment"
+    ],
+    "usphone": "[skuːl]",
+    "ukphone": "[skuːl]"
+  },
+  {
+    "name": "classroom",
+    "trans": ["n. a room in a school where lessons take place"],
+    "usphone": "[ˈklæsruːm; ˈklæsrʊm]",
+    "ukphone": "[ˈklɑːsruːm]"
+  },
+  {
+    "name": "library",
+    "trans": [
+      "n. a depository built to contain books and other materials for reading and study",
+      "n. a room where books are kept",
+      "n. a building that houses a collection of books and other materials"
+    ],
+    "usphone": "[ˈlaɪbreri]",
+    "ukphone": "[ˈlaɪbrəri; ˈlaɪbri]"
+  },
+  {
+    "name": "playground",
+    "trans": [
+      "n. yard consisting of an outdoor area for children's play",
+      "n. an area where many people go for recreation"
+    ],
+    "usphone": "[ˈpleɪɡraʊnd]",
+    "ukphone": "[ˈpleɪɡraʊnd]"
+  },
+  {
+    "name": "where",
+    "trans": [
+      "conj. to exist region",
+      "n. place",
+      "adv. to exist where?",
+      "pron. where?"
+    ],
+    "usphone": "[wer]",
+    "ukphone": "[weə(r)]"
+  },
+  {
+    "name": "near",
+    "trans": [
+      "v. move towards",
+      "adj. being on the left side",
+      "adj. not far distant in time or space or degree or circumstances"
+    ],
+    "usphone": "[nɪr]",
+    "ukphone": "[nɪə(r)]"
+  },
+  {
+    "name": "far",
+    "trans": [
+      "adj. located at a great distance in time or space or degree",
+      "adj. being of a considerable distance or length",
+      "adj. beyond a norm in opinion or actions"
+    ],
+    "usphone": "[fɑːr]",
+    "ukphone": "[fɑː(r)]"
+  },
+  {
+    "name": "from",
+    "trans": ["prep. to come from (a place), from, due to, hereafter"],
+    "usphone": "[frəm; frʌm; frɑːm]",
+    "ukphone": "[frəm; frɒm]"
+  },
+  {
+    "name": "far from",
+    "trans": ["na. to be far from, not at all"]
+  },
+  {
+    "name": "the",
+    "trans": [
+      "art. (pronoun) this, (specifier) that",
+      "adv. more (than sth else) to use in (grammar) the comparative, tallest level front"
+    ],
+    "usphone": "[ðə; ði; ðiː]",
+    "ukphone": "[ðə]"
+  },
+  {
+    "name": "street",
+    "trans": [
+      "n. a thoroughfare (usually including sidewalks) that is lined with buildings",
+      "n. the part of a thoroughfare between the sidewalks",
+      "n. people living or working on the same street"
+    ],
+    "usphone": "[striːt]",
+    "ukphone": "[striːt]"
+  },
+  {
+    "name": "bike",
+    "trans": [
+      "v. to ride a bicycle",
+      "n. a wheeled vehicle that has two wheels and is moved by foot pedals",
+      "n. a motor vehicle with two wheels and a strong frame"
+    ],
+    "usphone": "[baɪk]",
+    "ukphone": "[baɪk]"
+  },
+  {
+    "name": "taxi",
+    "trans": [
+      "v. travel slowly",
+      "v. ride in a taxicab",
+      "n. a car driven by a person whose job is to take passengers where they want to go in exchange for money"
+    ],
+    "usphone": "[ˈtæksi]",
+    "ukphone": "[ˈtæksi]"
+  },
+  {
+    "name": "car",
+    "trans": [
+      "n. a conveyance for passengers or freight on a cable railway",
+      "n. a motor vehicle with four wheels",
+      "n. a wheeled vehicle adapted to the rails of railroad"
+    ],
+    "usphone": "[kɑːr]",
+    "ukphone": "[kɑː(r)]"
+  },
+  {
+    "name": "bus",
+    "trans": [
+      "v. to remove used dishes from the table in restaurants",
+      "v. to ride in a bus",
+      "v. to send or move around by bus"
+    ],
+    "usphone": "[bʌs]",
+    "ukphone": "[bʌs]"
+  },
+  {
+    "name": "thirty",
+    "trans": [
+      "adj. being ten more than twenty",
+      "n. the cardinal number that is the product of ten and three"
+    ],
+    "usphone": "[ˈθɜːrti]",
+    "ukphone": "[ˈθɜːti]"
+  },
+  {
+    "name": "light",
+    "trans": [
+      "v. make lighter or brighter",
+      "v. begin to smoke",
+      "v. alight from (a horse)"
+    ],
+    "usphone": "[laɪt]",
+    "ukphone": "[laɪt]"
+  },
+  {
+    "name": "red",
+    "trans": [
+      "adj. characterized by violence or bloodshed",
+      "adj. of a color at the end of the color spectrum (next to orange)",
+      "adj. suffused with blood from emotion or exertion, reddened"
+    ],
+    "usphone": "[red]",
+    "ukphone": "[red]"
+  },
+  {
+    "name": "yellow",
+    "trans": [
+      "v. turn yellow",
+      "adj. typical of tabloids",
+      "adj. easily frightened"
+    ],
+    "usphone": "[ˈjeloʊ]",
+    "ukphone": "[ˈjeləʊ]"
+  },
+  {
+    "name": "green",
+    "trans": ["n. an environmentalist who belongs to the Green Party"],
+    "usphone": "[ɡriːn]",
+    "ukphone": "[ɡriːn]"
+  },
+  {
+    "name": "shop",
+    "trans": [
+      "v. give away information about somebody",
+      "v. do one's shopping",
+      "v. shop around"
+    ],
+    "usphone": "[ʃɑːp]",
+    "ukphone": "[ʃɒp]"
+  },
+  {
+    "name": "let's",
+    "trans": [
+      "v. cause to move",
+      "v. leave unchanged",
+      "v. actively cause something to happen"
+    ]
+  },
+  {
+    "name": "let us",
+    "trans": [
+      "to yield we, to yield we oneself, to yield we (in) the same place"
+    ]
+  },
+  {
+    "name": "go",
+    "trans": [
+      "v. enter or assume a certain state or condition",
+      "v. follow a certain course",
+      "v. pass from physical life and lose all bodily attributes and functions necessary to sustain life"
+    ],
+    "usphone": "[ɡoʊ]",
+    "ukphone": "[ɡəʊ]"
+  },
+  {
+    "name": "go shopping",
+    "trans": ["na. to go to do one's shopping"]
+  },
+  {
+    "name": "want",
+    "trans": [
+      "v. wish or demand the presence of",
+      "v. have need of",
+      "v. hunt or look for"
+    ],
+    "usphone": "[wɑːnt]",
+    "ukphone": "[wɒnt]"
+  },
+  {
+    "name": "to",
+    "trans": [
+      "prep. to reach, towards, (of sb) to express (concept of) time, direction imperial or royal court direction",
+      "adv. forward, gate to wait for to close (a door)"
+    ],
+    "usphone": "[tə; tu; tuː]",
+    "ukphone": "[tə]"
+  },
+  {
+    "name": "buy",
+    "trans": [
+      "v. to accept as true",
+      "v. to obtain by purchase",
+      "v. to acquire by trade or sacrifice or exchange"
+    ],
+    "usphone": "[baɪ]",
+    "ukphone": "[baɪ]"
+  },
+  {
+    "name": "way",
+    "trans": [
+      "adv. to a great degree or by a great distance",
+      "n. how a result is obtained or an end is achieved",
+      "n. a journey or passage"
+    ],
+    "usphone": "[weɪ]",
+    "ukphone": "[weɪ]"
+  },
+  {
+    "name": "cinema",
+    "trans": [
+      "n. a theater where films are shown",
+      "n. a medium that disseminates moving pictures"
+    ],
+    "usphone": "[ˈsɪnəmə]",
+    "ukphone": "[ˈsɪnəmə]"
+  },
+  {
+    "name": "park",
+    "trans": [
+      "v. place temporarily",
+      "v. maneuver a vehicle into a parking space",
+      "n. a facility in which ball games are played (especially baseball games)"
+    ],
+    "usphone": "[pɑːrk]",
+    "ukphone": "[pɑːk]"
+  },
+  {
+    "name": "supermarket",
+    "trans": [
+      "n. a large self-service grocery store selling groceries and dairy products and household goods"
+    ],
+    "usphone": "[ˈsuːpərmɑːrkɪt]",
+    "ukphone": "[ˈsuːpəmɑːkɪt]"
+  },
+  {
+    "name": "tomato",
+    "trans": [
+      "n. mildly acid red or yellow pulpy fruit eaten as a vegetable",
+      "n. native to South America"
+    ],
+    "usphone": "[təˈmeɪtoʊ]",
+    "ukphone": "[təˈmɑːtəʊ]"
+  },
+  {
+    "name": "potato",
+    "trans": [
+      "n. an edible tuber native to South America",
+      "n. annual native to South America having underground stolons bearing edible starchy tubers"
+    ],
+    "usphone": "[pəˈteɪtoʊ]",
+    "ukphone": "[pəˈteɪtəʊ]"
+  },
+  {
+    "name": "bag",
+    "trans": [
+      "v. to capture or kill, as in hunting",
+      "v. to put into a bag",
+      "v. to take unlawfully"
+    ],
+    "usphone": "[bæɡ]",
+    "ukphone": "[bæɡ]"
+  }
 ]

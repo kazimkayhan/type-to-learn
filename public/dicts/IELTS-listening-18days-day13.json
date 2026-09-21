@@ -1,580 +1,562 @@
 [
-    {
-        "name": "referee",
-        "trans": [
-            "v. evaluate professionally a colleague's work",
-            "v. be a referee or umpire in a sports competition",
-            "n. (sports) the chief official (as in boxing or American football) who is expected to ensure fair play"
-        ]
-    },
-    {
-        "name": "puzzling",
-        "trans": [
-            "adj. lacking clarity of meaning",
-            "adj. not clear to the understanding"
-        ]
-    },
-    {
-        "name": "perspective",
-        "trans": [
-            "n. the appearance of things relative to one another as determined by their distance from the viewer",
-            "n. a way of regarding situations or topics etc."
-        ]
-    },
-    {
-        "name": "path",
-        "trans": [
-            "n. a course of conduct",
-            "n. a way especially designed for a particular use",
-            "n. an established line of travel or access"
-        ]
-    },
-    {
-        "name": "representative",
-        "trans": [
-            "adj. being or characteristic of government by representation in which citizens exercise power through elected officers and representatives",
-            "adj. standing for something else",
-            "adj. serving to represent or typify"
-        ]
-    },
-    {
-        "name": "discontinue",
-        "trans": [
-            "v. prevent completion",
-            "v. put an end to a state or an activity",
-            "v. come to or be at an end"
-        ]
-    },
-    {
-        "name": "accounting",
-        "trans": [
-            "n. the occupation of maintaining and auditing records and preparing financial reports for a business",
-            "n. a system that provides quantitative information about finances",
-            "n. a convincing explanation that reveals basic causes"
-        ]
-    },
-    {
-        "name": "satellite",
-        "trans": [
-            "v. broadcast or disseminate via satellite",
-            "adj. surrounding and dominated by a central authority or power",
-            "n. man-made equipment that orbits around the earth or the moon"
-        ]
-    },
-    {
-        "name": "permission",
-        "trans": [
-            "n. the act of giving a formal (usually written) authorization",
-            "n. approval to do something"
-        ]
-    },
-    {
-        "name": "variation",
-        "trans": [
-            "n. an activity that varies from a norm or standard",
-            "n. the act of changing or altering something slightly but noticeably from the norm or standard",
-            "n. (ballet) a solo dance or dance figure"
-        ]
-    },
-    {
-        "name": "innovation",
-        "trans": [
-            "n. the act of starting something for the first time",
-            "n. a creation (a new device or process) resulting from study and experimentation",
-            "n. the creation of something in the mind"
-        ]
-    },
-    {
-        "name": "divide",
-        "trans": [
-            "v. perform a division",
-            "v. force, take, or pull apart",
-            "v. come apart"
-        ]
-    },
-    {
-        "name": "diet",
-        "trans": [
-            "v. eat sparingly, for health reasons or to lose weight",
-            "v. follow a regimen or a diet, as for health reasons",
-            "n. a legislative assembly in certain countries (e.g., Japan)"
-        ]
-    },
-    {
-        "name": "partly",
-        "trans": [
-            "adv. in part; not completely"
-        ]
-    },
-    {
-        "name": "stimulating",
-        "trans": [
-            "adj. making lively and cheerful",
-            "adj. rousing or quickening activity or the senses",
-            "adj. that stimulates"
-        ]
-    },
-    {
-        "name": "master",
-        "trans": [
-            "v. have a firm understanding or knowledge of",
-            "v. be or become completely proficient or skilled in",
-            "v. get on top of"
-        ]
-    },
-    {
-        "name": "microbiology",
-        "trans": [
-            "n. the branch of biology that studies microorganisms and their effects on humans"
-        ]
-    },
-    {
-        "name": "essay",
-        "trans": [
-            "v. make an effort or attempt",
-            "v. put to the test, as for its quality, or give experimental use to",
-            "n. a tentative attempt"
-        ]
-    },
-    {
-        "name": "strategy",
-        "trans": [
-            "n. an elaborate and systematic plan of action",
-            "n. the branch of military science dealing with military command and the planning and conduct of a war"
-        ]
-    },
-    {
-        "name": "cosmetics",
-        "trans": [
-            "adj. serving an aesthetic purpose in beautifying the body",
-            "adj. serving an esthetic rather than a useful purpose",
-            "n. a toiletry designed to beautify the body"
-        ]
-    },
-    {
-        "name": "extension",
-        "trans": [
-            "n. act of expanding in scope",
-            "n. act of stretching or straightening out a flexed limb",
-            "n. an educational opportunity provided by colleges and universities to people who are not enrolled as regular students"
-        ]
-    },
-    {
-        "name": "record",
-        "trans": [
-            "v. be or provide a memorial to a person or an event",
-            "v. indicate a certain reading",
-            "v. register electronically"
-        ]
-    },
-    {
-        "name": "bibliography",
-        "trans": [
-            "n. a list of writings with time and place of publication (such as the writings of a single author or the works referred to in preparing a document etc.)"
-        ]
-    },
-    {
-        "name": "incorrect",
-        "trans": [
-            "adj. characterized by errors",
-            "adj. not correct",
-            "adj. (of a word or expression) not agreeing with grammatical principles"
-        ]
-    },
-    {
-        "name": "thorough",
-        "trans": [
-            "adj. painstakingly careful and accurate",
-            "adj. performed comprehensively and completely"
-        ]
-    },
-    {
-        "name": "definition",
-        "trans": [
-            "n. a concise explanation of the meaning of a word or phrase or symbol",
-            "n. clarity of outline"
-        ]
-    },
-    {
-        "name": "connective",
-        "trans": [
-            "adj. connecting or tending to connect",
-            "n. an instrumentality that connects",
-            "n. an uninflected function word that serves to conjoin words or phrases or clauses or sentences"
-        ]
-    },
-    {
-        "name": "solution",
-        "trans": [
-            "n. the successful action of solving a problem",
-            "n. a method for solving a problem",
-            "n. a statement that solves a problem or explains how to solve the problem"
-        ]
-    },
-    {
-        "name": "leisure",
-        "trans": [
-            "n. freedom to choose a pastime or enjoyable activity",
-            "n. time available for ease and relaxation"
-        ]
-    },
-    {
-        "name": "decisive",
-        "trans": [
-            "adj. forming or having the nature of a turning point or crisis",
-            "adj. determining or having the power to determine an outcome",
-            "adj. characterized by decision and firmness"
-        ]
-    },
-    {
-        "name": "ambitious",
-        "trans": [
-            "adj. having a strong desire for success or achievement",
-            "adj. requiring full use of your abilities or resources"
-        ]
-    },
-    {
-        "name": "specialised",
-        "trans": [
-            "adj. developed or designed for a special activity or function"
-        ]
-    },
-    {
-        "name": "observe",
-        "trans": [
-            "v. stick to correctly or closely",
-            "v. make mention of",
-            "v. observe with care or pay close attention to"
-        ]
-    },
-    {
-        "name": "dominance",
-        "trans": [
-            "n. superior development of one side of the body",
-            "n. the power or right to give orders or make decisions",
-            "n. the organic phenomenon in which one of a pair of alleles present in a genotype is expressed in the phenotype and the other allele of the pair is not"
-        ]
-    },
-    {
-        "name": "stick",
-        "trans": [
-            "v. be a mystery or bewildering to",
-            "v. saddle with something disagreeable or disadvantageous",
-            "v. come or be in close contact with"
-        ]
-    },
-    {
-        "name": "imaginable",
-        "trans": [
-            "adj. capable of being imagined"
-        ]
-    },
-    {
-        "name": "worthy",
-        "trans": [
-            "adj. worthy of being chosen especially as a spouse",
-            "adj. having qualities or abilities that merit recognition in some way",
-            "adj. having worth or merit or value"
-        ]
-    },
-    {
-        "name": "interpersonal",
-        "trans": [
-            "adj. occurring among or involving several people"
-        ]
-    },
-    {
-        "name": "accessible",
-        "trans": [
-            "adj. capable of being reached",
-            "adj. easy to get along with or talk to",
-            "adj. easily obtained"
-        ]
-    },
-    {
-        "name": "regrettable",
-        "trans": [
-            "adj. deserving regret"
-        ]
-    },
-    {
-        "name": "wind",
-        "trans": [
-            "v. raise or haul up with or as if with mechanical help",
-            "v. form into a wreath",
-            "v. coil the spring of (some mechanical device) by turning a stem"
-        ]
-    },
-    {
-        "name": "economics",
-        "trans": [
-            "n. the branch of social science that deals with the production and distribution and consumption of goods and services and their management"
-        ]
-    },
-    {
-        "name": "postgraduate",
-        "trans": [
-            "adj. of or relating to studies beyond a bachelor's degree",
-            "n. a student who continues studies after graduation"
-        ]
-    },
-    {
-        "name": "management",
-        "trans": [
-            "n. the act of managing something",
-            "n. those in charge of running a business"
-        ]
-    },
-    {
-        "name": "adviser",
-        "trans": [
-            "n. an expert who gives advice"
-        ]
-    },
-    {
-        "name": "folder",
-        "trans": [
-            "n. covering that is folded over to protect the contents",
-            "n. a small book usually having a paper cover"
-        ]
-    },
-    {
-        "name": "identify",
-        "trans": [
-            "v. consider to be equal or the same",
-            "v. recognize as being",
-            "v. identify as in botany or biology, for example"
-        ]
-    },
-    {
-        "name": "worksheet",
-        "trans": [
-            "n. a sheet of paper with multiple columns",
-            "n. a piece of paper recording work planned or done on a project"
-        ]
-    },
-    {
-        "name": "access",
-        "trans": [
-            "v. to reach or gain access to",
-            "v. to obtain or retrieve from a storage device",
-            "n. the act of approaching or entering"
-        ]
-    },
-    {
-        "name": "profit",
-        "trans": [
-            "v. make a profit",
-            "v. derive a benefit from",
-            "n. the advantageous quality of being beneficial"
-        ]
-    },
-    {
-        "name": "cultivate",
-        "trans": [
-            "v. to adapt a wild plant or unclaimed land to the environment",
-            "v. to prepare for crops",
-            "v. to foster the growth of"
-        ]
-    },
-    {
-        "name": "highlight",
-        "trans": [
-            "v. apply a highlighter to one's cheeks or eyebrows in order to make them more prominent",
-            "v. move into the foreground to make more visible or prominent",
-            "n. an area of lightness in a picture"
-        ]
-    },
-    {
-        "name": "diploma",
-        "trans": [
-            "n. a document certifying the successful completion of a course of study"
-        ]
-    },
-    {
-        "name": "tutorial",
-        "trans": [
-            "adj. of or relating to tutors or tutoring",
-            "n. a session of intensive tuition given by a tutor to an individual or to a small number of students"
-        ]
-    },
-    {
-        "name": "assessment",
-        "trans": [
-            "n. the act of judging or assessing a person or situation or event",
-            "n. the market value set on assets",
-            "n. the classification of someone or something with respect to its worth"
-        ]
-    },
-    {
-        "name": "brand",
-        "trans": [
-            "v. to mark or expose as infamous",
-            "v. to mark with a brand or trademark",
-            "v. to accuse, condemn, openly or formally, or brand as disgraceful"
-        ]
-    },
-    {
-        "name": "image",
-        "trans": [
-            "v. imagine",
-            "v. render visible, as by means of MRI",
-            "n. a representation of a person (especially in the form of sculpture)"
-        ]
-    },
-    {
-        "name": "residential",
-        "trans": [
-            "adj. used or designed for residence or limited to residences",
-            "adj. of or relating to or connected with residence"
-        ]
-    },
-    {
-        "name": "intimacy",
-        "trans": [
-            "n. close or warm friendship",
-            "n. a feeling of being intimate and belonging together",
-            "n. a usually secretive or illicit sexual relationship"
-        ]
-    },
-    {
-        "name": "inappropriate",
-        "trans": [
-            "adj. not suitable for a particular occasion etc",
-            "adj. not in keeping with what is correct or proper"
-        ]
-    },
-    {
-        "name": "underline",
-        "trans": [
-            "v. draw a line or lines underneath to call attention to",
-            "v. give extra weight to (a communication)",
-            "n. a line drawn underneath, especially under written matter"
-        ]
-    },
-    {
-        "name": "analyse",
-        "trans": [
-            "v. to subject to psychoanalytic treatment",
-            "v. to make a mathematical, chemical, or grammatical analysis of",
-            "v. to consider in detail and subject to an analysis in order to discover essential features or meaning"
-        ]
-    },
-    {
-        "name": "quote",
-        "trans": [
-            "v. put quote marks around",
-            "v. repeat a passage from",
-            "v. refer to for illustration or proof"
-        ]
-    },
-    {
-        "name": "sub-topic",
-        "trans": [
-            "subheading"
-        ]
-    },
-    {
-        "name": "frustrated",
-        "trans": [
-            "adj. disappointingly unsuccessful"
-        ]
-    },
-    {
-        "name": "premise",
-        "trans": [
-            "v. take something as preexisting and given",
-            "v. furnish with a preface or introduction",
-            "v. set forth beforehand, often as an explanation"
-        ]
-    },
-    {
-        "name": "intelligent",
-        "trans": [
-            "adj. having the capacity for thought and reason especially to a high degree",
-            "adj. endowed with the capacity to reason",
-            "adj. exercising or showing good judgment"
-        ]
-    },
-    {
-        "name": "sector",
-        "trans": [
-            "n. measuring instrument consisting of two graduated arms hinged at one end",
-            "n. a particular aspect of life or activity",
-            "n. a social group that forms part of the society or the economy"
-        ]
-    },
-    {
-        "name": "transcription",
-        "trans": [
-            "n. the act of making a record (especially an audio record)",
-            "n. the act of arranging and adapting a piece of music",
-            "n. a sound or television recording (e.g., from a broadcast to a tape recording)"
-        ]
-    },
-    {
-        "name": "chimpanzee",
-        "trans": [
-            "n. intelligent somewhat arboreal ape of equatorial African forests"
-        ]
-    },
-    {
-        "name": "imitate",
-        "trans": [
-            "v. make a reproduction or copy of",
-            "v. reproduce someone's behavior or looks",
-            "v. appear like, as in behavior or appearance"
-        ]
-    },
-    {
-        "name": "nutshell",
-        "trans": [
-            "n. the shell around the kernel of a nut"
-        ]
-    },
-    {
-        "name": "invalid",
-        "trans": [
-            "v. injure permanently",
-            "v. force to retire, remove from active duty, as of firemen",
-            "adj. no longer valid"
-        ]
-    },
-    {
-        "name": "ability",
-        "trans": [
-            "n. the quality of being able to perform",
-            "n. possession of the qualities (especially mental qualities) required to do something or get something done"
-        ]
-    },
-    {
-        "name": "leadership",
-        "trans": [
-            "n. the activity of leading",
-            "n. the ability to lead",
-            "n. the body of people who lead a group"
-        ]
-    },
-    {
-        "name": "majority",
-        "trans": [
-            "n. the property resulting from being or relating to the greater in number of two parts",
-            "n. (elections) more than half of the votes",
-            "n. the age at which persons are considered competent to manage their own affairs"
-        ]
-    },
-    {
-        "name": "seat belt",
-        "trans": [
-            "n. a safety belt used in a car or plane to hold you in your seat in case of an accident"
-        ]
-    },
-    {
-        "name": "theory",
-        "trans": [
-            "n. a tentative insight into the natural world",
-            "n. a belief that can guide behavior",
-            "n. a well-substantiated explanation of some aspect of the natural world"
-        ]
-    }
+  {
+    "name": "referee",
+    "trans": [
+      "v. evaluate professionally a colleague's work",
+      "v. be a referee or umpire in a sports competition",
+      "n. (sports) the chief official (as in boxing or American football) who is expected to ensure fair play"
+    ]
+  },
+  {
+    "name": "puzzling",
+    "trans": [
+      "adj. lacking clarity of meaning",
+      "adj. not clear to the understanding"
+    ]
+  },
+  {
+    "name": "perspective",
+    "trans": [
+      "n. the appearance of things relative to one another as determined by their distance from the viewer",
+      "n. a way of regarding situations or topics etc."
+    ]
+  },
+  {
+    "name": "path",
+    "trans": [
+      "n. a course of conduct",
+      "n. a way especially designed for a particular use",
+      "n. an established line of travel or access"
+    ]
+  },
+  {
+    "name": "representative",
+    "trans": [
+      "adj. being or characteristic of government by representation in which citizens exercise power through elected officers and representatives",
+      "adj. standing for something else",
+      "adj. serving to represent or typify"
+    ]
+  },
+  {
+    "name": "discontinue",
+    "trans": [
+      "v. prevent completion",
+      "v. put an end to a state or an activity",
+      "v. come to or be at an end"
+    ]
+  },
+  {
+    "name": "accounting",
+    "trans": [
+      "n. the occupation of maintaining and auditing records and preparing financial reports for a business",
+      "n. a system that provides quantitative information about finances",
+      "n. a convincing explanation that reveals basic causes"
+    ]
+  },
+  {
+    "name": "satellite",
+    "trans": [
+      "v. broadcast or disseminate via satellite",
+      "adj. surrounding and dominated by a central authority or power",
+      "n. man-made equipment that orbits around the earth or the moon"
+    ]
+  },
+  {
+    "name": "permission",
+    "trans": [
+      "n. the act of giving a formal (usually written) authorization",
+      "n. approval to do something"
+    ]
+  },
+  {
+    "name": "variation",
+    "trans": [
+      "n. an activity that varies from a norm or standard",
+      "n. the act of changing or altering something slightly but noticeably from the norm or standard",
+      "n. (ballet) a solo dance or dance figure"
+    ]
+  },
+  {
+    "name": "innovation",
+    "trans": [
+      "n. the act of starting something for the first time",
+      "n. a creation (a new device or process) resulting from study and experimentation",
+      "n. the creation of something in the mind"
+    ]
+  },
+  {
+    "name": "divide",
+    "trans": [
+      "v. perform a division",
+      "v. force, take, or pull apart",
+      "v. come apart"
+    ]
+  },
+  {
+    "name": "diet",
+    "trans": [
+      "v. eat sparingly, for health reasons or to lose weight",
+      "v. follow a regimen or a diet, as for health reasons",
+      "n. a legislative assembly in certain countries (e.g., Japan)"
+    ]
+  },
+  {
+    "name": "partly",
+    "trans": ["adv. in part; not completely"]
+  },
+  {
+    "name": "stimulating",
+    "trans": [
+      "adj. making lively and cheerful",
+      "adj. rousing or quickening activity or the senses",
+      "adj. that stimulates"
+    ]
+  },
+  {
+    "name": "master",
+    "trans": [
+      "v. have a firm understanding or knowledge of",
+      "v. be or become completely proficient or skilled in",
+      "v. get on top of"
+    ]
+  },
+  {
+    "name": "microbiology",
+    "trans": [
+      "n. the branch of biology that studies microorganisms and their effects on humans"
+    ]
+  },
+  {
+    "name": "essay",
+    "trans": [
+      "v. make an effort or attempt",
+      "v. put to the test, as for its quality, or give experimental use to",
+      "n. a tentative attempt"
+    ]
+  },
+  {
+    "name": "strategy",
+    "trans": [
+      "n. an elaborate and systematic plan of action",
+      "n. the branch of military science dealing with military command and the planning and conduct of a war"
+    ]
+  },
+  {
+    "name": "cosmetics",
+    "trans": [
+      "adj. serving an aesthetic purpose in beautifying the body",
+      "adj. serving an esthetic rather than a useful purpose",
+      "n. a toiletry designed to beautify the body"
+    ]
+  },
+  {
+    "name": "extension",
+    "trans": [
+      "n. act of expanding in scope",
+      "n. act of stretching or straightening out a flexed limb",
+      "n. an educational opportunity provided by colleges and universities to people who are not enrolled as regular students"
+    ]
+  },
+  {
+    "name": "record",
+    "trans": [
+      "v. be or provide a memorial to a person or an event",
+      "v. indicate a certain reading",
+      "v. register electronically"
+    ]
+  },
+  {
+    "name": "bibliography",
+    "trans": [
+      "n. a list of writings with time and place of publication (such as the writings of a single author or the works referred to in preparing a document etc.)"
+    ]
+  },
+  {
+    "name": "incorrect",
+    "trans": [
+      "adj. characterized by errors",
+      "adj. not correct",
+      "adj. (of a word or expression) not agreeing with grammatical principles"
+    ]
+  },
+  {
+    "name": "thorough",
+    "trans": [
+      "adj. painstakingly careful and accurate",
+      "adj. performed comprehensively and completely"
+    ]
+  },
+  {
+    "name": "definition",
+    "trans": [
+      "n. a concise explanation of the meaning of a word or phrase or symbol",
+      "n. clarity of outline"
+    ]
+  },
+  {
+    "name": "connective",
+    "trans": [
+      "adj. connecting or tending to connect",
+      "n. an instrumentality that connects",
+      "n. an uninflected function word that serves to conjoin words or phrases or clauses or sentences"
+    ]
+  },
+  {
+    "name": "solution",
+    "trans": [
+      "n. the successful action of solving a problem",
+      "n. a method for solving a problem",
+      "n. a statement that solves a problem or explains how to solve the problem"
+    ]
+  },
+  {
+    "name": "leisure",
+    "trans": [
+      "n. freedom to choose a pastime or enjoyable activity",
+      "n. time available for ease and relaxation"
+    ]
+  },
+  {
+    "name": "decisive",
+    "trans": [
+      "adj. forming or having the nature of a turning point or crisis",
+      "adj. determining or having the power to determine an outcome",
+      "adj. characterized by decision and firmness"
+    ]
+  },
+  {
+    "name": "ambitious",
+    "trans": [
+      "adj. having a strong desire for success or achievement",
+      "adj. requiring full use of your abilities or resources"
+    ]
+  },
+  {
+    "name": "specialised",
+    "trans": ["adj. developed or designed for a special activity or function"]
+  },
+  {
+    "name": "observe",
+    "trans": [
+      "v. stick to correctly or closely",
+      "v. make mention of",
+      "v. observe with care or pay close attention to"
+    ]
+  },
+  {
+    "name": "dominance",
+    "trans": [
+      "n. superior development of one side of the body",
+      "n. the power or right to give orders or make decisions",
+      "n. the organic phenomenon in which one of a pair of alleles present in a genotype is expressed in the phenotype and the other allele of the pair is not"
+    ]
+  },
+  {
+    "name": "stick",
+    "trans": [
+      "v. be a mystery or bewildering to",
+      "v. saddle with something disagreeable or disadvantageous",
+      "v. come or be in close contact with"
+    ]
+  },
+  {
+    "name": "imaginable",
+    "trans": ["adj. capable of being imagined"]
+  },
+  {
+    "name": "worthy",
+    "trans": [
+      "adj. worthy of being chosen especially as a spouse",
+      "adj. having qualities or abilities that merit recognition in some way",
+      "adj. having worth or merit or value"
+    ]
+  },
+  {
+    "name": "interpersonal",
+    "trans": ["adj. occurring among or involving several people"]
+  },
+  {
+    "name": "accessible",
+    "trans": [
+      "adj. capable of being reached",
+      "adj. easy to get along with or talk to",
+      "adj. easily obtained"
+    ]
+  },
+  {
+    "name": "regrettable",
+    "trans": ["adj. deserving regret"]
+  },
+  {
+    "name": "wind",
+    "trans": [
+      "v. raise or haul up with or as if with mechanical help",
+      "v. form into a wreath",
+      "v. coil the spring of (some mechanical device) by turning a stem"
+    ]
+  },
+  {
+    "name": "economics",
+    "trans": [
+      "n. the branch of social science that deals with the production and distribution and consumption of goods and services and their management"
+    ]
+  },
+  {
+    "name": "postgraduate",
+    "trans": [
+      "adj. of or relating to studies beyond a bachelor's degree",
+      "n. a student who continues studies after graduation"
+    ]
+  },
+  {
+    "name": "management",
+    "trans": [
+      "n. the act of managing something",
+      "n. those in charge of running a business"
+    ]
+  },
+  {
+    "name": "adviser",
+    "trans": ["n. an expert who gives advice"]
+  },
+  {
+    "name": "folder",
+    "trans": [
+      "n. covering that is folded over to protect the contents",
+      "n. a small book usually having a paper cover"
+    ]
+  },
+  {
+    "name": "identify",
+    "trans": [
+      "v. consider to be equal or the same",
+      "v. recognize as being",
+      "v. identify as in botany or biology, for example"
+    ]
+  },
+  {
+    "name": "worksheet",
+    "trans": [
+      "n. a sheet of paper with multiple columns",
+      "n. a piece of paper recording work planned or done on a project"
+    ]
+  },
+  {
+    "name": "access",
+    "trans": [
+      "v. to reach or gain access to",
+      "v. to obtain or retrieve from a storage device",
+      "n. the act of approaching or entering"
+    ]
+  },
+  {
+    "name": "profit",
+    "trans": [
+      "v. make a profit",
+      "v. derive a benefit from",
+      "n. the advantageous quality of being beneficial"
+    ]
+  },
+  {
+    "name": "cultivate",
+    "trans": [
+      "v. to adapt a wild plant or unclaimed land to the environment",
+      "v. to prepare for crops",
+      "v. to foster the growth of"
+    ]
+  },
+  {
+    "name": "highlight",
+    "trans": [
+      "v. apply a highlighter to one's cheeks or eyebrows in order to make them more prominent",
+      "v. move into the foreground to make more visible or prominent",
+      "n. an area of lightness in a picture"
+    ]
+  },
+  {
+    "name": "diploma",
+    "trans": [
+      "n. a document certifying the successful completion of a course of study"
+    ]
+  },
+  {
+    "name": "tutorial",
+    "trans": [
+      "adj. of or relating to tutors or tutoring",
+      "n. a session of intensive tuition given by a tutor to an individual or to a small number of students"
+    ]
+  },
+  {
+    "name": "assessment",
+    "trans": [
+      "n. the act of judging or assessing a person or situation or event",
+      "n. the market value set on assets",
+      "n. the classification of someone or something with respect to its worth"
+    ]
+  },
+  {
+    "name": "brand",
+    "trans": [
+      "v. to mark or expose as infamous",
+      "v. to mark with a brand or trademark",
+      "v. to accuse, condemn, openly or formally, or brand as disgraceful"
+    ]
+  },
+  {
+    "name": "image",
+    "trans": [
+      "v. imagine",
+      "v. render visible, as by means of MRI",
+      "n. a representation of a person (especially in the form of sculpture)"
+    ]
+  },
+  {
+    "name": "residential",
+    "trans": [
+      "adj. used or designed for residence or limited to residences",
+      "adj. of or relating to or connected with residence"
+    ]
+  },
+  {
+    "name": "intimacy",
+    "trans": [
+      "n. close or warm friendship",
+      "n. a feeling of being intimate and belonging together",
+      "n. a usually secretive or illicit sexual relationship"
+    ]
+  },
+  {
+    "name": "inappropriate",
+    "trans": [
+      "adj. not suitable for a particular occasion etc",
+      "adj. not in keeping with what is correct or proper"
+    ]
+  },
+  {
+    "name": "underline",
+    "trans": [
+      "v. draw a line or lines underneath to call attention to",
+      "v. give extra weight to (a communication)",
+      "n. a line drawn underneath, especially under written matter"
+    ]
+  },
+  {
+    "name": "analyse",
+    "trans": [
+      "v. to subject to psychoanalytic treatment",
+      "v. to make a mathematical, chemical, or grammatical analysis of",
+      "v. to consider in detail and subject to an analysis in order to discover essential features or meaning"
+    ]
+  },
+  {
+    "name": "quote",
+    "trans": [
+      "v. put quote marks around",
+      "v. repeat a passage from",
+      "v. refer to for illustration or proof"
+    ]
+  },
+  {
+    "name": "sub-topic",
+    "trans": ["subheading"]
+  },
+  {
+    "name": "frustrated",
+    "trans": ["adj. disappointingly unsuccessful"]
+  },
+  {
+    "name": "premise",
+    "trans": [
+      "v. take something as preexisting and given",
+      "v. furnish with a preface or introduction",
+      "v. set forth beforehand, often as an explanation"
+    ]
+  },
+  {
+    "name": "intelligent",
+    "trans": [
+      "adj. having the capacity for thought and reason especially to a high degree",
+      "adj. endowed with the capacity to reason",
+      "adj. exercising or showing good judgment"
+    ]
+  },
+  {
+    "name": "sector",
+    "trans": [
+      "n. measuring instrument consisting of two graduated arms hinged at one end",
+      "n. a particular aspect of life or activity",
+      "n. a social group that forms part of the society or the economy"
+    ]
+  },
+  {
+    "name": "transcription",
+    "trans": [
+      "n. the act of making a record (especially an audio record)",
+      "n. the act of arranging and adapting a piece of music",
+      "n. a sound or television recording (e.g., from a broadcast to a tape recording)"
+    ]
+  },
+  {
+    "name": "chimpanzee",
+    "trans": [
+      "n. intelligent somewhat arboreal ape of equatorial African forests"
+    ]
+  },
+  {
+    "name": "imitate",
+    "trans": [
+      "v. make a reproduction or copy of",
+      "v. reproduce someone's behavior or looks",
+      "v. appear like, as in behavior or appearance"
+    ]
+  },
+  {
+    "name": "nutshell",
+    "trans": ["n. the shell around the kernel of a nut"]
+  },
+  {
+    "name": "invalid",
+    "trans": [
+      "v. injure permanently",
+      "v. force to retire, remove from active duty, as of firemen",
+      "adj. no longer valid"
+    ]
+  },
+  {
+    "name": "ability",
+    "trans": [
+      "n. the quality of being able to perform",
+      "n. possession of the qualities (especially mental qualities) required to do something or get something done"
+    ]
+  },
+  {
+    "name": "leadership",
+    "trans": [
+      "n. the activity of leading",
+      "n. the ability to lead",
+      "n. the body of people who lead a group"
+    ]
+  },
+  {
+    "name": "majority",
+    "trans": [
+      "n. the property resulting from being or relating to the greater in number of two parts",
+      "n. (elections) more than half of the votes",
+      "n. the age at which persons are considered competent to manage their own affairs"
+    ]
+  },
+  {
+    "name": "seat belt",
+    "trans": [
+      "n. a safety belt used in a car or plane to hold you in your seat in case of an accident"
+    ]
+  },
+  {
+    "name": "theory",
+    "trans": [
+      "n. a tentative insight into the natural world",
+      "n. a belief that can guide behavior",
+      "n. a well-substantiated explanation of some aspect of the natural world"
+    ]
+  }
 ]

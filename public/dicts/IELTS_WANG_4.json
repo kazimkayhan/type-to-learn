@@ -1,3243 +1,3106 @@
 [
-    {
-        "name": "abnormal",
-        "trans": [
-            "adj. much greater than the normal",
-            "adj. not normal",
-            "adj. departing from the normal in e.g. intelligence and development"
-        ],
-        "usphone": "æbˈnɔːml",
-        "ukphone": "æbˈnɔːrml"
-    },
-    {
-        "name": "academic",
-        "trans": [
-            "adj. hypothetical or theoretical and not expected to produce an immediate or practical result",
-            "adj. marked by a narrow focus on or display of learning especially its trivial aspects",
-            "adj. associated with academia or an academy"
-        ],
-        "usphone": "ˌækəˈdemɪk",
-        "ukphone": "ˌækəˈdemɪk"
-    },
-    {
-        "name": "accessible",
-        "trans": [
-            "adj. capable of being reached",
-            "adj. easy to get along with or talk to",
-            "adj. easily obtained"
-        ],
-        "usphone": "əkˈsesəbl",
-        "ukphone": "əkˈsesəbl"
-    },
-    {
-        "name": "accountable",
-        "trans": [
-            "adj. liable to account for one's actions"
-        ],
-        "usphone": "əˈkaʊntəbl",
-        "ukphone": "əˈkaʊntəbl"
-    },
-    {
-        "name": "accurate",
-        "trans": [
-            "adj. conforming exactly or almost exactly to fact or to a standard or performing with total accuracy",
-            "adj. (of ideas, images, representations, expressions) characterized by perfect conformity to fact or truth"
-        ],
-        "usphone": "ˈækjərət",
-        "ukphone": "ˈækjərət"
-    },
-    {
-        "name": "additional",
-        "trans": [
-            "adj. further or added"
-        ],
-        "usphone": "əˈdɪʃənl",
-        "ukphone": "əˈdɪʃənl"
-    },
-    {
-        "name": "adequate",
-        "trans": [
-            "adj. having the requisite qualities or resources to meet a task",
-            "adj. about average",
-            "adj. sufficient for the purpose"
-        ],
-        "usphone": "ˈædɪkwət",
-        "ukphone": "ˈædɪkwət"
-    },
-    {
-        "name": "advanced",
-        "trans": [
-            "adj. situated ahead or going before",
-            "adj. comparatively late in a course of development",
-            "adj. (of societies) highly developed especially in technology or industry"
-        ],
-        "usphone": "əd'vænst",
-        "ukphone": "əd'vænst"
-    },
-    {
-        "name": "advisable",
-        "trans": [
-            "adj. worthy of being recommended or suggested"
-        ],
-        "usphone": "ədˈvaɪzəbl",
-        "ukphone": "ədˈvaɪzəbl"
-    },
-    {
-        "name": "allergic",
-        "trans": [
-            "adj. having an allergy or peculiar or excessive susceptibility, especially to a specific factor",
-            "adj. characterized by or caused by allergy"
-        ],
-        "usphone": "əˈlɜːdʒɪk",
-        "ukphone": "əˈlɜːrdʒɪk"
-    },
-    {
-        "name": "alternative",
-        "trans": [
-            "adj. necessitating a choice between mutually exclusive possibilities",
-            "adj. pertaining to unconventional choices",
-            "adj. serving or used in place of another"
-        ],
-        "usphone": "ɔːlˈtɜːnətɪv",
-        "ukphone": "ɔːlˈtɜːrnətɪv"
-    },
-    {
-        "name": "amazing",
-        "trans": [
-            "adj. inspiring awe or admiration or wonder",
-            "adj. surprising greatly"
-        ],
-        "usphone": "əˈmeɪzɪŋ",
-        "ukphone": "əˈmeɪzɪŋ"
-    },
-    {
-        "name": "ambiguous",
-        "trans": [
-            "adj. open to two or more interpretations"
-        ],
-        "usphone": "æmˈbɪɡjuəs",
-        "ukphone": "æmˈbɪɡjuəs"
-    },
-    {
-        "name": "ambitious",
-        "trans": [
-            "adj. having a strong desire for success or achievement",
-            "adj. requiring full use of your abilities or resources"
-        ],
-        "usphone": "æmˈbɪʃəs",
-        "ukphone": "æmˈbɪʃəs"
-    },
-    {
-        "name": "analytical",
-        "trans": [
-            "adj. of a proposition that is necessarily true independent of fact or experience",
-            "adj. using or skilled in using analysis (i.e., separating a whole--intellectual or substantial--into its elemental parts or basic principles)"
-        ],
-        "usphone": "ˌænəˈlɪtɪkl",
-        "ukphone": "ˌænəˈlɪtɪkl"
-    },
-    {
-        "name": "ancient",
-        "trans": [
-            "adj. very old",
-            "adj. belonging to times long past especially of the historical period before the fall of the Western Roman Empire",
-            "n. a person who lived in ancient times"
-        ],
-        "usphone": "ˈeɪnʃənt",
-        "ukphone": "ˈeɪnʃənt"
-    },
-    {
-        "name": "angry",
-        "trans": [
-            "adj. feeling or showing anger",
-            "adj. (of the elements) as if showing violent anger",
-            "adj. severely inflamed and painful"
-        ],
-        "usphone": "ˈæŋɡri",
-        "ukphone": "ˈæŋɡri"
-    },
-    {
-        "name": "applied",
-        "trans": [
-            "adj. concerned with concrete problems or data rather than with fundamental principles"
-        ],
-        "usphone": "əˈplaɪd",
-        "ukphone": "əˈplaɪd"
-    },
-    {
-        "name": "archaeological",
-        "trans": [
-            "adj. related to or dealing with or devoted to archaeology"
-        ],
-        "usphone": "ˌɑrkiːəˈlɑdʒɪkəl",
-        "ukphone": "ˌɑːrkiːəˈlɒdʒɪkəl"
-    },
-    {
-        "name": "artificial",
-        "trans": [
-            "adj. artificially formal",
-            "adj. contrived by art rather than nature",
-            "adj. not arising from natural growth or characterized by vital processes"
-        ],
-        "usphone": "ˌɑːtɪˈfɪʃl",
-        "ukphone": "ˌɑːrtɪˈfɪʃl"
-    },
-    {
-        "name": "artistic",
-        "trans": [
-            "adj. satisfying aesthetic standards and sensibilities",
-            "adj. aesthetically pleasing",
-            "adj. relating to or characteristic of art or artists"
-        ],
-        "usphone": "ɑːˈtɪstɪk",
-        "ukphone": "ɑːrˈtɪstɪk"
-    },
-    {
-        "name": "ascending",
-        "trans": [
-            "adj. moving or going or growing upward",
-            "n. the act of changing location in an upward direction"
-        ],
-        "usphone": "ə'sɛndɪŋ",
-        "ukphone": "ə'sendiŋ"
-    },
-    {
-        "name": "atmospheric",
-        "trans": [
-            "adj. relating to or located in the atmosphere"
-        ],
-        "usphone": "ˌætməsˈferɪk",
-        "ukphone": "ˌætməsˈferɪk"
-    },
-    {
-        "name": "attentive",
-        "trans": [
-            "adj. (often followed by `to') giving care or attention",
-            "adj. taking heed"
-        ],
-        "usphone": "əˈtentɪv",
-        "ukphone": "əˈtentɪv"
-    },
-    {
-        "name": "audio",
-        "trans": [
-            "n. the sound elements of television",
-            "n. a recording of acoustic signals",
-            "n. an audible acoustic wave frequency"
-        ],
-        "usphone": "ˈɔːdiəʊ",
-        "ukphone": "ˈɔːdioʊ"
-    },
-    {
-        "name": "available",
-        "trans": [
-            "adj. obtainable or accessible and ready for use or service",
-            "adj. convenient for use or disposal",
-            "adj. not busy"
-        ],
-        "usphone": "əˈveɪləbl",
-        "ukphone": "əˈveɪləbl"
-    },
-    {
-        "name": "aware",
-        "trans": [
-            "adj. bearing in mind",
-            "adj. (sometimes followed by `of') having or showing knowledge or understanding or realization or perception"
-        ],
-        "usphone": "əˈweə",
-        "ukphone": "əˈwer"
-    },
-    {
-        "name": "awful",
-        "trans": [
-            "adj. causing fear or dread or terror",
-            "adj. exceptionally bad or displeasing",
-            "adj. inspiring awe or admiration or wonder"
-        ],
-        "usphone": "ˈɔːfl",
-        "ukphone": "ˈɔːfl"
-    },
-    {
-        "name": "auto",
-        "trans": [
-            "n. a motor vehicle with four wheels"
-        ],
-        "usphone": "ˈɔːtəʊ",
-        "ukphone": "ˈɔːtoʊ"
-    },
-    {
-        "name": "bald",
-        "trans": [
-            "v. to grow bald",
-            "adj. lacking hair on all or most of the scalp",
-            "adj. without the natural or usual covering"
-        ],
-        "usphone": "bɔːld",
-        "ukphone": "bɔːld"
-    },
-    {
-        "name": "barren",
-        "trans": [
-            "adj. completely wanting or lacking",
-            "adj. not bearing offspring",
-            "adj. providing no shelter or sustenance"
-        ],
-        "usphone": "ˈbærən",
-        "ukphone": "ˈbærən"
-    },
-    {
-        "name": "basic",
-        "trans": [
-            "adj. of or denoting or of the nature of or containing a base",
-            "adj. serving as a base or starting point",
-            "adj. pertaining to or constituting a base or basis"
-        ],
-        "usphone": "ˈbeɪsɪk",
-        "ukphone": "ˈbeɪsɪk"
-    },
-    {
-        "name": "beautiful",
-        "trans": [
-            "adj. delighting the senses or exciting intellectual or emotional admiration",
-            "adj. (of weather) highly enjoyable"
-        ],
-        "usphone": "ˈbjuːtɪfl",
-        "ukphone": "ˈbjuːtɪfl"
-    },
-    {
-        "name": "biological",
-        "trans": [
-            "adj. of parents and children",
-            "adj. pertaining to biology or to life and living things"
-        ],
-        "usphone": "ˌbaɪəˈlɒdʒɪkl",
-        "ukphone": "ˌbaɪəˈlɑːdʒɪkl"
-    },
-    {
-        "name": "blind",
-        "trans": [
-            "v. to make dim by comparison or conceal",
-            "v. to make blind by putting the eyes out",
-            "v. to render unable to see"
-        ],
-        "usphone": "blaɪnd",
-        "ukphone": "blaɪnd"
-    },
-    {
-        "name": "blond",
-        "trans": [
-            "adj. being or having light colored skin and hair and usually blue or grey eyes",
-            "n. a light grayish yellow to near white",
-            "n. a person with fair skin and hair"
-        ],
-        "usphone": "blɒnd",
-        "ukphone": "blɑːnd"
-    },
-    {
-        "name": "British",
-        "trans": [
-            "adj. of or relating to or characteristic of Great Britain or its people or culture"
-        ],
-        "usphone": "'brɪtɪʃ",
-        "ukphone": "'brɪtɪʃ"
-    },
-    {
-        "name": "broad",
-        "trans": [
-            "adj. showing or characterized by broad-mindedness",
-            "adj. lacking subtlety",
-            "adj. broad in scope or content"
-        ],
-        "usphone": "brɔːd",
-        "ukphone": "brɔːd"
-    },
-    {
-        "name": "buried",
-        "trans": [
-            "adj. placed in a grave"
-        ],
-        "usphone": "ˈberid",
-        "ukphone": "ˈberid"
-    },
-    {
-        "name": "calculating",
-        "trans": [
-            "adj. used of persons"
-        ],
-        "usphone": "ˈkælkjuleɪtɪŋ",
-        "ukphone": "ˈkælkjuleɪtɪŋ"
-    },
-    {
-        "name": "casual",
-        "trans": [
-            "adj. hasty and without attention to detail",
-            "adj. marked by blithe unconcern",
-            "adj. not showing effort or strain"
-        ],
-        "usphone": "ˈkæʒuəl",
-        "ukphone": "ˈkæʒuəl"
-    },
-    {
-        "name": "central",
-        "trans": [
-            "adj. in or near a center or constituting a center",
-            "adj. serving as an essential component",
-            "n. a workplace that serves as a telecommunications facility where lines from telephones can be connected together to permit communication"
-        ],
-        "usphone": "ˈsentrəl",
-        "ukphone": "ˈsentrəl"
-    },
-    {
-        "name": "challenging",
-        "trans": [
-            "adj. requiring full use of your abilities or resources",
-            "adj. disturbingly provocative",
-            "adj. stimulating interest or thought"
-        ],
-        "usphone": "ˈtʃælɪndʒɪŋ",
-        "ukphone": "ˈtʃælɪndʒɪŋ"
-    },
-    {
-        "name": "cheaper",
-        "trans": [
-            "convenient classifier indicating a small amount or small number greater than 1: some, a few, several"
-        ],
-        "usphone": "ˈtʃiːpə",
-        "ukphone": "ˈtʃipər"
-    },
-    {
-        "name": "cheerful",
-        "trans": [
-            "adj. being full of or promoting cheer",
-            "adj. pleasantly (even unrealistically) optimistic"
-        ],
-        "usphone": "ˈtʃɪəfl",
-        "ukphone": "ˈtʃɪrfl"
-    },
-    {
-        "name": "children's",
-        "trans": [
-            "child"
-        ],
-        "usphone": "ˈtʃɪldrənz",
-        "ukphone": "ˈtʃɪldrənz"
-    },
-    {
-        "name": "classical",
-        "trans": [
-            "adj. of or relating to the most highly developed stage of an earlier civilisation and its culture",
-            "adj. of or pertaining to or characteristic of the ancient Greek and Roman cultures",
-            "adj. of recognized authority or excellence"
-        ],
-        "usphone": "ˈklæsɪkl",
-        "ukphone": "ˈklæsɪkl"
-    },
-    {
-        "name": "clean",
-        "trans": [
-            "v. to be cleanable",
-            "v. to remove unwanted substances from",
-            "v. to remove while making clean"
-        ],
-        "usphone": "kliːn",
-        "ukphone": "kliːn"
-    },
-    {
-        "name": "cleanest",
-        "trans": [
-            "(before an adjective or verb) to the highest degree clean"
-        ],
-        "usphone": "kliːnist",
-        "ukphone": "kliːnist"
-    },
-    {
-        "name": "clear",
-        "trans": [
-            "v. to free the throat by making a rasping sound",
-            "v. to rid of obstructions",
-            "v. to remove something"
-        ],
-        "usphone": "klɪə",
-        "ukphone": "klɪr"
-    },
-    {
-        "name": "clever",
-        "trans": [
-            "adj. showing inventiveness and skill",
-            "adj. showing self-interest and shrewdness in dealing with others",
-            "adj. mentally quick and resourceful"
-        ],
-        "usphone": "ˈklevə",
-        "ukphone": "ˈklevər"
-    },
-    {
-        "name": "coastal",
-        "trans": [
-            "adj. located on or near or bordering on a coast",
-            "adj. of or relating to a coast"
-        ],
-        "usphone": "ˈkəʊstl",
-        "ukphone": "ˈkoʊstl"
-    },
-    {
-        "name": "comfortable",
-        "trans": [
-            "adj. providing or experiencing physical well-being or relief (`comfy' is informal)",
-            "adj. free from stress or conducive to mental ease",
-            "adj. in fortunate circumstances financially"
-        ],
-        "usphone": "ˈkʌmftəbl",
-        "ukphone": "ˈkʌmftəbl"
-    },
-    {
-        "name": "common",
-        "trans": [
-            "adj. having no special distinction or quality",
-            "adj. belonging to or participated in by a community as a whole",
-            "adj. commonly encountered"
-        ],
-        "usphone": "ˈkɒmən",
-        "ukphone": "ˈkɑːmən"
-    },
-    {
-        "name": "commonsense",
-        "trans": [
-            "adj. exhibiting native good judgment"
-        ],
-        "usphone": "ˈkɑmənˌsɛns",
-        "ukphone": "ˈkɒmənˌsɛns"
-    },
-    {
-        "name": "complete",
-        "trans": [
-            "v. to bring to a whole, with all the necessary parts or elements",
-            "v. to come or bring to a finish or an end",
-            "v. to write all the required information onto a form"
-        ],
-        "usphone": "kəmˈpliːt",
-        "ukphone": "kəmˈpliːt"
-    },
-    {
-        "name": "completed",
-        "trans": [
-            "adj. successfully completed or brought to an end",
-            "adj. caught",
-            "adj. (of a marriage) completed by the first act of sexual intercourse after the ceremony"
-        ],
-        "usphone": "kəmˈpliːtɪd",
-        "ukphone": "kəmˈpliːtɪd"
-    },
-    {
-        "name": "confident",
-        "trans": [
-            "adj. not liable to error in judgment or action",
-            "adj. having or marked by confidence or assurance",
-            "adj. persuaded of"
-        ],
-        "usphone": "ˈkɒnfɪdənt",
-        "ukphone": "ˈkɑːnfɪdənt"
-    },
-    {
-        "name": "conservative",
-        "trans": [
-            "adj. conforming to the standards and conventions of the middle class",
-            "adj. resistant to change",
-            "adj. unimaginatively conventional"
-        ],
-        "usphone": "kənˈsɜːvətɪv",
-        "ukphone": "kənˈsɜːrvətɪv"
-    },
-    {
-        "name": "convenient",
-        "trans": [
-            "adj. large and roomy (`convenient' is archaic in this sense)",
-            "adj. suited to your comfort or purpose or needs"
-        ],
-        "usphone": "kənˈviːniənt",
-        "ukphone": "kənˈviːniənt"
-    },
-    {
-        "name": "co-operative",
-        "trans": [
-            "to cooperate cooperative"
-        ],
-        "usphone": "ˈkoʊˌɑpəˌreɪtɪv",
-        "ukphone": "ˈkəʊˌɒpərətɪv"
-    },
-    {
-        "name": "corrupt",
-        "trans": [
-            "v. to alter from the original",
-            "v. to place under suspicion or cast doubt upon",
-            "v. to make illegal payments to in exchange for favors or influence"
-        ],
-        "usphone": "kəˈrʌpt",
-        "ukphone": "kəˈrʌpt"
-    },
-    {
-        "name": "costly",
-        "trans": [
-            "adj. having a high price",
-            "adj. entailing great loss or sacrifice"
-        ],
-        "usphone": "ˈkɒstli",
-        "ukphone": "ˈkɔːstli"
-    },
-    {
-        "name": "cream",
-        "trans": [
-            "v. to add cream to, for example, coffee",
-            "v. to remove from the surface",
-            "v. to put on cream, as on one's face or body"
-        ],
-        "usphone": "kriːm",
-        "ukphone": "kriːm"
-    },
-    {
-        "name": "critical",
-        "trans": [
-            "adj. marked by a tendency to find and call attention to errors and flaws",
-            "adj. characterized by careful evaluation and judgment",
-            "adj. being in or verging on a state of crisis or emergency"
-        ],
-        "usphone": "ˈkrɪtɪkl",
-        "ukphone": "ˈkrɪtɪkl"
-    },
-    {
-        "name": "crucial",
-        "trans": [
-            "adj. of extreme importance",
-            "adj. of the greatest importance",
-            "adj. having crucial relevance"
-        ],
-        "usphone": "ˈkruːʃl",
-        "ukphone": "ˈkruːʃl"
-    },
-    {
-        "name": "cultural",
-        "trans": [
-            "adj. of or relating to the arts and manners that a group favors",
-            "adj. denoting or deriving from or distinctive of the ways of living built up by a group of people",
-            "adj. relating to the raising of plants or animals"
-        ],
-        "usphone": "ˈkʌltʃərəl",
-        "ukphone": "ˈkʌltʃərəl"
-    },
-    {
-        "name": "curly",
-        "trans": [
-            "adj. hair having curls or waves"
-        ],
-        "usphone": "ˈkɜːli",
-        "ukphone": "ˈkɜːrli"
-    },
-    {
-        "name": "current",
-        "trans": [
-            "adj. occurring in or belonging to the present time",
-            "n. a steady flow of a fluid (usually from natural causes)",
-            "n. dominant course (suggestive of running water) of successive events or ideas"
-        ],
-        "usphone": "ˈkʌrənt",
-        "ukphone": "ˈkɜːrənt"
-    },
-    {
-        "name": "daily",
-        "trans": [
-            "adj. appropriate for ordinary or routine occasions",
-            "adj. of or belonging to or occurring every day",
-            "adv. every day"
-        ],
-        "usphone": "ˈdeɪli",
-        "ukphone": "ˈdeɪli"
-    },
-    {
-        "name": "dairy",
-        "trans": [
-            "n. a farm where dairy products are produced"
-        ],
-        "usphone": "ˈdeəri",
-        "ukphone": "ˈderi"
-    },
-    {
-        "name": "dangerous",
-        "trans": [
-            "adj. causing fear or anxiety by threatening great harm",
-            "adj. involving or causing danger or risk"
-        ],
-        "usphone": "ˈdeɪndʒərəs",
-        "ukphone": "ˈdeɪndʒərəs"
-    },
-    {
-        "name": "dark",
-        "trans": [
-            "adj. not giving performances",
-            "adj. having skin rich in melanin pigments",
-            "adj. brunet (used of hair or skin or eyes)"
-        ],
-        "usphone": "dɑːk",
-        "ukphone": "dɑːrk"
-    },
-    {
-        "name": "departmental",
-        "trans": [
-            "adj. of or relating to a department"
-        ],
-        "usphone": "ˌdiːpɑːtˈmentl",
-        "ukphone": "ˌdiːpɑːrtˈmentl"
-    },
-    {
-        "name": "dependent",
-        "trans": [
-            "adj. addicted to a drug",
-            "adj. contingent on something else",
-            "adj. relying on or requiring a person or thing for support, supply, or what is needed"
-        ],
-        "usphone": "dɪˈpendənt",
-        "ukphone": "dɪˈpendənt"
-    },
-    {
-        "name": "detailed",
-        "trans": [
-            "adj. developed or executed with care and in minute detail"
-        ],
-        "usphone": "ˈdiːteɪld",
-        "ukphone": "ˈdiːteɪld"
-    },
-    {
-        "name": "different",
-        "trans": [
-            "adj. differing from all others",
-            "adj. marked by dissimilarity",
-            "adj. unlike in nature or quality or form or degree"
-        ],
-        "usphone": "ˈdɪfrənt",
-        "ukphone": "ˈdɪfrənt"
-    },
-    {
-        "name": "direct",
-        "trans": [
-            "v. plan and direct (a complex undertaking)",
-            "v. specifically design a product, event, or activity for a certain public",
-            "v. command with authority"
-        ],
-        "usphone": "dəˈrekt",
-        "ukphone": "dəˈrekt"
-    },
-    {
-        "name": "disabled",
-        "trans": [
-            "adj. incapable of functioning as a consequence of injury or illness",
-            "n. people collectively who are crippled or otherwise physically handicapped"
-        ],
-        "usphone": "dɪsˈeɪbld",
-        "ukphone": "dɪsˈeɪbld"
-    },
-    {
-        "name": "distant",
-        "trans": [
-            "adj. located far away spatially",
-            "adj. separate or apart in time",
-            "adj. separated in space or coming from or going to a distance"
-        ],
-        "usphone": "ˈdɪstənt",
-        "ukphone": "ˈdɪstənt"
-    },
-    {
-        "name": "distinct",
-        "trans": [
-            "adj. clearly or sharply defined to the mind",
-            "adj. recognizable",
-            "adj. easy to perceive"
-        ],
-        "usphone": "dɪˈstɪŋkt",
-        "ukphone": "dɪˈstɪŋkt"
-    },
-    {
-        "name": "domestic",
-        "trans": [
-            "adj. produced in a particular country",
-            "adj. of concern to or concerning the internal affairs of a nation",
-            "adj. of or involving the home or family"
-        ],
-        "usphone": "dəˈmestɪk",
-        "ukphone": "dəˈmestɪk"
-    },
-    {
-        "name": "dominant",
-        "trans": [
-            "adj. exercising influence or control",
-            "adj. (of genes) producing the same phenotype whether its allele is identical or dissimilar",
-            "adj. most frequent or common"
-        ],
-        "usphone": "ˈdɒmɪnənt",
-        "ukphone": "ˈdɑːmɪnənt"
-    },
-    {
-        "name": "eastern",
-        "trans": [
-            "adj. from the east",
-            "adj. lying in or toward the east",
-            "adj. lying toward or situated in the east"
-        ],
-        "usphone": "ˈiːstən",
-        "ukphone": "ˈiːstərn"
-    },
-    {
-        "name": "economic",
-        "trans": [
-            "adj. using the minimum of time or resources necessary for effectiveness",
-            "adj. financially rewarding",
-            "adj. concerned with worldly necessities of life, especially money"
-        ],
-        "usphone": "ˌiːkəˈnɒmɪk",
-        "ukphone": "ˌiːkəˈnɑːmɪk"
-    },
-    {
-        "name": "educational",
-        "trans": [
-            "adj. providing knowledge",
-            "adj. relating to the process of education"
-        ],
-        "usphone": "ˌedʒuˈkeɪʃənl",
-        "ukphone": "ˌedʒuˈkeɪʃənl"
-    },
-    {
-        "name": "effective",
-        "trans": [
-            "adj. existing in fact",
-            "adj. able to accomplish a purpose",
-            "adj. exerting force or influence"
-        ],
-        "usphone": "ɪˈfektɪv",
-        "ukphone": "ɪˈfektɪv"
-    },
-    {
-        "name": "efficient",
-        "trans": [
-            "adj. able to accomplish a purpose",
-            "adj. being effective without wasting time or effort or expense"
-        ],
-        "usphone": "ɪˈfɪʃnt",
-        "ukphone": "ɪˈfɪʃnt"
-    },
-    {
-        "name": "elementary",
-        "trans": [
-            "adj. easy and not involved or complicated",
-            "adj. of or being the essential or basic part",
-            "adj. of or pertaining to or characteristic of elementary school or elementary education"
-        ],
-        "usphone": "ˌelɪˈmentri",
-        "ukphone": "ˌelɪˈmentri"
-    },
-    {
-        "name": "empty",
-        "trans": [
-            "v. excrete or discharge from the body",
-            "v. become empty or void of its content",
-            "v. make void or empty of contents"
-        ],
-        "usphone": "ˈempti",
-        "ukphone": "ˈempti"
-    },
-    {
-        "name": "enormous",
-        "trans": [
-            "adj. extraordinarily large in size or extent or amount or power or degree"
-        ],
-        "usphone": "ɪˈnɔːməs",
-        "ukphone": "ɪˈnɔːrməs"
-    },
-    {
-        "name": "enthusiastic",
-        "trans": [
-            "adj. having or showing great excitement and interest"
-        ],
-        "usphone": "ɪnˌθjuːziˈæstɪk",
-        "ukphone": "ɪnˌθuːziˈæstɪk"
-    },
-    {
-        "name": "environmental",
-        "trans": [
-            "adj. concerned with the ecological effects of altering the environment",
-            "adj. of or relating to the external conditions or surroundings"
-        ],
-        "usphone": "ɪnˌvaɪrənˈmentl",
-        "ukphone": "ɪnˌvaɪrənˈmentl"
-    },
-    {
-        "name": "essential",
-        "trans": [
-            "adj. defining rights and duties as opposed to giving the rules by which rights and duties are established",
-            "adj. basic and fundamental",
-            "adj. of the greatest importance"
-        ],
-        "usphone": "ɪˈsenʃl",
-        "ukphone": "ɪˈsenʃl"
-    },
-    {
-        "name": "excited",
-        "trans": [
-            "adj. (of persons) excessively affected by emotion",
-            "adj. in an aroused state",
-            "adj. (of e.g. a molecule) made reactive or more reactive"
-        ],
-        "usphone": "ɪkˈsaɪtɪd",
-        "ukphone": "ɪkˈsaɪtɪd"
-    },
-    {
-        "name": "exciting",
-        "trans": [
-            "adj. creating or arousing excitement",
-            "adj. stimulating interest and discussion"
-        ],
-        "usphone": "ɪkˈsaɪtɪŋ",
-        "ukphone": "ɪkˈsaɪtɪŋ"
-    },
-    {
-        "name": "existent",
-        "trans": [
-            "adj. presently existing in fact and not merely potential or possible",
-            "adj. having existence or being or actuality",
-            "adj. being or occurring in fact or actuality"
-        ],
-        "usphone": "ɪɡˈzɪstənt",
-        "ukphone": "ɪɡˈzɪstənt"
-    },
-    {
-        "name": "expensive",
-        "trans": [
-            "adj. high in price or charging high prices"
-        ],
-        "usphone": "ɪkˈspensɪv",
-        "ukphone": "ɪkˈspensɪv"
-    },
-    {
-        "name": "experienced",
-        "trans": [
-            "adj. having experience"
-        ],
-        "usphone": "ɪkˈspɪəriənst",
-        "ukphone": "ɪkˈspɪriənst"
-    },
-    {
-        "name": "experimental",
-        "trans": [
-            "adj. relying on observation or experiment",
-            "adj. of the nature of or undergoing an experiment",
-            "adj. relating to or based on experiment"
-        ],
-        "usphone": "ɪkˌsperɪˈmentl",
-        "ukphone": "ɪkˌsperɪˈmentl"
-    },
-    {
-        "name": "extensive",
-        "trans": [
-            "adj. broad in scope or content",
-            "adj. large in spatial extent or range or scope or quantity",
-            "adj. of agriculture"
-        ],
-        "usphone": "ɪkˈstensɪv",
-        "ukphone": "ɪkˈstensɪv"
-    },
-    {
-        "name": "extra",
-        "trans": [
-            "adj. further or added",
-            "adj. more than is needed, desired, or required",
-            "adj. added to a regular schedule"
-        ],
-        "usphone": "ˈekstrə",
-        "ukphone": "ˈekstrə"
-    },
-    {
-        "name": "fair",
-        "trans": [
-            "v. join so that the external surfaces blend smoothly",
-            "adj. very pleasing to the eye",
-            "adj. of hair or skin, pale or light-colored"
-        ],
-        "usphone": "feə",
-        "ukphone": "fer"
-    },
-    {
-        "name": "fake",
-        "trans": [
-            "v. speak insincerely or without regard for facts or truths",
-            "v. make a copy of with the intent to deceive",
-            "v. tamper, with the purpose of deception"
-        ],
-        "usphone": "feɪk",
-        "ukphone": "feɪk"
-    },
-    {
-        "name": "famed",
-        "trans": [
-            "adj. widely known and esteemed"
-        ],
-        "usphone": "feɪmd",
-        "ukphone": "feɪmd"
-    },
-    {
-        "name": "familiar",
-        "trans": [
-            "adj. having mutual interests or affections",
-            "adj. well known or easily recognized",
-            "adj. within normal everyday experience"
-        ],
-        "usphone": "fəˈmɪliə",
-        "ukphone": "fəˈmɪliər"
-    },
-    {
-        "name": "famous",
-        "trans": [
-            "adj. widely known and esteemed"
-        ],
-        "usphone": "ˈfeɪməs",
-        "ukphone": "ˈfeɪməs"
-    },
-    {
-        "name": "fancy",
-        "trans": [
-            "v. imagine",
-            "v. have a fancy or particular liking or desire for",
-            "adj. not plain"
-        ],
-        "usphone": "ˈfænsi",
-        "ukphone": "ˈfænsi"
-    },
-    {
-        "name": "fashionable",
-        "trans": [
-            "adj. being or in accordance with current social fashions",
-            "adj. having elegance or taste or refinement in manners or dress",
-            "adj. patronized by"
-        ],
-        "usphone": "ˈfæʃnəbl",
-        "ukphone": "ˈfæʃnəbl"
-    },
-    {
-        "name": "favourite",
-        "trans": [
-            "v. to add something to your collection on the Internet",
-            "adj. preferred above all others and treated with partiality",
-            "adj. appealing to the general public"
-        ],
-        "usphone": "ˈfeɪvərɪt",
-        "ukphone": "ˈfeɪvərɪt"
-    },
-    {
-        "name": "final",
-        "trans": [
-            "adj. not to be altered or undone",
-            "adj. occurring at or forming an end or termination",
-            "adj. conclusive in a process or progression"
-        ],
-        "usphone": "ˈfaɪnl",
-        "ukphone": "ˈfaɪnl"
-    },
-    {
-        "name": "financial",
-        "trans": [
-            "adj. involving financial matters"
-        ],
-        "usphone": "faɪˈnænʃl",
-        "ukphone": "faɪˈnænʃl"
-    },
-    {
-        "name": "fine",
-        "trans": [
-            "v. issue a ticket or a fine to as a penalty",
-            "adj. characterized by elegance or refinement or accomplishment",
-            "adj. minutely precise especially in differences in meaning"
-        ],
-        "usphone": "faɪn",
-        "ukphone": "faɪn"
-    },
-    {
-        "name": "firm",
-        "trans": [
-            "v. make taut or tauter",
-            "v. become taut or tauter",
-            "adj. strong and sure"
-        ],
-        "usphone": "fɜːm",
-        "ukphone": "fɜːrm"
-    },
-    {
-        "name": "flexible",
-        "trans": [
-            "adj. bending and snapping back readily without breaking",
-            "adj. able to flex",
-            "adj. capable of being changed"
-        ],
-        "usphone": "ˈfleksəbl",
-        "ukphone": "ˈfleksəbl"
-    },
-    {
-        "name": "foreign",
-        "trans": [
-            "adj. relating to or originating in or characteristic of another place or part of the world",
-            "adj. of concern to or concerning the affairs of other nations (other than your own)",
-            "adj. not contained in or deriving from the essential nature of something"
-        ],
-        "usphone": "ˈfɒrən",
-        "ukphone": "ˈfɔːrən"
-    },
-    {
-        "name": "formal",
-        "trans": [
-            "adj. refined or imposing in manner or appearance",
-            "adj. being in accord with established forms and conventions and requirements (as e.g. of formal dress)",
-            "adj. of spoken and written language, adhering to traditional standards of correctness and without casual, contracted, and colloquial forms"
-        ],
-        "usphone": "ˈfɔːml",
-        "ukphone": "ˈfɔːrml"
-    },
-    {
-        "name": "former",
-        "trans": [
-            "adj. referring to the first of two things or persons mentioned (or the earlier one or ones of several)",
-            "adj. belonging to the distant past",
-            "adj. belonging to some prior time"
-        ],
-        "usphone": "ˈfɔːmə",
-        "ukphone": "ˈfɔːrmər"
-    },
-    {
-        "name": "free",
-        "trans": [
-            "v. make (assets) available",
-            "v. let off the hook",
-            "v. free or remove obstruction from"
-        ],
-        "usphone": "friː",
-        "ukphone": "friː"
-    },
-    {
-        "name": "frequent",
-        "trans": [
-            "v. be a regular or frequent visitor to a certain place",
-            "v. do one's shopping at",
-            "adj. frequently encountered"
-        ],
-        "usphone": "ˈfriːkwənt , friˈkwent",
-        "ukphone": "ˈfriːkwənt , friˈkwent"
-    },
-    {
-        "name": "fundamental",
-        "trans": [
-            "adj. serving as an essential component",
-            "adj. being or involving basic facts or principles",
-            "adj. far-reaching and thoroughgoing in effect especially on the nature of something"
-        ],
-        "usphone": "ˌfʌndəˈmentl",
-        "ukphone": "ˌfʌndəˈmentl"
-    },
-    {
-        "name": "further",
-        "trans": [
-            "v. promote the growth of",
-            "v. contribute to the progress or growth of",
-            "adj. more distant in especially degree"
-        ],
-        "usphone": "ˈfɜːðə",
-        "ukphone": "ˈfɜːrðər"
-    },
-    {
-        "name": "general",
-        "trans": [
-            "v. command as a general",
-            "adj. prevailing among and common to the general public",
-            "adj. of worldwide scope or applicability"
-        ],
-        "usphone": "ˈdʒenrəl",
-        "ukphone": "ˈdʒenrəl"
-    },
-    {
-        "name": "genetic",
-        "trans": [
-            "adj. occurring among members of a family usually by heredity",
-            "adj. of or relating to the science of genetics",
-            "adj. pertaining to or referring to origin"
-        ],
-        "usphone": "dʒəˈnetɪk",
-        "ukphone": "dʒəˈnetɪk"
-    },
-    {
-        "name": "geographical",
-        "trans": [
-            "adj. determined by geography",
-            "adj. of or relating to the science of geography"
-        ],
-        "usphone": "ˌdʒiːəˈɡræfɪkl",
-        "ukphone": "ˌdʒiːəˈɡræfɪkl"
-    },
-    {
-        "name": "global",
-        "trans": [
-            "adj. involving the entire earth",
-            "adj. having the shape of a sphere or ball"
-        ],
-        "usphone": "ˈɡləʊbl",
-        "ukphone": "ˈɡloʊbl"
-    },
-    {
-        "name": "handy",
-        "trans": [
-            "adj. easy to reach",
-            "adj. skillful with the hands",
-            "adj. easy to use"
-        ],
-        "usphone": "ˈhændi",
-        "ukphone": "ˈhændi"
-    },
-    {
-        "name": "harmful",
-        "trans": [
-            "adj. causing or capable of causing harm"
-        ],
-        "usphone": "ˈhɑːmfl",
-        "ukphone": "ˈhɑːrmfl"
-    },
-    {
-        "name": "hazardous",
-        "trans": [
-            "adj. involving risk or danger"
-        ],
-        "usphone": "ˈhæzədəs",
-        "ukphone": "ˈhæzərdəs"
-    },
-    {
-        "name": "healthy",
-        "trans": [
-            "adj. large in amount or extent or degree",
-            "adj. having or indicating good health in body or mind",
-            "adj. exercising or showing good judgment"
-        ],
-        "usphone": "ˈhelθi",
-        "ukphone": "ˈhelθi"
-    },
-    {
-        "name": "heavier",
-        "trans": [
-            "to change or replace heavy"
-        ],
-        "usphone": "ˈhevɪə",
-        "ukphone": "ˈheviər"
-    },
-    {
-        "name": "heavy",
-        "trans": [
-            "adj. prodigious",
-            "adj. requiring or showing effort",
-            "adj. usually describes a large person who is fat but has a large frame to carry it"
-        ],
-        "usphone": "ˈhevi",
-        "ukphone": "ˈhevi"
-    },
-    {
-        "name": "helpful",
-        "trans": [
-            "adj. providing assistance or serving a useful function"
-        ],
-        "usphone": "ˈhelpfl",
-        "ukphone": "ˈhelpfl"
-    },
-    {
-        "name": "herbivorous",
-        "trans": [
-            "adj. feeding only on plants"
-        ],
-        "usphone": "hɜ:'bɪvərəs",
-        "ukphone": "həˈbɪvərəs,ə-"
-    },
-    {
-        "name": "higher",
-        "trans": [
-            "adj. of education beyond the secondary level",
-            "adj. advanced in complexity or elaboration"
-        ],
-        "usphone": "ˈhaɪə",
-        "ukphone": "ˈhaɪər"
-    },
-    {
-        "name": "highly-trained",
-        "trans": [
-            "height to train"
-        ],
-        "usphone": "ˈhaɪliˌtreɪnd",
-        "ukphone": "ˈhaɪliˌtreɪnd"
-    },
-    {
-        "name": "historical",
-        "trans": [
-            "adj. belonging to the past",
-            "adj. having once lived or existed or taken place in the real world as distinct from being legendary",
-            "adj. used of the study of a phenomenon (especially language) as it changes through time"
-        ],
-        "usphone": "hɪˈstɒrɪkl",
-        "ukphone": "hɪˈstɔːrɪkl"
-    },
-    {
-        "name": "least",
-        "trans": [
-            "adj. the superlative of `little' that can be used with mass nouns and is usually preceded by `the'",
-            "adv. used to form the superlative",
-            "n. something that is of no importance"
-        ],
-        "usphone": "liːst",
-        "ukphone": "liːst"
-    },
-    {
-        "name": "ill",
-        "trans": [
-            "adj. presaging ill fortune",
-            "adj. distressing",
-            "adj. resulting in suffering or adversity"
-        ],
-        "usphone": "ɪl",
-        "ukphone": "ɪl"
-    },
-    {
-        "name": "illegal",
-        "trans": [
-            "adj. prohibited by law or by official or accepted rules"
-        ],
-        "usphone": "ɪˈliːɡl",
-        "ukphone": "ɪˈliːɡl"
-    },
-    {
-        "name": "immune",
-        "trans": [
-            "adj. (usually followed by `to') not affected by a given influence",
-            "adj. relating to or conferring immunity (to disease or infection)",
-            "adj. secure against"
-        ],
-        "usphone": "ɪˈmjuːn",
-        "ukphone": "ɪˈmjuːn"
-    },
-    {
-        "name": "important",
-        "trans": [
-            "adj. of extreme importance",
-            "adj. of great significance or value",
-            "adj. having or suggesting a consciousness of high position"
-        ],
-        "usphone": "ɪmˈpɔːtnt",
-        "ukphone": "ɪmˈpɔːrtnt"
-    },
-    {
-        "name": "impossible",
-        "trans": [
-            "adj. not capable of occurring or being accomplished or dealt with",
-            "adj. totally unlikely",
-            "adj. used of persons or their behavior"
-        ],
-        "usphone": "ɪmˈpɒsəbl",
-        "ukphone": "ɪmˈpɑːsəbl"
-    },
-    {
-        "name": "inaccurate",
-        "trans": [
-            "adj. not exact"
-        ],
-        "usphone": "ɪn'ækjərət",
-        "ukphone": "ɪn'ækjʊrət"
-    },
-    {
-        "name": "inadequate",
-        "trans": [
-            "adj. lacking the requisite qualities or resources to meet a task",
-            "adj. not sufficient to meet a need"
-        ],
-        "usphone": "ɪnˈædɪkwət",
-        "ukphone": "ɪnˈædɪkwət"
-    },
-    {
-        "name": "individual",
-        "trans": [
-            "adj. being or characteristic of a single thing or person",
-            "adj. separate and distinct from others of the same kind",
-            "adj. characteristic of or meant for a single person or thing"
-        ],
-        "usphone": "ˌɪndɪˈvɪdʒuəl",
-        "ukphone": "ˌɪndɪˈvɪdʒuəl"
-    },
-    {
-        "name": "industrial",
-        "trans": [
-            "adj. suitable to stand up to hard wear",
-            "adj. having highly developed industries",
-            "adj. employed in industry"
-        ],
-        "usphone": "ɪnˈdʌstriəl",
-        "ukphone": "ɪnˈdʌstriəl"
-    },
-    {
-        "name": "informative",
-        "trans": [
-            "adj. providing or conveying information",
-            "adj. serving to instruct or enlighten or inform",
-            "adj. tending to increase knowledge or dissipate ignorance"
-        ],
-        "usphone": "ɪnˈfɔːmətɪv",
-        "ukphone": "ɪnˈfɔːrmətɪv"
-    },
-    {
-        "name": "initial",
-        "trans": [
-            "v. mark with one's initials",
-            "adj. occurring at the beginning",
-            "n. the first letter of a word, especially a person's name"
-        ],
-        "usphone": "ɪˈnɪʃl",
-        "ukphone": "ɪˈnɪʃl"
-    },
-    {
-        "name": "inspiring",
-        "trans": [
-            "adj. stimulating or exalting to the spirit"
-        ],
-        "usphone": "ɪnˈspaɪərɪŋ",
-        "ukphone": "ɪnˈspaɪərɪŋ"
-    },
-    {
-        "name": "intact",
-        "trans": [
-            "adj. constituting the undiminished entirety",
-            "adj. undamaged in any way",
-            "adj. having the hymen unbroken"
-        ],
-        "usphone": "ɪnˈtækt",
-        "ukphone": "ɪnˈtækt"
-    },
-    {
-        "name": "intelligent",
-        "trans": [
-            "adj. having the capacity for thought and reason especially to a high degree",
-            "adj. endowed with the capacity to reason",
-            "adj. exercising or showing good judgment"
-        ],
-        "usphone": "ɪnˈtelɪdʒənt",
-        "ukphone": "ɪnˈtelɪdʒənt"
-    },
-    {
-        "name": "intensive",
-        "trans": [
-            "adj. characterized by a high degree or intensity",
-            "adj. of agriculture",
-            "adj. tending to give force or emphasis"
-        ],
-        "usphone": "ɪnˈtensɪv",
-        "ukphone": "ɪnˈtensɪv"
-    },
-    {
-        "name": "interesting",
-        "trans": [
-            "adj. arousing or holding the attention"
-        ],
-        "usphone": "'ɪntrəstɪŋ",
-        "ukphone": "ˈɪntrəstɪŋ"
-    },
-    {
-        "name": "intermediate",
-        "trans": [
-            "v. act between parties with a view to reconciling differences",
-            "adj. lying between two extremes in time or space or state",
-            "adj. around the middle of a scale of evaluation"
-        ],
-        "usphone": "ˌɪntəˈmiːdiət",
-        "ukphone": "ˌɪntərˈmiːdiət"
-    },
-    {
-        "name": "internal",
-        "trans": [
-            "adj. happening or arising or located within some limits or especially surface",
-            "adj. located inward",
-            "adj. inside the country"
-        ],
-        "usphone": "ɪnˈtɜːnl",
-        "ukphone": "ɪnˈtɜːrnl"
-    },
-    {
-        "name": "international",
-        "trans": [
-            "adj. from or between other countries",
-            "adj. concerning or belonging to all or at least two or more nations"
-        ],
-        "usphone": "ˌɪntəˈnæʃnəl",
-        "ukphone": "ˌɪntərˈnæʃnəl"
-    },
-    {
-        "name": "irregular",
-        "trans": [
-            "adj. not occurring at expected times",
-            "adj. independent in behavior or thought",
-            "adj. (of a surface or shape)"
-        ],
-        "usphone": "ɪˈreɡjələ",
-        "ukphone": "ɪˈreɡjələr"
-    },
-    {
-        "name": "irritable",
-        "trans": [
-            "adj. easily irritated or annoyed",
-            "adj. capable of responding to stimuli",
-            "adj. abnormally sensitive to a stimulus"
-        ],
-        "usphone": "ˈɪrɪtəbl",
-        "ukphone": "ˈɪrɪtəbl"
-    },
-    {
-        "name": "isolated",
-        "trans": [
-            "adj. remote and separate physically or socially",
-            "adj. not close together in time",
-            "adj. under forced isolation especially for health reasons"
-        ],
-        "usphone": "ˈaɪsəleɪtɪd",
-        "ukphone": "ˈaɪsəleɪtɪd"
-    },
-    {
-        "name": "key",
-        "trans": [
-            "v. harmonize with or adjust to",
-            "v. regulate the musical pitch of",
-            "v. identify as in botany or biology, for example"
-        ],
-        "usphone": "kiː",
-        "ukphone": "kiː"
-    },
-    {
-        "name": "latest",
-        "trans": [
-            "adj. up to the immediate present",
-            "adj. in the current fashion or style",
-            "n. the most recent news or development"
-        ],
-        "usphone": "ˈleɪtɪst",
-        "ukphone": "ˈleɪtɪst"
-    },
-    {
-        "name": "legal",
-        "trans": [
-            "adj. allowed by official rules",
-            "adj. established by or founded upon law or official or accepted rules",
-            "adj. having legal efficacy or force"
-        ],
-        "usphone": "ˈliːɡl",
-        "ukphone": "ˈliːɡl"
-    },
-    {
-        "name": "little-known",
-        "trans": [
-            "adj. unknown to most people"
-        ],
-        "usphone": "ˈlɪtəlˌnoʊn",
-        "ukphone": "ˈlɪtl̩ˌnəʊn"
-    },
-    {
-        "name": "loyal",
-        "trans": [
-            "adj. unwavering in devotion to friend or vow or cause",
-            "adj. steadfast in allegiance or duty",
-            "adj. inspired by love for your country"
-        ],
-        "usphone": "ˈlɔɪəl",
-        "ukphone": "ˈlɔɪəl"
-    },
-    {
-        "name": "magic",
-        "trans": [
-            "adj. possessing or using or characteristic of or appropriate to supernatural powers",
-            "n. an illusory feat",
-            "n. any art that invokes supernatural powers"
-        ],
-        "usphone": "ˈmædʒɪk",
-        "ukphone": "ˈmædʒɪk"
-    },
-    {
-        "name": "magical",
-        "trans": [
-            "adj. possessing or using or characteristic of or appropriate to supernatural powers"
-        ],
-        "usphone": "ˈmædʒɪkl",
-        "ukphone": "ˈmædʒɪkl"
-    },
-    {
-        "name": "magnificent",
-        "trans": [
-            "adj. characterized by grandeur"
-        ],
-        "usphone": "mæɡˈnɪfɪsnt",
-        "ukphone": "mæɡˈnɪfɪsnt"
-    },
-    {
-        "name": "major",
-        "trans": [
-            "v. have as one's principal field of study",
-            "adj. of the elder of two boys with the same family name",
-            "adj. greater in number or size or amount"
-        ],
-        "usphone": "ˈmeɪdʒə",
-        "ukphone": "ˈmeɪdʒər"
-    },
-    {
-        "name": "martial",
-        "trans": [
-            "adj. of or relating to the armed forces",
-            "adj. (of persons) befitting a warrior",
-            "adj. suggesting war or military life"
-        ],
-        "usphone": "ˈmɑːʃl",
-        "ukphone": "ˈmɑːrʃl"
-    },
-    {
-        "name": "mature",
-        "trans": [
-            "v. cause to ripen and discharge pus",
-            "v. grow old or older",
-            "v. cause to ripen or develop fully"
-        ],
-        "usphone": "məˈtʃʊə",
-        "ukphone": "məˈtʃʊr"
-    },
-    {
-        "name": "medical",
-        "trans": [
-            "adj. requiring or amenable to treatment by medicine especially as opposed to surgery",
-            "adj. of or belonging to Aesculapius or the healing art",
-            "adj. relating to the study or practice of medicine"
-        ],
-        "usphone": "ˈmedɪkl",
-        "ukphone": "ˈmedɪkl"
-    },
-    {
-        "name": "mental",
-        "trans": [
-            "adj. affected by a disorder of the mind",
-            "adj. involving the mind or an intellectual process",
-            "adj. of or relating to the chin or median part of the lower jaw"
-        ],
-        "usphone": "ˈmentl",
-        "ukphone": "ˈmentl"
-    },
-    {
-        "name": "mid",
-        "trans": [
-            "adj. used in combination to denote the middle"
-        ],
-        "usphone": "mɪd",
-        "ukphone": "mɪd"
-    },
-    {
-        "name": "migratory",
-        "trans": [
-            "adj. habitually moving from place to place especially in search of seasonal work",
-            "adj. used of animals that move seasonally"
-        ],
-        "usphone": "ˈmaɪɡrətri",
-        "ukphone": "ˈmaɪɡrətɔːri"
-    },
-    {
-        "name": "military",
-        "trans": [
-            "adj. associated with or performed by members of the armed services as contrasted with civilians",
-            "adj. characteristic of or associated with soldiers or the military",
-            "adj. of or relating to the study of the principles of warfare"
-        ],
-        "usphone": "ˈmɪlətri",
-        "ukphone": "ˈmɪləteri"
-    },
-    {
-        "name": "miserable",
-        "trans": [
-            "adj. contemptibly small in amount",
-            "adj. characterized by physical misery",
-            "adj. of the most contemptible kind"
-        ],
-        "usphone": "ˈmɪzrəbl",
-        "ukphone": "ˈmɪzrəbl"
-    },
-    {
-        "name": "mobile",
-        "trans": [
-            "adj. affording change (especially in social status)",
-            "adj. capable of changing quickly from one state or condition to another",
-            "adj. moving or capable of moving readily (especially from place to place)"
-        ],
-        "usphone": "ˈməʊbaɪl",
-        "ukphone": "ˈmoʊbl"
-    },
-    {
-        "name": "moderate",
-        "trans": [
-            "v. make less fast or intense",
-            "v. restrain",
-            "v. preside over"
-        ],
-        "usphone": "ˈmɒdərət , ˈmɒdəreɪt",
-        "ukphone": "ˈmɑːdərət , ˈmɑːdəreɪt"
-    },
-    {
-        "name": "modern",
-        "trans": [
-            "adj. used of a living language"
-        ],
-        "usphone": "ˈmɒdn",
-        "ukphone": "ˈmɑːdərn"
-    },
-    {
-        "name": "musical",
-        "trans": [
-            "adj. containing or constituting or characterized by pleasing melody",
-            "adj. characteristic of or resembling or accompanied by music",
-            "adj. talented in or devoted to music"
-        ],
-        "usphone": "ˈmjuːzɪkl",
-        "ukphone": "ˈmjuːzɪkl"
-    },
-    {
-        "name": "natural",
-        "trans": [
-            "adj. free from artificiality",
-            "adj. being talented through inherited qualities",
-            "adj. related by blood"
-        ],
-        "usphone": "ˈnætʃrəl",
-        "ukphone": "ˈnætʃrəl"
-    },
-    {
-        "name": "negative",
-        "trans": [
-            "v. vote against",
-            "adj. involving disadvantage or harm",
-            "adj. expressing or consisting of a negation or refusal or denial"
-        ],
-        "usphone": "ˈneɡətɪv",
-        "ukphone": "ˈneɡətɪv"
-    },
-    {
-        "name": "neighbouring",
-        "trans": [
-            "v. be located near or adjacent to",
-            "v. live or be located as a neighbor",
-            "n. a nearby object of the same kind"
-        ],
-        "usphone": "ˈneɪbərɪŋ",
-        "ukphone": "ˈneɪbərɪŋ"
-    },
-    {
-        "name": "nervous",
-        "trans": [
-            "adj. unpredictably excitable (especially of horses)",
-            "adj. excited in anticipation",
-            "adj. easily agitated"
-        ],
-        "usphone": "ˈnɜːvəs",
-        "ukphone": "ˈnɜːrvəs"
-    },
-    {
-        "name": "noble",
-        "trans": [
-            "adj. impressive in appearance",
-            "adj. having or showing or indicative of high or elevated character",
-            "adj. of or belonging to or constituting the hereditary aristocracy especially as derived from feudal times"
-        ],
-        "usphone": "'nobl",
-        "ukphone": "'nəʊb(ə)l"
-    },
-    {
-        "name": "noisy",
-        "trans": [
-            "adj. attracting attention by showiness or bright colors",
-            "adj. full of or characterized by loud and nonmusical sounds"
-        ],
-        "usphone": "ˈnɔɪzi",
-        "ukphone": "ˈnɔɪzi"
-    },
-    {
-        "name": "non-active",
-        "trans": [
-            "no active"
-        ],
-        "usphone": "ˌnɑnˈæktɪv",
-        "ukphone": "ˌnɒnˈæktɪv"
-    },
-    {
-        "name": "normal",
-        "trans": [
-            "adj. conforming with or constituting a norm or standard or level or type or social norm",
-            "adj. being approximately average or within certain limits in e.g. intelligence and development",
-            "adj. in accordance with scientific laws"
-        ],
-        "usphone": "ˈnɔːml",
-        "ukphone": "ˈnɔːrml"
-    },
-    {
-        "name": "northern",
-        "trans": [
-            "adj. coming from the north",
-            "adj. situated in or oriented toward the north",
-            "adj. situated in or coming from regions of the north"
-        ],
-        "usphone": "ˈnɔːðən",
-        "ukphone": "ˈnɔːrðərn"
-    },
-    {
-        "name": "objective",
-        "trans": [
-            "adj. belonging to immediate experience of actual things or events",
-            "adj. undistorted by emotion or personal bias",
-            "adj. emphasizing or expressing things as perceived without distortion of personal feelings, insertion of fictional matter, or interpretation"
-        ],
-        "usphone": "əbˈdʒektɪv",
-        "ukphone": "əbˈdʒektɪv"
-    },
-    {
-        "name": "occupational",
-        "trans": [
-            "adj. of or relating to the activity or business for which you are trained"
-        ],
-        "usphone": "ˌɒkjuˈpeɪʃənl",
-        "ukphone": "ˌɑːkjuˈpeɪʃənl"
-    },
-    {
-        "name": "Olympic",
-        "trans": [
-            "adj. of or relating to the Olympic Games",
-            "adj. of the region of Olympia in Greece or its inhabitants"
-        ],
-        "usphone": "əˈlɪmpɪk",
-        "ukphone": "əˈlɪmpɪk"
-    },
-    {
-        "name": "optic",
-        "trans": [
-            "adj. relating to or using sight",
-            "adj. of or relating to or resembling the eye",
-            "n. the organ of sight"
-        ],
-        "usphone": "'ɑptɪk",
-        "ukphone": "'ɑːptɪk"
-    },
-    {
-        "name": "optional",
-        "trans": [
-            "adj. possible but not necessary"
-        ],
-        "usphone": "ˈɒpʃənl",
-        "ukphone": "ˈɑːpʃənl"
-    },
-    {
-        "name": "oral",
-        "trans": [
-            "adj. a stage in psychosexual development when the child's interest is concentrated in the mouth",
-            "adj. of or involving the mouth or mouth region or the surface on which the mouth is located",
-            "adj. using speech rather than writing"
-        ],
-        "usphone": "ˈɔːrəl",
-        "ukphone": "ˈɔːrəl"
-    },
-    {
-        "name": "organic",
-        "trans": [
-            "adj. constitutional in the structure of something (especially your physical makeup)",
-            "adj. involving or affecting physiology or bodily organs",
-            "adj. simple and healthful and close to nature"
-        ],
-        "usphone": "ɔːˈɡænɪk",
-        "ukphone": "ɔːrˈɡænɪk"
-    },
-    {
-        "name": "overall",
-        "trans": [
-            "adj. involving only main features",
-            "adj. including everything",
-            "n. work clothing consisting of denim trousers usually with a bib and shoulder straps"
-        ],
-        "usphone": "ˌəʊvərˈɔːl , ˈəʊvərɔːl",
-        "ukphone": "ˌoʊvərˈɔːl , ˈoʊvərɔːl"
-    },
-    {
-        "name": "overhead",
-        "trans": [
-            "adj. located or originating from above",
-            "adv. above the head",
-            "adv. above your head"
-        ],
-        "usphone": "ˌəʊvəˈhed , ˈəʊvəhed",
-        "ukphone": "ˌoʊvərˈhed , ˈoʊvərhed"
-    },
-    {
-        "name": "overseas",
-        "trans": [
-            "adj. in a foreign country",
-            "adj. being or passing over or across the sea",
-            "adv. in a place across an ocean"
-        ],
-        "usphone": "ˌəʊvəˈsiːz",
-        "ukphone": "ˌoʊvərˈsiːz"
-    },
-    {
-        "name": "parental",
-        "trans": [
-            "adj. relating to or characteristic of or befitting a parent",
-            "adj. designating the generation of organisms from which hybrid offspring are produced"
-        ],
-        "usphone": "pəˈrentl",
-        "ukphone": "pəˈrentl"
-    },
-    {
-        "name": "payable",
-        "trans": [
-            "adj. subject to or requiring payment especially as specified",
-            "n. a liability account showing how much is owed for goods and services purchased on credit"
-        ],
-        "usphone": "ˈpeɪəbl",
-        "ukphone": "ˈpeɪəbl"
-    },
-    {
-        "name": "perfect",
-        "trans": [
-            "v. make perfect or complete",
-            "adj. precisely accurate or exact",
-            "adj. being complete of its kind and without defect or blemish"
-        ],
-        "usphone": "ˈpɜːfɪkt , pəˈfekt",
-        "ukphone": "ˈpɜːrfɪkt , pərˈfekt"
-    },
-    {
-        "name": "personal",
-        "trans": [
-            "adj. particular to a given individual",
-            "adj. concerning or affecting a particular person or his or her private life and personality",
-            "adj. intimately concerning a person's body or physical being"
-        ],
-        "usphone": "ˈpɜːsənl",
-        "ukphone": "ˈpɜːrsənl"
-    },
-    {
-        "name": "physical",
-        "trans": [
-            "adj. having substance or material existence",
-            "adj. concerned with material things",
-            "adj. impelled by physical force especially against resistance"
-        ],
-        "usphone": "ˈfɪzɪkl",
-        "ukphone": "ˈfɪzɪkl"
-    },
-    {
-        "name": "pleasant",
-        "trans": [
-            "adj. (of persons) having pleasing manners or behavior",
-            "adj. affording pleasure"
-        ],
-        "usphone": "ˈpleznt",
-        "ukphone": "ˈpleznt"
-    },
-    {
-        "name": "political",
-        "trans": [
-            "adj. involving or characteristic of politics or parties or politicians",
-            "adj. of or relating to your views about social relationships involving authority or power",
-            "adj. of or relating to the profession of governing"
-        ],
-        "usphone": "pəˈlɪtɪkl",
-        "ukphone": "pəˈlɪtɪkl"
-    },
-    {
-        "name": "pop",
-        "trans": [
-            "v. burst open with a sharp, explosive sound",
-            "v. cause to burst with a loud, explosive sound",
-            "v. fire a weapon with a loud explosive noise"
-        ],
-        "usphone": "pɒp",
-        "ukphone": "pɑːp"
-    },
-    {
-        "name": "popular",
-        "trans": [
-            "adj. (of music or art) new and of general appeal (especially among young people)",
-            "adj. representing or appealing to or adapted for the benefit of the people at large",
-            "adj. carried on by or for the people (or citizens) at large"
-        ],
-        "usphone": "ˈpɒpjələ",
-        "ukphone": "ˈpɑːpjələr"
-    },
-    {
-        "name": "positive",
-        "trans": [
-            "adj. involving advantage or good",
-            "adj. marked by excessive confidence",
-            "adj. having a positive charge"
-        ],
-        "usphone": "ˈpɒzətɪv",
-        "ukphone": "ˈpɑːzətɪv"
-    },
-    {
-        "name": "possible",
-        "trans": [
-            "adj. existing in possibility",
-            "adj. capable of happening or existing",
-            "n. something that can be done"
-        ],
-        "usphone": "ˈpɒsəbl",
-        "ukphone": "ˈpɑːsəbl"
-    },
-    {
-        "name": "potential",
-        "trans": [
-            "adj. existing in possibility",
-            "adj. expected to become or be",
-            "n. the difference in electrical charge between two points in a circuit expressed in volts"
-        ],
-        "usphone": "pəˈtenʃl",
-        "ukphone": "pəˈtenʃl"
-    },
-    {
-        "name": "practical",
-        "trans": [
-            "adj. having or put to a practical purpose or use",
-            "adj. concerned with actual use or practice",
-            "adj. guided by practical experience and observation rather than theory"
-        ],
-        "usphone": "ˈpræktɪkl",
-        "ukphone": "ˈpræktɪkl"
-    },
-    {
-        "name": "precious",
-        "trans": [
-            "adj. obviously contrived to charm",
-            "adj. characterized by feeling or showing fond affection for",
-            "adj. of high worth or cost"
-        ],
-        "usphone": "ˈpreʃəs",
-        "ukphone": "ˈpreʃəs"
-    },
-    {
-        "name": "predictable",
-        "trans": [
-            "adj. capable of being foretold"
-        ],
-        "usphone": "prɪˈdɪktəbl",
-        "ukphone": "prɪˈdɪktəbl"
-    },
-    {
-        "name": "present",
-        "trans": [
-            "v. bring forward and present to the mind",
-            "v. recognize with a gesture prescribed by a military regulation",
-            "v. cause to come to know personally"
-        ],
-        "usphone": "ˈpreznt , prɪˈzent",
-        "ukphone": "ˈpreznt , prɪˈzent"
-    },
-    {
-        "name": "previous",
-        "trans": [
-            "adj. just preceding something else in time or order",
-            "adj. (used especially of persons) of the immediate past",
-            "adj. too soon or too hasty"
-        ],
-        "usphone": "ˈpriːviəs",
-        "ukphone": "ˈpriːviəs"
-    },
-    {
-        "name": "printed",
-        "trans": [
-            "v. put into print",
-            "v. write as if with print",
-            "v. reproduce by printing"
-        ],
-        "usphone": "ˈprɪntɪd",
-        "ukphone": "ˈprɪntɪd"
-    },
-    {
-        "name": "private",
-        "trans": [
-            "adj. not expressed",
-            "adj. concerning one person exclusively",
-            "adj. concerning things deeply private and personal"
-        ],
-        "usphone": "ˈpraɪvət",
-        "ukphone": "ˈpraɪvɪt"
-    },
-    {
-        "name": "professional",
-        "trans": [
-            "adj. engaged in a profession or engaging in as a profession or means of livelihood",
-            "adj. characteristic of or befitting a profession or one engaged in a profession",
-            "adj. engaged in by members of a profession"
-        ],
-        "usphone": "prəˈfeʃənl",
-        "ukphone": "prəˈfeʃənl"
-    },
-    {
-        "name": "promising",
-        "trans": [
-            "adj. full or promise",
-            "adj. showing possibility of achievement or excellence"
-        ],
-        "usphone": "ˈprɒmɪsɪŋ",
-        "ukphone": "ˈprɑːmɪsɪŋ"
-    },
-    {
-        "name": "psychiatric",
-        "trans": [
-            "adj. relating to or used in or engaged in the practice of psychiatry"
-        ],
-        "usphone": "ˌsaɪkiˈætrɪk",
-        "ukphone": "ˌsaɪkiˈætrɪk"
-    },
-    {
-        "name": "psychological",
-        "trans": [
-            "adj. mental or emotional as opposed to physical in nature",
-            "adj. of or relating to or determined by psychology"
-        ],
-        "usphone": "ˌsaɪkəˈlɒdʒɪkl",
-        "ukphone": "ˌsaɪkəˈlɑːdʒɪkl"
-    },
-    {
-        "name": "public",
-        "trans": [
-            "adj. affecting the people or community as a whole",
-            "adj. not private",
-            "n. a body of people sharing some common interest"
-        ],
-        "usphone": "ˈpʌblɪk",
-        "ukphone": "ˈpʌblɪk"
-    },
-    {
-        "name": "pure",
-        "trans": [
-            "adj. in a state of sexual virginity",
-            "adj. (of color) being chromatically pure",
-            "adj. concerned with theory and data rather than practice"
-        ],
-        "usphone": "pjʊə",
-        "ukphone": "pjʊr"
-    },
-    {
-        "name": "purest",
-        "trans": [
-            "(before an adjective or verb) to the highest degree pure tallest level"
-        ],
-        "usphone": "ˈpjʊərɪst",
-        "ukphone": "ˈpjʊrəst"
-    },
-    {
-        "name": "Queen's",
-        "trans": [
-            "v. become a queen",
-            "v. promote to a queen, as of a pawn in chess",
-            "n. female cat"
-        ],
-        "usphone": "kwinz",
-        "ukphone": "kwiːnz"
-    },
-    {
-        "name": "random",
-        "trans": [
-            "adj. lacking any definite plan or order or purpose"
-        ],
-        "usphone": "ˈrændəm",
-        "ukphone": "ˈrændəm"
-    },
-    {
-        "name": "rapid",
-        "trans": [
-            "adj. done or occurring in a brief period of time",
-            "adj. characterized by speed",
-            "n. a part of a river where the current is very fast"
-        ],
-        "usphone": "ˈræpɪd",
-        "ukphone": "ˈræpɪd"
-    },
-    {
-        "name": "rare",
-        "trans": [
-            "adj. not widely distributed",
-            "adj. not widely known",
-            "adj. of meat, cooked a short time"
-        ],
-        "usphone": "reə",
-        "ukphone": "rer"
-    },
-    {
-        "name": "raw",
-        "trans": [
-            "adj. not processed or subjected to analysis",
-            "adj. completely unclothed",
-            "adj. not treated with heat to prepare it for eating"
-        ],
-        "usphone": "rɔː",
-        "ukphone": "rɔː"
-    },
-    {
-        "name": "recycled",
-        "trans": [
-            "v. use again after processing",
-            "v. cause to repeat a cycle"
-        ],
-        "usphone": "ˌriːˈsaɪkld",
-        "ukphone": "ˌriːˈsaɪkld"
-    },
-    {
-        "name": "redundant",
-        "trans": [
-            "adj. repetition of same sense in different words",
-            "adj. more than is needed, desired, or required"
-        ],
-        "usphone": "rɪˈdʌndənt",
-        "ukphone": "rɪˈdʌndənt"
-    },
-    {
-        "name": "regional",
-        "trans": [
-            "adj. related or limited to a particular region",
-            "adj. characteristic of a region"
-        ],
-        "usphone": "ˈriːdʒənl",
-        "ukphone": "ˈriːdʒənl"
-    },
-    {
-        "name": "regular",
-        "trans": [
-            "adj. often used as intensifiers",
-            "adj. in accord with regular practice or procedure",
-            "adj. not constipated"
-        ],
-        "usphone": "ˈreɡjələ",
-        "ukphone": "ˈreɡjələr"
-    },
-    {
-        "name": "reinforced",
-        "trans": [
-            "adj. (used of soaps or cleaning agents) having a substance (an abrasive or filler) added to increase effectiveness",
-            "adj. given added strength or support"
-        ],
-        "usphone": "ˌriːɪnˈfɔːst",
-        "ukphone": "ˌriːɪnˈfɔːrst"
-    },
-    {
-        "name": "related",
-        "trans": [
-            "adj. connected by kinship, common origin, or marriage",
-            "adj. being connected either logically or causally or by shared characteristics"
-        ],
-        "usphone": "rɪˈleɪtɪd",
-        "ukphone": "rɪˈleɪtɪd"
-    },
-    {
-        "name": "relevant",
-        "trans": [
-            "adj. having a bearing on or connection with the subject at issue"
-        ],
-        "usphone": "ˈreləvənt",
-        "ukphone": "ˈreləvənt"
-    },
-    {
-        "name": "reliable",
-        "trans": [
-            "adj. worthy of reliance or trust",
-            "adj. conforming to fact and therefore worthy of belief",
-            "adj. worthy of being depended on"
-        ],
-        "usphone": "rɪˈlaɪəbl",
-        "ukphone": "rɪˈlaɪəbl"
-    },
-    {
-        "name": "remote",
-        "trans": [
-            "adj. inaccessible and sparsely populated",
-            "adj. located far away spatially",
-            "adj. separate or apart in time"
-        ],
-        "usphone": "rɪˈməʊt",
-        "ukphone": "rɪˈmoʊt"
-    },
-    {
-        "name": "resistant",
-        "trans": [
-            "adj. incapable of absorbing or mixing with",
-            "adj. disposed to or engaged in defiance of established authority",
-            "adj. impervious to being affected"
-        ],
-        "usphone": "rɪˈzɪstənt",
-        "ukphone": "rɪˈzɪstənt"
-    },
-    {
-        "name": "reverse",
-        "trans": [
-            "v. change to the contrary",
-            "v. turn inside out or upside down",
-            "v. reverse the position, order, relation, or condition of"
-        ],
-        "usphone": "rɪˈvɜːs",
-        "ukphone": "rɪˈvɜːrs"
-    },
-    {
-        "name": "rising",
-        "trans": [
-            "adj. newly come into prominence",
-            "adj. coming to maturity",
-            "adj. sloping upward"
-        ],
-        "usphone": "ˈraɪzɪŋ",
-        "ukphone": "ˈraɪzɪŋ"
-    },
-    {
-        "name": "royal",
-        "trans": [
-            "adj. invested with royal power as symbolized by a crown",
-            "adj. belonging to or befitting a supreme ruler",
-            "adj. being of the rank of a monarch"
-        ],
-        "usphone": "ˈrɔɪəl",
-        "ukphone": "ˈrɔɪəl"
-    },
-    {
-        "name": "rural",
-        "trans": [
-            "adj. living in or characteristic of farming or country life",
-            "adj. of or relating to the countryside as opposed to the city"
-        ],
-        "usphone": "ˈrʊərəl",
-        "ukphone": "ˈrʊrəl"
-    },
-    {
-        "name": "sacked",
-        "trans": [
-            "adj. having been robbed and destroyed by force and violence"
-        ],
-        "usphone": "sækt",
-        "ukphone": "sækt"
-    },
-    {
-        "name": "safe",
-        "trans": [
-            "adj. having reached a base without being put out",
-            "adj. free from danger or the risk of harm",
-            "adj. financially sound"
-        ],
-        "usphone": "seɪf",
-        "ukphone": "seɪf"
-    },
-    {
-        "name": "satisfactory",
-        "trans": [
-            "adj. meeting requirements",
-            "adj. giving satisfaction"
-        ],
-        "usphone": "ˌsætɪsˈfæktəri",
-        "ukphone": "ˌsætɪsˈfæktəri"
-    },
-    {
-        "name": "scarce",
-        "trans": [
-            "adj. deficient in quantity or number compared with the demand",
-            "adv. only a very short time before"
-        ],
-        "usphone": "skeəs",
-        "ukphone": "skers"
-    },
-    {
-        "name": "scientific",
-        "trans": [
-            "adj. conforming with the principles or methods used in science",
-            "adj. of or relating to the practice of science"
-        ],
-        "usphone": "ˌsaɪənˈtɪfɪk",
-        "ukphone": "ˌsaɪənˈtɪfɪk"
-    },
-    {
-        "name": "seasonal",
-        "trans": [
-            "adj. occurring at or dependent on a particular season",
-            "n. a worker who finds employment only in certain seasons"
-        ],
-        "usphone": "ˈsiːzənl",
-        "ukphone": "ˈsiːzənl"
-    },
-    {
-        "name": "seasoned",
-        "trans": [
-            "adj. rendered competent through trial and experience",
-            "adj. aged or processed"
-        ],
-        "usphone": "ˈsiːznd",
-        "ukphone": "ˈsiːznd"
-    },
-    {
-        "name": "secondary",
-        "trans": [
-            "adj. belonging to a lower class or rank",
-            "adj. not of major importance",
-            "adj. being of second rank or importance or value"
-        ],
-        "usphone": "ˈsekəndri",
-        "ukphone": "ˈsekənderi"
-    },
-    {
-        "name": "second-hand",
-        "trans": [
-            "indirectly acquired"
-        ],
-        "usphone": "ˈsɛkəndˌhænd",
-        "ukphone": "ˈsɛkəndˌhænd"
-    },
-    {
-        "name": "self-funded",
-        "trans": [
-            "self-sufficiency"
-        ],
-        "usphone": "ˈsɛlfˌfʌndɪd",
-        "ukphone": "ˈsɛlfˌfʌndɪd"
-    },
-    {
-        "name": "self-sufficient",
-        "trans": [
-            "adj. able to provide for your own needs without help from others"
-        ],
-        "usphone": "'selfsə'fiʃənt",
-        "ukphone": "ˌselfsə'fɪʃnt"
-    },
-    {
-        "name": "senior",
-        "trans": [
-            "adj. used of the fourth and final year in United States high school or college",
-            "adj. advanced in years",
-            "adj. older"
-        ],
-        "usphone": "ˈsiːniə",
-        "ukphone": "ˈsiːniər"
-    },
-    {
-        "name": "sensible",
-        "trans": [
-            "adj. aware intuitively or intellectually of something sensed",
-            "adj. readily perceived by the senses",
-            "adj. showing reason or sound judgment"
-        ],
-        "usphone": "ˈsensəbl",
-        "ukphone": "ˈsensəbl"
-    },
-    {
-        "name": "serial",
-        "trans": [
-            "adj. in regular succession without gaps",
-            "adj. of or relating to the sequential performance of multiple operations",
-            "adj. pertaining to or occurring in or producing a series"
-        ],
-        "usphone": "ˈsɪəriəl",
-        "ukphone": "ˈsɪriəl"
-    },
-    {
-        "name": "serious",
-        "trans": [
-            "adj. causing fear or anxiety by threatening great harm",
-            "adj. requiring effort or concentration",
-            "adj. of great consequence"
-        ],
-        "usphone": "ˈsɪəriəs",
-        "ukphone": "ˈsɪriəs"
-    },
-    {
-        "name": "seven-screen",
-        "trans": [
-            "seven (classifier used before a noun that has no specific classifier) screen (TV, computer or movie)"
-        ],
-        "usphone": "ˈsɛvənˌskrin",
-        "ukphone": "ˈsɛvənˌskriːn"
-    },
-    {
-        "name": "several",
-        "trans": [
-            "adj. distinct and individual",
-            "adj. considered individually",
-            "adj. (used with count nouns) of an indefinite number more than 2 or 3 but not many"
-        ],
-        "usphone": "ˈsevrəl",
-        "ukphone": "ˈsevrəl"
-    },
-    {
-        "name": "shared",
-        "trans": [
-            "adj. distributed in portions (often equal) on the basis of a plan or purpose",
-            "adj. have in common"
-        ],
-        "usphone": "ʃeəd",
-        "ukphone": "ʃerd"
-    },
-    {
-        "name": "sharp",
-        "trans": [
-            "adj. marked by practical hardheaded intelligence",
-            "adj. (of something seen or heard) clearly defined",
-            "adj. having or made by a thin edge or sharp point"
-        ],
-        "usphone": "ʃɑːp",
-        "ukphone": "ʃɑːrp"
-    },
-    {
-        "name": "short",
-        "trans": [
-            "v. create a short circuit in",
-            "v. cheat someone by not returning him enough money",
-            "adj. tending to crumble or break into flakes due to a large amount of shortening"
-        ],
-        "usphone": "ʃɔːt",
-        "ukphone": "ʃɔːrt"
-    },
-    {
-        "name": "sick",
-        "trans": [
-            "v. eject the contents of the stomach through the mouth",
-            "adj. shockingly repellent",
-            "adj. deeply affected by a strong feeling"
-        ],
-        "usphone": "sɪk",
-        "ukphone": "sɪk"
-    },
-    {
-        "name": "silent",
-        "trans": [
-            "adj. unable to speak because of hereditary deafness",
-            "adj. having a frequency below or above the range of human audibility",
-            "adj. not made to sound"
-        ],
-        "usphone": "ˈsaɪlənt",
-        "ukphone": "ˈsaɪlənt"
-    },
-    {
-        "name": "silver",
-        "trans": [
-            "v. turn silver",
-            "v. make silver in color",
-            "v. coat with a layer of silver or a silver amalgam"
-        ],
-        "usphone": "ˈsɪlvə",
-        "ukphone": "ˈsɪlvər"
-    },
-    {
-        "name": "similar",
-        "trans": [
-            "adj. resembling or similar",
-            "adj. having the same or similar characteristics",
-            "adj. capable of replacing or changing places with something else"
-        ],
-        "usphone": "ˈsɪmələ",
-        "ukphone": "ˈsɪmələr"
-    },
-    {
-        "name": "simple",
-        "trans": [
-            "adj. easy and not involved or complicated",
-            "adj. unornamented",
-            "adj. lacking mental capacity and subtlety"
-        ],
-        "usphone": "ˈsɪmpl",
-        "ukphone": "ˈsɪmpl"
-    },
-    {
-        "name": "sleepy",
-        "trans": [
-            "adj. ready to fall asleep"
-        ],
-        "usphone": "ˈsliːpi",
-        "ukphone": "ˈsliːpi"
-    },
-    {
-        "name": "slim",
-        "trans": [
-            "v. take off weight",
-            "adj. being of delicate or slender build",
-            "adj. small in quantity"
-        ],
-        "usphone": "slɪm",
-        "ukphone": "slɪm"
-    },
-    {
-        "name": "smart",
-        "trans": [
-            "v. be the source of pain",
-            "adj. capable of independent and apparently intelligent action",
-            "adj. improperly forward or bold"
-        ],
-        "usphone": "smɑːt",
-        "ukphone": "smɑːrt"
-    },
-    {
-        "name": "smelly",
-        "trans": [
-            "adj. offensively malodorous"
-        ],
-        "usphone": "ˈsmeli",
-        "ukphone": "ˈsmeli"
-    },
-    {
-        "name": "social",
-        "trans": [
-            "adj. marked by friendly companionship with others",
-            "adj. living together or enjoying life in communities or organized groups",
-            "adj. tending to move or live together in groups or colonies of the same kind"
-        ],
-        "usphone": "ˈsəʊʃl",
-        "ukphone": "ˈsoʊʃl"
-    },
-    {
-        "name": "solar",
-        "trans": [
-            "adj. relating to or derived from the sun or utilizing the energies of the sun"
-        ],
-        "usphone": "ˈsəʊlə",
-        "ukphone": "ˈsoʊlər"
-    },
-    {
-        "name": "soundproof",
-        "trans": [
-            "v. insulate against noise",
-            "adj. impervious to, or not penetrable by, sound"
-        ],
-        "usphone": "ˈsaʊn(d)pruːf",
-        "ukphone": "ˈsaʊn(d)ˌpruf"
-    },
-    {
-        "name": "southern",
-        "trans": [
-            "adj. from the south",
-            "adj. situated in or oriented toward the south",
-            "adj. situated in or coming from regions of the south"
-        ],
-        "usphone": "ˈsʌðən",
-        "ukphone": "ˈsʌðərn"
-    },
-    {
-        "name": "spacious",
-        "trans": [
-            "adj. (of buildings and rooms) having ample space",
-            "adj. very large in expanse or scope"
-        ],
-        "usphone": "ˈspeɪʃəs",
-        "ukphone": "ˈspeɪʃəs"
-    },
-    {
-        "name": "spare",
-        "trans": [
-            "v. use frugally or carefully",
-            "v. give up what is not strictly needed",
-            "v. refrain from harming"
-        ],
-        "usphone": "speə",
-        "ukphone": "sper"
-    },
-    {
-        "name": "special",
-        "trans": [
-            "adj. surpassing what is common or usual or expected",
-            "adj. having a specific function or scope",
-            "adj. for a special service or occasion"
-        ],
-        "usphone": "ˈspeʃl",
-        "ukphone": "ˈspeʃl"
-    },
-    {
-        "name": "specialised",
-        "trans": [
-            "adj. developed or designed for a special activity or function"
-        ],
-        "usphone": "'speʃəlaɪzd",
-        "ukphone": "'speʃəlaɪzd"
-    },
-    {
-        "name": "species",
-        "trans": [
-            "n. a specific kind of something",
-            "n. (biology) taxonomic group whose members can interbreed"
-        ],
-        "usphone": "ˈspiːʃiːz",
-        "ukphone": "ˈspiːʃiːz"
-    },
-    {
-        "name": "specific",
-        "trans": [
-            "adj. stated explicitly or in detail",
-            "adj. (sometimes followed by `to') applying to or characterized by or distinguishing something particular or special or unique",
-            "adj. being or affecting a disease produced by a particular microorganism or condition"
-        ],
-        "usphone": "spəˈsɪfɪk",
-        "ukphone": "spəˈsɪfɪk"
-    },
-    {
-        "name": "spiral",
-        "trans": [
-            "v. to wind or move in a spiral course",
-            "v. move in a spiral or zigzag course",
-            "v. form a spiral"
-        ],
-        "usphone": "ˈspaɪrəl",
-        "ukphone": "ˈspaɪrəl"
-    },
-    {
-        "name": "stable",
-        "trans": [
-            "v. shelter in a stable",
-            "adj. showing little if any change",
-            "adj. maintaining equilibrium"
-        ],
-        "usphone": "ˈsteɪbl",
-        "ukphone": "ˈsteɪbl"
-    },
-    {
-        "name": "steady",
-        "trans": [
-            "v. make steady",
-            "v. support or hold steady and make steadfast, with or as if with a brace",
-            "adj. not easily excited or upset"
-        ],
-        "usphone": "ˈstedi",
-        "ukphone": "ˈstedi"
-    },
-    {
-        "name": "stout",
-        "trans": [
-            "adj. euphemisms for `fat'",
-            "adj. dependable",
-            "adj. having rugged physical strength"
-        ],
-        "usphone": "staʊt",
-        "ukphone": "staʊt"
-    },
-    {
-        "name": "strained",
-        "trans": [
-            "adj. struggling for effect",
-            "adj. lacking spontaneity",
-            "adj. lacking natural ease"
-        ],
-        "usphone": "streɪnd",
-        "ukphone": "streɪnd"
-    },
-    {
-        "name": "stressful",
-        "trans": [
-            "adj. extremely irritating to the nerves"
-        ],
-        "usphone": "ˈstresfl",
-        "ukphone": "ˈstresfl"
-    },
-    {
-        "name": "stretching",
-        "trans": [
-            "n. act of expanding by lengthening or widening",
-            "n. exercise designed to extend the limbs and muscles to their full extent"
-        ],
-        "usphone": "ˈstretʃɪŋ",
-        "ukphone": "ˈstretʃɪŋ"
-    },
-    {
-        "name": "strong",
-        "trans": [
-            "adj. strong and sure",
-            "adj. freshly made or left",
-            "adj. being distilled rather than fermented"
-        ],
-        "usphone": "strɒŋ",
-        "ukphone": "strɔːŋ"
-    },
-    {
-        "name": "stronger",
-        "trans": [
-            "to change or replace stubborn"
-        ],
-        "usphone": "ˈstrɒŋgə",
-        "ukphone": "ˈstrɔːŋər"
-    },
-    {
-        "name": "subjective",
-        "trans": [
-            "adj. of a mental act performed entirely within the mind",
-            "adj. taking place within the mind and modified by individual bias"
-        ],
-        "usphone": "səbˈdʒektɪv",
-        "ukphone": "səbˈdʒektɪv"
-    },
-    {
-        "name": "successful",
-        "trans": [
-            "adj. having succeeded or being marked by a favorable outcome"
-        ],
-        "usphone": "səkˈsesfl",
-        "ukphone": "səkˈsesfl"
-    },
-    {
-        "name": "sufficient",
-        "trans": [
-            "adj. of a quantity that can fulfill a need or requirement but without being abundant"
-        ],
-        "usphone": "səˈfɪʃnt",
-        "ukphone": "səˈfɪʃnt"
-    },
-    {
-        "name": "suitable",
-        "trans": [
-            "adj. worthy of being chosen especially as a spouse",
-            "adj. meant or adapted for an occasion or use"
-        ],
-        "usphone": "ˈsuːtəbl",
-        "ukphone": "ˈsuːtəbl"
-    },
-    {
-        "name": "super",
-        "trans": [
-            "adj. extremely large",
-            "adj. of the highest quality",
-            "adj. including more than a specified category"
-        ],
-        "usphone": "ˈsuːpə",
-        "ukphone": "ˈsuːpər"
-    },
-    {
-        "name": "surprised",
-        "trans": [
-            "adj. taken unawares or suddenly and feeling wonder or astonishment"
-        ],
-        "usphone": "səˈpraɪzd",
-        "ukphone": "sərˈpraɪzd"
-    },
-    {
-        "name": "systematic",
-        "trans": [
-            "adj. characterized by order and planning",
-            "adj. of or relating to taxonomy"
-        ],
-        "usphone": "ˌsɪstəˈmætɪk",
-        "ukphone": "ˌsɪstəˈmætɪk"
-    },
-    {
-        "name": "technical",
-        "trans": [
-            "adj. of or relating to or requiring special knowledge to be understood",
-            "adj. of or relating to technique or proficiency in a practical skill",
-            "adj. of or relating to a practical subject that is organized according to scientific principles"
-        ],
-        "usphone": "ˈteknɪkl",
-        "ukphone": "ˈteknɪkl"
-    },
-    {
-        "name": "theoretical",
-        "trans": [
-            "adj. concerned primarily with theories or hypotheses rather than practical considerations",
-            "adj. concerned with theories rather than their practical applications"
-        ],
-        "usphone": "ˌθɪəˈretɪkl",
-        "ukphone": "ˌθiːəˈretɪkl"
-    },
-    {
-        "name": "traditional",
-        "trans": [
-            "adj. consisting of or derived from tradition",
-            "adj. pertaining to time-honored orthodox doctrines"
-        ],
-        "usphone": "trəˈdɪʃənl",
-        "ukphone": "trəˈdɪʃənl"
-    },
-    {
-        "name": "troublesome",
-        "trans": [
-            "adj. difficult to deal with"
-        ],
-        "usphone": "ˈtrʌblsəm",
-        "ukphone": "ˈtrʌblsəm"
-    },
-    {
-        "name": "typical",
-        "trans": [
-            "adj. of a feature that helps to distinguish a person or thing",
-            "adj. conforming to a type",
-            "adj. exhibiting the qualities or characteristics that identify a group or kind or category"
-        ],
-        "usphone": "ˈtɪpɪkl",
-        "ukphone": "ˈtɪpɪkl"
-    },
-    {
-        "name": "unanimous",
-        "trans": [
-            "adj. in complete agreement",
-            "adj. acting together as a single undiversified whole"
-        ],
-        "usphone": "juˈnænɪməs",
-        "ukphone": "juˈnænɪməs"
-    },
-    {
-        "name": "uncomfortable",
-        "trans": [
-            "adj. providing or experiencing physical discomfort",
-            "adj. conducive to or feeling mental discomfort"
-        ],
-        "usphone": "ʌnˈkʌmftəbl",
-        "ukphone": "ʌnˈkʌmftəbl"
-    },
-    {
-        "name": "unconvincing",
-        "trans": [
-            "adj. not convincing",
-            "adj. having a probability too low to inspire belief"
-        ],
-        "usphone": "ˌənˈkɑnvɪnsɪŋ",
-        "ukphone": "ˌʌnkənˈvɪnsɪŋ"
-    },
-    {
-        "name": "underground",
-        "trans": [
-            "adj. conducted with or marked by hidden aims or methods",
-            "adj. under the level of the ground",
-            "adv. beneath the surface of the earth"
-        ],
-        "usphone": "ˌʌndəˈɡraʊnd , ˈʌndəɡraʊnd",
-        "ukphone": "ˌʌndərˈɡraʊnd , ˈʌndərɡraʊnd"
-    },
-    {
-        "name": "unfair",
-        "trans": [
-            "adj. not fair"
-        ],
-        "usphone": "ˌʌnˈfeə",
-        "ukphone": "ˌʌnˈfer"
-    },
-    {
-        "name": "unhealthy",
-        "trans": [
-            "adj. not conducive to good health",
-            "adj. not in or exhibiting good health in body or mind",
-            "adj. detrimental to health"
-        ],
-        "usphone": "ʌnˈhelθi",
-        "ukphone": "ʌnˈhelθi"
-    },
-    {
-        "name": "unique",
-        "trans": [
-            "adj. highly unusual or rare but not the single instance",
-            "adj. radically distinctive and without equal",
-            "adj. the single one of its kind"
-        ],
-        "usphone": "juˈniːk",
-        "ukphone": "juˈniːk"
-    },
-    {
-        "name": "united",
-        "trans": [
-            "adj. of or relating to two people who are married to each other",
-            "adj. characterized by unity"
-        ],
-        "usphone": "jʊ'naɪtɪd",
-        "ukphone": "jʊ'naɪtɪd"
-    },
-    {
-        "name": "unreliable",
-        "trans": [
-            "adj. not worthy of reliance or trust",
-            "adj. liable to be erroneous or misleading",
-            "adj. lacking a sense of responsibility"
-        ],
-        "usphone": "ˌʌnrɪˈlaɪəbl",
-        "ukphone": "ˌʌnrɪˈlaɪəbl"
-    },
-    {
-        "name": "unsocial",
-        "trans": [
-            "adj. not seeking or given to association"
-        ],
-        "usphone": "ˌənˈsoʊʃəl",
-        "ukphone": "ˌʌnˈsəʊʃəl"
-    },
-    {
-        "name": "unusual",
-        "trans": [
-            "adj. not commonly encountered",
-            "adj. not usual or common or ordinary",
-            "adj. being definitely out of the ordinary and unexpected"
-        ],
-        "usphone": "ʌnˈjuːʒuəl",
-        "ukphone": "ʌnˈjuːʒuəl"
-    },
-    {
-        "name": "useful",
-        "trans": [
-            "adj. having a useful function",
-            "adj. being of use or service"
-        ],
-        "usphone": "ˈjuːsfl",
-        "ukphone": "ˈjuːsfl"
-    },
-    {
-        "name": "useless",
-        "trans": [
-            "adj. having no beneficial use or incapable of functioning usefully"
-        ],
-        "usphone": "ˈjuːsləs",
-        "ukphone": "ˈjuːsləs"
-    },
-    {
-        "name": "usual",
-        "trans": [
-            "adj. occurring or encountered or experienced or observed frequently or in accordance with regular practice or procedure",
-            "adj. commonly encountered"
-        ],
-        "usphone": "ˈjuːʒuəl",
-        "ukphone": "ˈjuːʒuəl"
-    },
-    {
-        "name": "various",
-        "trans": [
-            "adj. of many different kinds purposefully arranged but lacking any uniformity",
-            "adj. distinctly dissimilar or unlike",
-            "adj. having great diversity or variety"
-        ],
-        "usphone": "ˈveəriəs",
-        "ukphone": "ˈveriəs"
-    },
-    {
-        "name": "violent",
-        "trans": [
-            "adj. characterized by violence or bloodshed",
-            "adj. marked by extreme intensity of emotions or convictions",
-            "adj. (of colors or sounds) intensely vivid or loud"
-        ],
-        "usphone": "ˈvaɪələnt",
-        "ukphone": "ˈvaɪələnt"
-    },
-    {
-        "name": "virtual",
-        "trans": [
-            "adj. existing in essence or effect though not in actual fact",
-            "adj. being actually such in almost every respect"
-        ],
-        "usphone": "ˈvɜːtʃuəl",
-        "ukphone": "ˈvɜːrtʃuəl"
-    },
-    {
-        "name": "visible",
-        "trans": [
-            "adj. present and easily available",
-            "adj. obvious to the eye",
-            "adj. capable of being seen"
-        ],
-        "usphone": "ˈvɪzəbl",
-        "ukphone": "ˈvɪzəbl"
-    },
-    {
-        "name": "visual",
-        "trans": [
-            "adj. visible",
-            "adj. relating to or using sight"
-        ],
-        "usphone": "ˈvɪʒuəl",
-        "ukphone": "ˈvɪʒuəl"
-    },
-    {
-        "name": "warm",
-        "trans": [
-            "v. make warm or warmer",
-            "v. get warm or warmer",
-            "adj. of a seeker"
-        ],
-        "usphone": "wɔːm",
-        "ukphone": "wɔːrm"
-    },
-    {
-        "name": "washable",
-        "trans": [
-            "adj. capable of being washed without injury"
-        ],
-        "usphone": "ˈwɑʃəbl̩",
-        "ukphone": "ˈwɒʃəbl̩"
-    },
-    {
-        "name": "wealthy",
-        "trans": [
-            "adj. having an abundant supply of money or possessions of value"
-        ],
-        "usphone": "ˈwelθi",
-        "ukphone": "ˈwelθi"
-    },
-    {
-        "name": "weekly",
-        "trans": [
-            "adj. of or occurring every seven days",
-            "adv. without missing a week",
-            "n. a periodical that is published every week (or 52 issues per year)"
-        ],
-        "usphone": "ˈwiːkli",
-        "ukphone": "ˈwiːkli"
-    },
-    {
-        "name": "western",
-        "trans": [
-            "adj. lying toward or situated in the west",
-            "adj. of wind",
-            "adj. relating to or characteristic of the western parts of the world or the West as opposed to the eastern or oriental parts"
-        ],
-        "usphone": "'wɛstɚn",
-        "ukphone": "'west(ə)n"
-    },
-    {
-        "name": "whole",
-        "trans": [
-            "adj. including all components without exception",
-            "adj. (of siblings) having the same parents",
-            "adj. acting together as a single undiversified whole"
-        ],
-        "usphone": "həʊl",
-        "ukphone": "hoʊl"
-    },
-    {
-        "name": "wide",
-        "trans": [
-            "adj. not on target",
-            "adj. having ample fabric",
-            "adj. broad in scope or content"
-        ],
-        "usphone": "waɪd",
-        "ukphone": "waɪd"
-    },
-    {
-        "name": "wise",
-        "trans": [
-            "adj. improperly forward or bold",
-            "adj. marked by the exercise of good judgment or common sense in practical matters",
-            "adj. having or prompted by wisdom or discernment"
-        ],
-        "usphone": "waɪz",
-        "ukphone": "waɪz"
-    },
-    {
-        "name": "worthwhile",
-        "trans": [
-            "adj. sufficiently valuable to justify the investment of time or interest"
-        ],
-        "usphone": "ˌwɜːθˈwaɪl",
-        "ukphone": "ˌwɜːrθˈwaɪl"
-    },
-    {
-        "name": "worthy",
-        "trans": [
-            "adj. worthy of being chosen especially as a spouse",
-            "adj. having qualities or abilities that merit recognition in some way",
-            "adj. having worth or merit or value"
-        ],
-        "usphone": "ˈwɜːði",
-        "ukphone": "ˈwɜːrði"
-    },
-    {
-        "name": "almost",
-        "trans": [
-            "adv. (of actions or states) slightly short of or not quite accomplished"
-        ],
-        "usphone": "ˈɔːlməʊst",
-        "ukphone": "ˈɔːlmoʊst"
-    },
-    {
-        "name": "currently",
-        "trans": [
-            "adv. at this time or period"
-        ],
-        "usphone": "ˈkʌrəntli",
-        "ukphone": "ˈkɜːrəntli"
-    },
-    {
-        "name": "directly",
-        "trans": [
-            "adv. without delay or hesitation",
-            "adv. without deviation",
-            "adv. in a forthright manner"
-        ],
-        "usphone": "dəˈrektli",
-        "ukphone": "dəˈrektli"
-    },
-    {
-        "name": "effectively",
-        "trans": [
-            "adv. in actuality or reality or fact",
-            "adv. in an effective manner"
-        ],
-        "usphone": "ɪˈfektɪvli",
-        "ukphone": "ɪˈfektɪvli"
-    },
-    {
-        "name": "efficiently",
-        "trans": [
-            "adv. with efficiency"
-        ],
-        "usphone": "ɪˈfɪʃntli",
-        "ukphone": "ɪˈfɪʃntli"
-    },
-    {
-        "name": "originally",
-        "trans": [
-            "adv. in an original manner",
-            "adv. before now",
-            "adv. with reference to the origin or beginning"
-        ],
-        "usphone": "əˈrɪdʒənəli",
-        "ukphone": "əˈrɪdʒənəli"
-    },
-    {
-        "name": "physically",
-        "trans": [
-            "adv. in accord with physical laws"
-        ],
-        "usphone": "ˈfɪzɪkli",
-        "ukphone": "ˈfɪzɪkli"
-    },
-    {
-        "name": "professionally",
-        "trans": [
-            "adv. in a professional manner"
-        ],
-        "usphone": "prəˈfeʃənəli",
-        "ukphone": "prəˈfeʃənəli"
-    },
-    {
-        "name": "rapidly",
-        "trans": [
-            "adv. with rapid movements"
-        ],
-        "usphone": "ˈræpɪdli",
-        "ukphone": "ˈræpɪdli"
-    },
-    {
-        "name": "regularly",
-        "trans": [
-            "adv. in a regular manner",
-            "adv. in a regular way without variation",
-            "adv. having a regular form"
-        ],
-        "usphone": "ˈreɡjələli",
-        "ukphone": "ˈreɡjələrli"
-    },
-    {
-        "name": "scarcely",
-        "trans": [
-            "adv. only a very short time before",
-            "adv. almost not"
-        ],
-        "usphone": "ˈskeəsli",
-        "ukphone": "ˈskersli"
-    },
-    {
-        "name": "virtually",
-        "trans": [
-            "adv. slightly short of or not quite accomplished",
-            "adv. in essence or effect, but not in fact"
-        ],
-        "usphone": "ˈvɜːtʃuəli",
-        "ukphone": "ˈvɜːrtʃuəli"
-    }
+  {
+    "name": "abnormal",
+    "trans": [
+      "adj. much greater than the normal",
+      "adj. not normal",
+      "adj. departing from the normal in e.g. intelligence and development"
+    ],
+    "usphone": "æbˈnɔːml",
+    "ukphone": "æbˈnɔːrml"
+  },
+  {
+    "name": "academic",
+    "trans": [
+      "adj. hypothetical or theoretical and not expected to produce an immediate or practical result",
+      "adj. marked by a narrow focus on or display of learning especially its trivial aspects",
+      "adj. associated with academia or an academy"
+    ],
+    "usphone": "ˌækəˈdemɪk",
+    "ukphone": "ˌækəˈdemɪk"
+  },
+  {
+    "name": "accessible",
+    "trans": [
+      "adj. capable of being reached",
+      "adj. easy to get along with or talk to",
+      "adj. easily obtained"
+    ],
+    "usphone": "əkˈsesəbl",
+    "ukphone": "əkˈsesəbl"
+  },
+  {
+    "name": "accountable",
+    "trans": ["adj. liable to account for one's actions"],
+    "usphone": "əˈkaʊntəbl",
+    "ukphone": "əˈkaʊntəbl"
+  },
+  {
+    "name": "accurate",
+    "trans": [
+      "adj. conforming exactly or almost exactly to fact or to a standard or performing with total accuracy",
+      "adj. (of ideas, images, representations, expressions) characterized by perfect conformity to fact or truth"
+    ],
+    "usphone": "ˈækjərət",
+    "ukphone": "ˈækjərət"
+  },
+  {
+    "name": "additional",
+    "trans": ["adj. further or added"],
+    "usphone": "əˈdɪʃənl",
+    "ukphone": "əˈdɪʃənl"
+  },
+  {
+    "name": "adequate",
+    "trans": [
+      "adj. having the requisite qualities or resources to meet a task",
+      "adj. about average",
+      "adj. sufficient for the purpose"
+    ],
+    "usphone": "ˈædɪkwət",
+    "ukphone": "ˈædɪkwət"
+  },
+  {
+    "name": "advanced",
+    "trans": [
+      "adj. situated ahead or going before",
+      "adj. comparatively late in a course of development",
+      "adj. (of societies) highly developed especially in technology or industry"
+    ],
+    "usphone": "əd'vænst",
+    "ukphone": "əd'vænst"
+  },
+  {
+    "name": "advisable",
+    "trans": ["adj. worthy of being recommended or suggested"],
+    "usphone": "ədˈvaɪzəbl",
+    "ukphone": "ədˈvaɪzəbl"
+  },
+  {
+    "name": "allergic",
+    "trans": [
+      "adj. having an allergy or peculiar or excessive susceptibility, especially to a specific factor",
+      "adj. characterized by or caused by allergy"
+    ],
+    "usphone": "əˈlɜːdʒɪk",
+    "ukphone": "əˈlɜːrdʒɪk"
+  },
+  {
+    "name": "alternative",
+    "trans": [
+      "adj. necessitating a choice between mutually exclusive possibilities",
+      "adj. pertaining to unconventional choices",
+      "adj. serving or used in place of another"
+    ],
+    "usphone": "ɔːlˈtɜːnətɪv",
+    "ukphone": "ɔːlˈtɜːrnətɪv"
+  },
+  {
+    "name": "amazing",
+    "trans": [
+      "adj. inspiring awe or admiration or wonder",
+      "adj. surprising greatly"
+    ],
+    "usphone": "əˈmeɪzɪŋ",
+    "ukphone": "əˈmeɪzɪŋ"
+  },
+  {
+    "name": "ambiguous",
+    "trans": ["adj. open to two or more interpretations"],
+    "usphone": "æmˈbɪɡjuəs",
+    "ukphone": "æmˈbɪɡjuəs"
+  },
+  {
+    "name": "ambitious",
+    "trans": [
+      "adj. having a strong desire for success or achievement",
+      "adj. requiring full use of your abilities or resources"
+    ],
+    "usphone": "æmˈbɪʃəs",
+    "ukphone": "æmˈbɪʃəs"
+  },
+  {
+    "name": "analytical",
+    "trans": [
+      "adj. of a proposition that is necessarily true independent of fact or experience",
+      "adj. using or skilled in using analysis (i.e., separating a whole--intellectual or substantial--into its elemental parts or basic principles)"
+    ],
+    "usphone": "ˌænəˈlɪtɪkl",
+    "ukphone": "ˌænəˈlɪtɪkl"
+  },
+  {
+    "name": "ancient",
+    "trans": [
+      "adj. very old",
+      "adj. belonging to times long past especially of the historical period before the fall of the Western Roman Empire",
+      "n. a person who lived in ancient times"
+    ],
+    "usphone": "ˈeɪnʃənt",
+    "ukphone": "ˈeɪnʃənt"
+  },
+  {
+    "name": "angry",
+    "trans": [
+      "adj. feeling or showing anger",
+      "adj. (of the elements) as if showing violent anger",
+      "adj. severely inflamed and painful"
+    ],
+    "usphone": "ˈæŋɡri",
+    "ukphone": "ˈæŋɡri"
+  },
+  {
+    "name": "applied",
+    "trans": [
+      "adj. concerned with concrete problems or data rather than with fundamental principles"
+    ],
+    "usphone": "əˈplaɪd",
+    "ukphone": "əˈplaɪd"
+  },
+  {
+    "name": "archaeological",
+    "trans": ["adj. related to or dealing with or devoted to archaeology"],
+    "usphone": "ˌɑrkiːəˈlɑdʒɪkəl",
+    "ukphone": "ˌɑːrkiːəˈlɒdʒɪkəl"
+  },
+  {
+    "name": "artificial",
+    "trans": [
+      "adj. artificially formal",
+      "adj. contrived by art rather than nature",
+      "adj. not arising from natural growth or characterized by vital processes"
+    ],
+    "usphone": "ˌɑːtɪˈfɪʃl",
+    "ukphone": "ˌɑːrtɪˈfɪʃl"
+  },
+  {
+    "name": "artistic",
+    "trans": [
+      "adj. satisfying aesthetic standards and sensibilities",
+      "adj. aesthetically pleasing",
+      "adj. relating to or characteristic of art or artists"
+    ],
+    "usphone": "ɑːˈtɪstɪk",
+    "ukphone": "ɑːrˈtɪstɪk"
+  },
+  {
+    "name": "ascending",
+    "trans": [
+      "adj. moving or going or growing upward",
+      "n. the act of changing location in an upward direction"
+    ],
+    "usphone": "ə'sɛndɪŋ",
+    "ukphone": "ə'sendiŋ"
+  },
+  {
+    "name": "atmospheric",
+    "trans": ["adj. relating to or located in the atmosphere"],
+    "usphone": "ˌætməsˈferɪk",
+    "ukphone": "ˌætməsˈferɪk"
+  },
+  {
+    "name": "attentive",
+    "trans": [
+      "adj. (often followed by `to') giving care or attention",
+      "adj. taking heed"
+    ],
+    "usphone": "əˈtentɪv",
+    "ukphone": "əˈtentɪv"
+  },
+  {
+    "name": "audio",
+    "trans": [
+      "n. the sound elements of television",
+      "n. a recording of acoustic signals",
+      "n. an audible acoustic wave frequency"
+    ],
+    "usphone": "ˈɔːdiəʊ",
+    "ukphone": "ˈɔːdioʊ"
+  },
+  {
+    "name": "available",
+    "trans": [
+      "adj. obtainable or accessible and ready for use or service",
+      "adj. convenient for use or disposal",
+      "adj. not busy"
+    ],
+    "usphone": "əˈveɪləbl",
+    "ukphone": "əˈveɪləbl"
+  },
+  {
+    "name": "aware",
+    "trans": [
+      "adj. bearing in mind",
+      "adj. (sometimes followed by `of') having or showing knowledge or understanding or realization or perception"
+    ],
+    "usphone": "əˈweə",
+    "ukphone": "əˈwer"
+  },
+  {
+    "name": "awful",
+    "trans": [
+      "adj. causing fear or dread or terror",
+      "adj. exceptionally bad or displeasing",
+      "adj. inspiring awe or admiration or wonder"
+    ],
+    "usphone": "ˈɔːfl",
+    "ukphone": "ˈɔːfl"
+  },
+  {
+    "name": "auto",
+    "trans": ["n. a motor vehicle with four wheels"],
+    "usphone": "ˈɔːtəʊ",
+    "ukphone": "ˈɔːtoʊ"
+  },
+  {
+    "name": "bald",
+    "trans": [
+      "v. to grow bald",
+      "adj. lacking hair on all or most of the scalp",
+      "adj. without the natural or usual covering"
+    ],
+    "usphone": "bɔːld",
+    "ukphone": "bɔːld"
+  },
+  {
+    "name": "barren",
+    "trans": [
+      "adj. completely wanting or lacking",
+      "adj. not bearing offspring",
+      "adj. providing no shelter or sustenance"
+    ],
+    "usphone": "ˈbærən",
+    "ukphone": "ˈbærən"
+  },
+  {
+    "name": "basic",
+    "trans": [
+      "adj. of or denoting or of the nature of or containing a base",
+      "adj. serving as a base or starting point",
+      "adj. pertaining to or constituting a base or basis"
+    ],
+    "usphone": "ˈbeɪsɪk",
+    "ukphone": "ˈbeɪsɪk"
+  },
+  {
+    "name": "beautiful",
+    "trans": [
+      "adj. delighting the senses or exciting intellectual or emotional admiration",
+      "adj. (of weather) highly enjoyable"
+    ],
+    "usphone": "ˈbjuːtɪfl",
+    "ukphone": "ˈbjuːtɪfl"
+  },
+  {
+    "name": "biological",
+    "trans": [
+      "adj. of parents and children",
+      "adj. pertaining to biology or to life and living things"
+    ],
+    "usphone": "ˌbaɪəˈlɒdʒɪkl",
+    "ukphone": "ˌbaɪəˈlɑːdʒɪkl"
+  },
+  {
+    "name": "blind",
+    "trans": [
+      "v. to make dim by comparison or conceal",
+      "v. to make blind by putting the eyes out",
+      "v. to render unable to see"
+    ],
+    "usphone": "blaɪnd",
+    "ukphone": "blaɪnd"
+  },
+  {
+    "name": "blond",
+    "trans": [
+      "adj. being or having light colored skin and hair and usually blue or grey eyes",
+      "n. a light grayish yellow to near white",
+      "n. a person with fair skin and hair"
+    ],
+    "usphone": "blɒnd",
+    "ukphone": "blɑːnd"
+  },
+  {
+    "name": "British",
+    "trans": [
+      "adj. of or relating to or characteristic of Great Britain or its people or culture"
+    ],
+    "usphone": "'brɪtɪʃ",
+    "ukphone": "'brɪtɪʃ"
+  },
+  {
+    "name": "broad",
+    "trans": [
+      "adj. showing or characterized by broad-mindedness",
+      "adj. lacking subtlety",
+      "adj. broad in scope or content"
+    ],
+    "usphone": "brɔːd",
+    "ukphone": "brɔːd"
+  },
+  {
+    "name": "buried",
+    "trans": ["adj. placed in a grave"],
+    "usphone": "ˈberid",
+    "ukphone": "ˈberid"
+  },
+  {
+    "name": "calculating",
+    "trans": ["adj. used of persons"],
+    "usphone": "ˈkælkjuleɪtɪŋ",
+    "ukphone": "ˈkælkjuleɪtɪŋ"
+  },
+  {
+    "name": "casual",
+    "trans": [
+      "adj. hasty and without attention to detail",
+      "adj. marked by blithe unconcern",
+      "adj. not showing effort or strain"
+    ],
+    "usphone": "ˈkæʒuəl",
+    "ukphone": "ˈkæʒuəl"
+  },
+  {
+    "name": "central",
+    "trans": [
+      "adj. in or near a center or constituting a center",
+      "adj. serving as an essential component",
+      "n. a workplace that serves as a telecommunications facility where lines from telephones can be connected together to permit communication"
+    ],
+    "usphone": "ˈsentrəl",
+    "ukphone": "ˈsentrəl"
+  },
+  {
+    "name": "challenging",
+    "trans": [
+      "adj. requiring full use of your abilities or resources",
+      "adj. disturbingly provocative",
+      "adj. stimulating interest or thought"
+    ],
+    "usphone": "ˈtʃælɪndʒɪŋ",
+    "ukphone": "ˈtʃælɪndʒɪŋ"
+  },
+  {
+    "name": "cheaper",
+    "trans": [
+      "convenient classifier indicating a small amount or small number greater than 1: some, a few, several"
+    ],
+    "usphone": "ˈtʃiːpə",
+    "ukphone": "ˈtʃipər"
+  },
+  {
+    "name": "cheerful",
+    "trans": [
+      "adj. being full of or promoting cheer",
+      "adj. pleasantly (even unrealistically) optimistic"
+    ],
+    "usphone": "ˈtʃɪəfl",
+    "ukphone": "ˈtʃɪrfl"
+  },
+  {
+    "name": "children's",
+    "trans": ["child"],
+    "usphone": "ˈtʃɪldrənz",
+    "ukphone": "ˈtʃɪldrənz"
+  },
+  {
+    "name": "classical",
+    "trans": [
+      "adj. of or relating to the most highly developed stage of an earlier civilisation and its culture",
+      "adj. of or pertaining to or characteristic of the ancient Greek and Roman cultures",
+      "adj. of recognized authority or excellence"
+    ],
+    "usphone": "ˈklæsɪkl",
+    "ukphone": "ˈklæsɪkl"
+  },
+  {
+    "name": "clean",
+    "trans": [
+      "v. to be cleanable",
+      "v. to remove unwanted substances from",
+      "v. to remove while making clean"
+    ],
+    "usphone": "kliːn",
+    "ukphone": "kliːn"
+  },
+  {
+    "name": "cleanest",
+    "trans": ["(before an adjective or verb) to the highest degree clean"],
+    "usphone": "kliːnist",
+    "ukphone": "kliːnist"
+  },
+  {
+    "name": "clear",
+    "trans": [
+      "v. to free the throat by making a rasping sound",
+      "v. to rid of obstructions",
+      "v. to remove something"
+    ],
+    "usphone": "klɪə",
+    "ukphone": "klɪr"
+  },
+  {
+    "name": "clever",
+    "trans": [
+      "adj. showing inventiveness and skill",
+      "adj. showing self-interest and shrewdness in dealing with others",
+      "adj. mentally quick and resourceful"
+    ],
+    "usphone": "ˈklevə",
+    "ukphone": "ˈklevər"
+  },
+  {
+    "name": "coastal",
+    "trans": [
+      "adj. located on or near or bordering on a coast",
+      "adj. of or relating to a coast"
+    ],
+    "usphone": "ˈkəʊstl",
+    "ukphone": "ˈkoʊstl"
+  },
+  {
+    "name": "comfortable",
+    "trans": [
+      "adj. providing or experiencing physical well-being or relief (`comfy' is informal)",
+      "adj. free from stress or conducive to mental ease",
+      "adj. in fortunate circumstances financially"
+    ],
+    "usphone": "ˈkʌmftəbl",
+    "ukphone": "ˈkʌmftəbl"
+  },
+  {
+    "name": "common",
+    "trans": [
+      "adj. having no special distinction or quality",
+      "adj. belonging to or participated in by a community as a whole",
+      "adj. commonly encountered"
+    ],
+    "usphone": "ˈkɒmən",
+    "ukphone": "ˈkɑːmən"
+  },
+  {
+    "name": "commonsense",
+    "trans": ["adj. exhibiting native good judgment"],
+    "usphone": "ˈkɑmənˌsɛns",
+    "ukphone": "ˈkɒmənˌsɛns"
+  },
+  {
+    "name": "complete",
+    "trans": [
+      "v. to bring to a whole, with all the necessary parts or elements",
+      "v. to come or bring to a finish or an end",
+      "v. to write all the required information onto a form"
+    ],
+    "usphone": "kəmˈpliːt",
+    "ukphone": "kəmˈpliːt"
+  },
+  {
+    "name": "completed",
+    "trans": [
+      "adj. successfully completed or brought to an end",
+      "adj. caught",
+      "adj. (of a marriage) completed by the first act of sexual intercourse after the ceremony"
+    ],
+    "usphone": "kəmˈpliːtɪd",
+    "ukphone": "kəmˈpliːtɪd"
+  },
+  {
+    "name": "confident",
+    "trans": [
+      "adj. not liable to error in judgment or action",
+      "adj. having or marked by confidence or assurance",
+      "adj. persuaded of"
+    ],
+    "usphone": "ˈkɒnfɪdənt",
+    "ukphone": "ˈkɑːnfɪdənt"
+  },
+  {
+    "name": "conservative",
+    "trans": [
+      "adj. conforming to the standards and conventions of the middle class",
+      "adj. resistant to change",
+      "adj. unimaginatively conventional"
+    ],
+    "usphone": "kənˈsɜːvətɪv",
+    "ukphone": "kənˈsɜːrvətɪv"
+  },
+  {
+    "name": "convenient",
+    "trans": [
+      "adj. large and roomy (`convenient' is archaic in this sense)",
+      "adj. suited to your comfort or purpose or needs"
+    ],
+    "usphone": "kənˈviːniənt",
+    "ukphone": "kənˈviːniənt"
+  },
+  {
+    "name": "co-operative",
+    "trans": ["to cooperate cooperative"],
+    "usphone": "ˈkoʊˌɑpəˌreɪtɪv",
+    "ukphone": "ˈkəʊˌɒpərətɪv"
+  },
+  {
+    "name": "corrupt",
+    "trans": [
+      "v. to alter from the original",
+      "v. to place under suspicion or cast doubt upon",
+      "v. to make illegal payments to in exchange for favors or influence"
+    ],
+    "usphone": "kəˈrʌpt",
+    "ukphone": "kəˈrʌpt"
+  },
+  {
+    "name": "costly",
+    "trans": [
+      "adj. having a high price",
+      "adj. entailing great loss or sacrifice"
+    ],
+    "usphone": "ˈkɒstli",
+    "ukphone": "ˈkɔːstli"
+  },
+  {
+    "name": "cream",
+    "trans": [
+      "v. to add cream to, for example, coffee",
+      "v. to remove from the surface",
+      "v. to put on cream, as on one's face or body"
+    ],
+    "usphone": "kriːm",
+    "ukphone": "kriːm"
+  },
+  {
+    "name": "critical",
+    "trans": [
+      "adj. marked by a tendency to find and call attention to errors and flaws",
+      "adj. characterized by careful evaluation and judgment",
+      "adj. being in or verging on a state of crisis or emergency"
+    ],
+    "usphone": "ˈkrɪtɪkl",
+    "ukphone": "ˈkrɪtɪkl"
+  },
+  {
+    "name": "crucial",
+    "trans": [
+      "adj. of extreme importance",
+      "adj. of the greatest importance",
+      "adj. having crucial relevance"
+    ],
+    "usphone": "ˈkruːʃl",
+    "ukphone": "ˈkruːʃl"
+  },
+  {
+    "name": "cultural",
+    "trans": [
+      "adj. of or relating to the arts and manners that a group favors",
+      "adj. denoting or deriving from or distinctive of the ways of living built up by a group of people",
+      "adj. relating to the raising of plants or animals"
+    ],
+    "usphone": "ˈkʌltʃərəl",
+    "ukphone": "ˈkʌltʃərəl"
+  },
+  {
+    "name": "curly",
+    "trans": ["adj. hair having curls or waves"],
+    "usphone": "ˈkɜːli",
+    "ukphone": "ˈkɜːrli"
+  },
+  {
+    "name": "current",
+    "trans": [
+      "adj. occurring in or belonging to the present time",
+      "n. a steady flow of a fluid (usually from natural causes)",
+      "n. dominant course (suggestive of running water) of successive events or ideas"
+    ],
+    "usphone": "ˈkʌrənt",
+    "ukphone": "ˈkɜːrənt"
+  },
+  {
+    "name": "daily",
+    "trans": [
+      "adj. appropriate for ordinary or routine occasions",
+      "adj. of or belonging to or occurring every day",
+      "adv. every day"
+    ],
+    "usphone": "ˈdeɪli",
+    "ukphone": "ˈdeɪli"
+  },
+  {
+    "name": "dairy",
+    "trans": ["n. a farm where dairy products are produced"],
+    "usphone": "ˈdeəri",
+    "ukphone": "ˈderi"
+  },
+  {
+    "name": "dangerous",
+    "trans": [
+      "adj. causing fear or anxiety by threatening great harm",
+      "adj. involving or causing danger or risk"
+    ],
+    "usphone": "ˈdeɪndʒərəs",
+    "ukphone": "ˈdeɪndʒərəs"
+  },
+  {
+    "name": "dark",
+    "trans": [
+      "adj. not giving performances",
+      "adj. having skin rich in melanin pigments",
+      "adj. brunet (used of hair or skin or eyes)"
+    ],
+    "usphone": "dɑːk",
+    "ukphone": "dɑːrk"
+  },
+  {
+    "name": "departmental",
+    "trans": ["adj. of or relating to a department"],
+    "usphone": "ˌdiːpɑːtˈmentl",
+    "ukphone": "ˌdiːpɑːrtˈmentl"
+  },
+  {
+    "name": "dependent",
+    "trans": [
+      "adj. addicted to a drug",
+      "adj. contingent on something else",
+      "adj. relying on or requiring a person or thing for support, supply, or what is needed"
+    ],
+    "usphone": "dɪˈpendənt",
+    "ukphone": "dɪˈpendənt"
+  },
+  {
+    "name": "detailed",
+    "trans": ["adj. developed or executed with care and in minute detail"],
+    "usphone": "ˈdiːteɪld",
+    "ukphone": "ˈdiːteɪld"
+  },
+  {
+    "name": "different",
+    "trans": [
+      "adj. differing from all others",
+      "adj. marked by dissimilarity",
+      "adj. unlike in nature or quality or form or degree"
+    ],
+    "usphone": "ˈdɪfrənt",
+    "ukphone": "ˈdɪfrənt"
+  },
+  {
+    "name": "direct",
+    "trans": [
+      "v. plan and direct (a complex undertaking)",
+      "v. specifically design a product, event, or activity for a certain public",
+      "v. command with authority"
+    ],
+    "usphone": "dəˈrekt",
+    "ukphone": "dəˈrekt"
+  },
+  {
+    "name": "disabled",
+    "trans": [
+      "adj. incapable of functioning as a consequence of injury or illness",
+      "n. people collectively who are crippled or otherwise physically handicapped"
+    ],
+    "usphone": "dɪsˈeɪbld",
+    "ukphone": "dɪsˈeɪbld"
+  },
+  {
+    "name": "distant",
+    "trans": [
+      "adj. located far away spatially",
+      "adj. separate or apart in time",
+      "adj. separated in space or coming from or going to a distance"
+    ],
+    "usphone": "ˈdɪstənt",
+    "ukphone": "ˈdɪstənt"
+  },
+  {
+    "name": "distinct",
+    "trans": [
+      "adj. clearly or sharply defined to the mind",
+      "adj. recognizable",
+      "adj. easy to perceive"
+    ],
+    "usphone": "dɪˈstɪŋkt",
+    "ukphone": "dɪˈstɪŋkt"
+  },
+  {
+    "name": "domestic",
+    "trans": [
+      "adj. produced in a particular country",
+      "adj. of concern to or concerning the internal affairs of a nation",
+      "adj. of or involving the home or family"
+    ],
+    "usphone": "dəˈmestɪk",
+    "ukphone": "dəˈmestɪk"
+  },
+  {
+    "name": "dominant",
+    "trans": [
+      "adj. exercising influence or control",
+      "adj. (of genes) producing the same phenotype whether its allele is identical or dissimilar",
+      "adj. most frequent or common"
+    ],
+    "usphone": "ˈdɒmɪnənt",
+    "ukphone": "ˈdɑːmɪnənt"
+  },
+  {
+    "name": "eastern",
+    "trans": [
+      "adj. from the east",
+      "adj. lying in or toward the east",
+      "adj. lying toward or situated in the east"
+    ],
+    "usphone": "ˈiːstən",
+    "ukphone": "ˈiːstərn"
+  },
+  {
+    "name": "economic",
+    "trans": [
+      "adj. using the minimum of time or resources necessary for effectiveness",
+      "adj. financially rewarding",
+      "adj. concerned with worldly necessities of life, especially money"
+    ],
+    "usphone": "ˌiːkəˈnɒmɪk",
+    "ukphone": "ˌiːkəˈnɑːmɪk"
+  },
+  {
+    "name": "educational",
+    "trans": [
+      "adj. providing knowledge",
+      "adj. relating to the process of education"
+    ],
+    "usphone": "ˌedʒuˈkeɪʃənl",
+    "ukphone": "ˌedʒuˈkeɪʃənl"
+  },
+  {
+    "name": "effective",
+    "trans": [
+      "adj. existing in fact",
+      "adj. able to accomplish a purpose",
+      "adj. exerting force or influence"
+    ],
+    "usphone": "ɪˈfektɪv",
+    "ukphone": "ɪˈfektɪv"
+  },
+  {
+    "name": "efficient",
+    "trans": [
+      "adj. able to accomplish a purpose",
+      "adj. being effective without wasting time or effort or expense"
+    ],
+    "usphone": "ɪˈfɪʃnt",
+    "ukphone": "ɪˈfɪʃnt"
+  },
+  {
+    "name": "elementary",
+    "trans": [
+      "adj. easy and not involved or complicated",
+      "adj. of or being the essential or basic part",
+      "adj. of or pertaining to or characteristic of elementary school or elementary education"
+    ],
+    "usphone": "ˌelɪˈmentri",
+    "ukphone": "ˌelɪˈmentri"
+  },
+  {
+    "name": "empty",
+    "trans": [
+      "v. excrete or discharge from the body",
+      "v. become empty or void of its content",
+      "v. make void or empty of contents"
+    ],
+    "usphone": "ˈempti",
+    "ukphone": "ˈempti"
+  },
+  {
+    "name": "enormous",
+    "trans": [
+      "adj. extraordinarily large in size or extent or amount or power or degree"
+    ],
+    "usphone": "ɪˈnɔːməs",
+    "ukphone": "ɪˈnɔːrməs"
+  },
+  {
+    "name": "enthusiastic",
+    "trans": ["adj. having or showing great excitement and interest"],
+    "usphone": "ɪnˌθjuːziˈæstɪk",
+    "ukphone": "ɪnˌθuːziˈæstɪk"
+  },
+  {
+    "name": "environmental",
+    "trans": [
+      "adj. concerned with the ecological effects of altering the environment",
+      "adj. of or relating to the external conditions or surroundings"
+    ],
+    "usphone": "ɪnˌvaɪrənˈmentl",
+    "ukphone": "ɪnˌvaɪrənˈmentl"
+  },
+  {
+    "name": "essential",
+    "trans": [
+      "adj. defining rights and duties as opposed to giving the rules by which rights and duties are established",
+      "adj. basic and fundamental",
+      "adj. of the greatest importance"
+    ],
+    "usphone": "ɪˈsenʃl",
+    "ukphone": "ɪˈsenʃl"
+  },
+  {
+    "name": "excited",
+    "trans": [
+      "adj. (of persons) excessively affected by emotion",
+      "adj. in an aroused state",
+      "adj. (of e.g. a molecule) made reactive or more reactive"
+    ],
+    "usphone": "ɪkˈsaɪtɪd",
+    "ukphone": "ɪkˈsaɪtɪd"
+  },
+  {
+    "name": "exciting",
+    "trans": [
+      "adj. creating or arousing excitement",
+      "adj. stimulating interest and discussion"
+    ],
+    "usphone": "ɪkˈsaɪtɪŋ",
+    "ukphone": "ɪkˈsaɪtɪŋ"
+  },
+  {
+    "name": "existent",
+    "trans": [
+      "adj. presently existing in fact and not merely potential or possible",
+      "adj. having existence or being or actuality",
+      "adj. being or occurring in fact or actuality"
+    ],
+    "usphone": "ɪɡˈzɪstənt",
+    "ukphone": "ɪɡˈzɪstənt"
+  },
+  {
+    "name": "expensive",
+    "trans": ["adj. high in price or charging high prices"],
+    "usphone": "ɪkˈspensɪv",
+    "ukphone": "ɪkˈspensɪv"
+  },
+  {
+    "name": "experienced",
+    "trans": ["adj. having experience"],
+    "usphone": "ɪkˈspɪəriənst",
+    "ukphone": "ɪkˈspɪriənst"
+  },
+  {
+    "name": "experimental",
+    "trans": [
+      "adj. relying on observation or experiment",
+      "adj. of the nature of or undergoing an experiment",
+      "adj. relating to or based on experiment"
+    ],
+    "usphone": "ɪkˌsperɪˈmentl",
+    "ukphone": "ɪkˌsperɪˈmentl"
+  },
+  {
+    "name": "extensive",
+    "trans": [
+      "adj. broad in scope or content",
+      "adj. large in spatial extent or range or scope or quantity",
+      "adj. of agriculture"
+    ],
+    "usphone": "ɪkˈstensɪv",
+    "ukphone": "ɪkˈstensɪv"
+  },
+  {
+    "name": "extra",
+    "trans": [
+      "adj. further or added",
+      "adj. more than is needed, desired, or required",
+      "adj. added to a regular schedule"
+    ],
+    "usphone": "ˈekstrə",
+    "ukphone": "ˈekstrə"
+  },
+  {
+    "name": "fair",
+    "trans": [
+      "v. join so that the external surfaces blend smoothly",
+      "adj. very pleasing to the eye",
+      "adj. of hair or skin, pale or light-colored"
+    ],
+    "usphone": "feə",
+    "ukphone": "fer"
+  },
+  {
+    "name": "fake",
+    "trans": [
+      "v. speak insincerely or without regard for facts or truths",
+      "v. make a copy of with the intent to deceive",
+      "v. tamper, with the purpose of deception"
+    ],
+    "usphone": "feɪk",
+    "ukphone": "feɪk"
+  },
+  {
+    "name": "famed",
+    "trans": ["adj. widely known and esteemed"],
+    "usphone": "feɪmd",
+    "ukphone": "feɪmd"
+  },
+  {
+    "name": "familiar",
+    "trans": [
+      "adj. having mutual interests or affections",
+      "adj. well known or easily recognized",
+      "adj. within normal everyday experience"
+    ],
+    "usphone": "fəˈmɪliə",
+    "ukphone": "fəˈmɪliər"
+  },
+  {
+    "name": "famous",
+    "trans": ["adj. widely known and esteemed"],
+    "usphone": "ˈfeɪməs",
+    "ukphone": "ˈfeɪməs"
+  },
+  {
+    "name": "fancy",
+    "trans": [
+      "v. imagine",
+      "v. have a fancy or particular liking or desire for",
+      "adj. not plain"
+    ],
+    "usphone": "ˈfænsi",
+    "ukphone": "ˈfænsi"
+  },
+  {
+    "name": "fashionable",
+    "trans": [
+      "adj. being or in accordance with current social fashions",
+      "adj. having elegance or taste or refinement in manners or dress",
+      "adj. patronized by"
+    ],
+    "usphone": "ˈfæʃnəbl",
+    "ukphone": "ˈfæʃnəbl"
+  },
+  {
+    "name": "favourite",
+    "trans": [
+      "v. to add something to your collection on the Internet",
+      "adj. preferred above all others and treated with partiality",
+      "adj. appealing to the general public"
+    ],
+    "usphone": "ˈfeɪvərɪt",
+    "ukphone": "ˈfeɪvərɪt"
+  },
+  {
+    "name": "final",
+    "trans": [
+      "adj. not to be altered or undone",
+      "adj. occurring at or forming an end or termination",
+      "adj. conclusive in a process or progression"
+    ],
+    "usphone": "ˈfaɪnl",
+    "ukphone": "ˈfaɪnl"
+  },
+  {
+    "name": "financial",
+    "trans": ["adj. involving financial matters"],
+    "usphone": "faɪˈnænʃl",
+    "ukphone": "faɪˈnænʃl"
+  },
+  {
+    "name": "fine",
+    "trans": [
+      "v. issue a ticket or a fine to as a penalty",
+      "adj. characterized by elegance or refinement or accomplishment",
+      "adj. minutely precise especially in differences in meaning"
+    ],
+    "usphone": "faɪn",
+    "ukphone": "faɪn"
+  },
+  {
+    "name": "firm",
+    "trans": [
+      "v. make taut or tauter",
+      "v. become taut or tauter",
+      "adj. strong and sure"
+    ],
+    "usphone": "fɜːm",
+    "ukphone": "fɜːrm"
+  },
+  {
+    "name": "flexible",
+    "trans": [
+      "adj. bending and snapping back readily without breaking",
+      "adj. able to flex",
+      "adj. capable of being changed"
+    ],
+    "usphone": "ˈfleksəbl",
+    "ukphone": "ˈfleksəbl"
+  },
+  {
+    "name": "foreign",
+    "trans": [
+      "adj. relating to or originating in or characteristic of another place or part of the world",
+      "adj. of concern to or concerning the affairs of other nations (other than your own)",
+      "adj. not contained in or deriving from the essential nature of something"
+    ],
+    "usphone": "ˈfɒrən",
+    "ukphone": "ˈfɔːrən"
+  },
+  {
+    "name": "formal",
+    "trans": [
+      "adj. refined or imposing in manner or appearance",
+      "adj. being in accord with established forms and conventions and requirements (as e.g. of formal dress)",
+      "adj. of spoken and written language, adhering to traditional standards of correctness and without casual, contracted, and colloquial forms"
+    ],
+    "usphone": "ˈfɔːml",
+    "ukphone": "ˈfɔːrml"
+  },
+  {
+    "name": "former",
+    "trans": [
+      "adj. referring to the first of two things or persons mentioned (or the earlier one or ones of several)",
+      "adj. belonging to the distant past",
+      "adj. belonging to some prior time"
+    ],
+    "usphone": "ˈfɔːmə",
+    "ukphone": "ˈfɔːrmər"
+  },
+  {
+    "name": "free",
+    "trans": [
+      "v. make (assets) available",
+      "v. let off the hook",
+      "v. free or remove obstruction from"
+    ],
+    "usphone": "friː",
+    "ukphone": "friː"
+  },
+  {
+    "name": "frequent",
+    "trans": [
+      "v. be a regular or frequent visitor to a certain place",
+      "v. do one's shopping at",
+      "adj. frequently encountered"
+    ],
+    "usphone": "ˈfriːkwənt , friˈkwent",
+    "ukphone": "ˈfriːkwənt , friˈkwent"
+  },
+  {
+    "name": "fundamental",
+    "trans": [
+      "adj. serving as an essential component",
+      "adj. being or involving basic facts or principles",
+      "adj. far-reaching and thoroughgoing in effect especially on the nature of something"
+    ],
+    "usphone": "ˌfʌndəˈmentl",
+    "ukphone": "ˌfʌndəˈmentl"
+  },
+  {
+    "name": "further",
+    "trans": [
+      "v. promote the growth of",
+      "v. contribute to the progress or growth of",
+      "adj. more distant in especially degree"
+    ],
+    "usphone": "ˈfɜːðə",
+    "ukphone": "ˈfɜːrðər"
+  },
+  {
+    "name": "general",
+    "trans": [
+      "v. command as a general",
+      "adj. prevailing among and common to the general public",
+      "adj. of worldwide scope or applicability"
+    ],
+    "usphone": "ˈdʒenrəl",
+    "ukphone": "ˈdʒenrəl"
+  },
+  {
+    "name": "genetic",
+    "trans": [
+      "adj. occurring among members of a family usually by heredity",
+      "adj. of or relating to the science of genetics",
+      "adj. pertaining to or referring to origin"
+    ],
+    "usphone": "dʒəˈnetɪk",
+    "ukphone": "dʒəˈnetɪk"
+  },
+  {
+    "name": "geographical",
+    "trans": [
+      "adj. determined by geography",
+      "adj. of or relating to the science of geography"
+    ],
+    "usphone": "ˌdʒiːəˈɡræfɪkl",
+    "ukphone": "ˌdʒiːəˈɡræfɪkl"
+  },
+  {
+    "name": "global",
+    "trans": [
+      "adj. involving the entire earth",
+      "adj. having the shape of a sphere or ball"
+    ],
+    "usphone": "ˈɡləʊbl",
+    "ukphone": "ˈɡloʊbl"
+  },
+  {
+    "name": "handy",
+    "trans": [
+      "adj. easy to reach",
+      "adj. skillful with the hands",
+      "adj. easy to use"
+    ],
+    "usphone": "ˈhændi",
+    "ukphone": "ˈhændi"
+  },
+  {
+    "name": "harmful",
+    "trans": ["adj. causing or capable of causing harm"],
+    "usphone": "ˈhɑːmfl",
+    "ukphone": "ˈhɑːrmfl"
+  },
+  {
+    "name": "hazardous",
+    "trans": ["adj. involving risk or danger"],
+    "usphone": "ˈhæzədəs",
+    "ukphone": "ˈhæzərdəs"
+  },
+  {
+    "name": "healthy",
+    "trans": [
+      "adj. large in amount or extent or degree",
+      "adj. having or indicating good health in body or mind",
+      "adj. exercising or showing good judgment"
+    ],
+    "usphone": "ˈhelθi",
+    "ukphone": "ˈhelθi"
+  },
+  {
+    "name": "heavier",
+    "trans": ["to change or replace heavy"],
+    "usphone": "ˈhevɪə",
+    "ukphone": "ˈheviər"
+  },
+  {
+    "name": "heavy",
+    "trans": [
+      "adj. prodigious",
+      "adj. requiring or showing effort",
+      "adj. usually describes a large person who is fat but has a large frame to carry it"
+    ],
+    "usphone": "ˈhevi",
+    "ukphone": "ˈhevi"
+  },
+  {
+    "name": "helpful",
+    "trans": ["adj. providing assistance or serving a useful function"],
+    "usphone": "ˈhelpfl",
+    "ukphone": "ˈhelpfl"
+  },
+  {
+    "name": "herbivorous",
+    "trans": ["adj. feeding only on plants"],
+    "usphone": "hɜ:'bɪvərəs",
+    "ukphone": "həˈbɪvərəs,ə-"
+  },
+  {
+    "name": "higher",
+    "trans": [
+      "adj. of education beyond the secondary level",
+      "adj. advanced in complexity or elaboration"
+    ],
+    "usphone": "ˈhaɪə",
+    "ukphone": "ˈhaɪər"
+  },
+  {
+    "name": "highly-trained",
+    "trans": ["height to train"],
+    "usphone": "ˈhaɪliˌtreɪnd",
+    "ukphone": "ˈhaɪliˌtreɪnd"
+  },
+  {
+    "name": "historical",
+    "trans": [
+      "adj. belonging to the past",
+      "adj. having once lived or existed or taken place in the real world as distinct from being legendary",
+      "adj. used of the study of a phenomenon (especially language) as it changes through time"
+    ],
+    "usphone": "hɪˈstɒrɪkl",
+    "ukphone": "hɪˈstɔːrɪkl"
+  },
+  {
+    "name": "least",
+    "trans": [
+      "adj. the superlative of `little' that can be used with mass nouns and is usually preceded by `the'",
+      "adv. used to form the superlative",
+      "n. something that is of no importance"
+    ],
+    "usphone": "liːst",
+    "ukphone": "liːst"
+  },
+  {
+    "name": "ill",
+    "trans": [
+      "adj. presaging ill fortune",
+      "adj. distressing",
+      "adj. resulting in suffering or adversity"
+    ],
+    "usphone": "ɪl",
+    "ukphone": "ɪl"
+  },
+  {
+    "name": "illegal",
+    "trans": ["adj. prohibited by law or by official or accepted rules"],
+    "usphone": "ɪˈliːɡl",
+    "ukphone": "ɪˈliːɡl"
+  },
+  {
+    "name": "immune",
+    "trans": [
+      "adj. (usually followed by `to') not affected by a given influence",
+      "adj. relating to or conferring immunity (to disease or infection)",
+      "adj. secure against"
+    ],
+    "usphone": "ɪˈmjuːn",
+    "ukphone": "ɪˈmjuːn"
+  },
+  {
+    "name": "important",
+    "trans": [
+      "adj. of extreme importance",
+      "adj. of great significance or value",
+      "adj. having or suggesting a consciousness of high position"
+    ],
+    "usphone": "ɪmˈpɔːtnt",
+    "ukphone": "ɪmˈpɔːrtnt"
+  },
+  {
+    "name": "impossible",
+    "trans": [
+      "adj. not capable of occurring or being accomplished or dealt with",
+      "adj. totally unlikely",
+      "adj. used of persons or their behavior"
+    ],
+    "usphone": "ɪmˈpɒsəbl",
+    "ukphone": "ɪmˈpɑːsəbl"
+  },
+  {
+    "name": "inaccurate",
+    "trans": ["adj. not exact"],
+    "usphone": "ɪn'ækjərət",
+    "ukphone": "ɪn'ækjʊrət"
+  },
+  {
+    "name": "inadequate",
+    "trans": [
+      "adj. lacking the requisite qualities or resources to meet a task",
+      "adj. not sufficient to meet a need"
+    ],
+    "usphone": "ɪnˈædɪkwət",
+    "ukphone": "ɪnˈædɪkwət"
+  },
+  {
+    "name": "individual",
+    "trans": [
+      "adj. being or characteristic of a single thing or person",
+      "adj. separate and distinct from others of the same kind",
+      "adj. characteristic of or meant for a single person or thing"
+    ],
+    "usphone": "ˌɪndɪˈvɪdʒuəl",
+    "ukphone": "ˌɪndɪˈvɪdʒuəl"
+  },
+  {
+    "name": "industrial",
+    "trans": [
+      "adj. suitable to stand up to hard wear",
+      "adj. having highly developed industries",
+      "adj. employed in industry"
+    ],
+    "usphone": "ɪnˈdʌstriəl",
+    "ukphone": "ɪnˈdʌstriəl"
+  },
+  {
+    "name": "informative",
+    "trans": [
+      "adj. providing or conveying information",
+      "adj. serving to instruct or enlighten or inform",
+      "adj. tending to increase knowledge or dissipate ignorance"
+    ],
+    "usphone": "ɪnˈfɔːmətɪv",
+    "ukphone": "ɪnˈfɔːrmətɪv"
+  },
+  {
+    "name": "initial",
+    "trans": [
+      "v. mark with one's initials",
+      "adj. occurring at the beginning",
+      "n. the first letter of a word, especially a person's name"
+    ],
+    "usphone": "ɪˈnɪʃl",
+    "ukphone": "ɪˈnɪʃl"
+  },
+  {
+    "name": "inspiring",
+    "trans": ["adj. stimulating or exalting to the spirit"],
+    "usphone": "ɪnˈspaɪərɪŋ",
+    "ukphone": "ɪnˈspaɪərɪŋ"
+  },
+  {
+    "name": "intact",
+    "trans": [
+      "adj. constituting the undiminished entirety",
+      "adj. undamaged in any way",
+      "adj. having the hymen unbroken"
+    ],
+    "usphone": "ɪnˈtækt",
+    "ukphone": "ɪnˈtækt"
+  },
+  {
+    "name": "intelligent",
+    "trans": [
+      "adj. having the capacity for thought and reason especially to a high degree",
+      "adj. endowed with the capacity to reason",
+      "adj. exercising or showing good judgment"
+    ],
+    "usphone": "ɪnˈtelɪdʒənt",
+    "ukphone": "ɪnˈtelɪdʒənt"
+  },
+  {
+    "name": "intensive",
+    "trans": [
+      "adj. characterized by a high degree or intensity",
+      "adj. of agriculture",
+      "adj. tending to give force or emphasis"
+    ],
+    "usphone": "ɪnˈtensɪv",
+    "ukphone": "ɪnˈtensɪv"
+  },
+  {
+    "name": "interesting",
+    "trans": ["adj. arousing or holding the attention"],
+    "usphone": "'ɪntrəstɪŋ",
+    "ukphone": "ˈɪntrəstɪŋ"
+  },
+  {
+    "name": "intermediate",
+    "trans": [
+      "v. act between parties with a view to reconciling differences",
+      "adj. lying between two extremes in time or space or state",
+      "adj. around the middle of a scale of evaluation"
+    ],
+    "usphone": "ˌɪntəˈmiːdiət",
+    "ukphone": "ˌɪntərˈmiːdiət"
+  },
+  {
+    "name": "internal",
+    "trans": [
+      "adj. happening or arising or located within some limits or especially surface",
+      "adj. located inward",
+      "adj. inside the country"
+    ],
+    "usphone": "ɪnˈtɜːnl",
+    "ukphone": "ɪnˈtɜːrnl"
+  },
+  {
+    "name": "international",
+    "trans": [
+      "adj. from or between other countries",
+      "adj. concerning or belonging to all or at least two or more nations"
+    ],
+    "usphone": "ˌɪntəˈnæʃnəl",
+    "ukphone": "ˌɪntərˈnæʃnəl"
+  },
+  {
+    "name": "irregular",
+    "trans": [
+      "adj. not occurring at expected times",
+      "adj. independent in behavior or thought",
+      "adj. (of a surface or shape)"
+    ],
+    "usphone": "ɪˈreɡjələ",
+    "ukphone": "ɪˈreɡjələr"
+  },
+  {
+    "name": "irritable",
+    "trans": [
+      "adj. easily irritated or annoyed",
+      "adj. capable of responding to stimuli",
+      "adj. abnormally sensitive to a stimulus"
+    ],
+    "usphone": "ˈɪrɪtəbl",
+    "ukphone": "ˈɪrɪtəbl"
+  },
+  {
+    "name": "isolated",
+    "trans": [
+      "adj. remote and separate physically or socially",
+      "adj. not close together in time",
+      "adj. under forced isolation especially for health reasons"
+    ],
+    "usphone": "ˈaɪsəleɪtɪd",
+    "ukphone": "ˈaɪsəleɪtɪd"
+  },
+  {
+    "name": "key",
+    "trans": [
+      "v. harmonize with or adjust to",
+      "v. regulate the musical pitch of",
+      "v. identify as in botany or biology, for example"
+    ],
+    "usphone": "kiː",
+    "ukphone": "kiː"
+  },
+  {
+    "name": "latest",
+    "trans": [
+      "adj. up to the immediate present",
+      "adj. in the current fashion or style",
+      "n. the most recent news or development"
+    ],
+    "usphone": "ˈleɪtɪst",
+    "ukphone": "ˈleɪtɪst"
+  },
+  {
+    "name": "legal",
+    "trans": [
+      "adj. allowed by official rules",
+      "adj. established by or founded upon law or official or accepted rules",
+      "adj. having legal efficacy or force"
+    ],
+    "usphone": "ˈliːɡl",
+    "ukphone": "ˈliːɡl"
+  },
+  {
+    "name": "little-known",
+    "trans": ["adj. unknown to most people"],
+    "usphone": "ˈlɪtəlˌnoʊn",
+    "ukphone": "ˈlɪtl̩ˌnəʊn"
+  },
+  {
+    "name": "loyal",
+    "trans": [
+      "adj. unwavering in devotion to friend or vow or cause",
+      "adj. steadfast in allegiance or duty",
+      "adj. inspired by love for your country"
+    ],
+    "usphone": "ˈlɔɪəl",
+    "ukphone": "ˈlɔɪəl"
+  },
+  {
+    "name": "magic",
+    "trans": [
+      "adj. possessing or using or characteristic of or appropriate to supernatural powers",
+      "n. an illusory feat",
+      "n. any art that invokes supernatural powers"
+    ],
+    "usphone": "ˈmædʒɪk",
+    "ukphone": "ˈmædʒɪk"
+  },
+  {
+    "name": "magical",
+    "trans": [
+      "adj. possessing or using or characteristic of or appropriate to supernatural powers"
+    ],
+    "usphone": "ˈmædʒɪkl",
+    "ukphone": "ˈmædʒɪkl"
+  },
+  {
+    "name": "magnificent",
+    "trans": ["adj. characterized by grandeur"],
+    "usphone": "mæɡˈnɪfɪsnt",
+    "ukphone": "mæɡˈnɪfɪsnt"
+  },
+  {
+    "name": "major",
+    "trans": [
+      "v. have as one's principal field of study",
+      "adj. of the elder of two boys with the same family name",
+      "adj. greater in number or size or amount"
+    ],
+    "usphone": "ˈmeɪdʒə",
+    "ukphone": "ˈmeɪdʒər"
+  },
+  {
+    "name": "martial",
+    "trans": [
+      "adj. of or relating to the armed forces",
+      "adj. (of persons) befitting a warrior",
+      "adj. suggesting war or military life"
+    ],
+    "usphone": "ˈmɑːʃl",
+    "ukphone": "ˈmɑːrʃl"
+  },
+  {
+    "name": "mature",
+    "trans": [
+      "v. cause to ripen and discharge pus",
+      "v. grow old or older",
+      "v. cause to ripen or develop fully"
+    ],
+    "usphone": "məˈtʃʊə",
+    "ukphone": "məˈtʃʊr"
+  },
+  {
+    "name": "medical",
+    "trans": [
+      "adj. requiring or amenable to treatment by medicine especially as opposed to surgery",
+      "adj. of or belonging to Aesculapius or the healing art",
+      "adj. relating to the study or practice of medicine"
+    ],
+    "usphone": "ˈmedɪkl",
+    "ukphone": "ˈmedɪkl"
+  },
+  {
+    "name": "mental",
+    "trans": [
+      "adj. affected by a disorder of the mind",
+      "adj. involving the mind or an intellectual process",
+      "adj. of or relating to the chin or median part of the lower jaw"
+    ],
+    "usphone": "ˈmentl",
+    "ukphone": "ˈmentl"
+  },
+  {
+    "name": "mid",
+    "trans": ["adj. used in combination to denote the middle"],
+    "usphone": "mɪd",
+    "ukphone": "mɪd"
+  },
+  {
+    "name": "migratory",
+    "trans": [
+      "adj. habitually moving from place to place especially in search of seasonal work",
+      "adj. used of animals that move seasonally"
+    ],
+    "usphone": "ˈmaɪɡrətri",
+    "ukphone": "ˈmaɪɡrətɔːri"
+  },
+  {
+    "name": "military",
+    "trans": [
+      "adj. associated with or performed by members of the armed services as contrasted with civilians",
+      "adj. characteristic of or associated with soldiers or the military",
+      "adj. of or relating to the study of the principles of warfare"
+    ],
+    "usphone": "ˈmɪlətri",
+    "ukphone": "ˈmɪləteri"
+  },
+  {
+    "name": "miserable",
+    "trans": [
+      "adj. contemptibly small in amount",
+      "adj. characterized by physical misery",
+      "adj. of the most contemptible kind"
+    ],
+    "usphone": "ˈmɪzrəbl",
+    "ukphone": "ˈmɪzrəbl"
+  },
+  {
+    "name": "mobile",
+    "trans": [
+      "adj. affording change (especially in social status)",
+      "adj. capable of changing quickly from one state or condition to another",
+      "adj. moving or capable of moving readily (especially from place to place)"
+    ],
+    "usphone": "ˈməʊbaɪl",
+    "ukphone": "ˈmoʊbl"
+  },
+  {
+    "name": "moderate",
+    "trans": ["v. make less fast or intense", "v. restrain", "v. preside over"],
+    "usphone": "ˈmɒdərət , ˈmɒdəreɪt",
+    "ukphone": "ˈmɑːdərət , ˈmɑːdəreɪt"
+  },
+  {
+    "name": "modern",
+    "trans": ["adj. used of a living language"],
+    "usphone": "ˈmɒdn",
+    "ukphone": "ˈmɑːdərn"
+  },
+  {
+    "name": "musical",
+    "trans": [
+      "adj. containing or constituting or characterized by pleasing melody",
+      "adj. characteristic of or resembling or accompanied by music",
+      "adj. talented in or devoted to music"
+    ],
+    "usphone": "ˈmjuːzɪkl",
+    "ukphone": "ˈmjuːzɪkl"
+  },
+  {
+    "name": "natural",
+    "trans": [
+      "adj. free from artificiality",
+      "adj. being talented through inherited qualities",
+      "adj. related by blood"
+    ],
+    "usphone": "ˈnætʃrəl",
+    "ukphone": "ˈnætʃrəl"
+  },
+  {
+    "name": "negative",
+    "trans": [
+      "v. vote against",
+      "adj. involving disadvantage or harm",
+      "adj. expressing or consisting of a negation or refusal or denial"
+    ],
+    "usphone": "ˈneɡətɪv",
+    "ukphone": "ˈneɡətɪv"
+  },
+  {
+    "name": "neighbouring",
+    "trans": [
+      "v. be located near or adjacent to",
+      "v. live or be located as a neighbor",
+      "n. a nearby object of the same kind"
+    ],
+    "usphone": "ˈneɪbərɪŋ",
+    "ukphone": "ˈneɪbərɪŋ"
+  },
+  {
+    "name": "nervous",
+    "trans": [
+      "adj. unpredictably excitable (especially of horses)",
+      "adj. excited in anticipation",
+      "adj. easily agitated"
+    ],
+    "usphone": "ˈnɜːvəs",
+    "ukphone": "ˈnɜːrvəs"
+  },
+  {
+    "name": "noble",
+    "trans": [
+      "adj. impressive in appearance",
+      "adj. having or showing or indicative of high or elevated character",
+      "adj. of or belonging to or constituting the hereditary aristocracy especially as derived from feudal times"
+    ],
+    "usphone": "'nobl",
+    "ukphone": "'nəʊb(ə)l"
+  },
+  {
+    "name": "noisy",
+    "trans": [
+      "adj. attracting attention by showiness or bright colors",
+      "adj. full of or characterized by loud and nonmusical sounds"
+    ],
+    "usphone": "ˈnɔɪzi",
+    "ukphone": "ˈnɔɪzi"
+  },
+  {
+    "name": "non-active",
+    "trans": ["no active"],
+    "usphone": "ˌnɑnˈæktɪv",
+    "ukphone": "ˌnɒnˈæktɪv"
+  },
+  {
+    "name": "normal",
+    "trans": [
+      "adj. conforming with or constituting a norm or standard or level or type or social norm",
+      "adj. being approximately average or within certain limits in e.g. intelligence and development",
+      "adj. in accordance with scientific laws"
+    ],
+    "usphone": "ˈnɔːml",
+    "ukphone": "ˈnɔːrml"
+  },
+  {
+    "name": "northern",
+    "trans": [
+      "adj. coming from the north",
+      "adj. situated in or oriented toward the north",
+      "adj. situated in or coming from regions of the north"
+    ],
+    "usphone": "ˈnɔːðən",
+    "ukphone": "ˈnɔːrðərn"
+  },
+  {
+    "name": "objective",
+    "trans": [
+      "adj. belonging to immediate experience of actual things or events",
+      "adj. undistorted by emotion or personal bias",
+      "adj. emphasizing or expressing things as perceived without distortion of personal feelings, insertion of fictional matter, or interpretation"
+    ],
+    "usphone": "əbˈdʒektɪv",
+    "ukphone": "əbˈdʒektɪv"
+  },
+  {
+    "name": "occupational",
+    "trans": [
+      "adj. of or relating to the activity or business for which you are trained"
+    ],
+    "usphone": "ˌɒkjuˈpeɪʃənl",
+    "ukphone": "ˌɑːkjuˈpeɪʃənl"
+  },
+  {
+    "name": "Olympic",
+    "trans": [
+      "adj. of or relating to the Olympic Games",
+      "adj. of the region of Olympia in Greece or its inhabitants"
+    ],
+    "usphone": "əˈlɪmpɪk",
+    "ukphone": "əˈlɪmpɪk"
+  },
+  {
+    "name": "optic",
+    "trans": [
+      "adj. relating to or using sight",
+      "adj. of or relating to or resembling the eye",
+      "n. the organ of sight"
+    ],
+    "usphone": "'ɑptɪk",
+    "ukphone": "'ɑːptɪk"
+  },
+  {
+    "name": "optional",
+    "trans": ["adj. possible but not necessary"],
+    "usphone": "ˈɒpʃənl",
+    "ukphone": "ˈɑːpʃənl"
+  },
+  {
+    "name": "oral",
+    "trans": [
+      "adj. a stage in psychosexual development when the child's interest is concentrated in the mouth",
+      "adj. of or involving the mouth or mouth region or the surface on which the mouth is located",
+      "adj. using speech rather than writing"
+    ],
+    "usphone": "ˈɔːrəl",
+    "ukphone": "ˈɔːrəl"
+  },
+  {
+    "name": "organic",
+    "trans": [
+      "adj. constitutional in the structure of something (especially your physical makeup)",
+      "adj. involving or affecting physiology or bodily organs",
+      "adj. simple and healthful and close to nature"
+    ],
+    "usphone": "ɔːˈɡænɪk",
+    "ukphone": "ɔːrˈɡænɪk"
+  },
+  {
+    "name": "overall",
+    "trans": [
+      "adj. involving only main features",
+      "adj. including everything",
+      "n. work clothing consisting of denim trousers usually with a bib and shoulder straps"
+    ],
+    "usphone": "ˌəʊvərˈɔːl , ˈəʊvərɔːl",
+    "ukphone": "ˌoʊvərˈɔːl , ˈoʊvərɔːl"
+  },
+  {
+    "name": "overhead",
+    "trans": [
+      "adj. located or originating from above",
+      "adv. above the head",
+      "adv. above your head"
+    ],
+    "usphone": "ˌəʊvəˈhed , ˈəʊvəhed",
+    "ukphone": "ˌoʊvərˈhed , ˈoʊvərhed"
+  },
+  {
+    "name": "overseas",
+    "trans": [
+      "adj. in a foreign country",
+      "adj. being or passing over or across the sea",
+      "adv. in a place across an ocean"
+    ],
+    "usphone": "ˌəʊvəˈsiːz",
+    "ukphone": "ˌoʊvərˈsiːz"
+  },
+  {
+    "name": "parental",
+    "trans": [
+      "adj. relating to or characteristic of or befitting a parent",
+      "adj. designating the generation of organisms from which hybrid offspring are produced"
+    ],
+    "usphone": "pəˈrentl",
+    "ukphone": "pəˈrentl"
+  },
+  {
+    "name": "payable",
+    "trans": [
+      "adj. subject to or requiring payment especially as specified",
+      "n. a liability account showing how much is owed for goods and services purchased on credit"
+    ],
+    "usphone": "ˈpeɪəbl",
+    "ukphone": "ˈpeɪəbl"
+  },
+  {
+    "name": "perfect",
+    "trans": [
+      "v. make perfect or complete",
+      "adj. precisely accurate or exact",
+      "adj. being complete of its kind and without defect or blemish"
+    ],
+    "usphone": "ˈpɜːfɪkt , pəˈfekt",
+    "ukphone": "ˈpɜːrfɪkt , pərˈfekt"
+  },
+  {
+    "name": "personal",
+    "trans": [
+      "adj. particular to a given individual",
+      "adj. concerning or affecting a particular person or his or her private life and personality",
+      "adj. intimately concerning a person's body or physical being"
+    ],
+    "usphone": "ˈpɜːsənl",
+    "ukphone": "ˈpɜːrsənl"
+  },
+  {
+    "name": "physical",
+    "trans": [
+      "adj. having substance or material existence",
+      "adj. concerned with material things",
+      "adj. impelled by physical force especially against resistance"
+    ],
+    "usphone": "ˈfɪzɪkl",
+    "ukphone": "ˈfɪzɪkl"
+  },
+  {
+    "name": "pleasant",
+    "trans": [
+      "adj. (of persons) having pleasing manners or behavior",
+      "adj. affording pleasure"
+    ],
+    "usphone": "ˈpleznt",
+    "ukphone": "ˈpleznt"
+  },
+  {
+    "name": "political",
+    "trans": [
+      "adj. involving or characteristic of politics or parties or politicians",
+      "adj. of or relating to your views about social relationships involving authority or power",
+      "adj. of or relating to the profession of governing"
+    ],
+    "usphone": "pəˈlɪtɪkl",
+    "ukphone": "pəˈlɪtɪkl"
+  },
+  {
+    "name": "pop",
+    "trans": [
+      "v. burst open with a sharp, explosive sound",
+      "v. cause to burst with a loud, explosive sound",
+      "v. fire a weapon with a loud explosive noise"
+    ],
+    "usphone": "pɒp",
+    "ukphone": "pɑːp"
+  },
+  {
+    "name": "popular",
+    "trans": [
+      "adj. (of music or art) new and of general appeal (especially among young people)",
+      "adj. representing or appealing to or adapted for the benefit of the people at large",
+      "adj. carried on by or for the people (or citizens) at large"
+    ],
+    "usphone": "ˈpɒpjələ",
+    "ukphone": "ˈpɑːpjələr"
+  },
+  {
+    "name": "positive",
+    "trans": [
+      "adj. involving advantage or good",
+      "adj. marked by excessive confidence",
+      "adj. having a positive charge"
+    ],
+    "usphone": "ˈpɒzətɪv",
+    "ukphone": "ˈpɑːzətɪv"
+  },
+  {
+    "name": "possible",
+    "trans": [
+      "adj. existing in possibility",
+      "adj. capable of happening or existing",
+      "n. something that can be done"
+    ],
+    "usphone": "ˈpɒsəbl",
+    "ukphone": "ˈpɑːsəbl"
+  },
+  {
+    "name": "potential",
+    "trans": [
+      "adj. existing in possibility",
+      "adj. expected to become or be",
+      "n. the difference in electrical charge between two points in a circuit expressed in volts"
+    ],
+    "usphone": "pəˈtenʃl",
+    "ukphone": "pəˈtenʃl"
+  },
+  {
+    "name": "practical",
+    "trans": [
+      "adj. having or put to a practical purpose or use",
+      "adj. concerned with actual use or practice",
+      "adj. guided by practical experience and observation rather than theory"
+    ],
+    "usphone": "ˈpræktɪkl",
+    "ukphone": "ˈpræktɪkl"
+  },
+  {
+    "name": "precious",
+    "trans": [
+      "adj. obviously contrived to charm",
+      "adj. characterized by feeling or showing fond affection for",
+      "adj. of high worth or cost"
+    ],
+    "usphone": "ˈpreʃəs",
+    "ukphone": "ˈpreʃəs"
+  },
+  {
+    "name": "predictable",
+    "trans": ["adj. capable of being foretold"],
+    "usphone": "prɪˈdɪktəbl",
+    "ukphone": "prɪˈdɪktəbl"
+  },
+  {
+    "name": "present",
+    "trans": [
+      "v. bring forward and present to the mind",
+      "v. recognize with a gesture prescribed by a military regulation",
+      "v. cause to come to know personally"
+    ],
+    "usphone": "ˈpreznt , prɪˈzent",
+    "ukphone": "ˈpreznt , prɪˈzent"
+  },
+  {
+    "name": "previous",
+    "trans": [
+      "adj. just preceding something else in time or order",
+      "adj. (used especially of persons) of the immediate past",
+      "adj. too soon or too hasty"
+    ],
+    "usphone": "ˈpriːviəs",
+    "ukphone": "ˈpriːviəs"
+  },
+  {
+    "name": "printed",
+    "trans": [
+      "v. put into print",
+      "v. write as if with print",
+      "v. reproduce by printing"
+    ],
+    "usphone": "ˈprɪntɪd",
+    "ukphone": "ˈprɪntɪd"
+  },
+  {
+    "name": "private",
+    "trans": [
+      "adj. not expressed",
+      "adj. concerning one person exclusively",
+      "adj. concerning things deeply private and personal"
+    ],
+    "usphone": "ˈpraɪvət",
+    "ukphone": "ˈpraɪvɪt"
+  },
+  {
+    "name": "professional",
+    "trans": [
+      "adj. engaged in a profession or engaging in as a profession or means of livelihood",
+      "adj. characteristic of or befitting a profession or one engaged in a profession",
+      "adj. engaged in by members of a profession"
+    ],
+    "usphone": "prəˈfeʃənl",
+    "ukphone": "prəˈfeʃənl"
+  },
+  {
+    "name": "promising",
+    "trans": [
+      "adj. full or promise",
+      "adj. showing possibility of achievement or excellence"
+    ],
+    "usphone": "ˈprɒmɪsɪŋ",
+    "ukphone": "ˈprɑːmɪsɪŋ"
+  },
+  {
+    "name": "psychiatric",
+    "trans": [
+      "adj. relating to or used in or engaged in the practice of psychiatry"
+    ],
+    "usphone": "ˌsaɪkiˈætrɪk",
+    "ukphone": "ˌsaɪkiˈætrɪk"
+  },
+  {
+    "name": "psychological",
+    "trans": [
+      "adj. mental or emotional as opposed to physical in nature",
+      "adj. of or relating to or determined by psychology"
+    ],
+    "usphone": "ˌsaɪkəˈlɒdʒɪkl",
+    "ukphone": "ˌsaɪkəˈlɑːdʒɪkl"
+  },
+  {
+    "name": "public",
+    "trans": [
+      "adj. affecting the people or community as a whole",
+      "adj. not private",
+      "n. a body of people sharing some common interest"
+    ],
+    "usphone": "ˈpʌblɪk",
+    "ukphone": "ˈpʌblɪk"
+  },
+  {
+    "name": "pure",
+    "trans": [
+      "adj. in a state of sexual virginity",
+      "adj. (of color) being chromatically pure",
+      "adj. concerned with theory and data rather than practice"
+    ],
+    "usphone": "pjʊə",
+    "ukphone": "pjʊr"
+  },
+  {
+    "name": "purest",
+    "trans": [
+      "(before an adjective or verb) to the highest degree pure tallest level"
+    ],
+    "usphone": "ˈpjʊərɪst",
+    "ukphone": "ˈpjʊrəst"
+  },
+  {
+    "name": "Queen's",
+    "trans": [
+      "v. become a queen",
+      "v. promote to a queen, as of a pawn in chess",
+      "n. female cat"
+    ],
+    "usphone": "kwinz",
+    "ukphone": "kwiːnz"
+  },
+  {
+    "name": "random",
+    "trans": ["adj. lacking any definite plan or order or purpose"],
+    "usphone": "ˈrændəm",
+    "ukphone": "ˈrændəm"
+  },
+  {
+    "name": "rapid",
+    "trans": [
+      "adj. done or occurring in a brief period of time",
+      "adj. characterized by speed",
+      "n. a part of a river where the current is very fast"
+    ],
+    "usphone": "ˈræpɪd",
+    "ukphone": "ˈræpɪd"
+  },
+  {
+    "name": "rare",
+    "trans": [
+      "adj. not widely distributed",
+      "adj. not widely known",
+      "adj. of meat, cooked a short time"
+    ],
+    "usphone": "reə",
+    "ukphone": "rer"
+  },
+  {
+    "name": "raw",
+    "trans": [
+      "adj. not processed or subjected to analysis",
+      "adj. completely unclothed",
+      "adj. not treated with heat to prepare it for eating"
+    ],
+    "usphone": "rɔː",
+    "ukphone": "rɔː"
+  },
+  {
+    "name": "recycled",
+    "trans": ["v. use again after processing", "v. cause to repeat a cycle"],
+    "usphone": "ˌriːˈsaɪkld",
+    "ukphone": "ˌriːˈsaɪkld"
+  },
+  {
+    "name": "redundant",
+    "trans": [
+      "adj. repetition of same sense in different words",
+      "adj. more than is needed, desired, or required"
+    ],
+    "usphone": "rɪˈdʌndənt",
+    "ukphone": "rɪˈdʌndənt"
+  },
+  {
+    "name": "regional",
+    "trans": [
+      "adj. related or limited to a particular region",
+      "adj. characteristic of a region"
+    ],
+    "usphone": "ˈriːdʒənl",
+    "ukphone": "ˈriːdʒənl"
+  },
+  {
+    "name": "regular",
+    "trans": [
+      "adj. often used as intensifiers",
+      "adj. in accord with regular practice or procedure",
+      "adj. not constipated"
+    ],
+    "usphone": "ˈreɡjələ",
+    "ukphone": "ˈreɡjələr"
+  },
+  {
+    "name": "reinforced",
+    "trans": [
+      "adj. (used of soaps or cleaning agents) having a substance (an abrasive or filler) added to increase effectiveness",
+      "adj. given added strength or support"
+    ],
+    "usphone": "ˌriːɪnˈfɔːst",
+    "ukphone": "ˌriːɪnˈfɔːrst"
+  },
+  {
+    "name": "related",
+    "trans": [
+      "adj. connected by kinship, common origin, or marriage",
+      "adj. being connected either logically or causally or by shared characteristics"
+    ],
+    "usphone": "rɪˈleɪtɪd",
+    "ukphone": "rɪˈleɪtɪd"
+  },
+  {
+    "name": "relevant",
+    "trans": [
+      "adj. having a bearing on or connection with the subject at issue"
+    ],
+    "usphone": "ˈreləvənt",
+    "ukphone": "ˈreləvənt"
+  },
+  {
+    "name": "reliable",
+    "trans": [
+      "adj. worthy of reliance or trust",
+      "adj. conforming to fact and therefore worthy of belief",
+      "adj. worthy of being depended on"
+    ],
+    "usphone": "rɪˈlaɪəbl",
+    "ukphone": "rɪˈlaɪəbl"
+  },
+  {
+    "name": "remote",
+    "trans": [
+      "adj. inaccessible and sparsely populated",
+      "adj. located far away spatially",
+      "adj. separate or apart in time"
+    ],
+    "usphone": "rɪˈməʊt",
+    "ukphone": "rɪˈmoʊt"
+  },
+  {
+    "name": "resistant",
+    "trans": [
+      "adj. incapable of absorbing or mixing with",
+      "adj. disposed to or engaged in defiance of established authority",
+      "adj. impervious to being affected"
+    ],
+    "usphone": "rɪˈzɪstənt",
+    "ukphone": "rɪˈzɪstənt"
+  },
+  {
+    "name": "reverse",
+    "trans": [
+      "v. change to the contrary",
+      "v. turn inside out or upside down",
+      "v. reverse the position, order, relation, or condition of"
+    ],
+    "usphone": "rɪˈvɜːs",
+    "ukphone": "rɪˈvɜːrs"
+  },
+  {
+    "name": "rising",
+    "trans": [
+      "adj. newly come into prominence",
+      "adj. coming to maturity",
+      "adj. sloping upward"
+    ],
+    "usphone": "ˈraɪzɪŋ",
+    "ukphone": "ˈraɪzɪŋ"
+  },
+  {
+    "name": "royal",
+    "trans": [
+      "adj. invested with royal power as symbolized by a crown",
+      "adj. belonging to or befitting a supreme ruler",
+      "adj. being of the rank of a monarch"
+    ],
+    "usphone": "ˈrɔɪəl",
+    "ukphone": "ˈrɔɪəl"
+  },
+  {
+    "name": "rural",
+    "trans": [
+      "adj. living in or characteristic of farming or country life",
+      "adj. of or relating to the countryside as opposed to the city"
+    ],
+    "usphone": "ˈrʊərəl",
+    "ukphone": "ˈrʊrəl"
+  },
+  {
+    "name": "sacked",
+    "trans": ["adj. having been robbed and destroyed by force and violence"],
+    "usphone": "sækt",
+    "ukphone": "sækt"
+  },
+  {
+    "name": "safe",
+    "trans": [
+      "adj. having reached a base without being put out",
+      "adj. free from danger or the risk of harm",
+      "adj. financially sound"
+    ],
+    "usphone": "seɪf",
+    "ukphone": "seɪf"
+  },
+  {
+    "name": "satisfactory",
+    "trans": ["adj. meeting requirements", "adj. giving satisfaction"],
+    "usphone": "ˌsætɪsˈfæktəri",
+    "ukphone": "ˌsætɪsˈfæktəri"
+  },
+  {
+    "name": "scarce",
+    "trans": [
+      "adj. deficient in quantity or number compared with the demand",
+      "adv. only a very short time before"
+    ],
+    "usphone": "skeəs",
+    "ukphone": "skers"
+  },
+  {
+    "name": "scientific",
+    "trans": [
+      "adj. conforming with the principles or methods used in science",
+      "adj. of or relating to the practice of science"
+    ],
+    "usphone": "ˌsaɪənˈtɪfɪk",
+    "ukphone": "ˌsaɪənˈtɪfɪk"
+  },
+  {
+    "name": "seasonal",
+    "trans": [
+      "adj. occurring at or dependent on a particular season",
+      "n. a worker who finds employment only in certain seasons"
+    ],
+    "usphone": "ˈsiːzənl",
+    "ukphone": "ˈsiːzənl"
+  },
+  {
+    "name": "seasoned",
+    "trans": [
+      "adj. rendered competent through trial and experience",
+      "adj. aged or processed"
+    ],
+    "usphone": "ˈsiːznd",
+    "ukphone": "ˈsiːznd"
+  },
+  {
+    "name": "secondary",
+    "trans": [
+      "adj. belonging to a lower class or rank",
+      "adj. not of major importance",
+      "adj. being of second rank or importance or value"
+    ],
+    "usphone": "ˈsekəndri",
+    "ukphone": "ˈsekənderi"
+  },
+  {
+    "name": "second-hand",
+    "trans": ["indirectly acquired"],
+    "usphone": "ˈsɛkəndˌhænd",
+    "ukphone": "ˈsɛkəndˌhænd"
+  },
+  {
+    "name": "self-funded",
+    "trans": ["self-sufficiency"],
+    "usphone": "ˈsɛlfˌfʌndɪd",
+    "ukphone": "ˈsɛlfˌfʌndɪd"
+  },
+  {
+    "name": "self-sufficient",
+    "trans": [
+      "adj. able to provide for your own needs without help from others"
+    ],
+    "usphone": "'selfsə'fiʃənt",
+    "ukphone": "ˌselfsə'fɪʃnt"
+  },
+  {
+    "name": "senior",
+    "trans": [
+      "adj. used of the fourth and final year in United States high school or college",
+      "adj. advanced in years",
+      "adj. older"
+    ],
+    "usphone": "ˈsiːniə",
+    "ukphone": "ˈsiːniər"
+  },
+  {
+    "name": "sensible",
+    "trans": [
+      "adj. aware intuitively or intellectually of something sensed",
+      "adj. readily perceived by the senses",
+      "adj. showing reason or sound judgment"
+    ],
+    "usphone": "ˈsensəbl",
+    "ukphone": "ˈsensəbl"
+  },
+  {
+    "name": "serial",
+    "trans": [
+      "adj. in regular succession without gaps",
+      "adj. of or relating to the sequential performance of multiple operations",
+      "adj. pertaining to or occurring in or producing a series"
+    ],
+    "usphone": "ˈsɪəriəl",
+    "ukphone": "ˈsɪriəl"
+  },
+  {
+    "name": "serious",
+    "trans": [
+      "adj. causing fear or anxiety by threatening great harm",
+      "adj. requiring effort or concentration",
+      "adj. of great consequence"
+    ],
+    "usphone": "ˈsɪəriəs",
+    "ukphone": "ˈsɪriəs"
+  },
+  {
+    "name": "seven-screen",
+    "trans": [
+      "seven (classifier used before a noun that has no specific classifier) screen (TV, computer or movie)"
+    ],
+    "usphone": "ˈsɛvənˌskrin",
+    "ukphone": "ˈsɛvənˌskriːn"
+  },
+  {
+    "name": "several",
+    "trans": [
+      "adj. distinct and individual",
+      "adj. considered individually",
+      "adj. (used with count nouns) of an indefinite number more than 2 or 3 but not many"
+    ],
+    "usphone": "ˈsevrəl",
+    "ukphone": "ˈsevrəl"
+  },
+  {
+    "name": "shared",
+    "trans": [
+      "adj. distributed in portions (often equal) on the basis of a plan or purpose",
+      "adj. have in common"
+    ],
+    "usphone": "ʃeəd",
+    "ukphone": "ʃerd"
+  },
+  {
+    "name": "sharp",
+    "trans": [
+      "adj. marked by practical hardheaded intelligence",
+      "adj. (of something seen or heard) clearly defined",
+      "adj. having or made by a thin edge or sharp point"
+    ],
+    "usphone": "ʃɑːp",
+    "ukphone": "ʃɑːrp"
+  },
+  {
+    "name": "short",
+    "trans": [
+      "v. create a short circuit in",
+      "v. cheat someone by not returning him enough money",
+      "adj. tending to crumble or break into flakes due to a large amount of shortening"
+    ],
+    "usphone": "ʃɔːt",
+    "ukphone": "ʃɔːrt"
+  },
+  {
+    "name": "sick",
+    "trans": [
+      "v. eject the contents of the stomach through the mouth",
+      "adj. shockingly repellent",
+      "adj. deeply affected by a strong feeling"
+    ],
+    "usphone": "sɪk",
+    "ukphone": "sɪk"
+  },
+  {
+    "name": "silent",
+    "trans": [
+      "adj. unable to speak because of hereditary deafness",
+      "adj. having a frequency below or above the range of human audibility",
+      "adj. not made to sound"
+    ],
+    "usphone": "ˈsaɪlənt",
+    "ukphone": "ˈsaɪlənt"
+  },
+  {
+    "name": "silver",
+    "trans": [
+      "v. turn silver",
+      "v. make silver in color",
+      "v. coat with a layer of silver or a silver amalgam"
+    ],
+    "usphone": "ˈsɪlvə",
+    "ukphone": "ˈsɪlvər"
+  },
+  {
+    "name": "similar",
+    "trans": [
+      "adj. resembling or similar",
+      "adj. having the same or similar characteristics",
+      "adj. capable of replacing or changing places with something else"
+    ],
+    "usphone": "ˈsɪmələ",
+    "ukphone": "ˈsɪmələr"
+  },
+  {
+    "name": "simple",
+    "trans": [
+      "adj. easy and not involved or complicated",
+      "adj. unornamented",
+      "adj. lacking mental capacity and subtlety"
+    ],
+    "usphone": "ˈsɪmpl",
+    "ukphone": "ˈsɪmpl"
+  },
+  {
+    "name": "sleepy",
+    "trans": ["adj. ready to fall asleep"],
+    "usphone": "ˈsliːpi",
+    "ukphone": "ˈsliːpi"
+  },
+  {
+    "name": "slim",
+    "trans": [
+      "v. take off weight",
+      "adj. being of delicate or slender build",
+      "adj. small in quantity"
+    ],
+    "usphone": "slɪm",
+    "ukphone": "slɪm"
+  },
+  {
+    "name": "smart",
+    "trans": [
+      "v. be the source of pain",
+      "adj. capable of independent and apparently intelligent action",
+      "adj. improperly forward or bold"
+    ],
+    "usphone": "smɑːt",
+    "ukphone": "smɑːrt"
+  },
+  {
+    "name": "smelly",
+    "trans": ["adj. offensively malodorous"],
+    "usphone": "ˈsmeli",
+    "ukphone": "ˈsmeli"
+  },
+  {
+    "name": "social",
+    "trans": [
+      "adj. marked by friendly companionship with others",
+      "adj. living together or enjoying life in communities or organized groups",
+      "adj. tending to move or live together in groups or colonies of the same kind"
+    ],
+    "usphone": "ˈsəʊʃl",
+    "ukphone": "ˈsoʊʃl"
+  },
+  {
+    "name": "solar",
+    "trans": [
+      "adj. relating to or derived from the sun or utilizing the energies of the sun"
+    ],
+    "usphone": "ˈsəʊlə",
+    "ukphone": "ˈsoʊlər"
+  },
+  {
+    "name": "soundproof",
+    "trans": [
+      "v. insulate against noise",
+      "adj. impervious to, or not penetrable by, sound"
+    ],
+    "usphone": "ˈsaʊn(d)pruːf",
+    "ukphone": "ˈsaʊn(d)ˌpruf"
+  },
+  {
+    "name": "southern",
+    "trans": [
+      "adj. from the south",
+      "adj. situated in or oriented toward the south",
+      "adj. situated in or coming from regions of the south"
+    ],
+    "usphone": "ˈsʌðən",
+    "ukphone": "ˈsʌðərn"
+  },
+  {
+    "name": "spacious",
+    "trans": [
+      "adj. (of buildings and rooms) having ample space",
+      "adj. very large in expanse or scope"
+    ],
+    "usphone": "ˈspeɪʃəs",
+    "ukphone": "ˈspeɪʃəs"
+  },
+  {
+    "name": "spare",
+    "trans": [
+      "v. use frugally or carefully",
+      "v. give up what is not strictly needed",
+      "v. refrain from harming"
+    ],
+    "usphone": "speə",
+    "ukphone": "sper"
+  },
+  {
+    "name": "special",
+    "trans": [
+      "adj. surpassing what is common or usual or expected",
+      "adj. having a specific function or scope",
+      "adj. for a special service or occasion"
+    ],
+    "usphone": "ˈspeʃl",
+    "ukphone": "ˈspeʃl"
+  },
+  {
+    "name": "specialised",
+    "trans": ["adj. developed or designed for a special activity or function"],
+    "usphone": "'speʃəlaɪzd",
+    "ukphone": "'speʃəlaɪzd"
+  },
+  {
+    "name": "species",
+    "trans": [
+      "n. a specific kind of something",
+      "n. (biology) taxonomic group whose members can interbreed"
+    ],
+    "usphone": "ˈspiːʃiːz",
+    "ukphone": "ˈspiːʃiːz"
+  },
+  {
+    "name": "specific",
+    "trans": [
+      "adj. stated explicitly or in detail",
+      "adj. (sometimes followed by `to') applying to or characterized by or distinguishing something particular or special or unique",
+      "adj. being or affecting a disease produced by a particular microorganism or condition"
+    ],
+    "usphone": "spəˈsɪfɪk",
+    "ukphone": "spəˈsɪfɪk"
+  },
+  {
+    "name": "spiral",
+    "trans": [
+      "v. to wind or move in a spiral course",
+      "v. move in a spiral or zigzag course",
+      "v. form a spiral"
+    ],
+    "usphone": "ˈspaɪrəl",
+    "ukphone": "ˈspaɪrəl"
+  },
+  {
+    "name": "stable",
+    "trans": [
+      "v. shelter in a stable",
+      "adj. showing little if any change",
+      "adj. maintaining equilibrium"
+    ],
+    "usphone": "ˈsteɪbl",
+    "ukphone": "ˈsteɪbl"
+  },
+  {
+    "name": "steady",
+    "trans": [
+      "v. make steady",
+      "v. support or hold steady and make steadfast, with or as if with a brace",
+      "adj. not easily excited or upset"
+    ],
+    "usphone": "ˈstedi",
+    "ukphone": "ˈstedi"
+  },
+  {
+    "name": "stout",
+    "trans": [
+      "adj. euphemisms for `fat'",
+      "adj. dependable",
+      "adj. having rugged physical strength"
+    ],
+    "usphone": "staʊt",
+    "ukphone": "staʊt"
+  },
+  {
+    "name": "strained",
+    "trans": [
+      "adj. struggling for effect",
+      "adj. lacking spontaneity",
+      "adj. lacking natural ease"
+    ],
+    "usphone": "streɪnd",
+    "ukphone": "streɪnd"
+  },
+  {
+    "name": "stressful",
+    "trans": ["adj. extremely irritating to the nerves"],
+    "usphone": "ˈstresfl",
+    "ukphone": "ˈstresfl"
+  },
+  {
+    "name": "stretching",
+    "trans": [
+      "n. act of expanding by lengthening or widening",
+      "n. exercise designed to extend the limbs and muscles to their full extent"
+    ],
+    "usphone": "ˈstretʃɪŋ",
+    "ukphone": "ˈstretʃɪŋ"
+  },
+  {
+    "name": "strong",
+    "trans": [
+      "adj. strong and sure",
+      "adj. freshly made or left",
+      "adj. being distilled rather than fermented"
+    ],
+    "usphone": "strɒŋ",
+    "ukphone": "strɔːŋ"
+  },
+  {
+    "name": "stronger",
+    "trans": ["to change or replace stubborn"],
+    "usphone": "ˈstrɒŋgə",
+    "ukphone": "ˈstrɔːŋər"
+  },
+  {
+    "name": "subjective",
+    "trans": [
+      "adj. of a mental act performed entirely within the mind",
+      "adj. taking place within the mind and modified by individual bias"
+    ],
+    "usphone": "səbˈdʒektɪv",
+    "ukphone": "səbˈdʒektɪv"
+  },
+  {
+    "name": "successful",
+    "trans": ["adj. having succeeded or being marked by a favorable outcome"],
+    "usphone": "səkˈsesfl",
+    "ukphone": "səkˈsesfl"
+  },
+  {
+    "name": "sufficient",
+    "trans": [
+      "adj. of a quantity that can fulfill a need or requirement but without being abundant"
+    ],
+    "usphone": "səˈfɪʃnt",
+    "ukphone": "səˈfɪʃnt"
+  },
+  {
+    "name": "suitable",
+    "trans": [
+      "adj. worthy of being chosen especially as a spouse",
+      "adj. meant or adapted for an occasion or use"
+    ],
+    "usphone": "ˈsuːtəbl",
+    "ukphone": "ˈsuːtəbl"
+  },
+  {
+    "name": "super",
+    "trans": [
+      "adj. extremely large",
+      "adj. of the highest quality",
+      "adj. including more than a specified category"
+    ],
+    "usphone": "ˈsuːpə",
+    "ukphone": "ˈsuːpər"
+  },
+  {
+    "name": "surprised",
+    "trans": [
+      "adj. taken unawares or suddenly and feeling wonder or astonishment"
+    ],
+    "usphone": "səˈpraɪzd",
+    "ukphone": "sərˈpraɪzd"
+  },
+  {
+    "name": "systematic",
+    "trans": [
+      "adj. characterized by order and planning",
+      "adj. of or relating to taxonomy"
+    ],
+    "usphone": "ˌsɪstəˈmætɪk",
+    "ukphone": "ˌsɪstəˈmætɪk"
+  },
+  {
+    "name": "technical",
+    "trans": [
+      "adj. of or relating to or requiring special knowledge to be understood",
+      "adj. of or relating to technique or proficiency in a practical skill",
+      "adj. of or relating to a practical subject that is organized according to scientific principles"
+    ],
+    "usphone": "ˈteknɪkl",
+    "ukphone": "ˈteknɪkl"
+  },
+  {
+    "name": "theoretical",
+    "trans": [
+      "adj. concerned primarily with theories or hypotheses rather than practical considerations",
+      "adj. concerned with theories rather than their practical applications"
+    ],
+    "usphone": "ˌθɪəˈretɪkl",
+    "ukphone": "ˌθiːəˈretɪkl"
+  },
+  {
+    "name": "traditional",
+    "trans": [
+      "adj. consisting of or derived from tradition",
+      "adj. pertaining to time-honored orthodox doctrines"
+    ],
+    "usphone": "trəˈdɪʃənl",
+    "ukphone": "trəˈdɪʃənl"
+  },
+  {
+    "name": "troublesome",
+    "trans": ["adj. difficult to deal with"],
+    "usphone": "ˈtrʌblsəm",
+    "ukphone": "ˈtrʌblsəm"
+  },
+  {
+    "name": "typical",
+    "trans": [
+      "adj. of a feature that helps to distinguish a person or thing",
+      "adj. conforming to a type",
+      "adj. exhibiting the qualities or characteristics that identify a group or kind or category"
+    ],
+    "usphone": "ˈtɪpɪkl",
+    "ukphone": "ˈtɪpɪkl"
+  },
+  {
+    "name": "unanimous",
+    "trans": [
+      "adj. in complete agreement",
+      "adj. acting together as a single undiversified whole"
+    ],
+    "usphone": "juˈnænɪməs",
+    "ukphone": "juˈnænɪməs"
+  },
+  {
+    "name": "uncomfortable",
+    "trans": [
+      "adj. providing or experiencing physical discomfort",
+      "adj. conducive to or feeling mental discomfort"
+    ],
+    "usphone": "ʌnˈkʌmftəbl",
+    "ukphone": "ʌnˈkʌmftəbl"
+  },
+  {
+    "name": "unconvincing",
+    "trans": [
+      "adj. not convincing",
+      "adj. having a probability too low to inspire belief"
+    ],
+    "usphone": "ˌənˈkɑnvɪnsɪŋ",
+    "ukphone": "ˌʌnkənˈvɪnsɪŋ"
+  },
+  {
+    "name": "underground",
+    "trans": [
+      "adj. conducted with or marked by hidden aims or methods",
+      "adj. under the level of the ground",
+      "adv. beneath the surface of the earth"
+    ],
+    "usphone": "ˌʌndəˈɡraʊnd , ˈʌndəɡraʊnd",
+    "ukphone": "ˌʌndərˈɡraʊnd , ˈʌndərɡraʊnd"
+  },
+  {
+    "name": "unfair",
+    "trans": ["adj. not fair"],
+    "usphone": "ˌʌnˈfeə",
+    "ukphone": "ˌʌnˈfer"
+  },
+  {
+    "name": "unhealthy",
+    "trans": [
+      "adj. not conducive to good health",
+      "adj. not in or exhibiting good health in body or mind",
+      "adj. detrimental to health"
+    ],
+    "usphone": "ʌnˈhelθi",
+    "ukphone": "ʌnˈhelθi"
+  },
+  {
+    "name": "unique",
+    "trans": [
+      "adj. highly unusual or rare but not the single instance",
+      "adj. radically distinctive and without equal",
+      "adj. the single one of its kind"
+    ],
+    "usphone": "juˈniːk",
+    "ukphone": "juˈniːk"
+  },
+  {
+    "name": "united",
+    "trans": [
+      "adj. of or relating to two people who are married to each other",
+      "adj. characterized by unity"
+    ],
+    "usphone": "jʊ'naɪtɪd",
+    "ukphone": "jʊ'naɪtɪd"
+  },
+  {
+    "name": "unreliable",
+    "trans": [
+      "adj. not worthy of reliance or trust",
+      "adj. liable to be erroneous or misleading",
+      "adj. lacking a sense of responsibility"
+    ],
+    "usphone": "ˌʌnrɪˈlaɪəbl",
+    "ukphone": "ˌʌnrɪˈlaɪəbl"
+  },
+  {
+    "name": "unsocial",
+    "trans": ["adj. not seeking or given to association"],
+    "usphone": "ˌənˈsoʊʃəl",
+    "ukphone": "ˌʌnˈsəʊʃəl"
+  },
+  {
+    "name": "unusual",
+    "trans": [
+      "adj. not commonly encountered",
+      "adj. not usual or common or ordinary",
+      "adj. being definitely out of the ordinary and unexpected"
+    ],
+    "usphone": "ʌnˈjuːʒuəl",
+    "ukphone": "ʌnˈjuːʒuəl"
+  },
+  {
+    "name": "useful",
+    "trans": ["adj. having a useful function", "adj. being of use or service"],
+    "usphone": "ˈjuːsfl",
+    "ukphone": "ˈjuːsfl"
+  },
+  {
+    "name": "useless",
+    "trans": [
+      "adj. having no beneficial use or incapable of functioning usefully"
+    ],
+    "usphone": "ˈjuːsləs",
+    "ukphone": "ˈjuːsləs"
+  },
+  {
+    "name": "usual",
+    "trans": [
+      "adj. occurring or encountered or experienced or observed frequently or in accordance with regular practice or procedure",
+      "adj. commonly encountered"
+    ],
+    "usphone": "ˈjuːʒuəl",
+    "ukphone": "ˈjuːʒuəl"
+  },
+  {
+    "name": "various",
+    "trans": [
+      "adj. of many different kinds purposefully arranged but lacking any uniformity",
+      "adj. distinctly dissimilar or unlike",
+      "adj. having great diversity or variety"
+    ],
+    "usphone": "ˈveəriəs",
+    "ukphone": "ˈveriəs"
+  },
+  {
+    "name": "violent",
+    "trans": [
+      "adj. characterized by violence or bloodshed",
+      "adj. marked by extreme intensity of emotions or convictions",
+      "adj. (of colors or sounds) intensely vivid or loud"
+    ],
+    "usphone": "ˈvaɪələnt",
+    "ukphone": "ˈvaɪələnt"
+  },
+  {
+    "name": "virtual",
+    "trans": [
+      "adj. existing in essence or effect though not in actual fact",
+      "adj. being actually such in almost every respect"
+    ],
+    "usphone": "ˈvɜːtʃuəl",
+    "ukphone": "ˈvɜːrtʃuəl"
+  },
+  {
+    "name": "visible",
+    "trans": [
+      "adj. present and easily available",
+      "adj. obvious to the eye",
+      "adj. capable of being seen"
+    ],
+    "usphone": "ˈvɪzəbl",
+    "ukphone": "ˈvɪzəbl"
+  },
+  {
+    "name": "visual",
+    "trans": ["adj. visible", "adj. relating to or using sight"],
+    "usphone": "ˈvɪʒuəl",
+    "ukphone": "ˈvɪʒuəl"
+  },
+  {
+    "name": "warm",
+    "trans": [
+      "v. make warm or warmer",
+      "v. get warm or warmer",
+      "adj. of a seeker"
+    ],
+    "usphone": "wɔːm",
+    "ukphone": "wɔːrm"
+  },
+  {
+    "name": "washable",
+    "trans": ["adj. capable of being washed without injury"],
+    "usphone": "ˈwɑʃəbl̩",
+    "ukphone": "ˈwɒʃəbl̩"
+  },
+  {
+    "name": "wealthy",
+    "trans": [
+      "adj. having an abundant supply of money or possessions of value"
+    ],
+    "usphone": "ˈwelθi",
+    "ukphone": "ˈwelθi"
+  },
+  {
+    "name": "weekly",
+    "trans": [
+      "adj. of or occurring every seven days",
+      "adv. without missing a week",
+      "n. a periodical that is published every week (or 52 issues per year)"
+    ],
+    "usphone": "ˈwiːkli",
+    "ukphone": "ˈwiːkli"
+  },
+  {
+    "name": "western",
+    "trans": [
+      "adj. lying toward or situated in the west",
+      "adj. of wind",
+      "adj. relating to or characteristic of the western parts of the world or the West as opposed to the eastern or oriental parts"
+    ],
+    "usphone": "'wɛstɚn",
+    "ukphone": "'west(ə)n"
+  },
+  {
+    "name": "whole",
+    "trans": [
+      "adj. including all components without exception",
+      "adj. (of siblings) having the same parents",
+      "adj. acting together as a single undiversified whole"
+    ],
+    "usphone": "həʊl",
+    "ukphone": "hoʊl"
+  },
+  {
+    "name": "wide",
+    "trans": [
+      "adj. not on target",
+      "adj. having ample fabric",
+      "adj. broad in scope or content"
+    ],
+    "usphone": "waɪd",
+    "ukphone": "waɪd"
+  },
+  {
+    "name": "wise",
+    "trans": [
+      "adj. improperly forward or bold",
+      "adj. marked by the exercise of good judgment or common sense in practical matters",
+      "adj. having or prompted by wisdom or discernment"
+    ],
+    "usphone": "waɪz",
+    "ukphone": "waɪz"
+  },
+  {
+    "name": "worthwhile",
+    "trans": [
+      "adj. sufficiently valuable to justify the investment of time or interest"
+    ],
+    "usphone": "ˌwɜːθˈwaɪl",
+    "ukphone": "ˌwɜːrθˈwaɪl"
+  },
+  {
+    "name": "worthy",
+    "trans": [
+      "adj. worthy of being chosen especially as a spouse",
+      "adj. having qualities or abilities that merit recognition in some way",
+      "adj. having worth or merit or value"
+    ],
+    "usphone": "ˈwɜːði",
+    "ukphone": "ˈwɜːrði"
+  },
+  {
+    "name": "almost",
+    "trans": [
+      "adv. (of actions or states) slightly short of or not quite accomplished"
+    ],
+    "usphone": "ˈɔːlməʊst",
+    "ukphone": "ˈɔːlmoʊst"
+  },
+  {
+    "name": "currently",
+    "trans": ["adv. at this time or period"],
+    "usphone": "ˈkʌrəntli",
+    "ukphone": "ˈkɜːrəntli"
+  },
+  {
+    "name": "directly",
+    "trans": [
+      "adv. without delay or hesitation",
+      "adv. without deviation",
+      "adv. in a forthright manner"
+    ],
+    "usphone": "dəˈrektli",
+    "ukphone": "dəˈrektli"
+  },
+  {
+    "name": "effectively",
+    "trans": [
+      "adv. in actuality or reality or fact",
+      "adv. in an effective manner"
+    ],
+    "usphone": "ɪˈfektɪvli",
+    "ukphone": "ɪˈfektɪvli"
+  },
+  {
+    "name": "efficiently",
+    "trans": ["adv. with efficiency"],
+    "usphone": "ɪˈfɪʃntli",
+    "ukphone": "ɪˈfɪʃntli"
+  },
+  {
+    "name": "originally",
+    "trans": [
+      "adv. in an original manner",
+      "adv. before now",
+      "adv. with reference to the origin or beginning"
+    ],
+    "usphone": "əˈrɪdʒənəli",
+    "ukphone": "əˈrɪdʒənəli"
+  },
+  {
+    "name": "physically",
+    "trans": ["adv. in accord with physical laws"],
+    "usphone": "ˈfɪzɪkli",
+    "ukphone": "ˈfɪzɪkli"
+  },
+  {
+    "name": "professionally",
+    "trans": ["adv. in a professional manner"],
+    "usphone": "prəˈfeʃənəli",
+    "ukphone": "prəˈfeʃənəli"
+  },
+  {
+    "name": "rapidly",
+    "trans": ["adv. with rapid movements"],
+    "usphone": "ˈræpɪdli",
+    "ukphone": "ˈræpɪdli"
+  },
+  {
+    "name": "regularly",
+    "trans": [
+      "adv. in a regular manner",
+      "adv. in a regular way without variation",
+      "adv. having a regular form"
+    ],
+    "usphone": "ˈreɡjələli",
+    "ukphone": "ˈreɡjələrli"
+  },
+  {
+    "name": "scarcely",
+    "trans": ["adv. only a very short time before", "adv. almost not"],
+    "usphone": "ˈskeəsli",
+    "ukphone": "ˈskersli"
+  },
+  {
+    "name": "virtually",
+    "trans": [
+      "adv. slightly short of or not quite accomplished",
+      "adv. in essence or effect, but not in fact"
+    ],
+    "usphone": "ˈvɜːtʃuəli",
+    "ukphone": "ˈvɜːrtʃuəli"
+  }
 ]

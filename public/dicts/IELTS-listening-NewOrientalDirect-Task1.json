@@ -1,300 +1,256 @@
 [
-    {
-        "name": "accommodation",
-        "trans": [
-            "n. (physiology) the automatic adjustment in focal length of the natural lens of the eye",
-            "n. the act of providing something (lodging or seat or food) to meet a need",
-            "n. living quarters provided for public convenience"
-        ]
-    },
-    {
-        "name": "rent",
-        "trans": [
-            "v. engage for service under a term of contract",
-            "v. grant use or occupation of under a term of contract",
-            "v. let for money"
-        ]
-    },
-    {
-        "name": "let",
-        "trans": [
-            "v. cause to move",
-            "v. leave unchanged",
-            "v. actively cause something to happen"
-        ]
-    },
-    {
-        "name": "hire",
-        "trans": [
-            "v. engage for service under a term of contract",
-            "v. engage or hire for work",
-            "v. hold under a lease or rental agreement"
-        ]
-    },
-    {
-        "name": "apartment",
-        "trans": [
-            "n. a suite of rooms usually on one floor of an apartment house"
-        ]
-    },
-    {
-        "name": "flat",
-        "trans": [
-            "adj. lacking taste or flavor or tang",
-            "adj. flattened laterally along the whole length (e.g., certain leafstalks or flatfishes)",
-            "adj. commercially inactive"
-        ]
-    },
-    {
-        "name": "house",
-        "trans": [
-            "v. provide housing for",
-            "v. contain or cover",
-            "n. play in which children take the roles of father or mother or children and pretend to interact like adults"
-        ]
-    },
-    {
-        "name": "bungalow",
-        "trans": [
-            "n. a small house with a single story"
-        ]
-    },
-    {
-        "name": "terraced house",
-        "trans": [
-            "n. a house that is part of a terrace"
-        ]
-    },
-    {
-        "name": "homestay",
-        "trans": [
-            "n. to stay family"
-        ]
-    },
-    {
-        "name": "host family",
-        "trans": [
-            "n. to stay family"
-        ]
-    },
-    {
-        "name": "dormitory",
-        "trans": [
-            "n. a college or university building containing living quarters for students",
-            "n. a large sleeping room containing several beds"
-        ]
-    },
-    {
-        "name": "hall of residence",
-        "trans": [
-            "n. a university dormitory"
-        ]
-    },
-    {
-        "name": "en-suite facility",
-        "trans": [
-            "n. small room opening off another facilities"
-        ]
-    },
-    {
-        "name": "city centre",
-        "trans": [
-            "n. the central part of a city"
-        ]
-    },
-    {
-        "name": "downtown",
-        "trans": [
-            "adj. of or located in the lower part of a town, or in the business center",
-            "adv. toward or in the lower or central part of town",
-            "n. the central area or commercial center of a town or city"
-        ]
-    },
-    {
-        "name": "urban",
-        "trans": [
-            "adj. located in or characteristic of a city or city life",
-            "adj. relating to or concerned with a city or densely populated area"
-        ]
-    },
-    {
-        "name": "outskirts",
-        "trans": [
-            "n. outlying areas of a city or town"
-        ]
-    },
-    {
-        "name": "uptown",
-        "trans": [
-            "adj. of or located in the upper part of a town",
-            "adv. toward or in the upper part of town",
-            "n. a residential part of town away from the central commercial district"
-        ]
-    },
-    {
-        "name": "suburb",
-        "trans": [
-            "n. a residential district located on the outskirts of a city"
-        ]
-    },
-    {
-        "name": "countryside",
-        "trans": [
-            "n. rural regions"
-        ]
-    },
-    {
-        "name": "community",
-        "trans": [
-            "n. (ecology) a group of interdependent organisms inhabiting the same region and interacting with each other",
-            "n. a group of people living in a particular local area",
-            "n. a group of nations having common interests"
-        ]
-    },
-    {
-        "name": "neighbourhood",
-        "trans": [
-            "n. people living near one another",
-            "n. a surrounding or nearby region"
-        ]
-    },
-    {
-        "name": "surrounding",
-        "trans": [
-            "adj. closely encircling"
-        ]
-    },
-    {
-        "name": "dining room",
-        "trans": [
-            "n. a room used for dining"
-        ]
-    },
-    {
-        "name": "living room",
-        "trans": [
-            "n. a room in a private house or establishment where people can sit and talk and relax"
-        ]
-    },
-    {
-        "name": "study",
-        "trans": [
-            "v. be a student of a certain subject",
-            "v. learn by reading books",
-            "v. be a student"
-        ]
-    },
-    {
-        "name": "laundry room",
-        "trans": [
-            "n. laundry room"
-        ]
-    },
-    {
-        "name": "cloakroom",
-        "trans": [
-            "n. a room where coats and other articles can be left temporarily",
-            "n. a private lounge off of a legislative chamber"
-        ]
-    },
-    {
-        "name": "shared kitchen",
-        "trans": [
-            "n. to share kitchen"
-        ]
-    },
-    {
-        "name": "shared bathroom",
-        "trans": [
-            "n. to share bathroom"
-        ]
-    },
-    {
-        "name": "separate",
-        "trans": [
-            "v. divide into two or more branches so as to form a fork",
-            "v. become separated into pieces or fragments",
-            "v. mark as different"
-        ]
-    },
-    {
-        "name": "foyer",
-        "trans": [
-            "n. a large entrance or reception room or area"
-        ]
-    },
-    {
-        "name": "garage",
-        "trans": [
-            "v. keep or store in a garage",
-            "n. an outbuilding (or part of a building) for housing automobiles",
-            "n. a repair shop where cars and trucks are serviced and repaired"
-        ]
-    },
-    {
-        "name": "yard",
-        "trans": [
-            "n. an enclosure for animals (as chicken or livestock)",
-            "n. a long horizontal spar tapered at the end and used to support and spread a square sail or lateen",
-            "n. the enclosed land around a house or other building"
-        ]
-    },
-    {
-        "name": "garden",
-        "trans": [
-            "v. work in the garden",
-            "n. a plot of ground where plants are cultivated",
-            "n. a yard or lawn adjoining a house"
-        ]
-    },
-    {
-        "name": "shared swimming pool",
-        "trans": [
-            "n. to share swimming pool"
-        ]
-    },
-    {
-        "name": "advisor",
-        "trans": [
-            "n. an expert who gives advice"
-        ]
-    },
-    {
-        "name": "real estate agency",
-        "trans": [
-            "n. real estate company"
-        ]
-    },
-    {
-        "name": "estate agency",
-        "trans": [
-            "n. real estate to act on behalf of sb in a responsible position to reside"
-        ]
-    },
-    {
-        "name": "estate agent",
-        "trans": [
-            "n. a person who is authorized to act as an agent for the sale of land"
-        ]
-    },
-    {
-        "name": "landlord",
-        "trans": [
-            "n. a landowner who leases to others"
-        ]
-    },
-    {
-        "name": "landlady",
-        "trans": [
-            "n. a landlord who is a woman"
-        ]
-    },
-    {
-        "name": "tenant",
-        "trans": [
-            "v. occupy as a tenant",
-            "n. someone who pays rent to use land or a building or a car that is owned by someone else",
-            "n. any occupant who dwells in a place"
-        ]
-    }
+  {
+    "name": "accommodation",
+    "trans": [
+      "n. (physiology) the automatic adjustment in focal length of the natural lens of the eye",
+      "n. the act of providing something (lodging or seat or food) to meet a need",
+      "n. living quarters provided for public convenience"
+    ]
+  },
+  {
+    "name": "rent",
+    "trans": [
+      "v. engage for service under a term of contract",
+      "v. grant use or occupation of under a term of contract",
+      "v. let for money"
+    ]
+  },
+  {
+    "name": "let",
+    "trans": [
+      "v. cause to move",
+      "v. leave unchanged",
+      "v. actively cause something to happen"
+    ]
+  },
+  {
+    "name": "hire",
+    "trans": [
+      "v. engage for service under a term of contract",
+      "v. engage or hire for work",
+      "v. hold under a lease or rental agreement"
+    ]
+  },
+  {
+    "name": "apartment",
+    "trans": ["n. a suite of rooms usually on one floor of an apartment house"]
+  },
+  {
+    "name": "flat",
+    "trans": [
+      "adj. lacking taste or flavor or tang",
+      "adj. flattened laterally along the whole length (e.g., certain leafstalks or flatfishes)",
+      "adj. commercially inactive"
+    ]
+  },
+  {
+    "name": "house",
+    "trans": [
+      "v. provide housing for",
+      "v. contain or cover",
+      "n. play in which children take the roles of father or mother or children and pretend to interact like adults"
+    ]
+  },
+  {
+    "name": "bungalow",
+    "trans": ["n. a small house with a single story"]
+  },
+  {
+    "name": "terraced house",
+    "trans": ["n. a house that is part of a terrace"]
+  },
+  {
+    "name": "homestay",
+    "trans": ["n. to stay family"]
+  },
+  {
+    "name": "host family",
+    "trans": ["n. to stay family"]
+  },
+  {
+    "name": "dormitory",
+    "trans": [
+      "n. a college or university building containing living quarters for students",
+      "n. a large sleeping room containing several beds"
+    ]
+  },
+  {
+    "name": "hall of residence",
+    "trans": ["n. a university dormitory"]
+  },
+  {
+    "name": "en-suite facility",
+    "trans": ["n. small room opening off another facilities"]
+  },
+  {
+    "name": "city centre",
+    "trans": ["n. the central part of a city"]
+  },
+  {
+    "name": "downtown",
+    "trans": [
+      "adj. of or located in the lower part of a town, or in the business center",
+      "adv. toward or in the lower or central part of town",
+      "n. the central area or commercial center of a town or city"
+    ]
+  },
+  {
+    "name": "urban",
+    "trans": [
+      "adj. located in or characteristic of a city or city life",
+      "adj. relating to or concerned with a city or densely populated area"
+    ]
+  },
+  {
+    "name": "outskirts",
+    "trans": ["n. outlying areas of a city or town"]
+  },
+  {
+    "name": "uptown",
+    "trans": [
+      "adj. of or located in the upper part of a town",
+      "adv. toward or in the upper part of town",
+      "n. a residential part of town away from the central commercial district"
+    ]
+  },
+  {
+    "name": "suburb",
+    "trans": ["n. a residential district located on the outskirts of a city"]
+  },
+  {
+    "name": "countryside",
+    "trans": ["n. rural regions"]
+  },
+  {
+    "name": "community",
+    "trans": [
+      "n. (ecology) a group of interdependent organisms inhabiting the same region and interacting with each other",
+      "n. a group of people living in a particular local area",
+      "n. a group of nations having common interests"
+    ]
+  },
+  {
+    "name": "neighbourhood",
+    "trans": [
+      "n. people living near one another",
+      "n. a surrounding or nearby region"
+    ]
+  },
+  {
+    "name": "surrounding",
+    "trans": ["adj. closely encircling"]
+  },
+  {
+    "name": "dining room",
+    "trans": ["n. a room used for dining"]
+  },
+  {
+    "name": "living room",
+    "trans": [
+      "n. a room in a private house or establishment where people can sit and talk and relax"
+    ]
+  },
+  {
+    "name": "study",
+    "trans": [
+      "v. be a student of a certain subject",
+      "v. learn by reading books",
+      "v. be a student"
+    ]
+  },
+  {
+    "name": "laundry room",
+    "trans": ["n. laundry room"]
+  },
+  {
+    "name": "cloakroom",
+    "trans": [
+      "n. a room where coats and other articles can be left temporarily",
+      "n. a private lounge off of a legislative chamber"
+    ]
+  },
+  {
+    "name": "shared kitchen",
+    "trans": ["n. to share kitchen"]
+  },
+  {
+    "name": "shared bathroom",
+    "trans": ["n. to share bathroom"]
+  },
+  {
+    "name": "separate",
+    "trans": [
+      "v. divide into two or more branches so as to form a fork",
+      "v. become separated into pieces or fragments",
+      "v. mark as different"
+    ]
+  },
+  {
+    "name": "foyer",
+    "trans": ["n. a large entrance or reception room or area"]
+  },
+  {
+    "name": "garage",
+    "trans": [
+      "v. keep or store in a garage",
+      "n. an outbuilding (or part of a building) for housing automobiles",
+      "n. a repair shop where cars and trucks are serviced and repaired"
+    ]
+  },
+  {
+    "name": "yard",
+    "trans": [
+      "n. an enclosure for animals (as chicken or livestock)",
+      "n. a long horizontal spar tapered at the end and used to support and spread a square sail or lateen",
+      "n. the enclosed land around a house or other building"
+    ]
+  },
+  {
+    "name": "garden",
+    "trans": [
+      "v. work in the garden",
+      "n. a plot of ground where plants are cultivated",
+      "n. a yard or lawn adjoining a house"
+    ]
+  },
+  {
+    "name": "shared swimming pool",
+    "trans": ["n. to share swimming pool"]
+  },
+  {
+    "name": "advisor",
+    "trans": ["n. an expert who gives advice"]
+  },
+  {
+    "name": "real estate agency",
+    "trans": ["n. real estate company"]
+  },
+  {
+    "name": "estate agency",
+    "trans": [
+      "n. real estate to act on behalf of sb in a responsible position to reside"
+    ]
+  },
+  {
+    "name": "estate agent",
+    "trans": [
+      "n. a person who is authorized to act as an agent for the sale of land"
+    ]
+  },
+  {
+    "name": "landlord",
+    "trans": ["n. a landowner who leases to others"]
+  },
+  {
+    "name": "landlady",
+    "trans": ["n. a landlord who is a woman"]
+  },
+  {
+    "name": "tenant",
+    "trans": [
+      "v. occupy as a tenant",
+      "n. someone who pays rent to use land or a building or a car that is owned by someone else",
+      "n. any occupant who dwells in a place"
+    ]
+  }
 ]

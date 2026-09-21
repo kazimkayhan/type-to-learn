@@ -1,330 +1,315 @@
 [
-    {
-        "name": "reserve",
-        "trans": [
-            "v. give or assign a resource to a particular person or cause",
-            "v. obtain or arrange in advance",
-            "v. hold back or set aside, especially for future use or contingency"
-        ]
-    },
-    {
-        "name": "book",
-        "trans": [
-            "v. to engage for a performance",
-            "v. to record a charge in a police register",
-            "v. to arrange for and reserve something for someone else in advance"
-        ]
-    },
-    {
-        "name": "rent",
-        "trans": [
-            "v. engage for service under a term of contract",
-            "v. grant use or occupation of under a term of contract",
-            "v. let for money"
-        ]
-    },
-    {
-        "name": "hire",
-        "trans": [
-            "v. engage for service under a term of contract",
-            "v. engage or hire for work",
-            "v. hold under a lease or rental agreement"
-        ]
-    },
-    {
-        "name": "room",
-        "trans": [
-            "v. live and take one's meals at or in",
-            "n. an area within a building enclosed by walls and floor and ceiling",
-            "n. the people who are present in a room"
-        ]
-    },
-    {
-        "name": "in advance",
-        "trans": [
-            "adj. situated ahead or going before",
-            "adv. ahead of time"
-        ]
-    },
-    {
-        "name": "event",
-        "trans": [
-            "n. something that happens at a given place and time",
-            "n. a phenomenon that follows and is caused by some previous phenomenon",
-            "n. a phenomenon located at a single point in space-time"
-        ]
-    },
-    {
-        "name": "ceremony",
-        "trans": [
-            "n. any activity that is performed in an especially solemn elaborate or formal way",
-            "n. the proper or conventional behavior on some solemn occasion",
-            "n. a formal event performed on a special occasion"
-        ]
-    },
-    {
-        "name": "conference",
-        "trans": [
-            "n. a discussion among participants who have an agreed (serious) topic",
-            "n. an association of sports teams that organizes matches for its members",
-            "n. a prearranged meeting for consultation or exchange of information or discussion, especially one with a formal agenda"
-        ]
-    },
-    {
-        "name": "anniversary",
-        "trans": [
-            "n. the date on which an event occurred in some previous year (or the celebration of it)"
-        ]
-    },
-    {
-        "name": "facility",
-        "trans": [
-            "n. a service that an organization or a piece of equipment offers you",
-            "n. something designed and created to serve a particular function and to afford a particular convenience or service",
-            "n. a building or place that provides a particular service or is used for a particular industry"
-        ]
-    },
-    {
-        "name": "hall",
-        "trans": [
-            "n. a large entrance or reception room or area",
-            "n. a college or university building containing living quarters for students",
-            "n. a large building for meetings or entertainment"
-        ]
-    },
-    {
-        "name": "projector",
-        "trans": [
-            "n. an optical instrument that projects an enlarged image onto a screen",
-            "n. an optical device for projecting a beam of light"
-        ]
-    },
-    {
-        "name": "microphone",
-        "trans": [
-            "n. device for converting sound waves into electrical energy"
-        ]
-    },
-    {
-        "name": "cater",
-        "trans": [
-            "v. to supply food ready to eat",
-            "v. to give what is desired or needed, especially support, food or sustenance"
-        ]
-    },
-    {
-        "name": "buffet",
-        "trans": [
-            "v. to strike, beat repeatedly",
-            "v. to strike against forcefully",
-            "n. a piece of furniture that stands at the side of a dining room"
-        ]
-    },
-    {
-        "name": "entertainment",
-        "trans": [
-            "n. an activity that is diverting and that holds the attention"
-        ]
-    },
-    {
-        "name": "gym",
-        "trans": [
-            "n. athletic facility equipped for sports or physical training"
-        ]
-    },
-    {
-        "name": "spa",
-        "trans": [
-            "n. a place of business with equipment and facilities for exercising and improving physical fitness",
-            "n. a fashionable hotel usually in a resort area",
-            "n. a health resort near a spring or at the seaside"
-        ]
-    },
-    {
-        "name": "live",
-        "trans": [
-            "v. have firsthand knowledge of states, situations, emotions, or sensations",
-            "v. have life, be alive",
-            "v. lead a certain kind of life"
-        ]
-    },
-    {
-        "name": "band",
-        "trans": [
-            "v. to attach a ring to the foot of, in order to identify",
-            "v. to bind or tie together, as with a band",
-            "n. a thin flat strip of flexible material that is worn around the body or one of the limbs, especially to decorate the body"
-        ]
-    },
-    {
-        "name": "rooftop",
-        "trans": [
-            "n. the top of a usually flat roof"
-        ]
-    },
-    {
-        "name": "gallery",
-        "trans": [
-            "n. a horizontal (or nearly horizontal) passageway in a mine",
-            "n. narrow recessed balcony area along an upper floor on the interior of a building",
-            "n. a covered corridor (especially one extending along the wall of a building and supported with arches or columns)"
-        ]
-    },
-    {
-        "name": "payment",
-        "trans": [
-            "n. the act of paying money",
-            "n. an act of requiting",
-            "n. a sum of money paid or a claim discharged"
-        ]
-    },
-    {
-        "name": "charge",
-        "trans": [
-            "v. to saturate",
-            "v. to energize a battery by passing a current through it in the direction opposite to discharge",
-            "v. to cause formation of a net electrical charge in or on"
-        ]
-    },
-    {
-        "name": "discount",
-        "trans": [
-            "v. bar from attention or consideration",
-            "v. give a reduction in price on",
-            "n. the act of reducing the selling price of merchandise"
-        ]
-    },
-    {
-        "name": "deposit",
-        "trans": [
-            "v. put, fix, force, or implant",
-            "v. put (something somewhere) firmly",
-            "v. put into a bank account"
-        ]
-    },
-    {
-        "name": "cash",
-        "trans": [
-            "v. to exchange for cash",
-            "n. prompt payment for goods or services in currency or by check",
-            "n. money in the form of bills or coins"
-        ]
-    },
-    {
-        "name": "credit card",
-        "trans": [
-            "n. a card (usually plastic) that assures a seller that the person using it has a satisfactory credit rating and that the issuer will see to it that the seller receives payment for the merchandise delivered"
-        ]
-    },
-    {
-        "name": "check / cheque",
-        "trans": [
-            "n. check (bank)"
-        ]
-    },
-    {
-        "name": "transport",
-        "trans": [
-            "v. send from one person or place to another",
-            "v. move while supporting, either in a vehicle or in one's hands or on one's body",
-            "v. hold spellbound"
-        ]
-    },
-    {
-        "name": "flight",
-        "trans": [
-            "v. decorate with feathers",
-            "v. fly in a flock",
-            "v. shoot a bird in flight"
-        ]
-    },
-    {
-        "name": "shuttle",
-        "trans": [
-            "v. travel back and forth between two points",
-            "n. bobbin that passes the weft thread between the warp threads",
-            "n. public transport that consists of a bus or train or airplane that plies back and forth between two points"
-        ]
-    },
-    {
-        "name": "door-to-door",
-        "trans": [
-            "adj. omitting no one",
-            "adj. of e.g. journeys or deliveries, direct from point of origin to point of destination"
-        ]
-    },
-    {
-        "name": "departure",
-        "trans": [
-            "n. the act of departing",
-            "n. euphemistic expressions for death",
-            "n. a variation that deviates from the standard or norm"
-        ]
-    },
-    {
-        "name": "arrival",
-        "trans": [
-            "n. accomplishment of an objective",
-            "n. the act of arriving at a certain place",
-            "n. someone who arrives (or has arrived)"
-        ]
-    },
-    {
-        "name": "transfer",
-        "trans": [
-            "v. transfer from one place or period to another",
-            "v. send from one person or place to another",
-            "v. lift and reset in another soil or situation"
-        ]
-    },
-    {
-        "name": "connection",
-        "trans": [
-            "n. the act of bringing two things into contact (especially for communication)",
-            "n. shifting from one form of transportation to another",
-            "n. an instrumentality that connects"
-        ]
-    },
-    {
-        "name": "solar",
-        "trans": [
-            "adj. relating to or derived from the sun or utilizing the energies of the sun"
-        ]
-    },
-    {
-        "name": "licence / license",
-        "trans": [
-            "n. license"
-        ]
-    },
-    {
-        "name": "taxi",
-        "trans": [
-            "v. travel slowly",
-            "v. ride in a taxicab",
-            "n. a car driven by a person whose job is to take passengers where they want to go in exchange for money"
-        ]
-    },
-    {
-        "name": "cab",
-        "trans": [
-            "v. to ride in a taxicab",
-            "n. a car driven by a person whose job is to take passengers where they want to go in exchange for money",
-            "n. small two-wheeled horse-drawn carriage"
-        ]
-    },
-    {
-        "name": "tram",
-        "trans": [
-            "v. travel by tram",
-            "n. a wheeled vehicle that runs on rails and is propelled by electricity",
-            "n. a four-wheeled wagon that runs on tracks in a mine"
-        ]
-    },
-    {
-        "name": "helicopter",
-        "trans": [
-            "n. an aircraft without wings that obtains its lift from the rotation of overhead blades"
-        ]
-    }
+  {
+    "name": "reserve",
+    "trans": [
+      "v. give or assign a resource to a particular person or cause",
+      "v. obtain or arrange in advance",
+      "v. hold back or set aside, especially for future use or contingency"
+    ]
+  },
+  {
+    "name": "book",
+    "trans": [
+      "v. to engage for a performance",
+      "v. to record a charge in a police register",
+      "v. to arrange for and reserve something for someone else in advance"
+    ]
+  },
+  {
+    "name": "rent",
+    "trans": [
+      "v. engage for service under a term of contract",
+      "v. grant use or occupation of under a term of contract",
+      "v. let for money"
+    ]
+  },
+  {
+    "name": "hire",
+    "trans": [
+      "v. engage for service under a term of contract",
+      "v. engage or hire for work",
+      "v. hold under a lease or rental agreement"
+    ]
+  },
+  {
+    "name": "room",
+    "trans": [
+      "v. live and take one's meals at or in",
+      "n. an area within a building enclosed by walls and floor and ceiling",
+      "n. the people who are present in a room"
+    ]
+  },
+  {
+    "name": "in advance",
+    "trans": ["adj. situated ahead or going before", "adv. ahead of time"]
+  },
+  {
+    "name": "event",
+    "trans": [
+      "n. something that happens at a given place and time",
+      "n. a phenomenon that follows and is caused by some previous phenomenon",
+      "n. a phenomenon located at a single point in space-time"
+    ]
+  },
+  {
+    "name": "ceremony",
+    "trans": [
+      "n. any activity that is performed in an especially solemn elaborate or formal way",
+      "n. the proper or conventional behavior on some solemn occasion",
+      "n. a formal event performed on a special occasion"
+    ]
+  },
+  {
+    "name": "conference",
+    "trans": [
+      "n. a discussion among participants who have an agreed (serious) topic",
+      "n. an association of sports teams that organizes matches for its members",
+      "n. a prearranged meeting for consultation or exchange of information or discussion, especially one with a formal agenda"
+    ]
+  },
+  {
+    "name": "anniversary",
+    "trans": [
+      "n. the date on which an event occurred in some previous year (or the celebration of it)"
+    ]
+  },
+  {
+    "name": "facility",
+    "trans": [
+      "n. a service that an organization or a piece of equipment offers you",
+      "n. something designed and created to serve a particular function and to afford a particular convenience or service",
+      "n. a building or place that provides a particular service or is used for a particular industry"
+    ]
+  },
+  {
+    "name": "hall",
+    "trans": [
+      "n. a large entrance or reception room or area",
+      "n. a college or university building containing living quarters for students",
+      "n. a large building for meetings or entertainment"
+    ]
+  },
+  {
+    "name": "projector",
+    "trans": [
+      "n. an optical instrument that projects an enlarged image onto a screen",
+      "n. an optical device for projecting a beam of light"
+    ]
+  },
+  {
+    "name": "microphone",
+    "trans": ["n. device for converting sound waves into electrical energy"]
+  },
+  {
+    "name": "cater",
+    "trans": [
+      "v. to supply food ready to eat",
+      "v. to give what is desired or needed, especially support, food or sustenance"
+    ]
+  },
+  {
+    "name": "buffet",
+    "trans": [
+      "v. to strike, beat repeatedly",
+      "v. to strike against forcefully",
+      "n. a piece of furniture that stands at the side of a dining room"
+    ]
+  },
+  {
+    "name": "entertainment",
+    "trans": ["n. an activity that is diverting and that holds the attention"]
+  },
+  {
+    "name": "gym",
+    "trans": ["n. athletic facility equipped for sports or physical training"]
+  },
+  {
+    "name": "spa",
+    "trans": [
+      "n. a place of business with equipment and facilities for exercising and improving physical fitness",
+      "n. a fashionable hotel usually in a resort area",
+      "n. a health resort near a spring or at the seaside"
+    ]
+  },
+  {
+    "name": "live",
+    "trans": [
+      "v. have firsthand knowledge of states, situations, emotions, or sensations",
+      "v. have life, be alive",
+      "v. lead a certain kind of life"
+    ]
+  },
+  {
+    "name": "band",
+    "trans": [
+      "v. to attach a ring to the foot of, in order to identify",
+      "v. to bind or tie together, as with a band",
+      "n. a thin flat strip of flexible material that is worn around the body or one of the limbs, especially to decorate the body"
+    ]
+  },
+  {
+    "name": "rooftop",
+    "trans": ["n. the top of a usually flat roof"]
+  },
+  {
+    "name": "gallery",
+    "trans": [
+      "n. a horizontal (or nearly horizontal) passageway in a mine",
+      "n. narrow recessed balcony area along an upper floor on the interior of a building",
+      "n. a covered corridor (especially one extending along the wall of a building and supported with arches or columns)"
+    ]
+  },
+  {
+    "name": "payment",
+    "trans": [
+      "n. the act of paying money",
+      "n. an act of requiting",
+      "n. a sum of money paid or a claim discharged"
+    ]
+  },
+  {
+    "name": "charge",
+    "trans": [
+      "v. to saturate",
+      "v. to energize a battery by passing a current through it in the direction opposite to discharge",
+      "v. to cause formation of a net electrical charge in or on"
+    ]
+  },
+  {
+    "name": "discount",
+    "trans": [
+      "v. bar from attention or consideration",
+      "v. give a reduction in price on",
+      "n. the act of reducing the selling price of merchandise"
+    ]
+  },
+  {
+    "name": "deposit",
+    "trans": [
+      "v. put, fix, force, or implant",
+      "v. put (something somewhere) firmly",
+      "v. put into a bank account"
+    ]
+  },
+  {
+    "name": "cash",
+    "trans": [
+      "v. to exchange for cash",
+      "n. prompt payment for goods or services in currency or by check",
+      "n. money in the form of bills or coins"
+    ]
+  },
+  {
+    "name": "credit card",
+    "trans": [
+      "n. a card (usually plastic) that assures a seller that the person using it has a satisfactory credit rating and that the issuer will see to it that the seller receives payment for the merchandise delivered"
+    ]
+  },
+  {
+    "name": "check / cheque",
+    "trans": ["n. check (bank)"]
+  },
+  {
+    "name": "transport",
+    "trans": [
+      "v. send from one person or place to another",
+      "v. move while supporting, either in a vehicle or in one's hands or on one's body",
+      "v. hold spellbound"
+    ]
+  },
+  {
+    "name": "flight",
+    "trans": [
+      "v. decorate with feathers",
+      "v. fly in a flock",
+      "v. shoot a bird in flight"
+    ]
+  },
+  {
+    "name": "shuttle",
+    "trans": [
+      "v. travel back and forth between two points",
+      "n. bobbin that passes the weft thread between the warp threads",
+      "n. public transport that consists of a bus or train or airplane that plies back and forth between two points"
+    ]
+  },
+  {
+    "name": "door-to-door",
+    "trans": [
+      "adj. omitting no one",
+      "adj. of e.g. journeys or deliveries, direct from point of origin to point of destination"
+    ]
+  },
+  {
+    "name": "departure",
+    "trans": [
+      "n. the act of departing",
+      "n. euphemistic expressions for death",
+      "n. a variation that deviates from the standard or norm"
+    ]
+  },
+  {
+    "name": "arrival",
+    "trans": [
+      "n. accomplishment of an objective",
+      "n. the act of arriving at a certain place",
+      "n. someone who arrives (or has arrived)"
+    ]
+  },
+  {
+    "name": "transfer",
+    "trans": [
+      "v. transfer from one place or period to another",
+      "v. send from one person or place to another",
+      "v. lift and reset in another soil or situation"
+    ]
+  },
+  {
+    "name": "connection",
+    "trans": [
+      "n. the act of bringing two things into contact (especially for communication)",
+      "n. shifting from one form of transportation to another",
+      "n. an instrumentality that connects"
+    ]
+  },
+  {
+    "name": "solar",
+    "trans": [
+      "adj. relating to or derived from the sun or utilizing the energies of the sun"
+    ]
+  },
+  {
+    "name": "licence / license",
+    "trans": ["n. license"]
+  },
+  {
+    "name": "taxi",
+    "trans": [
+      "v. travel slowly",
+      "v. ride in a taxicab",
+      "n. a car driven by a person whose job is to take passengers where they want to go in exchange for money"
+    ]
+  },
+  {
+    "name": "cab",
+    "trans": [
+      "v. to ride in a taxicab",
+      "n. a car driven by a person whose job is to take passengers where they want to go in exchange for money",
+      "n. small two-wheeled horse-drawn carriage"
+    ]
+  },
+  {
+    "name": "tram",
+    "trans": [
+      "v. travel by tram",
+      "n. a wheeled vehicle that runs on rails and is propelled by electricity",
+      "n. a four-wheeled wagon that runs on tracks in a mine"
+    ]
+  },
+  {
+    "name": "helicopter",
+    "trans": [
+      "n. an aircraft without wings that obtains its lift from the rotation of overhead blades"
+    ]
+  }
 ]

@@ -195,7 +195,10 @@
   { "name": "conservative", "trans": ["adj. 保守的", "n. 保守派、保守党"] },
   { "name": "consistent", "trans": ["adj. 一致的、相符的"] },
   { "name": "consolidation", "trans": ["n. 合并"] },
-  { "name": "constant", "trans": ["adj. 不变的、经常的", "n. 常数、不变的事物"] },
+  {
+    "name": "constant",
+    "trans": ["adj. 不变的、经常的", "n. 常数、不变的事物"]
+  },
   { "name": "constitute", "trans": ["v. 组成、构成"] },
   { "name": "constrain", "trans": ["v. 限制、约束"] },
   { "name": "construction", "trans": ["n. 建立、建造、建筑（物）"] },
@@ -294,7 +297,10 @@
   { "name": "disguise", "trans": ["v/n. 掩饰、伪装"] },
   { "name": "disintegrate", "trans": ["v. 分解、衰退"] },
   { "name": "dismiss", "trans": ["v. 解散、解雇、排除"] },
-  { "name": "disorder", "trans": ["v. 扰乱、使失调", "n. 混乱、病症（心理学）"] },
+  {
+    "name": "disorder",
+    "trans": ["v. 扰乱、使失调", "n. 混乱、病症（心理学）"]
+  },
   { "name": "display", "trans": ["v/n. 展示、显示、表现"] },
   { "name": "disposable", "trans": ["adj. 一次性的、可任意处理的"] },
   { "name": "disproportionately", "trans": ["adv. 不成比例地"] },
@@ -319,12 +325,18 @@
   { "name": "drought", "trans": ["n. 干旱、旱灾"] },
   { "name": "duplication", "trans": ["n. 重复、复制、副本"] },
   { "name": "durable", "trans": ["adj. 持续的、持久的、耐用的"] },
-  { "name": "dynamic", "trans": ["adj. 动力（学）的、动态的", "n. 动力、动态"] },
+  {
+    "name": "dynamic",
+    "trans": ["adj. 动力（学）的、动态的", "n. 动力、动态"]
+  },
   { "name": "economic", "trans": ["adj. 经济（学）的"] },
   { "name": "effective", "trans": ["adj. 有效的"] },
   { "name": "efficient", "trans": ["adj. 有效率的"] },
   { "name": "effort", "trans": ["n. 努力、尝试"] },
-  { "name": "elaborate", "trans": ["v. 精心准备、详细阐述", "adj. 精心的、详尽的"] },
+  {
+    "name": "elaborate",
+    "trans": ["v. 精心准备、详细阐述", "adj. 精心的、详尽的"]
+  },
   { "name": "elect", "trans": ["v. 推选、选举"] },
   { "name": "elegant", "trans": ["adj. 优美的、优雅的"] },
   { "name": "element", "trans": ["n. 元素、要素、成分"] },
@@ -356,7 +368,10 @@
   { "name": "entirely", "trans": ["adv. 完全地、彻底地"] },
   { "name": "entitle", "trans": ["v. 给……命名、授予……称号、使有权利/资格"] },
   { "name": "envision", "trans": ["v. 想象、构想"] },
-  { "name": "epidemic", "trans": ["adj. 传染性的、流行的", "n. 传染病、流行病、流行、风行"] },
+  {
+    "name": "epidemic",
+    "trans": ["adj. 传染性的、流行的", "n. 传染病、流行病、流行、风行"]
+  },
   { "name": "equality", "trans": ["n. 公平、平等"] },
   { "name": "equivalent", "trans": ["adj. 等价的、相当于", "n. 等价物"] },
   { "name": "essential", "trans": ["adj. 本质的、必要的", "n. 要素、必需品"] },
@@ -551,7 +566,10 @@
   { "name": "legal", "trans": ["adj. 法律的、合法的"] },
   { "name": "legitimate", "trans": ["adj. 合法的、合理的"] },
   { "name": "leisure", "trans": ["adj. 空闲的、休闲的", "n. 空闲、休闲"] },
-  { "name": "liberal", "trans": ["adj. 自由（主义）的、开明的", "n. 自由主义者、自由党"] },
+  {
+    "name": "liberal",
+    "trans": ["adj. 自由（主义）的、开明的", "n. 自由主义者、自由党"]
+  },
   { "name": "lineage", "trans": ["n. 血统、谱系"] },
   { "name": "literate", "trans": ["adj. 有读写能力的、精通的"] },
   { "name": "lobby", "trans": ["v. 游说", "n. 游说团体、大厅"] },
@@ -632,7 +650,10 @@
   { "name": "panel", "trans": ["n. 专家组、仪表盘"] },
   { "name": "panic", "trans": ["adj. 恐慌的", "n. 恐慌"] },
   { "name": "paradox", "trans": ["n. 悖论、矛盾"] },
-  { "name": "parallel", "trans": ["adj. 平行的、类似的", "n. 平行线、类似的事情"] },
+  {
+    "name": "parallel",
+    "trans": ["adj. 平行的、类似的", "n. 平行线、类似的事情"]
+  },
   { "name": "paralysis", "trans": ["n. 麻痹、瘫痪"] },
   { "name": "partial", "trans": ["adj. 局部的、偏袒的"] },
   { "name": "participate", "trans": ["v. 参加、参与"] },
@@ -831,7 +852,10 @@
   { "name": "strict", "trans": ["adj. 严格的、严谨的"] },
   { "name": "striking", "trans": ["adj. 惊人的、显著的、突出的"] },
   { "name": "strive", "trans": ["v. 努力、争取"] },
-  { "name": "subject", "trans": ["v. （使）遭受", "n. 主题、被试（研究对象）"] },
+  {
+    "name": "subject",
+    "trans": ["v. （使）遭受", "n. 主题、被试（研究对象）"]
+  },
   { "name": "submit", "trans": ["v. 提交、（使）服从"] },
   { "name": "subscribe", "trans": ["v. 签署、赞同、订阅"] },
   { "name": "subsequent", "trans": ["adj. 随后的、后来的"] },
@@ -865,7 +889,10 @@
   { "name": "temporary", "trans": ["adj. 暂时的、临时的"] },
   { "name": "tempt", "trans": ["v. 引诱、诱使、吸引"] },
   { "name": "tendency", "trans": ["n. 趋势、倾向"] },
-  { "name": "terminal", "trans": ["adj. 终点的、（疾病）晚期的", "n. 终点、终端（机）"] },
+  {
+    "name": "terminal",
+    "trans": ["adj. 终点的、（疾病）晚期的", "n. 终点、终端（机）"]
+  },
   { "name": "terrify", "trans": ["v. 恐吓、使害怕"] },
   { "name": "testify", "trans": ["v. 证实、作证"] },
   { "name": "thorny", "trans": ["adj. 棘手的、麻烦的"] },

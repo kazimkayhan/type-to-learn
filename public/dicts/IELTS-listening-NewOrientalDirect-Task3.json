@@ -1,247 +1,235 @@
 [
-    {
-        "name": "borrow",
-        "trans": [
-            "v. to get temporarily",
-            "v. to take up and practice as one's own"
-        ]
-    },
-    {
-        "name": "lend",
-        "trans": [
-            "v. give temporarily",
-            "v. bestow a quality on",
-            "v. have certain characteristics of qualities for something"
-        ]
-    },
-    {
-        "name": "return",
-        "trans": [
-            "v. go back to a previous state",
-            "v. be restored",
-            "v. answer back"
-        ]
-    },
-    {
-        "name": "book",
-        "trans": [
-            "v. to engage for a performance",
-            "v. to record a charge in a police register",
-            "v. to arrange for and reserve something for someone else in advance"
-        ]
-    },
-    {
-        "name": "reserve",
-        "trans": [
-            "v. give or assign a resource to a particular person or cause",
-            "v. obtain or arrange in advance",
-            "v. hold back or set aside, especially for future use or contingency"
-        ]
-    },
-    {
-        "name": "consultation",
-        "trans": [
-            "n. the act of referring or consulting",
-            "n. a conference between two or more people to consider a particular question",
-            "n. a conference, usually with someone important"
-        ]
-    },
-    {
-        "name": "library card",
-        "trans": [
-            "n. a card certifying the bearer's right to use the library"
-        ]
-    },
-    {
-        "name": "admission",
-        "trans": [
-            "n. the act of admitting someone to enter",
-            "n. the right to enter",
-            "n. an acknowledgment of the truth of something"
-        ]
-    },
-    {
-        "name": "counter",
-        "trans": [
-            "v. to speak in response",
-            "v. to act in advance of",
-            "adj. indicating opposition or resistance"
-        ]
-    },
-    {
-        "name": "shelf",
-        "trans": [
-            "n. a support that consists of a horizontal surface for holding objects",
-            "n. a projecting ridge on a mountain or submerged under water"
-        ]
-    },
-    {
-        "name": "staff",
-        "trans": [
-            "v. provide with staff",
-            "v. serve on the staff of",
-            "n. a strong rod or stick with a specialized utilitarian purpose"
-        ]
-    },
-    {
-        "name": "librarian",
-        "trans": [
-            "n. a professional person trained in library science and engaged in library services"
-        ]
-    },
-    {
-        "name": "catalog(ue)",
-        "trans": [
-            "n. catalog"
-        ]
-    },
-    {
-        "name": "category",
-        "trans": [
-            "n. a general concept that marks divisions or coordinations in a conceptual scheme",
-            "n. a collection of things sharing a common attribute"
-        ]
-    },
-    {
-        "name": "classification",
-        "trans": [
-            "n. the act of distributing things into classes or categories of the same type",
-            "n. restriction imposed by the government on documents or weapons that are available only to certain authorized people",
-            "n. the basic cognitive process of arranging into classes or categories"
-        ]
-    },
-    {
-        "name": "call slip",
-        "trans": [
-            "n. book slip"
-        ]
-    },
-    {
-        "name": "title",
-        "trans": [
-            "v. designate by an identifying term",
-            "v. give a title to",
-            "n. an informal right to something"
-        ]
-    },
-    {
-        "name": "author",
-        "trans": [
-            "v. to be the author of",
-            "n. someone who originates or causes or initiates something",
-            "n. writes (books or stories or articles or the like) professionally (for pay)"
-        ]
-    },
-    {
-        "name": "index",
-        "trans": [
-            "v. adjust through indexation",
-            "v. provide with an index",
-            "v. list in an index"
-        ]
-    },
-    {
-        "name": "deadline",
-        "trans": [
-            "n. the point in time at which something must be completed"
-        ]
-    },
-    {
-        "name": "expire",
-        "trans": [
-            "v. expel air",
-            "v. pass from physical life and lose all bodily attributes and functions necessary to sustain life",
-            "v. lose validity"
-        ]
-    },
-    {
-        "name": "expiry",
-        "trans": [
-            "n. the event of dying or departure from life",
-            "n. a coming to an end of a contract period"
-        ]
-    },
-    {
-        "name": "recall",
-        "trans": [
-            "v. recall knowledge from memory",
-            "v. cause one's, or someone else's, thoughts or attention to return from a reverie or digression",
-            "v. summon to return"
-        ]
-    },
-    {
-        "name": "renew",
-        "trans": [
-            "v. cause to appear in a new form",
-            "v. reestablish on a new, usually improved, basis or make new or like new"
-        ]
-    },
-    {
-        "name": "renewal",
-        "trans": [
-            "n. the conversion of wasteland into land suitable for use of habitation or cultivation",
-            "n. the act of renewing",
-            "n. filling again by supplying what has been used up"
-        ]
-    },
-    {
-        "name": "due",
-        "trans": [
-            "adj. owed and payable immediately or on demand",
-            "adj. suitable to or expected in the circumstances",
-            "adj. capable of being assigned or credited to"
-        ]
-    },
-    {
-        "name": "overdue",
-        "trans": [
-            "adj. past due"
-        ]
-    },
-    {
-        "name": "fine",
-        "trans": [
-            "v. issue a ticket or a fine to as a penalty",
-            "adj. characterized by elegance or refinement or accomplishment",
-            "adj. minutely precise especially in differences in meaning"
-        ]
-    },
-    {
-        "name": "available",
-        "trans": [
-            "adj. obtainable or accessible and ready for use or service",
-            "adj. convenient for use or disposal",
-            "adj. not busy"
-        ]
-    },
-    {
-        "name": "circulation",
-        "trans": [
-            "n. the spread or transmission of something (as news or money) to a wider group or area",
-            "n. the dissemination of copies of periodicals (as newspapers or magazines)",
-            "n. free movement or passage (as of cytoplasm within a cell or sap through a plant)"
-        ]
-    },
-    {
-        "name": "stock",
-        "trans": [
-            "v. to have on hand",
-            "v. to provide or furnish with a stock of something",
-            "v. to amass so as to keep for future use or sale or for a particular occasion or use"
-        ]
-    },
-    {
-        "name": "loan",
-        "trans": [
-            "v. give temporarily",
-            "n. a word borrowed from another language",
-            "n. the temporary provision of money (usually at interest)"
-        ]
-    },
-    {
-        "name": "inter library service",
-        "trans": [
-            "n. building border to serve"
-        ]
-    }
+  {
+    "name": "borrow",
+    "trans": [
+      "v. to get temporarily",
+      "v. to take up and practice as one's own"
+    ]
+  },
+  {
+    "name": "lend",
+    "trans": [
+      "v. give temporarily",
+      "v. bestow a quality on",
+      "v. have certain characteristics of qualities for something"
+    ]
+  },
+  {
+    "name": "return",
+    "trans": [
+      "v. go back to a previous state",
+      "v. be restored",
+      "v. answer back"
+    ]
+  },
+  {
+    "name": "book",
+    "trans": [
+      "v. to engage for a performance",
+      "v. to record a charge in a police register",
+      "v. to arrange for and reserve something for someone else in advance"
+    ]
+  },
+  {
+    "name": "reserve",
+    "trans": [
+      "v. give or assign a resource to a particular person or cause",
+      "v. obtain or arrange in advance",
+      "v. hold back or set aside, especially for future use or contingency"
+    ]
+  },
+  {
+    "name": "consultation",
+    "trans": [
+      "n. the act of referring or consulting",
+      "n. a conference between two or more people to consider a particular question",
+      "n. a conference, usually with someone important"
+    ]
+  },
+  {
+    "name": "library card",
+    "trans": ["n. a card certifying the bearer's right to use the library"]
+  },
+  {
+    "name": "admission",
+    "trans": [
+      "n. the act of admitting someone to enter",
+      "n. the right to enter",
+      "n. an acknowledgment of the truth of something"
+    ]
+  },
+  {
+    "name": "counter",
+    "trans": [
+      "v. to speak in response",
+      "v. to act in advance of",
+      "adj. indicating opposition or resistance"
+    ]
+  },
+  {
+    "name": "shelf",
+    "trans": [
+      "n. a support that consists of a horizontal surface for holding objects",
+      "n. a projecting ridge on a mountain or submerged under water"
+    ]
+  },
+  {
+    "name": "staff",
+    "trans": [
+      "v. provide with staff",
+      "v. serve on the staff of",
+      "n. a strong rod or stick with a specialized utilitarian purpose"
+    ]
+  },
+  {
+    "name": "librarian",
+    "trans": [
+      "n. a professional person trained in library science and engaged in library services"
+    ]
+  },
+  {
+    "name": "catalog(ue)",
+    "trans": ["n. catalog"]
+  },
+  {
+    "name": "category",
+    "trans": [
+      "n. a general concept that marks divisions or coordinations in a conceptual scheme",
+      "n. a collection of things sharing a common attribute"
+    ]
+  },
+  {
+    "name": "classification",
+    "trans": [
+      "n. the act of distributing things into classes or categories of the same type",
+      "n. restriction imposed by the government on documents or weapons that are available only to certain authorized people",
+      "n. the basic cognitive process of arranging into classes or categories"
+    ]
+  },
+  {
+    "name": "call slip",
+    "trans": ["n. book slip"]
+  },
+  {
+    "name": "title",
+    "trans": [
+      "v. designate by an identifying term",
+      "v. give a title to",
+      "n. an informal right to something"
+    ]
+  },
+  {
+    "name": "author",
+    "trans": [
+      "v. to be the author of",
+      "n. someone who originates or causes or initiates something",
+      "n. writes (books or stories or articles or the like) professionally (for pay)"
+    ]
+  },
+  {
+    "name": "index",
+    "trans": [
+      "v. adjust through indexation",
+      "v. provide with an index",
+      "v. list in an index"
+    ]
+  },
+  {
+    "name": "deadline",
+    "trans": ["n. the point in time at which something must be completed"]
+  },
+  {
+    "name": "expire",
+    "trans": [
+      "v. expel air",
+      "v. pass from physical life and lose all bodily attributes and functions necessary to sustain life",
+      "v. lose validity"
+    ]
+  },
+  {
+    "name": "expiry",
+    "trans": [
+      "n. the event of dying or departure from life",
+      "n. a coming to an end of a contract period"
+    ]
+  },
+  {
+    "name": "recall",
+    "trans": [
+      "v. recall knowledge from memory",
+      "v. cause one's, or someone else's, thoughts or attention to return from a reverie or digression",
+      "v. summon to return"
+    ]
+  },
+  {
+    "name": "renew",
+    "trans": [
+      "v. cause to appear in a new form",
+      "v. reestablish on a new, usually improved, basis or make new or like new"
+    ]
+  },
+  {
+    "name": "renewal",
+    "trans": [
+      "n. the conversion of wasteland into land suitable for use of habitation or cultivation",
+      "n. the act of renewing",
+      "n. filling again by supplying what has been used up"
+    ]
+  },
+  {
+    "name": "due",
+    "trans": [
+      "adj. owed and payable immediately or on demand",
+      "adj. suitable to or expected in the circumstances",
+      "adj. capable of being assigned or credited to"
+    ]
+  },
+  {
+    "name": "overdue",
+    "trans": ["adj. past due"]
+  },
+  {
+    "name": "fine",
+    "trans": [
+      "v. issue a ticket or a fine to as a penalty",
+      "adj. characterized by elegance or refinement or accomplishment",
+      "adj. minutely precise especially in differences in meaning"
+    ]
+  },
+  {
+    "name": "available",
+    "trans": [
+      "adj. obtainable or accessible and ready for use or service",
+      "adj. convenient for use or disposal",
+      "adj. not busy"
+    ]
+  },
+  {
+    "name": "circulation",
+    "trans": [
+      "n. the spread or transmission of something (as news or money) to a wider group or area",
+      "n. the dissemination of copies of periodicals (as newspapers or magazines)",
+      "n. free movement or passage (as of cytoplasm within a cell or sap through a plant)"
+    ]
+  },
+  {
+    "name": "stock",
+    "trans": [
+      "v. to have on hand",
+      "v. to provide or furnish with a stock of something",
+      "v. to amass so as to keep for future use or sale or for a particular occasion or use"
+    ]
+  },
+  {
+    "name": "loan",
+    "trans": [
+      "v. give temporarily",
+      "n. a word borrowed from another language",
+      "n. the temporary provision of money (usually at interest)"
+    ]
+  },
+  {
+    "name": "inter library service",
+    "trans": ["n. building border to serve"]
+  }
 ]

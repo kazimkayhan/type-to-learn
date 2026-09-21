@@ -1,1646 +1,1126 @@
 [
-    {
-        "name": "afford to do sth.",
-        "trans": [
-            "phrase. to bear (an expense, a responsibility etc) (verb complement indicating ability to afford or bear the cost or consequences of doing sth) to make something"
-        ]
-    },
-    {
-        "name": "agree to do sth.",
-        "trans": [
-            "phrase. to agree to make something"
-        ]
-    },
-    {
-        "name": "arrange to do sth.",
-        "trans": [
-            "phrase. to arrange to make something"
-        ]
-    },
-    {
-        "name": "ask to do sth.",
-        "trans": [
-            "phrase. to request to make something"
-        ]
-    },
-    {
-        "name": "beg to do sth.",
-        "trans": [
-            "phrase. to request to make something"
-        ]
-    },
-    {
-        "name": "care to do sth.",
-        "trans": [
-            "phrase. to want to make something"
-        ]
-    },
-    {
-        "name": "choose to do sth.",
-        "trans": [
-            "phrase. to decide to make something"
-        ]
-    },
-    {
-        "name": "decide to do sth.",
-        "trans": [
-            "phrase. to decide to make something"
-        ]
-    },
-    {
-        "name": "demand to do sth.",
-        "trans": [
-            "phrase. to request to make something"
-        ]
-    },
-    {
-        "name": "determine to do sth.",
-        "trans": [
-            "phrase. determination to make something"
-        ]
-    },
-    {
-        "name": "expect to do sth.",
-        "trans": [
-            "phrase. to look forward to make something"
-        ]
-    },
-    {
-        "name": "fear to do sth.",
-        "trans": [
-            "phrase. to be afraid to make something"
-        ]
-    },
-    {
-        "name": "help to do sth.",
-        "trans": [
-            "phrase. assistance to make something"
-        ]
-    },
-    {
-        "name": "hope to do sth.",
-        "trans": [
-            "phrase. to hope to make something"
-        ]
-    },
-    {
-        "name": "learn to do sth.",
-        "trans": [
-            "phrase. to learn to make something"
-        ]
-    },
-    {
-        "name": "manage to do sth.",
-        "trans": [
-            "phrase. to try to make something"
-        ]
-    },
-    {
-        "name": "offer to do sth.",
-        "trans": [
-            "phrase. to take the initiative to raise (an issue) to make something"
-        ]
-    },
-    {
-        "name": "plan to do sth.",
-        "trans": [
-            "phrase. plan to make something"
-        ]
-    },
-    {
-        "name": "prepare to do sth.",
-        "trans": [
-            "phrase. preparation to make something"
-        ]
-    },
-    {
-        "name": "pretend to do sth.",
-        "trans": [
-            "phrase. to feign to make something"
-        ]
-    },
-    {
-        "name": "promise to do sth.",
-        "trans": [
-            "phrase. to answer to make something"
-        ]
-    },
-    {
-        "name": "refuse to do sth.",
-        "trans": [
-            "phrase. to refuse to make something"
-        ]
-    },
-    {
-        "name": "want to do sth.",
-        "trans": [
-            "phrase. to want to make something"
-        ]
-    },
-    {
-        "name": "wish to do sth.",
-        "trans": [
-            "phrase. to hope to make something"
-        ]
-    },
-    {
-        "name": "aim to do sth.",
-        "trans": [
-            "phrase. to plan to make something"
-        ]
-    },
-    {
-        "name": "fail to do sth.",
-        "trans": [
-            "phrase. cannot to make something"
-        ]
-    },
-    {
-        "name": "long to do sth.",
-        "trans": [
-            "phrase. to thirst for to make something"
-        ]
-    },
-    {
-        "name": "happen to do sth.",
-        "trans": [
-            "phrase. by chance to make something"
-        ]
-    },
-    {
-        "name": "hesitate to do sth.",
-        "trans": [
-            "phrase. to hesitate to make something"
-        ]
-    },
-    {
-        "name": "struggle to do sth.",
-        "trans": [
-            "phrase. to make an effort to make something"
-        ]
-    },
-    {
-        "name": "advise sb. to do sth.",
-        "trans": [
-            "phrase. to propose someone to make something"
-        ]
-    },
-    {
-        "name": "allow sb. to do sth.",
-        "trans": [
-            "phrase. to permit someone to make something"
-        ]
-    },
-    {
-        "name": "ask sb. to do sth.",
-        "trans": [
-            "phrase. to ask to shout someone to make something"
-        ]
-    },
-    {
-        "name": "bear sb. to do sth.",
-        "trans": [
-            "phrase. to bear someone to make something"
-        ]
-    },
-    {
-        "name": "beg sb. to do sth.",
-        "trans": [
-            "phrase. to request someone to make something"
-        ]
-    },
-    {
-        "name": "cause sb. to do sth.",
-        "trans": [
-            "phrase. to lead to someone to make something"
-        ]
-    },
-    {
-        "name": "command sb. to do sth.",
-        "trans": [
-            "phrase. order someone to make something"
-        ]
-    },
-    {
-        "name": "drive sb. to do sth.",
-        "trans": [
-            "phrase. to urge someone to make something"
-        ]
-    },
-    {
-        "name": "elect sb. to do sth.",
-        "trans": [
-            "phrase. to elect someone to make something"
-        ]
-    },
-    {
-        "name": "encourage sb. to do sth.",
-        "trans": [
-            "phrase. to encourage someone to make something"
-        ]
-    },
-    {
-        "name": "expect sb. to do sth.",
-        "trans": [
-            "phrase. to have expectations someone to make something"
-        ]
-    },
-    {
-        "name": "forbid sb. to do sth.",
-        "trans": [
-            "phrase. to prohibit someone to make something"
-        ]
-    },
-    {
-        "name": "force sb. to do sth.",
-        "trans": [
-            "phrase. to compel someone to make something"
-        ]
-    },
-    {
-        "name": "get sb. to do sth.",
-        "trans": [
-            "phrase. to make to want someone to make something"
-        ]
-    },
-    {
-        "name": "hate sb. to do sth.",
-        "trans": [
-            "phrase. to dislike someone to make something"
-        ]
-    },
-    {
-        "name": "help sb. to do sth.",
-        "trans": [
-            "phrase. assistance someone to make something"
-        ]
-    },
-    {
-        "name": "intend sb. to do sth.",
-        "trans": [
-            "phrase. to plan to want someone to make something"
-        ]
-    },
-    {
-        "name": "invite sb. to do sth.",
-        "trans": [
-            "phrase. to invite someone to make something"
-        ]
-    },
-    {
-        "name": "like sb. to do sth.",
-        "trans": [
-            "phrase. to like someone to make something"
-        ]
-    },
-    {
-        "name": "leave sb. to do sth.",
-        "trans": [
-            "phrase. to leave behind someone to make something"
-        ]
-    },
-    {
-        "name": "mean sb. to do sth.",
-        "trans": [
-            "phrase. to plan to want someone to make something"
-        ]
-    },
-    {
-        "name": "need sb. to do sth.",
-        "trans": [
-            "phrase. to need someone to make something"
-        ]
-    },
-    {
-        "name": "oblige sb. to do sth.",
-        "trans": [
-            "phrase. to force someone to make something"
-        ]
-    },
-    {
-        "name": "order sb. to do sth.",
-        "trans": [
-            "phrase. order someone to make something"
-        ]
-    },
-    {
-        "name": "permit sb. to do sth.",
-        "trans": [
-            "phrase. to permit someone to make something"
-        ]
-    },
-    {
-        "name": "persuade sb. to do sth.",
-        "trans": [
-            "phrase. to persuade someone to make something"
-        ]
-    },
-    {
-        "name": "prefer sb. to do sth.",
-        "trans": [
-            "phrase. would rather ... (than ...) someone to make something"
-        ]
-    },
-    {
-        "name": "request sb. to do sth.",
-        "trans": [
-            "phrase. to request someone to make something"
-        ]
-    },
-    {
-        "name": "remind sb. to do sth.",
-        "trans": [
-            "phrase. to remind someone to make something"
-        ]
-    },
-    {
-        "name": "teach sb. to do sth.",
-        "trans": [
-            "phrase. to teach someone to make something"
-        ]
-    },
-    {
-        "name": "tell sb. to do sth.",
-        "trans": [
-            "phrase. to press charges someone to make something"
-        ]
-    },
-    {
-        "name": "train sb. to do sth.",
-        "trans": [
-            "phrase. to train someone to make something"
-        ]
-    },
-    {
-        "name": "trouble sb. to do sth.",
-        "trans": [
-            "phrase. trouble someone to make something"
-        ]
-    },
-    {
-        "name": "want sb. to do sth.",
-        "trans": [
-            "phrase. to want to someone to make something"
-        ]
-    },
-    {
-        "name": "warn sb. to do sth.",
-        "trans": [
-            "phrase. to warn someone to make something"
-        ]
-    },
-    {
-        "name": "wish sb. to do sth.",
-        "trans": [
-            "phrase. to hope someone to make something"
-        ]
-    },
-    {
-        "name": "admit doing sth.",
-        "trans": [
-            "phrase. to admit to make something"
-        ]
-    },
-    {
-        "name": "advise doing sth.",
-        "trans": [
-            "phrase. to propose to make something"
-        ]
-    },
-    {
-        "name": "allow doing sth.",
-        "trans": [
-            "phrase. to permit to make something"
-        ]
-    },
-    {
-        "name": "appreciate doing sth.",
-        "trans": [
-            "phrase. to be grateful to make something"
-        ]
-    },
-    {
-        "name": "avoid doing sth.",
-        "trans": [
-            "phrase. to avert to make something"
-        ]
-    },
-    {
-        "name": "consider doing sth.",
-        "trans": [
-            "phrase. to think over to make something"
-        ]
-    },
-    {
-        "name": "delay doing sth.",
-        "trans": [
-            "phrase. to postpone to make something"
-        ]
-    },
-    {
-        "name": "deny doing sth.",
-        "trans": [
-            "phrase. to declare to be untrue to make something"
-        ]
-    },
-    {
-        "name": "discuss doing sth.",
-        "trans": [
-            "phrase. to discuss to make something"
-        ]
-    },
-    {
-        "name": "dislike doing sth.",
-        "trans": [
-            "phrase. no to like to make something"
-        ]
-    },
-    {
-        "name": "enjoy doing sth.",
-        "trans": [
-            "phrase. to like to make something"
-        ]
-    },
-    {
-        "name": "escape doing sth.",
-        "trans": [
-            "phrase. to run away to make something"
-        ]
-    },
-    {
-        "name": "excuse doing sth.",
-        "trans": [
-            "phrase. to excuse to make something"
-        ]
-    },
-    {
-        "name": "fancy doing sth.",
-        "trans": [
-            "phrase. to imagine to make something"
-        ]
-    },
-    {
-        "name": "finish doing sth.",
-        "trans": [
-            "phrase. to complete to make something"
-        ]
-    },
-    {
-        "name": "forbid doing sth.",
-        "trans": [
-            "phrase. to prohibit to make something"
-        ]
-    },
-    {
-        "name": "forgive doing sth.",
-        "trans": [
-            "phrase. to excuse to make something"
-        ]
-    },
-    {
-        "name": "give up doing sth.",
-        "trans": [
-            "phrase. to renounce to make something"
-        ]
-    },
-    {
-        "name": "imagine doing sth.",
-        "trans": [
-            "phrase. to imagine to make something"
-        ]
-    },
-    {
-        "name": "keep doing sth.",
-        "trans": [
-            "phrase. to keep to make something"
-        ]
-    },
-    {
-        "name": "mention doing sth.",
-        "trans": [
-            "phrase. to mention to make something"
-        ]
-    },
-    {
-        "name": "mind doing sth.",
-        "trans": [
-            "phrase. to care about to make something"
-        ]
-    },
-    {
-        "name": "miss doing sth.",
-        "trans": [
-            "phrase. to miss (train, opportunity etc) to make something"
-        ]
-    },
-    {
-        "name": "pardon doing sth.",
-        "trans": [
-            "phrase. to excuse to make something"
-        ]
-    },
-    {
-        "name": "permit doing sth.",
-        "trans": [
-            "phrase. to permit to make something"
-        ]
-    },
-    {
-        "name": "practice doing sth.",
-        "trans": [
-            "phrase. to practice to make something"
-        ]
-    },
-    {
-        "name": "prevent doing sth.",
-        "trans": [
-            "phrase. to prevent to make something"
-        ]
-    },
-    {
-        "name": "prohibit doing sth.",
-        "trans": [
-            "phrase. to prohibit to make something"
-        ]
-    },
-    {
-        "name": "put off doing sth.",
-        "trans": [
-            "phrase. to postpone to make something"
-        ]
-    },
-    {
-        "name": "report doing sth.",
-        "trans": [
-            "phrase. to inform to make something"
-        ]
-    },
-    {
-        "name": "risk doing sth.",
-        "trans": [
-            "phrase. to take risks to make something"
-        ]
-    },
-    {
-        "name": "stop doing sth.",
-        "trans": [
-            "phrase. to stop to make something"
-        ]
-    },
-    {
-        "name": "suggest doing sth.",
-        "trans": [
-            "phrase. to propose to make something"
-        ]
-    },
-    {
-        "name": "understand doing sth.",
-        "trans": [
-            "phrase. to comprehend to make something"
-        ]
-    },
-    {
-        "name": "bring sb. doing sth.",
-        "trans": [
-            "phrase. to give rise to someone to make something"
-        ]
-    },
-    {
-        "name": "catch sb. doing sth.",
-        "trans": [
-            "phrase. to run into to knock against first (of multiple parts) someone to make something"
-        ]
-    },
-    {
-        "name": "discover sb. doing sth.",
-        "trans": [
-            "phrase. to notice someone to make something"
-        ]
-    },
-    {
-        "name": "feel sb. doing sth.",
-        "trans": [
-            "phrase. feeling someone to make something"
-        ]
-    },
-    {
-        "name": "find sb. doing sth.",
-        "trans": [
-            "phrase. to run into to knock against first (of multiple parts) someone to make something"
-        ]
-    },
-    {
-        "name": "get sb. doing sth.",
-        "trans": [
-            "phrase. to make someone to make something"
-        ]
-    },
-    {
-        "name": "have sb. doing sth.",
-        "trans": [
-            "phrase. to make someone to make something"
-        ]
-    },
-    {
-        "name": "hear sb. doing sth.",
-        "trans": [
-            "phrase. to hear someone to make something"
-        ]
-    },
-    {
-        "name": "keep sb. doing sth.",
-        "trans": [
-            "phrase. to make someone incessant to make something"
-        ]
-    },
-    {
-        "name": "listen to sb. doing sth.",
-        "trans": [
-            "phrase. to listen to someone to make something"
-        ]
-    },
-    {
-        "name": "look at sb. doing sth.",
-        "trans": [
-            "phrase. to look after someone to make something"
-        ]
-    },
-    {
-        "name": "notice sb. doing sth.",
-        "trans": [
-            "phrase. to take note of to reach someone to make something"
-        ]
-    },
-    {
-        "name": "observe sb. doing sth.",
-        "trans": [
-            "phrase. to observe someone to make something"
-        ]
-    },
-    {
-        "name": "prevent sb. doing sth.",
-        "trans": [
-            "phrase. to prevent someone to make something"
-        ]
-    },
-    {
-        "name": "see sb. doing sth.",
-        "trans": [
-            "phrase. to see someone to make something"
-        ]
-    },
-    {
-        "name": "send sb. doing sth.",
-        "trans": [
-            "phrase. to make someone sudden to make something"
-        ]
-    },
-    {
-        "name": "set sb. doing sth.",
-        "trans": [
-            "phrase. to make to give rise to someone to make something"
-        ]
-    },
-    {
-        "name": "start sb. doing sth.",
-        "trans": [
-            "phrase. to make someone to begin to make something"
-        ]
-    },
-    {
-        "name": "stop sb. doing sth.",
-        "trans": [
-            "phrase. to prevent someone to make something"
-        ]
-    },
-    {
-        "name": "watch sb. doing sth.",
-        "trans": [
-            "phrase. to observe someone to make something"
-        ]
-    },
-    {
-        "name": "feel sb. do sth.",
-        "trans": [
-            "phrase. feeling someone to make something"
-        ]
-    },
-    {
-        "name": "have sb. do sth.",
-        "trans": [
-            "phrase. to make someone to make something"
-        ]
-    },
-    {
-        "name": "hear sb. do sth.",
-        "trans": [
-            "phrase. to hear someone to make something"
-        ]
-    },
-    {
-        "name": "let sb. do sth.",
-        "trans": [
-            "phrase. to yield someone to make something"
-        ]
-    },
-    {
-        "name": "listen to sb. do sth.",
-        "trans": [
-            "phrase. to listen to someone to make something"
-        ]
-    },
-    {
-        "name": "look at sb. do sth.",
-        "trans": [
-            "phrase. to look after someone to make something"
-        ]
-    },
-    {
-        "name": "make sb. do sth.",
-        "trans": [
-            "phrase. to make someone to make something"
-        ]
-    },
-    {
-        "name": "notice sb. do sth.",
-        "trans": [
-            "phrase. to take note of someone to make something"
-        ]
-    },
-    {
-        "name": "observe sb. do sth.",
-        "trans": [
-            "phrase. to observe someone to make something"
-        ]
-    },
-    {
-        "name": "see sb. do sth.",
-        "trans": [
-            "phrase. to see someone to make something"
-        ]
-    },
-    {
-        "name": "watch sb. do sth.",
-        "trans": [
-            "phrase. to observe someone to make something"
-        ]
-    },
-    {
-        "name": "accuse sb. of sth.",
-        "trans": [
-            "phrase. to accuse someone to violate something guilt, to criticize someone to make something"
-        ]
-    },
-    {
-        "name": "cheat sb. of sth.",
-        "trans": [
-            "phrase. to gain by cheating someone something"
-        ]
-    },
-    {
-        "name": "cure sb. of sth.",
-        "trans": [
-            "phrase. to cure someone illness, to correct (a bad habit etc) someone bad habit"
-        ]
-    },
-    {
-        "name": "inform sb. of sth.",
-        "trans": [
-            "phrase. to notify someone some circumstances matter"
-        ]
-    },
-    {
-        "name": "remind sb. of sth.",
-        "trans": [
-            "phrase. to make someone to recall some circumstances matter"
-        ]
-    },
-    {
-        "name": "rid sb. of sth.",
-        "trans": [
-            "phrase. to make someone to break away from something"
-        ]
-    },
-    {
-        "name": "rob sb. of sth.",
-        "trans": [
-            "phrase. to rob someone some east and west"
-        ]
-    },
-    {
-        "name": "warn sb. of sth.",
-        "trans": [
-            "phrase. to warn someone to have some circumstances"
-        ]
-    },
-    {
-        "name": "blame sb. for doing sth.",
-        "trans": [
-            "phrase. to criticize someone to make something"
-        ]
-    },
-    {
-        "name": "criticize sb. for doing sth.",
-        "trans": [
-            "phrase. to criticize someone to make something"
-        ]
-    },
-    {
-        "name": "forgive sb. for doing sth.",
-        "trans": [
-            "phrase. to excuse someone to make something"
-        ]
-    },
-    {
-        "name": "excuse sb. for doing sth.",
-        "trans": [
-            "phrase. to excuse someone to make something"
-        ]
-    },
-    {
-        "name": "pardon sb. for doing sth.",
-        "trans": [
-            "phrase. to excuse someone to make something"
-        ]
-    },
-    {
-        "name": "punish sb. for doing sth.",
-        "trans": [
-            "phrase. penalty someone to make something"
-        ]
-    },
-    {
-        "name": "scold sb. for doing sth.",
-        "trans": [
-            "phrase. to criticize to blame someone to make something"
-        ]
-    },
-    {
-        "name": "thank sb. for doing sth.",
-        "trans": [
-            "phrase. to thank someone to make something"
-        ]
-    },
-    {
-        "name": "cheat sb. into doing sth.",
-        "trans": [
-            "phrase. to deceive someone to make something"
-        ]
-    },
-    {
-        "name": "trick sb. into doing sth.",
-        "trans": [
-            "phrase. to deceive someone to make something"
-        ]
-    },
-    {
-        "name": "fool sb. into doing sth.",
-        "trans": [
-            "phrase. to deceive someone to make something"
-        ]
-    },
-    {
-        "name": "force sb. into doing sth.",
-        "trans": [
-            "phrase. to force someone to make something"
-        ]
-    },
-    {
-        "name": "argue sb. into doing sth.",
-        "trans": [
-            "phrase. to persuade someone to make something"
-        ]
-    },
-    {
-        "name": "talk sb. into doing sth.",
-        "trans": [
-            "phrase. to persuade someone to make something"
-        ]
-    },
-    {
-        "name": "terrify sb. into doing sth.",
-        "trans": [
-            "phrase. to threaten someone to make something"
-        ]
-    },
-    {
-        "name": "frighten sb. into doing sth.",
-        "trans": [
-            "phrase. to scare someone to make something"
-        ]
-    },
-    {
-        "name": "persuade sb. into doing sth.",
-        "trans": [
-            "phrase. to persuade someone to make something"
-        ]
-    },
-    {
-        "name": "be angry about",
-        "trans": [
-            "phrase. as (in the capacity of) to get angry"
-        ]
-    },
-    {
-        "name": "be anxious about",
-        "trans": [
-            "phrase. as (in the capacity of) to worry"
-        ]
-    },
-    {
-        "name": "be careful about",
-        "trans": [
-            "phrase. to take care"
-        ]
-    },
-    {
-        "name": "be certain about",
-        "trans": [
-            "phrase. to be convinced"
-        ]
-    },
-    {
-        "name": "be curious about",
-        "trans": [
-            "phrase. right inquisitive"
-        ]
-    },
-    {
-        "name": "be disappointed about",
-        "trans": [
-            "phrase. right disappointed"
-        ]
-    },
-    {
-        "name": "be excited about",
-        "trans": [
-            "phrase. right to feel excited"
-        ]
-    },
-    {
-        "name": "be glad about",
-        "trans": [
-            "phrase. right to feel happy"
-        ]
-    },
-    {
-        "name": "be happy about",
-        "trans": [
-            "phrase. as (in the capacity of) to feel happy"
-        ]
-    },
-    {
-        "name": "be hopeful about",
-        "trans": [
-            "phrase. right to have (aspirations, suspicions etc) to hope"
-        ]
-    },
-    {
-        "name": "be mad about",
-        "trans": [
-            "phrase. right to be fascinated"
-        ]
-    },
-    {
-        "name": "be nervous about",
-        "trans": [
-            "phrase. as (in the capacity of) to feel unpeaceful"
-        ]
-    },
-    {
-        "name": "be particular about",
-        "trans": [
-            "phrase. right to pay particular attention to"
-        ]
-    },
-    {
-        "name": "be sad about",
-        "trans": [
-            "phrase. as (in the capacity of) and to feel sad"
-        ]
-    },
-    {
-        "name": "be serious about",
-        "trans": [
-            "phrase. right conscientious"
-        ]
-    },
-    {
-        "name": "be sure about",
-        "trans": [
-            "phrase. right to have to grasp (also fig.)"
-        ]
-    },
-    {
-        "name": "be worried about",
-        "trans": [
-            "phrase. as (in the capacity of) to worry"
-        ]
-    },
-    {
-        "name": "be angry at",
-        "trans": [
-            "phrase. as (in the capacity of) to get angry"
-        ]
-    },
-    {
-        "name": "be bad at",
-        "trans": [
-            "phrase. bad to go"
-        ]
-    },
-    {
-        "name": "be clever at",
-        "trans": [
-            "phrase. to be good at to go"
-        ]
-    },
-    {
-        "name": "be disappointed at",
-        "trans": [
-            "phrase. right disappointed"
-        ]
-    },
-    {
-        "name": "be expert at",
-        "trans": [
-            "phrase. to exist respect to be (followed by substantives only) expert"
-        ]
-    },
-    {
-        "name": "be good at",
-        "trans": [
-            "phrase. to be good at"
-        ]
-    },
-    {
-        "name": "be mad at",
-        "trans": [
-            "phrase. right to get angry"
-        ]
-    },
-    {
-        "name": "be quick at",
-        "trans": [
-            "phrase. to exist respect nimble"
-        ]
-    },
-    {
-        "name": "be skillful at",
-        "trans": [
-            "phrase. to exist respect practiced"
-        ]
-    },
-    {
-        "name": "be slow at",
-        "trans": [
-            "phrase. to exist respect slow in one's reactions"
-        ]
-    },
-    {
-        "name": "be anxious for",
-        "trans": [
-            "phrase. to thirst for"
-        ]
-    },
-    {
-        "name": "be bad for",
-        "trans": [
-            "phrase. right destructive, right unfavorable"
-        ]
-    },
-    {
-        "name": "be bound for",
-        "trans": [
-            "phrase. to leave for"
-        ]
-    },
-    {
-        "name": "be celebrated for",
-        "trans": [
-            "phrase. to use well-known for sth"
-        ]
-    },
-    {
-        "name": "be convenient for",
-        "trans": [
-            "phrase. right convenient, to exist nearby"
-        ]
-    },
-    {
-        "name": "be eager for",
-        "trans": [
-            "phrase. to thirst for"
-        ]
-    },
-    {
-        "name": "be famous for",
-        "trans": [
-            "phrase. cause well-known"
-        ]
-    },
-    {
-        "name": "be fit for",
-        "trans": [
-            "phrase. suitable, to fit"
-        ]
-    },
-    {
-        "name": "be good for",
-        "trans": [
-            "phrase. right useful convenient"
-        ]
-    },
-    {
-        "name": "be grateful for",
-        "trans": [
-            "phrase. to thank"
-        ]
-    },
-    {
-        "name": "be hungry for",
-        "trans": [
-            "phrase. to thirst for to get"
-        ]
-    },
-    {
-        "name": "be late for",
-        "trans": [
-            "phrase. to arrive late"
-        ]
-    },
-    {
-        "name": "be necessary for",
-        "trans": [
-            "phrase. right to have necessary"
-        ]
-    },
-    {
-        "name": "be ready for",
-        "trans": [
-            "phrase. as (in the capacity of) preparation good"
-        ]
-    },
-    {
-        "name": "be sorry for",
-        "trans": [
-            "phrase. cause to be sorry"
-        ]
-    },
-    {
-        "name": "be suitable for",
-        "trans": [
-            "phrase. right suitable suitable"
-        ]
-    },
-    {
-        "name": "be thankful for",
-        "trans": [
-            "phrase. cause and to be grateful"
-        ]
-    },
-    {
-        "name": "be well-known for",
-        "trans": [
-            "phrase. to use well-known for sth"
-        ]
-    },
-    {
-        "name": "be absent from",
-        "trans": [
-            "phrase. to be absent, not to be present"
-        ]
-    },
-    {
-        "name": "be different from",
-        "trans": [
-            "phrase. (formal) and different"
-        ]
-    },
-    {
-        "name": "be far from",
-        "trans": [
-            "phrase. to leave far, distant no"
-        ]
-    },
-    {
-        "name": "be free from",
-        "trans": [
-            "phrase. haven't, to avoid suffering"
-        ]
-    },
-    {
-        "name": "be safe from",
-        "trans": [
-            "phrase. haven't danger"
-        ]
-    },
-    {
-        "name": "be tired from",
-        "trans": [
-            "phrase. cause and fatigue"
-        ]
-    },
-    {
-        "name": "be concerned in",
-        "trans": [
-            "phrase. (formal) and to have sth to do with"
-        ]
-    },
-    {
-        "name": "be disappointed in",
-        "trans": [
-            "phrase. right someone to feel disappointed"
-        ]
-    },
-    {
-        "name": "be engaged in",
-        "trans": [
-            "phrase. to go for to go, busy with"
-        ]
-    },
-    {
-        "name": "be experienced in",
-        "trans": [
-            "phrase. to exist respect to have experience"
-        ]
-    },
-    {
-        "name": "be expert in",
-        "trans": [
-            "phrase. to exist respect to be (followed by substantives only) connoisseur"
-        ]
-    },
-    {
-        "name": "be fortunate in",
-        "trans": [
-            "phrase. to exist respect fortunate"
-        ]
-    },
-    {
-        "name": "be honest in",
-        "trans": [
-            "phrase. to exist respect honest"
-        ]
-    },
-    {
-        "name": "be interested in",
-        "trans": [
-            "phrase. right to be interested (in sth)"
-        ]
-    },
-    {
-        "name": "be lack in",
-        "trans": [
-            "phrase. to lack"
-        ]
-    },
-    {
-        "name": "be rich in",
-        "trans": [
-            "phrase. to be full of, to exist respect rich"
-        ]
-    },
-    {
-        "name": "be skillful in",
-        "trans": [
-            "phrase. to be good at to go"
-        ]
-    },
-    {
-        "name": "be successful in",
-        "trans": [
-            "phrase. to exist respect to succeed"
-        ]
-    },
-    {
-        "name": "be weak in",
-        "trans": [
-            "phrase. to exist respect won't do"
-        ]
-    },
-    {
-        "name": "be afraid of",
-        "trans": [
-            "phrase. to be afraid"
-        ]
-    },
-    {
-        "name": "be ashamed of",
-        "trans": [
-            "phrase. as (in the capacity of) to feel ashamed"
-        ]
-    },
-    {
-        "name": "be aware of",
-        "trans": [
-            "phrase. to be aware of, to know"
-        ]
-    },
-    {
-        "name": "be capable of",
-        "trans": [
-            "phrase. to be capable of, can"
-        ]
-    },
-    {
-        "name": "be careful of",
-        "trans": [
-            "phrase. to be careful, to be careful"
-        ]
-    },
-    {
-        "name": "be certain of",
-        "trans": [
-            "phrase. to be convinced, right to have to grasp (also fig.)"
-        ]
-    },
-    {
-        "name": "be fond of",
-        "trans": [
-            "phrase. to like"
-        ]
-    },
-    {
-        "name": "be free of",
-        "trans": [
-            "phrase. haven't, to break away from"
-        ]
-    },
-    {
-        "name": "be full of",
-        "trans": [
-            "phrase. full of"
-        ]
-    },
-    {
-        "name": "be glad of",
-        "trans": [
-            "phrase. as (in the capacity of) and happy"
-        ]
-    },
-    {
-        "name": "be nervous of",
-        "trans": [
-            "phrase. to be afraid"
-        ]
-    },
-    {
-        "name": "be proud of",
-        "trans": [
-            "phrase. as (in the capacity of) proud (of one's achievements etc)"
-        ]
-    },
-    {
-        "name": "be short of",
-        "trans": [
-            "phrase. to lack"
-        ]
-    },
-    {
-        "name": "be shy of",
-        "trans": [
-            "phrase. to feel embarrassed"
-        ]
-    },
-    {
-        "name": "be sick of",
-        "trans": [
-            "phrase. right to be weary of"
-        ]
-    },
-    {
-        "name": "be sure of",
-        "trans": [
-            "phrase. to be certain, to have to grasp (also fig.)"
-        ]
-    },
-    {
-        "name": "be tired of",
-        "trans": [
-            "phrase. right bored"
-        ]
-    },
-    {
-        "name": "be worthy of",
-        "trans": [
-            "phrase. to have no alternative but to, to join first (of multiple parts)"
-        ]
-    },
-    {
-        "name": "be angry with",
-        "trans": [
-            "phrase. right someone to get angry"
-        ]
-    },
-    {
-        "name": "be bored with",
-        "trans": [
-            "phrase. right bored"
-        ]
-    },
-    {
-        "name": "be busy with",
-        "trans": [
-            "phrase. busy with"
-        ]
-    },
-    {
-        "name": "be careful with",
-        "trans": [
-            "phrase. to be careful"
-        ]
-    },
-    {
-        "name": "be concerned with",
-        "trans": [
-            "phrase. pertaining to, (formal) and to have sth to do with"
-        ]
-    },
-    {
-        "name": "be content with",
-        "trans": [
-            "phrase. to use as (in the capacity of) to satisfy"
-        ]
-    },
-    {
-        "name": "be delighted with",
-        "trans": [
-            "phrase. right to feel happy"
-        ]
-    },
-    {
-        "name": "be disappointed with",
-        "trans": [
-            "phrase. right someone disappointed"
-        ]
-    },
-    {
-        "name": "be familiar with",
-        "trans": [
-            "phrase. to be familiar with, to be proficient in"
-        ]
-    },
-    {
-        "name": "be honest with",
-        "trans": [
-            "phrase. right someone sincere"
-        ]
-    },
-    {
-        "name": "be ill with",
-        "trans": [
-            "phrase. to suffer (from illness) illness"
-        ]
-    },
-    {
-        "name": "be patient with",
-        "trans": [
-            "phrase. right someone to have to be patient"
-        ]
-    },
-    {
-        "name": "be pleased with",
-        "trans": [
-            "phrase. right satisfied happy"
-        ]
-    },
-    {
-        "name": "be popular with",
-        "trans": [
-            "phrase. to receive to welcome"
-        ]
-    },
-    {
-        "name": "be satisfied with",
-        "trans": [
-            "phrase. right satisfied"
-        ]
-    },
-    {
-        "name": "be strict with",
-        "trans": [
-            "phrase. right someone strict"
-        ]
-    },
-    {
-        "name": "be accustomed to",
-        "trans": [
-            "phrase. habit to go"
-        ]
-    },
-    {
-        "name": "be blind to",
-        "trans": [
-            "phrase. right (idiom) to turn a blind eye to"
-        ]
-    },
-    {
-        "name": "be close to",
-        "trans": [
-            "phrase. to be close to, to approach"
-        ]
-    },
-    {
-        "name": "be cruel to",
-        "trans": [
-            "phrase. right cruel, right pitiless"
-        ]
-    },
-    {
-        "name": "be devoted to",
-        "trans": [
-            "phrase. to commit one's energy to, to focus one's attention to go"
-        ]
-    },
-    {
-        "name": "be equal to",
-        "trans": [
-            "phrase. to equal, can qualified"
-        ]
-    },
-    {
-        "name": "be familiar to",
-        "trans": [
-            "phrase. as (in the capacity of) someone actually to be familiar with"
-        ]
-    },
-    {
-        "name": "be harmful to",
-        "trans": [
-            "phrase. right to have to harm"
-        ]
-    },
-    {
-        "name": "be important to",
-        "trans": [
-            "phrase. right important"
-        ]
-    },
-    {
-        "name": "be open to",
-        "trans": [
-            "phrase. right to bloom, easy to receive (praise, an education, punishment etc)"
-        ]
-    },
-    {
-        "name": "be opposed to",
-        "trans": [
-            "phrase. to oppose, disapproval"
-        ]
-    },
-    {
-        "name": "be opposite to",
-        "trans": [
-            "phrase. to exist opposite, (joining two nouns) and opposite"
-        ]
-    },
-    {
-        "name": "be polite to",
-        "trans": [
-            "phrase. right courteous"
-        ]
-    },
-    {
-        "name": "be related to",
-        "trans": [
-            "phrase. (formal) and to have sth to do with to be (followed by substantives only) a relative (i.e. family relation)"
-        ]
-    },
-    {
-        "name": "be respectful to",
-        "trans": [
-            "phrase. to respect"
-        ]
-    },
-    {
-        "name": "be rude to",
-        "trans": [
-            "phrase. right rude"
-        ]
-    },
-    {
-        "name": "be similar to",
-        "trans": [
-            "phrase. (formal) and similar"
-        ]
-    },
-    {
-        "name": "be true to",
-        "trans": [
-            "phrase. faithful to go, to abide by"
-        ]
-    },
-    {
-        "name": "be used to",
-        "trans": [
-            "phrase. habit to go"
-        ]
-    },
-    {
-        "name": "be useful to",
-        "trans": [
-            "phrase. right useful"
-        ]
-    }
+  {
+    "name": "afford to do sth.",
+    "trans": [
+      "phrase. to bear (an expense, a responsibility etc) (verb complement indicating ability to afford or bear the cost or consequences of doing sth) to make something"
+    ]
+  },
+  {
+    "name": "agree to do sth.",
+    "trans": ["phrase. to agree to make something"]
+  },
+  {
+    "name": "arrange to do sth.",
+    "trans": ["phrase. to arrange to make something"]
+  },
+  {
+    "name": "ask to do sth.",
+    "trans": ["phrase. to request to make something"]
+  },
+  {
+    "name": "beg to do sth.",
+    "trans": ["phrase. to request to make something"]
+  },
+  {
+    "name": "care to do sth.",
+    "trans": ["phrase. to want to make something"]
+  },
+  {
+    "name": "choose to do sth.",
+    "trans": ["phrase. to decide to make something"]
+  },
+  {
+    "name": "decide to do sth.",
+    "trans": ["phrase. to decide to make something"]
+  },
+  {
+    "name": "demand to do sth.",
+    "trans": ["phrase. to request to make something"]
+  },
+  {
+    "name": "determine to do sth.",
+    "trans": ["phrase. determination to make something"]
+  },
+  {
+    "name": "expect to do sth.",
+    "trans": ["phrase. to look forward to make something"]
+  },
+  {
+    "name": "fear to do sth.",
+    "trans": ["phrase. to be afraid to make something"]
+  },
+  {
+    "name": "help to do sth.",
+    "trans": ["phrase. assistance to make something"]
+  },
+  {
+    "name": "hope to do sth.",
+    "trans": ["phrase. to hope to make something"]
+  },
+  {
+    "name": "learn to do sth.",
+    "trans": ["phrase. to learn to make something"]
+  },
+  {
+    "name": "manage to do sth.",
+    "trans": ["phrase. to try to make something"]
+  },
+  {
+    "name": "offer to do sth.",
+    "trans": [
+      "phrase. to take the initiative to raise (an issue) to make something"
+    ]
+  },
+  {
+    "name": "plan to do sth.",
+    "trans": ["phrase. plan to make something"]
+  },
+  {
+    "name": "prepare to do sth.",
+    "trans": ["phrase. preparation to make something"]
+  },
+  {
+    "name": "pretend to do sth.",
+    "trans": ["phrase. to feign to make something"]
+  },
+  {
+    "name": "promise to do sth.",
+    "trans": ["phrase. to answer to make something"]
+  },
+  {
+    "name": "refuse to do sth.",
+    "trans": ["phrase. to refuse to make something"]
+  },
+  {
+    "name": "want to do sth.",
+    "trans": ["phrase. to want to make something"]
+  },
+  {
+    "name": "wish to do sth.",
+    "trans": ["phrase. to hope to make something"]
+  },
+  {
+    "name": "aim to do sth.",
+    "trans": ["phrase. to plan to make something"]
+  },
+  {
+    "name": "fail to do sth.",
+    "trans": ["phrase. cannot to make something"]
+  },
+  {
+    "name": "long to do sth.",
+    "trans": ["phrase. to thirst for to make something"]
+  },
+  {
+    "name": "happen to do sth.",
+    "trans": ["phrase. by chance to make something"]
+  },
+  {
+    "name": "hesitate to do sth.",
+    "trans": ["phrase. to hesitate to make something"]
+  },
+  {
+    "name": "struggle to do sth.",
+    "trans": ["phrase. to make an effort to make something"]
+  },
+  {
+    "name": "advise sb. to do sth.",
+    "trans": ["phrase. to propose someone to make something"]
+  },
+  {
+    "name": "allow sb. to do sth.",
+    "trans": ["phrase. to permit someone to make something"]
+  },
+  {
+    "name": "ask sb. to do sth.",
+    "trans": ["phrase. to ask to shout someone to make something"]
+  },
+  {
+    "name": "bear sb. to do sth.",
+    "trans": ["phrase. to bear someone to make something"]
+  },
+  {
+    "name": "beg sb. to do sth.",
+    "trans": ["phrase. to request someone to make something"]
+  },
+  {
+    "name": "cause sb. to do sth.",
+    "trans": ["phrase. to lead to someone to make something"]
+  },
+  {
+    "name": "command sb. to do sth.",
+    "trans": ["phrase. order someone to make something"]
+  },
+  {
+    "name": "drive sb. to do sth.",
+    "trans": ["phrase. to urge someone to make something"]
+  },
+  {
+    "name": "elect sb. to do sth.",
+    "trans": ["phrase. to elect someone to make something"]
+  },
+  {
+    "name": "encourage sb. to do sth.",
+    "trans": ["phrase. to encourage someone to make something"]
+  },
+  {
+    "name": "expect sb. to do sth.",
+    "trans": ["phrase. to have expectations someone to make something"]
+  },
+  {
+    "name": "forbid sb. to do sth.",
+    "trans": ["phrase. to prohibit someone to make something"]
+  },
+  {
+    "name": "force sb. to do sth.",
+    "trans": ["phrase. to compel someone to make something"]
+  },
+  {
+    "name": "get sb. to do sth.",
+    "trans": ["phrase. to make to want someone to make something"]
+  },
+  {
+    "name": "hate sb. to do sth.",
+    "trans": ["phrase. to dislike someone to make something"]
+  },
+  {
+    "name": "help sb. to do sth.",
+    "trans": ["phrase. assistance someone to make something"]
+  },
+  {
+    "name": "intend sb. to do sth.",
+    "trans": ["phrase. to plan to want someone to make something"]
+  },
+  {
+    "name": "invite sb. to do sth.",
+    "trans": ["phrase. to invite someone to make something"]
+  },
+  {
+    "name": "like sb. to do sth.",
+    "trans": ["phrase. to like someone to make something"]
+  },
+  {
+    "name": "leave sb. to do sth.",
+    "trans": ["phrase. to leave behind someone to make something"]
+  },
+  {
+    "name": "mean sb. to do sth.",
+    "trans": ["phrase. to plan to want someone to make something"]
+  },
+  {
+    "name": "need sb. to do sth.",
+    "trans": ["phrase. to need someone to make something"]
+  },
+  {
+    "name": "oblige sb. to do sth.",
+    "trans": ["phrase. to force someone to make something"]
+  },
+  {
+    "name": "order sb. to do sth.",
+    "trans": ["phrase. order someone to make something"]
+  },
+  {
+    "name": "permit sb. to do sth.",
+    "trans": ["phrase. to permit someone to make something"]
+  },
+  {
+    "name": "persuade sb. to do sth.",
+    "trans": ["phrase. to persuade someone to make something"]
+  },
+  {
+    "name": "prefer sb. to do sth.",
+    "trans": ["phrase. would rather ... (than ...) someone to make something"]
+  },
+  {
+    "name": "request sb. to do sth.",
+    "trans": ["phrase. to request someone to make something"]
+  },
+  {
+    "name": "remind sb. to do sth.",
+    "trans": ["phrase. to remind someone to make something"]
+  },
+  {
+    "name": "teach sb. to do sth.",
+    "trans": ["phrase. to teach someone to make something"]
+  },
+  {
+    "name": "tell sb. to do sth.",
+    "trans": ["phrase. to press charges someone to make something"]
+  },
+  {
+    "name": "train sb. to do sth.",
+    "trans": ["phrase. to train someone to make something"]
+  },
+  {
+    "name": "trouble sb. to do sth.",
+    "trans": ["phrase. trouble someone to make something"]
+  },
+  {
+    "name": "want sb. to do sth.",
+    "trans": ["phrase. to want to someone to make something"]
+  },
+  {
+    "name": "warn sb. to do sth.",
+    "trans": ["phrase. to warn someone to make something"]
+  },
+  {
+    "name": "wish sb. to do sth.",
+    "trans": ["phrase. to hope someone to make something"]
+  },
+  {
+    "name": "admit doing sth.",
+    "trans": ["phrase. to admit to make something"]
+  },
+  {
+    "name": "advise doing sth.",
+    "trans": ["phrase. to propose to make something"]
+  },
+  {
+    "name": "allow doing sth.",
+    "trans": ["phrase. to permit to make something"]
+  },
+  {
+    "name": "appreciate doing sth.",
+    "trans": ["phrase. to be grateful to make something"]
+  },
+  {
+    "name": "avoid doing sth.",
+    "trans": ["phrase. to avert to make something"]
+  },
+  {
+    "name": "consider doing sth.",
+    "trans": ["phrase. to think over to make something"]
+  },
+  {
+    "name": "delay doing sth.",
+    "trans": ["phrase. to postpone to make something"]
+  },
+  {
+    "name": "deny doing sth.",
+    "trans": ["phrase. to declare to be untrue to make something"]
+  },
+  {
+    "name": "discuss doing sth.",
+    "trans": ["phrase. to discuss to make something"]
+  },
+  {
+    "name": "dislike doing sth.",
+    "trans": ["phrase. no to like to make something"]
+  },
+  {
+    "name": "enjoy doing sth.",
+    "trans": ["phrase. to like to make something"]
+  },
+  {
+    "name": "escape doing sth.",
+    "trans": ["phrase. to run away to make something"]
+  },
+  {
+    "name": "excuse doing sth.",
+    "trans": ["phrase. to excuse to make something"]
+  },
+  {
+    "name": "fancy doing sth.",
+    "trans": ["phrase. to imagine to make something"]
+  },
+  {
+    "name": "finish doing sth.",
+    "trans": ["phrase. to complete to make something"]
+  },
+  {
+    "name": "forbid doing sth.",
+    "trans": ["phrase. to prohibit to make something"]
+  },
+  {
+    "name": "forgive doing sth.",
+    "trans": ["phrase. to excuse to make something"]
+  },
+  {
+    "name": "give up doing sth.",
+    "trans": ["phrase. to renounce to make something"]
+  },
+  {
+    "name": "imagine doing sth.",
+    "trans": ["phrase. to imagine to make something"]
+  },
+  {
+    "name": "keep doing sth.",
+    "trans": ["phrase. to keep to make something"]
+  },
+  {
+    "name": "mention doing sth.",
+    "trans": ["phrase. to mention to make something"]
+  },
+  {
+    "name": "mind doing sth.",
+    "trans": ["phrase. to care about to make something"]
+  },
+  {
+    "name": "miss doing sth.",
+    "trans": ["phrase. to miss (train, opportunity etc) to make something"]
+  },
+  {
+    "name": "pardon doing sth.",
+    "trans": ["phrase. to excuse to make something"]
+  },
+  {
+    "name": "permit doing sth.",
+    "trans": ["phrase. to permit to make something"]
+  },
+  {
+    "name": "practice doing sth.",
+    "trans": ["phrase. to practice to make something"]
+  },
+  {
+    "name": "prevent doing sth.",
+    "trans": ["phrase. to prevent to make something"]
+  },
+  {
+    "name": "prohibit doing sth.",
+    "trans": ["phrase. to prohibit to make something"]
+  },
+  {
+    "name": "put off doing sth.",
+    "trans": ["phrase. to postpone to make something"]
+  },
+  {
+    "name": "report doing sth.",
+    "trans": ["phrase. to inform to make something"]
+  },
+  {
+    "name": "risk doing sth.",
+    "trans": ["phrase. to take risks to make something"]
+  },
+  {
+    "name": "stop doing sth.",
+    "trans": ["phrase. to stop to make something"]
+  },
+  {
+    "name": "suggest doing sth.",
+    "trans": ["phrase. to propose to make something"]
+  },
+  {
+    "name": "understand doing sth.",
+    "trans": ["phrase. to comprehend to make something"]
+  },
+  {
+    "name": "bring sb. doing sth.",
+    "trans": ["phrase. to give rise to someone to make something"]
+  },
+  {
+    "name": "catch sb. doing sth.",
+    "trans": [
+      "phrase. to run into to knock against first (of multiple parts) someone to make something"
+    ]
+  },
+  {
+    "name": "discover sb. doing sth.",
+    "trans": ["phrase. to notice someone to make something"]
+  },
+  {
+    "name": "feel sb. doing sth.",
+    "trans": ["phrase. feeling someone to make something"]
+  },
+  {
+    "name": "find sb. doing sth.",
+    "trans": [
+      "phrase. to run into to knock against first (of multiple parts) someone to make something"
+    ]
+  },
+  {
+    "name": "get sb. doing sth.",
+    "trans": ["phrase. to make someone to make something"]
+  },
+  {
+    "name": "have sb. doing sth.",
+    "trans": ["phrase. to make someone to make something"]
+  },
+  {
+    "name": "hear sb. doing sth.",
+    "trans": ["phrase. to hear someone to make something"]
+  },
+  {
+    "name": "keep sb. doing sth.",
+    "trans": ["phrase. to make someone incessant to make something"]
+  },
+  {
+    "name": "listen to sb. doing sth.",
+    "trans": ["phrase. to listen to someone to make something"]
+  },
+  {
+    "name": "look at sb. doing sth.",
+    "trans": ["phrase. to look after someone to make something"]
+  },
+  {
+    "name": "notice sb. doing sth.",
+    "trans": ["phrase. to take note of to reach someone to make something"]
+  },
+  {
+    "name": "observe sb. doing sth.",
+    "trans": ["phrase. to observe someone to make something"]
+  },
+  {
+    "name": "prevent sb. doing sth.",
+    "trans": ["phrase. to prevent someone to make something"]
+  },
+  {
+    "name": "see sb. doing sth.",
+    "trans": ["phrase. to see someone to make something"]
+  },
+  {
+    "name": "send sb. doing sth.",
+    "trans": ["phrase. to make someone sudden to make something"]
+  },
+  {
+    "name": "set sb. doing sth.",
+    "trans": ["phrase. to make to give rise to someone to make something"]
+  },
+  {
+    "name": "start sb. doing sth.",
+    "trans": ["phrase. to make someone to begin to make something"]
+  },
+  {
+    "name": "stop sb. doing sth.",
+    "trans": ["phrase. to prevent someone to make something"]
+  },
+  {
+    "name": "watch sb. doing sth.",
+    "trans": ["phrase. to observe someone to make something"]
+  },
+  {
+    "name": "feel sb. do sth.",
+    "trans": ["phrase. feeling someone to make something"]
+  },
+  {
+    "name": "have sb. do sth.",
+    "trans": ["phrase. to make someone to make something"]
+  },
+  {
+    "name": "hear sb. do sth.",
+    "trans": ["phrase. to hear someone to make something"]
+  },
+  {
+    "name": "let sb. do sth.",
+    "trans": ["phrase. to yield someone to make something"]
+  },
+  {
+    "name": "listen to sb. do sth.",
+    "trans": ["phrase. to listen to someone to make something"]
+  },
+  {
+    "name": "look at sb. do sth.",
+    "trans": ["phrase. to look after someone to make something"]
+  },
+  {
+    "name": "make sb. do sth.",
+    "trans": ["phrase. to make someone to make something"]
+  },
+  {
+    "name": "notice sb. do sth.",
+    "trans": ["phrase. to take note of someone to make something"]
+  },
+  {
+    "name": "observe sb. do sth.",
+    "trans": ["phrase. to observe someone to make something"]
+  },
+  {
+    "name": "see sb. do sth.",
+    "trans": ["phrase. to see someone to make something"]
+  },
+  {
+    "name": "watch sb. do sth.",
+    "trans": ["phrase. to observe someone to make something"]
+  },
+  {
+    "name": "accuse sb. of sth.",
+    "trans": [
+      "phrase. to accuse someone to violate something guilt, to criticize someone to make something"
+    ]
+  },
+  {
+    "name": "cheat sb. of sth.",
+    "trans": ["phrase. to gain by cheating someone something"]
+  },
+  {
+    "name": "cure sb. of sth.",
+    "trans": [
+      "phrase. to cure someone illness, to correct (a bad habit etc) someone bad habit"
+    ]
+  },
+  {
+    "name": "inform sb. of sth.",
+    "trans": ["phrase. to notify someone some circumstances matter"]
+  },
+  {
+    "name": "remind sb. of sth.",
+    "trans": ["phrase. to make someone to recall some circumstances matter"]
+  },
+  {
+    "name": "rid sb. of sth.",
+    "trans": ["phrase. to make someone to break away from something"]
+  },
+  {
+    "name": "rob sb. of sth.",
+    "trans": ["phrase. to rob someone some east and west"]
+  },
+  {
+    "name": "warn sb. of sth.",
+    "trans": ["phrase. to warn someone to have some circumstances"]
+  },
+  {
+    "name": "blame sb. for doing sth.",
+    "trans": ["phrase. to criticize someone to make something"]
+  },
+  {
+    "name": "criticize sb. for doing sth.",
+    "trans": ["phrase. to criticize someone to make something"]
+  },
+  {
+    "name": "forgive sb. for doing sth.",
+    "trans": ["phrase. to excuse someone to make something"]
+  },
+  {
+    "name": "excuse sb. for doing sth.",
+    "trans": ["phrase. to excuse someone to make something"]
+  },
+  {
+    "name": "pardon sb. for doing sth.",
+    "trans": ["phrase. to excuse someone to make something"]
+  },
+  {
+    "name": "punish sb. for doing sth.",
+    "trans": ["phrase. penalty someone to make something"]
+  },
+  {
+    "name": "scold sb. for doing sth.",
+    "trans": ["phrase. to criticize to blame someone to make something"]
+  },
+  {
+    "name": "thank sb. for doing sth.",
+    "trans": ["phrase. to thank someone to make something"]
+  },
+  {
+    "name": "cheat sb. into doing sth.",
+    "trans": ["phrase. to deceive someone to make something"]
+  },
+  {
+    "name": "trick sb. into doing sth.",
+    "trans": ["phrase. to deceive someone to make something"]
+  },
+  {
+    "name": "fool sb. into doing sth.",
+    "trans": ["phrase. to deceive someone to make something"]
+  },
+  {
+    "name": "force sb. into doing sth.",
+    "trans": ["phrase. to force someone to make something"]
+  },
+  {
+    "name": "argue sb. into doing sth.",
+    "trans": ["phrase. to persuade someone to make something"]
+  },
+  {
+    "name": "talk sb. into doing sth.",
+    "trans": ["phrase. to persuade someone to make something"]
+  },
+  {
+    "name": "terrify sb. into doing sth.",
+    "trans": ["phrase. to threaten someone to make something"]
+  },
+  {
+    "name": "frighten sb. into doing sth.",
+    "trans": ["phrase. to scare someone to make something"]
+  },
+  {
+    "name": "persuade sb. into doing sth.",
+    "trans": ["phrase. to persuade someone to make something"]
+  },
+  {
+    "name": "be angry about",
+    "trans": ["phrase. as (in the capacity of) to get angry"]
+  },
+  {
+    "name": "be anxious about",
+    "trans": ["phrase. as (in the capacity of) to worry"]
+  },
+  {
+    "name": "be careful about",
+    "trans": ["phrase. to take care"]
+  },
+  {
+    "name": "be certain about",
+    "trans": ["phrase. to be convinced"]
+  },
+  {
+    "name": "be curious about",
+    "trans": ["phrase. right inquisitive"]
+  },
+  {
+    "name": "be disappointed about",
+    "trans": ["phrase. right disappointed"]
+  },
+  {
+    "name": "be excited about",
+    "trans": ["phrase. right to feel excited"]
+  },
+  {
+    "name": "be glad about",
+    "trans": ["phrase. right to feel happy"]
+  },
+  {
+    "name": "be happy about",
+    "trans": ["phrase. as (in the capacity of) to feel happy"]
+  },
+  {
+    "name": "be hopeful about",
+    "trans": ["phrase. right to have (aspirations, suspicions etc) to hope"]
+  },
+  {
+    "name": "be mad about",
+    "trans": ["phrase. right to be fascinated"]
+  },
+  {
+    "name": "be nervous about",
+    "trans": ["phrase. as (in the capacity of) to feel unpeaceful"]
+  },
+  {
+    "name": "be particular about",
+    "trans": ["phrase. right to pay particular attention to"]
+  },
+  {
+    "name": "be sad about",
+    "trans": ["phrase. as (in the capacity of) and to feel sad"]
+  },
+  {
+    "name": "be serious about",
+    "trans": ["phrase. right conscientious"]
+  },
+  {
+    "name": "be sure about",
+    "trans": ["phrase. right to have to grasp (also fig.)"]
+  },
+  {
+    "name": "be worried about",
+    "trans": ["phrase. as (in the capacity of) to worry"]
+  },
+  {
+    "name": "be angry at",
+    "trans": ["phrase. as (in the capacity of) to get angry"]
+  },
+  {
+    "name": "be bad at",
+    "trans": ["phrase. bad to go"]
+  },
+  {
+    "name": "be clever at",
+    "trans": ["phrase. to be good at to go"]
+  },
+  {
+    "name": "be disappointed at",
+    "trans": ["phrase. right disappointed"]
+  },
+  {
+    "name": "be expert at",
+    "trans": [
+      "phrase. to exist respect to be (followed by substantives only) expert"
+    ]
+  },
+  {
+    "name": "be good at",
+    "trans": ["phrase. to be good at"]
+  },
+  {
+    "name": "be mad at",
+    "trans": ["phrase. right to get angry"]
+  },
+  {
+    "name": "be quick at",
+    "trans": ["phrase. to exist respect nimble"]
+  },
+  {
+    "name": "be skillful at",
+    "trans": ["phrase. to exist respect practiced"]
+  },
+  {
+    "name": "be slow at",
+    "trans": ["phrase. to exist respect slow in one's reactions"]
+  },
+  {
+    "name": "be anxious for",
+    "trans": ["phrase. to thirst for"]
+  },
+  {
+    "name": "be bad for",
+    "trans": ["phrase. right destructive, right unfavorable"]
+  },
+  {
+    "name": "be bound for",
+    "trans": ["phrase. to leave for"]
+  },
+  {
+    "name": "be celebrated for",
+    "trans": ["phrase. to use well-known for sth"]
+  },
+  {
+    "name": "be convenient for",
+    "trans": ["phrase. right convenient, to exist nearby"]
+  },
+  {
+    "name": "be eager for",
+    "trans": ["phrase. to thirst for"]
+  },
+  {
+    "name": "be famous for",
+    "trans": ["phrase. cause well-known"]
+  },
+  {
+    "name": "be fit for",
+    "trans": ["phrase. suitable, to fit"]
+  },
+  {
+    "name": "be good for",
+    "trans": ["phrase. right useful convenient"]
+  },
+  {
+    "name": "be grateful for",
+    "trans": ["phrase. to thank"]
+  },
+  {
+    "name": "be hungry for",
+    "trans": ["phrase. to thirst for to get"]
+  },
+  {
+    "name": "be late for",
+    "trans": ["phrase. to arrive late"]
+  },
+  {
+    "name": "be necessary for",
+    "trans": ["phrase. right to have necessary"]
+  },
+  {
+    "name": "be ready for",
+    "trans": ["phrase. as (in the capacity of) preparation good"]
+  },
+  {
+    "name": "be sorry for",
+    "trans": ["phrase. cause to be sorry"]
+  },
+  {
+    "name": "be suitable for",
+    "trans": ["phrase. right suitable suitable"]
+  },
+  {
+    "name": "be thankful for",
+    "trans": ["phrase. cause and to be grateful"]
+  },
+  {
+    "name": "be well-known for",
+    "trans": ["phrase. to use well-known for sth"]
+  },
+  {
+    "name": "be absent from",
+    "trans": ["phrase. to be absent, not to be present"]
+  },
+  {
+    "name": "be different from",
+    "trans": ["phrase. (formal) and different"]
+  },
+  {
+    "name": "be far from",
+    "trans": ["phrase. to leave far, distant no"]
+  },
+  {
+    "name": "be free from",
+    "trans": ["phrase. haven't, to avoid suffering"]
+  },
+  {
+    "name": "be safe from",
+    "trans": ["phrase. haven't danger"]
+  },
+  {
+    "name": "be tired from",
+    "trans": ["phrase. cause and fatigue"]
+  },
+  {
+    "name": "be concerned in",
+    "trans": ["phrase. (formal) and to have sth to do with"]
+  },
+  {
+    "name": "be disappointed in",
+    "trans": ["phrase. right someone to feel disappointed"]
+  },
+  {
+    "name": "be engaged in",
+    "trans": ["phrase. to go for to go, busy with"]
+  },
+  {
+    "name": "be experienced in",
+    "trans": ["phrase. to exist respect to have experience"]
+  },
+  {
+    "name": "be expert in",
+    "trans": [
+      "phrase. to exist respect to be (followed by substantives only) connoisseur"
+    ]
+  },
+  {
+    "name": "be fortunate in",
+    "trans": ["phrase. to exist respect fortunate"]
+  },
+  {
+    "name": "be honest in",
+    "trans": ["phrase. to exist respect honest"]
+  },
+  {
+    "name": "be interested in",
+    "trans": ["phrase. right to be interested (in sth)"]
+  },
+  {
+    "name": "be lack in",
+    "trans": ["phrase. to lack"]
+  },
+  {
+    "name": "be rich in",
+    "trans": ["phrase. to be full of, to exist respect rich"]
+  },
+  {
+    "name": "be skillful in",
+    "trans": ["phrase. to be good at to go"]
+  },
+  {
+    "name": "be successful in",
+    "trans": ["phrase. to exist respect to succeed"]
+  },
+  {
+    "name": "be weak in",
+    "trans": ["phrase. to exist respect won't do"]
+  },
+  {
+    "name": "be afraid of",
+    "trans": ["phrase. to be afraid"]
+  },
+  {
+    "name": "be ashamed of",
+    "trans": ["phrase. as (in the capacity of) to feel ashamed"]
+  },
+  {
+    "name": "be aware of",
+    "trans": ["phrase. to be aware of, to know"]
+  },
+  {
+    "name": "be capable of",
+    "trans": ["phrase. to be capable of, can"]
+  },
+  {
+    "name": "be careful of",
+    "trans": ["phrase. to be careful, to be careful"]
+  },
+  {
+    "name": "be certain of",
+    "trans": ["phrase. to be convinced, right to have to grasp (also fig.)"]
+  },
+  {
+    "name": "be fond of",
+    "trans": ["phrase. to like"]
+  },
+  {
+    "name": "be free of",
+    "trans": ["phrase. haven't, to break away from"]
+  },
+  {
+    "name": "be full of",
+    "trans": ["phrase. full of"]
+  },
+  {
+    "name": "be glad of",
+    "trans": ["phrase. as (in the capacity of) and happy"]
+  },
+  {
+    "name": "be nervous of",
+    "trans": ["phrase. to be afraid"]
+  },
+  {
+    "name": "be proud of",
+    "trans": [
+      "phrase. as (in the capacity of) proud (of one's achievements etc)"
+    ]
+  },
+  {
+    "name": "be short of",
+    "trans": ["phrase. to lack"]
+  },
+  {
+    "name": "be shy of",
+    "trans": ["phrase. to feel embarrassed"]
+  },
+  {
+    "name": "be sick of",
+    "trans": ["phrase. right to be weary of"]
+  },
+  {
+    "name": "be sure of",
+    "trans": ["phrase. to be certain, to have to grasp (also fig.)"]
+  },
+  {
+    "name": "be tired of",
+    "trans": ["phrase. right bored"]
+  },
+  {
+    "name": "be worthy of",
+    "trans": [
+      "phrase. to have no alternative but to, to join first (of multiple parts)"
+    ]
+  },
+  {
+    "name": "be angry with",
+    "trans": ["phrase. right someone to get angry"]
+  },
+  {
+    "name": "be bored with",
+    "trans": ["phrase. right bored"]
+  },
+  {
+    "name": "be busy with",
+    "trans": ["phrase. busy with"]
+  },
+  {
+    "name": "be careful with",
+    "trans": ["phrase. to be careful"]
+  },
+  {
+    "name": "be concerned with",
+    "trans": ["phrase. pertaining to, (formal) and to have sth to do with"]
+  },
+  {
+    "name": "be content with",
+    "trans": ["phrase. to use as (in the capacity of) to satisfy"]
+  },
+  {
+    "name": "be delighted with",
+    "trans": ["phrase. right to feel happy"]
+  },
+  {
+    "name": "be disappointed with",
+    "trans": ["phrase. right someone disappointed"]
+  },
+  {
+    "name": "be familiar with",
+    "trans": ["phrase. to be familiar with, to be proficient in"]
+  },
+  {
+    "name": "be honest with",
+    "trans": ["phrase. right someone sincere"]
+  },
+  {
+    "name": "be ill with",
+    "trans": ["phrase. to suffer (from illness) illness"]
+  },
+  {
+    "name": "be patient with",
+    "trans": ["phrase. right someone to have to be patient"]
+  },
+  {
+    "name": "be pleased with",
+    "trans": ["phrase. right satisfied happy"]
+  },
+  {
+    "name": "be popular with",
+    "trans": ["phrase. to receive to welcome"]
+  },
+  {
+    "name": "be satisfied with",
+    "trans": ["phrase. right satisfied"]
+  },
+  {
+    "name": "be strict with",
+    "trans": ["phrase. right someone strict"]
+  },
+  {
+    "name": "be accustomed to",
+    "trans": ["phrase. habit to go"]
+  },
+  {
+    "name": "be blind to",
+    "trans": ["phrase. right (idiom) to turn a blind eye to"]
+  },
+  {
+    "name": "be close to",
+    "trans": ["phrase. to be close to, to approach"]
+  },
+  {
+    "name": "be cruel to",
+    "trans": ["phrase. right cruel, right pitiless"]
+  },
+  {
+    "name": "be devoted to",
+    "trans": [
+      "phrase. to commit one's energy to, to focus one's attention to go"
+    ]
+  },
+  {
+    "name": "be equal to",
+    "trans": ["phrase. to equal, can qualified"]
+  },
+  {
+    "name": "be familiar to",
+    "trans": [
+      "phrase. as (in the capacity of) someone actually to be familiar with"
+    ]
+  },
+  {
+    "name": "be harmful to",
+    "trans": ["phrase. right to have to harm"]
+  },
+  {
+    "name": "be important to",
+    "trans": ["phrase. right important"]
+  },
+  {
+    "name": "be open to",
+    "trans": [
+      "phrase. right to bloom, easy to receive (praise, an education, punishment etc)"
+    ]
+  },
+  {
+    "name": "be opposed to",
+    "trans": ["phrase. to oppose, disapproval"]
+  },
+  {
+    "name": "be opposite to",
+    "trans": ["phrase. to exist opposite, (joining two nouns) and opposite"]
+  },
+  {
+    "name": "be polite to",
+    "trans": ["phrase. right courteous"]
+  },
+  {
+    "name": "be related to",
+    "trans": [
+      "phrase. (formal) and to have sth to do with to be (followed by substantives only) a relative (i.e. family relation)"
+    ]
+  },
+  {
+    "name": "be respectful to",
+    "trans": ["phrase. to respect"]
+  },
+  {
+    "name": "be rude to",
+    "trans": ["phrase. right rude"]
+  },
+  {
+    "name": "be similar to",
+    "trans": ["phrase. (formal) and similar"]
+  },
+  {
+    "name": "be true to",
+    "trans": ["phrase. faithful to go, to abide by"]
+  },
+  {
+    "name": "be used to",
+    "trans": ["phrase. habit to go"]
+  },
+  {
+    "name": "be useful to",
+    "trans": ["phrase. right useful"]
+  }
 ]

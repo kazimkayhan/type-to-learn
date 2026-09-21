@@ -1,3224 +1,3039 @@
 [
-    {
-        "name": "hurdling",
-        "trans": [
-            "n. a footrace in which contestants must negotiate a series of hurdles"
-        ],
-        "usphone": "",
-        "ukphone": ""
-    },
-    {
-        "name": "boxing",
-        "trans": [
-            "n. the enclosure of something in a package or box",
-            "n. fighting with the fists"
-        ],
-        "usphone": "'bɑksɪŋ",
-        "ukphone": "'bɒksɪŋ"
-    },
-    {
-        "name": "hula hooping",
-        "trans": [
-            "to play hula hoop (loanword)"
-        ],
-        "usphone": "",
-        "ukphone": ""
-    },
-    {
-        "name": "pogo stick jumping",
-        "trans": [
-            "spring bill stilts game ("
-        ],
-        "usphone": "",
-        "ukphone": ""
-    },
-    {
-        "name": "jumping jack",
-        "trans": [
-            "n. plaything consisting of a toy figure with movable joints that can be made to dance by pulling strings",
-            "n. an exercise where one jumps up and down in place, moving the arms and legs out and in synchonously"
-        ],
-        "usphone": "",
-        "ukphone": ""
-    },
-    {
-        "name": "somersaulting",
-        "trans": [
-            "n. an acrobatic feat in which the feet roll over the head and return"
-        ],
-        "usphone": "'sʌmɚsɔlt",
-        "ukphone": "'sʌməsɒlt; -sɔːlt"
-    },
-    {
-        "name": "lunge",
-        "trans": [
-            "v. make a thrusting forward movement",
-            "n. the act of moving forward suddenly",
-            "n. (fencing) an attacking thrust made with one foot forward and the back leg straight and with the sword arm outstretched forward"
-        ],
-        "usphone": "lʌndʒ",
-        "ukphone": "lʌn(d)ʒ"
-    },
-    {
-        "name": "Ashrita Furman",
-        "trans": [
-            "prefix used before monosyllabic names, kinship terms etc to indicate familiarity what lining (loanword) (pastry) tart not handsome"
-        ],
-        "usphone": "",
-        "ukphone": ""
-    },
-    {
-        "name": "Guinness",
-        "trans": [
-            "(name) Guinness"
-        ],
-        "usphone": "'ɡinis",
-        "ukphone": ""
-    },
-    {
-        "name": "Guiness Book of World Records",
-        "trans": [
-            "Guinness World Records comprehensive collection"
-        ],
-        "usphone": "",
-        "ukphone": ""
-    },
-    {
-        "name": "approximate",
-        "trans": [
-            "v. to judge tentatively or form an estimate of quantities or time",
-            "v. to be close or similar",
-            "adj. located close together"
-        ],
-        "usphone": "ə'prɑksɪmət",
-        "ukphone": "ə'prɒksɪmət"
-    },
-    {
-        "name": "approximately",
-        "trans": [
-            "adv. (of quantities) imprecise but fairly close to correct"
-        ],
-        "usphone": "ə'prɑksɪmətli",
-        "ukphone": "ə'prɒksɪmətlɪ"
-    },
-    {
-        "name": "conventional",
-        "trans": [
-            "adj. following accepted customs and proprieties",
-            "adj. unimaginative and conformist",
-            "adj. (weapons) using energy for propulsion or destruction that is not nuclear energy"
-        ],
-        "usphone": "kən'vɛnʃənl",
-        "ukphone": "kən'venʃ(ə)n(ə)l"
-    },
-    {
-        "name": "laughter",
-        "trans": [
-            "n. the activity of laughing",
-            "n. the sound of laughing"
-        ],
-        "usphone": "'læftɚ",
-        "ukphone": "'lɑːftə"
-    },
-    {
-        "name": "reality",
-        "trans": [
-            "n. the quality possessed by something that is real",
-            "n. all of your experiences that determine how things appear to you",
-            "n. the state of being actual or real"
-        ],
-        "usphone": "rɪ'æləti",
-        "ukphone": "rɪ'ælɪtɪ"
-    },
-    {
-        "name": "in reality",
-        "trans": [
-            "adv. used to imply that one would expect the fact to be the opposite of that stated"
-        ],
-        "usphone": "",
-        "ukphone": ""
-    },
-    {
-        "name": "ajustment",
-        "trans": [
-            "to adjust"
-        ],
-        "usphone": "",
-        "ukphone": ""
-    },
-    {
-        "name": "tough",
-        "trans": [
-            "adj. feeling physical discomfort or pain (`tough' is occasionally used colloquially for `bad')",
-            "adj. substantially made or constructed",
-            "adj. making great mental demands"
-        ],
-        "usphone": "tʌf",
-        "ukphone": "tʌf"
-    },
-    {
-        "name": "extreme",
-        "trans": [
-            "adj. most distant in any direction",
-            "adj. of the greatest possible degree or extent or intensity",
-            "adj. far beyond a norm in quantity or amount or degree"
-        ],
-        "usphone": "ɪk'strim",
-        "ukphone": "ɪk'striːm"
-    },
-    {
-        "name": "vomit",
-        "trans": [
-            "v. eject the contents of the stomach through the mouth",
-            "n. the reflex act of ejecting the contents of the stomach through the mouth",
-            "n. a medicine that induces nausea and vomiting"
-        ],
-        "usphone": "'vɑmɪt",
-        "ukphone": "'vɒmɪt"
-    },
-    {
-        "name": "gymnastics",
-        "trans": [
-            "n. a sport that involves exercises intended to display strength and balance and agility"
-        ],
-        "usphone": "",
-        "ukphone": ""
-    },
-    {
-        "name": "gymnastically",
-        "trans": [
-            "physical capability to train respect"
-        ],
-        "usphone": "",
-        "ukphone": ""
-    },
-    {
-        "name": "unfit",
-        "trans": [
-            "v. make unfit or unsuitable",
-            "adj. not in good physical or mental condition",
-            "adj. below the required standards for a purpose"
-        ],
-        "usphone": "",
-        "ukphone": "ʌn'fɪt"
-    },
-    {
-        "name": "fascinate",
-        "trans": [
-            "v. attract",
-            "v. to render motionless, as with a fixed stare or by arousing terror or awe",
-            "v. cause to be interested or curious"
-        ],
-        "usphone": "'fæsə'net",
-        "ukphone": "'fæsɪneɪt"
-    },
-    {
-        "name": "meditation",
-        "trans": [
-            "n. continuous and profound contemplation or musing on a subject or series of subjects of a deep or abstruse nature",
-            "n. focused contemplation, often on religious or philosophical subjects"
-        ],
-        "usphone": ",mɛdɪ'teʃən",
-        "ukphone": "medɪ'teɪʃ(ə)n"
-    },
-    {
-        "name": "Sri chinmoy",
-        "trans": [
-            "Slovakia lining guqin [gu3 qin2] (a type of zither) to rub"
-        ],
-        "usphone": "",
-        "ukphone": ""
-    },
-    {
-        "name": "spiritual",
-        "trans": [
-            "adj. lacking material body or form or substance",
-            "adj. resembling or characteristic of a phantom",
-            "adj. concerned with sacred matters or religion or the church"
-        ],
-        "usphone": "'spɪrɪtʃʊəl",
-        "ukphone": "'spɪrɪtʃʊəl; -tjʊəl"
-    },
-    {
-        "name": "marathon",
-        "trans": [
-            "n. any long and arduous undertaking",
-            "n. a footrace of 26 miles and 385 yards"
-        ],
-        "usphone": "'mærə,θɑn",
-        "ukphone": "'mærəθ(ə)n"
-    },
-    {
-        "name": "urge",
-        "trans": [
-            "v. force or impel in an indicated direction",
-            "v. spur on or encourage especially by cheers and shouts",
-            "v. push for something"
-        ],
-        "usphone": "ɝdʒ",
-        "ukphone": "'ɜːdʒ"
-    },
-    {
-        "name": "accomplish",
-        "trans": [
-            "v. to achieve or complete successfully",
-            "v. to gain with effort"
-        ],
-        "usphone": "ə'kɑmplɪʃ",
-        "ukphone": "ə'kʌmplɪʃ; ə'kɒm-"
-    },
-    {
-        "name": "motivation",
-        "trans": [
-            "n. the psychological feature that arouses an organism to action toward a desired goal",
-            "n. the act of motivating",
-            "n. the condition of being motivated"
-        ],
-        "usphone": ",motə'veʃən",
-        "ukphone": "məʊtɪ'veɪʃ(ə)n"
-    },
-    {
-        "name": "devotion",
-        "trans": [
-            "n. religious observance or prayers",
-            "n. religious zeal",
-            "n. commitment to some purpose"
-        ],
-        "usphone": "dɪ'voʃən",
-        "ukphone": "dɪ'vəʊʃ(ə)n"
-    },
-    {
-        "name": "soul",
-        "trans": [
-            "n. a human being",
-            "n. the human embodiment of something",
-            "n. a secular form of gospel that was a major Black musical genre in the 1960s and 1970s"
-        ],
-        "usphone": "sol",
-        "ukphone": "səʊl"
-    },
-    {
-        "name": "sacred",
-        "trans": [
-            "adj. (often followed by `to') devoted exclusively to a single use or purpose or person",
-            "adj. made or declared or believed to be holy",
-            "adj. worthy of religious veneration"
-        ],
-        "usphone": "'sekrɪd",
-        "ukphone": "'seɪkrɪd"
-    },
-    {
-        "name": "deed",
-        "trans": [
-            "n. something that people do or cause to happen",
-            "n. a legal document signed, sealed and delivered to effect a transfer of property and to show the legal right to possess it"
-        ],
-        "usphone": "did",
-        "ukphone": "diːd"
-    },
-    {
-        "name": "conception",
-        "trans": [
-            "n. the act of becoming pregnant",
-            "n. the creation of something in the mind",
-            "n. an abstract or general idea inferred or derived from specific instances"
-        ],
-        "usphone": "kən'sɛpʃən",
-        "ukphone": "kən'sepʃ(ə)n"
-    },
-    {
-        "name": "tact",
-        "trans": [
-            "n. consideration in dealing with others and avoiding giving offense"
-        ],
-        "usphone": "tækt",
-        "ukphone": "tækt"
-    },
-    {
-        "name": "regret",
-        "trans": [
-            "v. express with regret",
-            "v. decline formally or politely",
-            "v. feel remorse for"
-        ],
-        "usphone": "rɪ'ɡrɛt",
-        "ukphone": "rɪ'gret"
-    },
-    {
-        "name": "repentance",
-        "trans": [
-            "n. remorse for your past conduct"
-        ],
-        "usphone": "rɪ'pɛntəns",
-        "ukphone": "rɪ'pent(ə)ns"
-    },
-    {
-        "name": "wisdom",
-        "trans": [
-            "n. the trait of utilizing knowledge and experience with common sense and insight",
-            "n. the quality of being prudent and sensible",
-            "n. ability to apply knowledge or experience or understanding or common sense and insight"
-        ],
-        "usphone": "'wɪzdəm",
-        "ukphone": "'wɪzdəm"
-    },
-    {
-        "name": "virtue",
-        "trans": [
-            "n. the quality of doing what is right and avoiding what is wrong",
-            "n. a particular moral excellence",
-            "n. morality with respect to sexual relations"
-        ],
-        "usphone": "'vɝtʃʊ",
-        "ukphone": "'vɜːtjuː; -tʃuː"
-    },
-    {
-        "name": "noble",
-        "trans": [
-            "adj. impressive in appearance",
-            "adj. having or showing or indicative of high or elevated character",
-            "adj. of or belonging to or constituting the hereditary aristocracy especially as derived from feudal times"
-        ],
-        "usphone": "'nobl",
-        "ukphone": "'nəʊb(ə)l"
-    },
-    {
-        "name": "doom",
-        "trans": [
-            "v. decree or designate beforehand",
-            "v. make certain of the failure or destruction of",
-            "v. pronounce a sentence on (somebody) in a court of law"
-        ],
-        "usphone": "dʊm",
-        "ukphone": "duːm"
-    },
-    {
-        "name": "bid",
-        "trans": [
-            "v. to ask for or request earnestly",
-            "v. to make a serious effort to attain something",
-            "v. to propose a payment"
-        ],
-        "usphone": "bɪd",
-        "ukphone": "bɪd"
-    },
-    {
-        "name": "juggle",
-        "trans": [
-            "v. hold with difficulty and balance insecurely",
-            "v. throw, catch, and keep in the air several things simultaneously",
-            "v. deal with simultaneously"
-        ],
-        "usphone": "'dʒʌɡl",
-        "ukphone": "'dʒʌg(ə)l"
-    },
-    {
-        "name": "triathlon",
-        "trans": [
-            "triathlon to move"
-        ],
-        "usphone": "traɪ'æθlən",
-        "ukphone": "traɪ'æθlɒn; -lən"
-    },
-    {
-        "name": "triathlete",
-        "trans": [
-            "triathlon athlete"
-        ],
-        "usphone": "",
-        "ukphone": ""
-    },
-    {
-        "name": "amateur",
-        "trans": [
-            "adj. engaged in as a pastime",
-            "adj. lacking professional skill or expertise",
-            "n. someone who pursues a study or sport as a pastime"
-        ],
-        "usphone": "ˈæmətər",
-        "ukphone": "ˈæmətə(r)"
-    },
-    {
-        "name": "champion",
-        "trans": [
-            "v. to protect or fight for as a champion",
-            "adj. holding first place in a contest",
-            "n. someone who is dazzlingly skilled in any field"
-        ],
-        "usphone": "'tʃæmpɪən",
-        "ukphone": "'tʃæmpɪən"
-    },
-    {
-        "name": "therefore",
-        "trans": [
-            "adv. (used to introduce a logical conclusion) from that fact or reason or as a result",
-            "adv. as a consequence"
-        ],
-        "usphone": "'ðɛrfɔr",
-        "ukphone": "'ðeəfɔː"
-    },
-    {
-        "name": "Barcelona",
-        "trans": [
-            "Barcelona, Spain Spain Northeast China ministry port city"
-        ],
-        "usphone": ",ba:si'ləunə",
-        "ukphone": ",ba:si'ləunə"
-    },
-    {
-        "name": "springboard",
-        "trans": [
-            "n. a beginning from which an enterprise is launched",
-            "n. a flexible board for jumping upward"
-        ],
-        "usphone": "'sprɪŋbɔrd",
-        "ukphone": "'sprɪŋbɔːd"
-    },
-    {
-        "name": "economics",
-        "trans": [
-            "n. the branch of social science that deals with the production and distribution and consumption of goods and services and their management"
-        ],
-        "usphone": "'ikə'nɑmɪks; 'ɛkə'nɑmɪks",
-        "ukphone": "iːkə'nɒmɪks; ek-"
-    },
-    {
-        "name": "Slovenia",
-        "trans": [
-            "Slovenia name of country"
-        ],
-        "usphone": "sləu'vi:niə",
-        "ukphone": "sləu'vi:niə"
-    },
-    {
-        "name": "entire",
-        "trans": [
-            "adj. constituting the full quantity or extent",
-            "adj. constituting the undiminished entirety",
-            "adj. (used of domestic animals) sexually competent"
-        ],
-        "usphone": "ɪn'taɪɚ",
-        "ukphone": "ɪn'taɪə; en-"
-    },
-    {
-        "name": "the Danube River",
-        "trans": [
-            "Danube to be located at continent"
-        ],
-        "usphone": "",
-        "ukphone": ""
-    },
-    {
-        "name": "attain",
-        "trans": [
-            "v. to reach a point in time, or a certain state or level",
-            "v. to reach a destination, either real or abstract",
-            "v. to gain with effort"
-        ],
-        "usphone": "ə'ten",
-        "ukphone": "ə'teɪn"
-    },
-    {
-        "name": "the Parana River",
-        "trans": [
-            "Ba, a state during the Zhou dynasty (in present-day Chongqing and the eastern part of Sichuan) to pull (specifier) that river ( to be located at South America south central region, should prefecture second large river (esp the Yellow River)"
-        ],
-        "usphone": "",
-        "ukphone": ""
-    },
-    {
-        "name": "profile",
-        "trans": [
-            "v. to represent in profile, by drawing or painting",
-            "v. to write about",
-            "n. biographical sketch"
-        ],
-        "usphone": "'profaɪl",
-        "ukphone": "'prəʊfaɪl"
-    },
-    {
-        "name": "courageous",
-        "trans": [
-            "adj. possessing or displaying courage"
-        ],
-        "usphone": "kə'redʒəs",
-        "ukphone": "kə'reɪdʒəs"
-    },
-    {
-        "name": "appreciate",
-        "trans": [
-            "v. to increase the value of",
-            "v. to increase in value",
-            "v. to be fully aware of"
-        ],
-        "usphone": "ə'priʃɪet",
-        "ukphone": "ə'priːʃɪeɪt; -sɪ-"
-    },
-    {
-        "name": "appreciation",
-        "trans": [
-            "n. an increase in price or value",
-            "n. a favorable judgment",
-            "n. delicate discrimination, especially of aesthetic values"
-        ],
-        "usphone": "ə,priʃɪ'eʃən",
-        "ukphone": "əpriːʃɪ'eɪʃ(ə)n; -sɪ-"
-    },
-    {
-        "name": "accountant",
-        "trans": [
-            "n. someone who maintains and audits business accounts"
-        ],
-        "usphone": "ə'kaʊntənt",
-        "ukphone": "ə'kaʊnt(ə)nt"
-    },
-    {
-        "name": "receptionist",
-        "trans": [
-            "n. an employee whose main duty is to answer the telephone and receive visitors, typically located behind the front desk"
-        ],
-        "usphone": "rɪ'sɛpʃənɪst",
-        "ukphone": "rɪ'sepʃ(ə)nɪst"
-    },
-    {
-        "name": "lawyer",
-        "trans": [
-            "n. a professional person authorized to practice law"
-        ],
-        "usphone": "'lɔjɚ",
-        "ukphone": "'lɔːjə; 'lɒɪə"
-    },
-    {
-        "name": "politician",
-        "trans": [
-            "n. a person active in party politics",
-            "n. a leader engaged in civil administration",
-            "n. a schemer who tries to gain advantage in an organization in sly or underhanded ways"
-        ],
-        "usphone": ",pɑlə'tɪʃən",
-        "ukphone": "pɒlɪ'tɪʃ(ə)n"
-    },
-    {
-        "name": "scarf",
-        "trans": [
-            "v. wrap in or adorn with a scarf",
-            "v. unite by a scarf joint",
-            "v. masturbate while strangling oneself"
-        ],
-        "usphone": "skɑrf",
-        "ukphone": "skɑːf"
-    },
-    {
-        "name": "zip",
-        "trans": [
-            "n. a code of letters and digits added to a postal address to aid in the sorting of mail"
-        ],
-        "usphone": "zɪp",
-        "ukphone": "zɪp"
-    },
-    {
-        "name": "underwear",
-        "trans": [
-            "n. undergarment worn next to the skin and under the outer garments"
-        ],
-        "usphone": "'ʌndɚwɛr",
-        "ukphone": "'ʌndəweə"
-    },
-    {
-        "name": "overcoat",
-        "trans": [
-            "n. a heavy coat worn over clothes in winter",
-            "n. an additional protective coating (as of paint or varnish)"
-        ],
-        "usphone": "'ovɚkot",
-        "ukphone": "'əʊvəkəʊt"
-    },
-    {
-        "name": "salary",
-        "trans": [
-            "n. something that remunerates"
-        ],
-        "usphone": "'sæləri",
-        "ukphone": "'sælərɪ"
-    },
-    {
-        "name": "wage",
-        "trans": [
-            "v. carry on, such as wars, battles, or campaigns",
-            "n. something that remunerates"
-        ],
-        "usphone": "wedʒ",
-        "ukphone": "weɪdʒ"
-    },
-    {
-        "name": "Marco Polo",
-        "trans": [
-            "horse (prefix) can Polo (car made by Volkswagen)"
-        ],
-        "usphone": "",
-        "ukphone": ""
-    },
-    {
-        "name": "latitude",
-        "trans": [
-            "n. scope for freedom of e.g. action or thought",
-            "n. the angular distance between an imaginary line around a heavenly body parallel to its equator and the equator itself",
-            "n. an imaginary line around the Earth parallel to the equator"
-        ],
-        "usphone": "'lætɪtud",
-        "ukphone": "'lætɪtjuːd"
-    },
-    {
-        "name": "voyage",
-        "trans": [
-            "v. travel on water propelled by wind or by other means",
-            "n. a journey to some distant place",
-            "n. an act of traveling by water"
-        ],
-        "usphone": "'vɔɪɪdʒ",
-        "ukphone": "'vɒɪɪdʒ"
-    },
-    {
-        "name": "mercy",
-        "trans": [
-            "n. leniency and compassion shown toward offenders by a person or agency charged with administering justice",
-            "n. alleviation of distress",
-            "n. a disposition to be kind and forgiving"
-        ],
-        "usphone": "'mɝsi",
-        "ukphone": "'mɜːsɪ"
-    },
-    {
-        "name": "at the mercy of",
-        "trans": [
-            "to receive to control"
-        ],
-        "usphone": "",
-        "ukphone": ""
-    },
-    {
-        "name": "encyclopedia",
-        "trans": [
-            "n. a reference work (often in several volumes) containing articles on various topics (often arranged in alphabetical order) dealing with the entire range of human knowledge or with some particular specialty"
-        ],
-        "usphone": "ɪnˌsaɪkləˈpidiɚ",
-        "ukphone": "ɪnˌsaɪkləˈpiːdiə"
-    },
-    {
-        "name": "alongside",
-        "trans": [
-            "adv. side by side"
-        ],
-        "usphone": "ə'lɔŋ'saɪd",
-        "ukphone": "əlɒŋ'saɪd"
-    },
-    {
-        "name": "exploration",
-        "trans": [
-            "n. to travel for the purpose of discovery",
-            "n. a careful systematic search",
-            "n. a systematic consideration"
-        ],
-        "usphone": ",ɛksplə'reʃən",
-        "ukphone": "eksplə'reɪʃ(ə)n"
-    },
-    {
-        "name": "minimum",
-        "trans": [
-            "adj. the least possible",
-            "n. the point on a curve where the tangent changes from negative on the left to positive on the right",
-            "n. the smallest possible quantity"
-        ],
-        "usphone": "'mɪnɪməm",
-        "ukphone": "'mɪnɪməm"
-    },
-    {
-        "name": "celestial",
-        "trans": [
-            "adj. of heaven or the spirit",
-            "adj. relating to or inhabiting a divine heaven",
-            "adj. of or relating to the sky"
-        ],
-        "usphone": "sə'lɛstʃəl",
-        "ukphone": "sɪ'lestɪəl"
-    },
-    {
-        "name": "pole",
-        "trans": [
-            "v. deoxidize molten metals by stirring them with a wooden pole",
-            "v. support on poles",
-            "v. propel with a pole"
-        ],
-        "usphone": "pol",
-        "ukphone": "pəʊl"
-    },
-    {
-        "name": "equator",
-        "trans": [
-            "n. an imaginary line around the Earth forming the great circle that is equidistant from the north and south poles",
-            "n. a circle dividing a sphere or other surface into two usually equal and symmetrical parts"
-        ],
-        "usphone": "ɪ'kwetɚ",
-        "ukphone": "ɪ'kweɪtə"
-    },
-    {
-        "name": "horizon",
-        "trans": [
-            "n. the range of interest or activity that can be anticipated",
-            "n. the line at which the sky and Earth appear to meet",
-            "n. the great circle on the celestial sphere whose plane passes through the sensible horizon and the center of the Earth"
-        ],
-        "usphone": "hə'raɪzn",
-        "ukphone": "hə'raɪz(ə)n"
-    },
-    {
-        "name": "overhead",
-        "trans": [
-            "adj. located or originating from above",
-            "adv. above the head",
-            "adv. above your head"
-        ],
-        "usphone": ",ovɚ'hɛd",
-        "ukphone": "əʊvə'hed"
-    },
-    {
-        "name": "seaweed",
-        "trans": [
-            "n. plant growing in the sea, especially marine algae"
-        ],
-        "usphone": "'si'wid",
-        "ukphone": "'siːwiːd"
-    },
-    {
-        "name": "nowhere",
-        "trans": [
-            "adv. not anywhere",
-            "n. an insignificant place"
-        ],
-        "usphone": "'no'wɛr",
-        "ukphone": "'nəʊhweə"
-    },
-    {
-        "name": "offshore",
-        "trans": [
-            "adj. (of winds) coming from the land",
-            "adj. at some distance from the shore",
-            "adv. away from shore"
-        ],
-        "usphone": ",ɔf'ʃɔr",
-        "ukphone": "'ɒfʃɔː; ɒf'ʃɔː"
-    },
-    {
-        "name": "outward",
-        "trans": [
-            "adj. relating to physical reality rather than with thoughts or the mind",
-            "adj. that is going out or leaving",
-            "adv. toward the outside"
-        ],
-        "usphone": "'aʊtwɚd",
-        "ukphone": "'aʊtwəd"
-    },
-    {
-        "name": "tide",
-        "trans": [
-            "v. be carried with the tide",
-            "v. cause to float with the tide",
-            "v. rise or move forward"
-        ],
-        "usphone": "taɪd",
-        "ukphone": "taɪd"
-    },
-    {
-        "name": "secure",
-        "trans": [
-            "v. make certain of",
-            "v. furnish with battens",
-            "v. cause to be firmly attached"
-        ],
-        "usphone": "sə'kjʊr",
-        "ukphone": "sɪ'kjʊə; sɪ'kjɔː"
-    },
-    {
-        "name": "knot",
-        "trans": [
-            "v. tie or fasten into a knot",
-            "v. tangle or complicate",
-            "v. make into knots"
-        ],
-        "usphone": "nɑt",
-        "ukphone": "nɒt"
-    },
-    {
-        "name": "log",
-        "trans": [
-            "v. to enter into a log, as on ships and planes",
-            "v. to cut lumber, as in woods and forests",
-            "n. measuring instrument that consists of a float that trails from a ship by a knotted line in order to measure the ship's speed through the water"
-        ],
-        "usphone": "lɔɡ",
-        "ukphone": "lɒg"
-    },
-    {
-        "name": "nautical",
-        "trans": [
-            "adj. relating to or involving ships or shipping or navigation or seamen"
-        ],
-        "usphone": "'nɔtɪkl",
-        "ukphone": "'nɔːtɪk(ə)l"
-    },
-    {
-        "name": "nautical mile",
-        "trans": [
-            "n. a unit of length used in navigation",
-            "n. a former British unit of length equivalent to 6,080 feet (1,853.184 meters)"
-        ],
-        "usphone": "",
-        "ukphone": ""
-    },
-    {
-        "name": "magnetic",
-        "trans": [
-            "adj. possessing an extraordinary ability to attract",
-            "adj. having the properties of a magnet",
-            "adj. determined by earth's magnetic fields"
-        ],
-        "usphone": "mæg'nɛtɪk",
-        "ukphone": "mæg'netɪk"
-    },
-    {
-        "name": "bearing",
-        "trans": [
-            "adj. (of a structural member) withstanding a weight or strain",
-            "n. a rotating support placed between moving parts to allow them to move easily",
-            "n. heraldry consisting of a design or image depicted on a shield"
-        ],
-        "usphone": "'bɛrɪŋ",
-        "ukphone": "'beərɪŋ"
-    },
-    {
-        "name": "random",
-        "trans": [
-            "adj. lacking any definite plan or order or purpose"
-        ],
-        "usphone": "'rændəm",
-        "ukphone": "'rændəm"
-    },
-    {
-        "name": "astrolabe",
-        "trans": [
-            "n. an early form of sextant"
-        ],
-        "usphone": "",
-        "ukphone": ""
-    },
-    {
-        "name": "awkward",
-        "trans": [
-            "adj. socially uncomfortable",
-            "adj. causing inconvenience",
-            "adj. hard to deal with"
-        ],
-        "usphone": "'ɔkwɚd",
-        "ukphone": "'ɔːkwəd"
-    },
-    {
-        "name": "reference",
-        "trans": [
-            "v. to refer to",
-            "n. the act of referring or consulting",
-            "n. the most direct or specific meaning of a word or expression"
-        ],
-        "usphone": "'rɛfrəns",
-        "ukphone": "'ref(ə)r(ə)ns"
-    },
-    {
-        "name": "quadrant",
-        "trans": [
-            "n. a measuring instrument for measuring altitude of heavenly bodies",
-            "n. the area enclosed by two perpendicular radii of a circle",
-            "n. any of the four areas into which a plane is divided by two orthogonal coordinate axes"
-        ],
-        "usphone": "'kwɑdrənt",
-        "ukphone": "'kwɒdr(ə)nt"
-    },
-    {
-        "name": "precise",
-        "trans": [
-            "adj. (of ideas, images, representations, expressions) characterized by perfect conformity to fact or truth",
-            "adj. sharply exact or accurate or delimited"
-        ],
-        "usphone": "prɪ'saɪs",
-        "ukphone": "prɪ'saɪs"
-    },
-    {
-        "name": "simplify",
-        "trans": [
-            "v. make simpler or easier or reduce in complexity or extent"
-        ],
-        "usphone": "'sɪmplɪfaɪ",
-        "ukphone": "'sɪmplɪfaɪ"
-    },
-    {
-        "name": "portable",
-        "trans": [
-            "adj. of a motor designed to be attached to the outside of a boat's hull",
-            "adj. easily or conveniently transported",
-            "n. a small light typewriter"
-        ],
-        "usphone": "'pɔrtəbl",
-        "ukphone": "'pɔːtəb(ə)l"
-    },
-    {
-        "name": "shortcoming",
-        "trans": [
-            "n. a failing or deficiency"
-        ],
-        "usphone": "'ʃɔrtkʌmɪŋ",
-        "ukphone": "'ʃɔːtkʌmɪŋ"
-    },
-    {
-        "name": "sextant",
-        "trans": [
-            "n. a measuring instrument for measuring the angular distance between celestial objects",
-            "n. a unit of angular distance equal to 60 degrees"
-        ],
-        "usphone": "'sɛkstənt",
-        "ukphone": "'sekst(ə)nt"
-    },
-    {
-        "name": "update",
-        "trans": [
-            "v. modernize or bring up to date",
-            "v. bring to the latest state of technology",
-            "v. bring up to date"
-        ],
-        "usphone": ",ʌp'det",
-        "ukphone": "ʌp'deɪt"
-    },
-    {
-        "name": "tendency",
-        "trans": [
-            "n. a characteristic likelihood of or natural disposition toward a certain condition or character or effect",
-            "n. an attitude of mind especially one that favors one alternative over others",
-            "n. an inclination to do something"
-        ],
-        "usphone": "'tɛndənsi",
-        "ukphone": "'tend(ə)nsɪ"
-    },
-    {
-        "name": "reliable",
-        "trans": [
-            "adj. worthy of reliance or trust",
-            "adj. conforming to fact and therefore worthy of belief",
-            "adj. worthy of being depended on"
-        ],
-        "usphone": "rɪ'laɪəbl",
-        "ukphone": "rɪ'laɪəb(ə)l"
-    },
-    {
-        "name": "Samuel",
-        "trans": [
-            "(name) Samuel"
-        ],
-        "usphone": "ˈsæmjuəl",
-        "ukphone": "ˈsæmjuəl"
-    },
-    {
-        "name": "swoop",
-        "trans": [
-            "v. seize or catch with a swooping motion",
-            "v. move down on as if in an attack",
-            "v. move with a sweep, or in a swooping arc"
-        ],
-        "usphone": "swup",
-        "ukphone": "swuːp"
-    },
-    {
-        "name": "parcel",
-        "trans": [
-            "v. make into a wrapped container",
-            "v. cover with strips of canvas",
-            "v. divide into parts"
-        ],
-        "usphone": "'pɑrsl",
-        "ukphone": "'pɑːs(ə)l"
-    },
-    {
-        "name": "peck",
-        "trans": [
-            "v. bother persistently with trivial complaints",
-            "v. eat like a bird",
-            "v. eat by pecking at, like a bird"
-        ],
-        "usphone": "pɛk",
-        "ukphone": "pek"
-    },
-    {
-        "name": "cliff",
-        "trans": [
-            "n. a steep high face of rock"
-        ],
-        "usphone": "klɪf",
-        "ukphone": "klɪf"
-    },
-    {
-        "name": "expedition",
-        "trans": [
-            "n. a journey organized for a particular purpose",
-            "n. a journey taken for pleasure",
-            "n. a military campaign designed to achieve a specific objective in a foreign country"
-        ],
-        "usphone": ",ɛkspə'dɪʃən",
-        "ukphone": "ekspɪ'dɪʃ(ə)n"
-    },
-    {
-        "name": "compulsory",
-        "trans": [
-            "adj. required by rule"
-        ],
-        "usphone": "kəmˈpʌlsərɪ",
-        "ukphone": "kəmˈpʌlsərɪ"
-    },
-    {
-        "name": "reform",
-        "trans": [
-            "v. change for the better",
-            "v. make changes for improvement in order to remove abuse and injustices",
-            "v. improve by alteration or correction of errors or defects and put into a better condition"
-        ],
-        "usphone": "rɪ'fɔrm",
-        "ukphone": "rɪ'fɔːm"
-    },
-    {
-        "name": "survival",
-        "trans": [
-            "n. something that survives",
-            "n. a natural process resulting in the evolution of organisms best adapted to the environment",
-            "n. a state of surviving"
-        ],
-        "usphone": "sɚ'vaɪvl",
-        "ukphone": "sə'vaɪv(ə)l"
-    },
-    {
-        "name": "Captain Bligh",
-        "trans": [
-            "to announce name of weed plant (fat hen, goosefoot, pigweed etc) captain (of a boat)"
-        ],
-        "usphone": "",
-        "ukphone": ""
-    },
-    {
-        "name": "Tahiti",
-        "trans": [
-            "(loanword) (pastry) tart the West to carry (hanging down from the hand) island to be located at Pacific Ocean"
-        ],
-        "usphone": "tɑ:'hi:ti; tə-",
-        "ukphone": "tɑ:'hi:ti; tə-"
-    },
-    {
-        "name": "incident",
-        "trans": [
-            "adj. (sometimes followed by `to') minor or casual or subordinate in significance or nature or occurring as a chance concomitant or consequence",
-            "adj. falling or striking of light rays on something",
-            "n. a single distinct event"
-        ],
-        "usphone": "'ɪnsɪdənt",
-        "ukphone": "'ɪnsɪd(ə)nt"
-    },
-    {
-        "name": "departure",
-        "trans": [
-            "n. the act of departing",
-            "n. euphemistic expressions for death",
-            "n. a variation that deviates from the standard or norm"
-        ],
-        "usphone": "dɪ'pɑrtʃɚ",
-        "ukphone": "dɪ'pɑːtʃə"
-    },
-    {
-        "name": "crew",
-        "trans": [
-            "v. to serve as a crew member on",
-            "n. an organized group of workmen",
-            "n. the men and women who operate a vehicle, ship, aircraft, etc."
-        ],
-        "usphone": "krʊ",
-        "ukphone": "kruː"
-    },
-    {
-        "name": "deposit",
-        "trans": [
-            "v. put, fix, force, or implant",
-            "v. put (something somewhere) firmly",
-            "v. put into a bank account"
-        ],
-        "usphone": "dɪ'pɑzɪt",
-        "ukphone": "dɪ'pɒzɪt"
-    },
-    {
-        "name": "dilemma",
-        "trans": [
-            "n. state of uncertainty or perplexity especially as requiring a choice between equally unfavorable options"
-        ],
-        "usphone": "dəˈlɛmə, daɪ-",
-        "ukphone": "dɪ'lemə; daɪ-"
-    },
-    {
-        "name": "drawback",
-        "trans": [
-            "n. the quality of being a hindrance"
-        ],
-        "usphone": "'drɔbæk",
-        "ukphone": "'drɔːbæk"
-    },
-    {
-        "name": "dusk",
-        "trans": [
-            "v. become dusk",
-            "n. the time of day immediately following sunset"
-        ],
-        "usphone": "dʌsk",
-        "ukphone": "dʌsk"
-    },
-    {
-        "name": "routine",
-        "trans": [
-            "adj. found in the ordinary course of events",
-            "n. an unvarying or habitual method or procedure",
-            "n. a set sequence of steps, part of larger computer program"
-        ],
-        "usphone": "rʊ'tin",
-        "ukphone": "ruː'tiːn"
-    },
-    {
-        "name": "reckon",
-        "trans": [
-            "v. expect, believe, or suppose",
-            "v. make a mathematical calculation or computation",
-            "v. deem to be"
-        ],
-        "usphone": "'rɛkən",
-        "ukphone": "'rek(ə)n"
-    },
-    {
-        "name": "reckoning",
-        "trans": [
-            "n. the act of counting",
-            "n. problem solving that involves numbers or quantities",
-            "n. a bill for an amount due"
-        ],
-        "usphone": "'rɛkənɪŋ",
-        "ukphone": "'rek(ə)nɪŋ"
-    },
-    {
-        "name": "starvation",
-        "trans": [
-            "n. the act of depriving of food or subjecting to famine",
-            "n. a state of extreme hunger resulting from lack of essential nutrients over a prolonged period"
-        ],
-        "usphone": "stɑr'veʃən",
-        "ukphone": "stɑː'veɪʃn"
-    },
-    {
-        "name": "psychology",
-        "trans": [
-            "n. the science of mental life"
-        ],
-        "usphone": "saɪ'kɑlədʒi",
-        "ukphone": "saɪ'kɒlədʒɪ"
-    },
-    {
-        "name": "tension",
-        "trans": [
-            "n. the action of stretching something tight",
-            "n. in physics, a stress that produces an elongation of an elastic physical body",
-            "n. feelings of hostility that are not manifest"
-        ],
-        "usphone": "'tɛnʃən",
-        "ukphone": "'tenʃn"
-    },
-    {
-        "name": "gradual",
-        "trans": [
-            "adj. proceeding in small stages",
-            "adj. (of a topographical gradient) not steep or abrupt",
-            "n. (Roman Catholic Church) an antiphon (usually from the Book of Psalms) immediately after the epistle at Mass"
-        ],
-        "usphone": "'ɡrædʒuəl",
-        "ukphone": "'grædʒʊəl"
-    },
-    {
-        "name": "foresee",
-        "trans": [
-            "v. realize beforehand",
-            "v. picture to oneself",
-            "v. act in advance of"
-        ],
-        "usphone": "fɔr'si",
-        "ukphone": "fɔː'siː"
-    },
-    {
-        "name": "thirst",
-        "trans": [
-            "v. have a craving, appetite, or great desire for",
-            "v. feel the need to drink",
-            "n. strong desire for something (not food or drink)"
-        ],
-        "usphone": "θɝst",
-        "ukphone": "θɜːst"
-    },
-    {
-        "name": "Timor",
-        "trans": [
-            "Timor island to be located at Southeast Asia"
-        ],
-        "usphone": "'ti:mɔ:; 'tai-; ti'mɔ:",
-        "ukphone": "'ti:mɔ:; 'tai-; ti'mɔ:"
-    },
-    {
-        "name": "set loose",
-        "trans": [
-            "to set off, to begin"
-        ],
-        "usphone": "",
-        "ukphone": ""
-    },
-    {
-        "name": "tear",
-        "trans": [
-            "v. fill with tears or shed tears",
-            "v. strip of feathers",
-            "v. to separate or be separated by force"
-        ],
-        "usphone": "(for v.) ˈter; (for n.) ˈtir",
-        "ukphone": "(for v.) ˈtɛː; (for n.) ˈtɪə"
-    },
-    {
-        "name": "hardship",
-        "trans": [
-            "n. something hard to endure",
-            "n. something that causes or entails suffering",
-            "n. a state of misfortune or affliction"
-        ],
-        "usphone": "'hɑrdʃɪp",
-        "ukphone": "'hɑːdʃɪp"
-    },
-    {
-        "name": "jaw",
-        "trans": [
-            "v. censure severely or angrily",
-            "v. talk incessantly and tiresomely",
-            "v. talk socially without exchanging too much information"
-        ],
-        "usphone": "dʒɔ",
-        "ukphone": "dʒɔː"
-    },
-    {
-        "name": "jaws of death",
-        "trans": [
-            "the gates of hell, mythological figure (such as the Grim Reaper) in charge of taking the souls of those who die"
-        ],
-        "usphone": "",
-        "ukphone": ""
-    },
-    {
-        "name": "Greenland",
-        "trans": [
-            "Green or Greene (name) orchid (, Cymbidium goeringii) to be located at North America Northeast China ministry, ranked number one in the world big island"
-        ],
-        "usphone": "'grinlənd",
-        "ukphone": "'ɡri:nlənd"
-    },
-    {
-        "name": "Shetland Islands",
-        "trans": [
-            "Shetland Islands to be located at United Kingdom (UK) Scotland northern part"
-        ],
-        "usphone": "",
-        "ukphone": ""
-    },
-    {
-        "name": "the Faroe Islands",
-        "trans": [
-            "Faroe Islands to be located at Denmark North Atlantic"
-        ],
-        "usphone": "",
-        "ukphone": ""
-    },
-    {
-        "name": "roar",
-        "trans": [
-            "v. laugh unrestrainedly and heartily",
-            "v. utter words loudly and forcefully",
-            "v. make a loud noise, as of wind, water, or vehicles"
-        ],
-        "usphone": "rɔr",
-        "ukphone": "rɔː"
-    },
-    {
-        "name": "background",
-        "trans": [
-            "v. to understate the importance or quality of",
-            "n. scenery hung at back of stage",
-            "n. (computer science) the area of the screen in graphical user interfaces against which icons and windows appear"
-        ],
-        "usphone": "'bækɡraʊnd",
-        "ukphone": "'bækgraʊnd"
-    },
-    {
-        "name": "associate",
-        "trans": [
-            "v. to make a logical or causal connection",
-            "v. to keep company with",
-            "adj. having partial rights and privileges or subordinate status"
-        ],
-        "usphone": "ə'soʃɪet",
-        "ukphone": "ə'səʊʃɪeɪt; -sɪeɪt"
-    },
-    {
-        "name": "associate with",
-        "trans": [
-            "(formal) and connection"
-        ],
-        "usphone": "",
-        "ukphone": ""
-    },
-    {
-        "name": "Perth",
-        "trans": [
-            "to think Australia southwest part port city"
-        ],
-        "usphone": "pɜrθ",
-        "ukphone": "pə:θ"
-    },
-    {
-        "name": "Kakadu",
-        "trans": [
-            "to stop to stop birchleaf pear (tree) bay"
-        ],
-        "usphone": "",
-        "ukphone": ""
-    },
-    {
-        "name": "Canberra",
-        "trans": [
-            "Canberra, capital of Australia Australia capital (city)"
-        ],
-        "usphone": "'kænbərə",
-        "ukphone": "'kænbərə"
-    },
-    {
-        "name": "Uluru",
-        "trans": [
-            "crow (old) rice vessel Lu, an ancient state of China, [Lu3 guo2], dust thus Slovakia cliff Ayres Rock aboriginal name"
-        ],
-        "usphone": "'u:ləru:",
-        "ukphone": ""
-    },
-    {
-        "name": "barrier",
-        "trans": [
-            "n. a structure or object that impedes free movement",
-            "n. any condition that makes it difficult to make progress or to achieve an objective",
-            "n. anything serving to maintain separation by obstructing vision or access"
-        ],
-        "usphone": "'bærɪɚ",
-        "ukphone": "'bærɪə"
-    },
-    {
-        "name": "Great Barrier Reef",
-        "trans": [
-            "Great Barrier Reef, Queensland, Australia"
-        ],
-        "usphone": "",
-        "ukphone": ""
-    },
-    {
-        "name": "brochure",
-        "trans": [
-            "n. a small book usually having a paper cover"
-        ],
-        "usphone": "bro'ʃʊr",
-        "ukphone": "'brəʊʃə; brɒ'ʃʊə"
-    },
-    {
-        "name": "Commonwealth",
-        "trans": [
-            "n. a politically organized body of people under a single government",
-            "n. a political system in which the supreme power lies in a body of citizens who can elect people to represent them",
-            "n. a world organization of autonomous states that are united in allegiance to a central power but are not subordinate to it or to one another"
-        ],
-        "usphone": "'kɑmən'wɛlθ",
-        "ukphone": "'kɒmənwelθ"
-    },
-    {
-        "name": "Kosciuszko",
-        "trans": [
-            "branch of study the West prefix used before monosyllabic names, kinship terms etc to indicate familiarity Slovakia branch of study mountain to be located at Australia southeast part"
-        ],
-        "usphone": "",
-        "ukphone": ""
-    },
-    {
-        "name": "Oceania",
-        "trans": [
-            "Oceania"
-        ],
-        "usphone": ",oʃɪ'ænɪə",
-        "ukphone": ",əʊsɪ'ɑːnɪə; -ʃɪ-"
-    },
-    {
-        "name": "adequate",
-        "trans": [
-            "adj. having the requisite qualities or resources to meet a task",
-            "adj. about average",
-            "adj. sufficient for the purpose"
-        ],
-        "usphone": "ˈædɪkwət",
-        "ukphone": "'ædɪkwət"
-    },
-    {
-        "name": "Melbourne",
-        "trans": [
-            "Melbourne, Australia Australia southeast part harbor market, Victoria, southeastern Australian state capital city of an autonomous region"
-        ],
-        "usphone": "'mɛlbən",
-        "ukphone": "'melbən"
-    },
-    {
-        "name": "ecology",
-        "trans": [
-            "n. the branch of biology concerned with the relations between organisms and their environment",
-            "n. the environment as it relates to living organisms"
-        ],
-        "usphone": "ɪ'kɑlədʒi",
-        "ukphone": "ɪ'kɒlədʒɪ; e-"
-    },
-    {
-        "name": "autonomous",
-        "trans": [
-            "adj. (of persons) free from external control and constraint in e.g. action and judgment",
-            "adj. existing as an independent entity",
-            "adj. of political bodies, not controlled by outside forces"
-        ],
-        "usphone": "ɔ'tɑnəməs",
-        "ukphone": "ɔː'tɒnəməs"
-    },
-    {
-        "name": "federal",
-        "trans": [
-            "adj. being of or having to do with the northern United States and those loyal to the Union during the American Civil War"
-        ],
-        "usphone": "'fɛdərəl",
-        "ukphone": "'fed(ə)r(ə)l"
-    },
-    {
-        "name": "defence",
-        "trans": [
-            "n. the act of defending someone or something against attack or injury",
-            "n. protection from harm",
-            "n. military action or resources protecting a country against potential enemies"
-        ],
-        "usphone": "di'fens",
-        "ukphone": "dɪ'fens"
-    },
-    {
-        "name": "policy",
-        "trans": [
-            "n. a plan of action adopted by an individual or social group",
-            "n. written contract or certificate of insurance",
-            "n. a line of argument rationalizing the course of action of a government"
-        ],
-        "usphone": "'pɑləsi",
-        "ukphone": "'pɒləsɪ"
-    },
-    {
-        "name": "tax",
-        "trans": [
-            "v. make a charge against or accuse",
-            "v. use to the limit",
-            "v. levy a tax on"
-        ],
-        "usphone": "tæks",
-        "ukphone": "tæks"
-    },
-    {
-        "name": "taxation",
-        "trans": [
-            "n. the imposition of taxes",
-            "n. government income due to taxation",
-            "n. charge against a citizen's person or property or activity for the support of government"
-        ],
-        "usphone": "tæk'seʃən",
-        "ukphone": "tæk'seɪʃ(ə)n"
-    },
-    {
-        "name": "nation",
-        "trans": [
-            "n. the people who live in a nation or country",
-            "n. a politically organized body of people under a single government",
-            "n. a federation of tribes (especially Native American tribes)"
-        ],
-        "usphone": "'neʃən",
-        "ukphone": "'neɪʃ(ə)n"
-    },
-    {
-        "name": "citizen",
-        "trans": [
-            "n. a native or naturalized member of a state or other political community"
-        ],
-        "usphone": "'sɪtɪzn",
-        "ukphone": "'sɪtɪz(ə)n"
-    },
-    {
-        "name": "citizenship",
-        "trans": [
-            "n. conduct as a citizen",
-            "n. the status of a citizen with rights and duties"
-        ],
-        "usphone": "'sɪtɪzənʃɪp",
-        "ukphone": "'sɪtɪzən,ʃɪp"
-    },
-    {
-        "name": "celebration",
-        "trans": [
-            "n. any joyous diversion",
-            "n. the public performance of a sacrament or solemn ceremony with all appropriate ritual",
-            "n. a joyful occasion for special festivities to mark some happy event"
-        ],
-        "usphone": ",sɛlɪ'breʃən",
-        "ukphone": "selɪ'breɪʃ(ə)n"
-    },
-    {
-        "name": "birthplace",
-        "trans": [
-            "n. the place where someone was born",
-            "n. where something originated or was nurtured in its early existence"
-        ],
-        "usphone": "'bɝθ'ples",
-        "ukphone": "'bɜːθpleɪs"
-    },
-    {
-        "name": "tolerate",
-        "trans": [
-            "v. put up with something or somebody unpleasant",
-            "v. allow the presence of or allow (an activity) without opposing or prohibiting",
-            "v. have a tolerance for a poison or strong drug or pathogen or environmental condition"
-        ],
-        "usphone": "'tɑləret",
-        "ukphone": "'tɒləreɪt"
-    },
-    {
-        "name": "tolerance",
-        "trans": [
-            "n. the act of tolerating something",
-            "n. a disposition to allow freedom of choice and behavior",
-            "n. a permissible difference"
-        ],
-        "usphone": "'tɑlərəns",
-        "ukphone": "'tɒl(ə)r(ə)ns"
-    },
-    {
-        "name": "migrant",
-        "trans": [
-            "adj. habitually moving from place to place especially in search of seasonal work",
-            "n. traveler who moves from one region or country to another"
-        ],
-        "usphone": "'maɪɡrənt",
-        "ukphone": "'maɪgr(ə)nt"
-    },
-    {
-        "name": "homeland",
-        "trans": [
-            "n. the country where you were born"
-        ],
-        "usphone": "'homlænd",
-        "ukphone": "'həʊmlænd"
-    },
-    {
-        "name": "via",
-        "trans": [
-            "via, classics, to pass through"
-        ],
-        "usphone": "ˈvaɪə, ˈviə",
-        "ukphone": "ˈvaɪə，ˈviːə"
-    },
-    {
-        "name": "Adelaide",
-        "trans": [
-            "Adelaide, capital of South Australia Australia southeast part harbor market, Taiwan pr. [na2] Australia front capital city of an autonomous region"
-        ],
-        "usphone": "'ædəleid",
-        "ukphone": "'ædəleid"
-    },
-    {
-        "name": "superb",
-        "trans": [
-            "adj. surpassingly good",
-            "adj. of surpassing excellence"
-        ],
-        "usphone": "suːˈpɜːrb",
-        "ukphone": "suː'pɜːb; sjuː-"
-    },
-    {
-        "name": "Nullarbor",
-        "trans": [
-            "to receive to pull one hundred (old) field to be located at Australia southwest part, rocket to manufacture al-Qaeda (joining two nouns) and experimental station"
-        ],
-        "usphone": "",
-        "ukphone": ""
-    },
-    {
-        "name": "rust",
-        "trans": [
-            "v. become coated with oxide",
-            "v. become destroyed by water, air, or a corrosive such as an acid",
-            "v. cause to deteriorate due to the action of water, air, or an acid"
-        ],
-        "usphone": "rʌst",
-        "ukphone": "rʌst"
-    },
-    {
-        "name": "rusty",
-        "trans": [
-            "adj. of the brown color of rust",
-            "adj. ancient",
-            "adj. covered with or consisting of rust"
-        ],
-        "usphone": "'rʌsti",
-        "ukphone": "'rʌstɪ"
-    },
-    {
-        "name": "tropical",
-        "trans": [
-            "adj. of weather or climate",
-            "adj. characterized by or of the nature of a trope or tropes",
-            "adj. relating to or situated in or characteristic of the tropics (the region on either side of the equator)"
-        ],
-        "usphone": "'trɑpɪkl",
-        "ukphone": "'trɒpɪk(ə)l"
-    },
-    {
-        "name": "splendour",
-        "trans": [
-            "n. the quality of being magnificent or splendid or grand",
-            "n. a quality that outshines the usual"
-        ],
-        "usphone": "ˈsplɛndɚ",
-        "ukphone": "'splendə"
-    },
-    {
-        "name": "timetable",
-        "trans": [
-            "n. a schedule of times of arrivals and departures",
-            "n. a schedule listing events and the times at which they will take place"
-        ],
-        "usphone": "'taɪm'tebl",
-        "ukphone": "'taɪmteɪb(ə)l"
-    },
-    {
-        "name": "heritage",
-        "trans": [
-            "n. hereditary succession to a title or an office or property",
-            "n. any attribute or immaterial possession that is inherited from ancestors",
-            "n. practices that are handed down from the past by tradition"
-        ],
-        "usphone": "'hɛrɪtɪdʒ",
-        "ukphone": "'herɪtɪdʒ"
-    },
-    {
-        "name": "aboriginal",
-        "trans": [
-            "adj. of or pertaining to members of the indigenous people of Australia"
-        ],
-        "usphone": ",æbə'rɪdʒənl",
-        "ukphone": "æbə'rɪdʒɪn(ə)l"
-    },
-    {
-        "name": "out of respect",
-        "trans": [
-            "due to respect"
-        ],
-        "usphone": "",
-        "ukphone": ""
-    },
-    {
-        "name": "fortnight",
-        "trans": [
-            "n. a period of fourteen consecutive days"
-        ],
-        "usphone": "'fɔrtnaɪt",
-        "ukphone": "'fɔːtnaɪt"
-    },
-    {
-        "name": "reservation",
-        "trans": [
-            "n. the act of keeping back or setting aside for some future occasion",
-            "n. the act of reserving a place or passage or engaging the services of a person or group",
-            "n. an unstated doubt that prevents you from accepting something wholeheartedly"
-        ],
-        "usphone": ",rɛzɚ'veʃən",
-        "ukphone": "rezə'veɪʃ(ə)n"
-    },
-    {
-        "name": "Hobart",
-        "trans": [
-            "obscure Barth or Barthes (name) Australia Tasmania (Tw) island southeast bank harbor market"
-        ],
-        "usphone": "'həuba:t",
-        "ukphone": "'həuba:t"
-    },
-    {
-        "name": "highway",
-        "trans": [
-            "n. a major road for any form of motor transport"
-        ],
-        "usphone": "'haɪwe",
-        "ukphone": "'haɪweɪ"
-    },
-    {
-        "name": "cradle",
-        "trans": [
-            "v. to run with the stick",
-            "v. to hold gently and carefully",
-            "v. to wash in a cradle"
-        ],
-        "usphone": "'kredl",
-        "ukphone": "'kreɪd(ə)l"
-    },
-    {
-        "name": "rainfall",
-        "trans": [
-            "n. water falling in drops from vapor condensed in the atmosphere"
-        ],
-        "usphone": "'ren'fɔl",
-        "ukphone": "'reɪnfɔːl"
-    },
-    {
-        "name": "agriculture",
-        "trans": [
-            "n. the practice of cultivating the land or raising stock",
-            "n. a large-scale farming enterprise",
-            "n. the class of people engaged in growing food"
-        ],
-        "usphone": "'æɡrɪkʌltʃɚ",
-        "ukphone": "'ægrɪkʌltʃə"
-    },
-    {
-        "name": "sow",
-        "trans": [
-            "v. introduce into an environment",
-            "v. place seeds in or on the ground for future growth",
-            "v. place seeds in or on the ground"
-        ],
-        "usphone": "so",
-        "ukphone": "səʊ"
-    },
-    {
-        "name": "bachelor",
-        "trans": [
-            "n. a man who has never been married",
-            "n. a knight of the lowest order"
-        ],
-        "usphone": "'bætʃəlɚ",
-        "ukphone": "'bætʃələ"
-    },
-    {
-        "name": "correspond",
-        "trans": [
-            "v. to exchange messages",
-            "v. to be equivalent or parallel, in mathematics",
-            "v. to be compatible, similar or consistent"
-        ],
-        "usphone": ",kɔrə'spɑnd",
-        "ukphone": "kɒrɪ'spɒnd"
-    },
-    {
-        "name": "correspond with",
-        "trans": [
-            "(formal) and to correspond (by letter, email etc)"
-        ],
-        "usphone": "",
-        "ukphone": ""
-    },
-    {
-        "name": "owe",
-        "trans": [
-            "v. be in debt",
-            "v. be obliged to pay or repay",
-            "v. be indebted to, in an abstract or intellectual sense"
-        ],
-        "usphone": "o",
-        "ukphone": "əʊ"
-    },
-    {
-        "name": "owe to",
-        "trans": [
-            "to give credit to go"
-        ],
-        "usphone": "",
-        "ukphone": ""
-    },
-    {
-        "name": "enclosure",
-        "trans": [
-            "n. the act of enclosing something inside something else",
-            "n. a structure consisting of an area that has been enclosed for some purpose",
-            "n. something (usually a supporting document) that is enclosed in an envelope with a covering letter"
-        ],
-        "usphone": "ɪn'kloʒɚ",
-        "ukphone": "ɪn'kləʊʒə; en-"
-    },
-    {
-        "name": "authority",
-        "trans": [
-            "n. official permission or approval",
-            "n. the power or right to give orders or make decisions",
-            "n. freedom from doubt"
-        ],
-        "usphone": "ə'θɔrəti",
-        "ukphone": "ɔː'θɒrɪtɪ"
-    },
-    {
-        "name": "desperate",
-        "trans": [
-            "adj. arising from or marked by despair or loss of hope",
-            "adj. desperately determined",
-            "adj. (of persons) dangerously reckless or violent as from urgency or despair"
-        ],
-        "usphone": "'dɛspərət",
-        "ukphone": "'desp(ə)rət"
-    },
-    {
-        "name": "shrink",
-        "trans": [
-            "v. decrease in size, range, or extent",
-            "v. become smaller or draw together",
-            "v. reduce in size"
-        ],
-        "usphone": "ʃrɪŋk",
-        "ukphone": "ʃrɪŋk"
-    },
-    {
-        "name": "barbecue",
-        "trans": [
-            "v. to cook outdoors on a grill",
-            "n. a rack to hold meat for cooking over hot charcoal usually out of doors",
-            "n. a cookout in which food is cooked over an open fire"
-        ],
-        "usphone": "'bɑrbɪkju",
-        "ukphone": "'bɑːbɪkjuː"
-    },
-    {
-        "name": "talk... into...",
-        "trans": [
-            "to persuade someone to make something"
-        ],
-        "usphone": "",
-        "ukphone": ""
-    },
-    {
-        "name": "wind",
-        "trans": [
-            "v. raise or haul up with or as if with mechanical help",
-            "v. form into a wreath",
-            "v. coil the spring of (some mechanical device) by turning a stem"
-        ],
-        "usphone": "wɪnd; (for v.) waɪnd",
-        "ukphone": "wɪnd; (for v.) waɪnd"
-    },
-    {
-        "name": "limb",
-        "trans": [
-            "n. any projection that is thought to resemble a human arm",
-            "n. the graduated arc that is attached to an instrument for measuring angles",
-            "n. either of the two halves of a bow from handle to tip"
-        ],
-        "usphone": "lɪm",
-        "ukphone": "lɪm"
-    },
-    {
-        "name": "venom",
-        "trans": [
-            "n. anger directed at someone",
-            "n. a need to see others suffer",
-            "n. a toxin used by animals to catch prey or defend against predators, which is administered through a delivery mechanism"
-        ],
-        "usphone": "'vɛnəm",
-        "ukphone": "'venəm"
-    },
-    {
-        "name": "venomous",
-        "trans": [
-            "adj. marked by deep ill will",
-            "adj. extremely poisonous or injurious"
-        ],
-        "usphone": "'vɛnəməs",
-        "ukphone": "'venəməs"
-    },
-    {
-        "name": "anti-venom",
-        "trans": [
-            "to resist poison"
-        ],
-        "usphone": "",
-        "ukphone": ""
-    },
-    {
-        "name": "paralyze",
-        "trans": [
-            "v. cause to be paralyzed and immobile",
-            "v. make powerless and unable to function"
-        ],
-        "usphone": "'pærə,laɪz",
-        "ukphone": "'pærəlaiz"
-    },
-    {
-        "name": "sickness",
-        "trans": [
-            "n. impairment of normal physiological function affecting part or all of an organism",
-            "n. the state that precedes vomiting",
-            "n. defectiveness or unsoundness"
-        ],
-        "usphone": "'sɪknəs",
-        "ukphone": "'sɪknɪs"
-    },
-    {
-        "name": "recover",
-        "trans": [
-            "v. get over an illness or shock",
-            "v. regain a former condition after a financial loss",
-            "v. cover anew"
-        ],
-        "usphone": "rɪ'kʌvɚ",
-        "ukphone": "rɪ'kʌvə"
-    },
-    {
-        "name": "funnel",
-        "trans": [
-            "v. move or pour through a funnel",
-            "n. (nautical) smokestack consisting of a shaft for ventilation or the passage of smoke (especially the smokestack of a ship)",
-            "n. a conically shaped utensil having a narrow tube at the small end"
-        ],
-        "usphone": "'fʌnl",
-        "ukphone": "'fʌn(ə)l"
-    },
-    {
-        "name": "funnelweb spider",
-        "trans": [
-            "funnel net spider"
-        ],
-        "usphone": "",
-        "ukphone": ""
-    },
-    {
-        "name": "snatch",
-        "trans": [
-            "v. to make grasping motions",
-            "v. to grasp hastily or eagerly",
-            "v. take away to an undisclosed location against their will and usually in order to extract a ransom"
-        ],
-        "usphone": "",
-        "ukphone": ""
-    },
-    {
-        "name": "amongst",
-        "trans": [
-            "to exist the middle, to exist inside"
-        ],
-        "usphone": "ə'mʌŋst",
-        "ukphone": "ə'mʌŋst"
-    },
-    {
-        "name": "vinegar",
-        "trans": [
-            "n. sour-tasting liquid produced usually by oxidation of the alcohol in wine or cider and used as a condiment or food preservative",
-            "n. dilute acetic acid"
-        ],
-        "usphone": "'vɪnɪɡɚ",
-        "ukphone": "'vɪnɪgə"
-    },
-    {
-        "name": "unconscious",
-        "trans": [
-            "adj. (followed by `of') not knowing or perceiving",
-            "adj. not conscious",
-            "adj. without conscious volition"
-        ],
-        "usphone": "ʌn'kɑnʃəs",
-        "ukphone": "ʌn'kɒnʃəs"
-    },
-    {
-        "name": "pollinate",
-        "trans": [
-            "v. fertilize by transfering pollen"
-        ],
-        "usphone": "'pɑlənet",
-        "ukphone": "'pɒlɪneɪt"
-    },
-    {
-        "name": "pollinator",
-        "trans": [
-            "n. an insect that carries pollen from one flower to another"
-        ],
-        "usphone": "'pɑlɪnetɚ",
-        "ukphone": ""
-    },
-    {
-        "name": "courtyard",
-        "trans": [
-            "n. an area wholly or partly surrounded by walls or buildings"
-        ],
-        "usphone": "'kɔrtjɑrd",
-        "ukphone": "'kɔːtjɑːd"
-    },
-    {
-        "name": "balcony",
-        "trans": [
-            "n. a platform projecting from the wall of a building and surrounded by a balustrade or railing or parapet",
-            "n. an upper floor projecting from the rear over the main floor in an auditorium"
-        ],
-        "usphone": "'bælkənɪ",
-        "ukphone": "'bælkənɪ"
-    },
-    {
-        "name": "exotic",
-        "trans": [
-            "adj. strikingly strange or unusual",
-            "adj. being or from or characteristic of another place or part of the world"
-        ],
-        "usphone": "ɪɡ'zɑtɪk",
-        "ukphone": "ɪg'zɒtɪk; eg-"
-    },
-    {
-        "name": "date back to",
-        "trans": [
-            "recollections to reach, far to exist a decade of a century (e.g. the Sixties)"
-        ],
-        "usphone": "",
-        "ukphone": ""
-    },
-    {
-        "name": "distant",
-        "trans": [
-            "adj. located far away spatially",
-            "adj. separate or apart in time",
-            "adj. separated in space or coming from or going to a distance"
-        ],
-        "usphone": "'dɪstənt",
-        "ukphone": "'dɪst(ə)nt"
-    },
-    {
-        "name": "Egypt",
-        "trans": [
-            "Egypt"
-        ],
-        "usphone": "'idʒɪpt",
-        "ukphone": "ˈiːdʒɪpt"
-    },
-    {
-        "name": "goods",
-        "trans": [
-            "adj. promoting or enhancing well-being",
-            "adj. having the normally expected amount",
-            "adj. with or in a close or intimate relationship"
-        ],
-        "usphone": "ɡʊdz",
-        "ukphone": "ɡʊdz"
-    },
-    {
-        "name": "scale",
-        "trans": [
-            "v. size or measure according to a scale",
-            "v. measure with or as if with scales",
-            "v. remove the scales from"
-        ],
-        "usphone": "skel",
-        "ukphone": "skeɪl"
-    },
-    {
-        "name": "conflict",
-        "trans": [
-            "v. to go against, as of rules and laws",
-            "v. to be in conflict",
-            "n. a hostile meeting of opposing military forces in the course of a war"
-        ],
-        "usphone": "'kɑnflɪkt",
-        "ukphone": "'kɒnflɪkt"
-    },
-    {
-        "name": "missionary",
-        "trans": [
-            "adj. relating to or connected to a religious mission",
-            "n. someone who attempts to convert others to a particular doctrine or program",
-            "n. someone sent on a mission--especially a religious or charitable mission to a foreign country"
-        ],
-        "usphone": "'mɪʃənɛri",
-        "ukphone": "'mɪʃ(ə)n(ə)rɪ"
-    },
-    {
-        "name": "d'Incaville",
-        "trans": [
-            "rushing current to execute (a plan) within France"
-        ],
-        "usphone": "",
-        "ukphone": ""
-    },
-    {
-        "name": "Joseph",
-        "trans": [
-            "Joseph (name)"
-        ],
-        "usphone": "ˈdʒozəf, -səf",
-        "ukphone": "ˈdʒəuzif"
-    },
-    {
-        "name": "endeavour",
-        "trans": [
-            "v. attempt by employing effort",
-            "n. earnest and conscientious activity intended to do or accomplish something",
-            "n. a purposeful or industrious undertaking (especially one that requires effort or boldness)"
-        ],
-        "usphone": "",
-        "ukphone": ""
-    },
-    {
-        "name": "anchor",
-        "trans": [
-            "v. to secure a vessel with an anchor or weight",
-            "v. to fix firmly and stably",
-            "n. a mechanical device that prevents a vessel from moving"
-        ],
-        "usphone": "'æŋkɚ",
-        "ukphone": "'æŋkə"
-    },
-    {
-        "name": "Nathaniel Ward",
-        "trans": [
-            "to receive to let go Buddhist nun thus fertile Germany"
-        ],
-        "usphone": "",
-        "ukphone": ""
-    },
-    {
-        "name": "tight",
-        "trans": [
-            "adj. affected by scarcity and expensive to borrow",
-            "adj. packed closely together",
-            "adj. demanding strict attention to rules and procedures"
-        ],
-        "usphone": "taɪt",
-        "ukphone": "taɪt"
-    },
-    {
-        "name": "seal",
-        "trans": [
-            "v. decide irrevocably",
-            "v. hunt seals",
-            "v. cover with varnish"
-        ],
-        "usphone": "sil",
-        "ukphone": "sil"
-    },
-    {
-        "name": "container",
-        "trans": [
-            "n. any object that can be used to hold things (especially a large metal boxlike object of standardized dimensions that can be loaded from one form of transport to another)"
-        ],
-        "usphone": "kən'tenɚ",
-        "ukphone": "kən'teɪnə"
-    },
-    {
-        "name": "Wardian case",
-        "trans": [
-            "fertile Germany box to train (botany) fern plant to wait for glass receptacle"
-        ],
-        "usphone": "",
-        "ukphone": ""
-    },
-    {
-        "name": "restriction",
-        "trans": [
-            "n. an act of limiting or restricting (as by regulation)",
-            "n. the act of keeping something within specified bounds (by force if necessary)",
-            "n. a principle that limits the extent of something"
-        ],
-        "usphone": "rɪ'strɪkʃən",
-        "ukphone": "rɪ'strɪkʃ(ə)n"
-    },
-    {
-        "name": "fluency",
-        "trans": [
-            "n. the quality of being facile in speech and writing",
-            "n. skillfulness in speaking or writing",
-            "n. powerful and effective language"
-        ],
-        "usphone": "'fluənsi",
-        "ukphone": "'fluːənsɪ"
-    },
-    {
-        "name": "shave",
-        "trans": [
-            "v. remove body hair with a razor",
-            "v. touch the surface of lightly",
-            "v. cut closely"
-        ],
-        "usphone": "ʃev",
-        "ukphone": "ʃeɪv"
-    },
-    {
-        "name": "thunderstorm",
-        "trans": [
-            "n. a storm resulting from strong rising air currents"
-        ],
-        "usphone": "'θʌndɚstɔrm",
-        "ukphone": "'θʌndəstɔːm"
-    },
-    {
-        "name": "pirate",
-        "trans": [
-            "v. take arbitrarily or by force",
-            "v. copy illegally",
-            "n. a ship that is manned by pirates"
-        ],
-        "usphone": "'paɪrət",
-        "ukphone": "ˈpaɪərət"
-    },
-    {
-        "name": "Father Farges",
-        "trans": [
-            "France thus to warm up Catholic or Orthodox priest France"
-        ],
-        "usphone": "",
-        "ukphone": ""
-    },
-    {
-        "name": "appeal",
-        "trans": [
-            "v. to request earnestly",
-            "v. to cite as an authority",
-            "v. to be attractive to"
-        ],
-        "usphone": "ə'pil",
-        "ukphone": "ə'piːl"
-    },
-    {
-        "name": "appeal to",
-        "trans": [
-            "right someone to have attractive force (such as gravitation)"
-        ],
-        "usphone": "",
-        "ukphone": ""
-    },
-    {
-        "name": "dove",
-        "trans": [
-            "n. any of numerous small pigeons",
-            "n. an emblem of peace",
-            "n. flesh of a pigeon suitable for roasting or braising"
-        ],
-        "usphone": "dʌv; dov",
-        "ukphone": "dʌv"
-    },
-    {
-        "name": "botanist",
-        "trans": [
-            "n. a biologist specializing in the study of plants"
-        ],
-        "usphone": "'bɑtənɪst",
-        "ukphone": "'bɒtənɪst"
-    },
-    {
-        "name": "chrysanthemum",
-        "trans": [
-            "n. any of numerous perennial Old World herbs having showy brightly colored flower heads of the genera Chrysanthemum, Argyranthemum, Dendranthema, Tanacetum",
-            "n. the flower of a chrysanthemum plant"
-        ],
-        "usphone": "krɪ'sænθəməm",
-        "ukphone": "krɪ'sænθɪməm; -z-"
-    },
-    {
-        "name": "red date",
-        "trans": [
-            "jujube"
-        ],
-        "usphone": "",
-        "ukphone": ""
-    },
-    {
-        "name": "lower",
-        "trans": [
-            "v. look angry or sullen, wrinkle one's forehead, as if to signal disapproval",
-            "v. make lower or quieter",
-            "v. set lower"
-        ],
-        "usphone": "'loɚ",
-        "ukphone": "'ləʊə"
-    },
-    {
-        "name": "beard",
-        "trans": [
-            "v. to go along the rim, like a beard around the chin",
-            "n. tuft of strong filaments by which e.g. a mussel makes itself fast to a fixed surface",
-            "n. hairy growth on or near the face of certain mammals"
-        ],
-        "usphone": "bɪrd",
-        "ukphone": "bɪəd"
-    },
-    {
-        "name": "ripe",
-        "trans": [
-            "adj. fully prepared or eager",
-            "adj. far along in time",
-            "adj. at the highest point of development especially in judgment or knowledge"
-        ],
-        "usphone": "raɪp",
-        "ukphone": "raɪp"
-    },
-    {
-        "name": "irrigation",
-        "trans": [
-            "n. (medicine) cleaning a wound or body organ by flushing or washing out with water or a medicated solution",
-            "n. supplying dry land with water by means of ditches etc"
-        ],
-        "usphone": "ˌɪrɪˈɡeʃn",
-        "ukphone": ""
-    },
-    {
-        "name": "weed",
-        "trans": [
-            "v. clear of weeds",
-            "n. street names for marijuana",
-            "n. a black band worn by a man (on the arm or hat) as a sign of mourning"
-        ],
-        "usphone": "wid",
-        "ukphone": "wiːd"
-    },
-    {
-        "name": "spear",
-        "trans": [
-            "v. pierce with a spear",
-            "v. thrust up like a spear",
-            "n. a long pointed rod used as a tool or weapon"
-        ],
-        "usphone": "spɪr",
-        "ukphone": "spɪə"
-    },
-    {
-        "name": "string",
-        "trans": [
-            "v. add as if on a string",
-            "v. provide with strings",
-            "v. thread on or as if on a string"
-        ],
-        "usphone": "strɪŋ",
-        "ukphone": "strɪŋ"
-    },
-    {
-        "name": "spade",
-        "trans": [
-            "v. dig (up) with a spade",
-            "n. a sturdy hand shovel that can be pushed into the earth with the foot",
-            "n. a playing card in the major suit that has one or more black figures on it"
-        ],
-        "usphone": "sped",
-        "ukphone": "speɪd"
-    },
-    {
-        "name": "postpone",
-        "trans": [
-            "v. hold back to a later time"
-        ],
-        "usphone": "po'spon",
-        "ukphone": "pəʊs(t)'pəʊn; pə'spəʊn"
-    },
-    {
-        "name": "pyramid",
-        "trans": [
-            "v. increase rapidly and progressively step by step on a broad base",
-            "v. arrange or build up as if on the base of a pyramid",
-            "v. use or deal in (as of stock or commercial transaction) in a pyramid deal"
-        ],
-        "usphone": "'pɪrəmɪd",
-        "ukphone": "'pɪrəmɪd"
-    },
-    {
-        "name": "monument",
-        "trans": [
-            "n. a structure erected to commemorate persons or events",
-            "n. a burial vault (usually for some famous person)",
-            "n. an important site that is marked and preserved as public property"
-        ],
-        "usphone": "'mɑnjumənt",
-        "ukphone": "'mɒnjʊm(ə)nt"
-    },
-    {
-        "name": "pitcher plant",
-        "trans": [
-            "n. any of several insectivorous herbs of the order Sarraceniales"
-        ],
-        "usphone": "",
-        "ukphone": ""
-    },
-    {
-        "name": "Raffesia arnoldii",
-        "trans": [
-            "king flower"
-        ],
-        "usphone": "",
-        "ukphone": ""
-    },
-    {
-        "name": "rot",
-        "trans": [
-            "v. become physically weaker",
-            "v. break down",
-            "n. unacceptable behavior (especially ludicrously false statements)"
-        ],
-        "usphone": "rɑt",
-        "ukphone": "rɒt"
-    },
-    {
-        "name": "evolve",
-        "trans": [
-            "v. undergo development or evolution",
-            "v. gain through experience",
-            "v. work out"
-        ],
-        "usphone": "ɪ'vɑlv",
-        "ukphone": "ɪ'vɒlv"
-    },
-    {
-        "name": "evolution",
-        "trans": [
-            "n. a process in which something passes by degrees to a different stage (especially a more advanced or mature stage)",
-            "n. (biology) the sequence of events involved in the evolutionary development of a species or taxonomic group of organisms"
-        ],
-        "usphone": "ˌɛvəˈluʃən; (occas.) ˌ ivəˈluʃən",
-        "ukphone": ",iːvə'luːʃ(ə)n; 'ev-"
-    },
-    {
-        "name": "nectar",
-        "trans": [
-            "n. (classical mythology) the food and drink of the gods",
-            "n. fruit juice especially when undiluted",
-            "n. a sweet liquid secretion that is attractive to pollinators"
-        ],
-        "usphone": "'nɛktɚ",
-        "ukphone": "'nektə"
-    },
-    {
-        "name": "attach",
-        "trans": [
-            "v. to be connected or attached",
-            "v. to adhere to",
-            "v. to create social or emotional ties"
-        ],
-        "usphone": "ə'tætʃ",
-        "ukphone": "ə'tætʃ"
-    },
-    {
-        "name": "wasp",
-        "trans": [
-            "n. a white person of Anglo-Saxon ancestry who belongs to a Protestant denomination"
-        ],
-        "usphone": "wɑsp",
-        "ukphone": "wɒsp"
-    },
-    {
-        "name": "beetle",
-        "trans": [
-            "v. to beat with a large mallet, used to beat pavements and wedges",
-            "v. to fly or go in a manner resembling a beetle",
-            "v. to be suspended over or hang over"
-        ],
-        "usphone": "'bi:tl",
-        "ukphone": "'biːt(ə)l"
-    },
-    {
-        "name": "bat",
-        "trans": [
-            "v. to wink briefly",
-            "v. to strike with, or as if with a baseball bat",
-            "v. to use a bat"
-        ],
-        "usphone": "bæt",
-        "ukphone": "bæt"
-    },
-    {
-        "name": "moth",
-        "trans": [
-            "n. typically crepuscular or nocturnal insect having a stout body and feathery or hairlike antennae"
-        ],
-        "usphone": "mɔθ",
-        "ukphone": "mɒθ"
-    },
-    {
-        "name": "humming-bird",
-        "trans": [
-            "hummingbird"
-        ],
-        "usphone": "",
-        "ukphone": ""
-    },
-    {
-        "name": "typical",
-        "trans": [
-            "adj. of a feature that helps to distinguish a person or thing",
-            "adj. conforming to a type",
-            "adj. exhibiting the qualities or characteristics that identify a group or kind or category"
-        ],
-        "usphone": "'tɪpɪkl",
-        "ukphone": "'tɪpɪk(ə)l"
-    },
-    {
-        "name": "petal",
-        "trans": [
-            "n. part of the perianth that is usually brightly colored"
-        ],
-        "usphone": "'pɛtl",
-        "ukphone": "'pet(ə)l"
-    },
-    {
-        "name": "tube",
-        "trans": [
-            "v. place or enclose in a tube",
-            "v. ride or float on an inflated tube",
-            "v. convey in a tube"
-        ],
-        "usphone": "tub",
-        "ukphone": "tjuːb"
-    },
-    {
-        "name": "delicate",
-        "trans": [
-            "adj. exquisitely fine and subtle and pleasing",
-            "adj. easily broken or damaged or destroyed",
-            "adj. difficult to handle"
-        ],
-        "usphone": "ˈdɛlɪkɪt",
-        "ukphone": "'delɪkət"
-    },
-    {
-        "name": "fragrant",
-        "trans": [
-            "adj. pleasant-smelling"
-        ],
-        "usphone": "'fregrənt",
-        "ukphone": "'freɪgr(ə)nt"
-    },
-    {
-        "name": "daisy",
-        "trans": [
-            "n. any of numerous composite plants having flower heads with well-developed ray flowers usually arranged in a single whorl"
-        ],
-        "usphone": "'dezi",
-        "ukphone": "'deɪzɪ"
-    },
-    {
-        "name": "odour",
-        "trans": [
-            "n. any property detected by the olfactory system",
-            "n. the sensation that results when olfactory receptors in the nose are stimulated by particular chemicals in gaseous form"
-        ],
-        "usphone": "'əudə",
-        "ukphone": "'əʊdə"
-    },
-    {
-        "name": "odourless",
-        "trans": [
-            "adj. having no odor"
-        ],
-        "usphone": "ˈodɚlɪs",
-        "ukphone": ""
-    },
-    {
-        "name": "give out",
-        "trans": [
-            "v. stop operating or functioning",
-            "v. prove insufficient",
-            "v. give to several people"
-        ],
-        "usphone": "",
-        "ukphone": ""
-    },
-    {
-        "name": "dull",
-        "trans": [
-            "v. make less lively or vigorous",
-            "v. become dull or lusterless in appearance",
-            "v. become less interesting or attractive"
-        ],
-        "usphone": "dʌl",
-        "ukphone": "dʌl"
-    },
-    {
-        "name": "musty",
-        "trans": [
-            "adj. stale and unclean smelling",
-            "adj. covered with or smelling of mold"
-        ],
-        "usphone": "'mʌsti",
-        "ukphone": "'mʌstɪ"
-    },
-    {
-        "name": "fruity",
-        "trans": [
-            "adj. informal or slang terms for mentally irregular",
-            "adj. tasting or smelling richly of or as of fruit"
-        ],
-        "usphone": "'fruti",
-        "ukphone": "'fruːtɪ"
-    },
-    {
-        "name": "billboard",
-        "trans": [
-            "n. large outdoor signboard"
-        ],
-        "usphone": "'bɪlbɔrd",
-        "ukphone": "'bɪlbɔːd"
-    },
-    {
-        "name": "casual",
-        "trans": [
-            "adj. hasty and without attention to detail",
-            "adj. marked by blithe unconcern",
-            "adj. not showing effort or strain"
-        ],
-        "usphone": "'kæʒʊəl",
-        "ukphone": "'kæʒjʊəl; -zj-"
-    },
-    {
-        "name": "garment",
-        "trans": [
-            "v. provide with clothes or put clothes on",
-            "n. an article of clothing"
-        ],
-        "usphone": "'gɑrmənt",
-        "ukphone": "'gɑːm(ə)nt"
-    },
-    {
-        "name": "turn... into",
-        "trans": [
-            "to make to change into"
-        ],
-        "usphone": "",
-        "ukphone": ""
-    },
-    {
-        "name": "advertiser",
-        "trans": [
-            "n. someone whose business is advertising"
-        ],
-        "usphone": "'ædvɚtaɪzɚ",
-        "ukphone": "'ædvə,taizə"
-    },
-    {
-        "name": "advert",
-        "trans": [
-            "v. to make a reference to",
-            "n. a public promotion of some product or service"
-        ],
-        "usphone": "ædˈvɚt",
-        "ukphone": "'ædvɜːt"
-    },
-    {
-        "name": "inform",
-        "trans": [
-            "v. give character or essence to",
-            "v. impart knowledge of some fact, state or affairs, or event to",
-            "v. act as an informer"
-        ],
-        "usphone": "ɪn'fɔrm",
-        "ukphone": "ɪn'fɔːm"
-    },
-    {
-        "name": "association",
-        "trans": [
-            "n. the act of consorting with or joining with others",
-            "n. the process of bringing ideas or events together in memory or imagination",
-            "n. (ecology) a group of organisms (plants and animals) that live together in a certain geographical region and constitute a community with a few dominant species"
-        ],
-        "usphone": "ə,soʃɪ'eʃən",
-        "ukphone": "əˌsəʊsɪˈeɪʃn"
-    },
-    {
-        "name": "target",
-        "trans": [
-            "v. intend (something) to move towards a certain goal",
-            "n. sports equipment consisting of an object set up for a marksman or archer to aim at",
-            "n. the goal intended to be attained (and which is believed to be attainable)"
-        ],
-        "usphone": "'tɑrɡɪt",
-        "ukphone": "'tɑːgɪt"
-    },
-    {
-        "name": "fit into",
-        "trans": [
-            "to fit"
-        ],
-        "usphone": "",
-        "ukphone": ""
-    },
-    {
-        "name": "basis",
-        "trans": [
-            "n. the fundamental assumptions from which something is begun or developed or calculated or explained",
-            "n. a relation that provides the foundation for something",
-            "n. the most important or necessary part of something"
-        ],
-        "usphone": "'besɪs",
-        "ukphone": "'beɪsɪs"
-    },
-    {
-        "name": "technique",
-        "trans": [
-            "n. skillfulness in the command of fundamentals deriving from practice and familiarity",
-            "n. a practical method or art applied to some particular task"
-        ],
-        "usphone": "tɛk'nik",
-        "ukphone": "tek'niːk"
-    },
-    {
-        "name": "lane",
-        "trans": [
-            "n. a narrow way or road",
-            "n. a well-defined track or path"
-        ],
-        "usphone": "len",
-        "ukphone": "leɪn"
-    },
-    {
-        "name": "feature",
-        "trans": [
-            "v. have as a feature",
-            "v. wear or display in an ostentatious or proud manner",
-            "n. an article of merchandise that is displayed or advertised more than other articles"
-        ],
-        "usphone": "'fitʃɚ",
-        "ukphone": "'fiːtʃə"
-    },
-    {
-        "name": "conscience",
-        "trans": [
-            "n. conformity to one's own sense of right conduct",
-            "n. a feeling of shame when you do something immoral",
-            "n. motivation deriving logically from ethical or moral principles that govern a person's thoughts and actions"
-        ],
-        "usphone": "ˈkɑːnʃəns",
-        "ukphone": "'kɒnʃ(ə)ns"
-    },
-    {
-        "name": "worthy",
-        "trans": [
-            "adj. worthy of being chosen especially as a spouse",
-            "adj. having qualities or abilities that merit recognition in some way",
-            "adj. having worth or merit or value"
-        ],
-        "usphone": "wɜði",
-        "ukphone": "ˈwəːði"
-    },
-    {
-        "name": "corporation",
-        "trans": [
-            "n. slang for a paunch",
-            "n. a business firm whose articles of incorporation have been approved in some state"
-        ],
-        "usphone": ",kɔrpə'reʃən",
-        "ukphone": "kɔːpə'reɪʃ(ə)n"
-    },
-    {
-        "name": "budget",
-        "trans": [
-            "v. to make a budget",
-            "n. a summary of intended expenditures along with proposals for how to meet them",
-            "n. a sum of money allocated for a particular purpose"
-        ],
-        "usphone": "'bʌdʒɪt",
-        "ukphone": "'bʌdʒɪt"
-    },
-    {
-        "name": "expense",
-        "trans": [
-            "v. reduce the estimated value of something",
-            "n. a detriment or sacrifice",
-            "n. amounts paid for goods and services that may be currently tax deductible (as opposed to capital expenditures)"
-        ],
-        "usphone": "ɪk'spɛns",
-        "ukphone": "ɪk'spens; ek-"
-    },
-    {
-        "name": "broadcast",
-        "trans": [
-            "v. to cause to become widely known",
-            "v. to broadcast over the airwaves, as in radio or television",
-            "v. to sow over a wide area, especially by hand"
-        ],
-        "usphone": "'brɔdkæst",
-        "ukphone": "'brɔːdkɑːst"
-    },
-    {
-        "name": "rely",
-        "trans": [
-            "v. have confidence or faith in"
-        ],
-        "usphone": "rɪ'laɪ",
-        "ukphone": "rɪ'laɪ"
-    },
-    {
-        "name": "rely on",
-        "trans": [
-            "v. be dependent on, as for support or maintenance",
-            "v. put trust in with confidence"
-        ],
-        "usphone": "",
-        "ukphone": ""
-    },
-    {
-        "name": "visual",
-        "trans": [
-            "adj. visible",
-            "adj. relating to or using sight"
-        ],
-        "usphone": "'vɪʒʊəl",
-        "ukphone": "'vɪʒjʊəl; -zj-"
-    },
-    {
-        "name": "generate",
-        "trans": [
-            "v. make children",
-            "v. bring into existence",
-            "v. produce (energy)"
-        ],
-        "usphone": "'dʒɛnəret",
-        "ukphone": "'dʒenəreɪt"
-    },
-    {
-        "name": "response",
-        "trans": [
-            "n. a bodily process occurring due to the effect of some antecedent stimulus or agent",
-            "n. the manner in which an electrical or mechanical device responds to an input signal or a range of input signals",
-            "n. a phrase recited or sung by the congregation following a versicle by the priest or minister"
-        ],
-        "usphone": "rɪ'spɑns",
-        "ukphone": "rɪ'spɒns"
-    },
-    {
-        "name": "stereo",
-        "trans": [
-            "adj. designating sound transmission from two sources through two channels",
-            "n. reproducer in which two microphones feed two or more loudspeakers to give a three-dimensional effect to the sound",
-            "n. two photographs taken from slightly different angles that appear three-dimensional when viewed together"
-        ],
-        "usphone": "'stɛrɪo",
-        "ukphone": "'steriou"
-    },
-    {
-        "name": "have no use for",
-        "trans": [
-            "no to need, to dislike, right impatient, to loathe"
-        ],
-        "usphone": "",
-        "ukphone": ""
-    },
-    {
-        "name": "refresh",
-        "trans": [
-            "v. make fresh again",
-            "v. become or make oneself fresh again",
-            "v. make (to feel) fresh"
-        ],
-        "usphone": "ri'frɛʃ",
-        "ukphone": "rɪ'freʃ"
-    },
-    {
-        "name": "partly",
-        "trans": [
-            "adv. in part; not completely"
-        ],
-        "usphone": "'pɑrtli",
-        "ukphone": "'pɑːtlɪ"
-    },
-    {
-        "name": "murder",
-        "trans": [
-            "v. alter so as to make unrecognizable",
-            "v. kill intentionally and with premeditation",
-            "n. unlawful premeditated killing of a human being by a human being"
-        ],
-        "usphone": "'mɝdɚ",
-        "ukphone": "'mɜːdə"
-    },
-    {
-        "name": "suitcase",
-        "trans": [
-            "n. a portable rectangular container for carrying clothes"
-        ],
-        "usphone": "'sutkes",
-        "ukphone": "'suːtkeɪs"
-    },
-    {
-        "name": "sheet",
-        "trans": [
-            "v. cover with a sheet, as if by wrapping",
-            "v. come down as if in sheets",
-            "n. a large piece of fabric (usually canvas fabric) by means of which wind is used to propel a sailing vessel"
-        ],
-        "usphone": "ʃit",
-        "ukphone": "ʃiːt"
-    },
-    {
-        "name": "actress",
-        "trans": [
-            "n. a female actor"
-        ],
-        "usphone": "'æktrɪs",
-        "ukphone": "'æktrɪs"
-    },
-    {
-        "name": "typist",
-        "trans": [
-            "n. someone that types"
-        ],
-        "usphone": "'taɪpɪst",
-        "ukphone": "'taɪpɪst"
-    },
-    {
-        "name": "spokesman",
-        "trans": [
-            "n. a male spokesperson"
-        ],
-        "usphone": "",
-        "ukphone": ""
-    },
-    {
-        "name": "fluent",
-        "trans": [
-            "adj. expressing yourself readily, clearly, effectively",
-            "adj. smooth and unconstrained in movement"
-        ],
-        "usphone": "'fluənt",
-        "ukphone": "'fluːənt"
-    },
-    {
-        "name": "hostess",
-        "trans": [
-            "n. a woman innkeeper",
-            "n. a woman host",
-            "n. a woman steward on an airplane"
-        ],
-        "usphone": "'hostəs",
-        "ukphone": "'həʊstɪs; -es; həʊ'stes"
-    },
-    {
-        "name": "invitation",
-        "trans": [
-            "n. a tempting allurement",
-            "n. a request (spoken or written) to participate or be present or take part in something"
-        ],
-        "usphone": "ˌɪnvɪˈteɪʃn",
-        "ukphone": "ɪnvɪ'teɪʃ(ə)n"
-    },
-    {
-        "name": "appoint",
-        "trans": [
-            "v. to furnish",
-            "v. to assign a duty, responsibility or obligation to"
-        ],
-        "usphone": "ə'pɔɪnt",
-        "ukphone": "ə'pɒɪnt"
-    },
-    {
-        "name": "chairman",
-        "trans": [
-            "v. to act or preside as chair, as of an academic department in a university",
-            "n. the officer who presides at the meetings of an organization"
-        ],
-        "usphone": "'tʃɛrmən",
-        "ukphone": "'tʃeəmən"
-    },
-    {
-        "name": "raise",
-        "trans": [
-            "v. give a promotion to or assign to a higher position",
-            "v. bring up",
-            "v. cause to become alive again"
-        ],
-        "usphone": "rez",
-        "ukphone": "reɪz"
-    },
-    {
-        "name": "dial",
-        "trans": [
-            "v. choose by means of a dial",
-            "v. operate a dial to select a telephone number",
-            "n. the face of a timepiece"
-        ],
-        "usphone": "'daɪəl",
-        "ukphone": "'daɪəl"
-    },
-    {
-        "name": "operator",
-        "trans": [
-            "n. a shrewd or unscrupulous person who knows how to circumvent difficulties",
-            "n. an agent that operates some apparatus or machine",
-            "n. someone who owns or operates a business"
-        ],
-        "usphone": "'ɑpəretɚ",
-        "ukphone": "'ɒpəreɪtə"
-    },
-    {
-        "name": "litre",
-        "trans": [
-            "n. a metric unit of capacity, formerly defined as the volume of one kilogram of pure water under standard conditions"
-        ],
-        "usphone": "'li:tə",
-        "ukphone": "'liːtə"
-    },
-    {
-        "name": "mature",
-        "trans": [
-            "v. cause to ripen and discharge pus",
-            "v. grow old or older",
-            "v. cause to ripen or develop fully"
-        ],
-        "usphone": "mə'tʃʊr",
-        "ukphone": "mə'tʃʊə"
-    },
-    {
-        "name": "fashion",
-        "trans": [
-            "v. make out of components, often in an improvising manner",
-            "n. characteristic or habitual practice",
-            "n. consumer goods (especially clothing) in the current mode"
-        ],
-        "usphone": "'fæʃən",
-        "ukphone": "'fæʃ(ə)n"
-    },
-    {
-        "name": "misleading",
-        "trans": [
-            "adj. designed to deceive or mislead either deliberately or inadvertently"
-        ],
-        "usphone": ",mɪs'lidɪŋ",
-        "ukphone": "mɪs'liːdɪŋ"
-    },
-    {
-        "name": "disonest",
-        "trans": [
-            "no honest"
-        ],
-        "usphone": "",
-        "ukphone": ""
-    },
-    {
-        "name": "alcoholic",
-        "trans": [
-            "adj. addicted to alcohol",
-            "adj. characteristic of or containing alcohol",
-            "n. a person who drinks alcohol to excess habitually"
-        ],
-        "usphone": ",ælkə'hɔlɪk",
-        "ukphone": "ælkə'hɒlɪk"
-    },
-    {
-        "name": "tobacco",
-        "trans": [
-            "n. leaves of the tobacco plant dried and prepared for smoking or ingestion",
-            "n. aromatic annual or perennial herbs and shrubs"
-        ],
-        "usphone": "tə'bæko",
-        "ukphone": "tə'bækəʊ"
-    },
-    {
-        "name": "ban",
-        "trans": [
-            "v. to prohibit especially by legal means or social pressure",
-            "v. to forbid the public distribution of media",
-            "v. to expel from a community or group"
-        ],
-        "usphone": "bæn",
-        "ukphone": "bæn"
-    },
-    {
-        "name": "promote",
-        "trans": [
-            "v. make publicity for",
-            "v. change a pawn for a better piece by advancing it to the eighth row, or change a checker piece for a more valuable piece by moving it to the row closest to your opponent",
-            "v. be changed for a superior chess or checker piece"
-        ],
-        "usphone": "prə'mot",
-        "ukphone": "prə'məʊt"
-    },
-    {
-        "name": "immoral",
-        "trans": [
-            "adj. deliberately violating accepted principles of right and wrong",
-            "adj. not adhering to ethical or moral principles"
-        ],
-        "usphone": "ɪ'mɔrəl",
-        "ukphone": "ɪ'mɒr(ə)l"
-    },
-    {
-        "name": "decent",
-        "trans": [
-            "adj. conforming to conventions of sexual behavior",
-            "adj. observing conventional sexual mores in speech or behavior or dress",
-            "adj. decently clothed"
-        ],
-        "usphone": "'disnt",
-        "ukphone": "'diːs(ə)nt"
-    },
-    {
-        "name": "ethics",
-        "trans": [
-            "n. the philosophical study of moral values and rules",
-            "n. motivation based on ideas of right and wrong"
-        ],
-        "usphone": "‘ɛθɪks",
-        "ukphone": "'eθɪks"
-    },
-    {
-        "name": "ethical",
-        "trans": [
-            "adj. conforming to accepted standards of social or professional behavior",
-            "adj. adhering to ethical and moral principles",
-            "adj. of or relating to the philosophical study of ethics"
-        ],
-        "usphone": "'ɛθɪkl",
-        "ukphone": "'eθɪk(ə)l"
-    },
-    {
-        "name": "offending",
-        "trans": [
-            "adj. offending against or breaking a law or rule"
-        ],
-        "usphone": "ə'fendiŋ",
-        "ukphone": ""
-    },
-    {
-        "name": "beware",
-        "trans": [
-            "v. to be on one's guard"
-        ],
-        "usphone": "bɪ'wɛr",
-        "ukphone": "bɪ'weə"
-    },
-    {
-        "name": "consumer",
-        "trans": [
-            "n. a person who uses goods or services"
-        ],
-        "usphone": "kən'sumɚ",
-        "ukphone": "kən'sjuːmə"
-    },
-    {
-        "name": "trustworthy",
-        "trans": [
-            "adj. taking responsibility for one's conduct and obligations",
-            "adj. worthy of trust or belief"
-        ],
-        "usphone": "'trʌstwɝði",
-        "ukphone": "'trʌs(t)wɜːðɪ"
-    }
+  {
+    "name": "hurdling",
+    "trans": [
+      "n. a footrace in which contestants must negotiate a series of hurdles"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "boxing",
+    "trans": [
+      "n. the enclosure of something in a package or box",
+      "n. fighting with the fists"
+    ],
+    "usphone": "'bɑksɪŋ",
+    "ukphone": "'bɒksɪŋ"
+  },
+  {
+    "name": "hula hooping",
+    "trans": ["to play hula hoop (loanword)"],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "pogo stick jumping",
+    "trans": ["spring bill stilts game ("],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "jumping jack",
+    "trans": [
+      "n. plaything consisting of a toy figure with movable joints that can be made to dance by pulling strings",
+      "n. an exercise where one jumps up and down in place, moving the arms and legs out and in synchonously"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "somersaulting",
+    "trans": [
+      "n. an acrobatic feat in which the feet roll over the head and return"
+    ],
+    "usphone": "'sʌmɚsɔlt",
+    "ukphone": "'sʌməsɒlt; -sɔːlt"
+  },
+  {
+    "name": "lunge",
+    "trans": [
+      "v. make a thrusting forward movement",
+      "n. the act of moving forward suddenly",
+      "n. (fencing) an attacking thrust made with one foot forward and the back leg straight and with the sword arm outstretched forward"
+    ],
+    "usphone": "lʌndʒ",
+    "ukphone": "lʌn(d)ʒ"
+  },
+  {
+    "name": "Ashrita Furman",
+    "trans": [
+      "prefix used before monosyllabic names, kinship terms etc to indicate familiarity what lining (loanword) (pastry) tart not handsome"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "Guinness",
+    "trans": ["(name) Guinness"],
+    "usphone": "'ɡinis",
+    "ukphone": ""
+  },
+  {
+    "name": "Guiness Book of World Records",
+    "trans": ["Guinness World Records comprehensive collection"],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "approximate",
+    "trans": [
+      "v. to judge tentatively or form an estimate of quantities or time",
+      "v. to be close or similar",
+      "adj. located close together"
+    ],
+    "usphone": "ə'prɑksɪmət",
+    "ukphone": "ə'prɒksɪmət"
+  },
+  {
+    "name": "approximately",
+    "trans": ["adv. (of quantities) imprecise but fairly close to correct"],
+    "usphone": "ə'prɑksɪmətli",
+    "ukphone": "ə'prɒksɪmətlɪ"
+  },
+  {
+    "name": "conventional",
+    "trans": [
+      "adj. following accepted customs and proprieties",
+      "adj. unimaginative and conformist",
+      "adj. (weapons) using energy for propulsion or destruction that is not nuclear energy"
+    ],
+    "usphone": "kən'vɛnʃənl",
+    "ukphone": "kən'venʃ(ə)n(ə)l"
+  },
+  {
+    "name": "laughter",
+    "trans": ["n. the activity of laughing", "n. the sound of laughing"],
+    "usphone": "'læftɚ",
+    "ukphone": "'lɑːftə"
+  },
+  {
+    "name": "reality",
+    "trans": [
+      "n. the quality possessed by something that is real",
+      "n. all of your experiences that determine how things appear to you",
+      "n. the state of being actual or real"
+    ],
+    "usphone": "rɪ'æləti",
+    "ukphone": "rɪ'ælɪtɪ"
+  },
+  {
+    "name": "in reality",
+    "trans": [
+      "adv. used to imply that one would expect the fact to be the opposite of that stated"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "ajustment",
+    "trans": ["to adjust"],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "tough",
+    "trans": [
+      "adj. feeling physical discomfort or pain (`tough' is occasionally used colloquially for `bad')",
+      "adj. substantially made or constructed",
+      "adj. making great mental demands"
+    ],
+    "usphone": "tʌf",
+    "ukphone": "tʌf"
+  },
+  {
+    "name": "extreme",
+    "trans": [
+      "adj. most distant in any direction",
+      "adj. of the greatest possible degree or extent or intensity",
+      "adj. far beyond a norm in quantity or amount or degree"
+    ],
+    "usphone": "ɪk'strim",
+    "ukphone": "ɪk'striːm"
+  },
+  {
+    "name": "vomit",
+    "trans": [
+      "v. eject the contents of the stomach through the mouth",
+      "n. the reflex act of ejecting the contents of the stomach through the mouth",
+      "n. a medicine that induces nausea and vomiting"
+    ],
+    "usphone": "'vɑmɪt",
+    "ukphone": "'vɒmɪt"
+  },
+  {
+    "name": "gymnastics",
+    "trans": [
+      "n. a sport that involves exercises intended to display strength and balance and agility"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "gymnastically",
+    "trans": ["physical capability to train respect"],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "unfit",
+    "trans": [
+      "v. make unfit or unsuitable",
+      "adj. not in good physical or mental condition",
+      "adj. below the required standards for a purpose"
+    ],
+    "usphone": "",
+    "ukphone": "ʌn'fɪt"
+  },
+  {
+    "name": "fascinate",
+    "trans": [
+      "v. attract",
+      "v. to render motionless, as with a fixed stare or by arousing terror or awe",
+      "v. cause to be interested or curious"
+    ],
+    "usphone": "'fæsə'net",
+    "ukphone": "'fæsɪneɪt"
+  },
+  {
+    "name": "meditation",
+    "trans": [
+      "n. continuous and profound contemplation or musing on a subject or series of subjects of a deep or abstruse nature",
+      "n. focused contemplation, often on religious or philosophical subjects"
+    ],
+    "usphone": ",mɛdɪ'teʃən",
+    "ukphone": "medɪ'teɪʃ(ə)n"
+  },
+  {
+    "name": "Sri chinmoy",
+    "trans": ["Slovakia lining guqin [gu3 qin2] (a type of zither) to rub"],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "spiritual",
+    "trans": [
+      "adj. lacking material body or form or substance",
+      "adj. resembling or characteristic of a phantom",
+      "adj. concerned with sacred matters or religion or the church"
+    ],
+    "usphone": "'spɪrɪtʃʊəl",
+    "ukphone": "'spɪrɪtʃʊəl; -tjʊəl"
+  },
+  {
+    "name": "marathon",
+    "trans": [
+      "n. any long and arduous undertaking",
+      "n. a footrace of 26 miles and 385 yards"
+    ],
+    "usphone": "'mærə,θɑn",
+    "ukphone": "'mærəθ(ə)n"
+  },
+  {
+    "name": "urge",
+    "trans": [
+      "v. force or impel in an indicated direction",
+      "v. spur on or encourage especially by cheers and shouts",
+      "v. push for something"
+    ],
+    "usphone": "ɝdʒ",
+    "ukphone": "'ɜːdʒ"
+  },
+  {
+    "name": "accomplish",
+    "trans": [
+      "v. to achieve or complete successfully",
+      "v. to gain with effort"
+    ],
+    "usphone": "ə'kɑmplɪʃ",
+    "ukphone": "ə'kʌmplɪʃ; ə'kɒm-"
+  },
+  {
+    "name": "motivation",
+    "trans": [
+      "n. the psychological feature that arouses an organism to action toward a desired goal",
+      "n. the act of motivating",
+      "n. the condition of being motivated"
+    ],
+    "usphone": ",motə'veʃən",
+    "ukphone": "məʊtɪ'veɪʃ(ə)n"
+  },
+  {
+    "name": "devotion",
+    "trans": [
+      "n. religious observance or prayers",
+      "n. religious zeal",
+      "n. commitment to some purpose"
+    ],
+    "usphone": "dɪ'voʃən",
+    "ukphone": "dɪ'vəʊʃ(ə)n"
+  },
+  {
+    "name": "soul",
+    "trans": [
+      "n. a human being",
+      "n. the human embodiment of something",
+      "n. a secular form of gospel that was a major Black musical genre in the 1960s and 1970s"
+    ],
+    "usphone": "sol",
+    "ukphone": "səʊl"
+  },
+  {
+    "name": "sacred",
+    "trans": [
+      "adj. (often followed by `to') devoted exclusively to a single use or purpose or person",
+      "adj. made or declared or believed to be holy",
+      "adj. worthy of religious veneration"
+    ],
+    "usphone": "'sekrɪd",
+    "ukphone": "'seɪkrɪd"
+  },
+  {
+    "name": "deed",
+    "trans": [
+      "n. something that people do or cause to happen",
+      "n. a legal document signed, sealed and delivered to effect a transfer of property and to show the legal right to possess it"
+    ],
+    "usphone": "did",
+    "ukphone": "diːd"
+  },
+  {
+    "name": "conception",
+    "trans": [
+      "n. the act of becoming pregnant",
+      "n. the creation of something in the mind",
+      "n. an abstract or general idea inferred or derived from specific instances"
+    ],
+    "usphone": "kən'sɛpʃən",
+    "ukphone": "kən'sepʃ(ə)n"
+  },
+  {
+    "name": "tact",
+    "trans": [
+      "n. consideration in dealing with others and avoiding giving offense"
+    ],
+    "usphone": "tækt",
+    "ukphone": "tækt"
+  },
+  {
+    "name": "regret",
+    "trans": [
+      "v. express with regret",
+      "v. decline formally or politely",
+      "v. feel remorse for"
+    ],
+    "usphone": "rɪ'ɡrɛt",
+    "ukphone": "rɪ'gret"
+  },
+  {
+    "name": "repentance",
+    "trans": ["n. remorse for your past conduct"],
+    "usphone": "rɪ'pɛntəns",
+    "ukphone": "rɪ'pent(ə)ns"
+  },
+  {
+    "name": "wisdom",
+    "trans": [
+      "n. the trait of utilizing knowledge and experience with common sense and insight",
+      "n. the quality of being prudent and sensible",
+      "n. ability to apply knowledge or experience or understanding or common sense and insight"
+    ],
+    "usphone": "'wɪzdəm",
+    "ukphone": "'wɪzdəm"
+  },
+  {
+    "name": "virtue",
+    "trans": [
+      "n. the quality of doing what is right and avoiding what is wrong",
+      "n. a particular moral excellence",
+      "n. morality with respect to sexual relations"
+    ],
+    "usphone": "'vɝtʃʊ",
+    "ukphone": "'vɜːtjuː; -tʃuː"
+  },
+  {
+    "name": "noble",
+    "trans": [
+      "adj. impressive in appearance",
+      "adj. having or showing or indicative of high or elevated character",
+      "adj. of or belonging to or constituting the hereditary aristocracy especially as derived from feudal times"
+    ],
+    "usphone": "'nobl",
+    "ukphone": "'nəʊb(ə)l"
+  },
+  {
+    "name": "doom",
+    "trans": [
+      "v. decree or designate beforehand",
+      "v. make certain of the failure or destruction of",
+      "v. pronounce a sentence on (somebody) in a court of law"
+    ],
+    "usphone": "dʊm",
+    "ukphone": "duːm"
+  },
+  {
+    "name": "bid",
+    "trans": [
+      "v. to ask for or request earnestly",
+      "v. to make a serious effort to attain something",
+      "v. to propose a payment"
+    ],
+    "usphone": "bɪd",
+    "ukphone": "bɪd"
+  },
+  {
+    "name": "juggle",
+    "trans": [
+      "v. hold with difficulty and balance insecurely",
+      "v. throw, catch, and keep in the air several things simultaneously",
+      "v. deal with simultaneously"
+    ],
+    "usphone": "'dʒʌɡl",
+    "ukphone": "'dʒʌg(ə)l"
+  },
+  {
+    "name": "triathlon",
+    "trans": ["triathlon to move"],
+    "usphone": "traɪ'æθlən",
+    "ukphone": "traɪ'æθlɒn; -lən"
+  },
+  {
+    "name": "triathlete",
+    "trans": ["triathlon athlete"],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "amateur",
+    "trans": [
+      "adj. engaged in as a pastime",
+      "adj. lacking professional skill or expertise",
+      "n. someone who pursues a study or sport as a pastime"
+    ],
+    "usphone": "ˈæmətər",
+    "ukphone": "ˈæmətə(r)"
+  },
+  {
+    "name": "champion",
+    "trans": [
+      "v. to protect or fight for as a champion",
+      "adj. holding first place in a contest",
+      "n. someone who is dazzlingly skilled in any field"
+    ],
+    "usphone": "'tʃæmpɪən",
+    "ukphone": "'tʃæmpɪən"
+  },
+  {
+    "name": "therefore",
+    "trans": [
+      "adv. (used to introduce a logical conclusion) from that fact or reason or as a result",
+      "adv. as a consequence"
+    ],
+    "usphone": "'ðɛrfɔr",
+    "ukphone": "'ðeəfɔː"
+  },
+  {
+    "name": "Barcelona",
+    "trans": ["Barcelona, Spain Spain Northeast China ministry port city"],
+    "usphone": ",ba:si'ləunə",
+    "ukphone": ",ba:si'ləunə"
+  },
+  {
+    "name": "springboard",
+    "trans": [
+      "n. a beginning from which an enterprise is launched",
+      "n. a flexible board for jumping upward"
+    ],
+    "usphone": "'sprɪŋbɔrd",
+    "ukphone": "'sprɪŋbɔːd"
+  },
+  {
+    "name": "economics",
+    "trans": [
+      "n. the branch of social science that deals with the production and distribution and consumption of goods and services and their management"
+    ],
+    "usphone": "'ikə'nɑmɪks; 'ɛkə'nɑmɪks",
+    "ukphone": "iːkə'nɒmɪks; ek-"
+  },
+  {
+    "name": "Slovenia",
+    "trans": ["Slovenia name of country"],
+    "usphone": "sləu'vi:niə",
+    "ukphone": "sləu'vi:niə"
+  },
+  {
+    "name": "entire",
+    "trans": [
+      "adj. constituting the full quantity or extent",
+      "adj. constituting the undiminished entirety",
+      "adj. (used of domestic animals) sexually competent"
+    ],
+    "usphone": "ɪn'taɪɚ",
+    "ukphone": "ɪn'taɪə; en-"
+  },
+  {
+    "name": "the Danube River",
+    "trans": ["Danube to be located at continent"],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "attain",
+    "trans": [
+      "v. to reach a point in time, or a certain state or level",
+      "v. to reach a destination, either real or abstract",
+      "v. to gain with effort"
+    ],
+    "usphone": "ə'ten",
+    "ukphone": "ə'teɪn"
+  },
+  {
+    "name": "the Parana River",
+    "trans": [
+      "Ba, a state during the Zhou dynasty (in present-day Chongqing and the eastern part of Sichuan) to pull (specifier) that river ( to be located at South America south central region, should prefecture second large river (esp the Yellow River)"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "profile",
+    "trans": [
+      "v. to represent in profile, by drawing or painting",
+      "v. to write about",
+      "n. biographical sketch"
+    ],
+    "usphone": "'profaɪl",
+    "ukphone": "'prəʊfaɪl"
+  },
+  {
+    "name": "courageous",
+    "trans": ["adj. possessing or displaying courage"],
+    "usphone": "kə'redʒəs",
+    "ukphone": "kə'reɪdʒəs"
+  },
+  {
+    "name": "appreciate",
+    "trans": [
+      "v. to increase the value of",
+      "v. to increase in value",
+      "v. to be fully aware of"
+    ],
+    "usphone": "ə'priʃɪet",
+    "ukphone": "ə'priːʃɪeɪt; -sɪ-"
+  },
+  {
+    "name": "appreciation",
+    "trans": [
+      "n. an increase in price or value",
+      "n. a favorable judgment",
+      "n. delicate discrimination, especially of aesthetic values"
+    ],
+    "usphone": "ə,priʃɪ'eʃən",
+    "ukphone": "əpriːʃɪ'eɪʃ(ə)n; -sɪ-"
+  },
+  {
+    "name": "accountant",
+    "trans": ["n. someone who maintains and audits business accounts"],
+    "usphone": "ə'kaʊntənt",
+    "ukphone": "ə'kaʊnt(ə)nt"
+  },
+  {
+    "name": "receptionist",
+    "trans": [
+      "n. an employee whose main duty is to answer the telephone and receive visitors, typically located behind the front desk"
+    ],
+    "usphone": "rɪ'sɛpʃənɪst",
+    "ukphone": "rɪ'sepʃ(ə)nɪst"
+  },
+  {
+    "name": "lawyer",
+    "trans": ["n. a professional person authorized to practice law"],
+    "usphone": "'lɔjɚ",
+    "ukphone": "'lɔːjə; 'lɒɪə"
+  },
+  {
+    "name": "politician",
+    "trans": [
+      "n. a person active in party politics",
+      "n. a leader engaged in civil administration",
+      "n. a schemer who tries to gain advantage in an organization in sly or underhanded ways"
+    ],
+    "usphone": ",pɑlə'tɪʃən",
+    "ukphone": "pɒlɪ'tɪʃ(ə)n"
+  },
+  {
+    "name": "scarf",
+    "trans": [
+      "v. wrap in or adorn with a scarf",
+      "v. unite by a scarf joint",
+      "v. masturbate while strangling oneself"
+    ],
+    "usphone": "skɑrf",
+    "ukphone": "skɑːf"
+  },
+  {
+    "name": "zip",
+    "trans": [
+      "n. a code of letters and digits added to a postal address to aid in the sorting of mail"
+    ],
+    "usphone": "zɪp",
+    "ukphone": "zɪp"
+  },
+  {
+    "name": "underwear",
+    "trans": [
+      "n. undergarment worn next to the skin and under the outer garments"
+    ],
+    "usphone": "'ʌndɚwɛr",
+    "ukphone": "'ʌndəweə"
+  },
+  {
+    "name": "overcoat",
+    "trans": [
+      "n. a heavy coat worn over clothes in winter",
+      "n. an additional protective coating (as of paint or varnish)"
+    ],
+    "usphone": "'ovɚkot",
+    "ukphone": "'əʊvəkəʊt"
+  },
+  {
+    "name": "salary",
+    "trans": ["n. something that remunerates"],
+    "usphone": "'sæləri",
+    "ukphone": "'sælərɪ"
+  },
+  {
+    "name": "wage",
+    "trans": [
+      "v. carry on, such as wars, battles, or campaigns",
+      "n. something that remunerates"
+    ],
+    "usphone": "wedʒ",
+    "ukphone": "weɪdʒ"
+  },
+  {
+    "name": "Marco Polo",
+    "trans": ["horse (prefix) can Polo (car made by Volkswagen)"],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "latitude",
+    "trans": [
+      "n. scope for freedom of e.g. action or thought",
+      "n. the angular distance between an imaginary line around a heavenly body parallel to its equator and the equator itself",
+      "n. an imaginary line around the Earth parallel to the equator"
+    ],
+    "usphone": "'lætɪtud",
+    "ukphone": "'lætɪtjuːd"
+  },
+  {
+    "name": "voyage",
+    "trans": [
+      "v. travel on water propelled by wind or by other means",
+      "n. a journey to some distant place",
+      "n. an act of traveling by water"
+    ],
+    "usphone": "'vɔɪɪdʒ",
+    "ukphone": "'vɒɪɪdʒ"
+  },
+  {
+    "name": "mercy",
+    "trans": [
+      "n. leniency and compassion shown toward offenders by a person or agency charged with administering justice",
+      "n. alleviation of distress",
+      "n. a disposition to be kind and forgiving"
+    ],
+    "usphone": "'mɝsi",
+    "ukphone": "'mɜːsɪ"
+  },
+  {
+    "name": "at the mercy of",
+    "trans": ["to receive to control"],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "encyclopedia",
+    "trans": [
+      "n. a reference work (often in several volumes) containing articles on various topics (often arranged in alphabetical order) dealing with the entire range of human knowledge or with some particular specialty"
+    ],
+    "usphone": "ɪnˌsaɪkləˈpidiɚ",
+    "ukphone": "ɪnˌsaɪkləˈpiːdiə"
+  },
+  {
+    "name": "alongside",
+    "trans": ["adv. side by side"],
+    "usphone": "ə'lɔŋ'saɪd",
+    "ukphone": "əlɒŋ'saɪd"
+  },
+  {
+    "name": "exploration",
+    "trans": [
+      "n. to travel for the purpose of discovery",
+      "n. a careful systematic search",
+      "n. a systematic consideration"
+    ],
+    "usphone": ",ɛksplə'reʃən",
+    "ukphone": "eksplə'reɪʃ(ə)n"
+  },
+  {
+    "name": "minimum",
+    "trans": [
+      "adj. the least possible",
+      "n. the point on a curve where the tangent changes from negative on the left to positive on the right",
+      "n. the smallest possible quantity"
+    ],
+    "usphone": "'mɪnɪməm",
+    "ukphone": "'mɪnɪməm"
+  },
+  {
+    "name": "celestial",
+    "trans": [
+      "adj. of heaven or the spirit",
+      "adj. relating to or inhabiting a divine heaven",
+      "adj. of or relating to the sky"
+    ],
+    "usphone": "sə'lɛstʃəl",
+    "ukphone": "sɪ'lestɪəl"
+  },
+  {
+    "name": "pole",
+    "trans": [
+      "v. deoxidize molten metals by stirring them with a wooden pole",
+      "v. support on poles",
+      "v. propel with a pole"
+    ],
+    "usphone": "pol",
+    "ukphone": "pəʊl"
+  },
+  {
+    "name": "equator",
+    "trans": [
+      "n. an imaginary line around the Earth forming the great circle that is equidistant from the north and south poles",
+      "n. a circle dividing a sphere or other surface into two usually equal and symmetrical parts"
+    ],
+    "usphone": "ɪ'kwetɚ",
+    "ukphone": "ɪ'kweɪtə"
+  },
+  {
+    "name": "horizon",
+    "trans": [
+      "n. the range of interest or activity that can be anticipated",
+      "n. the line at which the sky and Earth appear to meet",
+      "n. the great circle on the celestial sphere whose plane passes through the sensible horizon and the center of the Earth"
+    ],
+    "usphone": "hə'raɪzn",
+    "ukphone": "hə'raɪz(ə)n"
+  },
+  {
+    "name": "overhead",
+    "trans": [
+      "adj. located or originating from above",
+      "adv. above the head",
+      "adv. above your head"
+    ],
+    "usphone": ",ovɚ'hɛd",
+    "ukphone": "əʊvə'hed"
+  },
+  {
+    "name": "seaweed",
+    "trans": ["n. plant growing in the sea, especially marine algae"],
+    "usphone": "'si'wid",
+    "ukphone": "'siːwiːd"
+  },
+  {
+    "name": "nowhere",
+    "trans": ["adv. not anywhere", "n. an insignificant place"],
+    "usphone": "'no'wɛr",
+    "ukphone": "'nəʊhweə"
+  },
+  {
+    "name": "offshore",
+    "trans": [
+      "adj. (of winds) coming from the land",
+      "adj. at some distance from the shore",
+      "adv. away from shore"
+    ],
+    "usphone": ",ɔf'ʃɔr",
+    "ukphone": "'ɒfʃɔː; ɒf'ʃɔː"
+  },
+  {
+    "name": "outward",
+    "trans": [
+      "adj. relating to physical reality rather than with thoughts or the mind",
+      "adj. that is going out or leaving",
+      "adv. toward the outside"
+    ],
+    "usphone": "'aʊtwɚd",
+    "ukphone": "'aʊtwəd"
+  },
+  {
+    "name": "tide",
+    "trans": [
+      "v. be carried with the tide",
+      "v. cause to float with the tide",
+      "v. rise or move forward"
+    ],
+    "usphone": "taɪd",
+    "ukphone": "taɪd"
+  },
+  {
+    "name": "secure",
+    "trans": [
+      "v. make certain of",
+      "v. furnish with battens",
+      "v. cause to be firmly attached"
+    ],
+    "usphone": "sə'kjʊr",
+    "ukphone": "sɪ'kjʊə; sɪ'kjɔː"
+  },
+  {
+    "name": "knot",
+    "trans": [
+      "v. tie or fasten into a knot",
+      "v. tangle or complicate",
+      "v. make into knots"
+    ],
+    "usphone": "nɑt",
+    "ukphone": "nɒt"
+  },
+  {
+    "name": "log",
+    "trans": [
+      "v. to enter into a log, as on ships and planes",
+      "v. to cut lumber, as in woods and forests",
+      "n. measuring instrument that consists of a float that trails from a ship by a knotted line in order to measure the ship's speed through the water"
+    ],
+    "usphone": "lɔɡ",
+    "ukphone": "lɒg"
+  },
+  {
+    "name": "nautical",
+    "trans": [
+      "adj. relating to or involving ships or shipping or navigation or seamen"
+    ],
+    "usphone": "'nɔtɪkl",
+    "ukphone": "'nɔːtɪk(ə)l"
+  },
+  {
+    "name": "nautical mile",
+    "trans": [
+      "n. a unit of length used in navigation",
+      "n. a former British unit of length equivalent to 6,080 feet (1,853.184 meters)"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "magnetic",
+    "trans": [
+      "adj. possessing an extraordinary ability to attract",
+      "adj. having the properties of a magnet",
+      "adj. determined by earth's magnetic fields"
+    ],
+    "usphone": "mæg'nɛtɪk",
+    "ukphone": "mæg'netɪk"
+  },
+  {
+    "name": "bearing",
+    "trans": [
+      "adj. (of a structural member) withstanding a weight or strain",
+      "n. a rotating support placed between moving parts to allow them to move easily",
+      "n. heraldry consisting of a design or image depicted on a shield"
+    ],
+    "usphone": "'bɛrɪŋ",
+    "ukphone": "'beərɪŋ"
+  },
+  {
+    "name": "random",
+    "trans": ["adj. lacking any definite plan or order or purpose"],
+    "usphone": "'rændəm",
+    "ukphone": "'rændəm"
+  },
+  {
+    "name": "astrolabe",
+    "trans": ["n. an early form of sextant"],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "awkward",
+    "trans": [
+      "adj. socially uncomfortable",
+      "adj. causing inconvenience",
+      "adj. hard to deal with"
+    ],
+    "usphone": "'ɔkwɚd",
+    "ukphone": "'ɔːkwəd"
+  },
+  {
+    "name": "reference",
+    "trans": [
+      "v. to refer to",
+      "n. the act of referring or consulting",
+      "n. the most direct or specific meaning of a word or expression"
+    ],
+    "usphone": "'rɛfrəns",
+    "ukphone": "'ref(ə)r(ə)ns"
+  },
+  {
+    "name": "quadrant",
+    "trans": [
+      "n. a measuring instrument for measuring altitude of heavenly bodies",
+      "n. the area enclosed by two perpendicular radii of a circle",
+      "n. any of the four areas into which a plane is divided by two orthogonal coordinate axes"
+    ],
+    "usphone": "'kwɑdrənt",
+    "ukphone": "'kwɒdr(ə)nt"
+  },
+  {
+    "name": "precise",
+    "trans": [
+      "adj. (of ideas, images, representations, expressions) characterized by perfect conformity to fact or truth",
+      "adj. sharply exact or accurate or delimited"
+    ],
+    "usphone": "prɪ'saɪs",
+    "ukphone": "prɪ'saɪs"
+  },
+  {
+    "name": "simplify",
+    "trans": ["v. make simpler or easier or reduce in complexity or extent"],
+    "usphone": "'sɪmplɪfaɪ",
+    "ukphone": "'sɪmplɪfaɪ"
+  },
+  {
+    "name": "portable",
+    "trans": [
+      "adj. of a motor designed to be attached to the outside of a boat's hull",
+      "adj. easily or conveniently transported",
+      "n. a small light typewriter"
+    ],
+    "usphone": "'pɔrtəbl",
+    "ukphone": "'pɔːtəb(ə)l"
+  },
+  {
+    "name": "shortcoming",
+    "trans": ["n. a failing or deficiency"],
+    "usphone": "'ʃɔrtkʌmɪŋ",
+    "ukphone": "'ʃɔːtkʌmɪŋ"
+  },
+  {
+    "name": "sextant",
+    "trans": [
+      "n. a measuring instrument for measuring the angular distance between celestial objects",
+      "n. a unit of angular distance equal to 60 degrees"
+    ],
+    "usphone": "'sɛkstənt",
+    "ukphone": "'sekst(ə)nt"
+  },
+  {
+    "name": "update",
+    "trans": [
+      "v. modernize or bring up to date",
+      "v. bring to the latest state of technology",
+      "v. bring up to date"
+    ],
+    "usphone": ",ʌp'det",
+    "ukphone": "ʌp'deɪt"
+  },
+  {
+    "name": "tendency",
+    "trans": [
+      "n. a characteristic likelihood of or natural disposition toward a certain condition or character or effect",
+      "n. an attitude of mind especially one that favors one alternative over others",
+      "n. an inclination to do something"
+    ],
+    "usphone": "'tɛndənsi",
+    "ukphone": "'tend(ə)nsɪ"
+  },
+  {
+    "name": "reliable",
+    "trans": [
+      "adj. worthy of reliance or trust",
+      "adj. conforming to fact and therefore worthy of belief",
+      "adj. worthy of being depended on"
+    ],
+    "usphone": "rɪ'laɪəbl",
+    "ukphone": "rɪ'laɪəb(ə)l"
+  },
+  {
+    "name": "Samuel",
+    "trans": ["(name) Samuel"],
+    "usphone": "ˈsæmjuəl",
+    "ukphone": "ˈsæmjuəl"
+  },
+  {
+    "name": "swoop",
+    "trans": [
+      "v. seize or catch with a swooping motion",
+      "v. move down on as if in an attack",
+      "v. move with a sweep, or in a swooping arc"
+    ],
+    "usphone": "swup",
+    "ukphone": "swuːp"
+  },
+  {
+    "name": "parcel",
+    "trans": [
+      "v. make into a wrapped container",
+      "v. cover with strips of canvas",
+      "v. divide into parts"
+    ],
+    "usphone": "'pɑrsl",
+    "ukphone": "'pɑːs(ə)l"
+  },
+  {
+    "name": "peck",
+    "trans": [
+      "v. bother persistently with trivial complaints",
+      "v. eat like a bird",
+      "v. eat by pecking at, like a bird"
+    ],
+    "usphone": "pɛk",
+    "ukphone": "pek"
+  },
+  {
+    "name": "cliff",
+    "trans": ["n. a steep high face of rock"],
+    "usphone": "klɪf",
+    "ukphone": "klɪf"
+  },
+  {
+    "name": "expedition",
+    "trans": [
+      "n. a journey organized for a particular purpose",
+      "n. a journey taken for pleasure",
+      "n. a military campaign designed to achieve a specific objective in a foreign country"
+    ],
+    "usphone": ",ɛkspə'dɪʃən",
+    "ukphone": "ekspɪ'dɪʃ(ə)n"
+  },
+  {
+    "name": "compulsory",
+    "trans": ["adj. required by rule"],
+    "usphone": "kəmˈpʌlsərɪ",
+    "ukphone": "kəmˈpʌlsərɪ"
+  },
+  {
+    "name": "reform",
+    "trans": [
+      "v. change for the better",
+      "v. make changes for improvement in order to remove abuse and injustices",
+      "v. improve by alteration or correction of errors or defects and put into a better condition"
+    ],
+    "usphone": "rɪ'fɔrm",
+    "ukphone": "rɪ'fɔːm"
+  },
+  {
+    "name": "survival",
+    "trans": [
+      "n. something that survives",
+      "n. a natural process resulting in the evolution of organisms best adapted to the environment",
+      "n. a state of surviving"
+    ],
+    "usphone": "sɚ'vaɪvl",
+    "ukphone": "sə'vaɪv(ə)l"
+  },
+  {
+    "name": "Captain Bligh",
+    "trans": [
+      "to announce name of weed plant (fat hen, goosefoot, pigweed etc) captain (of a boat)"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "Tahiti",
+    "trans": [
+      "(loanword) (pastry) tart the West to carry (hanging down from the hand) island to be located at Pacific Ocean"
+    ],
+    "usphone": "tɑ:'hi:ti; tə-",
+    "ukphone": "tɑ:'hi:ti; tə-"
+  },
+  {
+    "name": "incident",
+    "trans": [
+      "adj. (sometimes followed by `to') minor or casual or subordinate in significance or nature or occurring as a chance concomitant or consequence",
+      "adj. falling or striking of light rays on something",
+      "n. a single distinct event"
+    ],
+    "usphone": "'ɪnsɪdənt",
+    "ukphone": "'ɪnsɪd(ə)nt"
+  },
+  {
+    "name": "departure",
+    "trans": [
+      "n. the act of departing",
+      "n. euphemistic expressions for death",
+      "n. a variation that deviates from the standard or norm"
+    ],
+    "usphone": "dɪ'pɑrtʃɚ",
+    "ukphone": "dɪ'pɑːtʃə"
+  },
+  {
+    "name": "crew",
+    "trans": [
+      "v. to serve as a crew member on",
+      "n. an organized group of workmen",
+      "n. the men and women who operate a vehicle, ship, aircraft, etc."
+    ],
+    "usphone": "krʊ",
+    "ukphone": "kruː"
+  },
+  {
+    "name": "deposit",
+    "trans": [
+      "v. put, fix, force, or implant",
+      "v. put (something somewhere) firmly",
+      "v. put into a bank account"
+    ],
+    "usphone": "dɪ'pɑzɪt",
+    "ukphone": "dɪ'pɒzɪt"
+  },
+  {
+    "name": "dilemma",
+    "trans": [
+      "n. state of uncertainty or perplexity especially as requiring a choice between equally unfavorable options"
+    ],
+    "usphone": "dəˈlɛmə, daɪ-",
+    "ukphone": "dɪ'lemə; daɪ-"
+  },
+  {
+    "name": "drawback",
+    "trans": ["n. the quality of being a hindrance"],
+    "usphone": "'drɔbæk",
+    "ukphone": "'drɔːbæk"
+  },
+  {
+    "name": "dusk",
+    "trans": [
+      "v. become dusk",
+      "n. the time of day immediately following sunset"
+    ],
+    "usphone": "dʌsk",
+    "ukphone": "dʌsk"
+  },
+  {
+    "name": "routine",
+    "trans": [
+      "adj. found in the ordinary course of events",
+      "n. an unvarying or habitual method or procedure",
+      "n. a set sequence of steps, part of larger computer program"
+    ],
+    "usphone": "rʊ'tin",
+    "ukphone": "ruː'tiːn"
+  },
+  {
+    "name": "reckon",
+    "trans": [
+      "v. expect, believe, or suppose",
+      "v. make a mathematical calculation or computation",
+      "v. deem to be"
+    ],
+    "usphone": "'rɛkən",
+    "ukphone": "'rek(ə)n"
+  },
+  {
+    "name": "reckoning",
+    "trans": [
+      "n. the act of counting",
+      "n. problem solving that involves numbers or quantities",
+      "n. a bill for an amount due"
+    ],
+    "usphone": "'rɛkənɪŋ",
+    "ukphone": "'rek(ə)nɪŋ"
+  },
+  {
+    "name": "starvation",
+    "trans": [
+      "n. the act of depriving of food or subjecting to famine",
+      "n. a state of extreme hunger resulting from lack of essential nutrients over a prolonged period"
+    ],
+    "usphone": "stɑr'veʃən",
+    "ukphone": "stɑː'veɪʃn"
+  },
+  {
+    "name": "psychology",
+    "trans": ["n. the science of mental life"],
+    "usphone": "saɪ'kɑlədʒi",
+    "ukphone": "saɪ'kɒlədʒɪ"
+  },
+  {
+    "name": "tension",
+    "trans": [
+      "n. the action of stretching something tight",
+      "n. in physics, a stress that produces an elongation of an elastic physical body",
+      "n. feelings of hostility that are not manifest"
+    ],
+    "usphone": "'tɛnʃən",
+    "ukphone": "'tenʃn"
+  },
+  {
+    "name": "gradual",
+    "trans": [
+      "adj. proceeding in small stages",
+      "adj. (of a topographical gradient) not steep or abrupt",
+      "n. (Roman Catholic Church) an antiphon (usually from the Book of Psalms) immediately after the epistle at Mass"
+    ],
+    "usphone": "'ɡrædʒuəl",
+    "ukphone": "'grædʒʊəl"
+  },
+  {
+    "name": "foresee",
+    "trans": [
+      "v. realize beforehand",
+      "v. picture to oneself",
+      "v. act in advance of"
+    ],
+    "usphone": "fɔr'si",
+    "ukphone": "fɔː'siː"
+  },
+  {
+    "name": "thirst",
+    "trans": [
+      "v. have a craving, appetite, or great desire for",
+      "v. feel the need to drink",
+      "n. strong desire for something (not food or drink)"
+    ],
+    "usphone": "θɝst",
+    "ukphone": "θɜːst"
+  },
+  {
+    "name": "Timor",
+    "trans": ["Timor island to be located at Southeast Asia"],
+    "usphone": "'ti:mɔ:; 'tai-; ti'mɔ:",
+    "ukphone": "'ti:mɔ:; 'tai-; ti'mɔ:"
+  },
+  {
+    "name": "set loose",
+    "trans": ["to set off, to begin"],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "tear",
+    "trans": [
+      "v. fill with tears or shed tears",
+      "v. strip of feathers",
+      "v. to separate or be separated by force"
+    ],
+    "usphone": "(for v.) ˈter; (for n.) ˈtir",
+    "ukphone": "(for v.) ˈtɛː; (for n.) ˈtɪə"
+  },
+  {
+    "name": "hardship",
+    "trans": [
+      "n. something hard to endure",
+      "n. something that causes or entails suffering",
+      "n. a state of misfortune or affliction"
+    ],
+    "usphone": "'hɑrdʃɪp",
+    "ukphone": "'hɑːdʃɪp"
+  },
+  {
+    "name": "jaw",
+    "trans": [
+      "v. censure severely or angrily",
+      "v. talk incessantly and tiresomely",
+      "v. talk socially without exchanging too much information"
+    ],
+    "usphone": "dʒɔ",
+    "ukphone": "dʒɔː"
+  },
+  {
+    "name": "jaws of death",
+    "trans": [
+      "the gates of hell, mythological figure (such as the Grim Reaper) in charge of taking the souls of those who die"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "Greenland",
+    "trans": [
+      "Green or Greene (name) orchid (, Cymbidium goeringii) to be located at North America Northeast China ministry, ranked number one in the world big island"
+    ],
+    "usphone": "'grinlənd",
+    "ukphone": "'ɡri:nlənd"
+  },
+  {
+    "name": "Shetland Islands",
+    "trans": [
+      "Shetland Islands to be located at United Kingdom (UK) Scotland northern part"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "the Faroe Islands",
+    "trans": ["Faroe Islands to be located at Denmark North Atlantic"],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "roar",
+    "trans": [
+      "v. laugh unrestrainedly and heartily",
+      "v. utter words loudly and forcefully",
+      "v. make a loud noise, as of wind, water, or vehicles"
+    ],
+    "usphone": "rɔr",
+    "ukphone": "rɔː"
+  },
+  {
+    "name": "background",
+    "trans": [
+      "v. to understate the importance or quality of",
+      "n. scenery hung at back of stage",
+      "n. (computer science) the area of the screen in graphical user interfaces against which icons and windows appear"
+    ],
+    "usphone": "'bækɡraʊnd",
+    "ukphone": "'bækgraʊnd"
+  },
+  {
+    "name": "associate",
+    "trans": [
+      "v. to make a logical or causal connection",
+      "v. to keep company with",
+      "adj. having partial rights and privileges or subordinate status"
+    ],
+    "usphone": "ə'soʃɪet",
+    "ukphone": "ə'səʊʃɪeɪt; -sɪeɪt"
+  },
+  {
+    "name": "associate with",
+    "trans": ["(formal) and connection"],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "Perth",
+    "trans": ["to think Australia southwest part port city"],
+    "usphone": "pɜrθ",
+    "ukphone": "pə:θ"
+  },
+  {
+    "name": "Kakadu",
+    "trans": ["to stop to stop birchleaf pear (tree) bay"],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "Canberra",
+    "trans": ["Canberra, capital of Australia Australia capital (city)"],
+    "usphone": "'kænbərə",
+    "ukphone": "'kænbərə"
+  },
+  {
+    "name": "Uluru",
+    "trans": [
+      "crow (old) rice vessel Lu, an ancient state of China, [Lu3 guo2], dust thus Slovakia cliff Ayres Rock aboriginal name"
+    ],
+    "usphone": "'u:ləru:",
+    "ukphone": ""
+  },
+  {
+    "name": "barrier",
+    "trans": [
+      "n. a structure or object that impedes free movement",
+      "n. any condition that makes it difficult to make progress or to achieve an objective",
+      "n. anything serving to maintain separation by obstructing vision or access"
+    ],
+    "usphone": "'bærɪɚ",
+    "ukphone": "'bærɪə"
+  },
+  {
+    "name": "Great Barrier Reef",
+    "trans": ["Great Barrier Reef, Queensland, Australia"],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "brochure",
+    "trans": ["n. a small book usually having a paper cover"],
+    "usphone": "bro'ʃʊr",
+    "ukphone": "'brəʊʃə; brɒ'ʃʊə"
+  },
+  {
+    "name": "Commonwealth",
+    "trans": [
+      "n. a politically organized body of people under a single government",
+      "n. a political system in which the supreme power lies in a body of citizens who can elect people to represent them",
+      "n. a world organization of autonomous states that are united in allegiance to a central power but are not subordinate to it or to one another"
+    ],
+    "usphone": "'kɑmən'wɛlθ",
+    "ukphone": "'kɒmənwelθ"
+  },
+  {
+    "name": "Kosciuszko",
+    "trans": [
+      "branch of study the West prefix used before monosyllabic names, kinship terms etc to indicate familiarity Slovakia branch of study mountain to be located at Australia southeast part"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "Oceania",
+    "trans": ["Oceania"],
+    "usphone": ",oʃɪ'ænɪə",
+    "ukphone": ",əʊsɪ'ɑːnɪə; -ʃɪ-"
+  },
+  {
+    "name": "adequate",
+    "trans": [
+      "adj. having the requisite qualities or resources to meet a task",
+      "adj. about average",
+      "adj. sufficient for the purpose"
+    ],
+    "usphone": "ˈædɪkwət",
+    "ukphone": "'ædɪkwət"
+  },
+  {
+    "name": "Melbourne",
+    "trans": [
+      "Melbourne, Australia Australia southeast part harbor market, Victoria, southeastern Australian state capital city of an autonomous region"
+    ],
+    "usphone": "'mɛlbən",
+    "ukphone": "'melbən"
+  },
+  {
+    "name": "ecology",
+    "trans": [
+      "n. the branch of biology concerned with the relations between organisms and their environment",
+      "n. the environment as it relates to living organisms"
+    ],
+    "usphone": "ɪ'kɑlədʒi",
+    "ukphone": "ɪ'kɒlədʒɪ; e-"
+  },
+  {
+    "name": "autonomous",
+    "trans": [
+      "adj. (of persons) free from external control and constraint in e.g. action and judgment",
+      "adj. existing as an independent entity",
+      "adj. of political bodies, not controlled by outside forces"
+    ],
+    "usphone": "ɔ'tɑnəməs",
+    "ukphone": "ɔː'tɒnəməs"
+  },
+  {
+    "name": "federal",
+    "trans": [
+      "adj. being of or having to do with the northern United States and those loyal to the Union during the American Civil War"
+    ],
+    "usphone": "'fɛdərəl",
+    "ukphone": "'fed(ə)r(ə)l"
+  },
+  {
+    "name": "defence",
+    "trans": [
+      "n. the act of defending someone or something against attack or injury",
+      "n. protection from harm",
+      "n. military action or resources protecting a country against potential enemies"
+    ],
+    "usphone": "di'fens",
+    "ukphone": "dɪ'fens"
+  },
+  {
+    "name": "policy",
+    "trans": [
+      "n. a plan of action adopted by an individual or social group",
+      "n. written contract or certificate of insurance",
+      "n. a line of argument rationalizing the course of action of a government"
+    ],
+    "usphone": "'pɑləsi",
+    "ukphone": "'pɒləsɪ"
+  },
+  {
+    "name": "tax",
+    "trans": [
+      "v. make a charge against or accuse",
+      "v. use to the limit",
+      "v. levy a tax on"
+    ],
+    "usphone": "tæks",
+    "ukphone": "tæks"
+  },
+  {
+    "name": "taxation",
+    "trans": [
+      "n. the imposition of taxes",
+      "n. government income due to taxation",
+      "n. charge against a citizen's person or property or activity for the support of government"
+    ],
+    "usphone": "tæk'seʃən",
+    "ukphone": "tæk'seɪʃ(ə)n"
+  },
+  {
+    "name": "nation",
+    "trans": [
+      "n. the people who live in a nation or country",
+      "n. a politically organized body of people under a single government",
+      "n. a federation of tribes (especially Native American tribes)"
+    ],
+    "usphone": "'neʃən",
+    "ukphone": "'neɪʃ(ə)n"
+  },
+  {
+    "name": "citizen",
+    "trans": [
+      "n. a native or naturalized member of a state or other political community"
+    ],
+    "usphone": "'sɪtɪzn",
+    "ukphone": "'sɪtɪz(ə)n"
+  },
+  {
+    "name": "citizenship",
+    "trans": [
+      "n. conduct as a citizen",
+      "n. the status of a citizen with rights and duties"
+    ],
+    "usphone": "'sɪtɪzənʃɪp",
+    "ukphone": "'sɪtɪzən,ʃɪp"
+  },
+  {
+    "name": "celebration",
+    "trans": [
+      "n. any joyous diversion",
+      "n. the public performance of a sacrament or solemn ceremony with all appropriate ritual",
+      "n. a joyful occasion for special festivities to mark some happy event"
+    ],
+    "usphone": ",sɛlɪ'breʃən",
+    "ukphone": "selɪ'breɪʃ(ə)n"
+  },
+  {
+    "name": "birthplace",
+    "trans": [
+      "n. the place where someone was born",
+      "n. where something originated or was nurtured in its early existence"
+    ],
+    "usphone": "'bɝθ'ples",
+    "ukphone": "'bɜːθpleɪs"
+  },
+  {
+    "name": "tolerate",
+    "trans": [
+      "v. put up with something or somebody unpleasant",
+      "v. allow the presence of or allow (an activity) without opposing or prohibiting",
+      "v. have a tolerance for a poison or strong drug or pathogen or environmental condition"
+    ],
+    "usphone": "'tɑləret",
+    "ukphone": "'tɒləreɪt"
+  },
+  {
+    "name": "tolerance",
+    "trans": [
+      "n. the act of tolerating something",
+      "n. a disposition to allow freedom of choice and behavior",
+      "n. a permissible difference"
+    ],
+    "usphone": "'tɑlərəns",
+    "ukphone": "'tɒl(ə)r(ə)ns"
+  },
+  {
+    "name": "migrant",
+    "trans": [
+      "adj. habitually moving from place to place especially in search of seasonal work",
+      "n. traveler who moves from one region or country to another"
+    ],
+    "usphone": "'maɪɡrənt",
+    "ukphone": "'maɪgr(ə)nt"
+  },
+  {
+    "name": "homeland",
+    "trans": ["n. the country where you were born"],
+    "usphone": "'homlænd",
+    "ukphone": "'həʊmlænd"
+  },
+  {
+    "name": "via",
+    "trans": ["via, classics, to pass through"],
+    "usphone": "ˈvaɪə, ˈviə",
+    "ukphone": "ˈvaɪə，ˈviːə"
+  },
+  {
+    "name": "Adelaide",
+    "trans": [
+      "Adelaide, capital of South Australia Australia southeast part harbor market, Taiwan pr. [na2] Australia front capital city of an autonomous region"
+    ],
+    "usphone": "'ædəleid",
+    "ukphone": "'ædəleid"
+  },
+  {
+    "name": "superb",
+    "trans": ["adj. surpassingly good", "adj. of surpassing excellence"],
+    "usphone": "suːˈpɜːrb",
+    "ukphone": "suː'pɜːb; sjuː-"
+  },
+  {
+    "name": "Nullarbor",
+    "trans": [
+      "to receive to pull one hundred (old) field to be located at Australia southwest part, rocket to manufacture al-Qaeda (joining two nouns) and experimental station"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "rust",
+    "trans": [
+      "v. become coated with oxide",
+      "v. become destroyed by water, air, or a corrosive such as an acid",
+      "v. cause to deteriorate due to the action of water, air, or an acid"
+    ],
+    "usphone": "rʌst",
+    "ukphone": "rʌst"
+  },
+  {
+    "name": "rusty",
+    "trans": [
+      "adj. of the brown color of rust",
+      "adj. ancient",
+      "adj. covered with or consisting of rust"
+    ],
+    "usphone": "'rʌsti",
+    "ukphone": "'rʌstɪ"
+  },
+  {
+    "name": "tropical",
+    "trans": [
+      "adj. of weather or climate",
+      "adj. characterized by or of the nature of a trope or tropes",
+      "adj. relating to or situated in or characteristic of the tropics (the region on either side of the equator)"
+    ],
+    "usphone": "'trɑpɪkl",
+    "ukphone": "'trɒpɪk(ə)l"
+  },
+  {
+    "name": "splendour",
+    "trans": [
+      "n. the quality of being magnificent or splendid or grand",
+      "n. a quality that outshines the usual"
+    ],
+    "usphone": "ˈsplɛndɚ",
+    "ukphone": "'splendə"
+  },
+  {
+    "name": "timetable",
+    "trans": [
+      "n. a schedule of times of arrivals and departures",
+      "n. a schedule listing events and the times at which they will take place"
+    ],
+    "usphone": "'taɪm'tebl",
+    "ukphone": "'taɪmteɪb(ə)l"
+  },
+  {
+    "name": "heritage",
+    "trans": [
+      "n. hereditary succession to a title or an office or property",
+      "n. any attribute or immaterial possession that is inherited from ancestors",
+      "n. practices that are handed down from the past by tradition"
+    ],
+    "usphone": "'hɛrɪtɪdʒ",
+    "ukphone": "'herɪtɪdʒ"
+  },
+  {
+    "name": "aboriginal",
+    "trans": [
+      "adj. of or pertaining to members of the indigenous people of Australia"
+    ],
+    "usphone": ",æbə'rɪdʒənl",
+    "ukphone": "æbə'rɪdʒɪn(ə)l"
+  },
+  {
+    "name": "out of respect",
+    "trans": ["due to respect"],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "fortnight",
+    "trans": ["n. a period of fourteen consecutive days"],
+    "usphone": "'fɔrtnaɪt",
+    "ukphone": "'fɔːtnaɪt"
+  },
+  {
+    "name": "reservation",
+    "trans": [
+      "n. the act of keeping back or setting aside for some future occasion",
+      "n. the act of reserving a place or passage or engaging the services of a person or group",
+      "n. an unstated doubt that prevents you from accepting something wholeheartedly"
+    ],
+    "usphone": ",rɛzɚ'veʃən",
+    "ukphone": "rezə'veɪʃ(ə)n"
+  },
+  {
+    "name": "Hobart",
+    "trans": [
+      "obscure Barth or Barthes (name) Australia Tasmania (Tw) island southeast bank harbor market"
+    ],
+    "usphone": "'həuba:t",
+    "ukphone": "'həuba:t"
+  },
+  {
+    "name": "highway",
+    "trans": ["n. a major road for any form of motor transport"],
+    "usphone": "'haɪwe",
+    "ukphone": "'haɪweɪ"
+  },
+  {
+    "name": "cradle",
+    "trans": [
+      "v. to run with the stick",
+      "v. to hold gently and carefully",
+      "v. to wash in a cradle"
+    ],
+    "usphone": "'kredl",
+    "ukphone": "'kreɪd(ə)l"
+  },
+  {
+    "name": "rainfall",
+    "trans": [
+      "n. water falling in drops from vapor condensed in the atmosphere"
+    ],
+    "usphone": "'ren'fɔl",
+    "ukphone": "'reɪnfɔːl"
+  },
+  {
+    "name": "agriculture",
+    "trans": [
+      "n. the practice of cultivating the land or raising stock",
+      "n. a large-scale farming enterprise",
+      "n. the class of people engaged in growing food"
+    ],
+    "usphone": "'æɡrɪkʌltʃɚ",
+    "ukphone": "'ægrɪkʌltʃə"
+  },
+  {
+    "name": "sow",
+    "trans": [
+      "v. introduce into an environment",
+      "v. place seeds in or on the ground for future growth",
+      "v. place seeds in or on the ground"
+    ],
+    "usphone": "so",
+    "ukphone": "səʊ"
+  },
+  {
+    "name": "bachelor",
+    "trans": [
+      "n. a man who has never been married",
+      "n. a knight of the lowest order"
+    ],
+    "usphone": "'bætʃəlɚ",
+    "ukphone": "'bætʃələ"
+  },
+  {
+    "name": "correspond",
+    "trans": [
+      "v. to exchange messages",
+      "v. to be equivalent or parallel, in mathematics",
+      "v. to be compatible, similar or consistent"
+    ],
+    "usphone": ",kɔrə'spɑnd",
+    "ukphone": "kɒrɪ'spɒnd"
+  },
+  {
+    "name": "correspond with",
+    "trans": ["(formal) and to correspond (by letter, email etc)"],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "owe",
+    "trans": [
+      "v. be in debt",
+      "v. be obliged to pay or repay",
+      "v. be indebted to, in an abstract or intellectual sense"
+    ],
+    "usphone": "o",
+    "ukphone": "əʊ"
+  },
+  {
+    "name": "owe to",
+    "trans": ["to give credit to go"],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "enclosure",
+    "trans": [
+      "n. the act of enclosing something inside something else",
+      "n. a structure consisting of an area that has been enclosed for some purpose",
+      "n. something (usually a supporting document) that is enclosed in an envelope with a covering letter"
+    ],
+    "usphone": "ɪn'kloʒɚ",
+    "ukphone": "ɪn'kləʊʒə; en-"
+  },
+  {
+    "name": "authority",
+    "trans": [
+      "n. official permission or approval",
+      "n. the power or right to give orders or make decisions",
+      "n. freedom from doubt"
+    ],
+    "usphone": "ə'θɔrəti",
+    "ukphone": "ɔː'θɒrɪtɪ"
+  },
+  {
+    "name": "desperate",
+    "trans": [
+      "adj. arising from or marked by despair or loss of hope",
+      "adj. desperately determined",
+      "adj. (of persons) dangerously reckless or violent as from urgency or despair"
+    ],
+    "usphone": "'dɛspərət",
+    "ukphone": "'desp(ə)rət"
+  },
+  {
+    "name": "shrink",
+    "trans": [
+      "v. decrease in size, range, or extent",
+      "v. become smaller or draw together",
+      "v. reduce in size"
+    ],
+    "usphone": "ʃrɪŋk",
+    "ukphone": "ʃrɪŋk"
+  },
+  {
+    "name": "barbecue",
+    "trans": [
+      "v. to cook outdoors on a grill",
+      "n. a rack to hold meat for cooking over hot charcoal usually out of doors",
+      "n. a cookout in which food is cooked over an open fire"
+    ],
+    "usphone": "'bɑrbɪkju",
+    "ukphone": "'bɑːbɪkjuː"
+  },
+  {
+    "name": "talk... into...",
+    "trans": ["to persuade someone to make something"],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "wind",
+    "trans": [
+      "v. raise or haul up with or as if with mechanical help",
+      "v. form into a wreath",
+      "v. coil the spring of (some mechanical device) by turning a stem"
+    ],
+    "usphone": "wɪnd; (for v.) waɪnd",
+    "ukphone": "wɪnd; (for v.) waɪnd"
+  },
+  {
+    "name": "limb",
+    "trans": [
+      "n. any projection that is thought to resemble a human arm",
+      "n. the graduated arc that is attached to an instrument for measuring angles",
+      "n. either of the two halves of a bow from handle to tip"
+    ],
+    "usphone": "lɪm",
+    "ukphone": "lɪm"
+  },
+  {
+    "name": "venom",
+    "trans": [
+      "n. anger directed at someone",
+      "n. a need to see others suffer",
+      "n. a toxin used by animals to catch prey or defend against predators, which is administered through a delivery mechanism"
+    ],
+    "usphone": "'vɛnəm",
+    "ukphone": "'venəm"
+  },
+  {
+    "name": "venomous",
+    "trans": [
+      "adj. marked by deep ill will",
+      "adj. extremely poisonous or injurious"
+    ],
+    "usphone": "'vɛnəməs",
+    "ukphone": "'venəməs"
+  },
+  {
+    "name": "anti-venom",
+    "trans": ["to resist poison"],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "paralyze",
+    "trans": [
+      "v. cause to be paralyzed and immobile",
+      "v. make powerless and unable to function"
+    ],
+    "usphone": "'pærə,laɪz",
+    "ukphone": "'pærəlaiz"
+  },
+  {
+    "name": "sickness",
+    "trans": [
+      "n. impairment of normal physiological function affecting part or all of an organism",
+      "n. the state that precedes vomiting",
+      "n. defectiveness or unsoundness"
+    ],
+    "usphone": "'sɪknəs",
+    "ukphone": "'sɪknɪs"
+  },
+  {
+    "name": "recover",
+    "trans": [
+      "v. get over an illness or shock",
+      "v. regain a former condition after a financial loss",
+      "v. cover anew"
+    ],
+    "usphone": "rɪ'kʌvɚ",
+    "ukphone": "rɪ'kʌvə"
+  },
+  {
+    "name": "funnel",
+    "trans": [
+      "v. move or pour through a funnel",
+      "n. (nautical) smokestack consisting of a shaft for ventilation or the passage of smoke (especially the smokestack of a ship)",
+      "n. a conically shaped utensil having a narrow tube at the small end"
+    ],
+    "usphone": "'fʌnl",
+    "ukphone": "'fʌn(ə)l"
+  },
+  {
+    "name": "funnelweb spider",
+    "trans": ["funnel net spider"],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "snatch",
+    "trans": [
+      "v. to make grasping motions",
+      "v. to grasp hastily or eagerly",
+      "v. take away to an undisclosed location against their will and usually in order to extract a ransom"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "amongst",
+    "trans": ["to exist the middle, to exist inside"],
+    "usphone": "ə'mʌŋst",
+    "ukphone": "ə'mʌŋst"
+  },
+  {
+    "name": "vinegar",
+    "trans": [
+      "n. sour-tasting liquid produced usually by oxidation of the alcohol in wine or cider and used as a condiment or food preservative",
+      "n. dilute acetic acid"
+    ],
+    "usphone": "'vɪnɪɡɚ",
+    "ukphone": "'vɪnɪgə"
+  },
+  {
+    "name": "unconscious",
+    "trans": [
+      "adj. (followed by `of') not knowing or perceiving",
+      "adj. not conscious",
+      "adj. without conscious volition"
+    ],
+    "usphone": "ʌn'kɑnʃəs",
+    "ukphone": "ʌn'kɒnʃəs"
+  },
+  {
+    "name": "pollinate",
+    "trans": ["v. fertilize by transfering pollen"],
+    "usphone": "'pɑlənet",
+    "ukphone": "'pɒlɪneɪt"
+  },
+  {
+    "name": "pollinator",
+    "trans": ["n. an insect that carries pollen from one flower to another"],
+    "usphone": "'pɑlɪnetɚ",
+    "ukphone": ""
+  },
+  {
+    "name": "courtyard",
+    "trans": ["n. an area wholly or partly surrounded by walls or buildings"],
+    "usphone": "'kɔrtjɑrd",
+    "ukphone": "'kɔːtjɑːd"
+  },
+  {
+    "name": "balcony",
+    "trans": [
+      "n. a platform projecting from the wall of a building and surrounded by a balustrade or railing or parapet",
+      "n. an upper floor projecting from the rear over the main floor in an auditorium"
+    ],
+    "usphone": "'bælkənɪ",
+    "ukphone": "'bælkənɪ"
+  },
+  {
+    "name": "exotic",
+    "trans": [
+      "adj. strikingly strange or unusual",
+      "adj. being or from or characteristic of another place or part of the world"
+    ],
+    "usphone": "ɪɡ'zɑtɪk",
+    "ukphone": "ɪg'zɒtɪk; eg-"
+  },
+  {
+    "name": "date back to",
+    "trans": [
+      "recollections to reach, far to exist a decade of a century (e.g. the Sixties)"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "distant",
+    "trans": [
+      "adj. located far away spatially",
+      "adj. separate or apart in time",
+      "adj. separated in space or coming from or going to a distance"
+    ],
+    "usphone": "'dɪstənt",
+    "ukphone": "'dɪst(ə)nt"
+  },
+  {
+    "name": "Egypt",
+    "trans": ["Egypt"],
+    "usphone": "'idʒɪpt",
+    "ukphone": "ˈiːdʒɪpt"
+  },
+  {
+    "name": "goods",
+    "trans": [
+      "adj. promoting or enhancing well-being",
+      "adj. having the normally expected amount",
+      "adj. with or in a close or intimate relationship"
+    ],
+    "usphone": "ɡʊdz",
+    "ukphone": "ɡʊdz"
+  },
+  {
+    "name": "scale",
+    "trans": [
+      "v. size or measure according to a scale",
+      "v. measure with or as if with scales",
+      "v. remove the scales from"
+    ],
+    "usphone": "skel",
+    "ukphone": "skeɪl"
+  },
+  {
+    "name": "conflict",
+    "trans": [
+      "v. to go against, as of rules and laws",
+      "v. to be in conflict",
+      "n. a hostile meeting of opposing military forces in the course of a war"
+    ],
+    "usphone": "'kɑnflɪkt",
+    "ukphone": "'kɒnflɪkt"
+  },
+  {
+    "name": "missionary",
+    "trans": [
+      "adj. relating to or connected to a religious mission",
+      "n. someone who attempts to convert others to a particular doctrine or program",
+      "n. someone sent on a mission--especially a religious or charitable mission to a foreign country"
+    ],
+    "usphone": "'mɪʃənɛri",
+    "ukphone": "'mɪʃ(ə)n(ə)rɪ"
+  },
+  {
+    "name": "d'Incaville",
+    "trans": ["rushing current to execute (a plan) within France"],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "Joseph",
+    "trans": ["Joseph (name)"],
+    "usphone": "ˈdʒozəf, -səf",
+    "ukphone": "ˈdʒəuzif"
+  },
+  {
+    "name": "endeavour",
+    "trans": [
+      "v. attempt by employing effort",
+      "n. earnest and conscientious activity intended to do or accomplish something",
+      "n. a purposeful or industrious undertaking (especially one that requires effort or boldness)"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "anchor",
+    "trans": [
+      "v. to secure a vessel with an anchor or weight",
+      "v. to fix firmly and stably",
+      "n. a mechanical device that prevents a vessel from moving"
+    ],
+    "usphone": "'æŋkɚ",
+    "ukphone": "'æŋkə"
+  },
+  {
+    "name": "Nathaniel Ward",
+    "trans": ["to receive to let go Buddhist nun thus fertile Germany"],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "tight",
+    "trans": [
+      "adj. affected by scarcity and expensive to borrow",
+      "adj. packed closely together",
+      "adj. demanding strict attention to rules and procedures"
+    ],
+    "usphone": "taɪt",
+    "ukphone": "taɪt"
+  },
+  {
+    "name": "seal",
+    "trans": [
+      "v. decide irrevocably",
+      "v. hunt seals",
+      "v. cover with varnish"
+    ],
+    "usphone": "sil",
+    "ukphone": "sil"
+  },
+  {
+    "name": "container",
+    "trans": [
+      "n. any object that can be used to hold things (especially a large metal boxlike object of standardized dimensions that can be loaded from one form of transport to another)"
+    ],
+    "usphone": "kən'tenɚ",
+    "ukphone": "kən'teɪnə"
+  },
+  {
+    "name": "Wardian case",
+    "trans": [
+      "fertile Germany box to train (botany) fern plant to wait for glass receptacle"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "restriction",
+    "trans": [
+      "n. an act of limiting or restricting (as by regulation)",
+      "n. the act of keeping something within specified bounds (by force if necessary)",
+      "n. a principle that limits the extent of something"
+    ],
+    "usphone": "rɪ'strɪkʃən",
+    "ukphone": "rɪ'strɪkʃ(ə)n"
+  },
+  {
+    "name": "fluency",
+    "trans": [
+      "n. the quality of being facile in speech and writing",
+      "n. skillfulness in speaking or writing",
+      "n. powerful and effective language"
+    ],
+    "usphone": "'fluənsi",
+    "ukphone": "'fluːənsɪ"
+  },
+  {
+    "name": "shave",
+    "trans": [
+      "v. remove body hair with a razor",
+      "v. touch the surface of lightly",
+      "v. cut closely"
+    ],
+    "usphone": "ʃev",
+    "ukphone": "ʃeɪv"
+  },
+  {
+    "name": "thunderstorm",
+    "trans": ["n. a storm resulting from strong rising air currents"],
+    "usphone": "'θʌndɚstɔrm",
+    "ukphone": "'θʌndəstɔːm"
+  },
+  {
+    "name": "pirate",
+    "trans": [
+      "v. take arbitrarily or by force",
+      "v. copy illegally",
+      "n. a ship that is manned by pirates"
+    ],
+    "usphone": "'paɪrət",
+    "ukphone": "ˈpaɪərət"
+  },
+  {
+    "name": "Father Farges",
+    "trans": ["France thus to warm up Catholic or Orthodox priest France"],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "appeal",
+    "trans": [
+      "v. to request earnestly",
+      "v. to cite as an authority",
+      "v. to be attractive to"
+    ],
+    "usphone": "ə'pil",
+    "ukphone": "ə'piːl"
+  },
+  {
+    "name": "appeal to",
+    "trans": ["right someone to have attractive force (such as gravitation)"],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "dove",
+    "trans": [
+      "n. any of numerous small pigeons",
+      "n. an emblem of peace",
+      "n. flesh of a pigeon suitable for roasting or braising"
+    ],
+    "usphone": "dʌv; dov",
+    "ukphone": "dʌv"
+  },
+  {
+    "name": "botanist",
+    "trans": ["n. a biologist specializing in the study of plants"],
+    "usphone": "'bɑtənɪst",
+    "ukphone": "'bɒtənɪst"
+  },
+  {
+    "name": "chrysanthemum",
+    "trans": [
+      "n. any of numerous perennial Old World herbs having showy brightly colored flower heads of the genera Chrysanthemum, Argyranthemum, Dendranthema, Tanacetum",
+      "n. the flower of a chrysanthemum plant"
+    ],
+    "usphone": "krɪ'sænθəməm",
+    "ukphone": "krɪ'sænθɪməm; -z-"
+  },
+  {
+    "name": "red date",
+    "trans": ["jujube"],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "lower",
+    "trans": [
+      "v. look angry or sullen, wrinkle one's forehead, as if to signal disapproval",
+      "v. make lower or quieter",
+      "v. set lower"
+    ],
+    "usphone": "'loɚ",
+    "ukphone": "'ləʊə"
+  },
+  {
+    "name": "beard",
+    "trans": [
+      "v. to go along the rim, like a beard around the chin",
+      "n. tuft of strong filaments by which e.g. a mussel makes itself fast to a fixed surface",
+      "n. hairy growth on or near the face of certain mammals"
+    ],
+    "usphone": "bɪrd",
+    "ukphone": "bɪəd"
+  },
+  {
+    "name": "ripe",
+    "trans": [
+      "adj. fully prepared or eager",
+      "adj. far along in time",
+      "adj. at the highest point of development especially in judgment or knowledge"
+    ],
+    "usphone": "raɪp",
+    "ukphone": "raɪp"
+  },
+  {
+    "name": "irrigation",
+    "trans": [
+      "n. (medicine) cleaning a wound or body organ by flushing or washing out with water or a medicated solution",
+      "n. supplying dry land with water by means of ditches etc"
+    ],
+    "usphone": "ˌɪrɪˈɡeʃn",
+    "ukphone": ""
+  },
+  {
+    "name": "weed",
+    "trans": [
+      "v. clear of weeds",
+      "n. street names for marijuana",
+      "n. a black band worn by a man (on the arm or hat) as a sign of mourning"
+    ],
+    "usphone": "wid",
+    "ukphone": "wiːd"
+  },
+  {
+    "name": "spear",
+    "trans": [
+      "v. pierce with a spear",
+      "v. thrust up like a spear",
+      "n. a long pointed rod used as a tool or weapon"
+    ],
+    "usphone": "spɪr",
+    "ukphone": "spɪə"
+  },
+  {
+    "name": "string",
+    "trans": [
+      "v. add as if on a string",
+      "v. provide with strings",
+      "v. thread on or as if on a string"
+    ],
+    "usphone": "strɪŋ",
+    "ukphone": "strɪŋ"
+  },
+  {
+    "name": "spade",
+    "trans": [
+      "v. dig (up) with a spade",
+      "n. a sturdy hand shovel that can be pushed into the earth with the foot",
+      "n. a playing card in the major suit that has one or more black figures on it"
+    ],
+    "usphone": "sped",
+    "ukphone": "speɪd"
+  },
+  {
+    "name": "postpone",
+    "trans": ["v. hold back to a later time"],
+    "usphone": "po'spon",
+    "ukphone": "pəʊs(t)'pəʊn; pə'spəʊn"
+  },
+  {
+    "name": "pyramid",
+    "trans": [
+      "v. increase rapidly and progressively step by step on a broad base",
+      "v. arrange or build up as if on the base of a pyramid",
+      "v. use or deal in (as of stock or commercial transaction) in a pyramid deal"
+    ],
+    "usphone": "'pɪrəmɪd",
+    "ukphone": "'pɪrəmɪd"
+  },
+  {
+    "name": "monument",
+    "trans": [
+      "n. a structure erected to commemorate persons or events",
+      "n. a burial vault (usually for some famous person)",
+      "n. an important site that is marked and preserved as public property"
+    ],
+    "usphone": "'mɑnjumənt",
+    "ukphone": "'mɒnjʊm(ə)nt"
+  },
+  {
+    "name": "pitcher plant",
+    "trans": [
+      "n. any of several insectivorous herbs of the order Sarraceniales"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "Raffesia arnoldii",
+    "trans": ["king flower"],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "rot",
+    "trans": [
+      "v. become physically weaker",
+      "v. break down",
+      "n. unacceptable behavior (especially ludicrously false statements)"
+    ],
+    "usphone": "rɑt",
+    "ukphone": "rɒt"
+  },
+  {
+    "name": "evolve",
+    "trans": [
+      "v. undergo development or evolution",
+      "v. gain through experience",
+      "v. work out"
+    ],
+    "usphone": "ɪ'vɑlv",
+    "ukphone": "ɪ'vɒlv"
+  },
+  {
+    "name": "evolution",
+    "trans": [
+      "n. a process in which something passes by degrees to a different stage (especially a more advanced or mature stage)",
+      "n. (biology) the sequence of events involved in the evolutionary development of a species or taxonomic group of organisms"
+    ],
+    "usphone": "ˌɛvəˈluʃən; (occas.) ˌ ivəˈluʃən",
+    "ukphone": ",iːvə'luːʃ(ə)n; 'ev-"
+  },
+  {
+    "name": "nectar",
+    "trans": [
+      "n. (classical mythology) the food and drink of the gods",
+      "n. fruit juice especially when undiluted",
+      "n. a sweet liquid secretion that is attractive to pollinators"
+    ],
+    "usphone": "'nɛktɚ",
+    "ukphone": "'nektə"
+  },
+  {
+    "name": "attach",
+    "trans": [
+      "v. to be connected or attached",
+      "v. to adhere to",
+      "v. to create social or emotional ties"
+    ],
+    "usphone": "ə'tætʃ",
+    "ukphone": "ə'tætʃ"
+  },
+  {
+    "name": "wasp",
+    "trans": [
+      "n. a white person of Anglo-Saxon ancestry who belongs to a Protestant denomination"
+    ],
+    "usphone": "wɑsp",
+    "ukphone": "wɒsp"
+  },
+  {
+    "name": "beetle",
+    "trans": [
+      "v. to beat with a large mallet, used to beat pavements and wedges",
+      "v. to fly or go in a manner resembling a beetle",
+      "v. to be suspended over or hang over"
+    ],
+    "usphone": "'bi:tl",
+    "ukphone": "'biːt(ə)l"
+  },
+  {
+    "name": "bat",
+    "trans": [
+      "v. to wink briefly",
+      "v. to strike with, or as if with a baseball bat",
+      "v. to use a bat"
+    ],
+    "usphone": "bæt",
+    "ukphone": "bæt"
+  },
+  {
+    "name": "moth",
+    "trans": [
+      "n. typically crepuscular or nocturnal insect having a stout body and feathery or hairlike antennae"
+    ],
+    "usphone": "mɔθ",
+    "ukphone": "mɒθ"
+  },
+  {
+    "name": "humming-bird",
+    "trans": ["hummingbird"],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "typical",
+    "trans": [
+      "adj. of a feature that helps to distinguish a person or thing",
+      "adj. conforming to a type",
+      "adj. exhibiting the qualities or characteristics that identify a group or kind or category"
+    ],
+    "usphone": "'tɪpɪkl",
+    "ukphone": "'tɪpɪk(ə)l"
+  },
+  {
+    "name": "petal",
+    "trans": ["n. part of the perianth that is usually brightly colored"],
+    "usphone": "'pɛtl",
+    "ukphone": "'pet(ə)l"
+  },
+  {
+    "name": "tube",
+    "trans": [
+      "v. place or enclose in a tube",
+      "v. ride or float on an inflated tube",
+      "v. convey in a tube"
+    ],
+    "usphone": "tub",
+    "ukphone": "tjuːb"
+  },
+  {
+    "name": "delicate",
+    "trans": [
+      "adj. exquisitely fine and subtle and pleasing",
+      "adj. easily broken or damaged or destroyed",
+      "adj. difficult to handle"
+    ],
+    "usphone": "ˈdɛlɪkɪt",
+    "ukphone": "'delɪkət"
+  },
+  {
+    "name": "fragrant",
+    "trans": ["adj. pleasant-smelling"],
+    "usphone": "'fregrənt",
+    "ukphone": "'freɪgr(ə)nt"
+  },
+  {
+    "name": "daisy",
+    "trans": [
+      "n. any of numerous composite plants having flower heads with well-developed ray flowers usually arranged in a single whorl"
+    ],
+    "usphone": "'dezi",
+    "ukphone": "'deɪzɪ"
+  },
+  {
+    "name": "odour",
+    "trans": [
+      "n. any property detected by the olfactory system",
+      "n. the sensation that results when olfactory receptors in the nose are stimulated by particular chemicals in gaseous form"
+    ],
+    "usphone": "'əudə",
+    "ukphone": "'əʊdə"
+  },
+  {
+    "name": "odourless",
+    "trans": ["adj. having no odor"],
+    "usphone": "ˈodɚlɪs",
+    "ukphone": ""
+  },
+  {
+    "name": "give out",
+    "trans": [
+      "v. stop operating or functioning",
+      "v. prove insufficient",
+      "v. give to several people"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "dull",
+    "trans": [
+      "v. make less lively or vigorous",
+      "v. become dull or lusterless in appearance",
+      "v. become less interesting or attractive"
+    ],
+    "usphone": "dʌl",
+    "ukphone": "dʌl"
+  },
+  {
+    "name": "musty",
+    "trans": [
+      "adj. stale and unclean smelling",
+      "adj. covered with or smelling of mold"
+    ],
+    "usphone": "'mʌsti",
+    "ukphone": "'mʌstɪ"
+  },
+  {
+    "name": "fruity",
+    "trans": [
+      "adj. informal or slang terms for mentally irregular",
+      "adj. tasting or smelling richly of or as of fruit"
+    ],
+    "usphone": "'fruti",
+    "ukphone": "'fruːtɪ"
+  },
+  {
+    "name": "billboard",
+    "trans": ["n. large outdoor signboard"],
+    "usphone": "'bɪlbɔrd",
+    "ukphone": "'bɪlbɔːd"
+  },
+  {
+    "name": "casual",
+    "trans": [
+      "adj. hasty and without attention to detail",
+      "adj. marked by blithe unconcern",
+      "adj. not showing effort or strain"
+    ],
+    "usphone": "'kæʒʊəl",
+    "ukphone": "'kæʒjʊəl; -zj-"
+  },
+  {
+    "name": "garment",
+    "trans": [
+      "v. provide with clothes or put clothes on",
+      "n. an article of clothing"
+    ],
+    "usphone": "'gɑrmənt",
+    "ukphone": "'gɑːm(ə)nt"
+  },
+  {
+    "name": "turn... into",
+    "trans": ["to make to change into"],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "advertiser",
+    "trans": ["n. someone whose business is advertising"],
+    "usphone": "'ædvɚtaɪzɚ",
+    "ukphone": "'ædvə,taizə"
+  },
+  {
+    "name": "advert",
+    "trans": [
+      "v. to make a reference to",
+      "n. a public promotion of some product or service"
+    ],
+    "usphone": "ædˈvɚt",
+    "ukphone": "'ædvɜːt"
+  },
+  {
+    "name": "inform",
+    "trans": [
+      "v. give character or essence to",
+      "v. impart knowledge of some fact, state or affairs, or event to",
+      "v. act as an informer"
+    ],
+    "usphone": "ɪn'fɔrm",
+    "ukphone": "ɪn'fɔːm"
+  },
+  {
+    "name": "association",
+    "trans": [
+      "n. the act of consorting with or joining with others",
+      "n. the process of bringing ideas or events together in memory or imagination",
+      "n. (ecology) a group of organisms (plants and animals) that live together in a certain geographical region and constitute a community with a few dominant species"
+    ],
+    "usphone": "ə,soʃɪ'eʃən",
+    "ukphone": "əˌsəʊsɪˈeɪʃn"
+  },
+  {
+    "name": "target",
+    "trans": [
+      "v. intend (something) to move towards a certain goal",
+      "n. sports equipment consisting of an object set up for a marksman or archer to aim at",
+      "n. the goal intended to be attained (and which is believed to be attainable)"
+    ],
+    "usphone": "'tɑrɡɪt",
+    "ukphone": "'tɑːgɪt"
+  },
+  {
+    "name": "fit into",
+    "trans": ["to fit"],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "basis",
+    "trans": [
+      "n. the fundamental assumptions from which something is begun or developed or calculated or explained",
+      "n. a relation that provides the foundation for something",
+      "n. the most important or necessary part of something"
+    ],
+    "usphone": "'besɪs",
+    "ukphone": "'beɪsɪs"
+  },
+  {
+    "name": "technique",
+    "trans": [
+      "n. skillfulness in the command of fundamentals deriving from practice and familiarity",
+      "n. a practical method or art applied to some particular task"
+    ],
+    "usphone": "tɛk'nik",
+    "ukphone": "tek'niːk"
+  },
+  {
+    "name": "lane",
+    "trans": ["n. a narrow way or road", "n. a well-defined track or path"],
+    "usphone": "len",
+    "ukphone": "leɪn"
+  },
+  {
+    "name": "feature",
+    "trans": [
+      "v. have as a feature",
+      "v. wear or display in an ostentatious or proud manner",
+      "n. an article of merchandise that is displayed or advertised more than other articles"
+    ],
+    "usphone": "'fitʃɚ",
+    "ukphone": "'fiːtʃə"
+  },
+  {
+    "name": "conscience",
+    "trans": [
+      "n. conformity to one's own sense of right conduct",
+      "n. a feeling of shame when you do something immoral",
+      "n. motivation deriving logically from ethical or moral principles that govern a person's thoughts and actions"
+    ],
+    "usphone": "ˈkɑːnʃəns",
+    "ukphone": "'kɒnʃ(ə)ns"
+  },
+  {
+    "name": "worthy",
+    "trans": [
+      "adj. worthy of being chosen especially as a spouse",
+      "adj. having qualities or abilities that merit recognition in some way",
+      "adj. having worth or merit or value"
+    ],
+    "usphone": "wɜði",
+    "ukphone": "ˈwəːði"
+  },
+  {
+    "name": "corporation",
+    "trans": [
+      "n. slang for a paunch",
+      "n. a business firm whose articles of incorporation have been approved in some state"
+    ],
+    "usphone": ",kɔrpə'reʃən",
+    "ukphone": "kɔːpə'reɪʃ(ə)n"
+  },
+  {
+    "name": "budget",
+    "trans": [
+      "v. to make a budget",
+      "n. a summary of intended expenditures along with proposals for how to meet them",
+      "n. a sum of money allocated for a particular purpose"
+    ],
+    "usphone": "'bʌdʒɪt",
+    "ukphone": "'bʌdʒɪt"
+  },
+  {
+    "name": "expense",
+    "trans": [
+      "v. reduce the estimated value of something",
+      "n. a detriment or sacrifice",
+      "n. amounts paid for goods and services that may be currently tax deductible (as opposed to capital expenditures)"
+    ],
+    "usphone": "ɪk'spɛns",
+    "ukphone": "ɪk'spens; ek-"
+  },
+  {
+    "name": "broadcast",
+    "trans": [
+      "v. to cause to become widely known",
+      "v. to broadcast over the airwaves, as in radio or television",
+      "v. to sow over a wide area, especially by hand"
+    ],
+    "usphone": "'brɔdkæst",
+    "ukphone": "'brɔːdkɑːst"
+  },
+  {
+    "name": "rely",
+    "trans": ["v. have confidence or faith in"],
+    "usphone": "rɪ'laɪ",
+    "ukphone": "rɪ'laɪ"
+  },
+  {
+    "name": "rely on",
+    "trans": [
+      "v. be dependent on, as for support or maintenance",
+      "v. put trust in with confidence"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "visual",
+    "trans": ["adj. visible", "adj. relating to or using sight"],
+    "usphone": "'vɪʒʊəl",
+    "ukphone": "'vɪʒjʊəl; -zj-"
+  },
+  {
+    "name": "generate",
+    "trans": [
+      "v. make children",
+      "v. bring into existence",
+      "v. produce (energy)"
+    ],
+    "usphone": "'dʒɛnəret",
+    "ukphone": "'dʒenəreɪt"
+  },
+  {
+    "name": "response",
+    "trans": [
+      "n. a bodily process occurring due to the effect of some antecedent stimulus or agent",
+      "n. the manner in which an electrical or mechanical device responds to an input signal or a range of input signals",
+      "n. a phrase recited or sung by the congregation following a versicle by the priest or minister"
+    ],
+    "usphone": "rɪ'spɑns",
+    "ukphone": "rɪ'spɒns"
+  },
+  {
+    "name": "stereo",
+    "trans": [
+      "adj. designating sound transmission from two sources through two channels",
+      "n. reproducer in which two microphones feed two or more loudspeakers to give a three-dimensional effect to the sound",
+      "n. two photographs taken from slightly different angles that appear three-dimensional when viewed together"
+    ],
+    "usphone": "'stɛrɪo",
+    "ukphone": "'steriou"
+  },
+  {
+    "name": "have no use for",
+    "trans": ["no to need, to dislike, right impatient, to loathe"],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "refresh",
+    "trans": [
+      "v. make fresh again",
+      "v. become or make oneself fresh again",
+      "v. make (to feel) fresh"
+    ],
+    "usphone": "ri'frɛʃ",
+    "ukphone": "rɪ'freʃ"
+  },
+  {
+    "name": "partly",
+    "trans": ["adv. in part; not completely"],
+    "usphone": "'pɑrtli",
+    "ukphone": "'pɑːtlɪ"
+  },
+  {
+    "name": "murder",
+    "trans": [
+      "v. alter so as to make unrecognizable",
+      "v. kill intentionally and with premeditation",
+      "n. unlawful premeditated killing of a human being by a human being"
+    ],
+    "usphone": "'mɝdɚ",
+    "ukphone": "'mɜːdə"
+  },
+  {
+    "name": "suitcase",
+    "trans": ["n. a portable rectangular container for carrying clothes"],
+    "usphone": "'sutkes",
+    "ukphone": "'suːtkeɪs"
+  },
+  {
+    "name": "sheet",
+    "trans": [
+      "v. cover with a sheet, as if by wrapping",
+      "v. come down as if in sheets",
+      "n. a large piece of fabric (usually canvas fabric) by means of which wind is used to propel a sailing vessel"
+    ],
+    "usphone": "ʃit",
+    "ukphone": "ʃiːt"
+  },
+  {
+    "name": "actress",
+    "trans": ["n. a female actor"],
+    "usphone": "'æktrɪs",
+    "ukphone": "'æktrɪs"
+  },
+  {
+    "name": "typist",
+    "trans": ["n. someone that types"],
+    "usphone": "'taɪpɪst",
+    "ukphone": "'taɪpɪst"
+  },
+  {
+    "name": "spokesman",
+    "trans": ["n. a male spokesperson"],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "fluent",
+    "trans": [
+      "adj. expressing yourself readily, clearly, effectively",
+      "adj. smooth and unconstrained in movement"
+    ],
+    "usphone": "'fluənt",
+    "ukphone": "'fluːənt"
+  },
+  {
+    "name": "hostess",
+    "trans": [
+      "n. a woman innkeeper",
+      "n. a woman host",
+      "n. a woman steward on an airplane"
+    ],
+    "usphone": "'hostəs",
+    "ukphone": "'həʊstɪs; -es; həʊ'stes"
+  },
+  {
+    "name": "invitation",
+    "trans": [
+      "n. a tempting allurement",
+      "n. a request (spoken or written) to participate or be present or take part in something"
+    ],
+    "usphone": "ˌɪnvɪˈteɪʃn",
+    "ukphone": "ɪnvɪ'teɪʃ(ə)n"
+  },
+  {
+    "name": "appoint",
+    "trans": [
+      "v. to furnish",
+      "v. to assign a duty, responsibility or obligation to"
+    ],
+    "usphone": "ə'pɔɪnt",
+    "ukphone": "ə'pɒɪnt"
+  },
+  {
+    "name": "chairman",
+    "trans": [
+      "v. to act or preside as chair, as of an academic department in a university",
+      "n. the officer who presides at the meetings of an organization"
+    ],
+    "usphone": "'tʃɛrmən",
+    "ukphone": "'tʃeəmən"
+  },
+  {
+    "name": "raise",
+    "trans": [
+      "v. give a promotion to or assign to a higher position",
+      "v. bring up",
+      "v. cause to become alive again"
+    ],
+    "usphone": "rez",
+    "ukphone": "reɪz"
+  },
+  {
+    "name": "dial",
+    "trans": [
+      "v. choose by means of a dial",
+      "v. operate a dial to select a telephone number",
+      "n. the face of a timepiece"
+    ],
+    "usphone": "'daɪəl",
+    "ukphone": "'daɪəl"
+  },
+  {
+    "name": "operator",
+    "trans": [
+      "n. a shrewd or unscrupulous person who knows how to circumvent difficulties",
+      "n. an agent that operates some apparatus or machine",
+      "n. someone who owns or operates a business"
+    ],
+    "usphone": "'ɑpəretɚ",
+    "ukphone": "'ɒpəreɪtə"
+  },
+  {
+    "name": "litre",
+    "trans": [
+      "n. a metric unit of capacity, formerly defined as the volume of one kilogram of pure water under standard conditions"
+    ],
+    "usphone": "'li:tə",
+    "ukphone": "'liːtə"
+  },
+  {
+    "name": "mature",
+    "trans": [
+      "v. cause to ripen and discharge pus",
+      "v. grow old or older",
+      "v. cause to ripen or develop fully"
+    ],
+    "usphone": "mə'tʃʊr",
+    "ukphone": "mə'tʃʊə"
+  },
+  {
+    "name": "fashion",
+    "trans": [
+      "v. make out of components, often in an improvising manner",
+      "n. characteristic or habitual practice",
+      "n. consumer goods (especially clothing) in the current mode"
+    ],
+    "usphone": "'fæʃən",
+    "ukphone": "'fæʃ(ə)n"
+  },
+  {
+    "name": "misleading",
+    "trans": [
+      "adj. designed to deceive or mislead either deliberately or inadvertently"
+    ],
+    "usphone": ",mɪs'lidɪŋ",
+    "ukphone": "mɪs'liːdɪŋ"
+  },
+  {
+    "name": "disonest",
+    "trans": ["no honest"],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "alcoholic",
+    "trans": [
+      "adj. addicted to alcohol",
+      "adj. characteristic of or containing alcohol",
+      "n. a person who drinks alcohol to excess habitually"
+    ],
+    "usphone": ",ælkə'hɔlɪk",
+    "ukphone": "ælkə'hɒlɪk"
+  },
+  {
+    "name": "tobacco",
+    "trans": [
+      "n. leaves of the tobacco plant dried and prepared for smoking or ingestion",
+      "n. aromatic annual or perennial herbs and shrubs"
+    ],
+    "usphone": "tə'bæko",
+    "ukphone": "tə'bækəʊ"
+  },
+  {
+    "name": "ban",
+    "trans": [
+      "v. to prohibit especially by legal means or social pressure",
+      "v. to forbid the public distribution of media",
+      "v. to expel from a community or group"
+    ],
+    "usphone": "bæn",
+    "ukphone": "bæn"
+  },
+  {
+    "name": "promote",
+    "trans": [
+      "v. make publicity for",
+      "v. change a pawn for a better piece by advancing it to the eighth row, or change a checker piece for a more valuable piece by moving it to the row closest to your opponent",
+      "v. be changed for a superior chess or checker piece"
+    ],
+    "usphone": "prə'mot",
+    "ukphone": "prə'məʊt"
+  },
+  {
+    "name": "immoral",
+    "trans": [
+      "adj. deliberately violating accepted principles of right and wrong",
+      "adj. not adhering to ethical or moral principles"
+    ],
+    "usphone": "ɪ'mɔrəl",
+    "ukphone": "ɪ'mɒr(ə)l"
+  },
+  {
+    "name": "decent",
+    "trans": [
+      "adj. conforming to conventions of sexual behavior",
+      "adj. observing conventional sexual mores in speech or behavior or dress",
+      "adj. decently clothed"
+    ],
+    "usphone": "'disnt",
+    "ukphone": "'diːs(ə)nt"
+  },
+  {
+    "name": "ethics",
+    "trans": [
+      "n. the philosophical study of moral values and rules",
+      "n. motivation based on ideas of right and wrong"
+    ],
+    "usphone": "‘ɛθɪks",
+    "ukphone": "'eθɪks"
+  },
+  {
+    "name": "ethical",
+    "trans": [
+      "adj. conforming to accepted standards of social or professional behavior",
+      "adj. adhering to ethical and moral principles",
+      "adj. of or relating to the philosophical study of ethics"
+    ],
+    "usphone": "'ɛθɪkl",
+    "ukphone": "'eθɪk(ə)l"
+  },
+  {
+    "name": "offending",
+    "trans": ["adj. offending against or breaking a law or rule"],
+    "usphone": "ə'fendiŋ",
+    "ukphone": ""
+  },
+  {
+    "name": "beware",
+    "trans": ["v. to be on one's guard"],
+    "usphone": "bɪ'wɛr",
+    "ukphone": "bɪ'weə"
+  },
+  {
+    "name": "consumer",
+    "trans": ["n. a person who uses goods or services"],
+    "usphone": "kən'sumɚ",
+    "ukphone": "kən'sjuːmə"
+  },
+  {
+    "name": "trustworthy",
+    "trans": [
+      "adj. taking responsibility for one's conduct and obligations",
+      "adj. worthy of trust or belief"
+    ],
+    "usphone": "'trʌstwɝði",
+    "ukphone": "'trʌs(t)wɜːðɪ"
+  }
 ]

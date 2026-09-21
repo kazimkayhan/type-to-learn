@@ -1,23 +1,27 @@
-import { useEffect, useState } from 'react'
+import { useEffect, useState } from "react";
 
-const isClient = typeof window === 'object'
+const isClient = typeof window === "object";
 
-export function useMediaQuery(query: string) {
-  const [matches, setMatches] = useState(() => (isClient ? window.matchMedia(query).matches : false))
+function useMediaQuery(query: string) {
+  const [matches, setMatches] = useState(() =>
+    isClient ? window.matchMedia(query).matches : false
+  );
 
   useEffect(() => {
-    if (!isClient) return undefined
+    if (!isClient) {
+      return;
+    }
 
-    const mediaQuery = window.matchMedia(query)
-    const onChange = () => setMatches(mediaQuery.matches)
+    const mediaQuery = window.matchMedia(query);
+    const onChange = () => setMatches(mediaQuery.matches);
 
-    onChange()
-    mediaQuery.addEventListener('change', onChange)
-    return () => mediaQuery.removeEventListener('change', onChange)
-  }, [query])
+    onChange();
+    mediaQuery.addEventListener("change", onChange);
+    return () => mediaQuery.removeEventListener("change", onChange);
+  }, [query]);
 
-  return matches
+  return matches;
 }
 
-export const useIsNarrow = () => useMediaQuery('(max-width: 767px)')
-export const useIsTouch = () => useMediaQuery('(pointer: coarse)')
+const useIsNarrow = () => useMediaQuery("(max-width: 767px)");
+export const useIsTouch = () => useMediaQuery("(pointer: coarse)");

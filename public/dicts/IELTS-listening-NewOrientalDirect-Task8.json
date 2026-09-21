@@ -1,232 +1,218 @@
 [
-    {
-        "name": "administration",
-        "trans": [
-            "n. the act of meting out justice according to the law",
-            "n. the act of administering medication",
-            "n. the act of governing"
-        ]
-    },
-    {
-        "name": "office",
-        "trans": [
-            "n. a job in an organization",
-            "n. the actions and activities assigned to or required or expected of a person or group",
-            "n. a religious rite or service prescribed by ecclesiastical authorities"
-        ]
-    },
-    {
-        "name": "clerical",
-        "trans": [
-            "adj. appropriate for or engaged in office work",
-            "adj. of or relating to the clergy",
-            "adj. of or relating to clerks"
-        ]
-    },
-    {
-        "name": "file",
-        "trans": [
-            "v. file a formal charge against",
-            "v. place in a container for keeping records",
-            "v. record in a public office or in a court of law"
-        ]
-    },
-    {
-        "name": "computer-literate",
-        "trans": [
-            "adj. to be proficient in computer"
-        ]
-    },
-    {
-        "name": "teleconference",
-        "trans": [
-            "n. a conference of people who are in different locations that is made possible by the use of such telecommunications equipment as closed-circuit television"
-        ]
-    },
-    {
-        "name": "type",
-        "trans": [
-            "v. identify as belonging to a certain type",
-            "v. write by means of a keyboard with types",
-            "n. a small metal block bearing a raised character on one end"
-        ]
-    },
-    {
-        "name": "spreadsheet",
-        "trans": [
-            "n. a screen-oriented interactive program enabling a user to lay out financial data on the screen"
-        ]
-    },
-    {
-        "name": "data entry",
-        "trans": [
-            "n. data to input (computer)"
-        ]
-    },
-    {
-        "name": "interpersonal",
-        "trans": [
-            "adj. occurring among or involving several people"
-        ]
-    },
-    {
-        "name": "organisational",
-        "trans": [
-            "adj. of or relating to an organization"
-        ]
-    },
-    {
-        "name": "communicate",
-        "trans": [
-            "v. to transmit thoughts or feelings",
-            "v. to transmit information",
-            "v. to receive Communion, in the Catholic church"
-        ]
-    },
-    {
-        "name": "flexible",
-        "trans": [
-            "adj. bending and snapping back readily without breaking",
-            "adj. able to flex",
-            "adj. capable of being changed"
-        ]
-    },
-    {
-        "name": "overtime",
-        "trans": [
-            "adv. beyond the regular time",
-            "n. work done in addition to regular working hours",
-            "n. playing time beyond regulation, to break a tie"
-        ]
-    },
-    {
-        "name": "position",
-        "trans": [
-            "v. put into a certain place or abstract location",
-            "v. cause to be in an appropriate place, state, or relation",
-            "n. the act of positing"
-        ]
-    },
-    {
-        "name": "occupation",
-        "trans": [
-            "n. the act of occupying or taking possession of a building",
-            "n. the principal activity in your life that you do to earn money",
-            "n. any activity that occupies a person's attention"
-        ]
-    },
-    {
-        "name": "part-time",
-        "trans": [
-            "adj. involving less than the standard or customary time for an activity",
-            "adv. for less than the standard number of hours"
-        ]
-    },
-    {
-        "name": "full-time",
-        "trans": [
-            "adj. for the entire time appropriate to an activity",
-            "adv. for the standard number of hours"
-        ]
-    },
-    {
-        "name": "temporary",
-        "trans": [
-            "adj. lacking continuity or regularity",
-            "adj. not permanent",
-            "n. a worker (especially in an office) hired on a temporary basis"
-        ]
-    },
-    {
-        "name": "internship",
-        "trans": [
-            "n. the position of a medical intern"
-        ]
-    },
-    {
-        "name": "intern",
-        "trans": [
-            "v. work to gain experience in an advanced field",
-            "v. deprive of freedom, usually in a confined area",
-            "n. an advanced student or graduate in any field gaining supervised practical experience, usually unpaid"
-        ]
-    },
-    {
-        "name": "cleaner",
-        "trans": [
-            "n. a preparation used in cleaning something",
-            "n. someone whose occupation is cleaning",
-            "n. the operator of dry-cleaning establishment"
-        ]
-    },
-    {
-        "name": "receptionist",
-        "trans": [
-            "n. an employee whose main duty is to answer the telephone and receive visitors, typically located behind the front desk"
-        ]
-    },
-    {
-        "name": "secretary",
-        "trans": [
-            "n. a desk used for writing",
-            "n. a person to whom a secret is entrusted",
-            "n. an assistant who handles correspondence and clerical work for a boss or an organization"
-        ]
-    },
-    {
-        "name": "representative",
-        "trans": [
-            "adj. being or characteristic of government by representation in which citizens exercise power through elected officers and representatives",
-            "adj. standing for something else",
-            "adj. serving to represent or typify"
-        ]
-    },
-    {
-        "name": "engineer",
-        "trans": [
-            "v. plan and direct (a complex undertaking)",
-            "v. design as an engineer",
-            "n. a person who uses scientific knowledge to solve practical problems"
-        ]
-    },
-    {
-        "name": "accountant",
-        "trans": [
-            "n. someone who maintains and audits business accounts"
-        ]
-    },
-    {
-        "name": "staff",
-        "trans": [
-            "v. provide with staff",
-            "v. serve on the staff of",
-            "n. a strong rod or stick with a specialized utilitarian purpose"
-        ]
-    },
-    {
-        "name": "manager",
-        "trans": [
-            "n. someone in charge of training an athlete or a team",
-            "n. someone who controls resources and expenditures"
-        ]
-    },
-    {
-        "name": "freelancer",
-        "trans": [
-            "n. a writer or artist who sells services to different employers without a long-term contract with any of them"
-        ]
-    },
-    {
-        "name": "assistant",
-        "trans": [
-            "adj. of or relating to a person who is subordinate to another",
-            "n. a person who contributes to the fulfillment of a need or furtherance of an effort or purpose"
-        ]
-    },
-    {
-        "name": "customer service",
-        "trans": [
-            "n. customer service"
-        ]
-    }
+  {
+    "name": "administration",
+    "trans": [
+      "n. the act of meting out justice according to the law",
+      "n. the act of administering medication",
+      "n. the act of governing"
+    ]
+  },
+  {
+    "name": "office",
+    "trans": [
+      "n. a job in an organization",
+      "n. the actions and activities assigned to or required or expected of a person or group",
+      "n. a religious rite or service prescribed by ecclesiastical authorities"
+    ]
+  },
+  {
+    "name": "clerical",
+    "trans": [
+      "adj. appropriate for or engaged in office work",
+      "adj. of or relating to the clergy",
+      "adj. of or relating to clerks"
+    ]
+  },
+  {
+    "name": "file",
+    "trans": [
+      "v. file a formal charge against",
+      "v. place in a container for keeping records",
+      "v. record in a public office or in a court of law"
+    ]
+  },
+  {
+    "name": "computer-literate",
+    "trans": ["adj. to be proficient in computer"]
+  },
+  {
+    "name": "teleconference",
+    "trans": [
+      "n. a conference of people who are in different locations that is made possible by the use of such telecommunications equipment as closed-circuit television"
+    ]
+  },
+  {
+    "name": "type",
+    "trans": [
+      "v. identify as belonging to a certain type",
+      "v. write by means of a keyboard with types",
+      "n. a small metal block bearing a raised character on one end"
+    ]
+  },
+  {
+    "name": "spreadsheet",
+    "trans": [
+      "n. a screen-oriented interactive program enabling a user to lay out financial data on the screen"
+    ]
+  },
+  {
+    "name": "data entry",
+    "trans": ["n. data to input (computer)"]
+  },
+  {
+    "name": "interpersonal",
+    "trans": ["adj. occurring among or involving several people"]
+  },
+  {
+    "name": "organisational",
+    "trans": ["adj. of or relating to an organization"]
+  },
+  {
+    "name": "communicate",
+    "trans": [
+      "v. to transmit thoughts or feelings",
+      "v. to transmit information",
+      "v. to receive Communion, in the Catholic church"
+    ]
+  },
+  {
+    "name": "flexible",
+    "trans": [
+      "adj. bending and snapping back readily without breaking",
+      "adj. able to flex",
+      "adj. capable of being changed"
+    ]
+  },
+  {
+    "name": "overtime",
+    "trans": [
+      "adv. beyond the regular time",
+      "n. work done in addition to regular working hours",
+      "n. playing time beyond regulation, to break a tie"
+    ]
+  },
+  {
+    "name": "position",
+    "trans": [
+      "v. put into a certain place or abstract location",
+      "v. cause to be in an appropriate place, state, or relation",
+      "n. the act of positing"
+    ]
+  },
+  {
+    "name": "occupation",
+    "trans": [
+      "n. the act of occupying or taking possession of a building",
+      "n. the principal activity in your life that you do to earn money",
+      "n. any activity that occupies a person's attention"
+    ]
+  },
+  {
+    "name": "part-time",
+    "trans": [
+      "adj. involving less than the standard or customary time for an activity",
+      "adv. for less than the standard number of hours"
+    ]
+  },
+  {
+    "name": "full-time",
+    "trans": [
+      "adj. for the entire time appropriate to an activity",
+      "adv. for the standard number of hours"
+    ]
+  },
+  {
+    "name": "temporary",
+    "trans": [
+      "adj. lacking continuity or regularity",
+      "adj. not permanent",
+      "n. a worker (especially in an office) hired on a temporary basis"
+    ]
+  },
+  {
+    "name": "internship",
+    "trans": ["n. the position of a medical intern"]
+  },
+  {
+    "name": "intern",
+    "trans": [
+      "v. work to gain experience in an advanced field",
+      "v. deprive of freedom, usually in a confined area",
+      "n. an advanced student or graduate in any field gaining supervised practical experience, usually unpaid"
+    ]
+  },
+  {
+    "name": "cleaner",
+    "trans": [
+      "n. a preparation used in cleaning something",
+      "n. someone whose occupation is cleaning",
+      "n. the operator of dry-cleaning establishment"
+    ]
+  },
+  {
+    "name": "receptionist",
+    "trans": [
+      "n. an employee whose main duty is to answer the telephone and receive visitors, typically located behind the front desk"
+    ]
+  },
+  {
+    "name": "secretary",
+    "trans": [
+      "n. a desk used for writing",
+      "n. a person to whom a secret is entrusted",
+      "n. an assistant who handles correspondence and clerical work for a boss or an organization"
+    ]
+  },
+  {
+    "name": "representative",
+    "trans": [
+      "adj. being or characteristic of government by representation in which citizens exercise power through elected officers and representatives",
+      "adj. standing for something else",
+      "adj. serving to represent or typify"
+    ]
+  },
+  {
+    "name": "engineer",
+    "trans": [
+      "v. plan and direct (a complex undertaking)",
+      "v. design as an engineer",
+      "n. a person who uses scientific knowledge to solve practical problems"
+    ]
+  },
+  {
+    "name": "accountant",
+    "trans": ["n. someone who maintains and audits business accounts"]
+  },
+  {
+    "name": "staff",
+    "trans": [
+      "v. provide with staff",
+      "v. serve on the staff of",
+      "n. a strong rod or stick with a specialized utilitarian purpose"
+    ]
+  },
+  {
+    "name": "manager",
+    "trans": [
+      "n. someone in charge of training an athlete or a team",
+      "n. someone who controls resources and expenditures"
+    ]
+  },
+  {
+    "name": "freelancer",
+    "trans": [
+      "n. a writer or artist who sells services to different employers without a long-term contract with any of them"
+    ]
+  },
+  {
+    "name": "assistant",
+    "trans": [
+      "adj. of or relating to a person who is subordinate to another",
+      "n. a person who contributes to the fulfillment of a need or furtherance of an effort or purpose"
+    ]
+  },
+  {
+    "name": "customer service",
+    "trans": ["n. customer service"]
+  }
 ]

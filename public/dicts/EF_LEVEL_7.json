@@ -1,1649 +1,1599 @@
 [
-    {
-        "name": "market",
-        "usphone": "ˈmɑːrkɪt",
-        "ukphone": "ˈmɑːkɪt",
-        "trans": [
-            "v. make commercial",
-            "v. engage in the commercial promotion, sale, or distribution of",
-            "v. deal in a market"
-        ]
-    },
-    {
-        "name": "medical",
-        "usphone": "ˈmedɪkl",
-        "ukphone": "ˈmedɪkl",
-        "trans": [
-            "adj. requiring or amenable to treatment by medicine especially as opposed to surgery",
-            "adj. of or belonging to Aesculapius or the healing art",
-            "adj. relating to the study or practice of medicine"
-        ]
-    },
-    {
-        "name": "natural",
-        "usphone": "ˈnætʃrəl",
-        "ukphone": "ˈnætʃrəl",
-        "trans": [
-            "adj. free from artificiality",
-            "adj. being talented through inherited qualities",
-            "adj. related by blood"
-        ]
-    },
-    {
-        "name": "technology",
-        "usphone": "tekˈnɑːlədʒi",
-        "ukphone": "tekˈnɒlədʒi",
-        "trans": [
-            "n. the practical application of science to commerce or industry",
-            "n. the discipline dealing with the art or science of applying scientific knowledge to practical problems"
-        ]
-    },
-    {
-        "name": "human",
-        "usphone": "ˈhjuːmən",
-        "ukphone": "ˈhjuːmən",
-        "trans": [
-            "adj. having human form or attributes as opposed to those of animals or divine beings",
-            "adj. characteristic of humanity",
-            "adj. relating to a person"
-        ]
-    },
-    {
-        "name": "predict",
-        "usphone": "prɪˈdɪkt",
-        "ukphone": "prɪˈdɪkt",
-        "trans": [
-            "v. indicate by signs",
-            "v. make a prediction about"
-        ]
-    },
-    {
-        "name": "shocking",
-        "usphone": "ˈʃɑːkɪŋ",
-        "ukphone": "ˈʃɒkɪŋ",
-        "trans": [
-            "adj. giving offense to moral sensibilities and injurious to reputation",
-            "adj. glaringly vivid and graphic"
-        ]
-    },
-    {
-        "name": "doubt",
-        "usphone": "daʊt",
-        "ukphone": "daʊt",
-        "trans": [
-            "v. consider unlikely or have doubts about",
-            "v. lack confidence in or have doubts about",
-            "n. uncertainty about the truth or factuality or existence of something"
-        ]
-    },
-    {
-        "name": "optimistic",
-        "usphone": "ˌɑːptɪˈmɪstɪk",
-        "ukphone": "ˌɒptɪˈmɪstɪk",
-        "trans": [
-            "adj. expecting the best in this best of all possible worlds",
-            "adj. expecting the best"
-        ]
-    },
-    {
-        "name": "pessimistic",
-        "usphone": "ˌpesɪˈmɪstɪk",
-        "ukphone": "ˌpesɪˈmɪstɪk",
-        "trans": [
-            "adj. expecting the worst possible outcome"
-        ]
-    },
-    {
-        "name": "create",
-        "usphone": "kriˈeɪt",
-        "ukphone": "kriˈeɪt",
-        "trans": [
-            "v. to make, cause to be or to become",
-            "v. to create or manufacture a man-made product",
-            "v. to create by artistic means"
-        ]
-    },
-    {
-        "name": "criticize",
-        "usphone": "ˈkrɪtɪsaɪz",
-        "ukphone": "ˈkrɪtɪsaɪz",
-        "trans": [
-            "v. to find fault with",
-            "v. to act as a critic"
-        ]
-    },
-    {
-        "name": "compete",
-        "usphone": "kəmˈpiːt",
-        "ukphone": "kəmˈpiːt",
-        "trans": [
-            "v. to compete for something"
-        ]
-    },
-    {
-        "name": "innovation",
-        "usphone": "ˌɪnəˈveɪʃn",
-        "ukphone": "ˌɪnəˈveɪʃn",
-        "trans": [
-            "n. the act of starting something for the first time",
-            "n. a creation (a new device or process) resulting from study and experimentation",
-            "n. the creation of something in the mind"
-        ]
-    },
-    {
-        "name": "realistic",
-        "usphone": "ˌriːəˈlɪstɪk",
-        "ukphone": "ˌriːəˈlɪstɪk",
-        "trans": [
-            "adj. aware or expressing awareness of things as they really are",
-            "adj. representing what is real",
-            "adj. of or relating to the philosophical doctrine of realism"
-        ]
-    },
-    {
-        "name": "developing",
-        "usphone": "dɪˈveləpɪŋ",
-        "ukphone": "dɪˈveləpɪŋ",
-        "trans": [
-            "adj. relating to societies in which capital needed to industrialize is in short supply",
-            "n. processing a photosensitive material in order to make an image visible"
-        ]
-    },
-    {
-        "name": "body",
-        "usphone": "ˈbɑːdi",
-        "ukphone": "ˈbɒdi",
-        "trans": [
-            "n. the external structure of a vehicle",
-            "n. a resonating chamber in a musical instrument (as the body of a violin)",
-            "n. the property of holding together and retaining its shape"
-        ]
-    },
-    {
-        "name": "cell",
-        "usphone": "sel",
-        "ukphone": "sel",
-        "trans": [
-            "n. the basic structural and functional unit of all organisms",
-            "n. a device that delivers an electric current as the result of a chemical reaction",
-            "n. a room where a prisoner is kept"
-        ]
-    },
-    {
-        "name": "coal",
-        "usphone": "koʊl",
-        "ukphone": "kəʊl",
-        "trans": [
-            "v. to take in coal",
-            "v. to supply with coal",
-            "v. to burn to charcoal"
-        ]
-    },
-    {
-        "name": "commute",
-        "usphone": "kəˈmjuːt",
-        "ukphone": "kəˈmjuːt",
-        "trans": [
-            "v. to exchange or replace with another, usually of the same kind or category",
-            "v. to exchange a penalty for a less severe one",
-            "v. to change the order or arrangement of"
-        ]
-    },
-    {
-        "name": "demonstrate",
-        "usphone": "ˈdemənstreɪt",
-        "ukphone": "ˈdemənstreɪt",
-        "trans": [
-            "v. establish the validity of something, as by an example, explanation or experiment",
-            "v. provide evidence for",
-            "v. give an exhibition of to an interested audience"
-        ]
-    },
-    {
-        "name": "DNA",
-        "usphone": "ˌdiːenˈeɪ",
-        "ukphone": "ˌdiːenˈeɪ",
-        "trans": [
-            "gene (loanword)"
-        ]
-    },
-    {
-        "name": "effective",
-        "usphone": "ɪˈfektɪv",
-        "ukphone": "ɪˈfektɪv",
-        "trans": [
-            "adj. existing in fact",
-            "adj. able to accomplish a purpose",
-            "adj. exerting force or influence"
-        ]
-    },
-    {
-        "name": "electric",
-        "usphone": "ɪˈlektrɪk",
-        "ukphone": "ɪˈlektrɪk",
-        "trans": [
-            "adj. affected by emotion as if by electricity",
-            "adj. (of a situation) exceptionally tense",
-            "adj. using or providing or producing or transmitting or operated by electricity"
-        ]
-    },
-    {
-        "name": "environment",
-        "usphone": "ɪnˈvaɪrənmənt",
-        "ukphone": "ɪnˈvaɪrənmənt",
-        "trans": [
-            "n. the area in which something exists or lives",
-            "n. the totality of surrounding conditions"
-        ]
-    },
-    {
-        "name": "pollution",
-        "usphone": "pəˈluːʃn",
-        "ukphone": "pəˈluːʃn",
-        "trans": [
-            "n. the act of contaminating or polluting",
-            "n. the state of being polluted",
-            "n. undesirable state of the natural environment being contaminated with harmful substances as a consequence of human activities"
-        ]
-    },
-    {
-        "name": "robot",
-        "usphone": "ˈroʊbɑːt",
-        "ukphone": "ˈrəʊbɒt",
-        "trans": [
-            "n. a mechanism that can move automatically"
-        ]
-    },
-    {
-        "name": "scanner",
-        "usphone": "ˈskænər",
-        "ukphone": "ˈskænə(r)",
-        "trans": [
-            "n. a radio receiver that moves automatically across some selected range of frequencies looking for some signal or condition",
-            "n. a radar dish that rotates or oscillates in order to scan a broad area",
-            "n. an electronic device that generates a digital representation of an image for data input to a computer"
-        ]
-    },
-    {
-        "name": "teleconference",
-        "usphone": "ˈtelikɑːnfərəns",
-        "ukphone": "ˈtelikɒnfərəns",
-        "trans": [
-            "n. a conference of people who are in different locations that is made possible by the use of such telecommunications equipment as closed-circuit television"
-        ]
-    },
-    {
-        "name": "apply",
-        "usphone": "əˈplaɪ",
-        "ukphone": "əˈplaɪ",
-        "trans": [
-            "v. to ask for something",
-            "v. to refer to a person or thing with a specific word",
-            "v. to put into service"
-        ]
-    },
-    {
-        "name": "career",
-        "usphone": "kəˈrɪr",
-        "ukphone": "kəˈrɪə(r)",
-        "trans": [
-            "v. to move headlong at high speed",
-            "n. the general progression of your working or professional life",
-            "n. the particular occupation for which you are trained"
-        ]
-    },
-    {
-        "name": "wish",
-        "usphone": "wɪʃ",
-        "ukphone": "wɪʃ",
-        "trans": [
-            "v. invoke upon",
-            "v. order politely",
-            "v. make or express a wish"
-        ]
-    },
-    {
-        "name": "organized",
-        "usphone": "ˈɔːrɡənaɪzd",
-        "ukphone": "ˈɔːɡənaɪzd",
-        "trans": [
-            "adj. methodical and efficient in arrangement or function",
-            "adj. formed into a structured or coherent whole",
-            "adj. being a member of or formed into a labor union"
-        ]
-    },
-    {
-        "name": "path",
-        "usphone": "pæθ",
-        "ukphone": "pɑːθ",
-        "trans": [
-            "n. a course of conduct",
-            "n. a way especially designed for a particular use",
-            "n. an established line of travel or access"
-        ]
-    },
-    {
-        "name": "potential",
-        "usphone": "pəˈtenʃl",
-        "ukphone": "pəˈtenʃl",
-        "trans": [
-            "adj. existing in possibility",
-            "adj. expected to become or be",
-            "n. the difference in electrical charge between two points in a circuit expressed in volts"
-        ]
-    },
-    {
-        "name": "professional",
-        "usphone": "prəˈfeʃənl",
-        "ukphone": "prəˈfeʃənl",
-        "trans": [
-            "adj. engaged in a profession or engaging in as a profession or means of livelihood",
-            "adj. characteristic of or befitting a profession or one engaged in a profession",
-            "adj. engaged in by members of a profession"
-        ]
-    },
-    {
-        "name": "rewarding",
-        "usphone": "rɪˈwɔːrdɪŋ",
-        "ukphone": "rɪˈwɔːdɪŋ",
-        "trans": [
-            "adj. providing personal satisfaction"
-        ]
-    },
-    {
-        "name": "skill",
-        "usphone": "skɪl",
-        "ukphone": "skɪl",
-        "trans": [
-            "n. ability to produce solutions in some problem domain",
-            "n. an ability that has been acquired by training"
-        ]
-    },
-    {
-        "name": "undecided",
-        "usphone": "ˌʌndɪˈsaɪdɪd",
-        "ukphone": "ˌʌndɪˈsaɪdɪd",
-        "trans": [
-            "adj. not yet having made a commitment",
-            "adj. characterized by indecision",
-            "adj. not brought to a conclusion"
-        ]
-    },
-    {
-        "name": "application",
-        "usphone": "ˌæplɪˈkeɪʃn",
-        "ukphone": "ˌæplɪˈkeɪʃn",
-        "trans": [
-            "n. the action of putting something into operation",
-            "n. a diligent effort",
-            "n. the work of applying something"
-        ]
-    },
-    {
-        "name": "become",
-        "usphone": "bɪˈkʌm",
-        "ukphone": "bɪˈkʌm",
-        "trans": [
-            "v. to enter or assume a certain state or condition",
-            "v. to come into existence",
-            "v. to undergo a change or development"
-        ]
-    },
-    {
-        "name": "abroad",
-        "usphone": "əˈbrɔːd",
-        "ukphone": "əˈbrɔːd",
-        "trans": [
-            "adj. in a foreign country",
-            "adv. to or in a foreign country",
-            "adv. in a place across an ocean"
-        ]
-    },
-    {
-        "name": "project",
-        "usphone": "ˈprɑːdʒekt",
-        "ukphone": "ˈprɒdʒekt",
-        "trans": [
-            "v. present for consideration, examination, criticism, etc.",
-            "v. regard as objective",
-            "v. communicate vividly"
-        ]
-    },
-    {
-        "name": "management",
-        "usphone": "ˈmænɪdʒmənt",
-        "ukphone": "ˈmænɪdʒmənt",
-        "trans": [
-            "n. the act of managing something",
-            "n. those in charge of running a business"
-        ]
-    },
-    {
-        "name": "communication",
-        "usphone": "kəˌmjuːnɪˈkeɪʃn",
-        "ukphone": "kəˌmjuːnɪˈkeɪʃn",
-        "trans": [
-            "n. something that is communicated by or to or between people or groups",
-            "n. the activity of communicating",
-            "n. a connection allowing access between persons or places"
-        ]
-    },
-    {
-        "name": "technical",
-        "usphone": "ˈteknɪkl",
-        "ukphone": "ˈteknɪkl",
-        "trans": [
-            "adj. of or relating to or requiring special knowledge to be understood",
-            "adj. of or relating to technique or proficiency in a practical skill",
-            "adj. of or relating to a practical subject that is organized according to scientific principles"
-        ]
-    },
-    {
-        "name": "background",
-        "usphone": "ˈbækɡraʊnd",
-        "ukphone": "ˈbækɡraʊnd",
-        "trans": [
-            "v. to understate the importance or quality of",
-            "n. scenery hung at back of stage",
-            "n. (computer science) the area of the screen in graphical user interfaces against which icons and windows appear"
-        ]
-    },
-    {
-        "name": "course",
-        "usphone": "kɔːrs",
-        "ukphone": "kɔːs",
-        "trans": [
-            "v. to hunt with hounds",
-            "v. to move along, of liquids",
-            "v. to move swiftly through or over"
-        ]
-    },
-    {
-        "name": "move",
-        "usphone": "muːv",
-        "ukphone": "muːv",
-        "trans": [
-            "v. be in a state of action",
-            "v. go or proceed from one point to another",
-            "v. progress by being changed"
-        ]
-    },
-    {
-        "name": "make",
-        "usphone": "meɪk",
-        "ukphone": "meɪk",
-        "trans": [
-            "v. act in a certain way so as to acquire",
-            "v. eliminate urine",
-            "v. have a bowel movement"
-        ]
-    },
-    {
-        "name": "hope",
-        "usphone": "hoʊp",
-        "ukphone": "həʊp",
-        "trans": [
-            "v. intend with some possibility of fulfilment",
-            "v. be optimistic",
-            "v. expect and wish"
-        ]
-    },
-    {
-        "name": "possibility",
-        "usphone": "ˌpɑːsəˈbɪləti",
-        "ukphone": "ˌpɒsəˈbɪləti",
-        "trans": [
-            "n. a possible alternative",
-            "n. a tentative insight into the natural world",
-            "n. a future prospect or potential"
-        ]
-    },
-    {
-        "name": "development",
-        "usphone": "dɪˈveləpmənt",
-        "ukphone": "dɪˈveləpmənt",
-        "trans": [
-            "n. act of improving by expanding or enlarging or refining",
-            "n. the act of making some area of land or water more profitable or productive or useful",
-            "n. (music) the section of a composition or movement (especially in sonata form) where the major musical themes are developed and elaborated"
-        ]
-    },
-    {
-        "name": "dream",
-        "usphone": "driːm",
-        "ukphone": "driːm",
-        "trans": [
-            "v. have a daydream",
-            "v. experience while sleeping",
-            "n. a fantastic but vain hope, from fantasies induced by the opium pipe"
-        ]
-    },
-    {
-        "name": "energy",
-        "usphone": "ˈenərdʒi",
-        "ukphone": "ˈenədʒi",
-        "trans": [
-            "n. an imaginative lively style, especially style of writing",
-            "n. enterprising or ambitious drive",
-            "n. forceful exertion"
-        ]
-    },
-    {
-        "name": "future",
-        "usphone": "ˈfjuːtʃər",
-        "ukphone": "ˈfjuːtʃə(r)",
-        "trans": [
-            "adj. of elected officers not yet serving",
-            "adj. yet to be or coming",
-            "adj. effective in or looking toward the future"
-        ]
-    },
-    {
-        "name": "jealous",
-        "usphone": "ˈdʒeləs",
-        "ukphone": "ˈdʒeləs",
-        "trans": [
-            "adj. showing extreme cupidity",
-            "adj. suspicious or unduly suspicious or fearful of being displaced by a rival"
-        ]
-    },
-    {
-        "name": "lawyer",
-        "usphone": "ˈlɔːjər",
-        "ukphone": "ˈlɔːjə(r)",
-        "trans": [
-            "n. a professional person authorized to practice law"
-        ]
-    },
-    {
-        "name": "reach",
-        "usphone": "riːtʃ",
-        "ukphone": "riːtʃ",
-        "trans": [
-            "v. be in or establish communication with",
-            "v. to exert much effort or energy",
-            "v. move forward or upward in order to touch"
-        ]
-    },
-    {
-        "name": "reference",
-        "usphone": "ˈrefrəns",
-        "ukphone": "ˈrefrəns",
-        "trans": [
-            "v. to refer to",
-            "n. the act of referring or consulting",
-            "n. the most direct or specific meaning of a word or expression"
-        ]
-    },
-    {
-        "name": "response",
-        "usphone": "rɪˈspɑːns",
-        "ukphone": "rɪˈspɒns",
-        "trans": [
-            "n. a bodily process occurring due to the effect of some antecedent stimulus or agent",
-            "n. the manner in which an electrical or mechanical device responds to an input signal or a range of input signals",
-            "n. a phrase recited or sung by the congregation following a versicle by the priest or minister"
-        ]
-    },
-    {
-        "name": "CV",
-        "usphone": "ˌsiːˈviː",
-        "ukphone": "ˌsiːˈviː",
-        "trans": [
-            "n. a summary of your academic and work history"
-        ]
-    },
-    {
-        "name": "duty",
-        "usphone": "ˈduːti",
-        "ukphone": "ˈdjuːti",
-        "trans": [
-            "n. work that you are obliged to perform for moral or legal reasons",
-            "n. the social force that binds you to the courses of action demanded by that force",
-            "n. a government tax on imports or exports"
-        ]
-    },
-    {
-        "name": "description",
-        "usphone": "dɪˈskrɪpʃn",
-        "ukphone": "dɪˈskrɪpʃn",
-        "trans": [
-            "n. sort or variety",
-            "n. a statement that represents something in words",
-            "n. the act of describing something"
-        ]
-    },
-    {
-        "name": "title",
-        "usphone": "ˈtaɪtl",
-        "ukphone": "ˈtaɪtl",
-        "trans": [
-            "v. designate by an identifying term",
-            "v. give a title to",
-            "n. an informal right to something"
-        ]
-    },
-    {
-        "name": "education",
-        "usphone": "ˌedʒuˈkeɪʃn",
-        "ukphone": "ˌedʒuˈkeɪʃn",
-        "trans": [
-            "n. the profession of teaching (especially at a school or college or university)",
-            "n. the activities of educating or instructing",
-            "n. the result of good upbringing (especially knowledge of correct social behavior)"
-        ]
-    },
-    {
-        "name": "experience",
-        "usphone": "ɪkˈspɪriəns",
-        "ukphone": "ɪkˈspɪəriəns",
-        "trans": [
-            "v. undergo",
-            "v. have firsthand knowledge of states, situations, emotions, or sensations",
-            "v. undergo an emotional sensation or be in a particular state of mind"
-        ]
-    },
-    {
-        "name": "salary",
-        "usphone": "ˈsæləri",
-        "ukphone": "ˈsæləri",
-        "trans": [
-            "n. something that remunerates"
-        ]
-    },
-    {
-        "name": "benefit",
-        "usphone": "ˈbenɪfɪt",
-        "ukphone": "ˈbenɪfɪt",
-        "trans": [
-            "v. to derive an advantage from",
-            "v. to be beneficial for",
-            "n. something that aids or promotes well-being"
-        ]
-    },
-    {
-        "name": "goal",
-        "usphone": "ɡoʊl",
-        "ukphone": "ɡəʊl",
-        "trans": [
-            "n. a successful attempt at scoring",
-            "n. game equipment consisting of the place toward which players of a game try to advance a ball or puck in order to score points",
-            "n. the state of affairs that a plan is intended to achieve and that (when achieved) terminates behavior intended to achieve it"
-        ]
-    },
-    {
-        "name": "resume",
-        "usphone": "ˈrezəmeɪ",
-        "ukphone": "ˈrezjumeɪ",
-        "trans": [
-            "v. take up or begin anew",
-            "v. return to a previous location or condition",
-            "v. give a summary (of)"
-        ]
-    },
-    {
-        "name": "responsibility",
-        "usphone": "rɪˌspɑːnsəˈbɪləti",
-        "ukphone": "rɪˌspɒnsəˈbɪləti",
-        "trans": [
-            "n. the social force that binds you to the courses of action demanded by that force",
-            "n. a form of trustworthiness",
-            "n. the proper sphere or extent of your activities"
-        ]
-    },
-    {
-        "name": "opportunity",
-        "usphone": "ˌɑːpərˈtuːnəti",
-        "ukphone": "ˌɒpəˈtjuːnəti",
-        "trans": [
-            "n. a possibility due to a favorable combination of circumstances"
-        ]
-    },
-    {
-        "name": "available",
-        "usphone": "əˈveɪləbl",
-        "ukphone": "əˈveɪləbl",
-        "trans": [
-            "adj. obtainable or accessible and ready for use or service",
-            "adj. convenient for use or disposal",
-            "adj. not busy"
-        ]
-    },
-    {
-        "name": "position",
-        "usphone": "pəˈzɪʃn",
-        "ukphone": "pəˈzɪʃn",
-        "trans": [
-            "v. put into a certain place or abstract location",
-            "v. cause to be in an appropriate place, state, or relation",
-            "n. the act of positing"
-        ]
-    },
-    {
-        "name": "benefit",
-        "usphone": "ˈbenɪfɪt",
-        "ukphone": "ˈbenɪfɪt",
-        "trans": [
-            "v. to derive an advantage from",
-            "v. to be beneficial for",
-            "n. something that aids or promotes well-being"
-        ]
-    },
-    {
-        "name": "interview",
-        "usphone": "ˈɪntərvjuː",
-        "ukphone": "ˈɪntəvjuː",
-        "trans": [
-            "v. conduct an interview in television, newspaper, and radio reporting",
-            "v. discuss formally with (somebody) for the purpose of an evaluation",
-            "v. go for an interview in the hope of being hired"
-        ]
-    },
-    {
-        "name": "strength",
-        "usphone": "streŋθ",
-        "ukphone": "streŋθ",
-        "trans": [
-            "n. the property of being physically or mentally strong",
-            "n. capacity to produce strong physiological or chemical effects",
-            "n. physical energy or intensity"
-        ]
-    },
-    {
-        "name": "weakness",
-        "usphone": "ˈwiːknəs",
-        "ukphone": "ˈwiːknəs",
-        "trans": [
-            "n. the property of lacking physical or mental strength",
-            "n. powerlessness revealed by an inability to act",
-            "n. a penchant for something even though it might not be good for you"
-        ]
-    },
-    {
-        "name": "impression",
-        "usphone": "ɪmˈpreʃn",
-        "ukphone": "ɪmˈpreʃn",
-        "trans": [
-            "n. the act of pressing one thing on or into the surface of another",
-            "n. an impressionistic portrayal of a person",
-            "n. (dentistry) an imprint of the teeth and gums in wax or plaster"
-        ]
-    },
-    {
-        "name": "environment",
-        "usphone": "ɪnˈvaɪrənmənt",
-        "ukphone": "ɪnˈvaɪrənmənt",
-        "trans": [
-            "n. the area in which something exists or lives",
-            "n. the totality of surrounding conditions"
-        ]
-    },
-    {
-        "name": "compensation",
-        "usphone": "ˌkɑːmpenˈseɪʃn",
-        "ukphone": "ˌkɒmpenˈseɪʃn",
-        "trans": [
-            "n. the act of compensating for service or loss or injury",
-            "n. something (such as money) given or received as payment or reparation (as for a service or loss or injury)",
-            "n. (psychiatry) a defense mechanism that conceals your undesirable shortcomings by exaggerating desirable behaviors"
-        ]
-    },
-    {
-        "name": "package",
-        "usphone": "ˈpækɪdʒ",
-        "ukphone": "ˈpækɪdʒ",
-        "trans": [
-            "v. put into a box",
-            "n. a wrapped container",
-            "n. (computer science) written programs or procedures or rules and associated documentation pertaining to the operation of a computer system and that are stored in read/write memory"
-        ]
-    },
-    {
-        "name": "fit",
-        "usphone": "fɪt",
-        "ukphone": "fɪt",
-        "trans": [
-            "v. insert or adjust several objects or people",
-            "v. make fit",
-            "v. make correspond or harmonize"
-        ]
-    },
-    {
-        "name": "process",
-        "usphone": "ˈprɑːses",
-        "ukphone": "ˈprəʊses",
-        "trans": [
-            "v. subject to a process or treatment, with the aim of readying for some purpose, improving, or remedying a condition",
-            "v. perform mathematical and logical operations on data according to programmed instructions in order to obtain the required information",
-            "v. deliver a warrant or summons to someone"
-        ]
-    },
-    {
-        "name": "attach",
-        "usphone": "əˈtætʃ",
-        "ukphone": "əˈtætʃ",
-        "trans": [
-            "v. to be connected or attached",
-            "v. to adhere to",
-            "v. to create social or emotional ties"
-        ]
-    },
-    {
-        "name": "feedback",
-        "usphone": "ˈfiːdbæk",
-        "ukphone": "ˈfiːdbæk",
-        "trans": [
-            "n. response to an inquiry or experiment",
-            "n. the process in which part of the output of a system is returned to its input in order to regulate its further output"
-        ]
-    },
-    {
-        "name": "jingle",
-        "usphone": "ˈdʒɪŋɡl",
-        "ukphone": "ˈdʒɪŋɡl",
-        "trans": [
-            "v. make a sound typical of metallic objects",
-            "n. a comic verse of irregular measure",
-            "n. a metallic sound"
-        ]
-    },
-    {
-        "name": "keen",
-        "usphone": "kiːn",
-        "ukphone": "kiːn",
-        "trans": [
-            "v. express grief verbally",
-            "adj. having a sharp cutting edge or point",
-            "adj. painful as if caused by a sharp instrument"
-        ]
-    },
-    {
-        "name": "logo",
-        "usphone": "ˈloʊɡoʊ",
-        "ukphone": "ˈləʊɡəʊ",
-        "trans": [
-            "n. a company emblem or device"
-        ]
-    },
-    {
-        "name": "sitcom",
-        "usphone": "ˈsɪtkɑːm",
-        "ukphone": "ˈsɪtkɒm",
-        "trans": [
-            "n. a humorous television program based on situations that could arise in everyday life",
-            "n. a humorous drama based on situations that might arise in day-to-day life"
-        ]
-    },
-    {
-        "name": "slogan",
-        "usphone": "ˈsloʊɡən",
-        "ukphone": "ˈsləʊɡən",
-        "trans": [
-            "n. a favorite saying of a sect or political group"
-        ]
-    },
-    {
-        "name": "star",
-        "usphone": "stɑːr",
-        "ukphone": "stɑː(r)",
-        "trans": [
-            "v. mark with an asterisk",
-            "v. be the star in a performance",
-            "v. feature as the star"
-        ]
-    },
-    {
-        "name": "violence",
-        "usphone": "ˈvaɪələns",
-        "ukphone": "ˈvaɪələns",
-        "trans": [
-            "n. an act of aggression, as one against a person who resists",
-            "n. the property of being wild or turbulent",
-            "n. a turbulent state resulting in injuries and destruction etc."
-        ]
-    },
-    {
-        "name": "news",
-        "usphone": "nuːz",
-        "ukphone": "njuːz",
-        "trans": [
-            "n. the quality of being sufficiently interesting to be reported in news bulletins",
-            "n. a program devoted to current events, often using interviews and commentary",
-            "n. information about recent and important events"
-        ]
-    },
-    {
-        "name": "reality",
-        "usphone": "riˈæləti",
-        "ukphone": "riˈæləti",
-        "trans": [
-            "n. the quality possessed by something that is real",
-            "n. all of your experiences that determine how things appear to you",
-            "n. the state of being actual or real"
-        ]
-    },
-    {
-        "name": "documentary",
-        "usphone": "ˌdɑːkjuˈmentri",
-        "ukphone": "ˌdɒkjuˈmentri",
-        "trans": [
-            "adj. emphasizing or expressing things as perceived without distortion of personal feelings, insertion of fictional matter, or interpretation",
-            "adj. relating to or consisting of or derived from documents",
-            "n. a film or TV program presenting the facts about a person or event"
-        ]
-    },
-    {
-        "name": "show",
-        "usphone": "ʃoʊ",
-        "ukphone": "ʃəʊ",
-        "trans": [
-            "v. establish the validity of something, as by an example, explanation or experiment",
-            "v. indicate a certain reading",
-            "v. give evidence of, as of records"
-        ]
-    },
-    {
-        "name": "weather",
-        "usphone": "ˈweðər",
-        "ukphone": "ˈweðə(r)",
-        "trans": [
-            "v. change under the action or influence of the weather",
-            "v. sail to the windward of",
-            "v. cause to slope"
-        ]
-    },
-    {
-        "name": "drama",
-        "usphone": "ˈdrɑːmə",
-        "ukphone": "ˈdrɑːmə",
-        "trans": [
-            "n. the quality of being arresting or highly emotional",
-            "n. the literary genre of works intended for the theater",
-            "n. a dramatic work intended for performance by actors on a stage"
-        ]
-    },
-    {
-        "name": "game",
-        "usphone": "ɡeɪm",
-        "ukphone": "ɡeɪm",
-        "trans": [
-            "v. place a bet on",
-            "adj. willing to face danger",
-            "adj. disabled in the feet or legs"
-        ]
-    },
-    {
-        "name": "sport",
-        "usphone": "spɔːrt",
-        "ukphone": "spɔːt",
-        "trans": [
-            "v. play boisterously",
-            "v. wear or display in an ostentatious or proud manner",
-            "n. the occupation of athletes who compete for pay"
-        ]
-    },
-    {
-        "name": "set",
-        "usphone": "set",
-        "ukphone": "set",
-        "trans": [
-            "v. put into a certain state",
-            "v. make ready or suitable or equip in advance for a particular purpose or for some use, event, etc",
-            "v. get ready for a particular purpose or event"
-        ]
-    },
-    {
-        "name": "acting",
-        "usphone": "ˈæktɪŋ",
-        "ukphone": "ˈæktɪŋ",
-        "trans": [
-            "adj. serving temporarily especially as a substitute",
-            "n. the performance of a part or role in a drama"
-        ]
-    },
-    {
-        "name": "ad",
-        "usphone": "æd",
-        "ukphone": "æd",
-        "trans": [
-            "n. a public promotion of some product or service"
-        ]
-    },
-    {
-        "name": "restriction",
-        "usphone": "rɪˈstrɪkʃn",
-        "ukphone": "rɪˈstrɪkʃn",
-        "trans": [
-            "n. an act of limiting or restricting (as by regulation)",
-            "n. the act of keeping something within specified bounds (by force if necessary)",
-            "n. a principle that limits the extent of something"
-        ]
-    },
-    {
-        "name": "rating",
-        "usphone": "ˈreɪtɪŋ",
-        "ukphone": "ˈreɪtɪŋ",
-        "trans": [
-            "n. act of ascertaining or fixing the value or worth of",
-            "n. an appraisal of the value of something",
-            "n. standing or position on a scale"
-        ]
-    },
-    {
-        "name": "entertaining",
-        "usphone": "ˌentərˈteɪnɪŋ",
-        "ukphone": "ˌentəˈteɪnɪŋ",
-        "trans": [
-            "adj. agreeably diverting"
-        ]
-    },
-    {
-        "name": "channel",
-        "usphone": "ˈtʃænl",
-        "ukphone": "ˈtʃænl",
-        "trans": [
-            "v. to send from one person or place to another",
-            "v. to direct the flow of",
-            "v. to transmit or serve as the medium for transmission"
-        ]
-    },
-    {
-        "name": "commercial",
-        "usphone": "kəˈmɜːrʃl",
-        "ukphone": "kəˈmɜːʃl",
-        "trans": [
-            "adj. connected with or engaged in or sponsored by or used in commerce or commercial enterprises",
-            "adj. of the kind or quality used in commerce",
-            "adj. of or relating to commercialism"
-        ]
-    },
-    {
-        "name": "complex",
-        "usphone": "kəmˈpleks",
-        "ukphone": "ˈkɒmpleks",
-        "trans": [
-            "adj. complicated in structure",
-            "n. a whole structure (as a building) made up of interconnected or related structures",
-            "n. a conceptual whole made up of complicated and related parts"
-        ]
-    },
-    {
-        "name": "dialogue",
-        "usphone": "ˈdaɪəlɑːɡ",
-        "ukphone": "ˈdaɪəlɒɡ",
-        "trans": [
-            "n. a literary composition in the form of a conversation between two people",
-            "n. the lines spoken by characters in drama or fiction",
-            "n. a conversation between two persons"
-        ]
-    },
-    {
-        "name": "endorse",
-        "usphone": "ɪnˈdɔːrs",
-        "ukphone": "ɪnˈdɔːs",
-        "trans": [
-            "v. sign as evidence of legal transfer",
-            "v. guarantee as meeting a certain standard",
-            "v. be behind"
-        ]
-    },
-    {
-        "name": "episode",
-        "usphone": "ˈepɪsoʊd",
-        "ukphone": "ˈepɪsəʊd",
-        "trans": [
-            "n. film consisting of a succession of related shots that develop a given subject in a movie",
-            "n. a brief section of a literary or dramatic work that forms part of a connected series",
-            "n. a part of a broadcast serial"
-        ]
-    },
-    {
-        "name": "pass",
-        "usphone": "pæs",
-        "ukphone": "pɑːs",
-        "trans": [
-            "v. eliminate from the body",
-            "v. come to pass",
-            "v. pass from physical life and lose all bodily attributes and functions necessary to sustain life"
-        ]
-    },
-    {
-        "name": "PhD",
-        "usphone": "ˌpiːeɪtʃˈdiː",
-        "ukphone": "ˌpiːeɪtʃˈdiː",
-        "trans": [
-            "n. a doctorate usually based on at least 3 years graduate study and a dissertation"
-        ]
-    },
-    {
-        "name": "primary",
-        "usphone": "ˈpraɪmeri",
-        "ukphone": "ˈpraɪməri",
-        "trans": [
-            "adj. not derived from or reducible to something else",
-            "adj. of primary importance",
-            "adj. of first rank or importance or value"
-        ]
-    },
-    {
-        "name": "private",
-        "usphone": "ˈpraɪvət",
-        "ukphone": "ˈpraɪvət",
-        "trans": [
-            "adj. not expressed",
-            "adj. concerning one person exclusively",
-            "adj. concerning things deeply private and personal"
-        ]
-    },
-    {
-        "name": "public",
-        "usphone": "ˈpʌblɪk",
-        "ukphone": "ˈpʌblɪk",
-        "trans": [
-            "adj. affecting the people or community as a whole",
-            "adj. not private",
-            "n. a body of people sharing some common interest"
-        ]
-    },
-    {
-        "name": "qualification",
-        "usphone": "ˌkwɑːlɪfɪˈkeɪʃn",
-        "ukphone": "ˌkwɒlɪfɪˈkeɪʃn",
-        "trans": [
-            "n. the act of modifying or changing the strength of some idea",
-            "n. an attribute that must be met or complied with and that fits a person for something",
-            "n. a statement that limits or restricts some claim"
-        ]
-    },
-    {
-        "name": "college",
-        "usphone": "ˈkɑːlɪdʒ",
-        "ukphone": "ˈkɒlɪdʒ",
-        "trans": [
-            "n. a complex of buildings in which an institution of higher education is housed",
-            "n. the body of faculty and students of a college",
-            "n. an institution of higher education created to educate and grant degrees"
-        ]
-    },
-    {
-        "name": "university",
-        "usphone": "ˌjuːnɪˈvɜːrsəti",
-        "ukphone": "ˌjuːnɪˈvɜːsəti",
-        "trans": [
-            "n. establishment where a seat of higher learning is housed, including administrative and living quarters as well as facilities for research and teaching",
-            "n. the body of faculty and students at a university",
-            "n. a large and diverse institution of higher learning created to educate for life and for a profession and to grant degrees"
-        ]
-    },
-    {
-        "name": "elementary",
-        "usphone": "ˌelɪˈmentri",
-        "ukphone": "ˌelɪˈmentri",
-        "trans": [
-            "adj. easy and not involved or complicated",
-            "adj. of or being the essential or basic part",
-            "adj. of or pertaining to or characteristic of elementary school or elementary education"
-        ]
-    },
-    {
-        "name": "degree",
-        "usphone": "dɪˈɡriː",
-        "ukphone": "dɪˈɡriː",
-        "trans": [
-            "n. a position on a scale of intensity or amount or quality",
-            "n. the seriousness of something (e.g., a burn or crime)",
-            "n. the highest power of a term or variable"
-        ]
-    },
-    {
-        "name": "BA",
-        "usphone": "ˌbiːˈeɪ",
-        "ukphone": "ˌbiːˈeɪ",
-        "trans": [
-            "literature bachelor's degree"
-        ]
-    },
-    {
-        "name": "MA",
-        "usphone": "ˌemˈeɪ",
-        "ukphone": "ˌemˈeɪ",
-        "trans": [
-            "n. one thousandth of an ampere"
-        ]
-    },
-    {
-        "name": "MBA",
-        "usphone": "ˌembiːˈeɪ",
-        "ukphone": "ˌembiːˈeɪ",
-        "trans": [
-            "Master of Business Administration (MBA)"
-        ]
-    },
-    {
-        "name": "certificate",
-        "usphone": "sərˈtɪfɪkət",
-        "ukphone": "səˈtɪfɪkət",
-        "trans": [
-            "v. to authorize by certificate",
-            "v. to present someone with a certificate",
-            "n. a document attesting to the truth of certain stated facts"
-        ]
-    },
-    {
-        "name": "goal",
-        "usphone": "ɡoʊl",
-        "ukphone": "ɡəʊl",
-        "trans": [
-            "n. a successful attempt at scoring",
-            "n. game equipment consisting of the place toward which players of a game try to advance a ball or puck in order to score points",
-            "n. the state of affairs that a plan is intended to achieve and that (when achieved) terminates behavior intended to achieve it"
-        ]
-    },
-    {
-        "name": "cost",
-        "usphone": "kɔːst",
-        "ukphone": "kɒst",
-        "trans": [
-            "v. to require to lose, suffer, or sacrifice",
-            "v. to be priced at",
-            "n. the property of having material worth (often indicated by the amount of money something would bring if sold)"
-        ]
-    },
-    {
-        "name": "location",
-        "usphone": "loʊˈkeɪʃn",
-        "ukphone": "ləʊˈkeɪʃn",
-        "trans": [
-            "n. a point or extent in space",
-            "n. a determination of the place where something is",
-            "n. the act of putting something in a certain place"
-        ]
-    },
-    {
-        "name": "reputation",
-        "usphone": "ˌrepjuˈteɪʃn",
-        "ukphone": "ˌrepjuˈteɪʃn",
-        "trans": [
-            "n. the general estimation that the public has for a person",
-            "n. the state of being held in high esteem and honor",
-            "n. notoriety for some particular characteristic"
-        ]
-    },
-    {
-        "name": "recommendation",
-        "usphone": "ˌrekəmenˈdeɪʃn",
-        "ukphone": "ˌrekəmenˈdeɪʃn",
-        "trans": [
-            "n. any quality or characteristic that gains a person a favorable reception or acceptance or admission",
-            "n. something, such as a course of action, that is recommended as advisable",
-            "n. something that recommends (or expresses commendation of) a person or thing as worthy or desirable"
-        ]
-    },
-    {
-        "name": "advantage",
-        "usphone": "ədˈvæntɪdʒ",
-        "ukphone": "ədˈvɑːntɪdʒ",
-        "trans": [
-            "v. to give an advantage to",
-            "n. benefit resulting from some event or action",
-            "n. the quality of having a superior or more favorable position"
-        ]
-    },
-    {
-        "name": "trend",
-        "usphone": "trend",
-        "ukphone": "trend",
-        "trans": [
-            "v. turn sharply",
-            "n. the popular taste at a given time",
-            "n. a general tendency to change (as of opinion)"
-        ]
-    },
-    {
-        "name": "doctorate",
-        "usphone": "ˈdɑːktərət",
-        "ukphone": "ˈdɒktərət",
-        "trans": [
-            "n. one of the highest earned academic degrees conferred by a university"
-        ]
-    },
-    {
-        "name": "fail",
-        "usphone": "feɪl",
-        "ukphone": "feɪl",
-        "trans": [
-            "v. get worse",
-            "v. stop operating or functioning",
-            "v. prove insufficient"
-        ]
-    },
-    {
-        "name": "instructor",
-        "usphone": "ɪnˈstrʌktər",
-        "ukphone": "ɪnˈstrʌktə(r)",
-        "trans": [
-            "n. a person whose occupation is teaching"
-        ]
-    },
-    {
-        "name": "live",
-        "usphone": "laɪv",
-        "ukphone": "laɪv",
-        "trans": [
-            "v. have firsthand knowledge of states, situations, emotions, or sensations",
-            "v. have life, be alive",
-            "v. lead a certain kind of life"
-        ]
-    },
-    {
-        "name": "MD",
-        "usphone": "ˌemˈdiː",
-        "ukphone": "ˌemˈdiː",
-        "trans": [
-            "n. a licensed medical practitioner"
-        ]
-    },
-    {
-        "name": "common",
-        "usphone": "ˈkɑːmən",
-        "ukphone": "ˈkɒmən",
-        "trans": [
-            "adj. having no special distinction or quality",
-            "adj. belonging to or participated in by a community as a whole",
-            "adj. commonly encountered"
-        ]
-    },
-    {
-        "name": "mention",
-        "usphone": "ˈmenʃn",
-        "ukphone": "ˈmenʃn",
-        "trans": [
-            "v. make mention of",
-            "v. commend",
-            "v. make reference to"
-        ]
-    },
-    {
-        "name": "transfer",
-        "usphone": "trænsˈfɜːr",
-        "ukphone": "trænsˈfɜː(r)",
-        "trans": [
-            "v. transfer from one place or period to another",
-            "v. send from one person or place to another",
-            "v. lift and reset in another soil or situation"
-        ]
-    },
-    {
-        "name": "replace",
-        "usphone": "rɪˈpleɪs",
-        "ukphone": "rɪˈpleɪs",
-        "trans": [
-            "v. substitute a person or thing for another that is broken or inefficient or lost or no longer working or yielding what is expected",
-            "v. put something back where it belongs",
-            "v. put in the place of another"
-        ]
-    },
-    {
-        "name": "leave",
-        "usphone": "liːv",
-        "ukphone": "liːv",
-        "trans": [
-            "v. leave unchanged or undisturbed or refrain from taking",
-            "v. be survived by after one's death",
-            "v. leave behind unintentionally"
-        ]
-    },
-    {
-        "name": "join",
-        "usphone": "dʒɔɪn",
-        "ukphone": "dʒɔɪn",
-        "trans": [
-            "v. make contact or come together",
-            "v. cause to become joined or linked",
-            "v. become part of"
-        ]
-    },
-    {
-        "name": "quit",
-        "usphone": "kwɪt",
-        "ukphone": "kwɪt",
-        "trans": [
-            "v. to give up in the face of defeat of lacking hope",
-            "v. to go away or leave",
-            "v. to turn away from"
-        ]
-    },
-    {
-        "name": "move",
-        "usphone": "muːv",
-        "ukphone": "muːv",
-        "trans": [
-            "v. be in a state of action",
-            "v. go or proceed from one point to another",
-            "v. progress by being changed"
-        ]
-    },
-    {
-        "name": "recruit",
-        "usphone": "rɪˈkruːt",
-        "ukphone": "rɪˈkruːt",
-        "trans": [
-            "v. cause to assemble or enlist in the military",
-            "v. seek to employ",
-            "v. register formally as a participant or member"
-        ]
-    },
-    {
-        "name": "expand",
-        "usphone": "ɪkˈspænd",
-        "ukphone": "ɪkˈspænd",
-        "trans": [
-            "v. become larger in size or volume or quantity",
-            "v. exaggerate or make bigger",
-            "v. grow vigorously"
-        ]
-    },
-    {
-        "name": "downsize",
-        "usphone": "ˈdaʊnsaɪz",
-        "ukphone": "ˈdaʊnsaɪz",
-        "trans": [
-            "v. reduce in size or number",
-            "v. make in a smaller size",
-            "v. dismiss from work"
-        ]
-    },
-    {
-        "name": "confidential",
-        "usphone": "ˌkɑːnfɪˈdenʃl",
-        "ukphone": "ˌkɒnfɪˈdenʃl",
-        "trans": [
-            "adj. the level of official classification for documents next above restricted and below secret",
-            "adj. denoting confidence or intimacy",
-            "adj. (of information) given in confidence or in secret"
-        ]
-    },
-    {
-        "name": "suppose",
-        "usphone": "səˈpoʊz",
-        "ukphone": "səˈpəʊz",
-        "trans": [
-            "v. expect, believe, or suppose",
-            "v. to believe especially on uncertain or tentative grounds",
-            "v. require as a necessary antecedent or precondition"
-        ]
-    },
-    {
-        "name": "intranet",
-        "usphone": "ˈɪntrənet",
-        "ukphone": "ˈɪntrənet",
-        "trans": [
-            "n. a restricted computer network"
-        ]
-    },
-    {
-        "name": "projector",
-        "usphone": "prəˈdʒektər",
-        "ukphone": "prəˈdʒektə(r)",
-        "trans": [
-            "n. an optical instrument that projects an enlarged image onto a screen",
-            "n. an optical device for projecting a beam of light"
-        ]
-    },
-    {
-        "name": "database",
-        "usphone": "ˈdeɪtəbeɪs",
-        "ukphone": "ˈdeɪtəbeɪs",
-        "trans": [
-            "n. an organized body of related information"
-        ]
-    },
-    {
-        "name": "hack",
-        "usphone": "hæk",
-        "ukphone": "hæk",
-        "trans": [
-            "v. cough spasmodically",
-            "v. significantly cut up a manuscript",
-            "v. fix a computer program piecemeal until it works"
-        ]
-    },
-    {
-        "name": "defect",
-        "usphone": "ˈdiːfekt",
-        "ukphone": "ˈdiːfekt",
-        "trans": [
-            "v. desert (a cause, a country or an army), often in order to join the opposing cause, country, or army",
-            "n. a mark or flaw that spoils the appearance of something (especially on a person's body)",
-            "n. a failing or deficiency"
-        ]
-    },
-    {
-        "name": "major",
-        "usphone": "ˈmeɪdʒər",
-        "ukphone": "ˈmeɪdʒə(r)",
-        "trans": [
-            "v. have as one's principal field of study",
-            "adj. of the elder of two boys with the same family name",
-            "adj. greater in number or size or amount"
-        ]
-    },
-    {
-        "name": "customer",
-        "usphone": "ˈkʌstəmər",
-        "ukphone": "ˈkʌstəmə(r)",
-        "trans": [
-            "n. someone who pays for goods or services"
-        ]
-    },
-    {
-        "name": "steal",
-        "usphone": "stiːl",
-        "ukphone": "stiːl",
-        "trans": [
-            "v. steal a base",
-            "v. move stealthily",
-            "v. take without the owner's consent"
-        ]
-    },
-    {
-        "name": "information",
-        "usphone": "ˌɪnfərˈmeɪʃn",
-        "ukphone": "ˌɪnfəˈmeɪʃn",
-        "trans": [
-            "n. (communication theory) a numerical measure of the uncertainty of an outcome",
-            "n. knowledge acquired through study or experience or instruction",
-            "n. a message received and understood"
-        ]
-    },
-    {
-        "name": "product",
-        "usphone": "ˈprɑːdʌkt",
-        "ukphone": "ˈprɒdʌkt",
-        "trans": [
-            "n. commodities offered for sale",
-            "n. an artifact that has been created by someone or some process",
-            "n. a quantity obtained by multiplication"
-        ]
-    },
-    {
-        "name": "inform",
-        "usphone": "ɪnˈfɔːrm",
-        "ukphone": "ɪnˈfɔːm",
-        "trans": [
-            "v. give character or essence to",
-            "v. impart knowledge of some fact, state or affairs, or event to",
-            "v. act as an informer"
-        ]
-    },
-    {
-        "name": "discover",
-        "usphone": "dɪˈskʌvər",
-        "ukphone": "dɪˈskʌvə(r)",
-        "trans": [
-            "v. get to know or become aware of, usually accidentally",
-            "v. identify as in botany or biology, for example",
-            "v. make a discovery"
-        ]
-    },
-    {
-        "name": "attention",
-        "usphone": "əˈtenʃn",
-        "ukphone": "əˈtenʃn",
-        "trans": [
-            "n. the work of providing treatment for or attending to someone or something",
-            "n. a courteous act indicating affection",
-            "n. a motionless erect stance with arms at the sides and feet together"
-        ]
-    },
-    {
-        "name": "severe",
-        "usphone": "sɪˈvɪr",
-        "ukphone": "sɪˈvɪə(r)",
-        "trans": [
-            "adj. causing fear or anxiety by threatening great harm",
-            "adj. very bad in degree or extent",
-            "adj. unsparing and uncompromising in discipline or judgment"
-        ]
-    },
-    {
-        "name": "issue",
-        "usphone": "ˈɪʃuː",
-        "ukphone": "ˈɪʃuː",
-        "trans": [
-            "v. come out of",
-            "v. prepare and issue for public distribution or sale",
-            "v. bring out an official document (such as a warrant)"
-        ]
-    },
-    {
-        "name": "concern",
-        "usphone": "kənˈsɜːrn",
-        "ukphone": "kənˈsɜːn",
-        "trans": [
-            "v. to be relevant to",
-            "v. to be on the mind of",
-            "n. something that interests you because it is important or affects you"
-        ]
-    },
-    {
-        "name": "impact",
-        "usphone": "ˈɪmpækt",
-        "ukphone": "ˈɪmpækt",
-        "trans": [
-            "v. have an effect upon",
-            "v. press or wedge together",
-            "n. influencing strongly"
-        ]
-    },
-    {
-        "name": "affect",
-        "usphone": "əˈfekt",
-        "ukphone": "əˈfekt",
-        "trans": [
-            "v. to act physically on",
-            "v. to have an effect upon or make a difference on something",
-            "v. to make believe with the intent to deceive"
-        ]
-    }
+  {
+    "name": "market",
+    "usphone": "ˈmɑːrkɪt",
+    "ukphone": "ˈmɑːkɪt",
+    "trans": [
+      "v. make commercial",
+      "v. engage in the commercial promotion, sale, or distribution of",
+      "v. deal in a market"
+    ]
+  },
+  {
+    "name": "medical",
+    "usphone": "ˈmedɪkl",
+    "ukphone": "ˈmedɪkl",
+    "trans": [
+      "adj. requiring or amenable to treatment by medicine especially as opposed to surgery",
+      "adj. of or belonging to Aesculapius or the healing art",
+      "adj. relating to the study or practice of medicine"
+    ]
+  },
+  {
+    "name": "natural",
+    "usphone": "ˈnætʃrəl",
+    "ukphone": "ˈnætʃrəl",
+    "trans": [
+      "adj. free from artificiality",
+      "adj. being talented through inherited qualities",
+      "adj. related by blood"
+    ]
+  },
+  {
+    "name": "technology",
+    "usphone": "tekˈnɑːlədʒi",
+    "ukphone": "tekˈnɒlədʒi",
+    "trans": [
+      "n. the practical application of science to commerce or industry",
+      "n. the discipline dealing with the art or science of applying scientific knowledge to practical problems"
+    ]
+  },
+  {
+    "name": "human",
+    "usphone": "ˈhjuːmən",
+    "ukphone": "ˈhjuːmən",
+    "trans": [
+      "adj. having human form or attributes as opposed to those of animals or divine beings",
+      "adj. characteristic of humanity",
+      "adj. relating to a person"
+    ]
+  },
+  {
+    "name": "predict",
+    "usphone": "prɪˈdɪkt",
+    "ukphone": "prɪˈdɪkt",
+    "trans": ["v. indicate by signs", "v. make a prediction about"]
+  },
+  {
+    "name": "shocking",
+    "usphone": "ˈʃɑːkɪŋ",
+    "ukphone": "ˈʃɒkɪŋ",
+    "trans": [
+      "adj. giving offense to moral sensibilities and injurious to reputation",
+      "adj. glaringly vivid and graphic"
+    ]
+  },
+  {
+    "name": "doubt",
+    "usphone": "daʊt",
+    "ukphone": "daʊt",
+    "trans": [
+      "v. consider unlikely or have doubts about",
+      "v. lack confidence in or have doubts about",
+      "n. uncertainty about the truth or factuality or existence of something"
+    ]
+  },
+  {
+    "name": "optimistic",
+    "usphone": "ˌɑːptɪˈmɪstɪk",
+    "ukphone": "ˌɒptɪˈmɪstɪk",
+    "trans": [
+      "adj. expecting the best in this best of all possible worlds",
+      "adj. expecting the best"
+    ]
+  },
+  {
+    "name": "pessimistic",
+    "usphone": "ˌpesɪˈmɪstɪk",
+    "ukphone": "ˌpesɪˈmɪstɪk",
+    "trans": ["adj. expecting the worst possible outcome"]
+  },
+  {
+    "name": "create",
+    "usphone": "kriˈeɪt",
+    "ukphone": "kriˈeɪt",
+    "trans": [
+      "v. to make, cause to be or to become",
+      "v. to create or manufacture a man-made product",
+      "v. to create by artistic means"
+    ]
+  },
+  {
+    "name": "criticize",
+    "usphone": "ˈkrɪtɪsaɪz",
+    "ukphone": "ˈkrɪtɪsaɪz",
+    "trans": ["v. to find fault with", "v. to act as a critic"]
+  },
+  {
+    "name": "compete",
+    "usphone": "kəmˈpiːt",
+    "ukphone": "kəmˈpiːt",
+    "trans": ["v. to compete for something"]
+  },
+  {
+    "name": "innovation",
+    "usphone": "ˌɪnəˈveɪʃn",
+    "ukphone": "ˌɪnəˈveɪʃn",
+    "trans": [
+      "n. the act of starting something for the first time",
+      "n. a creation (a new device or process) resulting from study and experimentation",
+      "n. the creation of something in the mind"
+    ]
+  },
+  {
+    "name": "realistic",
+    "usphone": "ˌriːəˈlɪstɪk",
+    "ukphone": "ˌriːəˈlɪstɪk",
+    "trans": [
+      "adj. aware or expressing awareness of things as they really are",
+      "adj. representing what is real",
+      "adj. of or relating to the philosophical doctrine of realism"
+    ]
+  },
+  {
+    "name": "developing",
+    "usphone": "dɪˈveləpɪŋ",
+    "ukphone": "dɪˈveləpɪŋ",
+    "trans": [
+      "adj. relating to societies in which capital needed to industrialize is in short supply",
+      "n. processing a photosensitive material in order to make an image visible"
+    ]
+  },
+  {
+    "name": "body",
+    "usphone": "ˈbɑːdi",
+    "ukphone": "ˈbɒdi",
+    "trans": [
+      "n. the external structure of a vehicle",
+      "n. a resonating chamber in a musical instrument (as the body of a violin)",
+      "n. the property of holding together and retaining its shape"
+    ]
+  },
+  {
+    "name": "cell",
+    "usphone": "sel",
+    "ukphone": "sel",
+    "trans": [
+      "n. the basic structural and functional unit of all organisms",
+      "n. a device that delivers an electric current as the result of a chemical reaction",
+      "n. a room where a prisoner is kept"
+    ]
+  },
+  {
+    "name": "coal",
+    "usphone": "koʊl",
+    "ukphone": "kəʊl",
+    "trans": [
+      "v. to take in coal",
+      "v. to supply with coal",
+      "v. to burn to charcoal"
+    ]
+  },
+  {
+    "name": "commute",
+    "usphone": "kəˈmjuːt",
+    "ukphone": "kəˈmjuːt",
+    "trans": [
+      "v. to exchange or replace with another, usually of the same kind or category",
+      "v. to exchange a penalty for a less severe one",
+      "v. to change the order or arrangement of"
+    ]
+  },
+  {
+    "name": "demonstrate",
+    "usphone": "ˈdemənstreɪt",
+    "ukphone": "ˈdemənstreɪt",
+    "trans": [
+      "v. establish the validity of something, as by an example, explanation or experiment",
+      "v. provide evidence for",
+      "v. give an exhibition of to an interested audience"
+    ]
+  },
+  {
+    "name": "DNA",
+    "usphone": "ˌdiːenˈeɪ",
+    "ukphone": "ˌdiːenˈeɪ",
+    "trans": ["gene (loanword)"]
+  },
+  {
+    "name": "effective",
+    "usphone": "ɪˈfektɪv",
+    "ukphone": "ɪˈfektɪv",
+    "trans": [
+      "adj. existing in fact",
+      "adj. able to accomplish a purpose",
+      "adj. exerting force or influence"
+    ]
+  },
+  {
+    "name": "electric",
+    "usphone": "ɪˈlektrɪk",
+    "ukphone": "ɪˈlektrɪk",
+    "trans": [
+      "adj. affected by emotion as if by electricity",
+      "adj. (of a situation) exceptionally tense",
+      "adj. using or providing or producing or transmitting or operated by electricity"
+    ]
+  },
+  {
+    "name": "environment",
+    "usphone": "ɪnˈvaɪrənmənt",
+    "ukphone": "ɪnˈvaɪrənmənt",
+    "trans": [
+      "n. the area in which something exists or lives",
+      "n. the totality of surrounding conditions"
+    ]
+  },
+  {
+    "name": "pollution",
+    "usphone": "pəˈluːʃn",
+    "ukphone": "pəˈluːʃn",
+    "trans": [
+      "n. the act of contaminating or polluting",
+      "n. the state of being polluted",
+      "n. undesirable state of the natural environment being contaminated with harmful substances as a consequence of human activities"
+    ]
+  },
+  {
+    "name": "robot",
+    "usphone": "ˈroʊbɑːt",
+    "ukphone": "ˈrəʊbɒt",
+    "trans": ["n. a mechanism that can move automatically"]
+  },
+  {
+    "name": "scanner",
+    "usphone": "ˈskænər",
+    "ukphone": "ˈskænə(r)",
+    "trans": [
+      "n. a radio receiver that moves automatically across some selected range of frequencies looking for some signal or condition",
+      "n. a radar dish that rotates or oscillates in order to scan a broad area",
+      "n. an electronic device that generates a digital representation of an image for data input to a computer"
+    ]
+  },
+  {
+    "name": "teleconference",
+    "usphone": "ˈtelikɑːnfərəns",
+    "ukphone": "ˈtelikɒnfərəns",
+    "trans": [
+      "n. a conference of people who are in different locations that is made possible by the use of such telecommunications equipment as closed-circuit television"
+    ]
+  },
+  {
+    "name": "apply",
+    "usphone": "əˈplaɪ",
+    "ukphone": "əˈplaɪ",
+    "trans": [
+      "v. to ask for something",
+      "v. to refer to a person or thing with a specific word",
+      "v. to put into service"
+    ]
+  },
+  {
+    "name": "career",
+    "usphone": "kəˈrɪr",
+    "ukphone": "kəˈrɪə(r)",
+    "trans": [
+      "v. to move headlong at high speed",
+      "n. the general progression of your working or professional life",
+      "n. the particular occupation for which you are trained"
+    ]
+  },
+  {
+    "name": "wish",
+    "usphone": "wɪʃ",
+    "ukphone": "wɪʃ",
+    "trans": [
+      "v. invoke upon",
+      "v. order politely",
+      "v. make or express a wish"
+    ]
+  },
+  {
+    "name": "organized",
+    "usphone": "ˈɔːrɡənaɪzd",
+    "ukphone": "ˈɔːɡənaɪzd",
+    "trans": [
+      "adj. methodical and efficient in arrangement or function",
+      "adj. formed into a structured or coherent whole",
+      "adj. being a member of or formed into a labor union"
+    ]
+  },
+  {
+    "name": "path",
+    "usphone": "pæθ",
+    "ukphone": "pɑːθ",
+    "trans": [
+      "n. a course of conduct",
+      "n. a way especially designed for a particular use",
+      "n. an established line of travel or access"
+    ]
+  },
+  {
+    "name": "potential",
+    "usphone": "pəˈtenʃl",
+    "ukphone": "pəˈtenʃl",
+    "trans": [
+      "adj. existing in possibility",
+      "adj. expected to become or be",
+      "n. the difference in electrical charge between two points in a circuit expressed in volts"
+    ]
+  },
+  {
+    "name": "professional",
+    "usphone": "prəˈfeʃənl",
+    "ukphone": "prəˈfeʃənl",
+    "trans": [
+      "adj. engaged in a profession or engaging in as a profession or means of livelihood",
+      "adj. characteristic of or befitting a profession or one engaged in a profession",
+      "adj. engaged in by members of a profession"
+    ]
+  },
+  {
+    "name": "rewarding",
+    "usphone": "rɪˈwɔːrdɪŋ",
+    "ukphone": "rɪˈwɔːdɪŋ",
+    "trans": ["adj. providing personal satisfaction"]
+  },
+  {
+    "name": "skill",
+    "usphone": "skɪl",
+    "ukphone": "skɪl",
+    "trans": [
+      "n. ability to produce solutions in some problem domain",
+      "n. an ability that has been acquired by training"
+    ]
+  },
+  {
+    "name": "undecided",
+    "usphone": "ˌʌndɪˈsaɪdɪd",
+    "ukphone": "ˌʌndɪˈsaɪdɪd",
+    "trans": [
+      "adj. not yet having made a commitment",
+      "adj. characterized by indecision",
+      "adj. not brought to a conclusion"
+    ]
+  },
+  {
+    "name": "application",
+    "usphone": "ˌæplɪˈkeɪʃn",
+    "ukphone": "ˌæplɪˈkeɪʃn",
+    "trans": [
+      "n. the action of putting something into operation",
+      "n. a diligent effort",
+      "n. the work of applying something"
+    ]
+  },
+  {
+    "name": "become",
+    "usphone": "bɪˈkʌm",
+    "ukphone": "bɪˈkʌm",
+    "trans": [
+      "v. to enter or assume a certain state or condition",
+      "v. to come into existence",
+      "v. to undergo a change or development"
+    ]
+  },
+  {
+    "name": "abroad",
+    "usphone": "əˈbrɔːd",
+    "ukphone": "əˈbrɔːd",
+    "trans": [
+      "adj. in a foreign country",
+      "adv. to or in a foreign country",
+      "adv. in a place across an ocean"
+    ]
+  },
+  {
+    "name": "project",
+    "usphone": "ˈprɑːdʒekt",
+    "ukphone": "ˈprɒdʒekt",
+    "trans": [
+      "v. present for consideration, examination, criticism, etc.",
+      "v. regard as objective",
+      "v. communicate vividly"
+    ]
+  },
+  {
+    "name": "management",
+    "usphone": "ˈmænɪdʒmənt",
+    "ukphone": "ˈmænɪdʒmənt",
+    "trans": [
+      "n. the act of managing something",
+      "n. those in charge of running a business"
+    ]
+  },
+  {
+    "name": "communication",
+    "usphone": "kəˌmjuːnɪˈkeɪʃn",
+    "ukphone": "kəˌmjuːnɪˈkeɪʃn",
+    "trans": [
+      "n. something that is communicated by or to or between people or groups",
+      "n. the activity of communicating",
+      "n. a connection allowing access between persons or places"
+    ]
+  },
+  {
+    "name": "technical",
+    "usphone": "ˈteknɪkl",
+    "ukphone": "ˈteknɪkl",
+    "trans": [
+      "adj. of or relating to or requiring special knowledge to be understood",
+      "adj. of or relating to technique or proficiency in a practical skill",
+      "adj. of or relating to a practical subject that is organized according to scientific principles"
+    ]
+  },
+  {
+    "name": "background",
+    "usphone": "ˈbækɡraʊnd",
+    "ukphone": "ˈbækɡraʊnd",
+    "trans": [
+      "v. to understate the importance or quality of",
+      "n. scenery hung at back of stage",
+      "n. (computer science) the area of the screen in graphical user interfaces against which icons and windows appear"
+    ]
+  },
+  {
+    "name": "course",
+    "usphone": "kɔːrs",
+    "ukphone": "kɔːs",
+    "trans": [
+      "v. to hunt with hounds",
+      "v. to move along, of liquids",
+      "v. to move swiftly through or over"
+    ]
+  },
+  {
+    "name": "move",
+    "usphone": "muːv",
+    "ukphone": "muːv",
+    "trans": [
+      "v. be in a state of action",
+      "v. go or proceed from one point to another",
+      "v. progress by being changed"
+    ]
+  },
+  {
+    "name": "make",
+    "usphone": "meɪk",
+    "ukphone": "meɪk",
+    "trans": [
+      "v. act in a certain way so as to acquire",
+      "v. eliminate urine",
+      "v. have a bowel movement"
+    ]
+  },
+  {
+    "name": "hope",
+    "usphone": "hoʊp",
+    "ukphone": "həʊp",
+    "trans": [
+      "v. intend with some possibility of fulfilment",
+      "v. be optimistic",
+      "v. expect and wish"
+    ]
+  },
+  {
+    "name": "possibility",
+    "usphone": "ˌpɑːsəˈbɪləti",
+    "ukphone": "ˌpɒsəˈbɪləti",
+    "trans": [
+      "n. a possible alternative",
+      "n. a tentative insight into the natural world",
+      "n. a future prospect or potential"
+    ]
+  },
+  {
+    "name": "development",
+    "usphone": "dɪˈveləpmənt",
+    "ukphone": "dɪˈveləpmənt",
+    "trans": [
+      "n. act of improving by expanding or enlarging or refining",
+      "n. the act of making some area of land or water more profitable or productive or useful",
+      "n. (music) the section of a composition or movement (especially in sonata form) where the major musical themes are developed and elaborated"
+    ]
+  },
+  {
+    "name": "dream",
+    "usphone": "driːm",
+    "ukphone": "driːm",
+    "trans": [
+      "v. have a daydream",
+      "v. experience while sleeping",
+      "n. a fantastic but vain hope, from fantasies induced by the opium pipe"
+    ]
+  },
+  {
+    "name": "energy",
+    "usphone": "ˈenərdʒi",
+    "ukphone": "ˈenədʒi",
+    "trans": [
+      "n. an imaginative lively style, especially style of writing",
+      "n. enterprising or ambitious drive",
+      "n. forceful exertion"
+    ]
+  },
+  {
+    "name": "future",
+    "usphone": "ˈfjuːtʃər",
+    "ukphone": "ˈfjuːtʃə(r)",
+    "trans": [
+      "adj. of elected officers not yet serving",
+      "adj. yet to be or coming",
+      "adj. effective in or looking toward the future"
+    ]
+  },
+  {
+    "name": "jealous",
+    "usphone": "ˈdʒeləs",
+    "ukphone": "ˈdʒeləs",
+    "trans": [
+      "adj. showing extreme cupidity",
+      "adj. suspicious or unduly suspicious or fearful of being displaced by a rival"
+    ]
+  },
+  {
+    "name": "lawyer",
+    "usphone": "ˈlɔːjər",
+    "ukphone": "ˈlɔːjə(r)",
+    "trans": ["n. a professional person authorized to practice law"]
+  },
+  {
+    "name": "reach",
+    "usphone": "riːtʃ",
+    "ukphone": "riːtʃ",
+    "trans": [
+      "v. be in or establish communication with",
+      "v. to exert much effort or energy",
+      "v. move forward or upward in order to touch"
+    ]
+  },
+  {
+    "name": "reference",
+    "usphone": "ˈrefrəns",
+    "ukphone": "ˈrefrəns",
+    "trans": [
+      "v. to refer to",
+      "n. the act of referring or consulting",
+      "n. the most direct or specific meaning of a word or expression"
+    ]
+  },
+  {
+    "name": "response",
+    "usphone": "rɪˈspɑːns",
+    "ukphone": "rɪˈspɒns",
+    "trans": [
+      "n. a bodily process occurring due to the effect of some antecedent stimulus or agent",
+      "n. the manner in which an electrical or mechanical device responds to an input signal or a range of input signals",
+      "n. a phrase recited or sung by the congregation following a versicle by the priest or minister"
+    ]
+  },
+  {
+    "name": "CV",
+    "usphone": "ˌsiːˈviː",
+    "ukphone": "ˌsiːˈviː",
+    "trans": ["n. a summary of your academic and work history"]
+  },
+  {
+    "name": "duty",
+    "usphone": "ˈduːti",
+    "ukphone": "ˈdjuːti",
+    "trans": [
+      "n. work that you are obliged to perform for moral or legal reasons",
+      "n. the social force that binds you to the courses of action demanded by that force",
+      "n. a government tax on imports or exports"
+    ]
+  },
+  {
+    "name": "description",
+    "usphone": "dɪˈskrɪpʃn",
+    "ukphone": "dɪˈskrɪpʃn",
+    "trans": [
+      "n. sort or variety",
+      "n. a statement that represents something in words",
+      "n. the act of describing something"
+    ]
+  },
+  {
+    "name": "title",
+    "usphone": "ˈtaɪtl",
+    "ukphone": "ˈtaɪtl",
+    "trans": [
+      "v. designate by an identifying term",
+      "v. give a title to",
+      "n. an informal right to something"
+    ]
+  },
+  {
+    "name": "education",
+    "usphone": "ˌedʒuˈkeɪʃn",
+    "ukphone": "ˌedʒuˈkeɪʃn",
+    "trans": [
+      "n. the profession of teaching (especially at a school or college or university)",
+      "n. the activities of educating or instructing",
+      "n. the result of good upbringing (especially knowledge of correct social behavior)"
+    ]
+  },
+  {
+    "name": "experience",
+    "usphone": "ɪkˈspɪriəns",
+    "ukphone": "ɪkˈspɪəriəns",
+    "trans": [
+      "v. undergo",
+      "v. have firsthand knowledge of states, situations, emotions, or sensations",
+      "v. undergo an emotional sensation or be in a particular state of mind"
+    ]
+  },
+  {
+    "name": "salary",
+    "usphone": "ˈsæləri",
+    "ukphone": "ˈsæləri",
+    "trans": ["n. something that remunerates"]
+  },
+  {
+    "name": "benefit",
+    "usphone": "ˈbenɪfɪt",
+    "ukphone": "ˈbenɪfɪt",
+    "trans": [
+      "v. to derive an advantage from",
+      "v. to be beneficial for",
+      "n. something that aids or promotes well-being"
+    ]
+  },
+  {
+    "name": "goal",
+    "usphone": "ɡoʊl",
+    "ukphone": "ɡəʊl",
+    "trans": [
+      "n. a successful attempt at scoring",
+      "n. game equipment consisting of the place toward which players of a game try to advance a ball or puck in order to score points",
+      "n. the state of affairs that a plan is intended to achieve and that (when achieved) terminates behavior intended to achieve it"
+    ]
+  },
+  {
+    "name": "resume",
+    "usphone": "ˈrezəmeɪ",
+    "ukphone": "ˈrezjumeɪ",
+    "trans": [
+      "v. take up or begin anew",
+      "v. return to a previous location or condition",
+      "v. give a summary (of)"
+    ]
+  },
+  {
+    "name": "responsibility",
+    "usphone": "rɪˌspɑːnsəˈbɪləti",
+    "ukphone": "rɪˌspɒnsəˈbɪləti",
+    "trans": [
+      "n. the social force that binds you to the courses of action demanded by that force",
+      "n. a form of trustworthiness",
+      "n. the proper sphere or extent of your activities"
+    ]
+  },
+  {
+    "name": "opportunity",
+    "usphone": "ˌɑːpərˈtuːnəti",
+    "ukphone": "ˌɒpəˈtjuːnəti",
+    "trans": [
+      "n. a possibility due to a favorable combination of circumstances"
+    ]
+  },
+  {
+    "name": "available",
+    "usphone": "əˈveɪləbl",
+    "ukphone": "əˈveɪləbl",
+    "trans": [
+      "adj. obtainable or accessible and ready for use or service",
+      "adj. convenient for use or disposal",
+      "adj. not busy"
+    ]
+  },
+  {
+    "name": "position",
+    "usphone": "pəˈzɪʃn",
+    "ukphone": "pəˈzɪʃn",
+    "trans": [
+      "v. put into a certain place or abstract location",
+      "v. cause to be in an appropriate place, state, or relation",
+      "n. the act of positing"
+    ]
+  },
+  {
+    "name": "benefit",
+    "usphone": "ˈbenɪfɪt",
+    "ukphone": "ˈbenɪfɪt",
+    "trans": [
+      "v. to derive an advantage from",
+      "v. to be beneficial for",
+      "n. something that aids or promotes well-being"
+    ]
+  },
+  {
+    "name": "interview",
+    "usphone": "ˈɪntərvjuː",
+    "ukphone": "ˈɪntəvjuː",
+    "trans": [
+      "v. conduct an interview in television, newspaper, and radio reporting",
+      "v. discuss formally with (somebody) for the purpose of an evaluation",
+      "v. go for an interview in the hope of being hired"
+    ]
+  },
+  {
+    "name": "strength",
+    "usphone": "streŋθ",
+    "ukphone": "streŋθ",
+    "trans": [
+      "n. the property of being physically or mentally strong",
+      "n. capacity to produce strong physiological or chemical effects",
+      "n. physical energy or intensity"
+    ]
+  },
+  {
+    "name": "weakness",
+    "usphone": "ˈwiːknəs",
+    "ukphone": "ˈwiːknəs",
+    "trans": [
+      "n. the property of lacking physical or mental strength",
+      "n. powerlessness revealed by an inability to act",
+      "n. a penchant for something even though it might not be good for you"
+    ]
+  },
+  {
+    "name": "impression",
+    "usphone": "ɪmˈpreʃn",
+    "ukphone": "ɪmˈpreʃn",
+    "trans": [
+      "n. the act of pressing one thing on or into the surface of another",
+      "n. an impressionistic portrayal of a person",
+      "n. (dentistry) an imprint of the teeth and gums in wax or plaster"
+    ]
+  },
+  {
+    "name": "environment",
+    "usphone": "ɪnˈvaɪrənmənt",
+    "ukphone": "ɪnˈvaɪrənmənt",
+    "trans": [
+      "n. the area in which something exists or lives",
+      "n. the totality of surrounding conditions"
+    ]
+  },
+  {
+    "name": "compensation",
+    "usphone": "ˌkɑːmpenˈseɪʃn",
+    "ukphone": "ˌkɒmpenˈseɪʃn",
+    "trans": [
+      "n. the act of compensating for service or loss or injury",
+      "n. something (such as money) given or received as payment or reparation (as for a service or loss or injury)",
+      "n. (psychiatry) a defense mechanism that conceals your undesirable shortcomings by exaggerating desirable behaviors"
+    ]
+  },
+  {
+    "name": "package",
+    "usphone": "ˈpækɪdʒ",
+    "ukphone": "ˈpækɪdʒ",
+    "trans": [
+      "v. put into a box",
+      "n. a wrapped container",
+      "n. (computer science) written programs or procedures or rules and associated documentation pertaining to the operation of a computer system and that are stored in read/write memory"
+    ]
+  },
+  {
+    "name": "fit",
+    "usphone": "fɪt",
+    "ukphone": "fɪt",
+    "trans": [
+      "v. insert or adjust several objects or people",
+      "v. make fit",
+      "v. make correspond or harmonize"
+    ]
+  },
+  {
+    "name": "process",
+    "usphone": "ˈprɑːses",
+    "ukphone": "ˈprəʊses",
+    "trans": [
+      "v. subject to a process or treatment, with the aim of readying for some purpose, improving, or remedying a condition",
+      "v. perform mathematical and logical operations on data according to programmed instructions in order to obtain the required information",
+      "v. deliver a warrant or summons to someone"
+    ]
+  },
+  {
+    "name": "attach",
+    "usphone": "əˈtætʃ",
+    "ukphone": "əˈtætʃ",
+    "trans": [
+      "v. to be connected or attached",
+      "v. to adhere to",
+      "v. to create social or emotional ties"
+    ]
+  },
+  {
+    "name": "feedback",
+    "usphone": "ˈfiːdbæk",
+    "ukphone": "ˈfiːdbæk",
+    "trans": [
+      "n. response to an inquiry or experiment",
+      "n. the process in which part of the output of a system is returned to its input in order to regulate its further output"
+    ]
+  },
+  {
+    "name": "jingle",
+    "usphone": "ˈdʒɪŋɡl",
+    "ukphone": "ˈdʒɪŋɡl",
+    "trans": [
+      "v. make a sound typical of metallic objects",
+      "n. a comic verse of irregular measure",
+      "n. a metallic sound"
+    ]
+  },
+  {
+    "name": "keen",
+    "usphone": "kiːn",
+    "ukphone": "kiːn",
+    "trans": [
+      "v. express grief verbally",
+      "adj. having a sharp cutting edge or point",
+      "adj. painful as if caused by a sharp instrument"
+    ]
+  },
+  {
+    "name": "logo",
+    "usphone": "ˈloʊɡoʊ",
+    "ukphone": "ˈləʊɡəʊ",
+    "trans": ["n. a company emblem or device"]
+  },
+  {
+    "name": "sitcom",
+    "usphone": "ˈsɪtkɑːm",
+    "ukphone": "ˈsɪtkɒm",
+    "trans": [
+      "n. a humorous television program based on situations that could arise in everyday life",
+      "n. a humorous drama based on situations that might arise in day-to-day life"
+    ]
+  },
+  {
+    "name": "slogan",
+    "usphone": "ˈsloʊɡən",
+    "ukphone": "ˈsləʊɡən",
+    "trans": ["n. a favorite saying of a sect or political group"]
+  },
+  {
+    "name": "star",
+    "usphone": "stɑːr",
+    "ukphone": "stɑː(r)",
+    "trans": [
+      "v. mark with an asterisk",
+      "v. be the star in a performance",
+      "v. feature as the star"
+    ]
+  },
+  {
+    "name": "violence",
+    "usphone": "ˈvaɪələns",
+    "ukphone": "ˈvaɪələns",
+    "trans": [
+      "n. an act of aggression, as one against a person who resists",
+      "n. the property of being wild or turbulent",
+      "n. a turbulent state resulting in injuries and destruction etc."
+    ]
+  },
+  {
+    "name": "news",
+    "usphone": "nuːz",
+    "ukphone": "njuːz",
+    "trans": [
+      "n. the quality of being sufficiently interesting to be reported in news bulletins",
+      "n. a program devoted to current events, often using interviews and commentary",
+      "n. information about recent and important events"
+    ]
+  },
+  {
+    "name": "reality",
+    "usphone": "riˈæləti",
+    "ukphone": "riˈæləti",
+    "trans": [
+      "n. the quality possessed by something that is real",
+      "n. all of your experiences that determine how things appear to you",
+      "n. the state of being actual or real"
+    ]
+  },
+  {
+    "name": "documentary",
+    "usphone": "ˌdɑːkjuˈmentri",
+    "ukphone": "ˌdɒkjuˈmentri",
+    "trans": [
+      "adj. emphasizing or expressing things as perceived without distortion of personal feelings, insertion of fictional matter, or interpretation",
+      "adj. relating to or consisting of or derived from documents",
+      "n. a film or TV program presenting the facts about a person or event"
+    ]
+  },
+  {
+    "name": "show",
+    "usphone": "ʃoʊ",
+    "ukphone": "ʃəʊ",
+    "trans": [
+      "v. establish the validity of something, as by an example, explanation or experiment",
+      "v. indicate a certain reading",
+      "v. give evidence of, as of records"
+    ]
+  },
+  {
+    "name": "weather",
+    "usphone": "ˈweðər",
+    "ukphone": "ˈweðə(r)",
+    "trans": [
+      "v. change under the action or influence of the weather",
+      "v. sail to the windward of",
+      "v. cause to slope"
+    ]
+  },
+  {
+    "name": "drama",
+    "usphone": "ˈdrɑːmə",
+    "ukphone": "ˈdrɑːmə",
+    "trans": [
+      "n. the quality of being arresting or highly emotional",
+      "n. the literary genre of works intended for the theater",
+      "n. a dramatic work intended for performance by actors on a stage"
+    ]
+  },
+  {
+    "name": "game",
+    "usphone": "ɡeɪm",
+    "ukphone": "ɡeɪm",
+    "trans": [
+      "v. place a bet on",
+      "adj. willing to face danger",
+      "adj. disabled in the feet or legs"
+    ]
+  },
+  {
+    "name": "sport",
+    "usphone": "spɔːrt",
+    "ukphone": "spɔːt",
+    "trans": [
+      "v. play boisterously",
+      "v. wear or display in an ostentatious or proud manner",
+      "n. the occupation of athletes who compete for pay"
+    ]
+  },
+  {
+    "name": "set",
+    "usphone": "set",
+    "ukphone": "set",
+    "trans": [
+      "v. put into a certain state",
+      "v. make ready or suitable or equip in advance for a particular purpose or for some use, event, etc",
+      "v. get ready for a particular purpose or event"
+    ]
+  },
+  {
+    "name": "acting",
+    "usphone": "ˈæktɪŋ",
+    "ukphone": "ˈæktɪŋ",
+    "trans": [
+      "adj. serving temporarily especially as a substitute",
+      "n. the performance of a part or role in a drama"
+    ]
+  },
+  {
+    "name": "ad",
+    "usphone": "æd",
+    "ukphone": "æd",
+    "trans": ["n. a public promotion of some product or service"]
+  },
+  {
+    "name": "restriction",
+    "usphone": "rɪˈstrɪkʃn",
+    "ukphone": "rɪˈstrɪkʃn",
+    "trans": [
+      "n. an act of limiting or restricting (as by regulation)",
+      "n. the act of keeping something within specified bounds (by force if necessary)",
+      "n. a principle that limits the extent of something"
+    ]
+  },
+  {
+    "name": "rating",
+    "usphone": "ˈreɪtɪŋ",
+    "ukphone": "ˈreɪtɪŋ",
+    "trans": [
+      "n. act of ascertaining or fixing the value or worth of",
+      "n. an appraisal of the value of something",
+      "n. standing or position on a scale"
+    ]
+  },
+  {
+    "name": "entertaining",
+    "usphone": "ˌentərˈteɪnɪŋ",
+    "ukphone": "ˌentəˈteɪnɪŋ",
+    "trans": ["adj. agreeably diverting"]
+  },
+  {
+    "name": "channel",
+    "usphone": "ˈtʃænl",
+    "ukphone": "ˈtʃænl",
+    "trans": [
+      "v. to send from one person or place to another",
+      "v. to direct the flow of",
+      "v. to transmit or serve as the medium for transmission"
+    ]
+  },
+  {
+    "name": "commercial",
+    "usphone": "kəˈmɜːrʃl",
+    "ukphone": "kəˈmɜːʃl",
+    "trans": [
+      "adj. connected with or engaged in or sponsored by or used in commerce or commercial enterprises",
+      "adj. of the kind or quality used in commerce",
+      "adj. of or relating to commercialism"
+    ]
+  },
+  {
+    "name": "complex",
+    "usphone": "kəmˈpleks",
+    "ukphone": "ˈkɒmpleks",
+    "trans": [
+      "adj. complicated in structure",
+      "n. a whole structure (as a building) made up of interconnected or related structures",
+      "n. a conceptual whole made up of complicated and related parts"
+    ]
+  },
+  {
+    "name": "dialogue",
+    "usphone": "ˈdaɪəlɑːɡ",
+    "ukphone": "ˈdaɪəlɒɡ",
+    "trans": [
+      "n. a literary composition in the form of a conversation between two people",
+      "n. the lines spoken by characters in drama or fiction",
+      "n. a conversation between two persons"
+    ]
+  },
+  {
+    "name": "endorse",
+    "usphone": "ɪnˈdɔːrs",
+    "ukphone": "ɪnˈdɔːs",
+    "trans": [
+      "v. sign as evidence of legal transfer",
+      "v. guarantee as meeting a certain standard",
+      "v. be behind"
+    ]
+  },
+  {
+    "name": "episode",
+    "usphone": "ˈepɪsoʊd",
+    "ukphone": "ˈepɪsəʊd",
+    "trans": [
+      "n. film consisting of a succession of related shots that develop a given subject in a movie",
+      "n. a brief section of a literary or dramatic work that forms part of a connected series",
+      "n. a part of a broadcast serial"
+    ]
+  },
+  {
+    "name": "pass",
+    "usphone": "pæs",
+    "ukphone": "pɑːs",
+    "trans": [
+      "v. eliminate from the body",
+      "v. come to pass",
+      "v. pass from physical life and lose all bodily attributes and functions necessary to sustain life"
+    ]
+  },
+  {
+    "name": "PhD",
+    "usphone": "ˌpiːeɪtʃˈdiː",
+    "ukphone": "ˌpiːeɪtʃˈdiː",
+    "trans": [
+      "n. a doctorate usually based on at least 3 years graduate study and a dissertation"
+    ]
+  },
+  {
+    "name": "primary",
+    "usphone": "ˈpraɪmeri",
+    "ukphone": "ˈpraɪməri",
+    "trans": [
+      "adj. not derived from or reducible to something else",
+      "adj. of primary importance",
+      "adj. of first rank or importance or value"
+    ]
+  },
+  {
+    "name": "private",
+    "usphone": "ˈpraɪvət",
+    "ukphone": "ˈpraɪvət",
+    "trans": [
+      "adj. not expressed",
+      "adj. concerning one person exclusively",
+      "adj. concerning things deeply private and personal"
+    ]
+  },
+  {
+    "name": "public",
+    "usphone": "ˈpʌblɪk",
+    "ukphone": "ˈpʌblɪk",
+    "trans": [
+      "adj. affecting the people or community as a whole",
+      "adj. not private",
+      "n. a body of people sharing some common interest"
+    ]
+  },
+  {
+    "name": "qualification",
+    "usphone": "ˌkwɑːlɪfɪˈkeɪʃn",
+    "ukphone": "ˌkwɒlɪfɪˈkeɪʃn",
+    "trans": [
+      "n. the act of modifying or changing the strength of some idea",
+      "n. an attribute that must be met or complied with and that fits a person for something",
+      "n. a statement that limits or restricts some claim"
+    ]
+  },
+  {
+    "name": "college",
+    "usphone": "ˈkɑːlɪdʒ",
+    "ukphone": "ˈkɒlɪdʒ",
+    "trans": [
+      "n. a complex of buildings in which an institution of higher education is housed",
+      "n. the body of faculty and students of a college",
+      "n. an institution of higher education created to educate and grant degrees"
+    ]
+  },
+  {
+    "name": "university",
+    "usphone": "ˌjuːnɪˈvɜːrsəti",
+    "ukphone": "ˌjuːnɪˈvɜːsəti",
+    "trans": [
+      "n. establishment where a seat of higher learning is housed, including administrative and living quarters as well as facilities for research and teaching",
+      "n. the body of faculty and students at a university",
+      "n. a large and diverse institution of higher learning created to educate for life and for a profession and to grant degrees"
+    ]
+  },
+  {
+    "name": "elementary",
+    "usphone": "ˌelɪˈmentri",
+    "ukphone": "ˌelɪˈmentri",
+    "trans": [
+      "adj. easy and not involved or complicated",
+      "adj. of or being the essential or basic part",
+      "adj. of or pertaining to or characteristic of elementary school or elementary education"
+    ]
+  },
+  {
+    "name": "degree",
+    "usphone": "dɪˈɡriː",
+    "ukphone": "dɪˈɡriː",
+    "trans": [
+      "n. a position on a scale of intensity or amount or quality",
+      "n. the seriousness of something (e.g., a burn or crime)",
+      "n. the highest power of a term or variable"
+    ]
+  },
+  {
+    "name": "BA",
+    "usphone": "ˌbiːˈeɪ",
+    "ukphone": "ˌbiːˈeɪ",
+    "trans": ["literature bachelor's degree"]
+  },
+  {
+    "name": "MA",
+    "usphone": "ˌemˈeɪ",
+    "ukphone": "ˌemˈeɪ",
+    "trans": ["n. one thousandth of an ampere"]
+  },
+  {
+    "name": "MBA",
+    "usphone": "ˌembiːˈeɪ",
+    "ukphone": "ˌembiːˈeɪ",
+    "trans": ["Master of Business Administration (MBA)"]
+  },
+  {
+    "name": "certificate",
+    "usphone": "sərˈtɪfɪkət",
+    "ukphone": "səˈtɪfɪkət",
+    "trans": [
+      "v. to authorize by certificate",
+      "v. to present someone with a certificate",
+      "n. a document attesting to the truth of certain stated facts"
+    ]
+  },
+  {
+    "name": "goal",
+    "usphone": "ɡoʊl",
+    "ukphone": "ɡəʊl",
+    "trans": [
+      "n. a successful attempt at scoring",
+      "n. game equipment consisting of the place toward which players of a game try to advance a ball or puck in order to score points",
+      "n. the state of affairs that a plan is intended to achieve and that (when achieved) terminates behavior intended to achieve it"
+    ]
+  },
+  {
+    "name": "cost",
+    "usphone": "kɔːst",
+    "ukphone": "kɒst",
+    "trans": [
+      "v. to require to lose, suffer, or sacrifice",
+      "v. to be priced at",
+      "n. the property of having material worth (often indicated by the amount of money something would bring if sold)"
+    ]
+  },
+  {
+    "name": "location",
+    "usphone": "loʊˈkeɪʃn",
+    "ukphone": "ləʊˈkeɪʃn",
+    "trans": [
+      "n. a point or extent in space",
+      "n. a determination of the place where something is",
+      "n. the act of putting something in a certain place"
+    ]
+  },
+  {
+    "name": "reputation",
+    "usphone": "ˌrepjuˈteɪʃn",
+    "ukphone": "ˌrepjuˈteɪʃn",
+    "trans": [
+      "n. the general estimation that the public has for a person",
+      "n. the state of being held in high esteem and honor",
+      "n. notoriety for some particular characteristic"
+    ]
+  },
+  {
+    "name": "recommendation",
+    "usphone": "ˌrekəmenˈdeɪʃn",
+    "ukphone": "ˌrekəmenˈdeɪʃn",
+    "trans": [
+      "n. any quality or characteristic that gains a person a favorable reception or acceptance or admission",
+      "n. something, such as a course of action, that is recommended as advisable",
+      "n. something that recommends (or expresses commendation of) a person or thing as worthy or desirable"
+    ]
+  },
+  {
+    "name": "advantage",
+    "usphone": "ədˈvæntɪdʒ",
+    "ukphone": "ədˈvɑːntɪdʒ",
+    "trans": [
+      "v. to give an advantage to",
+      "n. benefit resulting from some event or action",
+      "n. the quality of having a superior or more favorable position"
+    ]
+  },
+  {
+    "name": "trend",
+    "usphone": "trend",
+    "ukphone": "trend",
+    "trans": [
+      "v. turn sharply",
+      "n. the popular taste at a given time",
+      "n. a general tendency to change (as of opinion)"
+    ]
+  },
+  {
+    "name": "doctorate",
+    "usphone": "ˈdɑːktərət",
+    "ukphone": "ˈdɒktərət",
+    "trans": [
+      "n. one of the highest earned academic degrees conferred by a university"
+    ]
+  },
+  {
+    "name": "fail",
+    "usphone": "feɪl",
+    "ukphone": "feɪl",
+    "trans": [
+      "v. get worse",
+      "v. stop operating or functioning",
+      "v. prove insufficient"
+    ]
+  },
+  {
+    "name": "instructor",
+    "usphone": "ɪnˈstrʌktər",
+    "ukphone": "ɪnˈstrʌktə(r)",
+    "trans": ["n. a person whose occupation is teaching"]
+  },
+  {
+    "name": "live",
+    "usphone": "laɪv",
+    "ukphone": "laɪv",
+    "trans": [
+      "v. have firsthand knowledge of states, situations, emotions, or sensations",
+      "v. have life, be alive",
+      "v. lead a certain kind of life"
+    ]
+  },
+  {
+    "name": "MD",
+    "usphone": "ˌemˈdiː",
+    "ukphone": "ˌemˈdiː",
+    "trans": ["n. a licensed medical practitioner"]
+  },
+  {
+    "name": "common",
+    "usphone": "ˈkɑːmən",
+    "ukphone": "ˈkɒmən",
+    "trans": [
+      "adj. having no special distinction or quality",
+      "adj. belonging to or participated in by a community as a whole",
+      "adj. commonly encountered"
+    ]
+  },
+  {
+    "name": "mention",
+    "usphone": "ˈmenʃn",
+    "ukphone": "ˈmenʃn",
+    "trans": ["v. make mention of", "v. commend", "v. make reference to"]
+  },
+  {
+    "name": "transfer",
+    "usphone": "trænsˈfɜːr",
+    "ukphone": "trænsˈfɜː(r)",
+    "trans": [
+      "v. transfer from one place or period to another",
+      "v. send from one person or place to another",
+      "v. lift and reset in another soil or situation"
+    ]
+  },
+  {
+    "name": "replace",
+    "usphone": "rɪˈpleɪs",
+    "ukphone": "rɪˈpleɪs",
+    "trans": [
+      "v. substitute a person or thing for another that is broken or inefficient or lost or no longer working or yielding what is expected",
+      "v. put something back where it belongs",
+      "v. put in the place of another"
+    ]
+  },
+  {
+    "name": "leave",
+    "usphone": "liːv",
+    "ukphone": "liːv",
+    "trans": [
+      "v. leave unchanged or undisturbed or refrain from taking",
+      "v. be survived by after one's death",
+      "v. leave behind unintentionally"
+    ]
+  },
+  {
+    "name": "join",
+    "usphone": "dʒɔɪn",
+    "ukphone": "dʒɔɪn",
+    "trans": [
+      "v. make contact or come together",
+      "v. cause to become joined or linked",
+      "v. become part of"
+    ]
+  },
+  {
+    "name": "quit",
+    "usphone": "kwɪt",
+    "ukphone": "kwɪt",
+    "trans": [
+      "v. to give up in the face of defeat of lacking hope",
+      "v. to go away or leave",
+      "v. to turn away from"
+    ]
+  },
+  {
+    "name": "move",
+    "usphone": "muːv",
+    "ukphone": "muːv",
+    "trans": [
+      "v. be in a state of action",
+      "v. go or proceed from one point to another",
+      "v. progress by being changed"
+    ]
+  },
+  {
+    "name": "recruit",
+    "usphone": "rɪˈkruːt",
+    "ukphone": "rɪˈkruːt",
+    "trans": [
+      "v. cause to assemble or enlist in the military",
+      "v. seek to employ",
+      "v. register formally as a participant or member"
+    ]
+  },
+  {
+    "name": "expand",
+    "usphone": "ɪkˈspænd",
+    "ukphone": "ɪkˈspænd",
+    "trans": [
+      "v. become larger in size or volume or quantity",
+      "v. exaggerate or make bigger",
+      "v. grow vigorously"
+    ]
+  },
+  {
+    "name": "downsize",
+    "usphone": "ˈdaʊnsaɪz",
+    "ukphone": "ˈdaʊnsaɪz",
+    "trans": [
+      "v. reduce in size or number",
+      "v. make in a smaller size",
+      "v. dismiss from work"
+    ]
+  },
+  {
+    "name": "confidential",
+    "usphone": "ˌkɑːnfɪˈdenʃl",
+    "ukphone": "ˌkɒnfɪˈdenʃl",
+    "trans": [
+      "adj. the level of official classification for documents next above restricted and below secret",
+      "adj. denoting confidence or intimacy",
+      "adj. (of information) given in confidence or in secret"
+    ]
+  },
+  {
+    "name": "suppose",
+    "usphone": "səˈpoʊz",
+    "ukphone": "səˈpəʊz",
+    "trans": [
+      "v. expect, believe, or suppose",
+      "v. to believe especially on uncertain or tentative grounds",
+      "v. require as a necessary antecedent or precondition"
+    ]
+  },
+  {
+    "name": "intranet",
+    "usphone": "ˈɪntrənet",
+    "ukphone": "ˈɪntrənet",
+    "trans": ["n. a restricted computer network"]
+  },
+  {
+    "name": "projector",
+    "usphone": "prəˈdʒektər",
+    "ukphone": "prəˈdʒektə(r)",
+    "trans": [
+      "n. an optical instrument that projects an enlarged image onto a screen",
+      "n. an optical device for projecting a beam of light"
+    ]
+  },
+  {
+    "name": "database",
+    "usphone": "ˈdeɪtəbeɪs",
+    "ukphone": "ˈdeɪtəbeɪs",
+    "trans": ["n. an organized body of related information"]
+  },
+  {
+    "name": "hack",
+    "usphone": "hæk",
+    "ukphone": "hæk",
+    "trans": [
+      "v. cough spasmodically",
+      "v. significantly cut up a manuscript",
+      "v. fix a computer program piecemeal until it works"
+    ]
+  },
+  {
+    "name": "defect",
+    "usphone": "ˈdiːfekt",
+    "ukphone": "ˈdiːfekt",
+    "trans": [
+      "v. desert (a cause, a country or an army), often in order to join the opposing cause, country, or army",
+      "n. a mark or flaw that spoils the appearance of something (especially on a person's body)",
+      "n. a failing or deficiency"
+    ]
+  },
+  {
+    "name": "major",
+    "usphone": "ˈmeɪdʒər",
+    "ukphone": "ˈmeɪdʒə(r)",
+    "trans": [
+      "v. have as one's principal field of study",
+      "adj. of the elder of two boys with the same family name",
+      "adj. greater in number or size or amount"
+    ]
+  },
+  {
+    "name": "customer",
+    "usphone": "ˈkʌstəmər",
+    "ukphone": "ˈkʌstəmə(r)",
+    "trans": ["n. someone who pays for goods or services"]
+  },
+  {
+    "name": "steal",
+    "usphone": "stiːl",
+    "ukphone": "stiːl",
+    "trans": [
+      "v. steal a base",
+      "v. move stealthily",
+      "v. take without the owner's consent"
+    ]
+  },
+  {
+    "name": "information",
+    "usphone": "ˌɪnfərˈmeɪʃn",
+    "ukphone": "ˌɪnfəˈmeɪʃn",
+    "trans": [
+      "n. (communication theory) a numerical measure of the uncertainty of an outcome",
+      "n. knowledge acquired through study or experience or instruction",
+      "n. a message received and understood"
+    ]
+  },
+  {
+    "name": "product",
+    "usphone": "ˈprɑːdʌkt",
+    "ukphone": "ˈprɒdʌkt",
+    "trans": [
+      "n. commodities offered for sale",
+      "n. an artifact that has been created by someone or some process",
+      "n. a quantity obtained by multiplication"
+    ]
+  },
+  {
+    "name": "inform",
+    "usphone": "ɪnˈfɔːrm",
+    "ukphone": "ɪnˈfɔːm",
+    "trans": [
+      "v. give character or essence to",
+      "v. impart knowledge of some fact, state or affairs, or event to",
+      "v. act as an informer"
+    ]
+  },
+  {
+    "name": "discover",
+    "usphone": "dɪˈskʌvər",
+    "ukphone": "dɪˈskʌvə(r)",
+    "trans": [
+      "v. get to know or become aware of, usually accidentally",
+      "v. identify as in botany or biology, for example",
+      "v. make a discovery"
+    ]
+  },
+  {
+    "name": "attention",
+    "usphone": "əˈtenʃn",
+    "ukphone": "əˈtenʃn",
+    "trans": [
+      "n. the work of providing treatment for or attending to someone or something",
+      "n. a courteous act indicating affection",
+      "n. a motionless erect stance with arms at the sides and feet together"
+    ]
+  },
+  {
+    "name": "severe",
+    "usphone": "sɪˈvɪr",
+    "ukphone": "sɪˈvɪə(r)",
+    "trans": [
+      "adj. causing fear or anxiety by threatening great harm",
+      "adj. very bad in degree or extent",
+      "adj. unsparing and uncompromising in discipline or judgment"
+    ]
+  },
+  {
+    "name": "issue",
+    "usphone": "ˈɪʃuː",
+    "ukphone": "ˈɪʃuː",
+    "trans": [
+      "v. come out of",
+      "v. prepare and issue for public distribution or sale",
+      "v. bring out an official document (such as a warrant)"
+    ]
+  },
+  {
+    "name": "concern",
+    "usphone": "kənˈsɜːrn",
+    "ukphone": "kənˈsɜːn",
+    "trans": [
+      "v. to be relevant to",
+      "v. to be on the mind of",
+      "n. something that interests you because it is important or affects you"
+    ]
+  },
+  {
+    "name": "impact",
+    "usphone": "ˈɪmpækt",
+    "ukphone": "ˈɪmpækt",
+    "trans": [
+      "v. have an effect upon",
+      "v. press or wedge together",
+      "n. influencing strongly"
+    ]
+  },
+  {
+    "name": "affect",
+    "usphone": "əˈfekt",
+    "ukphone": "əˈfekt",
+    "trans": [
+      "v. to act physically on",
+      "v. to have an effect upon or make a difference on something",
+      "v. to make believe with the intent to deceive"
+    ]
+  }
 ]

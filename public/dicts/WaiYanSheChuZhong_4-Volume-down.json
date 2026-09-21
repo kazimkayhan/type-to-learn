@@ -1,716 +1,683 @@
 [
-    {
-        "name": "machine",
-        "trans": [
-            "v. make by machinery",
-            "v. turn, shape, mold, or otherwise finish by machinery",
-            "n. a motor vehicle with four wheels"
-        ],
-        "usphone": "[məˈʃiːn]",
-        "ukphone": "[məˈʃiːn]"
-    },
-    {
-        "name": "welcome",
-        "trans": [
-            "v. bid welcome to",
-            "v. receive someone, as into one's house",
-            "v. accept gladly"
-        ],
-        "usphone": "[ˈwelkəm]",
-        "ukphone": "[ˈwelkəm]"
-    },
-    {
-        "name": "crisp",
-        "trans": [
-            "v. to make brown and crisp by heating",
-            "v. to make wrinkles or creases on a smooth surface",
-            "adj. brief and to the point"
-        ],
-        "usphone": "[krɪsp]",
-        "ukphone": "[krɪsp]"
-    },
-    {
-        "name": "sir",
-        "trans": [
-            "n. term of address for a man"
-        ],
-        "usphone": "[sɜːr; sər]",
-        "ukphone": "[sɜː(r)]"
-    },
-    {
-        "name": "potato",
-        "trans": [
-            "n. an edible tuber native to South America",
-            "n. annual native to South America having underground stolons bearing edible starchy tubers"
-        ],
-        "usphone": "[pəˈteɪtoʊ]",
-        "ukphone": "[pəˈteɪtəʊ]"
-    },
-    {
-        "name": "dangerous",
-        "trans": [
-            "adj. causing fear or anxiety by threatening great harm",
-            "adj. involving or causing danger or risk"
-        ],
-        "usphone": "[ˈdeɪndʒərəs]",
-        "ukphone": "[ˈdeɪndʒərəs]"
-    },
-    {
-        "name": "put",
-        "trans": [
-            "v. cause to be in a certain state",
-            "v. put into a certain place or abstract location",
-            "v. adapt"
-        ],
-        "usphone": "[pʊt]",
-        "ukphone": "[pʊt]"
-    },
-    {
-        "name": "wait",
-        "trans": [
-            "v. look forward to the probable occurrence of",
-            "v. serve as a waiter or waitress in a restaurant",
-            "v. stay in one place and anticipate or expect something"
-        ],
-        "usphone": "[weɪt]",
-        "ukphone": "[weɪt]"
-    },
-    {
-        "name": "each",
-        "trans": [
-            "adj. (used of count nouns) every one considered individually",
-            "adv. to or from every one of two or more (considered individually)"
-        ],
-        "usphone": "[iːtʃ]",
-        "ukphone": "[iːtʃ]"
-    },
-    {
-        "name": "cheap",
-        "trans": [
-            "adj. relatively low in price or charging low prices",
-            "adj. embarrassingly stingy",
-            "adj. of very poor quality"
-        ],
-        "usphone": "[tʃiːp]",
-        "ukphone": "[tʃiːp]"
-    },
-    {
-        "name": "expensive",
-        "trans": [
-            "adj. high in price or charging high prices"
-        ],
-        "usphone": "[ɪkˈspensɪv]",
-        "ukphone": "[ɪkˈspensɪv]"
-    },
-    {
-        "name": "send",
-        "trans": [
-            "v. broadcast over the airwaves, as in radio or television",
-            "v. cause to be directed or transmitted to another place",
-            "v. transfer"
-        ],
-        "usphone": "[send]",
-        "ukphone": "[send]"
-    },
-    {
-        "name": "email",
-        "trans": [
-            "v. communicate electronically on the computer",
-            "n. (computer science) a system of world-wide electronic communication in which a computer user can compose a message at one terminal that can be regenerated at the recipient's terminal when the recipient logs in"
-        ],
-        "usphone": "[ˈiːmeɪl]",
-        "ukphone": "[ˈiːmeɪl]"
-    },
-    {
-        "name": "cost",
-        "trans": [
-            "v. to require to lose, suffer, or sacrifice",
-            "v. to be priced at",
-            "n. the property of having material worth (often indicated by the amount of money something would bring if sold)"
-        ],
-        "usphone": "[kɔːst]",
-        "ukphone": "[kɒst]"
-    },
-    {
-        "name": "hundred",
-        "trans": [
-            "adj. being ten more than ninety",
-            "n. ten 10s"
-        ],
-        "usphone": "[ˈhʌndrəd]",
-        "ukphone": "[ˈhʌndrəd]"
-    },
-    {
-        "name": "shout",
-        "trans": [
-            "v. use foul or abusive language towards",
-            "v. utter aloud",
-            "v. utter in a loud voice"
-        ],
-        "usphone": "[ʃaʊt]",
-        "ukphone": "[ʃaʊt]"
-    },
-    {
-        "name": "wolf",
-        "trans": [
-            "v. eat hastily",
-            "n. any of various predatory carnivorous canine mammals of North America and Eurasia that usually hunt in packs",
-            "n. a cruelly rapacious person"
-        ],
-        "usphone": "[wʊlf]",
-        "ukphone": "[wʊlf]"
-    },
-    {
-        "name": "sheep",
-        "trans": [
-            "n. woolly usually horned ruminant mammal related to the goat",
-            "n. a docile and vulnerable person who would rather follow than make an independent decision",
-            "n. a timid defenseless simpleton who is readily preyed upon"
-        ],
-        "usphone": "[ʃiːp]",
-        "ukphone": "[ʃiːp]"
-    },
-    {
-        "name": "ran",
-        "trans": [
-            "v. (of an animal) to paw (the ground) run past tense"
-        ],
-        "usphone": "[ræn]",
-        "ukphone": "[ræn]"
-    },
-    {
-        "name": "once upon a time",
-        "trans": [
-            "na. previously, very (of a period of time) long very (of a period of time) long before, in ancient times"
-        ]
-    },
-    {
-        "name": "look after",
-        "trans": [
-            "v. keep under careful scrutiny"
-        ],
-        "usphone": "[lʊk ˈæftər]",
-        "ukphone": "[lʊk ˈɑːftə(r)]"
-    },
-    {
-        "name": "bored",
-        "trans": [
-            "adj. uninterested because of frequent exposure or indulgence",
-            "adj. tired of the world"
-        ],
-        "usphone": "[bɔːrd]",
-        "ukphone": "[bɔːd]"
-    },
-    {
-        "name": "village",
-        "trans": [
-            "n. a community of people smaller than a town",
-            "n. a settlement smaller than a town"
-        ],
-        "usphone": "[ˈvɪlɪdʒ]",
-        "ukphone": "[ˈvɪlɪdʒ]"
-    },
-    {
-        "name": "everyone",
-        "trans": [
-            "n. everybody",
-            "pron. everybody, everyone"
-        ],
-        "usphone": "[ˈevriwʌn]",
-        "ukphone": "[ˈevriwʌn]"
-    },
-    {
-        "name": "laugh",
-        "trans": [
-            "v. produce laughter",
-            "n. a humorous anecdote or remark intended to provoke laughter",
-            "n. a facial expression characteristic of a person laughing"
-        ],
-        "usphone": "[læf]",
-        "ukphone": "[lɑːf]"
-    },
-    {
-        "name": "lie",
-        "trans": [
-            "v. tell an untruth",
-            "v. be lying, be prostrate",
-            "v. assume a reclining position"
-        ],
-        "usphone": "[laɪ]",
-        "ukphone": "[laɪ]"
-    },
-    {
-        "name": "learnt",
-        "trans": [
-            "v. to learn learn past tense (joining two nouns) and past participle (in European grammar)"
-        ],
-        "usphone": "[lɜːrnt]",
-        "ukphone": "[lɜːnt]"
-    },
-    {
-        "name": "lesson",
-        "trans": [
-            "n. a task assigned for individual study",
-            "n. a unit of instruction",
-            "n. the significance of a story or event"
-        ],
-        "usphone": "[ˈlesn]",
-        "ukphone": "[ˈlesn]"
-    },
-    {
-        "name": "wouldn't",
-        "trans": [
-            "to equal would not"
-        ]
-    },
-    {
-        "name": "into",
-        "trans": [
-            "prep. to reach lining, to penetrate deeply inside, to become condition, to enter to reach inside"
-        ],
-        "usphone": "[ˈɪntə; ˈɪntu; ˈɪntuː]",
-        "ukphone": "[ˈɪntə]"
-    },
-    {
-        "name": "month",
-        "trans": [
-            "n. a time unit of approximately 30 days",
-            "n. one of the twelve divisions of the calendar year"
-        ],
-        "usphone": "[mʌnθ]",
-        "ukphone": "[mʌnθ]"
-    },
-    {
-        "name": "cheese",
-        "trans": [
-            "v. to wind onto a cheese",
-            "v. to get away, or stop it",
-            "n. a solid food prepared from the pressed curd of milk"
-        ],
-        "usphone": "[tʃiːz]",
-        "ukphone": "[tʃiːz]"
-    },
-    {
-        "name": "scared",
-        "trans": [
-            "adj. made afraid"
-        ],
-        "usphone": "[skerd]",
-        "ukphone": "[skeəd]"
-    },
-    {
-        "name": "run away",
-        "trans": [
-            "v. flee",
-            "v. escape from the control of"
-        ]
-    },
-    {
-        "name": "concert",
-        "trans": [
-            "v. to settle by agreement",
-            "v. to contrive a plan by mutual agreement",
-            "n. a performance of music by players or singers not involving theatrical staging"
-        ],
-        "usphone": "[ˈkɑːnsərt]",
-        "ukphone": "[ˈkɒnsət]"
-    },
-    {
-        "name": "violin",
-        "trans": [
-            "n. bowed stringed instrument that is the highest member of the violin family"
-        ],
-        "usphone": "[ˌvaɪəˈlɪn]",
-        "ukphone": "[ˌvaɪəˈlɪn]"
-    },
-    {
-        "name": "guitar",
-        "trans": [
-            "n. a stringed instrument usually having six strings"
-        ],
-        "usphone": "[ɡɪˈtɑːr]",
-        "ukphone": "[ɡɪˈtɑː(r)]"
-    },
-    {
-        "name": "nervous",
-        "trans": [
-            "adj. unpredictably excitable (especially of horses)",
-            "adj. excited in anticipation",
-            "adj. easily agitated"
-        ],
-        "usphone": "[ˈnɜːrvəs]",
-        "ukphone": "[ˈnɜːvəs]"
-    },
-    {
-        "name": "end",
-        "trans": [
-            "v. bring to an end or halt",
-            "v. put an end to",
-            "v. have an end, in a temporal, spatial, or quantitative sense"
-        ],
-        "usphone": "[end]",
-        "ukphone": "[end]"
-    },
-    {
-        "name": "proud",
-        "trans": [
-            "adj. having or displaying great dignity or nobility",
-            "adj. feeling self-respect or pleasure in something by which you measure your self-worth"
-        ],
-        "usphone": "[praʊd]",
-        "ukphone": "[praʊd]"
-    },
-    {
-        "name": "surprise",
-        "trans": [
-            "v. cause to be surprised",
-            "v. attack by storm",
-            "v. come upon or take unawares"
-        ],
-        "usphone": "[sərˈpraɪz]",
-        "ukphone": "[səˈpraɪz]"
-    },
-    {
-        "name": "hear",
-        "trans": [
-            "v. get to know or become aware of, usually accidentally",
-            "v. receive a communication from someone",
-            "v. perceive (sound) via the auditory sense"
-        ],
-        "usphone": "[hɪr]",
-        "ukphone": "[hɪə(r)]"
-    },
-    {
-        "name": "special",
-        "trans": [
-            "adj. surpassing what is common or usual or expected",
-            "adj. having a specific function or scope",
-            "adj. for a special service or occasion"
-        ],
-        "usphone": "[ˈspeʃl]",
-        "ukphone": "[ˈspeʃ(ə)l]"
-    },
-    {
-        "name": "Father's Day",
-        "trans": [
-            "na. beautiful Father's Day every year June (prefix indicating ordinal number, as in [di4 liu4] \"sixth\") three (classifier used before a noun that has no specific classifier) Sunday"
-        ]
-    },
-    {
-        "name": "message",
-        "trans": [
-            "v. send a message",
-            "v. send as a message",
-            "v. send a message to"
-        ],
-        "usphone": "[ˈmesɪdʒ]",
-        "ukphone": "[ˈmesɪdʒ]"
-    },
-    {
-        "name": "great",
-        "trans": [
-            "adj. in an advanced stage of pregnancy",
-            "adj. very good",
-            "adj. of major significance or importance"
-        ],
-        "usphone": "[ɡreɪt]",
-        "ukphone": "[ɡreɪt]"
-    },
-    {
-        "name": "report",
-        "trans": [
-            "v. to give an account or representation of in words",
-            "v. make known to the authorities",
-            "v. complain about"
-        ],
-        "usphone": "[rɪˈpɔːrt]",
-        "ukphone": "[rɪˈpɔːt]"
-    },
-    {
-        "name": "stick",
-        "trans": [
-            "v. be a mystery or bewildering to",
-            "v. saddle with something disagreeable or disadvantageous",
-            "v. come or be in close contact with"
-        ],
-        "usphone": "[stɪk]",
-        "ukphone": "[stɪk]"
-    },
-    {
-        "name": "fantastic",
-        "trans": [
-            "adj. ludicrously odd",
-            "adj. extraordinarily good or great",
-            "adj. extravagantly fanciful in design, construction, appearance"
-        ],
-        "usphone": "[fænˈtæstɪk]",
-        "ukphone": "[fænˈtæstɪk]"
-    },
-    {
-        "name": "fun",
-        "trans": [
-            "n. a disposition to find (or make) causes for amusement",
-            "n. verbal wit or mockery, often at another's expense but not to be taken seriously",
-            "n. activities that are enjoyable or amusing"
-        ],
-        "usphone": "[fʌn]",
-        "ukphone": "[fʌn]"
-    },
-    {
-        "name": "meet",
-        "trans": [
-            "v. contend against an opponent in a sport, game, or battle",
-            "v. fill or meet a want or need",
-            "v. be in direct physical contact with"
-        ],
-        "usphone": "[miːt]",
-        "ukphone": "[miːt]"
-    },
-    {
-        "name": "east",
-        "trans": [
-            "adj. situated in or facing or moving toward the east",
-            "adv. to, toward, or in the east",
-            "n. a location in the eastern part of a country, region, or city"
-        ],
-        "usphone": "[iːst]",
-        "ukphone": "[iːst]"
-    },
-    {
-        "name": "west",
-        "trans": [
-            "adj. situated in or facing or moving toward the west",
-            "adv. to, toward, or in the west",
-            "n. a location in the western part of a country, region, or city"
-        ],
-        "usphone": "[west]",
-        "ukphone": "[west]"
-    },
-    {
-        "name": "o'clock",
-        "trans": [
-            "adv. according to the clock, usually used at whole hour intervals"
-        ]
-    },
-    {
-        "name": "time",
-        "trans": [
-            "v. adjust so that a force is applied and an action occurs at the desired time",
-            "v. regulate or set the time of",
-            "v. measure the time or duration of an event or action or the person who performs an action in a certain period of time"
-        ],
-        "usphone": "[taɪm]",
-        "ukphone": "[taɪm]"
-    },
-    {
-        "name": "cartoon",
-        "trans": [
-            "v. to draw cartoons of",
-            "n. a film made by photographing a series of cartoon drawings to give the illusion of movement when projected in rapid sequence",
-            "n. a humorous or satirical drawing published in a newspaper or magazine"
-        ],
-        "usphone": "[kɑːrˈtuːn]",
-        "ukphone": "[kɑːˈtuːn]"
-    },
-    {
-        "name": "much",
-        "trans": [
-            "adj. (quantifier used with mass nouns) great in quantity or degree or extent",
-            "adv. (degree adverb used before a noun phrase) for all practical purposes but not completely",
-            "adv. very, particularly"
-        ],
-        "usphone": "[mʌtʃ]",
-        "ukphone": "[mʌtʃ]"
-    },
-    {
-        "name": "am",
-        "trans": [
-            "abbr. amplitude modulation (AM)",
-            "v. to be (followed by substantives only)"
-        ],
-        "usphone": "[əm; æm]",
-        "ukphone": "[əm; æm]"
-    },
-    {
-        "name": "pm",
-        "trans": [
-            "n. the person who holds the position of head of the government in the United Kingdom"
-        ],
-        "usphone": "[ˌpiː ˈem]",
-        "ukphone": "[ˌpiː ˈem]"
-    },
-    {
-        "name": "best",
-        "trans": [
-            "v. to get the better of",
-            "adj. (superlative of `good') having the most positive qualities",
-            "adj. (comparative and superlative of `well') wiser or more advantageous and hence advisable"
-        ],
-        "usphone": "[best]",
-        "ukphone": "[best]"
-    },
-    {
-        "name": "north",
-        "trans": [
-            "adj. situated in or facing or moving toward or coming from the north",
-            "adv. in a northern direction",
-            "n. a location in the northern part of a country, region, or city"
-        ],
-        "usphone": "[nɔːrθ]",
-        "ukphone": "[nɔːθ]"
-    },
-    {
-        "name": "south",
-        "trans": [
-            "adj. situated in or facing or moving toward or coming from the south",
-            "adv. in a southern direction",
-            "n. a location in the southern part of a country, region, or city"
-        ],
-        "usphone": "[saʊθ]",
-        "ukphone": "[saʊθ]"
-    },
-    {
-        "name": "rest",
-        "trans": [
-            "v. be at rest",
-            "v. stay the same",
-            "v. take a short break from one's activities in order to relax"
-        ],
-        "usphone": "[rest]",
-        "ukphone": "[rest]"
-    },
-    {
-        "name": "have a rest",
-        "trans": [
-            "v. rest (after a verb) a bit"
-        ],
-        "usphone": "[hæv ərest]",
-        "ukphone": "[hæv ə rest]"
-    },
-    {
-        "name": "country",
-        "trans": [
-            "n. the people who live in a nation or country",
-            "n. a politically organized body of people under a single government",
-            "n. a particular geographical region of indefinite boundary, usually serving some special purpose or distinguished by its people, culture, or geography"
-        ],
-        "usphone": "[ˈkʌntri]",
-        "ukphone": "[ˈkʌntri]"
-    },
-    {
-        "name": "speak",
-        "trans": [
-            "v. to express in speech",
-            "v. to exchange thoughts",
-            "v. to use language"
-        ],
-        "usphone": "[spiːk]",
-        "ukphone": "[spiːk]"
-    },
-    {
-        "name": "capital",
-        "trans": [
-            "adj. uppercase",
-            "adj. of primary importance",
-            "adj. first-rate"
-        ],
-        "usphone": "[ˈkæpɪt(ə)l]",
-        "ukphone": "[ˈkæpɪt(ə)l]"
-    },
-    {
-        "name": "maybe",
-        "trans": [
-            "adv. by chance"
-        ],
-        "usphone": "[ˈmeɪbi]",
-        "ukphone": "[ˈmeɪbi]"
-    },
-    {
-        "name": "map",
-        "trans": [
-            "v. to establish a mapping (of mathematical elements or sets)",
-            "v. explore or survey for the purpose of making a map",
-            "v. make a map of"
-        ],
-        "usphone": "[mæp]",
-        "ukphone": "[mæp]"
-    },
-    {
-        "name": "because",
-        "trans": [
-            "conj. because"
-        ],
-        "usphone": "[bɪˈkəz, bɪˈkɔːz]",
-        "ukphone": "[bɪˈkəz, bɪˈkɒz]"
-    },
-    {
-        "name": "language",
-        "trans": [
-            "n. the mental faculty or power of vocal communication",
-            "n. the cognitive processes involved in producing and understanding linguistic communication",
-            "n. a systematic means of communicating by the use of sounds or conventional symbols"
-        ],
-        "usphone": "[ˈlæŋɡwɪdʒ]",
-        "ukphone": "[ˈlæŋɡwɪdʒ]"
-    },
-    {
-        "name": "Australian",
-        "trans": [
-            "adj. of or relating to or characteristic of Australia or its inhabitants or its languages"
-        ],
-        "usphone": "[ɔːˈstreɪliən]",
-        "ukphone": "[ɒˈstreɪliən]"
-    },
-    {
-        "name": "kangaroo",
-        "trans": [
-            "n. any of several herbivorous leaping marsupials of Australia and New Guinea having large powerful hind legs and a long thick tail"
-        ],
-        "usphone": "[ˌkæŋɡəˈruː]",
-        "ukphone": "[ˌkæŋɡəˈruː]"
-    },
-    {
-        "name": "back",
-        "trans": [
-            "v. to strengthen by providing with a back or backing",
-            "v. to establish as valid or genuine",
-            "v. to shift to a counterclockwise direction"
-        ],
-        "usphone": "[bæk]",
-        "ukphone": "[bæk]"
-    },
-    {
-        "name": "postcard",
-        "trans": [
-            "n. a card for sending messages by post without an envelope"
-        ],
-        "usphone": "[ˈpoʊstkɑːrd]",
-        "ukphone": "[ˈpəʊstkɑːd]"
-    },
-    {
-        "name": "plan",
-        "trans": [
-            "v. make plans for something",
-            "v. have the will and intention to carry out some action",
-            "v. make or work out a plan for"
-        ],
-        "usphone": "[plæn]",
-        "ukphone": "[plæn]"
-    },
-    {
-        "name": "museum",
-        "trans": [
-            "n. a depository for collecting and displaying objects having scientific or historical or artistic value"
-        ],
-        "usphone": "[mjuˈziːəm]",
-        "ukphone": "[mjuˈziːəm]"
-    },
-    {
-        "name": "restaurant",
-        "trans": [
-            "n. a building where people go to eat"
-        ],
-        "usphone": "[ˈrestrɑːnt; ˈrestərɑːnt]",
-        "ukphone": "[ˈrestrɒnt]"
-    }
+  {
+    "name": "machine",
+    "trans": [
+      "v. make by machinery",
+      "v. turn, shape, mold, or otherwise finish by machinery",
+      "n. a motor vehicle with four wheels"
+    ],
+    "usphone": "[məˈʃiːn]",
+    "ukphone": "[məˈʃiːn]"
+  },
+  {
+    "name": "welcome",
+    "trans": [
+      "v. bid welcome to",
+      "v. receive someone, as into one's house",
+      "v. accept gladly"
+    ],
+    "usphone": "[ˈwelkəm]",
+    "ukphone": "[ˈwelkəm]"
+  },
+  {
+    "name": "crisp",
+    "trans": [
+      "v. to make brown and crisp by heating",
+      "v. to make wrinkles or creases on a smooth surface",
+      "adj. brief and to the point"
+    ],
+    "usphone": "[krɪsp]",
+    "ukphone": "[krɪsp]"
+  },
+  {
+    "name": "sir",
+    "trans": ["n. term of address for a man"],
+    "usphone": "[sɜːr; sər]",
+    "ukphone": "[sɜː(r)]"
+  },
+  {
+    "name": "potato",
+    "trans": [
+      "n. an edible tuber native to South America",
+      "n. annual native to South America having underground stolons bearing edible starchy tubers"
+    ],
+    "usphone": "[pəˈteɪtoʊ]",
+    "ukphone": "[pəˈteɪtəʊ]"
+  },
+  {
+    "name": "dangerous",
+    "trans": [
+      "adj. causing fear or anxiety by threatening great harm",
+      "adj. involving or causing danger or risk"
+    ],
+    "usphone": "[ˈdeɪndʒərəs]",
+    "ukphone": "[ˈdeɪndʒərəs]"
+  },
+  {
+    "name": "put",
+    "trans": [
+      "v. cause to be in a certain state",
+      "v. put into a certain place or abstract location",
+      "v. adapt"
+    ],
+    "usphone": "[pʊt]",
+    "ukphone": "[pʊt]"
+  },
+  {
+    "name": "wait",
+    "trans": [
+      "v. look forward to the probable occurrence of",
+      "v. serve as a waiter or waitress in a restaurant",
+      "v. stay in one place and anticipate or expect something"
+    ],
+    "usphone": "[weɪt]",
+    "ukphone": "[weɪt]"
+  },
+  {
+    "name": "each",
+    "trans": [
+      "adj. (used of count nouns) every one considered individually",
+      "adv. to or from every one of two or more (considered individually)"
+    ],
+    "usphone": "[iːtʃ]",
+    "ukphone": "[iːtʃ]"
+  },
+  {
+    "name": "cheap",
+    "trans": [
+      "adj. relatively low in price or charging low prices",
+      "adj. embarrassingly stingy",
+      "adj. of very poor quality"
+    ],
+    "usphone": "[tʃiːp]",
+    "ukphone": "[tʃiːp]"
+  },
+  {
+    "name": "expensive",
+    "trans": ["adj. high in price or charging high prices"],
+    "usphone": "[ɪkˈspensɪv]",
+    "ukphone": "[ɪkˈspensɪv]"
+  },
+  {
+    "name": "send",
+    "trans": [
+      "v. broadcast over the airwaves, as in radio or television",
+      "v. cause to be directed or transmitted to another place",
+      "v. transfer"
+    ],
+    "usphone": "[send]",
+    "ukphone": "[send]"
+  },
+  {
+    "name": "email",
+    "trans": [
+      "v. communicate electronically on the computer",
+      "n. (computer science) a system of world-wide electronic communication in which a computer user can compose a message at one terminal that can be regenerated at the recipient's terminal when the recipient logs in"
+    ],
+    "usphone": "[ˈiːmeɪl]",
+    "ukphone": "[ˈiːmeɪl]"
+  },
+  {
+    "name": "cost",
+    "trans": [
+      "v. to require to lose, suffer, or sacrifice",
+      "v. to be priced at",
+      "n. the property of having material worth (often indicated by the amount of money something would bring if sold)"
+    ],
+    "usphone": "[kɔːst]",
+    "ukphone": "[kɒst]"
+  },
+  {
+    "name": "hundred",
+    "trans": ["adj. being ten more than ninety", "n. ten 10s"],
+    "usphone": "[ˈhʌndrəd]",
+    "ukphone": "[ˈhʌndrəd]"
+  },
+  {
+    "name": "shout",
+    "trans": [
+      "v. use foul or abusive language towards",
+      "v. utter aloud",
+      "v. utter in a loud voice"
+    ],
+    "usphone": "[ʃaʊt]",
+    "ukphone": "[ʃaʊt]"
+  },
+  {
+    "name": "wolf",
+    "trans": [
+      "v. eat hastily",
+      "n. any of various predatory carnivorous canine mammals of North America and Eurasia that usually hunt in packs",
+      "n. a cruelly rapacious person"
+    ],
+    "usphone": "[wʊlf]",
+    "ukphone": "[wʊlf]"
+  },
+  {
+    "name": "sheep",
+    "trans": [
+      "n. woolly usually horned ruminant mammal related to the goat",
+      "n. a docile and vulnerable person who would rather follow than make an independent decision",
+      "n. a timid defenseless simpleton who is readily preyed upon"
+    ],
+    "usphone": "[ʃiːp]",
+    "ukphone": "[ʃiːp]"
+  },
+  {
+    "name": "ran",
+    "trans": ["v. (of an animal) to paw (the ground) run past tense"],
+    "usphone": "[ræn]",
+    "ukphone": "[ræn]"
+  },
+  {
+    "name": "once upon a time",
+    "trans": [
+      "na. previously, very (of a period of time) long very (of a period of time) long before, in ancient times"
+    ]
+  },
+  {
+    "name": "look after",
+    "trans": ["v. keep under careful scrutiny"],
+    "usphone": "[lʊk ˈæftər]",
+    "ukphone": "[lʊk ˈɑːftə(r)]"
+  },
+  {
+    "name": "bored",
+    "trans": [
+      "adj. uninterested because of frequent exposure or indulgence",
+      "adj. tired of the world"
+    ],
+    "usphone": "[bɔːrd]",
+    "ukphone": "[bɔːd]"
+  },
+  {
+    "name": "village",
+    "trans": [
+      "n. a community of people smaller than a town",
+      "n. a settlement smaller than a town"
+    ],
+    "usphone": "[ˈvɪlɪdʒ]",
+    "ukphone": "[ˈvɪlɪdʒ]"
+  },
+  {
+    "name": "everyone",
+    "trans": ["n. everybody", "pron. everybody, everyone"],
+    "usphone": "[ˈevriwʌn]",
+    "ukphone": "[ˈevriwʌn]"
+  },
+  {
+    "name": "laugh",
+    "trans": [
+      "v. produce laughter",
+      "n. a humorous anecdote or remark intended to provoke laughter",
+      "n. a facial expression characteristic of a person laughing"
+    ],
+    "usphone": "[læf]",
+    "ukphone": "[lɑːf]"
+  },
+  {
+    "name": "lie",
+    "trans": [
+      "v. tell an untruth",
+      "v. be lying, be prostrate",
+      "v. assume a reclining position"
+    ],
+    "usphone": "[laɪ]",
+    "ukphone": "[laɪ]"
+  },
+  {
+    "name": "learnt",
+    "trans": [
+      "v. to learn learn past tense (joining two nouns) and past participle (in European grammar)"
+    ],
+    "usphone": "[lɜːrnt]",
+    "ukphone": "[lɜːnt]"
+  },
+  {
+    "name": "lesson",
+    "trans": [
+      "n. a task assigned for individual study",
+      "n. a unit of instruction",
+      "n. the significance of a story or event"
+    ],
+    "usphone": "[ˈlesn]",
+    "ukphone": "[ˈlesn]"
+  },
+  {
+    "name": "wouldn't",
+    "trans": ["to equal would not"]
+  },
+  {
+    "name": "into",
+    "trans": [
+      "prep. to reach lining, to penetrate deeply inside, to become condition, to enter to reach inside"
+    ],
+    "usphone": "[ˈɪntə; ˈɪntu; ˈɪntuː]",
+    "ukphone": "[ˈɪntə]"
+  },
+  {
+    "name": "month",
+    "trans": [
+      "n. a time unit of approximately 30 days",
+      "n. one of the twelve divisions of the calendar year"
+    ],
+    "usphone": "[mʌnθ]",
+    "ukphone": "[mʌnθ]"
+  },
+  {
+    "name": "cheese",
+    "trans": [
+      "v. to wind onto a cheese",
+      "v. to get away, or stop it",
+      "n. a solid food prepared from the pressed curd of milk"
+    ],
+    "usphone": "[tʃiːz]",
+    "ukphone": "[tʃiːz]"
+  },
+  {
+    "name": "scared",
+    "trans": ["adj. made afraid"],
+    "usphone": "[skerd]",
+    "ukphone": "[skeəd]"
+  },
+  {
+    "name": "run away",
+    "trans": ["v. flee", "v. escape from the control of"]
+  },
+  {
+    "name": "concert",
+    "trans": [
+      "v. to settle by agreement",
+      "v. to contrive a plan by mutual agreement",
+      "n. a performance of music by players or singers not involving theatrical staging"
+    ],
+    "usphone": "[ˈkɑːnsərt]",
+    "ukphone": "[ˈkɒnsət]"
+  },
+  {
+    "name": "violin",
+    "trans": [
+      "n. bowed stringed instrument that is the highest member of the violin family"
+    ],
+    "usphone": "[ˌvaɪəˈlɪn]",
+    "ukphone": "[ˌvaɪəˈlɪn]"
+  },
+  {
+    "name": "guitar",
+    "trans": ["n. a stringed instrument usually having six strings"],
+    "usphone": "[ɡɪˈtɑːr]",
+    "ukphone": "[ɡɪˈtɑː(r)]"
+  },
+  {
+    "name": "nervous",
+    "trans": [
+      "adj. unpredictably excitable (especially of horses)",
+      "adj. excited in anticipation",
+      "adj. easily agitated"
+    ],
+    "usphone": "[ˈnɜːrvəs]",
+    "ukphone": "[ˈnɜːvəs]"
+  },
+  {
+    "name": "end",
+    "trans": [
+      "v. bring to an end or halt",
+      "v. put an end to",
+      "v. have an end, in a temporal, spatial, or quantitative sense"
+    ],
+    "usphone": "[end]",
+    "ukphone": "[end]"
+  },
+  {
+    "name": "proud",
+    "trans": [
+      "adj. having or displaying great dignity or nobility",
+      "adj. feeling self-respect or pleasure in something by which you measure your self-worth"
+    ],
+    "usphone": "[praʊd]",
+    "ukphone": "[praʊd]"
+  },
+  {
+    "name": "surprise",
+    "trans": [
+      "v. cause to be surprised",
+      "v. attack by storm",
+      "v. come upon or take unawares"
+    ],
+    "usphone": "[sərˈpraɪz]",
+    "ukphone": "[səˈpraɪz]"
+  },
+  {
+    "name": "hear",
+    "trans": [
+      "v. get to know or become aware of, usually accidentally",
+      "v. receive a communication from someone",
+      "v. perceive (sound) via the auditory sense"
+    ],
+    "usphone": "[hɪr]",
+    "ukphone": "[hɪə(r)]"
+  },
+  {
+    "name": "special",
+    "trans": [
+      "adj. surpassing what is common or usual or expected",
+      "adj. having a specific function or scope",
+      "adj. for a special service or occasion"
+    ],
+    "usphone": "[ˈspeʃl]",
+    "ukphone": "[ˈspeʃ(ə)l]"
+  },
+  {
+    "name": "Father's Day",
+    "trans": [
+      "na. beautiful Father's Day every year June (prefix indicating ordinal number, as in [di4 liu4] \"sixth\") three (classifier used before a noun that has no specific classifier) Sunday"
+    ]
+  },
+  {
+    "name": "message",
+    "trans": [
+      "v. send a message",
+      "v. send as a message",
+      "v. send a message to"
+    ],
+    "usphone": "[ˈmesɪdʒ]",
+    "ukphone": "[ˈmesɪdʒ]"
+  },
+  {
+    "name": "great",
+    "trans": [
+      "adj. in an advanced stage of pregnancy",
+      "adj. very good",
+      "adj. of major significance or importance"
+    ],
+    "usphone": "[ɡreɪt]",
+    "ukphone": "[ɡreɪt]"
+  },
+  {
+    "name": "report",
+    "trans": [
+      "v. to give an account or representation of in words",
+      "v. make known to the authorities",
+      "v. complain about"
+    ],
+    "usphone": "[rɪˈpɔːrt]",
+    "ukphone": "[rɪˈpɔːt]"
+  },
+  {
+    "name": "stick",
+    "trans": [
+      "v. be a mystery or bewildering to",
+      "v. saddle with something disagreeable or disadvantageous",
+      "v. come or be in close contact with"
+    ],
+    "usphone": "[stɪk]",
+    "ukphone": "[stɪk]"
+  },
+  {
+    "name": "fantastic",
+    "trans": [
+      "adj. ludicrously odd",
+      "adj. extraordinarily good or great",
+      "adj. extravagantly fanciful in design, construction, appearance"
+    ],
+    "usphone": "[fænˈtæstɪk]",
+    "ukphone": "[fænˈtæstɪk]"
+  },
+  {
+    "name": "fun",
+    "trans": [
+      "n. a disposition to find (or make) causes for amusement",
+      "n. verbal wit or mockery, often at another's expense but not to be taken seriously",
+      "n. activities that are enjoyable or amusing"
+    ],
+    "usphone": "[fʌn]",
+    "ukphone": "[fʌn]"
+  },
+  {
+    "name": "meet",
+    "trans": [
+      "v. contend against an opponent in a sport, game, or battle",
+      "v. fill or meet a want or need",
+      "v. be in direct physical contact with"
+    ],
+    "usphone": "[miːt]",
+    "ukphone": "[miːt]"
+  },
+  {
+    "name": "east",
+    "trans": [
+      "adj. situated in or facing or moving toward the east",
+      "adv. to, toward, or in the east",
+      "n. a location in the eastern part of a country, region, or city"
+    ],
+    "usphone": "[iːst]",
+    "ukphone": "[iːst]"
+  },
+  {
+    "name": "west",
+    "trans": [
+      "adj. situated in or facing or moving toward the west",
+      "adv. to, toward, or in the west",
+      "n. a location in the western part of a country, region, or city"
+    ],
+    "usphone": "[west]",
+    "ukphone": "[west]"
+  },
+  {
+    "name": "o'clock",
+    "trans": [
+      "adv. according to the clock, usually used at whole hour intervals"
+    ]
+  },
+  {
+    "name": "time",
+    "trans": [
+      "v. adjust so that a force is applied and an action occurs at the desired time",
+      "v. regulate or set the time of",
+      "v. measure the time or duration of an event or action or the person who performs an action in a certain period of time"
+    ],
+    "usphone": "[taɪm]",
+    "ukphone": "[taɪm]"
+  },
+  {
+    "name": "cartoon",
+    "trans": [
+      "v. to draw cartoons of",
+      "n. a film made by photographing a series of cartoon drawings to give the illusion of movement when projected in rapid sequence",
+      "n. a humorous or satirical drawing published in a newspaper or magazine"
+    ],
+    "usphone": "[kɑːrˈtuːn]",
+    "ukphone": "[kɑːˈtuːn]"
+  },
+  {
+    "name": "much",
+    "trans": [
+      "adj. (quantifier used with mass nouns) great in quantity or degree or extent",
+      "adv. (degree adverb used before a noun phrase) for all practical purposes but not completely",
+      "adv. very, particularly"
+    ],
+    "usphone": "[mʌtʃ]",
+    "ukphone": "[mʌtʃ]"
+  },
+  {
+    "name": "am",
+    "trans": [
+      "abbr. amplitude modulation (AM)",
+      "v. to be (followed by substantives only)"
+    ],
+    "usphone": "[əm; æm]",
+    "ukphone": "[əm; æm]"
+  },
+  {
+    "name": "pm",
+    "trans": [
+      "n. the person who holds the position of head of the government in the United Kingdom"
+    ],
+    "usphone": "[ˌpiː ˈem]",
+    "ukphone": "[ˌpiː ˈem]"
+  },
+  {
+    "name": "best",
+    "trans": [
+      "v. to get the better of",
+      "adj. (superlative of `good') having the most positive qualities",
+      "adj. (comparative and superlative of `well') wiser or more advantageous and hence advisable"
+    ],
+    "usphone": "[best]",
+    "ukphone": "[best]"
+  },
+  {
+    "name": "north",
+    "trans": [
+      "adj. situated in or facing or moving toward or coming from the north",
+      "adv. in a northern direction",
+      "n. a location in the northern part of a country, region, or city"
+    ],
+    "usphone": "[nɔːrθ]",
+    "ukphone": "[nɔːθ]"
+  },
+  {
+    "name": "south",
+    "trans": [
+      "adj. situated in or facing or moving toward or coming from the south",
+      "adv. in a southern direction",
+      "n. a location in the southern part of a country, region, or city"
+    ],
+    "usphone": "[saʊθ]",
+    "ukphone": "[saʊθ]"
+  },
+  {
+    "name": "rest",
+    "trans": [
+      "v. be at rest",
+      "v. stay the same",
+      "v. take a short break from one's activities in order to relax"
+    ],
+    "usphone": "[rest]",
+    "ukphone": "[rest]"
+  },
+  {
+    "name": "have a rest",
+    "trans": ["v. rest (after a verb) a bit"],
+    "usphone": "[hæv ərest]",
+    "ukphone": "[hæv ə rest]"
+  },
+  {
+    "name": "country",
+    "trans": [
+      "n. the people who live in a nation or country",
+      "n. a politically organized body of people under a single government",
+      "n. a particular geographical region of indefinite boundary, usually serving some special purpose or distinguished by its people, culture, or geography"
+    ],
+    "usphone": "[ˈkʌntri]",
+    "ukphone": "[ˈkʌntri]"
+  },
+  {
+    "name": "speak",
+    "trans": [
+      "v. to express in speech",
+      "v. to exchange thoughts",
+      "v. to use language"
+    ],
+    "usphone": "[spiːk]",
+    "ukphone": "[spiːk]"
+  },
+  {
+    "name": "capital",
+    "trans": [
+      "adj. uppercase",
+      "adj. of primary importance",
+      "adj. first-rate"
+    ],
+    "usphone": "[ˈkæpɪt(ə)l]",
+    "ukphone": "[ˈkæpɪt(ə)l]"
+  },
+  {
+    "name": "maybe",
+    "trans": ["adv. by chance"],
+    "usphone": "[ˈmeɪbi]",
+    "ukphone": "[ˈmeɪbi]"
+  },
+  {
+    "name": "map",
+    "trans": [
+      "v. to establish a mapping (of mathematical elements or sets)",
+      "v. explore or survey for the purpose of making a map",
+      "v. make a map of"
+    ],
+    "usphone": "[mæp]",
+    "ukphone": "[mæp]"
+  },
+  {
+    "name": "because",
+    "trans": ["conj. because"],
+    "usphone": "[bɪˈkəz, bɪˈkɔːz]",
+    "ukphone": "[bɪˈkəz, bɪˈkɒz]"
+  },
+  {
+    "name": "language",
+    "trans": [
+      "n. the mental faculty or power of vocal communication",
+      "n. the cognitive processes involved in producing and understanding linguistic communication",
+      "n. a systematic means of communicating by the use of sounds or conventional symbols"
+    ],
+    "usphone": "[ˈlæŋɡwɪdʒ]",
+    "ukphone": "[ˈlæŋɡwɪdʒ]"
+  },
+  {
+    "name": "Australian",
+    "trans": [
+      "adj. of or relating to or characteristic of Australia or its inhabitants or its languages"
+    ],
+    "usphone": "[ɔːˈstreɪliən]",
+    "ukphone": "[ɒˈstreɪliən]"
+  },
+  {
+    "name": "kangaroo",
+    "trans": [
+      "n. any of several herbivorous leaping marsupials of Australia and New Guinea having large powerful hind legs and a long thick tail"
+    ],
+    "usphone": "[ˌkæŋɡəˈruː]",
+    "ukphone": "[ˌkæŋɡəˈruː]"
+  },
+  {
+    "name": "back",
+    "trans": [
+      "v. to strengthen by providing with a back or backing",
+      "v. to establish as valid or genuine",
+      "v. to shift to a counterclockwise direction"
+    ],
+    "usphone": "[bæk]",
+    "ukphone": "[bæk]"
+  },
+  {
+    "name": "postcard",
+    "trans": ["n. a card for sending messages by post without an envelope"],
+    "usphone": "[ˈpoʊstkɑːrd]",
+    "ukphone": "[ˈpəʊstkɑːd]"
+  },
+  {
+    "name": "plan",
+    "trans": [
+      "v. make plans for something",
+      "v. have the will and intention to carry out some action",
+      "v. make or work out a plan for"
+    ],
+    "usphone": "[plæn]",
+    "ukphone": "[plæn]"
+  },
+  {
+    "name": "museum",
+    "trans": [
+      "n. a depository for collecting and displaying objects having scientific or historical or artistic value"
+    ],
+    "usphone": "[mjuˈziːəm]",
+    "ukphone": "[mjuˈziːəm]"
+  },
+  {
+    "name": "restaurant",
+    "trans": ["n. a building where people go to eat"],
+    "usphone": "[ˈrestrɑːnt; ˈrestərɑːnt]",
+    "ukphone": "[ˈrestrɒnt]"
+  }
 ]

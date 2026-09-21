@@ -1,90 +1,119 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
+    <meta charset="UTF-8">
 
     <script type="text/javascript">
-      // Single Page Apps for GitHub Pages
-      // MIT License
-      // https://github.com/rafgraph/spa-github-pages
-      // This script checks to see if a redirect is present in the query string,
-      // converts it back into the correct url and adds it to the
-      // browser's history using window.history.replaceState(...),
-      // which won't cause the browser to attempt to load the new url.
-      // When the single page app is loaded further down in this file,
-      // the correct url will be waiting in the browser's history for
-      // the single page app to route accordingly.
-      ;(function (l) {
-        if (l.search[1] === '/') {
-          var decoded = l.search
-            .slice(1)
-            .split('&')
-            .map(function (s) {
-              return s.replace(/~and~/g, '&')
-            })
-            .join('?')
-          window.history.replaceState(null, null, l.pathname.slice(0, -1) + decoded + l.hash)
-        }
-      })(window.location)
+    "use strict";
+    // Single Page Apps for GitHub Pages
+    // MIT License
+    // https://github.com/rafgraph/spa-github-pages
+    // This script checks to see if a redirect is present in the query string,
+    // converts it back into the correct url and adds it to the
+    // browser's history using window.history.replaceState(...),
+    // which won't cause the browser to attempt to load the new url.
+    // When the single page app is loaded further down in this file,
+    // the correct url will be waiting in the browser's history for
+    // the single page app to route accordingly.
+    ((l) => {
+      if (l.search[1] === "/") {
+        var decoded = l.search
+          .slice(1)
+          .split("&")
+          .map((s) => s.replace(/~and~/g, "&"))
+          .join("?");
+        window.history.replaceState(
+          null,
+          null,
+          l.pathname.slice(0, -1) + decoded + l.hash
+        );
+      }
+    })(window.location);
     </script>
 
-    <title>Type to Learn — Word and muscle memory training for keyboard workers</title>
+    <title>
+      Type to Learn — Word and muscle memory training for keyboard workers
+    </title>
     <meta
-      name="description"
       content="Type to Learn — free English learning software for keyboard workers. Combines typing practice with vocabulary memorization, phonetic pronunciation, dictation mode, and rich dictionaries."
-    />
+      name="description"
+    >
     <meta
-      name="keywords"
       content="Type to Learn, typing practice, vocabulary memorization, English learning software, muscle memory, keyboard workers, free English learning, phonetic pronunciation, dictation practice, online English, CET-4, CET-6, TOEFL, IELTS, GRE, GMAT, SAT, developer English"
-    />
-    <meta name="author" content="Kazim Kayhan" />
-    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
-    <link rel="canonical" href="https://kazimkayhan.github.io/type-to-learn/" />
+      name="keywords"
+    >
+    <meta content="Kazim Kayhan" name="author">
+    <meta
+      content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+      name="robots"
+    >
+    <link href="https://kazimkayhan.github.io/type-to-learn/" rel="canonical">
 
     <!-- Open Graph / Facebook -->
-    <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://kazimkayhan.github.io/type-to-learn/" />
-    <meta property="og:title" content="Type to Learn — English learning software for keyboard workers" />
+    <meta content="website" property="og:type">
     <meta
-      property="og:description"
+      content="https://kazimkayhan.github.io/type-to-learn/"
+      property="og:url"
+    >
+    <meta
+      content="Type to Learn — English learning software for keyboard workers"
+      property="og:title"
+    >
+    <meta
       content="Free English learning software for keyboard workers. Combines typing practice with vocabulary memorization, phonetic pronunciation, dictation mode, and rich dictionaries."
-    />
-    <meta property="og:image" content="https://kazimkayhan.github.io/type-to-learn/og-image.png" />
-    <meta property="og:site_name" content="Type to Learn" />
-    <meta property="og:locale" content="en_US" />
+      property="og:description"
+    >
+    <meta
+      content="https://kazimkayhan.github.io/type-to-learn/og-image.png"
+      property="og:image"
+    >
+    <meta content="Type to Learn" property="og:site_name">
+    <meta content="en_US" property="og:locale">
 
     <!-- Twitter -->
-    <meta property="twitter:card" content="summary_large_image" />
-    <meta property="twitter:url" content="https://kazimkayhan.github.io/type-to-learn/" />
-    <meta property="twitter:title" content="Type to Learn — English learning software for keyboard workers" />
+    <meta content="summary_large_image" property="twitter:card">
     <meta
-      property="twitter:description"
+      content="https://kazimkayhan.github.io/type-to-learn/"
+      property="twitter:url"
+    >
+    <meta
+      content="Type to Learn — English learning software for keyboard workers"
+      property="twitter:title"
+    >
+    <meta
       content="Free English learning software for keyboard workers. Combines typing practice with vocabulary memorization, phonetic pronunciation, dictation mode, and rich dictionaries."
-    />
-    <meta property="twitter:image" content="https://kazimkayhan.github.io/type-to-learn/og-image.png" />
-    <link rel="icon" href="/favicon.ico" />
-    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
-    <meta name="theme-color" content="#818CF8" />
-    <meta name="application-name" content="Type to Learn" />
-    <meta name="msapplication-TileColor" content="#818CF8" />
-    <meta name="msapplication-config" content="/browserconfig.xml" />
-    <meta name="mobile-web-app-capable" content="yes" />
-    <meta name="apple-mobile-web-app-capable" content="yes" />
-    <meta name="apple-mobile-web-app-status-bar-style" content="default" />
-    <meta name="apple-mobile-web-app-title" content="Type to Learn" />
-    <meta name="format-detection" content="telephone=no" />
-    <meta name="HandheldFriendly" content="True" />
-    <meta name="MobileOptimized" content="320" />
-    <meta name="referrer" content="origin-when-cross-origin" />
-    <meta name="color-scheme" content="light dark" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link rel="source" href="https://github.com/kazimkayhan/type-to-learn" />
-    <link rel="source" href="https://kazimjan.com" />
-    <link rel="manifest" href="/manifest.json" />
+      property="twitter:description"
+    >
+    <meta
+      content="https://kazimkayhan.github.io/type-to-learn/og-image.png"
+      property="twitter:image"
+    >
+    <link href="/favicon.ico" rel="icon">
+    <link href="/apple-touch-icon.png" rel="apple-touch-icon" sizes="180x180">
+    <link href="/favicon-32x32.png" rel="icon" sizes="32x32" type="image/png">
+    <link href="/favicon-16x16.png" rel="icon" sizes="16x16" type="image/png">
+    <meta
+      content="width=device-width, initial-scale=1, viewport-fit=cover"
+      name="viewport"
+    >
+    <meta content="#818CF8" name="theme-color">
+    <meta content="Type to Learn" name="application-name">
+    <meta content="#818CF8" name="msapplication-TileColor">
+    <meta content="/browserconfig.xml" name="msapplication-config">
+    <meta content="yes" name="mobile-web-app-capable">
+    <meta content="yes" name="apple-mobile-web-app-capable">
+    <meta content="default" name="apple-mobile-web-app-status-bar-style">
+    <meta content="Type to Learn" name="apple-mobile-web-app-title">
+    <meta content="telephone=no" name="format-detection">
+    <meta content="True" name="HandheldFriendly">
+    <meta content="320" name="MobileOptimized">
+    <meta content="origin-when-cross-origin" name="referrer">
+    <meta content="light dark" name="color-scheme">
+    <link href="https://fonts.googleapis.com" rel="preconnect">
+    <link crossorigin href="https://fonts.gstatic.com" rel="preconnect">
+    <link href="https://github.com/kazimkayhan/type-to-learn" rel="source">
+    <link href="https://kazimjan.com" rel="source">
+    <link href="/manifest.json" rel="manifest">
 
     <!-- Structured Data -->
     <script type="application/ld+json">
@@ -151,13 +180,15 @@
     </script>
 
     <script>
-      // Dark mode init
-      if (
-        ('state' in localStorage && JSON.parse(localStorage.state).darkMode) ||
-        (!('state' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)
-      ) {
-        document.documentElement.classList.add('dark')
-      }
+    "use strict";
+    // Dark mode init
+    if (
+      ("state" in localStorage && JSON.parse(localStorage.state).darkMode) ||
+      (!("state" in localStorage) &&
+        window.matchMedia("(prefers-color-scheme: dark)").matches)
+    ) {
+      document.documentElement.classList.add("dark");
+    }
     </script>
   </head>
   <body>
@@ -165,6 +196,6 @@
       <div>You need to enable JavaScript to run Type to Learn.</div>
     </noscript>
     <div id="root"></div>
-    <script type="module" src="/src/index.tsx"></script>
+    <script src="/src/index.tsx" type="module"></script>
   </body>
 </html>

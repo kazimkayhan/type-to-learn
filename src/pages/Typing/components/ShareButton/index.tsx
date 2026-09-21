@@ -1,36 +1,42 @@
-import SharePicDialog from './SharePicDialog'
-import { recordShareAction } from '@/utils'
-import { useCallback, useMemo, useState } from 'react'
-import IconShare2 from '~icons/tabler/share-2'
+import { useCallback, useMemo, useState } from "react";
+import { recordShareAction } from "@/utils";
+import IconShare2 from "~icons/tabler/share-2";
+import SharePicDialog from "./SharePicDialog";
 
 export default function ShareButton() {
-  const [isShowSharePanel, setIsShowSharePanel] = useState(false)
+  const [isShowSharePanel, setIsShowSharePanel] = useState(false);
 
   const randomChoose = useMemo(
     () => ({
       picRandom: Math.random(),
       promoteRandom: Math.random(),
     }),
-    [],
-  )
+    []
+  );
 
   const onClickShare = useCallback(() => {
-    recordShareAction('open')
-    setIsShowSharePanel(true)
-  }, [])
+    recordShareAction("open");
+    setIsShowSharePanel(true);
+  }, []);
 
   return (
     <>
-      {isShowSharePanel && <SharePicDialog showState={isShowSharePanel} setShowState={setIsShowSharePanel} randomChoose={randomChoose} />}
+      {isShowSharePanel && (
+        <SharePicDialog
+          randomChoose={randomChoose}
+          setShowState={setIsShowSharePanel}
+          showState={isShowSharePanel}
+        />
+      )}
 
       <button
-        type="button"
-        className="cursor-pointer text-xl text-gray-500 hover:text-indigo-400"
+        className="cursor-pointer text-gray-500 text-xl hover:text-indigo-400"
         onClick={onClickShare}
         title="Share your score with friends"
+        type="button"
       >
         <IconShare2 />
       </button>
     </>
-  )
+  );
 }

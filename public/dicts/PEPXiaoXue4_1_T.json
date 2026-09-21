@@ -1,770 +1,718 @@
 [
-    {
-        "name": "classroom",
-        "trans": [
-            "n. a room in a school where lessons take place"
-        ],
-        "usphone": "'klæsrʊm",
-        "ukphone": "'klɑːsruːm; -rʊm"
-    },
-    {
-        "name": "window",
-        "trans": [
-            "n. a framework of wood or metal that contains a glass windowpane and is built into a wall or roof to admit light or air",
-            "n. a transparent opening in a vehicle that allow vision out of the sides or back",
-            "n. a transparent panel (as of an envelope) inserted in an otherwise opaque material"
-        ],
-        "usphone": "'wɪndo",
-        "ukphone": "'wɪndəʊ"
-    },
-    {
-        "name": "blackboard",
-        "trans": [
-            "n. sheet of slate"
-        ],
-        "usphone": "'blækbɔrd",
-        "ukphone": "'blækbɔːd"
-    },
-    {
-        "name": "light",
-        "trans": [
-            "v. make lighter or brighter",
-            "v. begin to smoke",
-            "v. alight from (a horse)"
-        ],
-        "usphone": "laɪt",
-        "ukphone": "laɪt"
-    },
-    {
-        "name": "picture",
-        "trans": [
-            "v. imagine",
-            "v. show in, or as in, a picture",
-            "n. graphic art consisting of an artistic composition made by applying paints to a surface"
-        ],
-        "usphone": "'pɪktʃɚ",
-        "ukphone": "'pɪktʃə"
-    },
-    {
-        "name": "door",
-        "trans": [
-            "n. a swinging or sliding barrier that will close the entrance to a room or building or vehicle",
-            "n. a room that is entered via a door",
-            "n. a structure where people live or work, usually ordered along a street or road"
-        ],
-        "usphone": "dɔr",
-        "ukphone": "dɔː"
-    },
-    {
-        "name": "teacher's desk",
-        "trans": [
-            "platform"
-        ],
-        "usphone": "",
-        "ukphone": ""
-    },
-    {
-        "name": "computer",
-        "trans": [
-            "n. a machine for performing calculations automatically",
-            "n. an expert at calculation (or at operating calculating machines)"
-        ],
-        "usphone": "kəm'pjutɚ",
-        "ukphone": "kəm'pjuːtə"
-    },
-    {
-        "name": "fan",
-        "trans": [
-            "v. make (an emotion) fiercer",
-            "v. strike out (a batter), (of a pitcher)",
-            "v. separate the chaff from by using air currents"
-        ],
-        "usphone": "fæn",
-        "ukphone": "fæn"
-    },
-    {
-        "name": "wall",
-        "trans": [
-            "v. surround with a wall in order to fortify",
-            "n. an embankment built around a space for defensive purposes",
-            "n. an architectural partition with a height and length greater than its thickness"
-        ],
-        "usphone": "wɔl",
-        "ukphone": "wɔːl"
-    },
-    {
-        "name": "floor",
-        "trans": [
-            "v. knock down with force",
-            "v. surprise greatly",
-            "n. the inside lower horizontal surface (as of a room, hallway, tent, or other structure)"
-        ],
-        "usphone": "flɔr",
-        "ukphone": "flɔː"
-    },
-    {
-        "name": "really",
-        "trans": [
-            "adv. used as intensifiers",
-            "adv. in accordance with truth or fact or reality",
-            "adv. in fact (used as intensifiers or sentence modifiers)"
-        ],
-        "usphone": "ˈriəˌli, ˈrili",
-        "ukphone": "'rɪəlɪ"
-    },
-    {
-        "name": "near",
-        "trans": [
-            "v. move towards",
-            "adj. being on the left side",
-            "adj. not far distant in time or space or degree or circumstances"
-        ],
-        "usphone": "nɪr",
-        "ukphone": "nɪə"
-    },
-    {
-        "name": "TV",
-        "trans": [
-            "n. broadcasting visual images of stationary or moving objects"
-        ],
-        "usphone": "ˌti vi",
-        "ukphone": "ˌti: ˈvi:"
-    },
-    {
-        "name": "clean",
-        "trans": [
-            "v. to be cleanable",
-            "v. to remove unwanted substances from",
-            "v. to remove while making clean"
-        ],
-        "usphone": "klin",
-        "ukphone": "kliːn"
-    },
-    {
-        "name": "help",
-        "trans": [
-            "v. improve the condition of",
-            "v. improve",
-            "v. help to some food"
-        ],
-        "usphone": "hɛlp",
-        "ukphone": "help"
-    },
-    {
-        "name": "schoolbag",
-        "trans": [
-            "n. a bag for carrying school books and supplies"
-        ],
-        "usphone": "ˈskulˌbæɡ",
-        "ukphone": "'skuːlbæɡ"
-    },
-    {
-        "name": "maths book",
-        "trans": [
-            "mathematics book"
-        ],
-        "usphone": "",
-        "ukphone": ""
-    },
-    {
-        "name": "English book",
-        "trans": [
-            "English (language) book"
-        ],
-        "usphone": "",
-        "ukphone": ""
-    },
-    {
-        "name": "Chinese book",
-        "trans": [
-            "literature and language book"
-        ],
-        "usphone": "",
-        "ukphone": ""
-    },
-    {
-        "name": "storybook",
-        "trans": [
-            "n. a book containing a collection of stories (usually for children)"
-        ],
-        "usphone": "'stɔrɪ'bʊk",
-        "ukphone": "'stɔːrɪbʊk"
-    },
-    {
-        "name": "candy",
-        "trans": [
-            "v. to coat with something sweet, such as a hard sugar glaze",
-            "n. a rich sweet made of flavored sugar and often combined with fruit or nuts"
-        ],
-        "usphone": "ˈkændɪ",
-        "ukphone": "'kændɪ"
-    },
-    {
-        "name": "notebook",
-        "trans": [
-            "n. a small compact portable computer",
-            "n. a book with blank pages for recording notes or memoranda"
-        ],
-        "usphone": "'notbʊk",
-        "ukphone": "'nəʊtbʊk"
-    },
-    {
-        "name": "toy",
-        "trans": [
-            "v. engage in an activity as if it were a game rather than take it seriously",
-            "v. manipulate manually or in one's mind or imagination",
-            "v. behave carelessly or indifferently"
-        ],
-        "usphone": "tɔɪ",
-        "ukphone": "tɒɪ"
-    },
-    {
-        "name": "key",
-        "trans": [
-            "v. harmonize with or adjust to",
-            "v. regulate the musical pitch of",
-            "v. identify as in botany or biology, for example"
-        ],
-        "usphone": "",
-        "ukphone": "kiː"
-    },
-    {
-        "name": "wow",
-        "trans": [
-            "v. impress greatly",
-            "n. a joke that seems extremely funny"
-        ],
-        "usphone": "wou",
-        "ukphone": "waʊ"
-    },
-    {
-        "name": "lost",
-        "trans": [
-            "adj. deeply absorbed in thought",
-            "adj. not caught with the senses or the mind",
-            "adj. unable to function"
-        ],
-        "usphone": "lɔst",
-        "ukphone": "lɒst"
-    },
-    {
-        "name": "so much",
-        "trans": [
-            "very"
-        ],
-        "usphone": "",
-        "ukphone": ""
-    },
-    {
-        "name": "cute",
-        "trans": [
-            "adj. obviously contrived to charm",
-            "adj. attractive especially by means of smallness or prettiness or quaintness"
-        ],
-        "usphone": "kjʊt",
-        "ukphone": "kjuːt"
-    },
-    {
-        "name": "strong",
-        "trans": [
-            "adj. strong and sure",
-            "adj. freshly made or left",
-            "adj. being distilled rather than fermented"
-        ],
-        "usphone": "strɔŋ",
-        "ukphone": "strɒŋ"
-    },
-    {
-        "name": "friendly",
-        "trans": [
-            "adj. characteristic of or befitting a friend",
-            "adj. of or belonging to your own country's forces or those of an ally",
-            "adj. easy to understand or use"
-        ],
-        "usphone": "ˈfrɛndlɪ",
-        "ukphone": "ˈfrendlɪ"
-    },
-    {
-        "name": "quiet",
-        "trans": [
-            "v. make calm or still",
-            "v. become quiet or quieter",
-            "adj. of the sun characterized by a low level of surface phenomena like sunspots e.g."
-        ],
-        "usphone": "'kwaɪət",
-        "ukphone": "'kwaɪət"
-    },
-    {
-        "name": "hair",
-        "trans": [
-            "n. a filamentous projection or process on an organism",
-            "n. cloth woven from horsehair or camelhair",
-            "n. any of the cylindrical filaments characteristically growing from the epidermis of a mammal"
-        ],
-        "usphone": "hɛr",
-        "ukphone": "heə"
-    },
-    {
-        "name": "shoe",
-        "trans": [
-            "v. furnish with shoes",
-            "n. a restraint provided when the brake linings are moved hydraulically against the brake drum to retard the wheel's rotation",
-            "n. U-shaped plate nailed to underside of horse's hoof"
-        ],
-        "usphone": "ʃu",
-        "ukphone": "ʃuː"
-    },
-    {
-        "name": "glasses",
-        "trans": [
-            "n. optical instrument consisting of a frame that holds a pair of lenses for correcting defective vision"
-        ],
-        "usphone": "'glæsɪz",
-        "ukphone": "'glɑːsɪz"
-    },
-    {
-        "name": "his",
-        "trans": [
-            "pron. singular masculine possessive pronoun"
-        ],
-        "usphone": "hɪz",
-        "ukphone": "hɪz"
-    },
-    {
-        "name": "or",
-        "trans": [
-            "n. a room in a hospital equipped for the performance of surgical operations"
-        ],
-        "usphone": "ɔr",
-        "ukphone": "ɔː"
-    },
-    {
-        "name": "right",
-        "trans": [
-            "v. make right or correct",
-            "v. regain an upright or proper position",
-            "v. put in or restore to an upright position"
-        ],
-        "usphone": "raɪt",
-        "ukphone": "raɪt"
-    },
-    {
-        "name": "hat",
-        "trans": [
-            "v. to put on or wear a hat",
-            "v. furnish with a hat",
-            "n. an informal term for a person's role"
-        ],
-        "usphone": "hæt",
-        "ukphone": "hæt"
-    },
-    {
-        "name": "her",
-        "trans": [
-            "pron. oblique (object) feminine singular pronoun"
-        ],
-        "usphone": "hɚ",
-        "ukphone": "hɜː"
-    },
-    {
-        "name": "bedroom",
-        "trans": [
-            "n. a room used primarily for sleeping"
-        ],
-        "usphone": "'bɛdrum",
-        "ukphone": "'bedruːm; -rʊm"
-    },
-    {
-        "name": "living room",
-        "trans": [
-            "n. a room in a private house or establishment where people can sit and talk and relax"
-        ],
-        "usphone": "'lɪvɪŋ rum",
-        "ukphone": "'lɪvɪŋ ru:m"
-    },
-    {
-        "name": "study",
-        "trans": [
-            "v. be a student of a certain subject",
-            "v. learn by reading books",
-            "v. be a student"
-        ],
-        "usphone": "'stʌdi",
-        "ukphone": "'stʌdɪ"
-    },
-    {
-        "name": "kitchen",
-        "trans": [
-            "n. a room equipped for preparing meals"
-        ],
-        "usphone": "'kɪtʃɪn",
-        "ukphone": "'kɪtʃɪn; -tʃ(ə)n"
-    },
-    {
-        "name": "bathroom",
-        "trans": [
-            "n. a room containing a bathtub or shower and usually a washbasin and toilet",
-            "n. a room or building equipped with one or more toilets"
-        ],
-        "usphone": "'bæθrum",
-        "ukphone": "'bɑːθruːm; -rʊm"
-    },
-    {
-        "name": "bed",
-        "trans": [
-            "v. to have sexual intercourse with",
-            "v. to put to bed",
-            "v. to place plants in a prepared bed of soil"
-        ],
-        "usphone": "bɛd",
-        "ukphone": "bed"
-    },
-    {
-        "name": "phone",
-        "trans": [
-            "v. get or try to get into communication with someone by telephone",
-            "n. electronic equipment that converts sound into electrical signals that can be transmitted over distances and then converts received signals back into sounds",
-            "n. (phonetics) an individual sound unit of speech without concern as to whether or not it is a phoneme of some language"
-        ],
-        "usphone": "fon",
-        "ukphone": "fəʊn"
-    },
-    {
-        "name": "table",
-        "trans": [
-            "v. arrange or enter in tabular form",
-            "v. hold back to a later time",
-            "n. a piece of furniture having a smooth flat top that is usually supported by one or more vertical legs"
-        ],
-        "usphone": "'tebl",
-        "ukphone": "'teɪb(ə)l"
-    },
-    {
-        "name": "sofa",
-        "trans": [
-            "n. an upholstered seat for more than one person"
-        ],
-        "usphone": "'sofə",
-        "ukphone": "'səʊfə"
-    },
-    {
-        "name": "fridge",
-        "trans": [
-            "n. a refrigerator in which the coolant is pumped around by an electric motor"
-        ],
-        "usphone": "frɪdʒ",
-        "ukphone": "frɪdʒ"
-    },
-    {
-        "name": "find",
-        "trans": [
-            "v. accept and make use of one's personality, abilities, and situation",
-            "v. receive a specified treatment (abstract)",
-            "v. come to believe on the basis of emotion, intuitions, or indefinite grounds"
-        ],
-        "usphone": "faɪnd",
-        "ukphone": "faɪnd"
-    },
-    {
-        "name": "them",
-        "trans": [
-            "they"
-        ],
-        "usphone": "ðɛm; ðəm",
-        "ukphone": "ðem; ðəm"
-    },
-    {
-        "name": "beef",
-        "trans": [
-            "v. to complain",
-            "n. cattle that are reared for their meat",
-            "n. informal terms for objecting"
-        ],
-        "usphone": "bif",
-        "ukphone": "biːf"
-    },
-    {
-        "name": "chicken",
-        "trans": [
-            "adj. easily frightened",
-            "n. a domestic fowl bred for flesh or eggs",
-            "n. a foolhardy competition"
-        ],
-        "usphone": "ˈtʃɪkɪn",
-        "ukphone": "'tʃɪkɪn"
-    },
-    {
-        "name": "noodles",
-        "trans": [
-            "noodles"
-        ],
-        "usphone": "ˈnudlz",
-        "ukphone": "ˈnu:dlz"
-    },
-    {
-        "name": "soup",
-        "trans": [
-            "v. dope (a racehorse)",
-            "n. liquid food especially of meat or fish or vegetable stock often containing pieces of solid food",
-            "n. an unfortunate situation"
-        ],
-        "usphone": "sup",
-        "ukphone": "suːp"
-    },
-    {
-        "name": "vegetable",
-        "trans": [
-            "n. edible seeds or roots or stems or leaves or bulbs or tubers or nonsweet fruits of any of numerous herbaceous plant",
-            "n. any of various herbaceous plants cultivated for an edible part such as the fruit or the root of the beet or the leaf of spinach or the seeds of bean plants or the flower buds of broccoli or cauliflower"
-        ],
-        "usphone": "ˈvɛdʒtəbl",
-        "ukphone": "ˈvedʒtəbl"
-    },
-    {
-        "name": "chopsticks",
-        "trans": [
-            "n. one of a pair of slender sticks used as oriental tableware to eat food with"
-        ],
-        "usphone": "'tʃɑp,stɪks",
-        "ukphone": "'tʃɒpstɪks"
-    },
-    {
-        "name": "bowl",
-        "trans": [
-            "v. to engage in the sport of bowling",
-            "v. to hurl a cricket ball from one end of the pitch towards the batsman at the other end",
-            "v. to roll a ball"
-        ],
-        "usphone": "bol",
-        "ukphone": "bəʊl"
-    },
-    {
-        "name": "fork",
-        "trans": [
-            "v. shape like a fork",
-            "v. divide into two or more branches so as to form a fork",
-            "v. place under attack with one's own pieces, of two enemy pieces"
-        ],
-        "usphone": "fɔrk",
-        "ukphone": "fɔːk"
-    },
-    {
-        "name": "knife",
-        "trans": [
-            "v. to use a knife on",
-            "n. an edged tool used as a cutting instrument or weapon"
-        ],
-        "usphone": "naɪf",
-        "ukphone": "naɪf"
-    },
-    {
-        "name": "spoon",
-        "trans": [
-            "v. snuggle and lie in a position where one person faces the back of the others",
-            "v. scoop up or take up with a spoon",
-            "n. a piece of cutlery with a shallow bowl-shaped container and a handle"
-        ],
-        "usphone": "spun",
-        "ukphone": "spuːn"
-    },
-    {
-        "name": "dinner",
-        "trans": [
-            "n. the main meal of the day served in the evening or at midday",
-            "n. a party of people assembled to have dinner together"
-        ],
-        "usphone": "'dɪnɚ",
-        "ukphone": "'dɪnə"
-    },
-    {
-        "name": "ready",
-        "trans": [
-            "v. make ready or suitable or equip in advance for a particular purpose or for some use, event, etc",
-            "v. prepare for eating by applying heat",
-            "adj. (of especially money) immediately available"
-        ],
-        "usphone": "'rɛdi",
-        "ukphone": "'redɪ"
-    },
-    {
-        "name": "help yourself",
-        "trans": [
-            "as (in the capacity of) oneself to access"
-        ],
-        "usphone": "",
-        "ukphone": ""
-    },
-    {
-        "name": "pass",
-        "trans": [
-            "v. eliminate from the body",
-            "v. come to pass",
-            "v. pass from physical life and lose all bodily attributes and functions necessary to sustain life"
-        ],
-        "usphone": "pæs",
-        "ukphone": "pɑːs"
-    },
-    {
-        "name": "try",
-        "trans": [
-            "v. put on a garment in order to see whether it fits and looks nice",
-            "v. melt (fat or lard) in order to separate out impurities",
-            "v. take a sample of"
-        ],
-        "usphone": "traɪ",
-        "ukphone": "traɪ"
-    },
-    {
-        "name": "parents",
-        "trans": [
-            "v. bring up",
-            "n. an organism (plant or animal) from which younger ones are obtained",
-            "n. a father or mother"
-        ],
-        "usphone": "'pɛrənts",
-        "ukphone": "'peərənts"
-    },
-    {
-        "name": "cousin",
-        "trans": [
-            "n. the child of your aunt or uncle"
-        ],
-        "usphone": "'kʌzn",
-        "ukphone": "'kʌz(ə)n"
-    },
-    {
-        "name": "uncle",
-        "trans": [
-            "n. the brother of a father or mother",
-            "n. a source of help and advice and encouragement"
-        ],
-        "usphone": "'ʌŋkl",
-        "ukphone": "'ʌŋk(ə)l"
-    },
-    {
-        "name": "aunt",
-        "trans": [
-            "n. the sister of your father or mother"
-        ],
-        "usphone": "ænt",
-        "ukphone": "ɑːnt"
-    },
-    {
-        "name": "baby brother",
-        "trans": [
-            "little brother"
-        ],
-        "usphone": "",
-        "ukphone": ""
-    },
-    {
-        "name": "doctor",
-        "trans": [
-            "v. give medical treatment to",
-            "v. restore by replacing a part or putting together what is torn or broken",
-            "v. alter and make impure, as with the intention to deceive"
-        ],
-        "usphone": "'dɑktɚ",
-        "ukphone": "'dɒktə"
-    },
-    {
-        "name": "cook",
-        "trans": [
-            "v. to transform and make suitable for consumption by heating",
-            "v. to transform by heating",
-            "v. to prepare for eating by applying heat"
-        ],
-        "usphone": "kʊk",
-        "ukphone": "kʊk"
-    },
-    {
-        "name": "driver",
-        "trans": [
-            "n. a golf club (a wood) with a near vertical face that is used for hitting long shots from the tee",
-            "n. (computer science) a program that determines how a computer will communicate with a peripheral device",
-            "n. the operator of a motor vehicle"
-        ],
-        "usphone": "'draɪvɚ",
-        "ukphone": "'draɪvə"
-    },
-    {
-        "name": "farmer",
-        "trans": [
-            "n. a person who operates a farm"
-        ],
-        "usphone": "'fɑmɚ",
-        "ukphone": "'fɑːmə"
-    },
-    {
-        "name": "nurse",
-        "trans": [
-            "v. to try to cure by special care of treatment, of an illness or injury",
-            "v. give suck to",
-            "v. maintain (a theory, thoughts, or feelings)"
-        ],
-        "usphone": "nɝs",
-        "ukphone": "nɜːs"
-    },
-    {
-        "name": "people",
-        "trans": [
-            "v. fill with people",
-            "v. furnish with people",
-            "n. (plural) any group of human beings (men or women or children) collectively"
-        ],
-        "usphone": "'pipl",
-        "ukphone": "'piːp(ə)l"
-    },
-    {
-        "name": "but",
-        "trans": [
-            "adv. and nothing more"
-        ],
-        "usphone": "bʌt",
-        "ukphone": "bʌt; bət"
-    },
-    {
-        "name": "little",
-        "trans": [
-            "adj. faint or difficult to hear",
-            "adj. lowercase",
-            "adj. young, immature"
-        ],
-        "usphone": "'lɪtl",
-        "ukphone": "'lɪt(ə)l"
-    },
-    {
-        "name": "puppy",
-        "trans": [
-            "n. a young dog",
-            "n. an inexperienced young person"
-        ],
-        "usphone": "'pʌpi",
-        "ukphone": "'pʌpɪ"
-    },
-    {
-        "name": "football player",
-        "trans": [
-            "n. an athlete who plays American football"
-        ],
-        "usphone": "",
-        "ukphone": ""
-    },
-    {
-        "name": "job",
-        "trans": [
-            "n. any long-suffering person who withstands affliction without despairing"
-        ],
-        "usphone": "",
-        "ukphone": "dʒɒb"
-    },
-    {
-        "name": "basketball",
-        "trans": [
-            "n. a game played on a court by two opposing teams of 5 players",
-            "n. an inflated ball used in playing basketball"
-        ],
-        "usphone": "'bæskɪtbɔl",
-        "ukphone": "'bɑːskɪtbɔːl"
-    }
+  {
+    "name": "classroom",
+    "trans": ["n. a room in a school where lessons take place"],
+    "usphone": "'klæsrʊm",
+    "ukphone": "'klɑːsruːm; -rʊm"
+  },
+  {
+    "name": "window",
+    "trans": [
+      "n. a framework of wood or metal that contains a glass windowpane and is built into a wall or roof to admit light or air",
+      "n. a transparent opening in a vehicle that allow vision out of the sides or back",
+      "n. a transparent panel (as of an envelope) inserted in an otherwise opaque material"
+    ],
+    "usphone": "'wɪndo",
+    "ukphone": "'wɪndəʊ"
+  },
+  {
+    "name": "blackboard",
+    "trans": ["n. sheet of slate"],
+    "usphone": "'blækbɔrd",
+    "ukphone": "'blækbɔːd"
+  },
+  {
+    "name": "light",
+    "trans": [
+      "v. make lighter or brighter",
+      "v. begin to smoke",
+      "v. alight from (a horse)"
+    ],
+    "usphone": "laɪt",
+    "ukphone": "laɪt"
+  },
+  {
+    "name": "picture",
+    "trans": [
+      "v. imagine",
+      "v. show in, or as in, a picture",
+      "n. graphic art consisting of an artistic composition made by applying paints to a surface"
+    ],
+    "usphone": "'pɪktʃɚ",
+    "ukphone": "'pɪktʃə"
+  },
+  {
+    "name": "door",
+    "trans": [
+      "n. a swinging or sliding barrier that will close the entrance to a room or building or vehicle",
+      "n. a room that is entered via a door",
+      "n. a structure where people live or work, usually ordered along a street or road"
+    ],
+    "usphone": "dɔr",
+    "ukphone": "dɔː"
+  },
+  {
+    "name": "teacher's desk",
+    "trans": ["platform"],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "computer",
+    "trans": [
+      "n. a machine for performing calculations automatically",
+      "n. an expert at calculation (or at operating calculating machines)"
+    ],
+    "usphone": "kəm'pjutɚ",
+    "ukphone": "kəm'pjuːtə"
+  },
+  {
+    "name": "fan",
+    "trans": [
+      "v. make (an emotion) fiercer",
+      "v. strike out (a batter), (of a pitcher)",
+      "v. separate the chaff from by using air currents"
+    ],
+    "usphone": "fæn",
+    "ukphone": "fæn"
+  },
+  {
+    "name": "wall",
+    "trans": [
+      "v. surround with a wall in order to fortify",
+      "n. an embankment built around a space for defensive purposes",
+      "n. an architectural partition with a height and length greater than its thickness"
+    ],
+    "usphone": "wɔl",
+    "ukphone": "wɔːl"
+  },
+  {
+    "name": "floor",
+    "trans": [
+      "v. knock down with force",
+      "v. surprise greatly",
+      "n. the inside lower horizontal surface (as of a room, hallway, tent, or other structure)"
+    ],
+    "usphone": "flɔr",
+    "ukphone": "flɔː"
+  },
+  {
+    "name": "really",
+    "trans": [
+      "adv. used as intensifiers",
+      "adv. in accordance with truth or fact or reality",
+      "adv. in fact (used as intensifiers or sentence modifiers)"
+    ],
+    "usphone": "ˈriəˌli, ˈrili",
+    "ukphone": "'rɪəlɪ"
+  },
+  {
+    "name": "near",
+    "trans": [
+      "v. move towards",
+      "adj. being on the left side",
+      "adj. not far distant in time or space or degree or circumstances"
+    ],
+    "usphone": "nɪr",
+    "ukphone": "nɪə"
+  },
+  {
+    "name": "TV",
+    "trans": ["n. broadcasting visual images of stationary or moving objects"],
+    "usphone": "ˌti vi",
+    "ukphone": "ˌti: ˈvi:"
+  },
+  {
+    "name": "clean",
+    "trans": [
+      "v. to be cleanable",
+      "v. to remove unwanted substances from",
+      "v. to remove while making clean"
+    ],
+    "usphone": "klin",
+    "ukphone": "kliːn"
+  },
+  {
+    "name": "help",
+    "trans": [
+      "v. improve the condition of",
+      "v. improve",
+      "v. help to some food"
+    ],
+    "usphone": "hɛlp",
+    "ukphone": "help"
+  },
+  {
+    "name": "schoolbag",
+    "trans": ["n. a bag for carrying school books and supplies"],
+    "usphone": "ˈskulˌbæɡ",
+    "ukphone": "'skuːlbæɡ"
+  },
+  {
+    "name": "maths book",
+    "trans": ["mathematics book"],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "English book",
+    "trans": ["English (language) book"],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "Chinese book",
+    "trans": ["literature and language book"],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "storybook",
+    "trans": [
+      "n. a book containing a collection of stories (usually for children)"
+    ],
+    "usphone": "'stɔrɪ'bʊk",
+    "ukphone": "'stɔːrɪbʊk"
+  },
+  {
+    "name": "candy",
+    "trans": [
+      "v. to coat with something sweet, such as a hard sugar glaze",
+      "n. a rich sweet made of flavored sugar and often combined with fruit or nuts"
+    ],
+    "usphone": "ˈkændɪ",
+    "ukphone": "'kændɪ"
+  },
+  {
+    "name": "notebook",
+    "trans": [
+      "n. a small compact portable computer",
+      "n. a book with blank pages for recording notes or memoranda"
+    ],
+    "usphone": "'notbʊk",
+    "ukphone": "'nəʊtbʊk"
+  },
+  {
+    "name": "toy",
+    "trans": [
+      "v. engage in an activity as if it were a game rather than take it seriously",
+      "v. manipulate manually or in one's mind or imagination",
+      "v. behave carelessly or indifferently"
+    ],
+    "usphone": "tɔɪ",
+    "ukphone": "tɒɪ"
+  },
+  {
+    "name": "key",
+    "trans": [
+      "v. harmonize with or adjust to",
+      "v. regulate the musical pitch of",
+      "v. identify as in botany or biology, for example"
+    ],
+    "usphone": "",
+    "ukphone": "kiː"
+  },
+  {
+    "name": "wow",
+    "trans": ["v. impress greatly", "n. a joke that seems extremely funny"],
+    "usphone": "wou",
+    "ukphone": "waʊ"
+  },
+  {
+    "name": "lost",
+    "trans": [
+      "adj. deeply absorbed in thought",
+      "adj. not caught with the senses or the mind",
+      "adj. unable to function"
+    ],
+    "usphone": "lɔst",
+    "ukphone": "lɒst"
+  },
+  {
+    "name": "so much",
+    "trans": ["very"],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "cute",
+    "trans": [
+      "adj. obviously contrived to charm",
+      "adj. attractive especially by means of smallness or prettiness or quaintness"
+    ],
+    "usphone": "kjʊt",
+    "ukphone": "kjuːt"
+  },
+  {
+    "name": "strong",
+    "trans": [
+      "adj. strong and sure",
+      "adj. freshly made or left",
+      "adj. being distilled rather than fermented"
+    ],
+    "usphone": "strɔŋ",
+    "ukphone": "strɒŋ"
+  },
+  {
+    "name": "friendly",
+    "trans": [
+      "adj. characteristic of or befitting a friend",
+      "adj. of or belonging to your own country's forces or those of an ally",
+      "adj. easy to understand or use"
+    ],
+    "usphone": "ˈfrɛndlɪ",
+    "ukphone": "ˈfrendlɪ"
+  },
+  {
+    "name": "quiet",
+    "trans": [
+      "v. make calm or still",
+      "v. become quiet or quieter",
+      "adj. of the sun characterized by a low level of surface phenomena like sunspots e.g."
+    ],
+    "usphone": "'kwaɪət",
+    "ukphone": "'kwaɪət"
+  },
+  {
+    "name": "hair",
+    "trans": [
+      "n. a filamentous projection or process on an organism",
+      "n. cloth woven from horsehair or camelhair",
+      "n. any of the cylindrical filaments characteristically growing from the epidermis of a mammal"
+    ],
+    "usphone": "hɛr",
+    "ukphone": "heə"
+  },
+  {
+    "name": "shoe",
+    "trans": [
+      "v. furnish with shoes",
+      "n. a restraint provided when the brake linings are moved hydraulically against the brake drum to retard the wheel's rotation",
+      "n. U-shaped plate nailed to underside of horse's hoof"
+    ],
+    "usphone": "ʃu",
+    "ukphone": "ʃuː"
+  },
+  {
+    "name": "glasses",
+    "trans": [
+      "n. optical instrument consisting of a frame that holds a pair of lenses for correcting defective vision"
+    ],
+    "usphone": "'glæsɪz",
+    "ukphone": "'glɑːsɪz"
+  },
+  {
+    "name": "his",
+    "trans": ["pron. singular masculine possessive pronoun"],
+    "usphone": "hɪz",
+    "ukphone": "hɪz"
+  },
+  {
+    "name": "or",
+    "trans": [
+      "n. a room in a hospital equipped for the performance of surgical operations"
+    ],
+    "usphone": "ɔr",
+    "ukphone": "ɔː"
+  },
+  {
+    "name": "right",
+    "trans": [
+      "v. make right or correct",
+      "v. regain an upright or proper position",
+      "v. put in or restore to an upright position"
+    ],
+    "usphone": "raɪt",
+    "ukphone": "raɪt"
+  },
+  {
+    "name": "hat",
+    "trans": [
+      "v. to put on or wear a hat",
+      "v. furnish with a hat",
+      "n. an informal term for a person's role"
+    ],
+    "usphone": "hæt",
+    "ukphone": "hæt"
+  },
+  {
+    "name": "her",
+    "trans": ["pron. oblique (object) feminine singular pronoun"],
+    "usphone": "hɚ",
+    "ukphone": "hɜː"
+  },
+  {
+    "name": "bedroom",
+    "trans": ["n. a room used primarily for sleeping"],
+    "usphone": "'bɛdrum",
+    "ukphone": "'bedruːm; -rʊm"
+  },
+  {
+    "name": "living room",
+    "trans": [
+      "n. a room in a private house or establishment where people can sit and talk and relax"
+    ],
+    "usphone": "'lɪvɪŋ rum",
+    "ukphone": "'lɪvɪŋ ru:m"
+  },
+  {
+    "name": "study",
+    "trans": [
+      "v. be a student of a certain subject",
+      "v. learn by reading books",
+      "v. be a student"
+    ],
+    "usphone": "'stʌdi",
+    "ukphone": "'stʌdɪ"
+  },
+  {
+    "name": "kitchen",
+    "trans": ["n. a room equipped for preparing meals"],
+    "usphone": "'kɪtʃɪn",
+    "ukphone": "'kɪtʃɪn; -tʃ(ə)n"
+  },
+  {
+    "name": "bathroom",
+    "trans": [
+      "n. a room containing a bathtub or shower and usually a washbasin and toilet",
+      "n. a room or building equipped with one or more toilets"
+    ],
+    "usphone": "'bæθrum",
+    "ukphone": "'bɑːθruːm; -rʊm"
+  },
+  {
+    "name": "bed",
+    "trans": [
+      "v. to have sexual intercourse with",
+      "v. to put to bed",
+      "v. to place plants in a prepared bed of soil"
+    ],
+    "usphone": "bɛd",
+    "ukphone": "bed"
+  },
+  {
+    "name": "phone",
+    "trans": [
+      "v. get or try to get into communication with someone by telephone",
+      "n. electronic equipment that converts sound into electrical signals that can be transmitted over distances and then converts received signals back into sounds",
+      "n. (phonetics) an individual sound unit of speech without concern as to whether or not it is a phoneme of some language"
+    ],
+    "usphone": "fon",
+    "ukphone": "fəʊn"
+  },
+  {
+    "name": "table",
+    "trans": [
+      "v. arrange or enter in tabular form",
+      "v. hold back to a later time",
+      "n. a piece of furniture having a smooth flat top that is usually supported by one or more vertical legs"
+    ],
+    "usphone": "'tebl",
+    "ukphone": "'teɪb(ə)l"
+  },
+  {
+    "name": "sofa",
+    "trans": ["n. an upholstered seat for more than one person"],
+    "usphone": "'sofə",
+    "ukphone": "'səʊfə"
+  },
+  {
+    "name": "fridge",
+    "trans": [
+      "n. a refrigerator in which the coolant is pumped around by an electric motor"
+    ],
+    "usphone": "frɪdʒ",
+    "ukphone": "frɪdʒ"
+  },
+  {
+    "name": "find",
+    "trans": [
+      "v. accept and make use of one's personality, abilities, and situation",
+      "v. receive a specified treatment (abstract)",
+      "v. come to believe on the basis of emotion, intuitions, or indefinite grounds"
+    ],
+    "usphone": "faɪnd",
+    "ukphone": "faɪnd"
+  },
+  {
+    "name": "them",
+    "trans": ["they"],
+    "usphone": "ðɛm; ðəm",
+    "ukphone": "ðem; ðəm"
+  },
+  {
+    "name": "beef",
+    "trans": [
+      "v. to complain",
+      "n. cattle that are reared for their meat",
+      "n. informal terms for objecting"
+    ],
+    "usphone": "bif",
+    "ukphone": "biːf"
+  },
+  {
+    "name": "chicken",
+    "trans": [
+      "adj. easily frightened",
+      "n. a domestic fowl bred for flesh or eggs",
+      "n. a foolhardy competition"
+    ],
+    "usphone": "ˈtʃɪkɪn",
+    "ukphone": "'tʃɪkɪn"
+  },
+  {
+    "name": "noodles",
+    "trans": ["noodles"],
+    "usphone": "ˈnudlz",
+    "ukphone": "ˈnu:dlz"
+  },
+  {
+    "name": "soup",
+    "trans": [
+      "v. dope (a racehorse)",
+      "n. liquid food especially of meat or fish or vegetable stock often containing pieces of solid food",
+      "n. an unfortunate situation"
+    ],
+    "usphone": "sup",
+    "ukphone": "suːp"
+  },
+  {
+    "name": "vegetable",
+    "trans": [
+      "n. edible seeds or roots or stems or leaves or bulbs or tubers or nonsweet fruits of any of numerous herbaceous plant",
+      "n. any of various herbaceous plants cultivated for an edible part such as the fruit or the root of the beet or the leaf of spinach or the seeds of bean plants or the flower buds of broccoli or cauliflower"
+    ],
+    "usphone": "ˈvɛdʒtəbl",
+    "ukphone": "ˈvedʒtəbl"
+  },
+  {
+    "name": "chopsticks",
+    "trans": [
+      "n. one of a pair of slender sticks used as oriental tableware to eat food with"
+    ],
+    "usphone": "'tʃɑp,stɪks",
+    "ukphone": "'tʃɒpstɪks"
+  },
+  {
+    "name": "bowl",
+    "trans": [
+      "v. to engage in the sport of bowling",
+      "v. to hurl a cricket ball from one end of the pitch towards the batsman at the other end",
+      "v. to roll a ball"
+    ],
+    "usphone": "bol",
+    "ukphone": "bəʊl"
+  },
+  {
+    "name": "fork",
+    "trans": [
+      "v. shape like a fork",
+      "v. divide into two or more branches so as to form a fork",
+      "v. place under attack with one's own pieces, of two enemy pieces"
+    ],
+    "usphone": "fɔrk",
+    "ukphone": "fɔːk"
+  },
+  {
+    "name": "knife",
+    "trans": [
+      "v. to use a knife on",
+      "n. an edged tool used as a cutting instrument or weapon"
+    ],
+    "usphone": "naɪf",
+    "ukphone": "naɪf"
+  },
+  {
+    "name": "spoon",
+    "trans": [
+      "v. snuggle and lie in a position where one person faces the back of the others",
+      "v. scoop up or take up with a spoon",
+      "n. a piece of cutlery with a shallow bowl-shaped container and a handle"
+    ],
+    "usphone": "spun",
+    "ukphone": "spuːn"
+  },
+  {
+    "name": "dinner",
+    "trans": [
+      "n. the main meal of the day served in the evening or at midday",
+      "n. a party of people assembled to have dinner together"
+    ],
+    "usphone": "'dɪnɚ",
+    "ukphone": "'dɪnə"
+  },
+  {
+    "name": "ready",
+    "trans": [
+      "v. make ready or suitable or equip in advance for a particular purpose or for some use, event, etc",
+      "v. prepare for eating by applying heat",
+      "adj. (of especially money) immediately available"
+    ],
+    "usphone": "'rɛdi",
+    "ukphone": "'redɪ"
+  },
+  {
+    "name": "help yourself",
+    "trans": ["as (in the capacity of) oneself to access"],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "pass",
+    "trans": [
+      "v. eliminate from the body",
+      "v. come to pass",
+      "v. pass from physical life and lose all bodily attributes and functions necessary to sustain life"
+    ],
+    "usphone": "pæs",
+    "ukphone": "pɑːs"
+  },
+  {
+    "name": "try",
+    "trans": [
+      "v. put on a garment in order to see whether it fits and looks nice",
+      "v. melt (fat or lard) in order to separate out impurities",
+      "v. take a sample of"
+    ],
+    "usphone": "traɪ",
+    "ukphone": "traɪ"
+  },
+  {
+    "name": "parents",
+    "trans": [
+      "v. bring up",
+      "n. an organism (plant or animal) from which younger ones are obtained",
+      "n. a father or mother"
+    ],
+    "usphone": "'pɛrənts",
+    "ukphone": "'peərənts"
+  },
+  {
+    "name": "cousin",
+    "trans": ["n. the child of your aunt or uncle"],
+    "usphone": "'kʌzn",
+    "ukphone": "'kʌz(ə)n"
+  },
+  {
+    "name": "uncle",
+    "trans": [
+      "n. the brother of a father or mother",
+      "n. a source of help and advice and encouragement"
+    ],
+    "usphone": "'ʌŋkl",
+    "ukphone": "'ʌŋk(ə)l"
+  },
+  {
+    "name": "aunt",
+    "trans": ["n. the sister of your father or mother"],
+    "usphone": "ænt",
+    "ukphone": "ɑːnt"
+  },
+  {
+    "name": "baby brother",
+    "trans": ["little brother"],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "doctor",
+    "trans": [
+      "v. give medical treatment to",
+      "v. restore by replacing a part or putting together what is torn or broken",
+      "v. alter and make impure, as with the intention to deceive"
+    ],
+    "usphone": "'dɑktɚ",
+    "ukphone": "'dɒktə"
+  },
+  {
+    "name": "cook",
+    "trans": [
+      "v. to transform and make suitable for consumption by heating",
+      "v. to transform by heating",
+      "v. to prepare for eating by applying heat"
+    ],
+    "usphone": "kʊk",
+    "ukphone": "kʊk"
+  },
+  {
+    "name": "driver",
+    "trans": [
+      "n. a golf club (a wood) with a near vertical face that is used for hitting long shots from the tee",
+      "n. (computer science) a program that determines how a computer will communicate with a peripheral device",
+      "n. the operator of a motor vehicle"
+    ],
+    "usphone": "'draɪvɚ",
+    "ukphone": "'draɪvə"
+  },
+  {
+    "name": "farmer",
+    "trans": ["n. a person who operates a farm"],
+    "usphone": "'fɑmɚ",
+    "ukphone": "'fɑːmə"
+  },
+  {
+    "name": "nurse",
+    "trans": [
+      "v. to try to cure by special care of treatment, of an illness or injury",
+      "v. give suck to",
+      "v. maintain (a theory, thoughts, or feelings)"
+    ],
+    "usphone": "nɝs",
+    "ukphone": "nɜːs"
+  },
+  {
+    "name": "people",
+    "trans": [
+      "v. fill with people",
+      "v. furnish with people",
+      "n. (plural) any group of human beings (men or women or children) collectively"
+    ],
+    "usphone": "'pipl",
+    "ukphone": "'piːp(ə)l"
+  },
+  {
+    "name": "but",
+    "trans": ["adv. and nothing more"],
+    "usphone": "bʌt",
+    "ukphone": "bʌt; bət"
+  },
+  {
+    "name": "little",
+    "trans": [
+      "adj. faint or difficult to hear",
+      "adj. lowercase",
+      "adj. young, immature"
+    ],
+    "usphone": "'lɪtl",
+    "ukphone": "'lɪt(ə)l"
+  },
+  {
+    "name": "puppy",
+    "trans": ["n. a young dog", "n. an inexperienced young person"],
+    "usphone": "'pʌpi",
+    "ukphone": "'pʌpɪ"
+  },
+  {
+    "name": "football player",
+    "trans": ["n. an athlete who plays American football"],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "job",
+    "trans": [
+      "n. any long-suffering person who withstands affliction without despairing"
+    ],
+    "usphone": "",
+    "ukphone": "dʒɒb"
+  },
+  {
+    "name": "basketball",
+    "trans": [
+      "n. a game played on a court by two opposing teams of 5 players",
+      "n. an inflated ball used in playing basketball"
+    ],
+    "usphone": "'bæskɪtbɔl",
+    "ukphone": "'bɑːskɪtbɔːl"
+  }
 ]

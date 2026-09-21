@@ -1,373 +1,339 @@
 [
-    {
-        "name": "live",
-        "trans": [
-            "v. have firsthand knowledge of states, situations, emotions, or sensations",
-            "v. have life, be alive",
-            "v. lead a certain kind of life"
-        ],
-        "usphone": "lɪv",
-        "ukphone": "lɪv"
-    },
-    {
-        "name": "quite",
-        "trans": [
-            "adv. to the greatest extent",
-            "adv. to a degree (not used with a negative)",
-            "adv. of an unusually noticeable or exceptional or remarkable kind, not used with a negative"
-        ],
-        "usphone": "kwaɪt",
-        "ukphone": "kwaɪt"
-    },
-    {
-        "name": "scarf",
-        "trans": [
-            "v. wrap in or adorn with a scarf",
-            "v. unite by a scarf joint",
-            "v. masturbate while strangling oneself"
-        ],
-        "usphone": "skɑːrf",
-        "ukphone": "skɑːrf"
-    },
-    {
-        "name": "airport",
-        "trans": [
-            "n. an airfield equipped with control tower and hangars as well as accommodations for passengers and cargo"
-        ],
-        "usphone": "ˈɛr.pɔːrt",
-        "ukphone": "ˈeə.pɔːt"
-    },
-    {
-        "name": "pupil",
-        "trans": [
-            "n. the contractile aperture in the center of the iris of the eye",
-            "n. a young person attending school (up through senior high school)",
-            "n. a learner who is enrolled in an educational institution"
-        ],
-        "usphone": "ˈpjʊ.əl",
-        "ukphone": "ˈpjuː.pɪl"
-    },
-    {
-        "name": "arrive",
-        "trans": [
-            "v. to reach a destination",
-            "v. to succeed in a big way"
-        ],
-        "usphone": "əˈraɪv",
-        "ukphone": "əˈraɪv"
-    },
-    {
-        "name": "meet",
-        "trans": [
-            "v. contend against an opponent in a sport, game, or battle",
-            "v. fill or meet a want or need",
-            "v. be in direct physical contact with"
-        ],
-        "usphone": "mit",
-        "ukphone": "miːt"
-    },
-    {
-        "name": "wardrobe",
-        "trans": [
-            "n. a tall piece of furniture that provides storage space for clothes",
-            "n. collection of clothing belonging to one person",
-            "n. collection of costumes belonging to a theatrical company"
-        ],
-        "usphone": "ˈwɔr.droʊb",
-        "ukphone": "ˈwɔː.droʊb"
-    },
-    {
-        "name": "show ... around",
-        "trans": [
-            "to guide to visit (a place, e.g. museum or factory)"
-        ],
-        "usphone": "ʃoʊ əˈraʊnd",
-        "ukphone": "ʃəʊ əˈraʊnd"
-    },
-    {
-        "name": "Queen's Park",
-        "trans": [
-            "queen park (for public recreation)"
-        ],
-        "usphone": "ˈkwinz pɑːrk",
-        "ukphone": "ˈkwiːnz pɑːk"
-    },
-    {
-        "name": "art gallery",
-        "trans": [
-            "n. a room or series of rooms where works of art are exhibited"
-        ],
-        "usphone": "ɑːrt ˈɡæləri",
-        "ukphone": "ɑːt ˈɡæləri"
-    },
-    {
-        "name": "public library",
-        "trans": [
-            "n. a nonprofit library maintained for public use"
-        ],
-        "usphone": "ˈpʌblɪk ˈlaɪbrəri",
-        "ukphone": "ˈpʌblɪk ˈlaɪbrəri"
-    },
-    {
-        "name": "downtown",
-        "trans": [
-            "adj. of or located in the lower part of a town, or in the business center",
-            "adv. toward or in the lower or central part of town",
-            "n. the central area or commercial center of a town or city"
-        ],
-        "usphone": "ˈdaʊnˌtaʊn",
-        "ukphone": "ˈdaʊntaʊn"
-    },
-    {
-        "name": "Lake Ontario",
-        "trans": [
-            "Lake Ontario, one of the Great Lakes [Wu3 da4 hu2]"
-        ],
-        "usphone": "leɪk ɒnˈtɛərioʊ",
-        "ukphone": "leɪk ɒnˈtɛərioʊ"
-    },
-    {
-        "name": "stadium",
-        "trans": [
-            "n. a large structure for open-air sports or entertainments"
-        ],
-        "usphone": "ˈsteɪ.di.əm",
-        "ukphone": "ˈsteɪ.di.əm"
-    },
-    {
-        "name": "volunteer",
-        "trans": [
-            "v. tell voluntarily",
-            "v. do volunteer work",
-            "v. agree freely"
-        ],
-        "usphone": "ˌvɑːlənˈtɪr",
-        "ukphone": "ˌvɒlənˈtɪə"
-    },
-    {
-        "name": "sandwich",
-        "trans": [
-            "v. insert or squeeze tightly between two people or objects",
-            "v. make into a sandwich",
-            "n. two or more slices of bread with a filling between them"
-        ],
-        "usphone": "ˈsæn.wɪtʃ",
-        "ukphone": "ˈsæn.wɪtʃ"
-    },
-    {
-        "name": "top",
-        "trans": [
-            "v. finish up or conclude",
-            "v. be the culminating event",
-            "v. cut the top off"
-        ],
-        "usphone": "tɑːp",
-        "ukphone": "tɒp"
-    },
-    {
-        "name": "habit",
-        "trans": [
-            "v. put a habit on",
-            "n. (psychology) an automatic pattern of behavior in reaction to a specific situation",
-            "n. excessive use of drugs"
-        ],
-        "usphone": "ˈhæb.ɪt",
-        "ukphone": "ˈhæb.ɪt"
-    },
-    {
-        "name": "idea",
-        "trans": [
-            "n. an approximate calculation of quantity or degree or worth",
-            "n. the content of cognition",
-            "n. a personal view"
-        ],
-        "usphone": "aɪˈdiə",
-        "ukphone": "aɪˈdɪə"
-    },
-    {
-        "name": "less",
-        "trans": [
-            "adj. (nonstandard in some uses but often idiomatic with measure phrases) fewer",
-            "adj. usually preceded by 'no', lower in quality",
-            "adj. (comparative of `little' usually used with mass nouns) a quantifier meaning not as great in amount or degree"
-        ],
-        "usphone": "lɛs",
-        "ukphone": "lɛs"
-    },
-    {
-        "name": "at least",
-        "trans": [
-            "adv. not less than",
-            "adv. if nothing else"
-        ],
-        "usphone": "ət list",
-        "ukphone": "ət li:st"
-    },
-    {
-        "name": "talk about",
-        "trans": [
-            "v. discuss or mention",
-            "v. to consider or examine in speech or writing"
-        ],
-        "usphone": "tɔːk əˈʊt",
-        "ukphone": "tɔːk əˈbaʊt"
-    },
-    {
-        "name": "hockey",
-        "trans": [
-            "n. a game played on an ice rink by two opposing teams of six skaters each who try to knock a flat round puck into the opponents' goal with angled sticks",
-            "n. a game resembling ice hockey that is played on an open field"
-        ],
-        "usphone": "ˈhoʊk.i",
-        "ukphone": "ˈhəʊki"
-    },
-    {
-        "name": "together",
-        "trans": [
-            "adj. mentally and emotionally stable",
-            "adv. at the same time",
-            "adv. with cooperation and interchange"
-        ],
-        "usphone": "təˈɡeðər",
-        "ukphone": "təˈɡeðər"
-    },
-    {
-        "name": "special",
-        "trans": [
-            "adj. surpassing what is common or usual or expected",
-            "adj. having a specific function or scope",
-            "adj. for a special service or occasion"
-        ],
-        "usphone": "ˈspɛʃ.əl",
-        "ukphone": "ˈspɛʃ.əl"
-    },
-    {
-        "name": "beaver",
-        "trans": [
-            "v. to work hard on something",
-            "n. large semiaquatic rodent with webbed hind feet and a broad flat tail",
-            "n. a hat made with the fur of a beaver (or similar material)"
-        ],
-        "usphone": "ˈbiːvər",
-        "ukphone": "ˈbiːvə"
-    },
-    {
-        "name": "raccoon",
-        "trans": [
-            "n. an omnivorous nocturnal mammal native to North America and Central America",
-            "n. the fur of the North American racoon"
-        ],
-        "usphone": "ˈræk.əʊn",
-        "ukphone": "ˈræk.əʊn"
-    },
-    {
-        "name": "moose",
-        "trans": [
-            "n. large northern deer with enormous flattened antlers in the male"
-        ],
-        "usphone": "muːs",
-        "ukphone": "muːs"
-    },
-    {
-        "name": "countryside",
-        "trans": [
-            "n. rural regions"
-        ],
-        "usphone": "ˈkʌn.tri.saɪd",
-        "ukphone": "ˈkʌn.tri.saɪd"
-    },
-    {
-        "name": "Thanksgiving",
-        "trans": [
-            "n. a short prayer of thanks before a meal"
-        ],
-        "usphone": "ˌθæŋksˈɡɪv.ɪŋ",
-        "ukphone": "θæŋksˈɡɪv.ɪŋ"
-    },
-    {
-        "name": "roast turkey",
-        "trans": [
-            "to warm oneself at a fire fowl"
-        ],
-        "usphone": "roʊst ˈtɝː.ki",
-        "ukphone": "rəʊst ˈtɜː.ki"
-    },
-    {
-        "name": "squirrel",
-        "trans": [
-            "n. a kind of arboreal rodent having a long bushy tail",
-            "n. the fur of a squirrel"
-        ],
-        "usphone": "ˈskwɜːr.əl",
-        "ukphone": "ˈskwɪr.əl"
-    },
-    {
-        "name": "swan",
-        "trans": [
-            "v. to declare or affirm solemnly and formally as true",
-            "v. sweep majestically",
-            "v. move about aimlessly or without any destination, often in search of food or employment"
-        ],
-        "usphone": "swɑːn",
-        "ukphone": "swɒn"
-    },
-    {
-        "name": "wild goose",
-        "trans": [
-            "wild goose"
-        ],
-        "usphone": "waɪld ɡus",
-        "ukphone": "waɪld ɡuːs"
-    },
-    {
-        "name": "frog",
-        "trans": [
-            "v. hunt frogs for food",
-            "n. any of various tailless stout-bodied amphibians with long hind limbs for leaping",
-            "n. a decorative loop of braid or cord"
-        ],
-        "usphone": "frɔːɡ",
-        "ukphone": "frɒɡ"
-    },
-    {
-        "name": "English-Chinese dictionary",
-        "trans": [
-            "English-Chinese dictionary"
-        ],
-        "usphone": "ˈɪŋ.ɡlɪʃ-ˌtʃaɪˈniːz ˈdɪk.ʃəˌner.i",
-        "ukphone": "ˈɪŋ.ɡlɪʃ-ˌtʃaɪˈniːz ˈdɪk.ʃəˌnər.i"
-    },
-    {
-        "name": "shopping centre",
-        "trans": [
-            "n. mercantile establishment consisting of a carefully landscaped complex of shops representing leading merchandisers"
-        ],
-        "usphone": "ˈʃɑː.pɪŋ ˌsɛn.tər",
-        "ukphone": "ˈʃɒp.ɪŋ ˌsɛn.tə"
-    },
-    {
-        "name": "shopping mall",
-        "trans": [
-            "n. mercantile establishment consisting of a carefully landscaped complex of shops representing leading merchandisers"
-        ],
-        "usphone": "ˈʃɑː.pɪŋ mɔːl",
-        "ukphone": "ˈʃɒp.ɪŋ mɔːl"
-    },
-    {
-        "name": "amazing",
-        "trans": [
-            "adj. inspiring awe or admiration or wonder",
-            "adj. surprising greatly"
-        ],
-        "usphone": "əˈmeɪ.zɪŋ",
-        "ukphone": "əˈmeɪ.zɪŋ"
-    },
-    {
-        "name": "hot pot",
-        "trans": [
-            "n. a stew of meat and potatoes cooked in a tightly covered pot"
-        ],
-        "usphone": "hɑːt pɑːt",
-        "ukphone": "hɒt pɒt"
-    }
+  {
+    "name": "live",
+    "trans": [
+      "v. have firsthand knowledge of states, situations, emotions, or sensations",
+      "v. have life, be alive",
+      "v. lead a certain kind of life"
+    ],
+    "usphone": "lɪv",
+    "ukphone": "lɪv"
+  },
+  {
+    "name": "quite",
+    "trans": [
+      "adv. to the greatest extent",
+      "adv. to a degree (not used with a negative)",
+      "adv. of an unusually noticeable or exceptional or remarkable kind, not used with a negative"
+    ],
+    "usphone": "kwaɪt",
+    "ukphone": "kwaɪt"
+  },
+  {
+    "name": "scarf",
+    "trans": [
+      "v. wrap in or adorn with a scarf",
+      "v. unite by a scarf joint",
+      "v. masturbate while strangling oneself"
+    ],
+    "usphone": "skɑːrf",
+    "ukphone": "skɑːrf"
+  },
+  {
+    "name": "airport",
+    "trans": [
+      "n. an airfield equipped with control tower and hangars as well as accommodations for passengers and cargo"
+    ],
+    "usphone": "ˈɛr.pɔːrt",
+    "ukphone": "ˈeə.pɔːt"
+  },
+  {
+    "name": "pupil",
+    "trans": [
+      "n. the contractile aperture in the center of the iris of the eye",
+      "n. a young person attending school (up through senior high school)",
+      "n. a learner who is enrolled in an educational institution"
+    ],
+    "usphone": "ˈpjʊ.əl",
+    "ukphone": "ˈpjuː.pɪl"
+  },
+  {
+    "name": "arrive",
+    "trans": ["v. to reach a destination", "v. to succeed in a big way"],
+    "usphone": "əˈraɪv",
+    "ukphone": "əˈraɪv"
+  },
+  {
+    "name": "meet",
+    "trans": [
+      "v. contend against an opponent in a sport, game, or battle",
+      "v. fill or meet a want or need",
+      "v. be in direct physical contact with"
+    ],
+    "usphone": "mit",
+    "ukphone": "miːt"
+  },
+  {
+    "name": "wardrobe",
+    "trans": [
+      "n. a tall piece of furniture that provides storage space for clothes",
+      "n. collection of clothing belonging to one person",
+      "n. collection of costumes belonging to a theatrical company"
+    ],
+    "usphone": "ˈwɔr.droʊb",
+    "ukphone": "ˈwɔː.droʊb"
+  },
+  {
+    "name": "show ... around",
+    "trans": ["to guide to visit (a place, e.g. museum or factory)"],
+    "usphone": "ʃoʊ əˈraʊnd",
+    "ukphone": "ʃəʊ əˈraʊnd"
+  },
+  {
+    "name": "Queen's Park",
+    "trans": ["queen park (for public recreation)"],
+    "usphone": "ˈkwinz pɑːrk",
+    "ukphone": "ˈkwiːnz pɑːk"
+  },
+  {
+    "name": "art gallery",
+    "trans": ["n. a room or series of rooms where works of art are exhibited"],
+    "usphone": "ɑːrt ˈɡæləri",
+    "ukphone": "ɑːt ˈɡæləri"
+  },
+  {
+    "name": "public library",
+    "trans": ["n. a nonprofit library maintained for public use"],
+    "usphone": "ˈpʌblɪk ˈlaɪbrəri",
+    "ukphone": "ˈpʌblɪk ˈlaɪbrəri"
+  },
+  {
+    "name": "downtown",
+    "trans": [
+      "adj. of or located in the lower part of a town, or in the business center",
+      "adv. toward or in the lower or central part of town",
+      "n. the central area or commercial center of a town or city"
+    ],
+    "usphone": "ˈdaʊnˌtaʊn",
+    "ukphone": "ˈdaʊntaʊn"
+  },
+  {
+    "name": "Lake Ontario",
+    "trans": ["Lake Ontario, one of the Great Lakes [Wu3 da4 hu2]"],
+    "usphone": "leɪk ɒnˈtɛərioʊ",
+    "ukphone": "leɪk ɒnˈtɛərioʊ"
+  },
+  {
+    "name": "stadium",
+    "trans": ["n. a large structure for open-air sports or entertainments"],
+    "usphone": "ˈsteɪ.di.əm",
+    "ukphone": "ˈsteɪ.di.əm"
+  },
+  {
+    "name": "volunteer",
+    "trans": ["v. tell voluntarily", "v. do volunteer work", "v. agree freely"],
+    "usphone": "ˌvɑːlənˈtɪr",
+    "ukphone": "ˌvɒlənˈtɪə"
+  },
+  {
+    "name": "sandwich",
+    "trans": [
+      "v. insert or squeeze tightly between two people or objects",
+      "v. make into a sandwich",
+      "n. two or more slices of bread with a filling between them"
+    ],
+    "usphone": "ˈsæn.wɪtʃ",
+    "ukphone": "ˈsæn.wɪtʃ"
+  },
+  {
+    "name": "top",
+    "trans": [
+      "v. finish up or conclude",
+      "v. be the culminating event",
+      "v. cut the top off"
+    ],
+    "usphone": "tɑːp",
+    "ukphone": "tɒp"
+  },
+  {
+    "name": "habit",
+    "trans": [
+      "v. put a habit on",
+      "n. (psychology) an automatic pattern of behavior in reaction to a specific situation",
+      "n. excessive use of drugs"
+    ],
+    "usphone": "ˈhæb.ɪt",
+    "ukphone": "ˈhæb.ɪt"
+  },
+  {
+    "name": "idea",
+    "trans": [
+      "n. an approximate calculation of quantity or degree or worth",
+      "n. the content of cognition",
+      "n. a personal view"
+    ],
+    "usphone": "aɪˈdiə",
+    "ukphone": "aɪˈdɪə"
+  },
+  {
+    "name": "less",
+    "trans": [
+      "adj. (nonstandard in some uses but often idiomatic with measure phrases) fewer",
+      "adj. usually preceded by 'no', lower in quality",
+      "adj. (comparative of `little' usually used with mass nouns) a quantifier meaning not as great in amount or degree"
+    ],
+    "usphone": "lɛs",
+    "ukphone": "lɛs"
+  },
+  {
+    "name": "at least",
+    "trans": ["adv. not less than", "adv. if nothing else"],
+    "usphone": "ət list",
+    "ukphone": "ət li:st"
+  },
+  {
+    "name": "talk about",
+    "trans": [
+      "v. discuss or mention",
+      "v. to consider or examine in speech or writing"
+    ],
+    "usphone": "tɔːk əˈʊt",
+    "ukphone": "tɔːk əˈbaʊt"
+  },
+  {
+    "name": "hockey",
+    "trans": [
+      "n. a game played on an ice rink by two opposing teams of six skaters each who try to knock a flat round puck into the opponents' goal with angled sticks",
+      "n. a game resembling ice hockey that is played on an open field"
+    ],
+    "usphone": "ˈhoʊk.i",
+    "ukphone": "ˈhəʊki"
+  },
+  {
+    "name": "together",
+    "trans": [
+      "adj. mentally and emotionally stable",
+      "adv. at the same time",
+      "adv. with cooperation and interchange"
+    ],
+    "usphone": "təˈɡeðər",
+    "ukphone": "təˈɡeðər"
+  },
+  {
+    "name": "special",
+    "trans": [
+      "adj. surpassing what is common or usual or expected",
+      "adj. having a specific function or scope",
+      "adj. for a special service or occasion"
+    ],
+    "usphone": "ˈspɛʃ.əl",
+    "ukphone": "ˈspɛʃ.əl"
+  },
+  {
+    "name": "beaver",
+    "trans": [
+      "v. to work hard on something",
+      "n. large semiaquatic rodent with webbed hind feet and a broad flat tail",
+      "n. a hat made with the fur of a beaver (or similar material)"
+    ],
+    "usphone": "ˈbiːvər",
+    "ukphone": "ˈbiːvə"
+  },
+  {
+    "name": "raccoon",
+    "trans": [
+      "n. an omnivorous nocturnal mammal native to North America and Central America",
+      "n. the fur of the North American racoon"
+    ],
+    "usphone": "ˈræk.əʊn",
+    "ukphone": "ˈræk.əʊn"
+  },
+  {
+    "name": "moose",
+    "trans": [
+      "n. large northern deer with enormous flattened antlers in the male"
+    ],
+    "usphone": "muːs",
+    "ukphone": "muːs"
+  },
+  {
+    "name": "countryside",
+    "trans": ["n. rural regions"],
+    "usphone": "ˈkʌn.tri.saɪd",
+    "ukphone": "ˈkʌn.tri.saɪd"
+  },
+  {
+    "name": "Thanksgiving",
+    "trans": ["n. a short prayer of thanks before a meal"],
+    "usphone": "ˌθæŋksˈɡɪv.ɪŋ",
+    "ukphone": "θæŋksˈɡɪv.ɪŋ"
+  },
+  {
+    "name": "roast turkey",
+    "trans": ["to warm oneself at a fire fowl"],
+    "usphone": "roʊst ˈtɝː.ki",
+    "ukphone": "rəʊst ˈtɜː.ki"
+  },
+  {
+    "name": "squirrel",
+    "trans": [
+      "n. a kind of arboreal rodent having a long bushy tail",
+      "n. the fur of a squirrel"
+    ],
+    "usphone": "ˈskwɜːr.əl",
+    "ukphone": "ˈskwɪr.əl"
+  },
+  {
+    "name": "swan",
+    "trans": [
+      "v. to declare or affirm solemnly and formally as true",
+      "v. sweep majestically",
+      "v. move about aimlessly or without any destination, often in search of food or employment"
+    ],
+    "usphone": "swɑːn",
+    "ukphone": "swɒn"
+  },
+  {
+    "name": "wild goose",
+    "trans": ["wild goose"],
+    "usphone": "waɪld ɡus",
+    "ukphone": "waɪld ɡuːs"
+  },
+  {
+    "name": "frog",
+    "trans": [
+      "v. hunt frogs for food",
+      "n. any of various tailless stout-bodied amphibians with long hind limbs for leaping",
+      "n. a decorative loop of braid or cord"
+    ],
+    "usphone": "frɔːɡ",
+    "ukphone": "frɒɡ"
+  },
+  {
+    "name": "English-Chinese dictionary",
+    "trans": ["English-Chinese dictionary"],
+    "usphone": "ˈɪŋ.ɡlɪʃ-ˌtʃaɪˈniːz ˈdɪk.ʃəˌner.i",
+    "ukphone": "ˈɪŋ.ɡlɪʃ-ˌtʃaɪˈniːz ˈdɪk.ʃəˌnər.i"
+  },
+  {
+    "name": "shopping centre",
+    "trans": [
+      "n. mercantile establishment consisting of a carefully landscaped complex of shops representing leading merchandisers"
+    ],
+    "usphone": "ˈʃɑː.pɪŋ ˌsɛn.tər",
+    "ukphone": "ˈʃɒp.ɪŋ ˌsɛn.tə"
+  },
+  {
+    "name": "shopping mall",
+    "trans": [
+      "n. mercantile establishment consisting of a carefully landscaped complex of shops representing leading merchandisers"
+    ],
+    "usphone": "ˈʃɑː.pɪŋ mɔːl",
+    "ukphone": "ˈʃɒp.ɪŋ mɔːl"
+  },
+  {
+    "name": "amazing",
+    "trans": [
+      "adj. inspiring awe or admiration or wonder",
+      "adj. surprising greatly"
+    ],
+    "usphone": "əˈmeɪ.zɪŋ",
+    "ukphone": "əˈmeɪ.zɪŋ"
+  },
+  {
+    "name": "hot pot",
+    "trans": ["n. a stew of meat and potatoes cooked in a tightly covered pot"],
+    "usphone": "hɑːt pɑːt",
+    "ukphone": "hɒt pɒt"
+  }
 ]

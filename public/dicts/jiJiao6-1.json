@@ -1,629 +1,601 @@
 [
-    {
-        "name": "home",
-        "trans": [
-            "v. return home accurately from a long distance",
-            "v. provide with, or send to, a home",
-            "adj. relating to or being where one lives or where one's roots are"
-        ],
-        "usphone": "[hoʊm]",
-        "ukphone": "[həʊm]"
-    },
-    {
-        "name": "time",
-        "trans": [
-            "v. adjust so that a force is applied and an action occurs at the desired time",
-            "v. regulate or set the time of",
-            "v. measure the time or duration of an event or action or the person who performs an action in a certain period of time"
-        ],
-        "usphone": "[taɪm]",
-        "ukphone": "[taɪm]"
-    },
-    {
-        "name": "clock",
-        "trans": [
-            "v. to measure the time or duration of an event or action or the person who performs an action in a certain period of time",
-            "n. a timepiece that shows the time of day"
-        ],
-        "usphone": "[klɑːk]",
-        "ukphone": "[klɒk]"
-    },
-    {
-        "name": "house",
-        "trans": [
-            "v. provide housing for",
-            "v. contain or cover",
-            "n. play in which children take the roles of father or mother or children and pretend to interact like adults"
-        ],
-        "usphone": "[haʊs]",
-        "ukphone": "[haʊs]"
-    },
-    {
-        "name": "study",
-        "trans": [
-            "v. be a student of a certain subject",
-            "v. learn by reading books",
-            "v. be a student"
-        ],
-        "usphone": "[ˈstʌdi]",
-        "ukphone": "[ˈstʌdi]"
-    },
-    {
-        "name": "kitchen",
-        "trans": [
-            "n. a room equipped for preparing meals"
-        ],
-        "usphone": "[ˈkɪtʃɪn]",
-        "ukphone": "[ˈkɪtʃɪn]"
-    },
-    {
-        "name": "toilet",
-        "trans": [
-            "n. the act of dressing and preparing yourself",
-            "n. a room or building equipped with one or more toilets",
-            "n. a plumbing fixture for defecation and urination"
-        ],
-        "usphone": "[ˈtɔɪlət]",
-        "ukphone": "[ˈtɔɪlət]"
-    },
-    {
-        "name": "floor",
-        "trans": [
-            "v. knock down with force",
-            "v. surprise greatly",
-            "n. the inside lower horizontal surface (as of a room, hallway, tent, or other structure)"
-        ],
-        "usphone": "[flɔːr]",
-        "ukphone": "[flɔː(r)]"
-    },
-    {
-        "name": "there",
-        "trans": [
-            "adv. in or at that place",
-            "adv. to or toward that place",
-            "adv. in that matter"
-        ],
-        "usphone": "[ðer]",
-        "ukphone": "[ðeə(r)]"
-    },
-    {
-        "name": "breakfast",
-        "trans": [
-            "v. to eat an early morning meal",
-            "v. to provide the first meal of the day",
-            "n. the first meal of the day (usually in the morning)"
-        ],
-        "usphone": "[ˈbrekfəst]",
-        "ukphone": "[ˈbrekfəst]"
-    },
-    {
-        "name": "table",
-        "trans": [
-            "v. arrange or enter in tabular form",
-            "v. hold back to a later time",
-            "n. a piece of furniture having a smooth flat top that is usually supported by one or more vertical legs"
-        ],
-        "usphone": "[ˈteɪbl]",
-        "ukphone": "[ˈteɪb(ə)l]"
-    },
-    {
-        "name": "put",
-        "trans": [
-            "v. cause to be in a certain state",
-            "v. put into a certain place or abstract location",
-            "v. adapt"
-        ],
-        "usphone": "[pʊt]",
-        "ukphone": "[pʊt]"
-    },
-    {
-        "name": "half",
-        "trans": [
-            "adj. consisting of one of two equivalent parts in value or quantity",
-            "adj. partial",
-            "adj. (of siblings) related through one parent only"
-        ],
-        "usphone": "[hæf]",
-        "ukphone": "[hɑːf]"
-    },
-    {
-        "name": "dinner",
-        "trans": [
-            "n. the main meal of the day served in the evening or at midday",
-            "n. a party of people assembled to have dinner together"
-        ],
-        "usphone": "[ˈdɪnər]",
-        "ukphone": "[ˈdɪnə(r)]"
-    },
-    {
-        "name": "dirty",
-        "trans": [
-            "v. make soiled, filthy, or dirty",
-            "adj. unpleasantly stormy",
-            "adj. soiled or likely to soil with dirt or grime"
-        ],
-        "usphone": "[ˈdɜːrti]",
-        "ukphone": "[ˈdɜːti]"
-    },
-    {
-        "name": "lunch",
-        "trans": [
-            "v. take the midday meal",
-            "v. provide a midday meal for",
-            "n. a midday meal"
-        ],
-        "usphone": "[lʌntʃ]",
-        "ukphone": "[lʌntʃ]"
-    },
-    {
-        "name": "me",
-        "trans": [
-            "pron. I accusative case (grammar)",
-            "n. the self, extreme selfish person, the self portion"
-        ],
-        "usphone": "[mi; miː]",
-        "ukphone": "[mi; miː]"
-    },
-    {
-        "name": "I",
-        "trans": [
-            "adj. used of a single unit or thing",
-            "n. the 9th letter of the Roman alphabet"
-        ],
-        "usphone": "[aɪ]",
-        "ukphone": "[aɪ]"
-    },
-    {
-        "name": "him",
-        "trans": [
-            "pron. oblique singular masculine object pronoun"
-        ],
-        "usphone": "[hɪm; ɪm]",
-        "ukphone": "[hɪm; ɪm]"
-    },
-    {
-        "name": "he",
-        "trans": [
-            "n. the 5th letter of the Hebrew alphabet",
-            "pron. the nominative singular masculine pronoun"
-        ],
-        "usphone": "[hi; iː; i; hiː]",
-        "ukphone": "[hi; iː; i; hiː]"
-    },
-    {
-        "name": "card",
-        "trans": [
-            "v. to ask someone for identification to determine whether he or she is old enough to consume liquor",
-            "v. to separate the fibers of",
-            "n. one of a set of small pieces of stiff paper marked in various ways and used for playing games or for telling fortunes"
-        ],
-        "usphone": "[kɑːrd]",
-        "ukphone": "[kɑːd]"
-    },
-    {
-        "name": "them",
-        "trans": [
-            "pron. they"
-        ],
-        "usphone": "[ðəm; ðem]",
-        "ukphone": "[ðəm; ðem]"
-    },
-    {
-        "name": "they",
-        "trans": [
-            "pron. 3rd person nominative singular pronoun, indicating a person who is hypothetical or whose identity is unknown; used with plural verbs",
-            "pron. 3rd person nominative singular gender-neutral pronoun, indicating a specific person without specifying a male or female gender, or indicating a person who is genderqueer; used with plural verbs",
-            "pron. the 3rd person nominative plural pronoun; can stand in for any 3rd person nominative plural noun"
-        ],
-        "usphone": "[ðeɪ]",
-        "ukphone": "[ðeɪ]"
-    },
-    {
-        "name": "Mr.",
-        "trans": [
-            "n. teacher"
-        ],
-        "usphone": "[ˈmɪstər]",
-        "ukphone": "[ˈmɪstə(r)]"
-    },
-    {
-        "name": "Mrs.",
-        "trans": [
-            "n. a form of address for a married woman"
-        ],
-        "usphone": "[ˈmɪsɪz]",
-        "ukphone": "[ˈmɪsɪz]"
-    },
-    {
-        "name": "umbrella",
-        "trans": [
-            "adj. covering or applying simultaneously to a number of similar items or elements or groups",
-            "n. having the function of uniting a group of similar things",
-            "n. a formation of military planes maintained over ground operations or targets"
-        ],
-        "usphone": "[ʌmˈbrelə]",
-        "ukphone": "[ʌmˈbrelə]"
-    },
-    {
-        "name": "Ms.",
-        "trans": [
-            "n. a form of address for a woman"
-        ],
-        "usphone": "[mɪz; məz]",
-        "ukphone": "[mɪz; məz]"
-    },
-    {
-        "name": "driver",
-        "trans": [
-            "n. a golf club (a wood) with a near vertical face that is used for hitting long shots from the tee",
-            "n. (computer science) a program that determines how a computer will communicate with a peripheral device",
-            "n. the operator of a motor vehicle"
-        ],
-        "usphone": "[ˈdraɪvər]",
-        "ukphone": "[ˈdraɪvə(r)]"
-    },
-    {
-        "name": "well",
-        "trans": [
-            "v. come up, as of a liquid",
-            "adj. wise or advantageous and hence advisable",
-            "adj. resulting favorably"
-        ],
-        "usphone": "[wel]",
-        "ukphone": "[wel]"
-    },
-    {
-        "name": "class",
-        "trans": [
-            "v. to arrange or order by classes or categories",
-            "n. education imparted in a series of lessons or meetings",
-            "n. elegance in dress or behavior"
-        ],
-        "usphone": "[klæs]",
-        "ukphone": "[klɑːs]"
-    },
-    {
-        "name": "ill",
-        "trans": [
-            "adj. presaging ill fortune",
-            "adj. distressing",
-            "adj. resulting in suffering or adversity"
-        ],
-        "usphone": "[ɪl]",
-        "ukphone": "[ɪl]"
-    },
-    {
-        "name": "lesson",
-        "trans": [
-            "n. a task assigned for individual study",
-            "n. a unit of instruction",
-            "n. the significance of a story or event"
-        ],
-        "usphone": "[ˈlesn]",
-        "ukphone": "[ˈlesn]"
-    },
-    {
-        "name": "its",
-        "trans": [
-            "pron. it"
-        ],
-        "usphone": "[ɪts]",
-        "ukphone": "[ɪts]"
-    },
-    {
-        "name": "word",
-        "trans": [
-            "v. to put into words or an expression",
-            "n. a unit of language that native speakers can identify",
-            "n. information about recent and important events"
-        ],
-        "usphone": "[wɜːrd]",
-        "ukphone": "[wɜːd]"
-    },
-    {
-        "name": "always",
-        "trans": [
-            "adv. at all times",
-            "adv. forever",
-            "adv. at any time or in any event"
-        ],
-        "usphone": "[ˈɔːlweɪz]",
-        "ukphone": "[ˈɔːlweɪz]"
-    },
-    {
-        "name": "sometimes",
-        "trans": [
-            "adv. on certain occasions or in certain cases but not always"
-        ],
-        "usphone": "[ˈsʌmtaɪmz]",
-        "ukphone": "[ˈsʌmtaɪmz]"
-    },
-    {
-        "name": "season",
-        "trans": [
-            "v. make more temperate, acceptable, or suitable by adding something else",
-            "v. make fit",
-            "v. lend flavor to"
-        ],
-        "usphone": "[ˈsiːzn]",
-        "ukphone": "[ˈsiːzn]"
-    },
-    {
-        "name": "spring",
-        "trans": [
-            "v. develop suddenly",
-            "v. produce or disclose suddenly or unexpectedly",
-            "v. spring back"
-        ],
-        "usphone": "[sprɪŋ]",
-        "ukphone": "[sprɪŋ]"
-    },
-    {
-        "name": "summer",
-        "trans": [
-            "v. spend the summer",
-            "n. the period of finest development, happiness, or beauty",
-            "n. the warmest season of the year"
-        ],
-        "usphone": "[ˈsʌmər]",
-        "ukphone": "[ˈsʌmə(r)]"
-    },
-    {
-        "name": "autumn",
-        "trans": [
-            "n. the season when the leaves fall from the trees"
-        ],
-        "usphone": "[ˈɔːtəm; ˈɑːtəm]",
-        "ukphone": "[ˈɔːtəm]"
-    },
-    {
-        "name": "winter",
-        "trans": [
-            "v. spend the winter",
-            "n. the coldest season of the year"
-        ],
-        "usphone": "[ˈwɪntər]",
-        "ukphone": "[ˈwɪntə(r)]"
-    },
-    {
-        "name": "put on",
-        "trans": [
-            "v. increase one's body weight",
-            "v. put clothing on one's body",
-            "v. add to something existing"
-        ],
-        "usphone": "[pʊt ɑːn]",
-        "ukphone": "[pʊt ɒn]"
-    },
-    {
-        "name": "take off",
-        "trans": [
-            "v. remove clothes",
-            "v. take away or remove",
-            "v. make a subtraction"
-        ],
-        "usphone": "[ˈteɪk ɔːf]",
-        "ukphone": "[ˈteɪk ɒf]"
-    },
-    {
-        "name": "again",
-        "trans": [
-            "adv. anew or once more"
-        ],
-        "usphone": "[əˈɡen; əˈɡeɪn]",
-        "ukphone": "[əˈɡen]"
-    },
-    {
-        "name": "body",
-        "trans": [
-            "n. the external structure of a vehicle",
-            "n. a resonating chamber in a musical instrument (as the body of a violin)",
-            "n. the property of holding together and retaining its shape"
-        ],
-        "usphone": "[ˈbɑːdi]",
-        "ukphone": "[ˈbɒdi]"
-    },
-    {
-        "name": "nose",
-        "trans": [
-            "v. defeat by a narrow margin",
-            "v. rub noses",
-            "v. push or move with the nose"
-        ],
-        "usphone": "[noʊz]",
-        "ukphone": "[nəʊz]"
-    },
-    {
-        "name": "mouth",
-        "trans": [
-            "v. express in speech",
-            "v. articulate silently",
-            "v. touch with the mouth"
-        ],
-        "usphone": "[maʊθ]",
-        "ukphone": "[maʊθ]"
-    },
-    {
-        "name": "head",
-        "trans": [
-            "v. remove the head of",
-            "v. direct the course",
-            "v. to go or travel towards"
-        ],
-        "usphone": "[hed]",
-        "ukphone": "[hed]"
-    },
-    {
-        "name": "ear",
-        "trans": [
-            "n. the sense organ for hearing and equilibrium",
-            "n. the externally visible cartilaginous structure of the external ear",
-            "n. good hearing"
-        ],
-        "usphone": "[ɪr]",
-        "ukphone": "[ɪə(r)]"
-    },
-    {
-        "name": "arm",
-        "trans": [
-            "v. to supply with weapons",
-            "n. the part of an armchair or sofa that supports the elbow and forearm of a seated person",
-            "n. any projection that is thought to resemble a human arm"
-        ],
-        "usphone": "[ɑːrm]",
-        "ukphone": "[ɑːm]"
-    },
-    {
-        "name": "leg",
-        "trans": [
-            "n. a section or portion of a journey or course",
-            "n. the nautical distance traveled by a sailing vessel on a single tack",
-            "n. a cloth covering consisting of the part of a pair of trousers that covers a person's leg"
-        ],
-        "usphone": "[leɡ]",
-        "ukphone": "[leɡ]"
-    },
-    {
-        "name": "eye",
-        "trans": [
-            "v. look at",
-            "n. a small hole or loop (as in a needle)",
-            "n. the organ of sight"
-        ],
-        "usphone": "[aɪ]",
-        "ukphone": "[aɪ]"
-    },
-    {
-        "name": "think",
-        "trans": [
-            "v. bring into a given condition by mental preoccupation",
-            "v. recall knowledge from memory",
-            "v. be capable of conscious thought"
-        ],
-        "usphone": "[θɪŋk]",
-        "ukphone": "[θɪŋk]"
-    },
-    {
-        "name": "can",
-        "trans": [
-            "v. to preserve in a can or tin",
-            "v. to terminate the employment of",
-            "n. airtight sealed metal container for food or drink or paint etc."
-        ],
-        "usphone": "[kən; kæn]",
-        "ukphone": "[kən; kæn]"
-    },
-    {
-        "name": "could",
-        "trans": [
-            "aux. to be capable of",
-            "v. can can past tense"
-        ],
-        "usphone": "[kəd; kʊd]",
-        "ukphone": "[kəd]"
-    },
-    {
-        "name": "why",
-        "trans": [
-            "n. the cause or intention underlying an action or situation, especially in the phrase `the whys and wherefores'"
-        ],
-        "usphone": "[waɪ]",
-        "ukphone": "[waɪ]"
-    },
-    {
-        "name": "holiday",
-        "trans": [
-            "v. spend or take a vacation",
-            "n. leisure time away from work devoted to rest or pleasure",
-            "n. a day on which work is suspended by law or custom"
-        ],
-        "usphone": "[ˈhɑːlədeɪ]",
-        "ukphone": "[ˈhɒlədeɪ]"
-    },
-    {
-        "name": "bring",
-        "trans": [
-            "v. to be accompanied by",
-            "v. to advance or set forth in court",
-            "v. to take something or somebody with oneself somewhere"
-        ],
-        "usphone": "[brɪŋ]",
-        "ukphone": "[brɪŋ]"
-    },
-    {
-        "name": "brought",
-        "trans": [
-            "v. to bring bring past participle (in European grammar)"
-        ],
-        "usphone": "[brɔːt]",
-        "ukphone": "[brɔːt]"
-    },
-    {
-        "name": "give",
-        "trans": [
-            "v. give food to",
-            "v. be flexible under stress of physical force",
-            "v. give or supply"
-        ],
-        "usphone": "[ɡɪv]",
-        "ukphone": "[ɡɪv]"
-    },
-    {
-        "name": "song",
-        "trans": [
-            "n. the act of singing",
-            "n. the characteristic sound produced by a bird",
-            "n. a short musical composition with words"
-        ],
-        "usphone": "[sɔŋ]",
-        "ukphone": "[sɒŋ]"
-    },
-    {
-        "name": "tomorrow",
-        "trans": [
-            "adv. the next day, the day after, following the present day",
-            "n. the day after today",
-            "n. the near future"
-        ],
-        "usphone": "[təˈmɑːroʊ]",
-        "ukphone": "[təˈmɒrəʊ]"
-    },
-    {
-        "name": "then",
-        "trans": [
-            "adj. at a specific prior time",
-            "adv. subsequently or soon afterward, often used as sentence connectors",
-            "adv. at that time"
-        ],
-        "usphone": "[ðen]",
-        "ukphone": "[ðen]"
-    },
-    {
-        "name": "put up",
-        "trans": [
-            "v. preserve in a can or tin",
-            "v. put up with something or somebody unpleasant",
-            "v. propose as a candidate for some honor"
-        ]
-    },
-    {
-        "name": "open",
-        "trans": [
-            "v. make available",
-            "v. become available",
-            "v. make the opening move"
-        ],
-        "usphone": "[ˈoʊpən]",
-        "ukphone": "[ˈəʊpən]"
-    },
-    {
-        "name": "little",
-        "trans": [
-            "adj. faint or difficult to hear",
-            "adj. lowercase",
-            "adj. young, immature"
-        ],
-        "usphone": "[ˈlɪtl]",
-        "ukphone": "[ˈlɪt(ə)l]"
-    }
+  {
+    "name": "home",
+    "trans": [
+      "v. return home accurately from a long distance",
+      "v. provide with, or send to, a home",
+      "adj. relating to or being where one lives or where one's roots are"
+    ],
+    "usphone": "[hoʊm]",
+    "ukphone": "[həʊm]"
+  },
+  {
+    "name": "time",
+    "trans": [
+      "v. adjust so that a force is applied and an action occurs at the desired time",
+      "v. regulate or set the time of",
+      "v. measure the time or duration of an event or action or the person who performs an action in a certain period of time"
+    ],
+    "usphone": "[taɪm]",
+    "ukphone": "[taɪm]"
+  },
+  {
+    "name": "clock",
+    "trans": [
+      "v. to measure the time or duration of an event or action or the person who performs an action in a certain period of time",
+      "n. a timepiece that shows the time of day"
+    ],
+    "usphone": "[klɑːk]",
+    "ukphone": "[klɒk]"
+  },
+  {
+    "name": "house",
+    "trans": [
+      "v. provide housing for",
+      "v. contain or cover",
+      "n. play in which children take the roles of father or mother or children and pretend to interact like adults"
+    ],
+    "usphone": "[haʊs]",
+    "ukphone": "[haʊs]"
+  },
+  {
+    "name": "study",
+    "trans": [
+      "v. be a student of a certain subject",
+      "v. learn by reading books",
+      "v. be a student"
+    ],
+    "usphone": "[ˈstʌdi]",
+    "ukphone": "[ˈstʌdi]"
+  },
+  {
+    "name": "kitchen",
+    "trans": ["n. a room equipped for preparing meals"],
+    "usphone": "[ˈkɪtʃɪn]",
+    "ukphone": "[ˈkɪtʃɪn]"
+  },
+  {
+    "name": "toilet",
+    "trans": [
+      "n. the act of dressing and preparing yourself",
+      "n. a room or building equipped with one or more toilets",
+      "n. a plumbing fixture for defecation and urination"
+    ],
+    "usphone": "[ˈtɔɪlət]",
+    "ukphone": "[ˈtɔɪlət]"
+  },
+  {
+    "name": "floor",
+    "trans": [
+      "v. knock down with force",
+      "v. surprise greatly",
+      "n. the inside lower horizontal surface (as of a room, hallway, tent, or other structure)"
+    ],
+    "usphone": "[flɔːr]",
+    "ukphone": "[flɔː(r)]"
+  },
+  {
+    "name": "there",
+    "trans": [
+      "adv. in or at that place",
+      "adv. to or toward that place",
+      "adv. in that matter"
+    ],
+    "usphone": "[ðer]",
+    "ukphone": "[ðeə(r)]"
+  },
+  {
+    "name": "breakfast",
+    "trans": [
+      "v. to eat an early morning meal",
+      "v. to provide the first meal of the day",
+      "n. the first meal of the day (usually in the morning)"
+    ],
+    "usphone": "[ˈbrekfəst]",
+    "ukphone": "[ˈbrekfəst]"
+  },
+  {
+    "name": "table",
+    "trans": [
+      "v. arrange or enter in tabular form",
+      "v. hold back to a later time",
+      "n. a piece of furniture having a smooth flat top that is usually supported by one or more vertical legs"
+    ],
+    "usphone": "[ˈteɪbl]",
+    "ukphone": "[ˈteɪb(ə)l]"
+  },
+  {
+    "name": "put",
+    "trans": [
+      "v. cause to be in a certain state",
+      "v. put into a certain place or abstract location",
+      "v. adapt"
+    ],
+    "usphone": "[pʊt]",
+    "ukphone": "[pʊt]"
+  },
+  {
+    "name": "half",
+    "trans": [
+      "adj. consisting of one of two equivalent parts in value or quantity",
+      "adj. partial",
+      "adj. (of siblings) related through one parent only"
+    ],
+    "usphone": "[hæf]",
+    "ukphone": "[hɑːf]"
+  },
+  {
+    "name": "dinner",
+    "trans": [
+      "n. the main meal of the day served in the evening or at midday",
+      "n. a party of people assembled to have dinner together"
+    ],
+    "usphone": "[ˈdɪnər]",
+    "ukphone": "[ˈdɪnə(r)]"
+  },
+  {
+    "name": "dirty",
+    "trans": [
+      "v. make soiled, filthy, or dirty",
+      "adj. unpleasantly stormy",
+      "adj. soiled or likely to soil with dirt or grime"
+    ],
+    "usphone": "[ˈdɜːrti]",
+    "ukphone": "[ˈdɜːti]"
+  },
+  {
+    "name": "lunch",
+    "trans": [
+      "v. take the midday meal",
+      "v. provide a midday meal for",
+      "n. a midday meal"
+    ],
+    "usphone": "[lʌntʃ]",
+    "ukphone": "[lʌntʃ]"
+  },
+  {
+    "name": "me",
+    "trans": [
+      "pron. I accusative case (grammar)",
+      "n. the self, extreme selfish person, the self portion"
+    ],
+    "usphone": "[mi; miː]",
+    "ukphone": "[mi; miː]"
+  },
+  {
+    "name": "I",
+    "trans": [
+      "adj. used of a single unit or thing",
+      "n. the 9th letter of the Roman alphabet"
+    ],
+    "usphone": "[aɪ]",
+    "ukphone": "[aɪ]"
+  },
+  {
+    "name": "him",
+    "trans": ["pron. oblique singular masculine object pronoun"],
+    "usphone": "[hɪm; ɪm]",
+    "ukphone": "[hɪm; ɪm]"
+  },
+  {
+    "name": "he",
+    "trans": [
+      "n. the 5th letter of the Hebrew alphabet",
+      "pron. the nominative singular masculine pronoun"
+    ],
+    "usphone": "[hi; iː; i; hiː]",
+    "ukphone": "[hi; iː; i; hiː]"
+  },
+  {
+    "name": "card",
+    "trans": [
+      "v. to ask someone for identification to determine whether he or she is old enough to consume liquor",
+      "v. to separate the fibers of",
+      "n. one of a set of small pieces of stiff paper marked in various ways and used for playing games or for telling fortunes"
+    ],
+    "usphone": "[kɑːrd]",
+    "ukphone": "[kɑːd]"
+  },
+  {
+    "name": "them",
+    "trans": ["pron. they"],
+    "usphone": "[ðəm; ðem]",
+    "ukphone": "[ðəm; ðem]"
+  },
+  {
+    "name": "they",
+    "trans": [
+      "pron. 3rd person nominative singular pronoun, indicating a person who is hypothetical or whose identity is unknown; used with plural verbs",
+      "pron. 3rd person nominative singular gender-neutral pronoun, indicating a specific person without specifying a male or female gender, or indicating a person who is genderqueer; used with plural verbs",
+      "pron. the 3rd person nominative plural pronoun; can stand in for any 3rd person nominative plural noun"
+    ],
+    "usphone": "[ðeɪ]",
+    "ukphone": "[ðeɪ]"
+  },
+  {
+    "name": "Mr.",
+    "trans": ["n. teacher"],
+    "usphone": "[ˈmɪstər]",
+    "ukphone": "[ˈmɪstə(r)]"
+  },
+  {
+    "name": "Mrs.",
+    "trans": ["n. a form of address for a married woman"],
+    "usphone": "[ˈmɪsɪz]",
+    "ukphone": "[ˈmɪsɪz]"
+  },
+  {
+    "name": "umbrella",
+    "trans": [
+      "adj. covering or applying simultaneously to a number of similar items or elements or groups",
+      "n. having the function of uniting a group of similar things",
+      "n. a formation of military planes maintained over ground operations or targets"
+    ],
+    "usphone": "[ʌmˈbrelə]",
+    "ukphone": "[ʌmˈbrelə]"
+  },
+  {
+    "name": "Ms.",
+    "trans": ["n. a form of address for a woman"],
+    "usphone": "[mɪz; məz]",
+    "ukphone": "[mɪz; məz]"
+  },
+  {
+    "name": "driver",
+    "trans": [
+      "n. a golf club (a wood) with a near vertical face that is used for hitting long shots from the tee",
+      "n. (computer science) a program that determines how a computer will communicate with a peripheral device",
+      "n. the operator of a motor vehicle"
+    ],
+    "usphone": "[ˈdraɪvər]",
+    "ukphone": "[ˈdraɪvə(r)]"
+  },
+  {
+    "name": "well",
+    "trans": [
+      "v. come up, as of a liquid",
+      "adj. wise or advantageous and hence advisable",
+      "adj. resulting favorably"
+    ],
+    "usphone": "[wel]",
+    "ukphone": "[wel]"
+  },
+  {
+    "name": "class",
+    "trans": [
+      "v. to arrange or order by classes or categories",
+      "n. education imparted in a series of lessons or meetings",
+      "n. elegance in dress or behavior"
+    ],
+    "usphone": "[klæs]",
+    "ukphone": "[klɑːs]"
+  },
+  {
+    "name": "ill",
+    "trans": [
+      "adj. presaging ill fortune",
+      "adj. distressing",
+      "adj. resulting in suffering or adversity"
+    ],
+    "usphone": "[ɪl]",
+    "ukphone": "[ɪl]"
+  },
+  {
+    "name": "lesson",
+    "trans": [
+      "n. a task assigned for individual study",
+      "n. a unit of instruction",
+      "n. the significance of a story or event"
+    ],
+    "usphone": "[ˈlesn]",
+    "ukphone": "[ˈlesn]"
+  },
+  {
+    "name": "its",
+    "trans": ["pron. it"],
+    "usphone": "[ɪts]",
+    "ukphone": "[ɪts]"
+  },
+  {
+    "name": "word",
+    "trans": [
+      "v. to put into words or an expression",
+      "n. a unit of language that native speakers can identify",
+      "n. information about recent and important events"
+    ],
+    "usphone": "[wɜːrd]",
+    "ukphone": "[wɜːd]"
+  },
+  {
+    "name": "always",
+    "trans": [
+      "adv. at all times",
+      "adv. forever",
+      "adv. at any time or in any event"
+    ],
+    "usphone": "[ˈɔːlweɪz]",
+    "ukphone": "[ˈɔːlweɪz]"
+  },
+  {
+    "name": "sometimes",
+    "trans": ["adv. on certain occasions or in certain cases but not always"],
+    "usphone": "[ˈsʌmtaɪmz]",
+    "ukphone": "[ˈsʌmtaɪmz]"
+  },
+  {
+    "name": "season",
+    "trans": [
+      "v. make more temperate, acceptable, or suitable by adding something else",
+      "v. make fit",
+      "v. lend flavor to"
+    ],
+    "usphone": "[ˈsiːzn]",
+    "ukphone": "[ˈsiːzn]"
+  },
+  {
+    "name": "spring",
+    "trans": [
+      "v. develop suddenly",
+      "v. produce or disclose suddenly or unexpectedly",
+      "v. spring back"
+    ],
+    "usphone": "[sprɪŋ]",
+    "ukphone": "[sprɪŋ]"
+  },
+  {
+    "name": "summer",
+    "trans": [
+      "v. spend the summer",
+      "n. the period of finest development, happiness, or beauty",
+      "n. the warmest season of the year"
+    ],
+    "usphone": "[ˈsʌmər]",
+    "ukphone": "[ˈsʌmə(r)]"
+  },
+  {
+    "name": "autumn",
+    "trans": ["n. the season when the leaves fall from the trees"],
+    "usphone": "[ˈɔːtəm; ˈɑːtəm]",
+    "ukphone": "[ˈɔːtəm]"
+  },
+  {
+    "name": "winter",
+    "trans": ["v. spend the winter", "n. the coldest season of the year"],
+    "usphone": "[ˈwɪntər]",
+    "ukphone": "[ˈwɪntə(r)]"
+  },
+  {
+    "name": "put on",
+    "trans": [
+      "v. increase one's body weight",
+      "v. put clothing on one's body",
+      "v. add to something existing"
+    ],
+    "usphone": "[pʊt ɑːn]",
+    "ukphone": "[pʊt ɒn]"
+  },
+  {
+    "name": "take off",
+    "trans": [
+      "v. remove clothes",
+      "v. take away or remove",
+      "v. make a subtraction"
+    ],
+    "usphone": "[ˈteɪk ɔːf]",
+    "ukphone": "[ˈteɪk ɒf]"
+  },
+  {
+    "name": "again",
+    "trans": ["adv. anew or once more"],
+    "usphone": "[əˈɡen; əˈɡeɪn]",
+    "ukphone": "[əˈɡen]"
+  },
+  {
+    "name": "body",
+    "trans": [
+      "n. the external structure of a vehicle",
+      "n. a resonating chamber in a musical instrument (as the body of a violin)",
+      "n. the property of holding together and retaining its shape"
+    ],
+    "usphone": "[ˈbɑːdi]",
+    "ukphone": "[ˈbɒdi]"
+  },
+  {
+    "name": "nose",
+    "trans": [
+      "v. defeat by a narrow margin",
+      "v. rub noses",
+      "v. push or move with the nose"
+    ],
+    "usphone": "[noʊz]",
+    "ukphone": "[nəʊz]"
+  },
+  {
+    "name": "mouth",
+    "trans": [
+      "v. express in speech",
+      "v. articulate silently",
+      "v. touch with the mouth"
+    ],
+    "usphone": "[maʊθ]",
+    "ukphone": "[maʊθ]"
+  },
+  {
+    "name": "head",
+    "trans": [
+      "v. remove the head of",
+      "v. direct the course",
+      "v. to go or travel towards"
+    ],
+    "usphone": "[hed]",
+    "ukphone": "[hed]"
+  },
+  {
+    "name": "ear",
+    "trans": [
+      "n. the sense organ for hearing and equilibrium",
+      "n. the externally visible cartilaginous structure of the external ear",
+      "n. good hearing"
+    ],
+    "usphone": "[ɪr]",
+    "ukphone": "[ɪə(r)]"
+  },
+  {
+    "name": "arm",
+    "trans": [
+      "v. to supply with weapons",
+      "n. the part of an armchair or sofa that supports the elbow and forearm of a seated person",
+      "n. any projection that is thought to resemble a human arm"
+    ],
+    "usphone": "[ɑːrm]",
+    "ukphone": "[ɑːm]"
+  },
+  {
+    "name": "leg",
+    "trans": [
+      "n. a section or portion of a journey or course",
+      "n. the nautical distance traveled by a sailing vessel on a single tack",
+      "n. a cloth covering consisting of the part of a pair of trousers that covers a person's leg"
+    ],
+    "usphone": "[leɡ]",
+    "ukphone": "[leɡ]"
+  },
+  {
+    "name": "eye",
+    "trans": [
+      "v. look at",
+      "n. a small hole or loop (as in a needle)",
+      "n. the organ of sight"
+    ],
+    "usphone": "[aɪ]",
+    "ukphone": "[aɪ]"
+  },
+  {
+    "name": "think",
+    "trans": [
+      "v. bring into a given condition by mental preoccupation",
+      "v. recall knowledge from memory",
+      "v. be capable of conscious thought"
+    ],
+    "usphone": "[θɪŋk]",
+    "ukphone": "[θɪŋk]"
+  },
+  {
+    "name": "can",
+    "trans": [
+      "v. to preserve in a can or tin",
+      "v. to terminate the employment of",
+      "n. airtight sealed metal container for food or drink or paint etc."
+    ],
+    "usphone": "[kən; kæn]",
+    "ukphone": "[kən; kæn]"
+  },
+  {
+    "name": "could",
+    "trans": ["aux. to be capable of", "v. can can past tense"],
+    "usphone": "[kəd; kʊd]",
+    "ukphone": "[kəd]"
+  },
+  {
+    "name": "why",
+    "trans": [
+      "n. the cause or intention underlying an action or situation, especially in the phrase `the whys and wherefores'"
+    ],
+    "usphone": "[waɪ]",
+    "ukphone": "[waɪ]"
+  },
+  {
+    "name": "holiday",
+    "trans": [
+      "v. spend or take a vacation",
+      "n. leisure time away from work devoted to rest or pleasure",
+      "n. a day on which work is suspended by law or custom"
+    ],
+    "usphone": "[ˈhɑːlədeɪ]",
+    "ukphone": "[ˈhɒlədeɪ]"
+  },
+  {
+    "name": "bring",
+    "trans": [
+      "v. to be accompanied by",
+      "v. to advance or set forth in court",
+      "v. to take something or somebody with oneself somewhere"
+    ],
+    "usphone": "[brɪŋ]",
+    "ukphone": "[brɪŋ]"
+  },
+  {
+    "name": "brought",
+    "trans": ["v. to bring bring past participle (in European grammar)"],
+    "usphone": "[brɔːt]",
+    "ukphone": "[brɔːt]"
+  },
+  {
+    "name": "give",
+    "trans": [
+      "v. give food to",
+      "v. be flexible under stress of physical force",
+      "v. give or supply"
+    ],
+    "usphone": "[ɡɪv]",
+    "ukphone": "[ɡɪv]"
+  },
+  {
+    "name": "song",
+    "trans": [
+      "n. the act of singing",
+      "n. the characteristic sound produced by a bird",
+      "n. a short musical composition with words"
+    ],
+    "usphone": "[sɔŋ]",
+    "ukphone": "[sɒŋ]"
+  },
+  {
+    "name": "tomorrow",
+    "trans": [
+      "adv. the next day, the day after, following the present day",
+      "n. the day after today",
+      "n. the near future"
+    ],
+    "usphone": "[təˈmɑːroʊ]",
+    "ukphone": "[təˈmɒrəʊ]"
+  },
+  {
+    "name": "then",
+    "trans": [
+      "adj. at a specific prior time",
+      "adv. subsequently or soon afterward, often used as sentence connectors",
+      "adv. at that time"
+    ],
+    "usphone": "[ðen]",
+    "ukphone": "[ðen]"
+  },
+  {
+    "name": "put up",
+    "trans": [
+      "v. preserve in a can or tin",
+      "v. put up with something or somebody unpleasant",
+      "v. propose as a candidate for some honor"
+    ]
+  },
+  {
+    "name": "open",
+    "trans": [
+      "v. make available",
+      "v. become available",
+      "v. make the opening move"
+    ],
+    "usphone": "[ˈoʊpən]",
+    "ukphone": "[ˈəʊpən]"
+  },
+  {
+    "name": "little",
+    "trans": [
+      "adj. faint or difficult to hear",
+      "adj. lowercase",
+      "adj. young, immature"
+    ],
+    "usphone": "[ˈlɪtl]",
+    "ukphone": "[ˈlɪt(ə)l]"
+  }
 ]

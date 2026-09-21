@@ -1,732 +1,668 @@
 [
-    {
-        "name": "you",
-        "trans": [
-            "pron. you (informal, as opposed to courteous [nin2]), you (plural)"
-        ],
-        "usphone": "[juː; jə]",
-        "ukphone": "[ju]"
-    },
-    {
-        "name": "teacher",
-        "trans": [
-            "n. a personified abstraction that teaches",
-            "n. a person whose occupation is teaching"
-        ],
-        "usphone": "[ˈtiːtʃər]",
-        "ukphone": "[ˈtiːtʃə(r)]"
-    },
-    {
-        "name": "hello",
-        "trans": [
-            "n. an expression of greeting"
-        ],
-        "usphone": "[həˈləʊ]",
-        "ukphone": "[həˈləʊ]"
-    },
-    {
-        "name": "your",
-        "trans": [
-            "pron. you (informal, as opposed to courteous [nin2]), you (plural)"
-        ],
-        "usphone": "[jʊr; jər]",
-        "ukphone": "[jɔː(r); jə(r)]"
-    },
-    {
-        "name": "hi",
-        "trans": [
-            "n. an expression of greeting"
-        ],
-        "usphone": "[haɪ]",
-        "ukphone": "[haɪ]"
-    },
-    {
-        "name": "hello",
-        "trans": [
-            "n. an expression of greeting"
-        ],
-        "usphone": "[həˈləʊ]",
-        "ukphone": "[həˈləʊ]"
-    },
-    {
-        "name": "name",
-        "trans": [
-            "v. determine or distinguish the nature of a problem or an illness through a diagnostic analysis",
-            "v. identify as in botany or biology, for example",
-            "v. give or make a list of"
-        ],
-        "usphone": "[neɪm]",
-        "ukphone": "[neɪm]"
-    },
-    {
-        "name": "friend",
-        "trans": [
-            "n. a person with whom you are acquainted",
-            "n. an associate who provides cooperation or assistance",
-            "n. a person you know well and regard with affection and trust"
-        ],
-        "usphone": "[frend]",
-        "ukphone": "[frend]"
-    },
-    {
-        "name": "pupil",
-        "trans": [
-            "n. the contractile aperture in the center of the iris of the eye",
-            "n. a young person attending school (up through senior high school)",
-            "n. a learner who is enrolled in an educational institution"
-        ],
-        "usphone": "[ˈpjuːpl]",
-        "ukphone": "[ˈpjuːp(ə)l]"
-    },
-    {
-        "name": "his",
-        "trans": [
-            "pron. singular masculine possessive pronoun"
-        ],
-        "usphone": "[hɪz; ɪz]",
-        "ukphone": "[hɪz]"
-    },
-    {
-        "name": "her",
-        "trans": [
-            "pron. oblique (object) feminine singular pronoun"
-        ],
-        "usphone": "[hər; ɜːr; ər; hɜːr]",
-        "ukphone": "[hə(r)]"
-    },
-    {
-        "name": "pencil",
-        "trans": [
-            "v. to write, draw, or trace with a pencil",
-            "n. a thin cylindrical pointed writing implement",
-            "n. a cosmetic in a long thin stick"
-        ],
-        "usphone": "[ˈpensl]",
-        "ukphone": "[ˈpens(ə)l]"
-    },
-    {
-        "name": "pencil box",
-        "trans": [
-            "n. a box for holding pencils"
-        ]
-    },
-    {
-        "name": "what",
-        "trans": [
-            "pron. what?, how (wonderful etc), number",
-            "adv. to reach what? degree, to exist how on the one hand",
-            "adj. what?, how (wonderful etc), what kind?",
-            "int. what?, how (wonderful etc)"
-        ],
-        "usphone": "[wʌt]",
-        "ukphone": "[wɒt]"
-    },
-    {
-        "name": "pen",
-        "trans": [
-            "v. produce a literary work",
-            "n. female swan",
-            "n. a writing implement with a point from which ink flows"
-        ],
-        "usphone": "[pen]",
-        "ukphone": "[pen]"
-    },
-    {
-        "name": "ruler",
-        "trans": [
-            "n. measuring stick consisting of a strip of wood or metal or plastic with a straight edge that is used for drawing straight lines and measuring lengths",
-            "n. a person who rules or commands"
-        ],
-        "usphone": "[ˈruːlər]",
-        "ukphone": "[ˈruːlə(r)]"
-    },
-    {
-        "name": "crayon",
-        "trans": [
-            "v. to write, draw, or trace with a crayon",
-            "n. writing implement consisting of a colored stick of composition wax used for writing and drawing"
-        ],
-        "usphone": "[ˈkreɪən; ˈkreɪɑːn]",
-        "ukphone": "[ˈkreɪən; ˈkreɪɒn]"
-    },
-    {
-        "name": "whose",
-        "trans": [
-            "pron. who interrogative pronoun (,,,,, etc)"
-        ],
-        "usphone": "[huːz]",
-        "ukphone": "[huːz]"
-    },
-    {
-        "name": "blackboard",
-        "trans": [
-            "n. sheet of slate"
-        ],
-        "usphone": "[ˈblækbɔːrd]",
-        "ukphone": "[ˈblækbɔːd]"
-    },
-    {
-        "name": "desk",
-        "trans": [
-            "n. a piece of furniture with a writing surface and usually drawers or other compartments"
-        ],
-        "usphone": "[desk]",
-        "ukphone": "[desk]"
-    },
-    {
-        "name": "chair",
-        "trans": [
-            "v. to preside over",
-            "v. to act or preside as chair, as of an academic department in a university",
-            "n. the position of professor"
-        ],
-        "usphone": "[tʃer]",
-        "ukphone": "[tʃeə(r)]"
-    },
-    {
-        "name": "schoolbag",
-        "trans": [
-            "n. a bag for carrying school books and supplies"
-        ],
-        "usphone": "[ˈskuːlˌbæɡ]",
-        "ukphone": "[ˈskuːlbæɡ]"
-    },
-    {
-        "name": "between",
-        "trans": [
-            "adv. in between",
-            "adv. in the interval"
-        ],
-        "usphone": "[bɪˈtwiːn]",
-        "ukphone": "[bɪˈtwiːn]"
-    },
-    {
-        "name": "beside",
-        "trans": [
-            "prep. alongside side, (formal) and to compare, (joining two nouns) and unrelated"
-        ],
-        "usphone": "[bɪˈsaɪd]",
-        "ukphone": "[bɪˈsaɪd]"
-    },
-    {
-        "name": "forty",
-        "trans": [
-            "adj. being ten more than thirty",
-            "n. the cardinal number that is the product of ten and four"
-        ],
-        "usphone": "[ˈfɔːrti]",
-        "ukphone": "[ˈfɔːti]"
-    },
-    {
-        "name": "fifty",
-        "trans": [
-            "adj. being ten more than forty",
-            "n. a United States bill worth 50 dollars",
-            "n. the cardinal number that is the product of ten and five"
-        ],
-        "usphone": "[ˈfɪfti]",
-        "ukphone": "[ˈfɪfti]"
-    },
-    {
-        "name": "sixty",
-        "trans": [
-            "adj. being ten more than fifty",
-            "n. the cardinal number that is the product of ten and six"
-        ],
-        "usphone": "[ˈsɪksti]",
-        "ukphone": "[ˈsɪksti]"
-    },
-    {
-        "name": "seventy",
-        "trans": [
-            "adj. being ten more than sixty",
-            "n. the cardinal number that is the product of ten and seven"
-        ],
-        "usphone": "[ˈsev(ə)nti]",
-        "ukphone": "[ˈsev(ə)nti]"
-    },
-    {
-        "name": "eighty",
-        "trans": [
-            "adj. being ten more than seventy",
-            "n. the cardinal number that is the product of ten and eight"
-        ],
-        "usphone": "[ˈeɪti]",
-        "ukphone": "[ˈeɪti]"
-    },
-    {
-        "name": "ninety",
-        "trans": [
-            "adj. being ten more than eighty",
-            "n. the cardinal number that is the product of ten and nine"
-        ],
-        "usphone": "[ˈnaɪnti]",
-        "ukphone": "[ˈnaɪnti]"
-    },
-    {
-        "name": "behind",
-        "trans": [
-            "adj. having the lower score or lagging position in a contest",
-            "adv. in or to or toward the rear",
-            "adv. remaining in a place or condition that has been left or departed from"
-        ],
-        "usphone": "[bɪˈhaɪnd]",
-        "ukphone": "[bɪˈhaɪnd]"
-    },
-    {
-        "name": "he",
-        "trans": [
-            "n. the 5th letter of the Hebrew alphabet",
-            "pron. the nominative singular masculine pronoun"
-        ],
-        "usphone": "[hi; iː; i; hiː]",
-        "ukphone": "[hi; iː; i; hiː]"
-    },
-    {
-        "name": "she",
-        "trans": [
-            "pron. nominative singular feminine pronoun"
-        ],
-        "usphone": "[ʃi; ʃiː]",
-        "ukphone": "[ʃi]"
-    },
-    {
-        "name": "month",
-        "trans": [
-            "n. a time unit of approximately 30 days",
-            "n. one of the twelve divisions of the calendar year"
-        ],
-        "usphone": "[mʌnθ]",
-        "ukphone": "[mʌnθ]"
-    },
-    {
-        "name": "Jan.",
-        "trans": [
-            "n. January, first month (of either lunar or Western calendars)"
-        ]
-    },
-    {
-        "name": "Feb.",
-        "trans": [
-            "abbr. February February"
-        ]
-    },
-    {
-        "name": "Mar.",
-        "trans": [
-            "abbr. March March abbreviation"
-        ]
-    },
-    {
-        "name": "Apr.",
-        "trans": [
-            "April"
-        ]
-    },
-    {
-        "name": "May",
-        "trans": [
-            "n. thorny Eurasian shrub of small tree having dense clusters of white to scarlet flowers followed by deep red berries"
-        ],
-        "usphone": "[meɪ]",
-        "ukphone": "[meɪ]"
-    },
-    {
-        "name": "Jun.",
-        "trans": [
-            "abbr. June June, junior Junior"
-        ]
-    },
-    {
-        "name": "Jul.",
-        "trans": [
-            "abbr. July July"
-        ]
-    },
-    {
-        "name": "Aug.",
-        "trans": [
-            "August"
-        ]
-    },
-    {
-        "name": "Sept.",
-        "trans": [
-            "abbr. September September"
-        ]
-    },
-    {
-        "name": "Oct.",
-        "trans": [
-            "abbr. to equal October October"
-        ]
-    },
-    {
-        "name": "Nov.",
-        "trans": [
-            "abbr. November November"
-        ]
-    },
-    {
-        "name": "Dec.",
-        "trans": [
-            "abbr. December December"
-        ]
-    },
-    {
-        "name": "rain",
-        "trans": [
-            "v. precipitate as rain",
-            "n. anything happening rapidly or in quick successive",
-            "n. water falling in drops from vapor condensed in the atmosphere"
-        ],
-        "usphone": "[reɪn]",
-        "ukphone": "[reɪn]"
-    },
-    {
-        "name": "sun",
-        "trans": [
-            "v. expose one's body to the sun",
-            "v. expose to the rays of the sun or affect by exposure to the sun",
-            "n. the star that is the source of light and heat for the planets in the solar system"
-        ],
-        "usphone": "[sʌn]",
-        "ukphone": "[sʌn]"
-    },
-    {
-        "name": "hot",
-        "trans": [
-            "adj. marked by excited activity",
-            "adj. charged or energized with electricity",
-            "adj. having or dealing with dangerously high levels of radioactivity"
-        ],
-        "usphone": "[hɑːt]",
-        "ukphone": "[hɒt]"
-    },
-    {
-        "name": "snow",
-        "trans": [
-            "v. to conceal one's true motives from someone, especially by elaborately feigning good intentions so as to gain an end",
-            "v. to fall as snow",
-            "n. a street name for cocaine"
-        ],
-        "usphone": "[snoʊ]",
-        "ukphone": "[snəʊ]"
-    },
-    {
-        "name": "cold",
-        "trans": [
-            "adj. lacking the warmth of life",
-            "adj. of a seeker",
-            "adj. unconscious from a blow or shock or intoxication"
-        ],
-        "usphone": "[kəʊld]",
-        "ukphone": "[kəʊld]"
-    },
-    {
-        "name": "how",
-        "trans": [
-            "adv. how, number, how (wonderful etc)",
-            "n. method, way",
-            "conj. how"
-        ],
-        "usphone": "[haʊ]",
-        "ukphone": "[haʊ]"
-    },
-    {
-        "name": "weather",
-        "trans": [
-            "v. change under the action or influence of the weather",
-            "v. sail to the windward of",
-            "v. cause to slope"
-        ],
-        "usphone": "[ˈweðər]",
-        "ukphone": "[ˈweðə(r)]"
-    },
-    {
-        "name": "sunny",
-        "trans": [
-            "adj. bright and pleasant"
-        ],
-        "usphone": "[ˈsʌni]",
-        "ukphone": "[ˈsʌni]"
-    },
-    {
-        "name": "warm",
-        "trans": [
-            "v. make warm or warmer",
-            "v. get warm or warmer",
-            "adj. of a seeker"
-        ],
-        "usphone": "[wɔːrm]",
-        "ukphone": "[wɔːm]"
-    },
-    {
-        "name": "cloudy",
-        "trans": [
-            "adj. full of or covered with clouds",
-            "adj. lacking definite form or limits",
-            "adj. (of liquids) clouded as with sediment"
-        ],
-        "usphone": "[ˈklaʊdi]",
-        "ukphone": "[ˈklaʊdi]"
-    },
-    {
-        "name": "windy",
-        "trans": [
-            "adj. abounding in or exposed to the wind or breezes",
-            "adj. using or containing too many words",
-            "adj. resembling the wind in speed, force, or variability"
-        ],
-        "usphone": "[ˈwɪndi]",
-        "ukphone": "[ˈwɪndi]"
-    },
-    {
-        "name": "cool",
-        "trans": [
-            "v. to loose heat",
-            "v. to lose intensity",
-            "v. to make cool or cooler"
-        ],
-        "usphone": "[kuːl]",
-        "ukphone": "[kuːl]"
-    },
-    {
-        "name": "am",
-        "trans": [
-            "abbr. amplitude modulation (AM)",
-            "v. to be (followed by substantives only)"
-        ],
-        "usphone": "[əm; æm]",
-        "ukphone": "[əm; æm]"
-    },
-    {
-        "name": "when",
-        "trans": [
-            "conj. to think over to reach, since, (onom.) dong o'clock, to exist o'clock, if",
-            "n. (concept of) time, time, date, occasion",
-            "adv. when?, when, to use in (concept of) time to express way after to exist then, o'clock, then",
-            "pron. then, what? o'clock marquis, second of the five orders of ancient Chinese nobility [wu3 deng3 jue2 wei4]"
-        ],
-        "usphone": "[wen]",
-        "ukphone": "[wen]"
-    },
-    {
-        "name": "birthday",
-        "trans": [
-            "n. an anniversary of the day on which a person was born (or the celebration of it)",
-            "n. the date on which a person was born"
-        ],
-        "usphone": "[ˈbɜːrθdeɪ]",
-        "ukphone": "[ˈbɜːθdeɪ]"
-    },
-    {
-        "name": "tall",
-        "trans": [
-            "adj. lofty in style",
-            "adj. great in vertical dimension",
-            "adj. too improbable to admit of belief"
-        ],
-        "usphone": "[tɔːl]",
-        "ukphone": "[tɔːl]"
-    },
-    {
-        "name": "live",
-        "trans": [
-            "v. have firsthand knowledge of states, situations, emotions, or sensations",
-            "v. have life, be alive",
-            "v. lead a certain kind of life"
-        ],
-        "usphone": "[lɪv; laɪv]",
-        "ukphone": "[lɪv; laɪv]"
-    },
-    {
-        "name": "too",
-        "trans": [
-            "adv. to a degree exceeding normal or proper limits",
-            "adv. in addition"
-        ],
-        "usphone": "[tuː]",
-        "ukphone": "[tuː]"
-    },
-    {
-        "name": "foot",
-        "trans": [
-            "v. add a column of numbers",
-            "v. walk",
-            "v. pay for something"
-        ],
-        "usphone": "[fʊt]",
-        "ukphone": "[fʊt]"
-    },
-    {
-        "name": "on foot",
-        "trans": [
-            "na. to go on foot, to exist (of a process etc) to proceed within, to be on foot"
-        ]
-    },
-    {
-        "name": "by",
-        "trans": [
-            "adv. in reserve",
-            "adv. so as to pass a given point"
-        ],
-        "usphone": "[baɪ]",
-        "ukphone": "[baɪ]"
-    },
-    {
-        "name": "favourite",
-        "trans": [
-            "v. to add something to your collection on the Internet",
-            "adj. preferred above all others and treated with partiality",
-            "adj. appealing to the general public"
-        ],
-        "usphone": "[ˈfeɪvərɪt]",
-        "ukphone": "[ˈfeɪvərɪt]"
-    },
-    {
-        "name": "colour",
-        "trans": [
-            "v. to change color, often in an undesired manner",
-            "v. to add color to",
-            "v. to affect as in thought or feeling"
-        ],
-        "usphone": "[ˈkʌlər]",
-        "ukphone": "[ˈkʌlə(r)]"
-    },
-    {
-        "name": "brown",
-        "trans": [
-            "v. to make brown in color",
-            "v. to fry in a pan until it changes color",
-            "adj. (of skin) deeply suntanned"
-        ],
-        "usphone": "[braʊn]",
-        "ukphone": "[braʊn]"
-    },
-    {
-        "name": "blue",
-        "trans": [
-            "v. to turn blue",
-            "adj. causing dejection",
-            "adj. of the color intermediate between green and violet"
-        ],
-        "usphone": "[bluː]",
-        "ukphone": "[bluː]"
-    },
-    {
-        "name": "clothes",
-        "trans": [
-            "n. clothing in general"
-        ],
-        "usphone": "[kloʊðz; kloʊz]",
-        "ukphone": "[kləʊðz]"
-    },
-    {
-        "name": "our",
-        "trans": [
-            "pron. we"
-        ],
-        "usphone": "[ɑːr]",
-        "ukphone": "[ɑː(r)]"
-    },
-    {
-        "name": "their",
-        "trans": [
-            "pron. they"
-        ],
-        "usphone": "[ðer]",
-        "ukphone": "[ðeə(r)]"
-    },
-    {
-        "name": "subject",
-        "trans": [
-            "v. refer for judgment or consideration",
-            "v. make accountable for",
-            "v. cause to experience or suffer or make liable or vulnerable to"
-        ],
-        "usphone": "[ˈsʌbdʒɪkt; ˈsʌbdʒekt]",
-        "ukphone": "[ˈsʌbdʒɪkt; ˈsʌbdʒekt]"
-    },
-    {
-        "name": "Chinese",
-        "trans": [
-            "adj. of or pertaining to China or its peoples or cultures",
-            "adj. of or relating to or characteristic of the island republic on Taiwan or its residents or their language",
-            "n. the Chinese language"
-        ],
-        "usphone": "[ˌtʃaɪˈniːz]",
-        "ukphone": "[ˌtʃaɪˈniːz]"
-    },
-    {
-        "name": "English",
-        "trans": [
-            "adj. of or relating to or characteristic of England or its culture or people",
-            "adj. of or relating to the English language",
-            "n. (sports) the spin given to a ball by striking it on one side or releasing it with a sharp twist"
-        ],
-        "usphone": "[ˈɪŋɡlɪʃ]",
-        "ukphone": "[ˈɪŋɡlɪʃ]"
-    },
-    {
-        "name": "science",
-        "trans": [
-            "n. ability to produce solutions in some problem domain",
-            "n. a particular branch of scientific knowledge"
-        ],
-        "usphone": "[ˈsaɪəns]",
-        "ukphone": "[ˈsaɪəns]"
-    },
-    {
-        "name": "math",
-        "trans": [
-            "n. a science (or group of related sciences) dealing with the logic of quantity and shape and arrangement"
-        ],
-        "usphone": "[mæθ]",
-        "ukphone": "[mæθ]"
-    },
-    {
-        "name": "PE",
-        "trans": [
-            "n. the 17th letter of the Hebrew alphabet"
-        ],
-        "usphone": "[peɪ]",
-        "ukphone": "[peɪ]"
-    },
-    {
-        "name": "art",
-        "trans": [
-            "n. the creation of beautiful or significant things",
-            "n. the products of human creativity",
-            "n. a superior skill that you can learn by study and practice and observation"
-        ],
-        "usphone": "[ɑːrt]",
-        "ukphone": "[ɑːt]"
-    },
-    {
-        "name": "music",
-        "trans": [
-            "n. musical activity i.e. singing, whistling, playing an instrument and so on",
-            "n. punishment for one's actions",
-            "n. pleasing and harmonious sounds"
-        ],
-        "usphone": "[ˈmjuːzɪk]",
-        "ukphone": "[ˈmjuːzɪk]"
-    },
-    {
-        "name": "and",
-        "trans": [
-            "conj. (joining two nouns) and, (formal) and, (after a suppositional clause) in that case, (not only ...) but also, but, then"
-        ],
-        "usphone": "[ənd; ən; n; ænd]",
-        "ukphone": "[ənd]"
-    },
-    {
-        "name": "but",
-        "trans": [
-            "adv. and nothing more"
-        ],
-        "usphone": "[bət; bʌt]",
-        "ukphone": "[bət]"
-    }
+  {
+    "name": "you",
+    "trans": [
+      "pron. you (informal, as opposed to courteous [nin2]), you (plural)"
+    ],
+    "usphone": "[juː; jə]",
+    "ukphone": "[ju]"
+  },
+  {
+    "name": "teacher",
+    "trans": [
+      "n. a personified abstraction that teaches",
+      "n. a person whose occupation is teaching"
+    ],
+    "usphone": "[ˈtiːtʃər]",
+    "ukphone": "[ˈtiːtʃə(r)]"
+  },
+  {
+    "name": "hello",
+    "trans": ["n. an expression of greeting"],
+    "usphone": "[həˈləʊ]",
+    "ukphone": "[həˈləʊ]"
+  },
+  {
+    "name": "your",
+    "trans": [
+      "pron. you (informal, as opposed to courteous [nin2]), you (plural)"
+    ],
+    "usphone": "[jʊr; jər]",
+    "ukphone": "[jɔː(r); jə(r)]"
+  },
+  {
+    "name": "hi",
+    "trans": ["n. an expression of greeting"],
+    "usphone": "[haɪ]",
+    "ukphone": "[haɪ]"
+  },
+  {
+    "name": "hello",
+    "trans": ["n. an expression of greeting"],
+    "usphone": "[həˈləʊ]",
+    "ukphone": "[həˈləʊ]"
+  },
+  {
+    "name": "name",
+    "trans": [
+      "v. determine or distinguish the nature of a problem or an illness through a diagnostic analysis",
+      "v. identify as in botany or biology, for example",
+      "v. give or make a list of"
+    ],
+    "usphone": "[neɪm]",
+    "ukphone": "[neɪm]"
+  },
+  {
+    "name": "friend",
+    "trans": [
+      "n. a person with whom you are acquainted",
+      "n. an associate who provides cooperation or assistance",
+      "n. a person you know well and regard with affection and trust"
+    ],
+    "usphone": "[frend]",
+    "ukphone": "[frend]"
+  },
+  {
+    "name": "pupil",
+    "trans": [
+      "n. the contractile aperture in the center of the iris of the eye",
+      "n. a young person attending school (up through senior high school)",
+      "n. a learner who is enrolled in an educational institution"
+    ],
+    "usphone": "[ˈpjuːpl]",
+    "ukphone": "[ˈpjuːp(ə)l]"
+  },
+  {
+    "name": "his",
+    "trans": ["pron. singular masculine possessive pronoun"],
+    "usphone": "[hɪz; ɪz]",
+    "ukphone": "[hɪz]"
+  },
+  {
+    "name": "her",
+    "trans": ["pron. oblique (object) feminine singular pronoun"],
+    "usphone": "[hər; ɜːr; ər; hɜːr]",
+    "ukphone": "[hə(r)]"
+  },
+  {
+    "name": "pencil",
+    "trans": [
+      "v. to write, draw, or trace with a pencil",
+      "n. a thin cylindrical pointed writing implement",
+      "n. a cosmetic in a long thin stick"
+    ],
+    "usphone": "[ˈpensl]",
+    "ukphone": "[ˈpens(ə)l]"
+  },
+  {
+    "name": "pencil box",
+    "trans": ["n. a box for holding pencils"]
+  },
+  {
+    "name": "what",
+    "trans": [
+      "pron. what?, how (wonderful etc), number",
+      "adv. to reach what? degree, to exist how on the one hand",
+      "adj. what?, how (wonderful etc), what kind?",
+      "int. what?, how (wonderful etc)"
+    ],
+    "usphone": "[wʌt]",
+    "ukphone": "[wɒt]"
+  },
+  {
+    "name": "pen",
+    "trans": [
+      "v. produce a literary work",
+      "n. female swan",
+      "n. a writing implement with a point from which ink flows"
+    ],
+    "usphone": "[pen]",
+    "ukphone": "[pen]"
+  },
+  {
+    "name": "ruler",
+    "trans": [
+      "n. measuring stick consisting of a strip of wood or metal or plastic with a straight edge that is used for drawing straight lines and measuring lengths",
+      "n. a person who rules or commands"
+    ],
+    "usphone": "[ˈruːlər]",
+    "ukphone": "[ˈruːlə(r)]"
+  },
+  {
+    "name": "crayon",
+    "trans": [
+      "v. to write, draw, or trace with a crayon",
+      "n. writing implement consisting of a colored stick of composition wax used for writing and drawing"
+    ],
+    "usphone": "[ˈkreɪən; ˈkreɪɑːn]",
+    "ukphone": "[ˈkreɪən; ˈkreɪɒn]"
+  },
+  {
+    "name": "whose",
+    "trans": ["pron. who interrogative pronoun (,,,,, etc)"],
+    "usphone": "[huːz]",
+    "ukphone": "[huːz]"
+  },
+  {
+    "name": "blackboard",
+    "trans": ["n. sheet of slate"],
+    "usphone": "[ˈblækbɔːrd]",
+    "ukphone": "[ˈblækbɔːd]"
+  },
+  {
+    "name": "desk",
+    "trans": [
+      "n. a piece of furniture with a writing surface and usually drawers or other compartments"
+    ],
+    "usphone": "[desk]",
+    "ukphone": "[desk]"
+  },
+  {
+    "name": "chair",
+    "trans": [
+      "v. to preside over",
+      "v. to act or preside as chair, as of an academic department in a university",
+      "n. the position of professor"
+    ],
+    "usphone": "[tʃer]",
+    "ukphone": "[tʃeə(r)]"
+  },
+  {
+    "name": "schoolbag",
+    "trans": ["n. a bag for carrying school books and supplies"],
+    "usphone": "[ˈskuːlˌbæɡ]",
+    "ukphone": "[ˈskuːlbæɡ]"
+  },
+  {
+    "name": "between",
+    "trans": ["adv. in between", "adv. in the interval"],
+    "usphone": "[bɪˈtwiːn]",
+    "ukphone": "[bɪˈtwiːn]"
+  },
+  {
+    "name": "beside",
+    "trans": [
+      "prep. alongside side, (formal) and to compare, (joining two nouns) and unrelated"
+    ],
+    "usphone": "[bɪˈsaɪd]",
+    "ukphone": "[bɪˈsaɪd]"
+  },
+  {
+    "name": "forty",
+    "trans": [
+      "adj. being ten more than thirty",
+      "n. the cardinal number that is the product of ten and four"
+    ],
+    "usphone": "[ˈfɔːrti]",
+    "ukphone": "[ˈfɔːti]"
+  },
+  {
+    "name": "fifty",
+    "trans": [
+      "adj. being ten more than forty",
+      "n. a United States bill worth 50 dollars",
+      "n. the cardinal number that is the product of ten and five"
+    ],
+    "usphone": "[ˈfɪfti]",
+    "ukphone": "[ˈfɪfti]"
+  },
+  {
+    "name": "sixty",
+    "trans": [
+      "adj. being ten more than fifty",
+      "n. the cardinal number that is the product of ten and six"
+    ],
+    "usphone": "[ˈsɪksti]",
+    "ukphone": "[ˈsɪksti]"
+  },
+  {
+    "name": "seventy",
+    "trans": [
+      "adj. being ten more than sixty",
+      "n. the cardinal number that is the product of ten and seven"
+    ],
+    "usphone": "[ˈsev(ə)nti]",
+    "ukphone": "[ˈsev(ə)nti]"
+  },
+  {
+    "name": "eighty",
+    "trans": [
+      "adj. being ten more than seventy",
+      "n. the cardinal number that is the product of ten and eight"
+    ],
+    "usphone": "[ˈeɪti]",
+    "ukphone": "[ˈeɪti]"
+  },
+  {
+    "name": "ninety",
+    "trans": [
+      "adj. being ten more than eighty",
+      "n. the cardinal number that is the product of ten and nine"
+    ],
+    "usphone": "[ˈnaɪnti]",
+    "ukphone": "[ˈnaɪnti]"
+  },
+  {
+    "name": "behind",
+    "trans": [
+      "adj. having the lower score or lagging position in a contest",
+      "adv. in or to or toward the rear",
+      "adv. remaining in a place or condition that has been left or departed from"
+    ],
+    "usphone": "[bɪˈhaɪnd]",
+    "ukphone": "[bɪˈhaɪnd]"
+  },
+  {
+    "name": "he",
+    "trans": [
+      "n. the 5th letter of the Hebrew alphabet",
+      "pron. the nominative singular masculine pronoun"
+    ],
+    "usphone": "[hi; iː; i; hiː]",
+    "ukphone": "[hi; iː; i; hiː]"
+  },
+  {
+    "name": "she",
+    "trans": ["pron. nominative singular feminine pronoun"],
+    "usphone": "[ʃi; ʃiː]",
+    "ukphone": "[ʃi]"
+  },
+  {
+    "name": "month",
+    "trans": [
+      "n. a time unit of approximately 30 days",
+      "n. one of the twelve divisions of the calendar year"
+    ],
+    "usphone": "[mʌnθ]",
+    "ukphone": "[mʌnθ]"
+  },
+  {
+    "name": "Jan.",
+    "trans": ["n. January, first month (of either lunar or Western calendars)"]
+  },
+  {
+    "name": "Feb.",
+    "trans": ["abbr. February February"]
+  },
+  {
+    "name": "Mar.",
+    "trans": ["abbr. March March abbreviation"]
+  },
+  {
+    "name": "Apr.",
+    "trans": ["April"]
+  },
+  {
+    "name": "May",
+    "trans": [
+      "n. thorny Eurasian shrub of small tree having dense clusters of white to scarlet flowers followed by deep red berries"
+    ],
+    "usphone": "[meɪ]",
+    "ukphone": "[meɪ]"
+  },
+  {
+    "name": "Jun.",
+    "trans": ["abbr. June June, junior Junior"]
+  },
+  {
+    "name": "Jul.",
+    "trans": ["abbr. July July"]
+  },
+  {
+    "name": "Aug.",
+    "trans": ["August"]
+  },
+  {
+    "name": "Sept.",
+    "trans": ["abbr. September September"]
+  },
+  {
+    "name": "Oct.",
+    "trans": ["abbr. to equal October October"]
+  },
+  {
+    "name": "Nov.",
+    "trans": ["abbr. November November"]
+  },
+  {
+    "name": "Dec.",
+    "trans": ["abbr. December December"]
+  },
+  {
+    "name": "rain",
+    "trans": [
+      "v. precipitate as rain",
+      "n. anything happening rapidly or in quick successive",
+      "n. water falling in drops from vapor condensed in the atmosphere"
+    ],
+    "usphone": "[reɪn]",
+    "ukphone": "[reɪn]"
+  },
+  {
+    "name": "sun",
+    "trans": [
+      "v. expose one's body to the sun",
+      "v. expose to the rays of the sun or affect by exposure to the sun",
+      "n. the star that is the source of light and heat for the planets in the solar system"
+    ],
+    "usphone": "[sʌn]",
+    "ukphone": "[sʌn]"
+  },
+  {
+    "name": "hot",
+    "trans": [
+      "adj. marked by excited activity",
+      "adj. charged or energized with electricity",
+      "adj. having or dealing with dangerously high levels of radioactivity"
+    ],
+    "usphone": "[hɑːt]",
+    "ukphone": "[hɒt]"
+  },
+  {
+    "name": "snow",
+    "trans": [
+      "v. to conceal one's true motives from someone, especially by elaborately feigning good intentions so as to gain an end",
+      "v. to fall as snow",
+      "n. a street name for cocaine"
+    ],
+    "usphone": "[snoʊ]",
+    "ukphone": "[snəʊ]"
+  },
+  {
+    "name": "cold",
+    "trans": [
+      "adj. lacking the warmth of life",
+      "adj. of a seeker",
+      "adj. unconscious from a blow or shock or intoxication"
+    ],
+    "usphone": "[kəʊld]",
+    "ukphone": "[kəʊld]"
+  },
+  {
+    "name": "how",
+    "trans": [
+      "adv. how, number, how (wonderful etc)",
+      "n. method, way",
+      "conj. how"
+    ],
+    "usphone": "[haʊ]",
+    "ukphone": "[haʊ]"
+  },
+  {
+    "name": "weather",
+    "trans": [
+      "v. change under the action or influence of the weather",
+      "v. sail to the windward of",
+      "v. cause to slope"
+    ],
+    "usphone": "[ˈweðər]",
+    "ukphone": "[ˈweðə(r)]"
+  },
+  {
+    "name": "sunny",
+    "trans": ["adj. bright and pleasant"],
+    "usphone": "[ˈsʌni]",
+    "ukphone": "[ˈsʌni]"
+  },
+  {
+    "name": "warm",
+    "trans": [
+      "v. make warm or warmer",
+      "v. get warm or warmer",
+      "adj. of a seeker"
+    ],
+    "usphone": "[wɔːrm]",
+    "ukphone": "[wɔːm]"
+  },
+  {
+    "name": "cloudy",
+    "trans": [
+      "adj. full of or covered with clouds",
+      "adj. lacking definite form or limits",
+      "adj. (of liquids) clouded as with sediment"
+    ],
+    "usphone": "[ˈklaʊdi]",
+    "ukphone": "[ˈklaʊdi]"
+  },
+  {
+    "name": "windy",
+    "trans": [
+      "adj. abounding in or exposed to the wind or breezes",
+      "adj. using or containing too many words",
+      "adj. resembling the wind in speed, force, or variability"
+    ],
+    "usphone": "[ˈwɪndi]",
+    "ukphone": "[ˈwɪndi]"
+  },
+  {
+    "name": "cool",
+    "trans": [
+      "v. to loose heat",
+      "v. to lose intensity",
+      "v. to make cool or cooler"
+    ],
+    "usphone": "[kuːl]",
+    "ukphone": "[kuːl]"
+  },
+  {
+    "name": "am",
+    "trans": [
+      "abbr. amplitude modulation (AM)",
+      "v. to be (followed by substantives only)"
+    ],
+    "usphone": "[əm; æm]",
+    "ukphone": "[əm; æm]"
+  },
+  {
+    "name": "when",
+    "trans": [
+      "conj. to think over to reach, since, (onom.) dong o'clock, to exist o'clock, if",
+      "n. (concept of) time, time, date, occasion",
+      "adv. when?, when, to use in (concept of) time to express way after to exist then, o'clock, then",
+      "pron. then, what? o'clock marquis, second of the five orders of ancient Chinese nobility [wu3 deng3 jue2 wei4]"
+    ],
+    "usphone": "[wen]",
+    "ukphone": "[wen]"
+  },
+  {
+    "name": "birthday",
+    "trans": [
+      "n. an anniversary of the day on which a person was born (or the celebration of it)",
+      "n. the date on which a person was born"
+    ],
+    "usphone": "[ˈbɜːrθdeɪ]",
+    "ukphone": "[ˈbɜːθdeɪ]"
+  },
+  {
+    "name": "tall",
+    "trans": [
+      "adj. lofty in style",
+      "adj. great in vertical dimension",
+      "adj. too improbable to admit of belief"
+    ],
+    "usphone": "[tɔːl]",
+    "ukphone": "[tɔːl]"
+  },
+  {
+    "name": "live",
+    "trans": [
+      "v. have firsthand knowledge of states, situations, emotions, or sensations",
+      "v. have life, be alive",
+      "v. lead a certain kind of life"
+    ],
+    "usphone": "[lɪv; laɪv]",
+    "ukphone": "[lɪv; laɪv]"
+  },
+  {
+    "name": "too",
+    "trans": [
+      "adv. to a degree exceeding normal or proper limits",
+      "adv. in addition"
+    ],
+    "usphone": "[tuː]",
+    "ukphone": "[tuː]"
+  },
+  {
+    "name": "foot",
+    "trans": ["v. add a column of numbers", "v. walk", "v. pay for something"],
+    "usphone": "[fʊt]",
+    "ukphone": "[fʊt]"
+  },
+  {
+    "name": "on foot",
+    "trans": [
+      "na. to go on foot, to exist (of a process etc) to proceed within, to be on foot"
+    ]
+  },
+  {
+    "name": "by",
+    "trans": ["adv. in reserve", "adv. so as to pass a given point"],
+    "usphone": "[baɪ]",
+    "ukphone": "[baɪ]"
+  },
+  {
+    "name": "favourite",
+    "trans": [
+      "v. to add something to your collection on the Internet",
+      "adj. preferred above all others and treated with partiality",
+      "adj. appealing to the general public"
+    ],
+    "usphone": "[ˈfeɪvərɪt]",
+    "ukphone": "[ˈfeɪvərɪt]"
+  },
+  {
+    "name": "colour",
+    "trans": [
+      "v. to change color, often in an undesired manner",
+      "v. to add color to",
+      "v. to affect as in thought or feeling"
+    ],
+    "usphone": "[ˈkʌlər]",
+    "ukphone": "[ˈkʌlə(r)]"
+  },
+  {
+    "name": "brown",
+    "trans": [
+      "v. to make brown in color",
+      "v. to fry in a pan until it changes color",
+      "adj. (of skin) deeply suntanned"
+    ],
+    "usphone": "[braʊn]",
+    "ukphone": "[braʊn]"
+  },
+  {
+    "name": "blue",
+    "trans": [
+      "v. to turn blue",
+      "adj. causing dejection",
+      "adj. of the color intermediate between green and violet"
+    ],
+    "usphone": "[bluː]",
+    "ukphone": "[bluː]"
+  },
+  {
+    "name": "clothes",
+    "trans": ["n. clothing in general"],
+    "usphone": "[kloʊðz; kloʊz]",
+    "ukphone": "[kləʊðz]"
+  },
+  {
+    "name": "our",
+    "trans": ["pron. we"],
+    "usphone": "[ɑːr]",
+    "ukphone": "[ɑː(r)]"
+  },
+  {
+    "name": "their",
+    "trans": ["pron. they"],
+    "usphone": "[ðer]",
+    "ukphone": "[ðeə(r)]"
+  },
+  {
+    "name": "subject",
+    "trans": [
+      "v. refer for judgment or consideration",
+      "v. make accountable for",
+      "v. cause to experience or suffer or make liable or vulnerable to"
+    ],
+    "usphone": "[ˈsʌbdʒɪkt; ˈsʌbdʒekt]",
+    "ukphone": "[ˈsʌbdʒɪkt; ˈsʌbdʒekt]"
+  },
+  {
+    "name": "Chinese",
+    "trans": [
+      "adj. of or pertaining to China or its peoples or cultures",
+      "adj. of or relating to or characteristic of the island republic on Taiwan or its residents or their language",
+      "n. the Chinese language"
+    ],
+    "usphone": "[ˌtʃaɪˈniːz]",
+    "ukphone": "[ˌtʃaɪˈniːz]"
+  },
+  {
+    "name": "English",
+    "trans": [
+      "adj. of or relating to or characteristic of England or its culture or people",
+      "adj. of or relating to the English language",
+      "n. (sports) the spin given to a ball by striking it on one side or releasing it with a sharp twist"
+    ],
+    "usphone": "[ˈɪŋɡlɪʃ]",
+    "ukphone": "[ˈɪŋɡlɪʃ]"
+  },
+  {
+    "name": "science",
+    "trans": [
+      "n. ability to produce solutions in some problem domain",
+      "n. a particular branch of scientific knowledge"
+    ],
+    "usphone": "[ˈsaɪəns]",
+    "ukphone": "[ˈsaɪəns]"
+  },
+  {
+    "name": "math",
+    "trans": [
+      "n. a science (or group of related sciences) dealing with the logic of quantity and shape and arrangement"
+    ],
+    "usphone": "[mæθ]",
+    "ukphone": "[mæθ]"
+  },
+  {
+    "name": "PE",
+    "trans": ["n. the 17th letter of the Hebrew alphabet"],
+    "usphone": "[peɪ]",
+    "ukphone": "[peɪ]"
+  },
+  {
+    "name": "art",
+    "trans": [
+      "n. the creation of beautiful or significant things",
+      "n. the products of human creativity",
+      "n. a superior skill that you can learn by study and practice and observation"
+    ],
+    "usphone": "[ɑːrt]",
+    "ukphone": "[ɑːt]"
+  },
+  {
+    "name": "music",
+    "trans": [
+      "n. musical activity i.e. singing, whistling, playing an instrument and so on",
+      "n. punishment for one's actions",
+      "n. pleasing and harmonious sounds"
+    ],
+    "usphone": "[ˈmjuːzɪk]",
+    "ukphone": "[ˈmjuːzɪk]"
+  },
+  {
+    "name": "and",
+    "trans": [
+      "conj. (joining two nouns) and, (formal) and, (after a suppositional clause) in that case, (not only ...) but also, but, then"
+    ],
+    "usphone": "[ənd; ən; n; ænd]",
+    "ukphone": "[ənd]"
+  },
+  {
+    "name": "but",
+    "trans": ["adv. and nothing more"],
+    "usphone": "[bət; bʌt]",
+    "ukphone": "[bət]"
+  }
 ]

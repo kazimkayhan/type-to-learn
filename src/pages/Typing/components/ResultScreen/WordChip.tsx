@@ -1,26 +1,26 @@
-import usePronunciationSound from '@/hooks/usePronunciation'
-import Tooltip from '@/components/Tooltip'
-import type { WordWithIndex } from '@/typings'
-import { useCallback } from 'react'
+import { useCallback } from "react";
+import Tooltip from "@/components/Tooltip";
+import usePronunciationSound from "@/hooks/usePronunciation";
+import type { WordWithIndex } from "@/typings";
 
 export default function WordChip({ word }: { word: WordWithIndex }) {
-  const { play, stop } = usePronunciationSound(word.name, false)
+  const { play, stop } = usePronunciationSound(word.name, false);
 
   const onClickWord = useCallback(() => {
-    stop()
-    play()
-  }, [play, stop])
+    stop();
+    play();
+  }, [play, stop]);
 
   return (
     <Tooltip content={word.trans}>
       <button
         className="word-chip select-all"
-        type="button"
         onClick={onClickWord}
         title={`Read aloud ${word.name}`}
+        type="button"
       >
         <span>{word.name}</span>
       </button>
     </Tooltip>
-  )
+  );
 }

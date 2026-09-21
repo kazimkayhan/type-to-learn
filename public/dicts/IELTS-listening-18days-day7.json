@@ -1,545 +1,503 @@
 [
-    {
-        "name": "personal officer",
-        "trans": [
-            "n. personnel office staff"
-        ]
-    },
-    {
-        "name": "booking form",
-        "trans": [
-            "n. to arrange in advance form"
-        ]
-    },
-    {
-        "name": "file",
-        "trans": [
-            "v. file a formal charge against",
-            "v. place in a container for keeping records",
-            "v. record in a public office or in a court of law"
-        ]
-    },
-    {
-        "name": "cabin",
-        "trans": [
-            "v. to confine to a small space, such as a cabin",
-            "n. the enclosed compartment of an aircraft or spacecraft where passengers are carried",
-            "n. small room on a ship or boat where people sleep"
-        ]
-    },
-    {
-        "name": "bill",
-        "trans": [
-            "v. to advertise especially by posters or placards",
-            "v. to publicize or announce by placards",
-            "v. to demand payment"
-        ]
-    },
-    {
-        "name": "neutral",
-        "trans": [
-            "adj. having no net electric charge",
-            "adj. having no hue",
-            "adj. lacking distinguishing quality or characteristics"
-        ]
-    },
-    {
-        "name": "luggage",
-        "trans": [
-            "n. cases used to carry belongings when traveling"
-        ]
-    },
-    {
-        "name": "documentary film",
-        "trans": [
-            "n. newsreel"
-        ]
-    },
-    {
-        "name": "unloaded",
-        "trans": [
-            "adj. of weapons, not charged with ammunition"
-        ]
-    },
-    {
-        "name": "parking lot",
-        "trans": [
-            "n. a lot where cars are parked"
-        ]
-    },
-    {
-        "name": "comedy",
-        "trans": [
-            "n. a comic incident or series of incidents",
-            "n. light and humorous drama with a happy ending"
-        ]
-    },
-    {
-        "name": "campsite",
-        "trans": [
-            "n. a site where people on holiday can pitch a tent"
-        ]
-    },
-    {
-        "name": "fiction",
-        "trans": [
-            "n. a literary work based on the imagination and not necessarily on fact",
-            "n. a deliberately false or improbable account"
-        ]
-    },
-    {
-        "name": "metal paint",
-        "trans": [
-            "n. metal paint"
-        ]
-    },
-    {
-        "name": "meadow",
-        "trans": [
-            "n. a field where grass or alfalfa are grown to be made into hay"
-        ]
-    },
-    {
-        "name": "metal detector",
-        "trans": [
-            "n. detector that gives a signal when it detects the presence of metal"
-        ]
-    },
-    {
-        "name": "cash point",
-        "trans": [
-            "n. bank autoteller"
-        ]
-    },
-    {
-        "name": "label",
-        "trans": [
-            "v. distinguish (an element or atom) by using a radioactive isotope or an isotope of unusual mass for tracing through chemical reactions",
-            "v. distinguish (as a compound or molecule) by introducing a labeled atom",
-            "v. pronounce judgment on"
-        ]
-    },
-    {
-        "name": "ink",
-        "trans": [
-            "v. fill with ink",
-            "v. mark, coat, cover, or stain with ink",
-            "v. append one's signature to"
-        ]
-    },
-    {
-        "name": "statue",
-        "trans": [
-            "n. a sculpture representing a human or animal"
-        ]
-    },
-    {
-        "name": "seed",
-        "trans": [
-            "v. remove the seeds from",
-            "v. inoculate with microorganisms",
-            "v. sprinkle with silver iodide particles to disperse and cause rain"
-        ]
-    },
-    {
-        "name": "award",
-        "trans": [
-            "v. to give, especially as an honor or reward",
-            "v. to give as judged due or on the basis of merit",
-            "n. a grant made by a law court"
-        ]
-    },
-    {
-        "name": "vehicle",
-        "trans": [
-            "n. a conveyance that transports people or objects",
-            "n. a medium for the expression or achievement of something",
-            "n. any inanimate object, such as a towel, money, or clothing that can transmit infectious agents from one person to another"
-        ]
-    },
-    {
-        "name": "herb",
-        "trans": [
-            "n. aromatic potherb used in cookery for its savory qualities",
-            "n. a plant lacking a permanent woody stem"
-        ]
-    },
-    {
-        "name": "excursion",
-        "trans": [
-            "n. wandering from the main path of a journey",
-            "n. a journey taken for pleasure"
-        ]
-    },
-    {
-        "name": "blanket",
-        "trans": [
-            "v. to form a blanket-like cover over",
-            "adj. broad in scope or content",
-            "n. bedding that keeps a person warm in bed"
-        ]
-    },
-    {
-        "name": "extra",
-        "trans": [
-            "adj. further or added",
-            "adj. more than is needed, desired, or required",
-            "adj. added to a regular schedule"
-        ]
-    },
-    {
-        "name": "coal",
-        "trans": [
-            "v. to take in coal",
-            "v. to supply with coal",
-            "v. to burn to charcoal"
-        ]
-    },
-    {
-        "name": "terrain",
-        "trans": [
-            "n. a piece of ground having specific characteristics or military potential"
-        ]
-    },
-    {
-        "name": "aspect",
-        "trans": [
-            "n. the feelings expressed on a person's face",
-            "n. a characteristic to be considered",
-            "n. a distinct feature or element in a problem"
-        ]
-    },
-    {
-        "name": "allow",
-        "trans": [
-            "v. to plan for a certain possibility",
-            "v. to give or assign a resource to a particular person or cause",
-            "v. to consent to, to give permission"
-        ]
-    },
-    {
-        "name": "recommend",
-        "trans": [
-            "v. make attractive or acceptable",
-            "v. push for something",
-            "v. express a good opinion of"
-        ]
-    },
-    {
-        "name": "mine",
-        "trans": [
-            "v. lay mines",
-            "v. get from the earth by excavation",
-            "n. explosive device that explodes on contact"
-        ]
-    },
-    {
-        "name": "reception",
-        "trans": [
-            "n. the act of receiving",
-            "n. (American football) the act of catching a pass in football",
-            "n. quality or fidelity of a received broadcast"
-        ]
-    },
-    {
-        "name": "technological",
-        "trans": [
-            "adj. based in scientific and industrial progress",
-            "adj. of or relating to a practical subject that is organized according to scientific principles"
-        ]
-    },
-    {
-        "name": "staff",
-        "trans": [
-            "v. provide with staff",
-            "v. serve on the staff of",
-            "n. a strong rod or stick with a specialized utilitarian purpose"
-        ]
-    },
-    {
-        "name": "insight",
-        "trans": [
-            "n. grasping the inner nature of things intuitively",
-            "n. clear or deep perception of a situation",
-            "n. the clear (and often sudden) understanding of a complex situation"
-        ]
-    },
-    {
-        "name": "elevator",
-        "trans": [
-            "n. lifting device consisting of a platform or cage that is raised and lowered mechanically in a vertical shaft in order to move people from one floor to another in a building",
-            "n. an aircraft control surface that controls the aircraft about its pitch axis"
-        ]
-    },
-    {
-        "name": "underground",
-        "trans": [
-            "adj. conducted with or marked by hidden aims or methods",
-            "adj. under the level of the ground",
-            "adv. beneath the surface of the earth"
-        ]
-    },
-    {
-        "name": "employee",
-        "trans": [
-            "n. a worker who is hired to perform a job"
-        ]
-    },
-    {
-        "name": "notice board",
-        "trans": [
-            "n. a board that hangs on a wall"
-        ]
-    },
-    {
-        "name": "supportive",
-        "trans": [
-            "adj. furnishing support or assistance"
-        ]
-    },
-    {
-        "name": "budget",
-        "trans": [
-            "v. to make a budget",
-            "n. a summary of intended expenditures along with proposals for how to meet them",
-            "n. a sum of money allocated for a particular purpose"
-        ]
-    },
-    {
-        "name": "responsibility",
-        "trans": [
-            "n. the social force that binds you to the courses of action demanded by that force",
-            "n. a form of trustworthiness",
-            "n. the proper sphere or extent of your activities"
-        ]
-    },
-    {
-        "name": "atmosphere",
-        "trans": [
-            "n. a distinctive but intangible quality surrounding a person or thing",
-            "n. the mass of air surrounding the Earth",
-            "n. the envelope of gases surrounding any celestial body"
-        ]
-    },
-    {
-        "name": "guest",
-        "trans": [
-            "n. (computer science) any computer that is hooked up to a computer network",
-            "n. a visitor to whom hospitality is extended",
-            "n. a customer of a hotel or restaurant etc."
-        ]
-    },
-    {
-        "name": "screen",
-        "trans": [
-            "v. examine methodically",
-            "v. protect, hide, or conceal from danger or harm",
-            "v. separate with a riddle, as grain from chaff"
-        ]
-    },
-    {
-        "name": "deliver",
-        "trans": [
-            "v. cause to be born",
-            "v. deliver (a speech, oration, or idea)",
-            "v. utter an exclamation or noise of some sort"
-        ]
-    },
-    {
-        "name": "store room",
-        "trans": [
-            "n. storeroom"
-        ]
-    },
-    {
-        "name": "main hall",
-        "trans": [
-            "n. hall"
-        ]
-    },
-    {
-        "name": "lobby",
-        "trans": [
-            "v. detain in conversation by or as if by holding on to the outer garments of",
-            "n. a large entrance or reception room or area",
-            "n. a group of people who try actively to influence legislation"
-        ]
-    },
-    {
-        "name": "tax",
-        "trans": [
-            "v. make a charge against or accuse",
-            "v. use to the limit",
-            "v. levy a tax on"
-        ]
-    },
-    {
-        "name": "accountant",
-        "trans": [
-            "n. someone who maintains and audits business accounts"
-        ]
-    },
-    {
-        "name": "architecture",
-        "trans": [
-            "n. the profession of designing buildings and environments with consideration for their esthetic effect",
-            "n. an architectural product or work",
-            "n. (computer science) the structure and organization of a computer's hardware or system software"
-        ]
-    },
-    {
-        "name": "waterfall",
-        "trans": [
-            "n. a steep descent of the water of a river"
-        ]
-    },
-    {
-        "name": "rent",
-        "trans": [
-            "v. engage for service under a term of contract",
-            "v. grant use or occupation of under a term of contract",
-            "v. let for money"
-        ]
-    },
-    {
-        "name": "solar energy",
-        "trans": [
-            "n. energy from the sun that is converted into thermal or electrical energy"
-        ]
-    },
-    {
-        "name": "villa",
-        "trans": [
-            "n. a pretentious and luxurious country residence with extensive grounds",
-            "n. a country house in ancient Rome consisting of residential quarters and farm buildings around a courtyard",
-            "n. a detached or semidetached suburban house"
-        ]
-    },
-    {
-        "name": "picnic",
-        "trans": [
-            "v. eat alfresco, in the open air",
-            "n. any undertaking that is easy to do",
-            "n. any informal meal eaten outside or on an excursion"
-        ]
-    },
-    {
-        "name": "pond",
-        "trans": [
-            "n. a small lake"
-        ]
-    },
-    {
-        "name": "pool",
-        "trans": [
-            "v. join or form a pool of people",
-            "v. combine into a common fund",
-            "n. any of various games played on a pool table having 6 pockets"
-        ]
-    },
-    {
-        "name": "agent",
-        "trans": [
-            "n. the semantic role of the animate entity that instigates or causes the happening denoted by the verb in the clause",
-            "n. an active and efficient cause",
-            "n. a businessman who buys or sells for another in exchange for a commission"
-        ]
-    },
-    {
-        "name": "real estate",
-        "trans": [
-            "n. property consisting of houses and land"
-        ]
-    },
-    {
-        "name": "worthwhile",
-        "trans": [
-            "adj. sufficiently valuable to justify the investment of time or interest"
-        ]
-    },
-    {
-        "name": "location",
-        "trans": [
-            "n. a point or extent in space",
-            "n. a determination of the place where something is",
-            "n. the act of putting something in a certain place"
-        ]
-    },
-    {
-        "name": "suitable",
-        "trans": [
-            "adj. worthy of being chosen especially as a spouse",
-            "adj. meant or adapted for an occasion or use"
-        ]
-    },
-    {
-        "name": "decorate",
-        "trans": [
-            "v. provide with decoration",
-            "v. make more attractive by adding ornament, colour, etc.",
-            "v. award a mark of honor, such as a medal, to"
-        ]
-    },
-    {
-        "name": "appointment",
-        "trans": [
-            "n. the act of disposing of property by virtue of the power of appointment",
-            "n. the act of putting a person into a non-elective position",
-            "n. the job to which you are or hope to be appointed"
-        ]
-    },
-    {
-        "name": "single",
-        "trans": [
-            "v. hit a single",
-            "adj. being or characteristic of a single thing or person",
-            "adj. not married or related to the unmarried state"
-        ]
-    },
-    {
-        "name": "garage",
-        "trans": [
-            "v. keep or store in a garage",
-            "n. an outbuilding (or part of a building) for housing automobiles",
-            "n. a repair shop where cars and trucks are serviced and repaired"
-        ]
-    },
-    {
-        "name": "spare room",
-        "trans": [
-            "n. empty house"
-        ]
-    },
-    {
-        "name": "shade",
-        "trans": [
-            "v. to pass from one quality such as color to another by a slight degree",
-            "v. to vary slightly",
-            "v. to protect from light, heat, or view"
-        ]
-    },
-    {
-        "name": "string",
-        "trans": [
-            "v. add as if on a string",
-            "v. provide with strings",
-            "v. thread on or as if on a string"
-        ]
-    },
-    {
-        "name": "lettuce",
-        "trans": [
-            "n. leaves of any of various plants of Lactuca sativa",
-            "n. any of various plants of the genus Lactuca",
-            "n. informal terms for money"
-        ]
-    },
-    {
-        "name": "spoon",
-        "trans": [
-            "v. snuggle and lie in a position where one person faces the back of the others",
-            "v. scoop up or take up with a spoon",
-            "n. a piece of cutlery with a shallow bowl-shaped container and a handle"
-        ]
-    }
+  {
+    "name": "personal officer",
+    "trans": ["n. personnel office staff"]
+  },
+  {
+    "name": "booking form",
+    "trans": ["n. to arrange in advance form"]
+  },
+  {
+    "name": "file",
+    "trans": [
+      "v. file a formal charge against",
+      "v. place in a container for keeping records",
+      "v. record in a public office or in a court of law"
+    ]
+  },
+  {
+    "name": "cabin",
+    "trans": [
+      "v. to confine to a small space, such as a cabin",
+      "n. the enclosed compartment of an aircraft or spacecraft where passengers are carried",
+      "n. small room on a ship or boat where people sleep"
+    ]
+  },
+  {
+    "name": "bill",
+    "trans": [
+      "v. to advertise especially by posters or placards",
+      "v. to publicize or announce by placards",
+      "v. to demand payment"
+    ]
+  },
+  {
+    "name": "neutral",
+    "trans": [
+      "adj. having no net electric charge",
+      "adj. having no hue",
+      "adj. lacking distinguishing quality or characteristics"
+    ]
+  },
+  {
+    "name": "luggage",
+    "trans": ["n. cases used to carry belongings when traveling"]
+  },
+  {
+    "name": "documentary film",
+    "trans": ["n. newsreel"]
+  },
+  {
+    "name": "unloaded",
+    "trans": ["adj. of weapons, not charged with ammunition"]
+  },
+  {
+    "name": "parking lot",
+    "trans": ["n. a lot where cars are parked"]
+  },
+  {
+    "name": "comedy",
+    "trans": [
+      "n. a comic incident or series of incidents",
+      "n. light and humorous drama with a happy ending"
+    ]
+  },
+  {
+    "name": "campsite",
+    "trans": ["n. a site where people on holiday can pitch a tent"]
+  },
+  {
+    "name": "fiction",
+    "trans": [
+      "n. a literary work based on the imagination and not necessarily on fact",
+      "n. a deliberately false or improbable account"
+    ]
+  },
+  {
+    "name": "metal paint",
+    "trans": ["n. metal paint"]
+  },
+  {
+    "name": "meadow",
+    "trans": ["n. a field where grass or alfalfa are grown to be made into hay"]
+  },
+  {
+    "name": "metal detector",
+    "trans": [
+      "n. detector that gives a signal when it detects the presence of metal"
+    ]
+  },
+  {
+    "name": "cash point",
+    "trans": ["n. bank autoteller"]
+  },
+  {
+    "name": "label",
+    "trans": [
+      "v. distinguish (an element or atom) by using a radioactive isotope or an isotope of unusual mass for tracing through chemical reactions",
+      "v. distinguish (as a compound or molecule) by introducing a labeled atom",
+      "v. pronounce judgment on"
+    ]
+  },
+  {
+    "name": "ink",
+    "trans": [
+      "v. fill with ink",
+      "v. mark, coat, cover, or stain with ink",
+      "v. append one's signature to"
+    ]
+  },
+  {
+    "name": "statue",
+    "trans": ["n. a sculpture representing a human or animal"]
+  },
+  {
+    "name": "seed",
+    "trans": [
+      "v. remove the seeds from",
+      "v. inoculate with microorganisms",
+      "v. sprinkle with silver iodide particles to disperse and cause rain"
+    ]
+  },
+  {
+    "name": "award",
+    "trans": [
+      "v. to give, especially as an honor or reward",
+      "v. to give as judged due or on the basis of merit",
+      "n. a grant made by a law court"
+    ]
+  },
+  {
+    "name": "vehicle",
+    "trans": [
+      "n. a conveyance that transports people or objects",
+      "n. a medium for the expression or achievement of something",
+      "n. any inanimate object, such as a towel, money, or clothing that can transmit infectious agents from one person to another"
+    ]
+  },
+  {
+    "name": "herb",
+    "trans": [
+      "n. aromatic potherb used in cookery for its savory qualities",
+      "n. a plant lacking a permanent woody stem"
+    ]
+  },
+  {
+    "name": "excursion",
+    "trans": [
+      "n. wandering from the main path of a journey",
+      "n. a journey taken for pleasure"
+    ]
+  },
+  {
+    "name": "blanket",
+    "trans": [
+      "v. to form a blanket-like cover over",
+      "adj. broad in scope or content",
+      "n. bedding that keeps a person warm in bed"
+    ]
+  },
+  {
+    "name": "extra",
+    "trans": [
+      "adj. further or added",
+      "adj. more than is needed, desired, or required",
+      "adj. added to a regular schedule"
+    ]
+  },
+  {
+    "name": "coal",
+    "trans": [
+      "v. to take in coal",
+      "v. to supply with coal",
+      "v. to burn to charcoal"
+    ]
+  },
+  {
+    "name": "terrain",
+    "trans": [
+      "n. a piece of ground having specific characteristics or military potential"
+    ]
+  },
+  {
+    "name": "aspect",
+    "trans": [
+      "n. the feelings expressed on a person's face",
+      "n. a characteristic to be considered",
+      "n. a distinct feature or element in a problem"
+    ]
+  },
+  {
+    "name": "allow",
+    "trans": [
+      "v. to plan for a certain possibility",
+      "v. to give or assign a resource to a particular person or cause",
+      "v. to consent to, to give permission"
+    ]
+  },
+  {
+    "name": "recommend",
+    "trans": [
+      "v. make attractive or acceptable",
+      "v. push for something",
+      "v. express a good opinion of"
+    ]
+  },
+  {
+    "name": "mine",
+    "trans": [
+      "v. lay mines",
+      "v. get from the earth by excavation",
+      "n. explosive device that explodes on contact"
+    ]
+  },
+  {
+    "name": "reception",
+    "trans": [
+      "n. the act of receiving",
+      "n. (American football) the act of catching a pass in football",
+      "n. quality or fidelity of a received broadcast"
+    ]
+  },
+  {
+    "name": "technological",
+    "trans": [
+      "adj. based in scientific and industrial progress",
+      "adj. of or relating to a practical subject that is organized according to scientific principles"
+    ]
+  },
+  {
+    "name": "staff",
+    "trans": [
+      "v. provide with staff",
+      "v. serve on the staff of",
+      "n. a strong rod or stick with a specialized utilitarian purpose"
+    ]
+  },
+  {
+    "name": "insight",
+    "trans": [
+      "n. grasping the inner nature of things intuitively",
+      "n. clear or deep perception of a situation",
+      "n. the clear (and often sudden) understanding of a complex situation"
+    ]
+  },
+  {
+    "name": "elevator",
+    "trans": [
+      "n. lifting device consisting of a platform or cage that is raised and lowered mechanically in a vertical shaft in order to move people from one floor to another in a building",
+      "n. an aircraft control surface that controls the aircraft about its pitch axis"
+    ]
+  },
+  {
+    "name": "underground",
+    "trans": [
+      "adj. conducted with or marked by hidden aims or methods",
+      "adj. under the level of the ground",
+      "adv. beneath the surface of the earth"
+    ]
+  },
+  {
+    "name": "employee",
+    "trans": ["n. a worker who is hired to perform a job"]
+  },
+  {
+    "name": "notice board",
+    "trans": ["n. a board that hangs on a wall"]
+  },
+  {
+    "name": "supportive",
+    "trans": ["adj. furnishing support or assistance"]
+  },
+  {
+    "name": "budget",
+    "trans": [
+      "v. to make a budget",
+      "n. a summary of intended expenditures along with proposals for how to meet them",
+      "n. a sum of money allocated for a particular purpose"
+    ]
+  },
+  {
+    "name": "responsibility",
+    "trans": [
+      "n. the social force that binds you to the courses of action demanded by that force",
+      "n. a form of trustworthiness",
+      "n. the proper sphere or extent of your activities"
+    ]
+  },
+  {
+    "name": "atmosphere",
+    "trans": [
+      "n. a distinctive but intangible quality surrounding a person or thing",
+      "n. the mass of air surrounding the Earth",
+      "n. the envelope of gases surrounding any celestial body"
+    ]
+  },
+  {
+    "name": "guest",
+    "trans": [
+      "n. (computer science) any computer that is hooked up to a computer network",
+      "n. a visitor to whom hospitality is extended",
+      "n. a customer of a hotel or restaurant etc."
+    ]
+  },
+  {
+    "name": "screen",
+    "trans": [
+      "v. examine methodically",
+      "v. protect, hide, or conceal from danger or harm",
+      "v. separate with a riddle, as grain from chaff"
+    ]
+  },
+  {
+    "name": "deliver",
+    "trans": [
+      "v. cause to be born",
+      "v. deliver (a speech, oration, or idea)",
+      "v. utter an exclamation or noise of some sort"
+    ]
+  },
+  {
+    "name": "store room",
+    "trans": ["n. storeroom"]
+  },
+  {
+    "name": "main hall",
+    "trans": ["n. hall"]
+  },
+  {
+    "name": "lobby",
+    "trans": [
+      "v. detain in conversation by or as if by holding on to the outer garments of",
+      "n. a large entrance or reception room or area",
+      "n. a group of people who try actively to influence legislation"
+    ]
+  },
+  {
+    "name": "tax",
+    "trans": [
+      "v. make a charge against or accuse",
+      "v. use to the limit",
+      "v. levy a tax on"
+    ]
+  },
+  {
+    "name": "accountant",
+    "trans": ["n. someone who maintains and audits business accounts"]
+  },
+  {
+    "name": "architecture",
+    "trans": [
+      "n. the profession of designing buildings and environments with consideration for their esthetic effect",
+      "n. an architectural product or work",
+      "n. (computer science) the structure and organization of a computer's hardware or system software"
+    ]
+  },
+  {
+    "name": "waterfall",
+    "trans": ["n. a steep descent of the water of a river"]
+  },
+  {
+    "name": "rent",
+    "trans": [
+      "v. engage for service under a term of contract",
+      "v. grant use or occupation of under a term of contract",
+      "v. let for money"
+    ]
+  },
+  {
+    "name": "solar energy",
+    "trans": [
+      "n. energy from the sun that is converted into thermal or electrical energy"
+    ]
+  },
+  {
+    "name": "villa",
+    "trans": [
+      "n. a pretentious and luxurious country residence with extensive grounds",
+      "n. a country house in ancient Rome consisting of residential quarters and farm buildings around a courtyard",
+      "n. a detached or semidetached suburban house"
+    ]
+  },
+  {
+    "name": "picnic",
+    "trans": [
+      "v. eat alfresco, in the open air",
+      "n. any undertaking that is easy to do",
+      "n. any informal meal eaten outside or on an excursion"
+    ]
+  },
+  {
+    "name": "pond",
+    "trans": ["n. a small lake"]
+  },
+  {
+    "name": "pool",
+    "trans": [
+      "v. join or form a pool of people",
+      "v. combine into a common fund",
+      "n. any of various games played on a pool table having 6 pockets"
+    ]
+  },
+  {
+    "name": "agent",
+    "trans": [
+      "n. the semantic role of the animate entity that instigates or causes the happening denoted by the verb in the clause",
+      "n. an active and efficient cause",
+      "n. a businessman who buys or sells for another in exchange for a commission"
+    ]
+  },
+  {
+    "name": "real estate",
+    "trans": ["n. property consisting of houses and land"]
+  },
+  {
+    "name": "worthwhile",
+    "trans": [
+      "adj. sufficiently valuable to justify the investment of time or interest"
+    ]
+  },
+  {
+    "name": "location",
+    "trans": [
+      "n. a point or extent in space",
+      "n. a determination of the place where something is",
+      "n. the act of putting something in a certain place"
+    ]
+  },
+  {
+    "name": "suitable",
+    "trans": [
+      "adj. worthy of being chosen especially as a spouse",
+      "adj. meant or adapted for an occasion or use"
+    ]
+  },
+  {
+    "name": "decorate",
+    "trans": [
+      "v. provide with decoration",
+      "v. make more attractive by adding ornament, colour, etc.",
+      "v. award a mark of honor, such as a medal, to"
+    ]
+  },
+  {
+    "name": "appointment",
+    "trans": [
+      "n. the act of disposing of property by virtue of the power of appointment",
+      "n. the act of putting a person into a non-elective position",
+      "n. the job to which you are or hope to be appointed"
+    ]
+  },
+  {
+    "name": "single",
+    "trans": [
+      "v. hit a single",
+      "adj. being or characteristic of a single thing or person",
+      "adj. not married or related to the unmarried state"
+    ]
+  },
+  {
+    "name": "garage",
+    "trans": [
+      "v. keep or store in a garage",
+      "n. an outbuilding (or part of a building) for housing automobiles",
+      "n. a repair shop where cars and trucks are serviced and repaired"
+    ]
+  },
+  {
+    "name": "spare room",
+    "trans": ["n. empty house"]
+  },
+  {
+    "name": "shade",
+    "trans": [
+      "v. to pass from one quality such as color to another by a slight degree",
+      "v. to vary slightly",
+      "v. to protect from light, heat, or view"
+    ]
+  },
+  {
+    "name": "string",
+    "trans": [
+      "v. add as if on a string",
+      "v. provide with strings",
+      "v. thread on or as if on a string"
+    ]
+  },
+  {
+    "name": "lettuce",
+    "trans": [
+      "n. leaves of any of various plants of Lactuca sativa",
+      "n. any of various plants of the genus Lactuca",
+      "n. informal terms for money"
+    ]
+  },
+  {
+    "name": "spoon",
+    "trans": [
+      "v. snuggle and lie in a position where one person faces the back of the others",
+      "v. scoop up or take up with a spoon",
+      "n. a piece of cutlery with a shallow bowl-shaped container and a handle"
+    ]
+  }
 ]

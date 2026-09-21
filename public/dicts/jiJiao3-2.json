@@ -1,731 +1,719 @@
 [
-    {
-        "name": "farm",
-        "trans": [
-            "v. cultivate by growing, often involving improvements by means of agricultural techniques",
-            "v. collect fees or profits",
-            "v. be a farmer"
-        ],
-        "usphone": "[fɑːrm]",
-        "ukphone": "[fɑːm]"
-    },
-    {
-        "name": "farmer",
-        "trans": [
-            "n. a person who operates a farm"
-        ],
-        "usphone": "[ˈfɑːrmər]",
-        "ukphone": "[ˈfɑːmə(r)]"
-    },
-    {
-        "name": "pig",
-        "trans": [
-            "v. give birth",
-            "v. eat greedily",
-            "v. live like a pig, in squalor"
-        ],
-        "usphone": "[pɪɡ]",
-        "ukphone": "[pɪɡ]"
-    },
-    {
-        "name": "cow",
-        "trans": [
-            "v. to subdue, restrain, or overcome by affecting with a feeling of awe",
-            "n. mature female of mammals of which the male is called `bull'",
-            "n. female of domestic cattle: '`moo-cow' is a child's term'"
-        ],
-        "usphone": "[kaʊ]",
-        "ukphone": "[kaʊ]"
-    },
-    {
-        "name": "sheep",
-        "trans": [
-            "n. woolly usually horned ruminant mammal related to the goat",
-            "n. a docile and vulnerable person who would rather follow than make an independent decision",
-            "n. a timid defenseless simpleton who is readily preyed upon"
-        ],
-        "usphone": "[ʃiːp]",
-        "ukphone": "[ʃiːp]"
-    },
-    {
-        "name": "a",
-        "trans": [
-            "n. the 1st letter of the Roman alphabet",
-            "the indefinite article, used to non-specifically identify something"
-        ],
-        "usphone": "[ə; eɪ]",
-        "ukphone": "[ə]"
-    },
-    {
-        "name": "an",
-        "trans": [
-            "art. one to exist vowel phoneme front"
-        ],
-        "usphone": "[ən; æn]",
-        "ukphone": "[ən]"
-    },
-    {
-        "name": "cat",
-        "trans": [
-            "v. to eject the contents of the stomach through the mouth",
-            "v. to beat with a cat-o'-nine-tails",
-            "n. feline mammal usually having thick soft fur and no ability to roar: domestic cats"
-        ],
-        "usphone": "[kæt]",
-        "ukphone": "[kæt]"
-    },
-    {
-        "name": "dog",
-        "trans": [
-            "v. go after with the intent to catch",
-            "n. a member of the genus Canis (probably descended from the common wolf) that has been domesticated by man since prehistoric times",
-            "n. metal supports for logs in a fireplace"
-        ],
-        "usphone": "[dɔːɡ]",
-        "ukphone": "[dɒɡ]"
-    },
-    {
-        "name": "duck",
-        "trans": [
-            "v. avoid or try to avoid fulfilling, answering, or performing (duties, questions, or issues)",
-            "v. to move the head or body quickly downwards or away",
-            "v. submerge or plunge suddenly"
-        ],
-        "usphone": "[dʌk]",
-        "ukphone": "[dʌk]"
-    },
-    {
-        "name": "fish",
-        "trans": [
-            "v. catch or try to catch fish or shellfish",
-            "v. seek indirectly",
-            "n. any of various mostly cold-blooded aquatic vertebrates usually having scales and breathing through gills"
-        ],
-        "usphone": "[fɪʃ]",
-        "ukphone": "[fɪʃ]"
-    },
-    {
-        "name": "bird",
-        "trans": [
-            "v. to watch and study birds in their natural habitat",
-            "n. warm-blooded egg-laying vertebrates characterized by feathers and forelimbs modified as wings",
-            "n. badminton equipment consisting of a ball of cork or rubber with a crown of feathers"
-        ],
-        "usphone": "[bɜːrd]",
-        "ukphone": "[bɜːd]"
-    },
-    {
-        "name": "animal",
-        "trans": [
-            "adj. marked by the appetites and passions of the body",
-            "n. a living organism characterized by voluntary movement"
-        ],
-        "usphone": "[ˈænɪm(ə)l]",
-        "ukphone": "[ˈænɪm(ə)l]"
-    },
-    {
-        "name": "horse",
-        "trans": [
-            "v. provide with a horse or horses",
-            "n. solid-hoofed herbivorous quadruped domesticated since prehistoric times",
-            "n. a padded gymnastic apparatus on legs"
-        ],
-        "usphone": "[hɔːrs]",
-        "ukphone": "[hɔːs]"
-    },
-    {
-        "name": "yes",
-        "trans": [
-            "n. an affirmative"
-        ],
-        "usphone": "[jes]",
-        "ukphone": "[jes]"
-    },
-    {
-        "name": "no",
-        "trans": [
-            "adj. quantifier",
-            "adv. used to express refusal or denial or disagreement etc or especially to emphasize a negative statement",
-            "adv. not in any degree or manner"
-        ],
-        "usphone": "[noʊ]",
-        "ukphone": "[nəʊ]"
-    },
-    {
-        "name": "in",
-        "trans": [
-            "adj. holding office",
-            "adj. currently fashionable",
-            "adj. directed or bound inward"
-        ],
-        "usphone": "[ɪn]",
-        "ukphone": "[ɪn]"
-    },
-    {
-        "name": "on",
-        "trans": [
-            "adj. in operation or operational",
-            "adj. of events, planned or scheduled",
-            "adv. with a forward motion"
-        ],
-        "usphone": "[ɑːn]",
-        "ukphone": "[ɒn]"
-    },
-    {
-        "name": "under",
-        "trans": [
-            "adj. located below or beneath something else",
-            "adj. lower in rank, power, or authority",
-            "adv. further down"
-        ],
-        "usphone": "[ˈʌndər]",
-        "ukphone": "[ˈʌndə(r)]"
-    },
-    {
-        "name": "box",
-        "trans": [
-            "v. to put into a box",
-            "v. to engage in a boxing match",
-            "v. to hit with the fist"
-        ],
-        "usphone": "[bɑːks]",
-        "ukphone": "[bɒks]"
-    },
-    {
-        "name": "zoo",
-        "trans": [
-            "n. the facility where wild animals are housed for exhibition"
-        ],
-        "usphone": "[zuː]",
-        "ukphone": "[zuː]"
-    },
-    {
-        "name": "panda",
-        "trans": [
-            "n. reddish-brown Old World raccoon-like carnivore",
-            "n. large black-and-white herbivorous mammal of bamboo forests of China and Tibet"
-        ],
-        "usphone": "[ˈpændə]",
-        "ukphone": "[ˈpændə]"
-    },
-    {
-        "name": "monkey",
-        "trans": [
-            "v. do random, unplanned work or activities or spend time idly",
-            "v. play around with or alter or falsify, usually secretively or dishonestly",
-            "n. any of various long-tailed primates (excluding the prosimians)"
-        ],
-        "usphone": "[ˈmʌŋki]",
-        "ukphone": "[ˈmʌŋki]"
-    },
-    {
-        "name": "elephant",
-        "trans": [
-            "n. five-toed pachyderm",
-            "n. the symbol of the Republican Party"
-        ],
-        "usphone": "[ˈelɪfənt]",
-        "ukphone": "[ˈelɪfənt]"
-    },
-    {
-        "name": "big",
-        "trans": [
-            "adj. prodigious",
-            "adj. conspicuous in position or importance",
-            "adj. given or giving freely"
-        ],
-        "usphone": "[bɪɡ]",
-        "ukphone": "[bɪɡ]"
-    },
-    {
-        "name": "small",
-        "trans": [
-            "adj. made to seem smaller or less, especially in worth",
-            "adj. limited or below average in number or quantity or magnitude or extent",
-            "adj. limited in size or scope"
-        ],
-        "usphone": "[smɔːl]",
-        "ukphone": "[smɔːl]"
-    },
-    {
-        "name": "tiger",
-        "trans": [
-            "n. large feline of forests in most of Asia having a tawny coat with black stripes",
-            "n. a fierce or audacious person"
-        ],
-        "usphone": "[ˈtaɪɡər]",
-        "ukphone": "[ˈtaɪɡə(r)]"
-    },
-    {
-        "name": "bear",
-        "trans": [
-            "v. to have on one's person; to carry",
-            "v. to give birth to",
-            "v. to be pregnant with a child"
-        ],
-        "usphone": "[ber]",
-        "ukphone": "[beə(r)]"
-    },
-    {
-        "name": "long",
-        "trans": [
-            "v. desire strongly or persistently",
-            "adj. having or being more than normal or necessary:'long on brains'",
-            "adj. primarily spatial sense"
-        ],
-        "usphone": "[lɔːŋ]",
-        "ukphone": "[lɒŋ]"
-    },
-    {
-        "name": "short",
-        "trans": [
-            "v. create a short circuit in",
-            "v. cheat someone by not returning him enough money",
-            "adj. tending to crumble or break into flakes due to a large amount of shortening"
-        ],
-        "usphone": "[ʃɔːrt]",
-        "ukphone": "[ʃɔːt]"
-    },
-    {
-        "name": "one",
-        "trans": [
-            "adj. eminent beyond or above comparison",
-            "adj. indefinite in time or position",
-            "adj. used informally as an intensifier"
-        ],
-        "usphone": "[wʌn]",
-        "ukphone": "[wʌn]"
-    },
-    {
-        "name": "two",
-        "trans": [
-            "adj. being one more than one",
-            "n. one of the four playing cards in a deck that have two spots",
-            "n. the cardinal number that is the sum of one and one or a numeral representing this number"
-        ],
-        "usphone": "[tuː]",
-        "ukphone": "[tuː]"
-    },
-    {
-        "name": "three",
-        "trans": [
-            "adj. being one more than two",
-            "n. one of four playing cards in a deck having three pips",
-            "n. the cardinal number that is the sum of one and one and one"
-        ],
-        "usphone": "[θriː]",
-        "ukphone": "[θriː]"
-    },
-    {
-        "name": "four",
-        "trans": [
-            "adj. being one more than three",
-            "n. a playing card or domino or die whose upward face shows four pips",
-            "n. the cardinal number that is the sum of three and one"
-        ],
-        "usphone": "[fɔːr]",
-        "ukphone": "[fɔː(r)]"
-    },
-    {
-        "name": "five",
-        "trans": [
-            "adj. being one more than four",
-            "n. a playing card or a domino or a die whose upward face shows five pips",
-            "n. a team that plays basketball"
-        ],
-        "usphone": "[faɪv]",
-        "ukphone": "[faɪv]"
-    },
-    {
-        "name": "six",
-        "trans": [
-            "adj. denoting a quantity consisting of six items or units",
-            "n. a playing card or domino or die whose upward face shows six pips",
-            "n. the cardinal number that is the sum of five and one"
-        ],
-        "usphone": "[sɪks]",
-        "ukphone": "[sɪks]"
-    },
-    {
-        "name": "seven",
-        "trans": [
-            "adj. being one more than six",
-            "n. one of four playing cards in a deck with seven pips on the face",
-            "n. the cardinal number that is the sum of six and one"
-        ],
-        "usphone": "[ˈsev(ə)n]",
-        "ukphone": "[ˈsev(ə)n]"
-    },
-    {
-        "name": "eight",
-        "trans": [
-            "adj. being one more than seven",
-            "n. one of four playing cards in a deck with eight pips on the face",
-            "n. the cardinal number that is the sum of seven and one"
-        ],
-        "usphone": "[eɪt]",
-        "ukphone": "[eɪt]"
-    },
-    {
-        "name": "nine",
-        "trans": [
-            "adj. denoting a quantity consisting of one more than eight and one less than ten",
-            "n. one of four playing cards in a deck with nine pips on the face",
-            "n. a team of professional baseball players who play and travel together"
-        ],
-        "usphone": "[naɪn]",
-        "ukphone": "[naɪn]"
-    },
-    {
-        "name": "ten",
-        "trans": [
-            "adj. being one more than nine",
-            "n. one of four playing cards in a deck with ten pips on the face",
-            "n. the cardinal number that is the sum of nine and one"
-        ],
-        "usphone": "[ten]",
-        "ukphone": "[ten]"
-    },
-    {
-        "name": "river",
-        "trans": [
-            "n. a large natural stream of water"
-        ],
-        "usphone": "[ˈrɪvər]",
-        "ukphone": "[ˈrɪvə(r)]"
-    },
-    {
-        "name": "tree",
-        "trans": [
-            "v. stretch (a shoe) on a shoetree",
-            "v. chase an animal up a tree",
-            "v. plant with trees"
-        ],
-        "usphone": "[triː]",
-        "ukphone": "[triː]"
-    },
-    {
-        "name": "grass",
-        "trans": [
-            "v. give away information about somebody",
-            "v. shoot down, of birds",
-            "v. feed with grass"
-        ],
-        "usphone": "[ɡræs]",
-        "ukphone": "[ɡrɑːs]"
-    },
-    {
-        "name": "banana",
-        "trans": [
-            "n. elongated crescent-shaped yellow fruit with soft sweet flesh",
-            "n. any of several tropical and subtropical treelike herbs of the genus Musa having a terminal crown of large entire leaves and usually bearing hanging clusters of elongated fruits"
-        ],
-        "usphone": "[bəˈnænə]",
-        "ukphone": "[bəˈnɑːnə]"
-    },
-    {
-        "name": "food",
-        "trans": [
-            "n. any substance that can be metabolized by an animal to give energy and build tissue",
-            "n. anything that provides mental stimulus for thinking",
-            "n. any solid substance (as opposed to liquid) that is used as a source of nourishment"
-        ],
-        "usphone": "[fuːd]",
-        "ukphone": "[fuːd]"
-    },
-    {
-        "name": "eat",
-        "trans": [
-            "v. cause to deteriorate due to the action of water, air, or an acid",
-            "v. use up (resources or materials)",
-            "v. eat a meal"
-        ],
-        "usphone": "[iːt]",
-        "ukphone": "[iːt]"
-    },
-    {
-        "name": "drink",
-        "trans": [
-            "v. be fascinated or spell-bound by",
-            "v. take in liquids",
-            "v. consume alcohol"
-        ],
-        "usphone": "[drɪŋk]",
-        "ukphone": "[drɪŋk]"
-    },
-    {
-        "name": "juice",
-        "trans": [
-            "n. any of several liquids of the body",
-            "n. the liquid part that can be extracted from plant or animal tissue by squeezing or cooking",
-            "n. electric current"
-        ],
-        "usphone": "[dʒuːs]",
-        "ukphone": "[dʒuːs]"
-    },
-    {
-        "name": "I",
-        "trans": [
-            "adj. used of a single unit or thing",
-            "n. the 9th letter of the Roman alphabet"
-        ],
-        "usphone": "[aɪ]",
-        "ukphone": "[aɪ]"
-    },
-    {
-        "name": "soup",
-        "trans": [
-            "v. dope (a racehorse)",
-            "n. liquid food especially of meat or fish or vegetable stock often containing pieces of solid food",
-            "n. an unfortunate situation"
-        ],
-        "usphone": "[suːp]",
-        "ukphone": "[suːp]"
-    },
-    {
-        "name": "noodle",
-        "trans": [
-            "n. informal terms for a human head",
-            "n. a ribbonlike strip of pasta"
-        ],
-        "usphone": "[ˈnuːd(ə)l]",
-        "ukphone": "[ˈnuːd(ə)l]"
-    },
-    {
-        "name": "rice",
-        "trans": [
-            "v. sieve so that it becomes the consistency of rice",
-            "n. grains used as food either unpolished or more often polished",
-            "n. annual or perennial rhizomatous marsh grasses"
-        ],
-        "usphone": "[raɪs]",
-        "ukphone": "[raɪs]"
-    },
-    {
-        "name": "chicken",
-        "trans": [
-            "adj. easily frightened",
-            "n. a domestic fowl bred for flesh or eggs",
-            "n. a foolhardy competition"
-        ],
-        "usphone": "[ˈtʃɪkɪn]",
-        "ukphone": "[ˈtʃɪkɪn]"
-    },
-    {
-        "name": "vegetable",
-        "trans": [
-            "n. edible seeds or roots or stems or leaves or bulbs or tubers or nonsweet fruits of any of numerous herbaceous plant",
-            "n. any of various herbaceous plants cultivated for an edible part such as the fruit or the root of the beet or the leaf of spinach or the seeds of bean plants or the flower buds of broccoli or cauliflower"
-        ],
-        "usphone": "[ˈvedʒtəbl]",
-        "ukphone": "[ˈvedʒtəb(ə)l]"
-    },
-    {
-        "name": "fruit",
-        "trans": [
-            "v. bear fruit",
-            "v. cause to bear fruit",
-            "n. an amount of a product"
-        ],
-        "usphone": "[fruːt]",
-        "ukphone": "[fruːt]"
-    },
-    {
-        "name": "like",
-        "trans": [
-            "v. feel about or towards",
-            "v. be fond of",
-            "v. find enjoyable or agreeable"
-        ],
-        "usphone": "[laɪk]",
-        "ukphone": "[laɪk]"
-    },
-    {
-        "name": "good",
-        "trans": [
-            "adj. promoting or enhancing well-being",
-            "adj. having the normally expected amount",
-            "adj. with or in a close or intimate relationship"
-        ],
-        "usphone": "[ɡʊd]",
-        "ukphone": "[ɡʊd]"
-    },
-    {
-        "name": "milk",
-        "trans": [
-            "v. take milk from female mammals",
-            "v. add milk to",
-            "v. exploit as much as possible"
-        ],
-        "usphone": "[mɪlk]",
-        "ukphone": "[mɪlk]"
-    },
-    {
-        "name": "egg",
-        "trans": [
-            "v. coat with beaten egg",
-            "v. throw eggs at",
-            "n. animal reproductive body consisting of an ovum or embryo together with nutritive and protective envelopes"
-        ],
-        "usphone": "[eɡ]",
-        "ukphone": "[eɡ]"
-    },
-    {
-        "name": "bread",
-        "trans": [
-            "v. to cover with bread crumbs",
-            "n. food made from dough of flour or meal and usually raised with yeast or baking powder and then baked",
-            "n. informal terms for money"
-        ],
-        "usphone": "[bred]",
-        "ukphone": "[bred]"
-    },
-    {
-        "name": "apple",
-        "trans": [
-            "n. fruit with red, yellow, or green skin with a sweet or tart crispy white flesh",
-            "n. native Eurasian tree widely cultivated in many varieties for its firm rounded edible fruits"
-        ],
-        "usphone": "[ˈæpl]",
-        "ukphone": "[ˈæp(ə)l]"
-    },
-    {
-        "name": "orange",
-        "trans": [
-            "adj. of the color between red and yellow",
-            "n. any pigment producing the orange color",
-            "n. orange color or pigment"
-        ],
-        "usphone": "[ˈɔrɪndʒ]",
-        "ukphone": "[ˈɒrɪndʒ]"
-    },
-    {
-        "name": "eleven",
-        "trans": [
-            "adj. being one more than ten",
-            "n. a team that plays football",
-            "n. the cardinal number that is the sum of ten and one"
-        ],
-        "usphone": "[ɪˈlevn]",
-        "ukphone": "[ɪˈlev(ə)n]"
-    },
-    {
-        "name": "twelve",
-        "trans": [
-            "adj. denoting a quantity consisting of 12 items or units",
-            "n. the cardinal number that is the sum of eleven and one"
-        ],
-        "usphone": "[twelv]",
-        "ukphone": "[twelv]"
-    },
-    {
-        "name": "thirteen",
-        "trans": [
-            "adj. being one more than twelve",
-            "n. the cardinal number that is the sum of twelve and one"
-        ],
-        "usphone": "[ˌθɜːrˈtiːn]",
-        "ukphone": "[ˌθɜːˈtiːn]"
-    },
-    {
-        "name": "fourteen",
-        "trans": [
-            "adj. being one more than thirteen",
-            "n. the cardinal number that is the sum of thirteen and one"
-        ],
-        "usphone": "[ˌfɔːrˈtiːn]",
-        "ukphone": "[ˌfɔːˈtiːn]"
-    },
-    {
-        "name": "fifteen",
-        "trans": [
-            "adj. being one more than fourteen",
-            "n. the cardinal number that is the sum of fourteen and one"
-        ],
-        "usphone": "[ˌfɪfˈtiːn]",
-        "ukphone": "[ˌfɪfˈtiːn]"
-    },
-    {
-        "name": "ice cream",
-        "trans": [
-            "n. frozen dessert containing cream and sugar and flavoring"
-        ],
-        "usphone": "[ˈaɪs kriːm]",
-        "ukphone": "[ˈaɪs kriːm]"
-    },
-    {
-        "name": "sixteen",
-        "trans": [
-            "adj. being one more than fifteen",
-            "n. the cardinal number that is the sum of fifteen and one"
-        ],
-        "usphone": "[ˌsɪksˈtiːn]",
-        "ukphone": "[ˌsɪksˈtiːn]"
-    },
-    {
-        "name": "seventeen",
-        "trans": [
-            "adj. being one more than sixteen",
-            "n. the cardinal number that is the sum of sixteen and one"
-        ],
-        "usphone": "[ˌsevnˈtiːn]",
-        "ukphone": "[ˌsev(ə)nˈtiːn]"
-    },
-    {
-        "name": "eighteen",
-        "trans": [
-            "adj. being one more than seventeen",
-            "n. the cardinal number that is the sum of seventeen and one"
-        ],
-        "usphone": "[ˌeɪˈtiːn]",
-        "ukphone": "[ˌeɪˈtiːn]"
-    },
-    {
-        "name": "nineteen",
-        "trans": [
-            "adj. being one more than eighteen",
-            "n. the cardinal number that is the sum of eighteen and one"
-        ],
-        "usphone": "[ˌnaɪnˈtiːn]",
-        "ukphone": "[ˌnaɪnˈtiːn]"
-    },
-    {
-        "name": "twenty",
-        "trans": [
-            "adj. denoting a quantity consisting of 20 items or units",
-            "n. a United States bill worth 20 dollars",
-            "n. the cardinal number that is the sum of nineteen and one"
-        ],
-        "usphone": "[ˈtwenti]",
-        "ukphone": "[ˈtwenti]"
-    },
-    {
-        "name": "please",
-        "trans": [
-            "v. give pleasure to or be pleasing to",
-            "v. give satisfaction",
-            "v. be the will of or have the will to"
-        ],
-        "usphone": "[pliːz]",
-        "ukphone": "[pliːz]"
-    },
-    {
-        "name": "thanks",
-        "trans": [
-            "n. with the help of or owing to",
-            "n. an acknowledgment of appreciation"
-        ],
-        "usphone": "[θæŋks]",
-        "ukphone": "[θæŋks]"
-    },
-    {
-        "name": "welcome",
-        "trans": [
-            "v. bid welcome to",
-            "v. receive someone, as into one's house",
-            "v. accept gladly"
-        ],
-        "usphone": "[ˈwelkəm]",
-        "ukphone": "[ˈwelkəm]"
-    }
+  {
+    "name": "farm",
+    "trans": [
+      "v. cultivate by growing, often involving improvements by means of agricultural techniques",
+      "v. collect fees or profits",
+      "v. be a farmer"
+    ],
+    "usphone": "[fɑːrm]",
+    "ukphone": "[fɑːm]"
+  },
+  {
+    "name": "farmer",
+    "trans": ["n. a person who operates a farm"],
+    "usphone": "[ˈfɑːrmər]",
+    "ukphone": "[ˈfɑːmə(r)]"
+  },
+  {
+    "name": "pig",
+    "trans": [
+      "v. give birth",
+      "v. eat greedily",
+      "v. live like a pig, in squalor"
+    ],
+    "usphone": "[pɪɡ]",
+    "ukphone": "[pɪɡ]"
+  },
+  {
+    "name": "cow",
+    "trans": [
+      "v. to subdue, restrain, or overcome by affecting with a feeling of awe",
+      "n. mature female of mammals of which the male is called `bull'",
+      "n. female of domestic cattle: '`moo-cow' is a child's term'"
+    ],
+    "usphone": "[kaʊ]",
+    "ukphone": "[kaʊ]"
+  },
+  {
+    "name": "sheep",
+    "trans": [
+      "n. woolly usually horned ruminant mammal related to the goat",
+      "n. a docile and vulnerable person who would rather follow than make an independent decision",
+      "n. a timid defenseless simpleton who is readily preyed upon"
+    ],
+    "usphone": "[ʃiːp]",
+    "ukphone": "[ʃiːp]"
+  },
+  {
+    "name": "a",
+    "trans": [
+      "n. the 1st letter of the Roman alphabet",
+      "the indefinite article, used to non-specifically identify something"
+    ],
+    "usphone": "[ə; eɪ]",
+    "ukphone": "[ə]"
+  },
+  {
+    "name": "an",
+    "trans": ["art. one to exist vowel phoneme front"],
+    "usphone": "[ən; æn]",
+    "ukphone": "[ən]"
+  },
+  {
+    "name": "cat",
+    "trans": [
+      "v. to eject the contents of the stomach through the mouth",
+      "v. to beat with a cat-o'-nine-tails",
+      "n. feline mammal usually having thick soft fur and no ability to roar: domestic cats"
+    ],
+    "usphone": "[kæt]",
+    "ukphone": "[kæt]"
+  },
+  {
+    "name": "dog",
+    "trans": [
+      "v. go after with the intent to catch",
+      "n. a member of the genus Canis (probably descended from the common wolf) that has been domesticated by man since prehistoric times",
+      "n. metal supports for logs in a fireplace"
+    ],
+    "usphone": "[dɔːɡ]",
+    "ukphone": "[dɒɡ]"
+  },
+  {
+    "name": "duck",
+    "trans": [
+      "v. avoid or try to avoid fulfilling, answering, or performing (duties, questions, or issues)",
+      "v. to move the head or body quickly downwards or away",
+      "v. submerge or plunge suddenly"
+    ],
+    "usphone": "[dʌk]",
+    "ukphone": "[dʌk]"
+  },
+  {
+    "name": "fish",
+    "trans": [
+      "v. catch or try to catch fish or shellfish",
+      "v. seek indirectly",
+      "n. any of various mostly cold-blooded aquatic vertebrates usually having scales and breathing through gills"
+    ],
+    "usphone": "[fɪʃ]",
+    "ukphone": "[fɪʃ]"
+  },
+  {
+    "name": "bird",
+    "trans": [
+      "v. to watch and study birds in their natural habitat",
+      "n. warm-blooded egg-laying vertebrates characterized by feathers and forelimbs modified as wings",
+      "n. badminton equipment consisting of a ball of cork or rubber with a crown of feathers"
+    ],
+    "usphone": "[bɜːrd]",
+    "ukphone": "[bɜːd]"
+  },
+  {
+    "name": "animal",
+    "trans": [
+      "adj. marked by the appetites and passions of the body",
+      "n. a living organism characterized by voluntary movement"
+    ],
+    "usphone": "[ˈænɪm(ə)l]",
+    "ukphone": "[ˈænɪm(ə)l]"
+  },
+  {
+    "name": "horse",
+    "trans": [
+      "v. provide with a horse or horses",
+      "n. solid-hoofed herbivorous quadruped domesticated since prehistoric times",
+      "n. a padded gymnastic apparatus on legs"
+    ],
+    "usphone": "[hɔːrs]",
+    "ukphone": "[hɔːs]"
+  },
+  {
+    "name": "yes",
+    "trans": ["n. an affirmative"],
+    "usphone": "[jes]",
+    "ukphone": "[jes]"
+  },
+  {
+    "name": "no",
+    "trans": [
+      "adj. quantifier",
+      "adv. used to express refusal or denial or disagreement etc or especially to emphasize a negative statement",
+      "adv. not in any degree or manner"
+    ],
+    "usphone": "[noʊ]",
+    "ukphone": "[nəʊ]"
+  },
+  {
+    "name": "in",
+    "trans": [
+      "adj. holding office",
+      "adj. currently fashionable",
+      "adj. directed or bound inward"
+    ],
+    "usphone": "[ɪn]",
+    "ukphone": "[ɪn]"
+  },
+  {
+    "name": "on",
+    "trans": [
+      "adj. in operation or operational",
+      "adj. of events, planned or scheduled",
+      "adv. with a forward motion"
+    ],
+    "usphone": "[ɑːn]",
+    "ukphone": "[ɒn]"
+  },
+  {
+    "name": "under",
+    "trans": [
+      "adj. located below or beneath something else",
+      "adj. lower in rank, power, or authority",
+      "adv. further down"
+    ],
+    "usphone": "[ˈʌndər]",
+    "ukphone": "[ˈʌndə(r)]"
+  },
+  {
+    "name": "box",
+    "trans": [
+      "v. to put into a box",
+      "v. to engage in a boxing match",
+      "v. to hit with the fist"
+    ],
+    "usphone": "[bɑːks]",
+    "ukphone": "[bɒks]"
+  },
+  {
+    "name": "zoo",
+    "trans": ["n. the facility where wild animals are housed for exhibition"],
+    "usphone": "[zuː]",
+    "ukphone": "[zuː]"
+  },
+  {
+    "name": "panda",
+    "trans": [
+      "n. reddish-brown Old World raccoon-like carnivore",
+      "n. large black-and-white herbivorous mammal of bamboo forests of China and Tibet"
+    ],
+    "usphone": "[ˈpændə]",
+    "ukphone": "[ˈpændə]"
+  },
+  {
+    "name": "monkey",
+    "trans": [
+      "v. do random, unplanned work or activities or spend time idly",
+      "v. play around with or alter or falsify, usually secretively or dishonestly",
+      "n. any of various long-tailed primates (excluding the prosimians)"
+    ],
+    "usphone": "[ˈmʌŋki]",
+    "ukphone": "[ˈmʌŋki]"
+  },
+  {
+    "name": "elephant",
+    "trans": [
+      "n. five-toed pachyderm",
+      "n. the symbol of the Republican Party"
+    ],
+    "usphone": "[ˈelɪfənt]",
+    "ukphone": "[ˈelɪfənt]"
+  },
+  {
+    "name": "big",
+    "trans": [
+      "adj. prodigious",
+      "adj. conspicuous in position or importance",
+      "adj. given or giving freely"
+    ],
+    "usphone": "[bɪɡ]",
+    "ukphone": "[bɪɡ]"
+  },
+  {
+    "name": "small",
+    "trans": [
+      "adj. made to seem smaller or less, especially in worth",
+      "adj. limited or below average in number or quantity or magnitude or extent",
+      "adj. limited in size or scope"
+    ],
+    "usphone": "[smɔːl]",
+    "ukphone": "[smɔːl]"
+  },
+  {
+    "name": "tiger",
+    "trans": [
+      "n. large feline of forests in most of Asia having a tawny coat with black stripes",
+      "n. a fierce or audacious person"
+    ],
+    "usphone": "[ˈtaɪɡər]",
+    "ukphone": "[ˈtaɪɡə(r)]"
+  },
+  {
+    "name": "bear",
+    "trans": [
+      "v. to have on one's person; to carry",
+      "v. to give birth to",
+      "v. to be pregnant with a child"
+    ],
+    "usphone": "[ber]",
+    "ukphone": "[beə(r)]"
+  },
+  {
+    "name": "long",
+    "trans": [
+      "v. desire strongly or persistently",
+      "adj. having or being more than normal or necessary:'long on brains'",
+      "adj. primarily spatial sense"
+    ],
+    "usphone": "[lɔːŋ]",
+    "ukphone": "[lɒŋ]"
+  },
+  {
+    "name": "short",
+    "trans": [
+      "v. create a short circuit in",
+      "v. cheat someone by not returning him enough money",
+      "adj. tending to crumble or break into flakes due to a large amount of shortening"
+    ],
+    "usphone": "[ʃɔːrt]",
+    "ukphone": "[ʃɔːt]"
+  },
+  {
+    "name": "one",
+    "trans": [
+      "adj. eminent beyond or above comparison",
+      "adj. indefinite in time or position",
+      "adj. used informally as an intensifier"
+    ],
+    "usphone": "[wʌn]",
+    "ukphone": "[wʌn]"
+  },
+  {
+    "name": "two",
+    "trans": [
+      "adj. being one more than one",
+      "n. one of the four playing cards in a deck that have two spots",
+      "n. the cardinal number that is the sum of one and one or a numeral representing this number"
+    ],
+    "usphone": "[tuː]",
+    "ukphone": "[tuː]"
+  },
+  {
+    "name": "three",
+    "trans": [
+      "adj. being one more than two",
+      "n. one of four playing cards in a deck having three pips",
+      "n. the cardinal number that is the sum of one and one and one"
+    ],
+    "usphone": "[θriː]",
+    "ukphone": "[θriː]"
+  },
+  {
+    "name": "four",
+    "trans": [
+      "adj. being one more than three",
+      "n. a playing card or domino or die whose upward face shows four pips",
+      "n. the cardinal number that is the sum of three and one"
+    ],
+    "usphone": "[fɔːr]",
+    "ukphone": "[fɔː(r)]"
+  },
+  {
+    "name": "five",
+    "trans": [
+      "adj. being one more than four",
+      "n. a playing card or a domino or a die whose upward face shows five pips",
+      "n. a team that plays basketball"
+    ],
+    "usphone": "[faɪv]",
+    "ukphone": "[faɪv]"
+  },
+  {
+    "name": "six",
+    "trans": [
+      "adj. denoting a quantity consisting of six items or units",
+      "n. a playing card or domino or die whose upward face shows six pips",
+      "n. the cardinal number that is the sum of five and one"
+    ],
+    "usphone": "[sɪks]",
+    "ukphone": "[sɪks]"
+  },
+  {
+    "name": "seven",
+    "trans": [
+      "adj. being one more than six",
+      "n. one of four playing cards in a deck with seven pips on the face",
+      "n. the cardinal number that is the sum of six and one"
+    ],
+    "usphone": "[ˈsev(ə)n]",
+    "ukphone": "[ˈsev(ə)n]"
+  },
+  {
+    "name": "eight",
+    "trans": [
+      "adj. being one more than seven",
+      "n. one of four playing cards in a deck with eight pips on the face",
+      "n. the cardinal number that is the sum of seven and one"
+    ],
+    "usphone": "[eɪt]",
+    "ukphone": "[eɪt]"
+  },
+  {
+    "name": "nine",
+    "trans": [
+      "adj. denoting a quantity consisting of one more than eight and one less than ten",
+      "n. one of four playing cards in a deck with nine pips on the face",
+      "n. a team of professional baseball players who play and travel together"
+    ],
+    "usphone": "[naɪn]",
+    "ukphone": "[naɪn]"
+  },
+  {
+    "name": "ten",
+    "trans": [
+      "adj. being one more than nine",
+      "n. one of four playing cards in a deck with ten pips on the face",
+      "n. the cardinal number that is the sum of nine and one"
+    ],
+    "usphone": "[ten]",
+    "ukphone": "[ten]"
+  },
+  {
+    "name": "river",
+    "trans": ["n. a large natural stream of water"],
+    "usphone": "[ˈrɪvər]",
+    "ukphone": "[ˈrɪvə(r)]"
+  },
+  {
+    "name": "tree",
+    "trans": [
+      "v. stretch (a shoe) on a shoetree",
+      "v. chase an animal up a tree",
+      "v. plant with trees"
+    ],
+    "usphone": "[triː]",
+    "ukphone": "[triː]"
+  },
+  {
+    "name": "grass",
+    "trans": [
+      "v. give away information about somebody",
+      "v. shoot down, of birds",
+      "v. feed with grass"
+    ],
+    "usphone": "[ɡræs]",
+    "ukphone": "[ɡrɑːs]"
+  },
+  {
+    "name": "banana",
+    "trans": [
+      "n. elongated crescent-shaped yellow fruit with soft sweet flesh",
+      "n. any of several tropical and subtropical treelike herbs of the genus Musa having a terminal crown of large entire leaves and usually bearing hanging clusters of elongated fruits"
+    ],
+    "usphone": "[bəˈnænə]",
+    "ukphone": "[bəˈnɑːnə]"
+  },
+  {
+    "name": "food",
+    "trans": [
+      "n. any substance that can be metabolized by an animal to give energy and build tissue",
+      "n. anything that provides mental stimulus for thinking",
+      "n. any solid substance (as opposed to liquid) that is used as a source of nourishment"
+    ],
+    "usphone": "[fuːd]",
+    "ukphone": "[fuːd]"
+  },
+  {
+    "name": "eat",
+    "trans": [
+      "v. cause to deteriorate due to the action of water, air, or an acid",
+      "v. use up (resources or materials)",
+      "v. eat a meal"
+    ],
+    "usphone": "[iːt]",
+    "ukphone": "[iːt]"
+  },
+  {
+    "name": "drink",
+    "trans": [
+      "v. be fascinated or spell-bound by",
+      "v. take in liquids",
+      "v. consume alcohol"
+    ],
+    "usphone": "[drɪŋk]",
+    "ukphone": "[drɪŋk]"
+  },
+  {
+    "name": "juice",
+    "trans": [
+      "n. any of several liquids of the body",
+      "n. the liquid part that can be extracted from plant or animal tissue by squeezing or cooking",
+      "n. electric current"
+    ],
+    "usphone": "[dʒuːs]",
+    "ukphone": "[dʒuːs]"
+  },
+  {
+    "name": "I",
+    "trans": [
+      "adj. used of a single unit or thing",
+      "n. the 9th letter of the Roman alphabet"
+    ],
+    "usphone": "[aɪ]",
+    "ukphone": "[aɪ]"
+  },
+  {
+    "name": "soup",
+    "trans": [
+      "v. dope (a racehorse)",
+      "n. liquid food especially of meat or fish or vegetable stock often containing pieces of solid food",
+      "n. an unfortunate situation"
+    ],
+    "usphone": "[suːp]",
+    "ukphone": "[suːp]"
+  },
+  {
+    "name": "noodle",
+    "trans": [
+      "n. informal terms for a human head",
+      "n. a ribbonlike strip of pasta"
+    ],
+    "usphone": "[ˈnuːd(ə)l]",
+    "ukphone": "[ˈnuːd(ə)l]"
+  },
+  {
+    "name": "rice",
+    "trans": [
+      "v. sieve so that it becomes the consistency of rice",
+      "n. grains used as food either unpolished or more often polished",
+      "n. annual or perennial rhizomatous marsh grasses"
+    ],
+    "usphone": "[raɪs]",
+    "ukphone": "[raɪs]"
+  },
+  {
+    "name": "chicken",
+    "trans": [
+      "adj. easily frightened",
+      "n. a domestic fowl bred for flesh or eggs",
+      "n. a foolhardy competition"
+    ],
+    "usphone": "[ˈtʃɪkɪn]",
+    "ukphone": "[ˈtʃɪkɪn]"
+  },
+  {
+    "name": "vegetable",
+    "trans": [
+      "n. edible seeds or roots or stems or leaves or bulbs or tubers or nonsweet fruits of any of numerous herbaceous plant",
+      "n. any of various herbaceous plants cultivated for an edible part such as the fruit or the root of the beet or the leaf of spinach or the seeds of bean plants or the flower buds of broccoli or cauliflower"
+    ],
+    "usphone": "[ˈvedʒtəbl]",
+    "ukphone": "[ˈvedʒtəb(ə)l]"
+  },
+  {
+    "name": "fruit",
+    "trans": [
+      "v. bear fruit",
+      "v. cause to bear fruit",
+      "n. an amount of a product"
+    ],
+    "usphone": "[fruːt]",
+    "ukphone": "[fruːt]"
+  },
+  {
+    "name": "like",
+    "trans": [
+      "v. feel about or towards",
+      "v. be fond of",
+      "v. find enjoyable or agreeable"
+    ],
+    "usphone": "[laɪk]",
+    "ukphone": "[laɪk]"
+  },
+  {
+    "name": "good",
+    "trans": [
+      "adj. promoting or enhancing well-being",
+      "adj. having the normally expected amount",
+      "adj. with or in a close or intimate relationship"
+    ],
+    "usphone": "[ɡʊd]",
+    "ukphone": "[ɡʊd]"
+  },
+  {
+    "name": "milk",
+    "trans": [
+      "v. take milk from female mammals",
+      "v. add milk to",
+      "v. exploit as much as possible"
+    ],
+    "usphone": "[mɪlk]",
+    "ukphone": "[mɪlk]"
+  },
+  {
+    "name": "egg",
+    "trans": [
+      "v. coat with beaten egg",
+      "v. throw eggs at",
+      "n. animal reproductive body consisting of an ovum or embryo together with nutritive and protective envelopes"
+    ],
+    "usphone": "[eɡ]",
+    "ukphone": "[eɡ]"
+  },
+  {
+    "name": "bread",
+    "trans": [
+      "v. to cover with bread crumbs",
+      "n. food made from dough of flour or meal and usually raised with yeast or baking powder and then baked",
+      "n. informal terms for money"
+    ],
+    "usphone": "[bred]",
+    "ukphone": "[bred]"
+  },
+  {
+    "name": "apple",
+    "trans": [
+      "n. fruit with red, yellow, or green skin with a sweet or tart crispy white flesh",
+      "n. native Eurasian tree widely cultivated in many varieties for its firm rounded edible fruits"
+    ],
+    "usphone": "[ˈæpl]",
+    "ukphone": "[ˈæp(ə)l]"
+  },
+  {
+    "name": "orange",
+    "trans": [
+      "adj. of the color between red and yellow",
+      "n. any pigment producing the orange color",
+      "n. orange color or pigment"
+    ],
+    "usphone": "[ˈɔrɪndʒ]",
+    "ukphone": "[ˈɒrɪndʒ]"
+  },
+  {
+    "name": "eleven",
+    "trans": [
+      "adj. being one more than ten",
+      "n. a team that plays football",
+      "n. the cardinal number that is the sum of ten and one"
+    ],
+    "usphone": "[ɪˈlevn]",
+    "ukphone": "[ɪˈlev(ə)n]"
+  },
+  {
+    "name": "twelve",
+    "trans": [
+      "adj. denoting a quantity consisting of 12 items or units",
+      "n. the cardinal number that is the sum of eleven and one"
+    ],
+    "usphone": "[twelv]",
+    "ukphone": "[twelv]"
+  },
+  {
+    "name": "thirteen",
+    "trans": [
+      "adj. being one more than twelve",
+      "n. the cardinal number that is the sum of twelve and one"
+    ],
+    "usphone": "[ˌθɜːrˈtiːn]",
+    "ukphone": "[ˌθɜːˈtiːn]"
+  },
+  {
+    "name": "fourteen",
+    "trans": [
+      "adj. being one more than thirteen",
+      "n. the cardinal number that is the sum of thirteen and one"
+    ],
+    "usphone": "[ˌfɔːrˈtiːn]",
+    "ukphone": "[ˌfɔːˈtiːn]"
+  },
+  {
+    "name": "fifteen",
+    "trans": [
+      "adj. being one more than fourteen",
+      "n. the cardinal number that is the sum of fourteen and one"
+    ],
+    "usphone": "[ˌfɪfˈtiːn]",
+    "ukphone": "[ˌfɪfˈtiːn]"
+  },
+  {
+    "name": "ice cream",
+    "trans": ["n. frozen dessert containing cream and sugar and flavoring"],
+    "usphone": "[ˈaɪs kriːm]",
+    "ukphone": "[ˈaɪs kriːm]"
+  },
+  {
+    "name": "sixteen",
+    "trans": [
+      "adj. being one more than fifteen",
+      "n. the cardinal number that is the sum of fifteen and one"
+    ],
+    "usphone": "[ˌsɪksˈtiːn]",
+    "ukphone": "[ˌsɪksˈtiːn]"
+  },
+  {
+    "name": "seventeen",
+    "trans": [
+      "adj. being one more than sixteen",
+      "n. the cardinal number that is the sum of sixteen and one"
+    ],
+    "usphone": "[ˌsevnˈtiːn]",
+    "ukphone": "[ˌsev(ə)nˈtiːn]"
+  },
+  {
+    "name": "eighteen",
+    "trans": [
+      "adj. being one more than seventeen",
+      "n. the cardinal number that is the sum of seventeen and one"
+    ],
+    "usphone": "[ˌeɪˈtiːn]",
+    "ukphone": "[ˌeɪˈtiːn]"
+  },
+  {
+    "name": "nineteen",
+    "trans": [
+      "adj. being one more than eighteen",
+      "n. the cardinal number that is the sum of eighteen and one"
+    ],
+    "usphone": "[ˌnaɪnˈtiːn]",
+    "ukphone": "[ˌnaɪnˈtiːn]"
+  },
+  {
+    "name": "twenty",
+    "trans": [
+      "adj. denoting a quantity consisting of 20 items or units",
+      "n. a United States bill worth 20 dollars",
+      "n. the cardinal number that is the sum of nineteen and one"
+    ],
+    "usphone": "[ˈtwenti]",
+    "ukphone": "[ˈtwenti]"
+  },
+  {
+    "name": "please",
+    "trans": [
+      "v. give pleasure to or be pleasing to",
+      "v. give satisfaction",
+      "v. be the will of or have the will to"
+    ],
+    "usphone": "[pliːz]",
+    "ukphone": "[pliːz]"
+  },
+  {
+    "name": "thanks",
+    "trans": [
+      "n. with the help of or owing to",
+      "n. an acknowledgment of appreciation"
+    ],
+    "usphone": "[θæŋks]",
+    "ukphone": "[θæŋks]"
+  },
+  {
+    "name": "welcome",
+    "trans": [
+      "v. bid welcome to",
+      "v. receive someone, as into one's house",
+      "v. accept gladly"
+    ],
+    "usphone": "[ˈwelkəm]",
+    "ukphone": "[ˈwelkəm]"
+  }
 ]
