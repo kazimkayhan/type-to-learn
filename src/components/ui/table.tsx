@@ -1,4 +1,4 @@
-import { cn } from 'cn'
+import { cn } from '@/utils/ui'
 import type * as React from 'react'
 
 function Table({ className, ...props }: React.ComponentProps<'table'>) {

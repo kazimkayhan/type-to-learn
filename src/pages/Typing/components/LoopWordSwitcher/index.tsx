@@ -1,5 +1,5 @@
-import { RadioGroup, RadioGroupItem } from '@/components/ui/radio-group'
 import { Popover, PopoverContent, PopoverTrigger } from '@/components/ui/popover'
+import { RadioGroup, RadioGroupItem } from '@/components/ui/radio-group'
 import { loopWordConfigAtom } from '@/store'
 import type { LoopWordTimesOption } from '@/typings'
 import { useAtom } from 'jotai'
@@ -50,9 +50,7 @@ export default function LoopWordSwitcher() {
 
       <PopoverContent className="w-60 p-4">
         <div className="flex flex-col gap-2">
-          <span className="text-sm font-normal leading-5 text-gray-900 dark:text-white dark:text-opacity-60">
-            Select word loop count
-          </span>
+          <span className="text-sm font-normal leading-5 text-gray-900 dark:text-white dark:text-opacity-60">Select word loop count</span>
           <RadioGroup
             className="flex flex-col gap-2.5"
             value={loopTimes.toString()}
@@ -60,14 +58,14 @@ export default function LoopWordSwitcher() {
             aria-label="Select word loop count"
           >
             {loopOptions.map((value, index) => (
-              <div className="flex items-center" key={value}>
+              <div className="flex items-center gap-3" key={value}>
                 <RadioGroupItem
-                  className="h-[25px] w-[25px] cursor-pointer rounded-full bg-white shadow-[0_2px_10px] shadow-gray-300 outline-none hover:bg-indigo-100"
+                  className="cursor-pointer hover:border-indigo-400 hover:ring-2 hover:ring-indigo-100 dark:hover:border-indigo-500 dark:hover:ring-indigo-900/50"
                   value={value.toString()}
                   id={`r${index}`}
                 />
                 <label
-                  className="flex-1 cursor-pointer pl-[15px] text-[15px] leading-none dark:text-white dark:text-opacity-60"
+                  className="flex-1 cursor-pointer text-sm leading-none text-gray-900 dark:text-white dark:text-opacity-80"
                   htmlFor={`r${index}`}
                 >
                   {value === Number.MAX_SAFE_INTEGER ? 'Unlimited' : value}
