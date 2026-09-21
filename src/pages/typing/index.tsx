@@ -1,6 +1,6 @@
 import { useAtom, useAtomValue, useSetAtom } from "jotai";
 import type React from "react";
-import { useCallback, useEffect, useState } from "react";
+import { lazy, Suspense, useCallback, useEffect, useState } from "react";
 import { useImmerReducer } from "use-immer";
 import Header from "@/components/header";
 import Tooltip from "@/components/tooltip";
@@ -18,7 +18,6 @@ import { useMixPanelChapterLogUploader } from "@/utils/mixpanel";
 import Layout from "../../components/layout";
 import { DictChapterButton } from "./components/dict-chapter-button";
 import PronunciationSwitcher from "./components/pronunciation-switcher";
-import ResultScreen from "./components/result-screen";
 import Speed from "./components/speed";
 import StartButton from "./components/start-button";
 import Switcher from "./components/switcher";
@@ -32,6 +31,8 @@ import {
   TypingStateActionType,
   typingReducer,
 } from "./store";
+
+const ResultScreen = lazy(() => import("./components/result-screen"));
 
 const App: React.FC = () => {
   const [state, dispatch] = useImmerReducer(
@@ -154,7 +155,11 @@ const App: React.FC = () => {
 
   return (
     <TypingContext.Provider value={{ dispatch, state }}>
-      {state.isFinished && <ResultScreen />}
+      {state.isFinished && (
+        <Suspense fallback={null}>
+          <ResultScreen />
+        </Suspense>
+      )}
       <Layout>
         <Header>
           <DictChapterButton />

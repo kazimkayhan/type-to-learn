@@ -12,6 +12,7 @@
     "url": "https://github.com/kazimkayhan/type-to-learn.git"
   },
   "author": "Kazim Kayhan <email4kazim@gmail.com> (https://kazimjan.com)",
+  "type": "module",
   "scripts": {
     "build": "cross-env CI=false vite build --base=/type-to-learn/",
     "check": "ultracite check",
@@ -68,7 +69,6 @@
     "pako": "^3.0.2",
     "react": "^19.3.0",
     "react-activity-calendar": "^3.2.1",
-    "react-app-polyfill": "^3.0.0",
     "react-dom": "^19.3.0",
     "react-hotkeys-hook": "^5.3.3",
     "react-router-dom": "^7.18.4",

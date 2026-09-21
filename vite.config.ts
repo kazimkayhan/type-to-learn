@@ -6,6 +6,12 @@ import Icons from "unplugin-icons/vite";
 import type { PluginOption } from "vite";
 import { defineConfig } from "vite";
 
+const REACT_VENDOR_RE = /node_modules[/\\](?:react|react-dom|scheduler)[/\\]/;
+const ECHARTS_VENDOR_RE = /node_modules[/\\]echarts[/\\]/;
+const HOWLER_VENDOR_RE = /node_modules[/\\]howler[/\\]/;
+const DEXIE_VENDOR_RE = /node_modules[/\\]dexie[/\\]/;
+const NODE_MODULES_RE = /node_modules/;
+
 // https://vitejs.dev/config/
 export default defineConfig(async ({ mode }) => {
   const latestCommitHash = await new Promise<string>((resolve) => {
@@ -28,11 +34,57 @@ export default defineConfig(async ({ mode }) => {
     plugins.push(visualizer() as PluginOption);
   }
 
+  const isProduction = mode !== "development";
+
   return {
     base: "/type-to-learn/",
     build: {
       minify: true,
       outDir: "build",
+      rolldownOptions: {
+        output: {
+          codeSplitting: {
+            groups: [
+              {
+                name: "react-vendor",
+                priority: 30,
+                test: REACT_VENDOR_RE,
+              },
+              {
+                maxSize: 400_000,
+                name: "echarts",
+                priority: 25,
+                test: ECHARTS_VENDOR_RE,
+              },
+              {
+                name: "howler",
+                priority: 20,
+                test: HOWLER_VENDOR_RE,
+              },
+              {
+                name: "dexie",
+                priority: 20,
+                test: DEXIE_VENDOR_RE,
+              },
+              {
+                maxSize: 400_000,
+                name: "vendor",
+                priority: 10,
+                test: NODE_MODULES_RE,
+              },
+            ],
+          },
+          minify: isProduction
+            ? {
+                compress: {
+                  dropConsole: true,
+                  dropDebugger: true,
+                },
+                mangle: true,
+              }
+            : false,
+        },
+      },
       sourcemap: false,
     },
     css: {
@@ -42,13 +94,9 @@ export default defineConfig(async ({ mode }) => {
     },
     define: {
       LATEST_COMMIT_HASH: JSON.stringify(
-        latestCommitHash +
-          (process.env.NODE_ENV === "production" ? "" : " (dev)")
+        latestCommitHash + (isProduction ? "" : " (dev)")
       ),
       REACT_APP_DEPLOY_ENV: JSON.stringify(process.env.REACT_APP_DEPLOY_ENV),
-    },
-    esbuild: {
-      drop: mode === "development" ? [] : ["console", "debugger"],
     },
     plugins,
     resolve: {

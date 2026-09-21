@@ -1,14 +1,10 @@
 import Loading from "./components/loading";
 import "./index.css";
 import { isOpenDarkModeAtom } from "@/store";
-import { ErrorBook } from "./pages/error-book";
-import { FriendLinks } from "./pages/friend-links";
-import MobilePage from "./pages/mobile";
 import TypingPage from "./pages/typing";
 import "animate.css";
 import { useAtomValue } from "jotai";
 import React, { lazy, Suspense, useEffect } from "react";
-import "react-app-polyfill/stable";
 import { createRoot } from "react-dom/client";
 import { BrowserRouter, Navigate, Route, Routes } from "react-router-dom";
 import { Toaster } from "./components/ui/sonner";
@@ -16,6 +12,15 @@ import { Toaster } from "./components/ui/sonner";
 const TRAILING_SLASH_REGEX = /\/$/;
 const AnalysisPage = lazy(() => import("./pages/analysis"));
 const GalleryPage = lazy(() => import("./pages/gallery-n"));
+const ErrorBook = lazy(() =>
+  import("./pages/error-book").then((module) => ({ default: module.ErrorBook }))
+);
+const FriendLinks = lazy(() =>
+  import("./pages/friend-links").then((module) => ({
+    default: module.FriendLinks,
+  }))
+);
+const MobilePage = lazy(() => import("./pages/mobile"));
 
 function Root() {
   const darkMode = useAtomValue(isOpenDarkModeAtom);
