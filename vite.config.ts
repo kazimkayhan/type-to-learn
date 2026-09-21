@@ -54,7 +54,6 @@ export default defineConfig(async ({ mode }) => {
                 test: REACT_VENDOR_RE,
               },
               {
-                maxSize: 400_000,
                 name: "echarts",
                 priority: 25,
                 test: ECHARTS_VENDOR_RE,
