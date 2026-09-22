@@ -23,6 +23,7 @@ const Tooltip = ({
     <div className={classNames("relative", className)}>
       <div
         onBlur={handleBlur}
+        onFocus={handleMouseEnter}
         onMouseEnter={handleMouseEnter}
         onMouseLeave={handleMouseLeave}
       >
@@ -44,9 +45,7 @@ const Tooltip = ({
 interface TooltipProps {
   children: ReactNode;
   className?: string;
-  /** 显示文本 */
   content: string;
-  /** 位置 */
   placement?: "top" | "bottom";
 }
 

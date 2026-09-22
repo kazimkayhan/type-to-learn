@@ -1,6 +1,7 @@
 import { atom } from "jotai";
 import { atomWithStorage } from "jotai/utils";
 import {
+  DEFAULT_DICT_ID,
   DISMISS_START_CARD_DATE_KEY,
   defaultFontSizeConfig,
 } from "@/constants";
@@ -23,13 +24,15 @@ import type { ReviewRecord } from "@/utils/db/record";
 import atomForConfig from "./atom-for-config";
 import { reviewInfoAtom } from "./review-info-atom";
 
-export const currentDictIdAtom = atomWithStorage("currentDict", "cet4");
+export const currentDictIdAtom = atomWithStorage(
+  "currentDict",
+  DEFAULT_DICT_ID
+);
 export const currentDictInfoAtom = atom<Dictionary>((get) => {
   const id = get(currentDictIdAtom);
   let dict = idDictionaryMap[id];
-  // 如果 dict 不存在，则返回 cet4. Typing 中会检查 DictId 是否存在，如果不存在则会重置为 cet4
   if (!dict) {
-    dict = idDictionaryMap.cet4;
+    dict = idDictionaryMap[DEFAULT_DICT_ID];
   }
   return dict;
 });
@@ -150,6 +153,3 @@ const _hasSeenEnhancedPromotionAtom = atomWithStorage(
   "hasSeenEnhancedPromotion",
   false
 );
-
-// for dev test
-//   dismissStartCardDateAtom = atom<Date | null>(new Date())

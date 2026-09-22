@@ -4,6 +4,7 @@ import { lazy, Suspense, useCallback, useEffect, useState } from "react";
 import { useImmerReducer } from "use-immer";
 import Header from "@/components/header";
 import Tooltip from "@/components/tooltip";
+import { DEFAULT_DICT_ID } from "@/constants";
 import { idDictionaryMap } from "@/resources/dictionary";
 import {
   currentChapterAtom,
@@ -50,11 +51,10 @@ const App: React.FC = () => {
   const reviewModeInfo = useAtomValue(reviewModeInfoAtom);
   const isReviewMode = useAtomValue(isReviewModeAtom);
 
-  // 在组件挂载和currentDictId改变时，检查当前字典是否存在，如果不存在，则将其重置为默认值
   useEffect(() => {
     const id = currentDictId;
     if (!(id in idDictionaryMap)) {
-      setCurrentDictId("cet4");
+      setCurrentDictId(DEFAULT_DICT_ID);
       setCurrentChapter(0);
     }
   }, [currentDictId, setCurrentChapter, setCurrentDictId]);
@@ -82,7 +82,7 @@ const App: React.FC = () => {
 
   useEffect(() => {
     const initialIndex =
-      isReviewMode && reviewModeInfo.reviewRecord.index
+      isReviewMode && reviewModeInfo?.reviewRecord?.index
         ? reviewModeInfo.reviewRecord.index
         : 0;
 
@@ -100,13 +100,10 @@ const App: React.FC = () => {
   ]);
 
   useEffect(() => {
-    // 当用户完成章节后且完成 word Record 数据保存，记录 chapter Record 数据,
     if (state.isFinished && !state.isSavingRecord) {
       chapterLogUploader();
       saveChapterRecord(state);
     }
-
-    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [
     state.isFinished,
     state.isSavingRecord,
@@ -116,7 +113,6 @@ const App: React.FC = () => {
   ]);
 
   useEffect(() => {
-    // 启动计时器
     let intervalId: number;
     if (state.isTyping) {
       intervalId = window.setInterval(() => {
@@ -161,7 +157,7 @@ const App: React.FC = () => {
         </Header>
         <div className="container mx-auto flex h-full min-h-0 w-full flex-1 flex-col items-center justify-center gap-3 px-3 pb-3 sm:gap-4 sm:px-4 sm:pb-5">
           <div className="container relative mx-auto flex h-full min-h-0 w-full max-w-4xl flex-col items-center">
-            <div className="container flex min-h-0 flex-grow items-center justify-center px-2 sm:px-4">
+            <div className="container flex min-h-0 grow items-center justify-center px-2 sm:px-4">
               {isLoading ? (
                 <div className="flex flex-col items-center justify-center">
                   <div

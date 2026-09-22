@@ -80,19 +80,21 @@ export default function DataSetting() {
             <span className="pl-4 text-left font-bold text-red-500 text-sm leading-tight">
               For your data security, please do not modify exported data files.
             </span>
-            <div className="flex h-3 w-full items-center justify-start px-5">
-              <Progress className="w-11/12" value={exportProgress}>
-                <ProgressTrack className="translate-z-0 relative h-2 transform overflow-hidden rounded-full bg-gray-200">
-                  <ProgressIndicator
-                    className="cubic-bezier(0.65, 0, 0.35, 1) h-full w-full bg-indigo-400 transition-transform duration-500 ease-out"
-                    style={{
-                      transform: `translateX(-${100 - exportProgress}%)`,
-                    }}
-                  />
-                </ProgressTrack>
-              </Progress>
-              <span className="ml-4 w-10 font-normal text-gray-600 text-xs">{`${exportProgress}%`}</span>
-            </div>
+            {isExporting && (
+              <div className="flex h-3 w-full items-center justify-start px-5">
+                <Progress className="w-11/12" value={exportProgress}>
+                  <ProgressTrack className="translate-z-0 relative h-2 transform overflow-hidden rounded-full bg-gray-200">
+                    <ProgressIndicator
+                      className="cubic-bezier(0.65, 0, 0.35, 1) h-full w-full bg-indigo-400 transition-transform duration-500 ease-out"
+                      style={{
+                        transform: `translateX(-${100 - exportProgress}%)`,
+                      }}
+                    />
+                  </ProgressTrack>
+                </Progress>
+                <span className="ml-4 w-10 font-normal text-gray-600 text-xs">{`${exportProgress}%`}</span>
+              </div>
+            )}
 
             <button
               className="my-btn-primary ml-4 disabled:bg-gray-300"
@@ -115,19 +117,21 @@ export default function DataSetting() {
               your current data. Proceed with caution.
             </span>
 
-            <div className="flex h-3 w-full items-center justify-start px-5">
-              <Progress className="w-11/12" value={importProgress}>
-                <ProgressTrack className="translate-z-0 relative h-2 transform overflow-hidden rounded-full bg-gray-200">
-                  <ProgressIndicator
-                    className="cubic-bezier(0.65, 0, 0.35, 1) h-full w-full bg-indigo-400 transition-transform duration-500 ease-out"
-                    style={{
-                      transform: `translateX(-${100 - importProgress}%)`,
-                    }}
-                  />
-                </ProgressTrack>
-              </Progress>
-              <span className="ml-4 w-10 font-normal text-gray-600 text-xs">{`${importProgress}%`}</span>
-            </div>
+            {isImporting && (
+              <div className="flex h-3 w-full items-center justify-start px-5">
+                <Progress className="w-11/12" value={importProgress}>
+                  <ProgressTrack className="translate-z-0 relative h-2 transform overflow-hidden rounded-full bg-gray-200">
+                    <ProgressIndicator
+                      className="cubic-bezier(0.65, 0, 0.35, 1) h-full w-full bg-indigo-400 transition-transform duration-500 ease-out"
+                      style={{
+                        transform: `translateX(-${100 - importProgress}%)`,
+                      }}
+                    />
+                  </ProgressTrack>
+                </Progress>
+                <span className="ml-4 w-10 font-normal text-gray-600 text-xs">{`${importProgress}%`}</span>
+              </div>
+            )}
 
             <button
               className="my-btn-primary ml-4 disabled:bg-gray-300"

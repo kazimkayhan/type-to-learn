@@ -9,7 +9,6 @@ import {
   isReviewModeAtom,
 } from "@/store";
 import ListIcon from "~icons/tabler/list";
-import IconX from "~icons/tabler/x";
 import { TypingStateActionType, useTypingContext } from "../../store";
 import WordCard from "./word-card";
 
@@ -59,16 +58,8 @@ export default function WordList() {
         onClose={closeModal}
         open={isOpen}
       >
-        <h3 className="flex items-center justify-between p-4 font-medium text-lg leading-6 dark:text-gray-50">
+        <h3 className="p-4 pr-12 font-medium text-lg leading-6 dark:text-gray-50">
           {currentDictTitleValue}
-          <button
-            aria-label="Close word list"
-            className="rounded p-1 hover:bg-gray-200 focus-visible:ring-2 focus-visible:ring-indigo-400 dark:hover:bg-gray-700"
-            onClick={closeModal}
-            type="button"
-          >
-            <IconX />
-          </button>
         </h3>
         <ScrollArea className="flex-1 overflow-y-auto">
           <div className="h-full w-full px-3 pb-4">
