@@ -6,6 +6,7 @@ export const SITE = {
   email: "email4kazim@gmail.com",
   github: "https://github.com/kazimkayhan/type-to-learn",
   name: "Type to Learn",
+  shortName: "TTL",
   url: "https://kazimkayhan.github.io/type-to-learn/",
   website: "https://kazimjan.com",
 } as const;
@@ -17,8 +18,6 @@ export const CHAPTER_LENGTH = 20;
 export const DEFAULT_DICT_ID = "pet-2024";
 
 export const DISMISS_START_CARD_DATE_KEY = "dismissStartCardDate";
-
-const _DONATE_DATE = "donateDate";
 
 export const CONFETTI_DEFAULTS = {
   colors: ["#5D8C7B", "#F2D091", "#F2A679", "#D9695F", "#8C4646"],
