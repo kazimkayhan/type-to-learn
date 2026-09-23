@@ -1,6 +1,6 @@
 import { useAtom, useSetAtom } from "jotai";
 import type React from "react";
-import { useCallback, useMemo, useState } from "react";
+import { useCallback, useMemo, useRef, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
@@ -14,6 +14,8 @@ import {
 } from "@/store";
 import type { Dictionary } from "@/typings";
 import range from "@/utils/range";
+import IconMagnifyingGlass from "~icons/heroicons/magnifying-glass-solid";
+import IconXMark from "~icons/heroicons/x-mark-solid";
 import IcOutlineCollectionsBookmark from "~icons/ic/outline-collections-bookmark";
 import MajesticonsPaperFoldTextLine from "~icons/majesticons/paper-fold-text-line";
 import PajamasReviewList from "~icons/pajamas/review-list";
@@ -33,6 +35,14 @@ const Tab = {
 
 type Tab = (typeof Tab)[keyof typeof Tab];
 
+const ChapterStatus = {
+  All: "all",
+  Practiced: "practiced",
+  Remaining: "remaining",
+} as const;
+
+type ChapterStatus = (typeof ChapterStatus)[keyof typeof ChapterStatus];
+
 export default function DictDetail({
   dictionary: dict,
 }: {
@@ -41,11 +51,15 @@ export default function DictDetail({
   const [currentChapter, setCurrentChapter] = useAtom(currentChapterAtom);
   const [currentDictId, setCurrentDictId] = useAtom(currentDictIdAtom);
   const [curTab, setCurTab] = useState<Tab>(Tab.Chapters);
+  const [chapterQuery, setChapterQuery] = useState("");
+  const [chapterStatus, setChapterStatus] = useState<ChapterStatus>(
+    ChapterStatus.All
+  );
   const setReviewModeInfo = useSetAtom(reviewModeInfoAtom);
   const navigate = useNavigate();
   const { deleteWordRecord } = useDeleteWordRecord();
   const [reload, setReload] = useState(false);
-  const [jumpValue, setJumpValue] = useState("");
+  const searchInputRef = useRef<HTMLInputElement>(null);
 
   const chapter = useMemo(
     () => (dict.id === currentDictId ? currentChapter : 0),
@@ -106,17 +120,87 @@ export default function DictDetail({
     return found ?? null;
   }, [chapterExerciseCounts, dict.chapterCount]);
 
-  const onSubmitJump = useCallback(
-    (event: React.FormEvent<HTMLFormElement>) => {
-      event.preventDefault();
-      const parsed = Number.parseInt(jumpValue, 10);
-      if (Number.isNaN(parsed) || parsed < 1 || parsed > dict.chapterCount) {
+  const chapters = useMemo(
+    () => range(0, dict.chapterCount, 1),
+    [dict.chapterCount]
+  );
+
+  const filteredChapters = useMemo(() => {
+    const trimmed = chapterQuery.trim();
+    const lower = trimmed.toLowerCase();
+    return chapters.filter((index) => {
+      const matchesQuery =
+        !trimmed ||
+        `${index + 1}`.includes(trimmed) ||
+        `chapter ${index + 1}`.includes(lower);
+      if (!matchesQuery) {
+        return false;
+      }
+      if (chapterStatus === ChapterStatus.All || !chapterExerciseCounts) {
+        return true;
+      }
+      const isPracticed = (chapterExerciseCounts[index] ?? 0) > 0;
+      if (chapterStatus === ChapterStatus.Practiced) {
+        return isPracticed;
+      }
+      return !isPracticed;
+    });
+  }, [chapterExerciseCounts, chapterQuery, chapterStatus, chapters]);
+
+  const hasActiveFilters =
+    chapterQuery.trim().length > 0 || chapterStatus !== ChapterStatus.All;
+
+  const clearFilters = useCallback(() => {
+    setChapterQuery("");
+    setChapterStatus(ChapterStatus.All);
+    searchInputRef.current?.focus();
+  }, []);
+
+  const onSearchKeyDown = useCallback(
+    (event: React.KeyboardEvent<HTMLInputElement>) => {
+      if (event.key === "Escape") {
+        if (chapterQuery) {
+          event.preventDefault();
+          setChapterQuery("");
+        }
         return;
       }
-      onChangeChapter(parsed - 1);
+      if (event.key !== "Enter") {
+        return;
+      }
+      const trimmed = chapterQuery.trim();
+      if (!trimmed) {
+        return;
+      }
+      const exact = Number.parseInt(trimmed, 10);
+      if (
+        !Number.isNaN(exact) &&
+        exact >= 1 &&
+        exact <= dict.chapterCount &&
+        `${exact}` === trimmed
+      ) {
+        event.preventDefault();
+        onChangeChapter(exact - 1);
+        return;
+      }
+      if (filteredChapters.length === 1) {
+        event.preventDefault();
+        onChangeChapter(filteredChapters[0]);
+      }
     },
-    [jumpValue, dict.chapterCount, onChangeChapter]
+    [chapterQuery, dict.chapterCount, filteredChapters, onChangeChapter]
   );
+
+  const handleStatusChange = useCallback((values: string[]) => {
+    const [value] = values;
+    if (
+      value === ChapterStatus.All ||
+      value === ChapterStatus.Practiced ||
+      value === ChapterStatus.Remaining
+    ) {
+      setChapterStatus(value);
+    }
+  }, []);
 
   return (
     <div className="flex min-w-0 flex-col gap-3 rounded-2xl px-1 py-2 text-foreground sm:px-4 sm:py-3">
@@ -182,48 +266,110 @@ export default function DictDetail({
             className="flex h-full flex-col gap-3"
             value={Tab.Chapters}
           >
-            <div className="flex flex-wrap items-center justify-end gap-3">
-              {firstUnpracticedChapter !== null && (
-                <Button
-                  onClick={() => onChangeChapter(firstUnpracticedChapter)}
+            <div className="flex flex-col gap-2.5 sm:flex-row sm:flex-wrap sm:items-center sm:justify-between">
+              <div className="flex min-w-0 flex-1 flex-col gap-2 sm:flex-row sm:items-center">
+                <div className="relative w-full min-w-0 sm:max-w-xs">
+                  <IconMagnifyingGlass
+                    aria-hidden
+                    className="pointer-events-none absolute top-1/2 left-2.5 h-4 w-4 -translate-y-1/2 text-muted-foreground"
+                  />
+                  <Input
+                    aria-controls="chapter-grid"
+                    aria-label="Search chapters"
+                    className="h-9 pr-9 pl-8"
+                    inputMode="numeric"
+                    onChange={(event) => setChapterQuery(event.target.value)}
+                    onKeyDown={onSearchKeyDown}
+                    placeholder={`Search chapters (1–${dict.chapterCount})`}
+                    ref={searchInputRef}
+                    type="text"
+                    value={chapterQuery}
+                  />
+                  {chapterQuery.length > 0 && (
+                    <button
+                      aria-label="Clear search"
+                      className="absolute top-1/2 right-1.5 flex size-6 -translate-y-1/2 items-center justify-center rounded-md text-muted-foreground transition-colors hover:bg-accent hover:text-foreground"
+                      onClick={() => {
+                        setChapterQuery("");
+                        searchInputRef.current?.focus();
+                      }}
+                      type="button"
+                    >
+                      <IconXMark className="h-3.5 w-3.5" />
+                    </button>
+                  )}
+                </div>
+                <ToggleGroup
+                  aria-label="Filter by practice status"
+                  className="justify-start"
+                  onValueChange={handleStatusChange}
                   size="sm"
+                  value={[chapterStatus]}
                 >
-                  Continue: Chapter {firstUnpracticedChapter + 1}
-                </Button>
-              )}
-              <form
-                className="flex items-center gap-1.5"
-                onSubmit={onSubmitJump}
-              >
-                <Input
-                  aria-label="Jump to chapter number"
-                  className="h-8 w-40"
-                  inputMode="numeric"
-                  onChange={(event) => setJumpValue(event.target.value)}
-                  placeholder={`Go to # (1-${dict.chapterCount})`}
-                  value={jumpValue}
-                />
-                <Button size="sm" type="submit" variant="outline">
-                  Go
-                </Button>
-              </form>
+                  <ToggleGroupItem value={ChapterStatus.All}>
+                    All
+                  </ToggleGroupItem>
+                  <ToggleGroupItem value={ChapterStatus.Practiced}>
+                    Done
+                  </ToggleGroupItem>
+                  <ToggleGroupItem value={ChapterStatus.Remaining}>
+                    Todo
+                  </ToggleGroupItem>
+                </ToggleGroup>
+              </div>
+              <div className="flex flex-wrap items-center gap-2 sm:justify-end">
+                {hasActiveFilters && (
+                  <p
+                    aria-live="polite"
+                    className="text-muted-foreground text-xs tabular-nums sm:text-sm"
+                  >
+                    {filteredChapters.length} of {dict.chapterCount}
+                  </p>
+                )}
+                {firstUnpracticedChapter !== null && (
+                  <Button
+                    onClick={() => onChangeChapter(firstUnpracticedChapter)}
+                    size="sm"
+                  >
+                    Continue: Chapter {firstUnpracticedChapter + 1}
+                  </Button>
+                )}
+              </div>
             </div>
             <ScrollArea className="min-h-0 flex-1">
-              <div className="grid w-full grid-cols-2 gap-2.5 p-3 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5">
-                {range(0, dict.chapterCount, 1).map((index) => (
-                  <Chapter
-                    checked={chapter === index}
-                    exerciseCount={
-                      chapterExerciseCounts === null
-                        ? null
-                        : (chapterExerciseCounts[index] ?? 0)
-                    }
-                    index={index}
-                    key={`${dict.id}-${index}`}
-                    onChange={onChangeChapter}
-                  />
-                ))}
-              </div>
+              {filteredChapters.length > 0 ? (
+                <div
+                  className="grid w-full grid-cols-2 gap-2.5 p-3 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5"
+                  id="chapter-grid"
+                >
+                  {filteredChapters.map((index) => (
+                    <Chapter
+                      checked={chapter === index}
+                      exerciseCount={
+                        chapterExerciseCounts === null
+                          ? null
+                          : (chapterExerciseCounts[index] ?? 0)
+                      }
+                      index={index}
+                      key={`${dict.id}-${index}`}
+                      onChange={onChangeChapter}
+                    />
+                  ))}
+                </div>
+              ) : (
+                <div className="flex h-full min-h-40 flex-col items-center justify-center gap-3 px-4 text-center">
+                  <p className="text-muted-foreground text-sm">
+                    No chapters match
+                    {chapterQuery.trim()
+                      ? ` “${chapterQuery.trim()}”`
+                      : " this filter"}
+                    .
+                  </p>
+                  <Button onClick={clearFilters} size="sm" variant="outline">
+                    Clear filters
+                  </Button>
+                </div>
+              )}
             </ScrollArea>
           </TabsContent>
           <TabsContent className="h-full" value={Tab.Errors}>

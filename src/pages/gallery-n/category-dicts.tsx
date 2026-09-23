@@ -7,8 +7,10 @@ import DictTagSwitcher from "./dict-tag-switcher";
 import DictionaryComponent from "./dictionary-without-cover";
 
 export default function DictionaryGroup({
+  category,
   groupedDictsByTag,
 }: {
+  category: string;
   groupedDictsByTag: Record<string, Dictionary[]>;
 }) {
   const tagList = useMemo(
@@ -20,27 +22,59 @@ export default function DictionaryGroup({
   );
   const currentDictInfo = useAtomValue(currentDictInfoAtom);
 
+  const dictionaryCount = useMemo(() => {
+    const ids = new Set<string>();
+    for (const dicts of Object.values(groupedDictsByTag)) {
+      for (const dict of dicts) {
+        ids.add(dict.id);
+      }
+    }
+    return ids.size;
+  }, [groupedDictsByTag]);
+
   const onChangeCurrentTag = useCallback((tag: string) => {
     setCurrentTag(tag);
   }, []);
 
   useEffect(() => {
+    if (tagList.length === 0) {
+      setCurrentTag("");
+      return;
+    }
     const commonTags = findCommonValues(tagList, currentDictInfo.tags);
     if (commonTags.length > 0) {
       setCurrentTag(commonTags[0]);
+      return;
     }
+    setCurrentTag((prev) => (tagList.includes(prev) ? prev : tagList[0]));
   }, [currentDictInfo.tags, tagList]);
+
+  const visibleDicts =
+    currentTag && groupedDictsByTag[currentTag]
+      ? groupedDictsByTag[currentTag]
+      : [];
 
   return (
     <section className="w-full min-w-0">
+      <div className="mb-4 flex flex-wrap items-end justify-between gap-2 sm:mb-5">
+        <h2 className="font-semibold text-foreground text-lg sm:text-xl">
+          {category}
+        </h2>
+        {dictionaryCount > 0 && (
+          <p className="text-muted-foreground text-xs tabular-nums sm:text-sm">
+            {dictionaryCount}{" "}
+            {dictionaryCount === 1 ? "dictionary" : "dictionaries"}
+          </p>
+        )}
+      </div>
       <DictTagSwitcher
         currentTag={currentTag}
         onChangeCurrentTag={onChangeCurrentTag}
         tagList={tagList}
       />
       <div className="mt-6 grid w-full dic3:grid-cols-3 dic4:grid-cols-4 grid-cols-1 gap-4 px-0 pb-2 sm:mt-8 sm:gap-6 md:grid-cols-2">
-        {currentTag && groupedDictsByTag[currentTag] ? (
-          groupedDictsByTag[currentTag].map((dict) => (
+        {visibleDicts.length > 0 ? (
+          visibleDicts.map((dict) => (
             <DictionaryComponent dictionary={dict} key={dict.id} />
           ))
         ) : (

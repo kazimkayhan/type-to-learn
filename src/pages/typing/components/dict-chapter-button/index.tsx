@@ -18,6 +18,8 @@ import {
 } from "@/store";
 import range from "@/utils/range";
 import IconCheckCircle from "~icons/heroicons/check-circle-solid";
+import IconMagnifyingGlass from "~icons/heroicons/magnifying-glass-solid";
+import IconXMark from "~icons/heroicons/x-mark-solid";
 
 export const DictChapterButton = () => {
   const currentDictInfo = useAtomValue(currentDictInfoAtom);
@@ -28,15 +30,21 @@ export const DictChapterButton = () => {
   const [filter, setFilter] = useState("");
   const chapterExerciseCounts = useChapterExerciseCounts(dictId);
   const currentButtonRef = useRef<HTMLButtonElement>(null);
+  const searchInputRef = useRef<HTMLInputElement>(null);
 
   const chapters = useMemo(() => range(0, chapterCount, 1), [chapterCount]);
+  const trimmedFilter = filter.trim();
   const filteredChapters = useMemo(() => {
-    const trimmed = filter.trim();
-    if (!trimmed) {
+    if (!trimmedFilter) {
       return chapters;
     }
-    return chapters.filter((index) => `${index + 1}`.includes(trimmed));
-  }, [chapters, filter]);
+    const lower = trimmedFilter.toLowerCase();
+    return chapters.filter(
+      (index) =>
+        `${index + 1}`.includes(trimmedFilter) ||
+        `chapter ${index + 1}`.includes(lower)
+    );
+  }, [chapters, trimmedFilter]);
 
   const jumpToChapter = useCallback(
     (index: number) => {
@@ -59,15 +67,33 @@ export const DictChapterButton = () => {
 
   const onInputKeyDown = useCallback(
     (event: React.KeyboardEvent<HTMLInputElement>) => {
+      if (event.key === "Escape" && filter) {
+        event.preventDefault();
+        event.stopPropagation();
+        setFilter("");
+        return;
+      }
       if (event.key !== "Enter") {
         return;
       }
-      const parsed = Number.parseInt(filter, 10);
-      if (!Number.isNaN(parsed)) {
-        jumpToChapter(parsed - 1);
+      if (!trimmedFilter) {
+        return;
+      }
+      const exact = Number.parseInt(trimmedFilter, 10);
+      if (
+        !Number.isNaN(exact) &&
+        exact >= 1 &&
+        exact <= chapterCount &&
+        `${exact}` === trimmedFilter
+      ) {
+        jumpToChapter(exact - 1);
+        return;
+      }
+      if (filteredChapters.length === 1) {
+        jumpToChapter(filteredChapters[0]);
       }
     },
-    [filter, jumpToChapter]
+    [chapterCount, filter, filteredChapters, jumpToChapter, trimmedFilter]
   );
 
   useEffect(() => {
@@ -96,15 +122,47 @@ export const DictChapterButton = () => {
             >
               Chapter {currentChapter + 1}
             </PopoverTrigger>
-            <PopoverContent align="start" className="w-56 p-2">
-              <Input
-                autoFocus
-                inputMode="numeric"
-                onChange={(event) => setFilter(event.target.value)}
-                onKeyDown={onInputKeyDown}
-                placeholder={`Jump to chapter (1-${chapterCount})`}
-                value={filter}
-              />
+            <PopoverContent align="start" className="w-60 p-2">
+              <div className="relative">
+                <IconMagnifyingGlass
+                  aria-hidden
+                  className="pointer-events-none absolute top-1/2 left-2.5 h-4 w-4 -translate-y-1/2 text-muted-foreground"
+                />
+                <Input
+                  aria-label="Search chapters"
+                  autoFocus
+                  className="h-9 pr-9 pl-8"
+                  inputMode="numeric"
+                  onChange={(event) => setFilter(event.target.value)}
+                  onKeyDown={onInputKeyDown}
+                  placeholder={`Search (1–${chapterCount})`}
+                  ref={searchInputRef}
+                  type="text"
+                  value={filter}
+                />
+                {filter.length > 0 && (
+                  <button
+                    aria-label="Clear search"
+                    className="absolute top-1/2 right-1.5 flex size-6 -translate-y-1/2 items-center justify-center rounded-md text-muted-foreground transition-colors hover:bg-accent hover:text-foreground"
+                    onClick={() => {
+                      setFilter("");
+                      searchInputRef.current?.focus();
+                    }}
+                    type="button"
+                  >
+                    <IconXMark className="h-3.5 w-3.5" />
+                  </button>
+                )}
+              </div>
+              {trimmedFilter.length > 0 && (
+                <p
+                  aria-live="polite"
+                  className="mt-1.5 px-0.5 text-muted-foreground text-xs tabular-nums"
+                >
+                  {filteredChapters.length} match
+                  {filteredChapters.length === 1 ? "" : "es"}
+                </p>
+              )}
               <ScrollArea className="mt-2 h-64">
                 <div className="flex flex-col gap-0.5 pr-2">
                   {filteredChapters.map((index) => {
@@ -139,9 +197,21 @@ export const DictChapterButton = () => {
                     );
                   })}
                   {filteredChapters.length === 0 && (
-                    <p className="px-2 py-3 text-center text-muted-foreground text-sm">
-                      No matching chapters
-                    </p>
+                    <div className="flex flex-col items-center gap-2 px-2 py-4 text-center">
+                      <p className="text-muted-foreground text-sm">
+                        No matching chapters
+                      </p>
+                      <button
+                        className="text-primary text-xs underline-offset-2 hover:underline"
+                        onClick={() => {
+                          setFilter("");
+                          searchInputRef.current?.focus();
+                        }}
+                        type="button"
+                      >
+                        Clear search
+                      </button>
+                    </div>
                   )}
                 </div>
               </ScrollArea>
