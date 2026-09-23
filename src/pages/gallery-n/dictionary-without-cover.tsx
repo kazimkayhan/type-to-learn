@@ -44,47 +44,45 @@ export default function DictionaryComponent({ dictionary }: Props) {
     <Dialog>
       <DialogTrigger
         aria-label={`${dictionary.name}, ${wordCountLabel}`}
-        className={`group relative flex h-auto min-h-[8.5rem] w-full min-w-0 cursor-pointer flex-col items-start justify-start overflow-hidden rounded-lg p-4 text-left shadow-lg focus-visible:ring-2 focus-visible:ring-indigo-400 ${
-          isSelected
-            ? "bg-indigo-400"
-            : "bg-zinc-50 hover:bg-white dark:bg-gray-800 dark:hover:bg-gray-700"
+        className={`group relative flex h-auto min-h-[8.5rem] w-full min-w-0 cursor-pointer flex-col items-start justify-start overflow-hidden rounded-lg p-4 text-left shadow-lg focus-visible:ring-2 focus-visible:ring-ring ${
+          isSelected ? "bg-primary" : "bg-card hover:bg-accent"
         }`}
         ref={divRef}
       >
         <h2
           className={`mb-1.5 pr-16 font-normal text-lg sm:text-xl ${
             isSelected
-              ? "text-white"
-              : "text-gray-800 group-hover:text-indigo-400 dark:text-gray-200"
+              ? "text-primary-foreground"
+              : "text-foreground group-hover:text-primary"
           }`}
         >
           {dictionary.name}
         </h2>
         {showDescription ? (
           <p
-            className={`mb-1 w-full min-w-0 truncate pr-16 ${isSelected ? "text-white" : "text-gray-600 dark:text-gray-200"}`}
+            className={`mb-1 w-full min-w-0 truncate pr-16 ${isSelected ? "text-primary-foreground" : "text-muted-foreground"}`}
             title={dictionary.description}
           >
             {dictionary.description}
           </p>
         ) : null}
         <p
-          className={`mb-0.5 font-bold tabular-nums ${isSelected ? "text-white" : "text-gray-600 dark:text-gray-200"}`}
+          className={`mb-0.5 font-bold tabular-nums ${isSelected ? "text-primary-foreground" : "text-muted-foreground"}`}
         >
           {wordCountLabel}
         </p>
         <div className="flex w-full min-w-0 items-center pt-2">
           {progress > 0 && (
             <Progress
-              className={`mr-4 flex w-full ${isSelected ? "border-indigo-600" : "border-indigo-400"}`}
+              className={`mr-4 flex w-full ${isSelected ? "border-primary-foreground/60" : "border-primary"}`}
               max={100}
               value={progress}
             >
               <ProgressTrack
-                className={`h-2 rounded-full border bg-white ${isSelected ? "border-indigo-600" : "border-indigo-400"}`}
+                className={`h-2 rounded-full border bg-card ${isSelected ? "border-primary-foreground/60" : "border-primary"}`}
               >
                 <ProgressIndicator
-                  className={`h-full rounded-full ${isSelected ? "bg-indigo-600" : "bg-indigo-400"}`}
+                  className={`h-full rounded-full ${isSelected ? "bg-primary-foreground/60" : "bg-primary"}`}
                   style={{ width: `calc(${progress}% )` }}
                 />
               </ProgressTrack>

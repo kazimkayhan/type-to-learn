@@ -49,7 +49,7 @@ export function ErrorTable({
   return (
     <div className="h-full w-full overflow-x-auto rounded-md border p-1">
       <Table className="h-full w-full" {...{}}>
-        <TableHeader className="sticky top-0 bg-white dark:bg-slate-900">
+        <TableHeader className="sticky top-0 bg-card">
           {table.getHeaderGroups().map((headerGroup) => (
             <TableRow key={headerGroup.id}>
               {headerGroup.headers.map((header) => (

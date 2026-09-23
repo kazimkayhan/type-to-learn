@@ -16,15 +16,12 @@ function RadioGroupItem({ className, ...props }: RadioPrimitive.Root.Props) {
   return (
     <RadioPrimitive.Root
       className={cn(
-        "peer relative flex aspect-square size-4 shrink-0 rounded-full border border-slate-300 outline-none transition-all",
-        "hover:border-slate-400 hover:ring-2 hover:ring-slate-200",
-        "focus-visible:border-slate-950 focus-visible:ring-2 focus-visible:ring-slate-950/20",
-        "data-checked:border-indigo-600 data-checked:bg-indigo-600",
+        "peer relative flex aspect-square size-4 shrink-0 rounded-full border border-input outline-none transition-all",
+        "hover:border-ring hover:ring-2 hover:ring-ring/20",
+        "focus-visible:border-ring focus-visible:ring-2 focus-visible:ring-ring/20",
+        "data-checked:border-primary data-checked:bg-primary",
         "disabled:cursor-not-allowed disabled:opacity-50",
-        "dark:border-slate-600 dark:hover:border-slate-500 dark:hover:ring-slate-700",
-        "dark:focus-visible:border-slate-300 dark:focus-visible:ring-slate-300/20",
-        "dark:data-checked:border-indigo-500 dark:data-checked:bg-indigo-500",
-        "aria-invalid:border-red-500 aria-invalid:ring-2 aria-invalid:ring-red-500/20",
+        "aria-invalid:border-destructive aria-invalid:ring-2 aria-invalid:ring-destructive/20",
         className
       )}
       data-slot="radio-group-item"
@@ -34,7 +31,7 @@ function RadioGroupItem({ className, ...props }: RadioPrimitive.Root.Props) {
         className="flex size-4 items-center justify-center"
         data-slot="radio-group-indicator"
       >
-        <span className="absolute top-1/2 left-1/2 size-1.5 -translate-x-1/2 -translate-y-1/2 rounded-full bg-white" />
+        <span className="absolute top-1/2 left-1/2 size-1.5 -translate-x-1/2 -translate-y-1/2 rounded-full bg-primary-foreground" />
       </RadioPrimitive.Indicator>
     </RadioPrimitive.Root>
   );

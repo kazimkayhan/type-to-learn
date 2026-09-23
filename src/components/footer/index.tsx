@@ -22,7 +22,7 @@ const Footer: React.FC = () => {
         target="_blank"
       >
         <IconGithub
-          className="text-gray-500 hover:text-gray-800 dark:text-gray-400 dark:hover:text-gray-100"
+          className="text-muted-foreground hover:text-foreground"
           fontSize={15}
         />
       </a>
@@ -33,7 +33,7 @@ const Footer: React.FC = () => {
         target="_blank"
       >
         <IconWorld
-          className="text-gray-500 hover:text-indigo-400 dark:text-gray-400 dark:hover:text-indigo-400"
+          className="text-muted-foreground hover:text-primary"
           fontSize={16}
         />
       </a>
@@ -45,19 +45,19 @@ const Footer: React.FC = () => {
         target="_blank"
       >
         <IconMail
-          className="text-gray-500 hover:text-indigo-400 dark:text-gray-400 dark:hover:text-indigo-400"
+          className="text-muted-foreground hover:text-primary"
           fontSize={16}
         />
       </a>
       <a
-        className="cursor-pointer text-gray-500 hover:text-gray-700 dark:text-gray-400 dark:hover:text-gray-200"
+        className="cursor-pointer text-muted-foreground hover:text-foreground"
         href={SITE.website}
         rel="noopener noreferrer"
         target="_blank"
       >
         @{SITE.author}
       </a>
-      <span className="hidden select-none rounded bg-slate-200 px-1 text-slate-600 text-xs sm:inline dark:bg-slate-800 dark:text-slate-400">
+      <span className="hidden select-none rounded bg-muted px-1 text-muted-foreground text-xs sm:inline">
         Build <span className="select-all">{LATEST_COMMIT_HASH}</span>
       </span>
     </footer>

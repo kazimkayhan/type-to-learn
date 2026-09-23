@@ -24,12 +24,12 @@ function Phonetic({ word }: PhoneticProps) {
     >
       <p
         aria-label={`${isAmerican ? "US" : "UK"} pronunciation: ${ipa}`}
-        className="inline-flex max-w-full items-baseline gap-2 rounded-full bg-indigo-100/80 px-2.5 py-1 dark:bg-indigo-400/15"
+        className="inline-flex max-w-full items-baseline gap-2 rounded-full bg-muted px-2.5 py-1"
       >
-        <span className="shrink-0 rounded-md bg-indigo-500/15 px-1.5 py-0.5 font-semibold text-[0.65em] text-indigo-700 tracking-wide dark:bg-indigo-400/20 dark:text-indigo-300">
+        <span className="shrink-0 rounded-md bg-primary/15 px-1.5 py-0.5 font-semibold text-[0.65em] text-primary tracking-wide">
           {isAmerican ? "US" : "UK"}
         </span>
-        <span className="font-normal text-gray-800 text-sm italic leading-none tracking-wide dark:text-indigo-50">
+        <span className="font-normal text-foreground text-sm italic leading-none tracking-wide">
           /{ipa}/
         </span>
       </p>

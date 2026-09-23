@@ -10,17 +10,15 @@ const DataTag: React.FC<DataTagProps> = ({ icon, name, data }) => {
   const IconComponent = icon;
 
   return (
-    <div className="g flex h-10 w-40 flex-1 select-none items-center justify-between rounded-md border-gray-400 bg-gray-100 px-3 py-5 shadow dark:border-gray-600 dark:bg-gray-800">
+    <div className="g flex h-10 w-40 flex-1 select-none items-center justify-between rounded-md border-border bg-muted px-3 py-5 shadow">
       <div className="flex items-center space-x-1">
-        <IconComponent className="h-4 w-4 text-gray-700 dark:text-gray-300" />
-        <span className="break-keep font-normal text-base text-gray-500 dark:text-gray-300">
+        <IconComponent className="h-4 w-4 text-muted-foreground" />
+        <span className="break-keep font-normal text-base text-muted-foreground">
           {name}
         </span>
       </div>
       <div className="flex items-center space-x-2">
-        <span className="font-normal text-base text-gray-800 dark:text-gray-200">
-          {data}
-        </span>
+        <span className="font-normal text-base text-foreground">{data}</span>
       </div>
     </div>
   );

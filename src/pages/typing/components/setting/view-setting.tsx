@@ -50,7 +50,7 @@ export default function ViewSetting() {
                   step={4}
                   value={[fontSizeConfig.foreignFont]}
                 />
-                <span className="ml-4 w-10 font-normal text-gray-600 text-xs">
+                <span className="ml-4 w-10 font-normal text-muted-foreground text-xs">
                   {fontSizeConfig.foreignFont}px
                 </span>
               </div>
@@ -67,14 +67,14 @@ export default function ViewSetting() {
                   step={4}
                   value={[fontSizeConfig.translateFont]}
                 />
-                <span className="ml-4 w-10 font-normal text-gray-600 text-xs">
+                <span className="ml-4 w-10 font-normal text-muted-foreground text-xs">
                   {fontSizeConfig.translateFont}px
                 </span>
               </div>
             </div>
           </div>
           <button
-            className="my-btn-primary ml-4 disabled:bg-gray-300"
+            className="my-btn-primary ml-4 disabled:bg-muted disabled:text-muted-foreground"
             onClick={onResetFontSize}
             title="Reset font settings"
             type="button"

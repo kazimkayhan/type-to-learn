@@ -33,7 +33,7 @@
   width: 40px;
   height: 40px;
   cursor: pointer;
-  fill: theme("colors.gray.600");
+  fill: var(--muted-foreground);
   transform: translateY(calc(-50% - 23px));
 }
 .word-sound .prefix__icon {
@@ -42,5 +42,4 @@
 }
 .dark .word-sound {
   opacity: 0.8;
-  fill: theme("colors.gray.50");
 }

@@ -131,8 +131,8 @@ const KeyboardWithBarCharts: FC<KeyboardWithBarChartsProps> = ({
         calculable: true,
         inRange: {
           color: isOpenDarkMode
-            ? ["hsl(0, 0%, 22%)", "#818cf8"]
-            : ["#f0f0f0", "#6366f1"],
+            ? ["hsl(0, 0%, 22%)", "#38bdf8"]
+            : ["#f0f0f0", "#0ea5e9"],
         },
         left: "right",
         max: myData[0].value,
@@ -147,7 +147,7 @@ const KeyboardWithBarCharts: FC<KeyboardWithBarChartsProps> = ({
     const barOption = {
       animationDurationUpdate: 1000,
       series: {
-        color: isOpenDarkMode ? "#818cf8" : "#6366f1",
+        color: isOpenDarkMode ? "#38bdf8" : "#0ea5e9",
         data: myData.map((item) => item.value),
         id: "population",
         name,
@@ -193,7 +193,7 @@ const KeyboardWithBarCharts: FC<KeyboardWithBarChartsProps> = ({
 
   return (
     <div className="flex h-full flex-col">
-      <div className="text-center font-bold text-gray-600 text-xl dark:text-white">
+      <div className="text-center font-bold text-foreground text-xl">
         {title}
       </div>
       <div

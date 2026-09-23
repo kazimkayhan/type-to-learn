@@ -47,7 +47,7 @@ export const SoundIcon = ({
     <button
       aria-disabled={disabled}
       aria-label="Play pronunciation"
-      className={`focus:outline-none dark:fill-gray-400 dark:opacity-80 ${className}`}
+      className={`fill-muted-foreground focus:outline-none ${className}`}
       disabled={disabled}
       onClick={onClick}
       type="button"

@@ -77,9 +77,9 @@ const RowDetail: React.FC<RowDetailProps> = ({
 
   return (
     <div className="absolute inset-0 flex flex-col items-center justify-center px-3">
-      <div className="relative z-10 my-card flex h-auto max-h-[90dvh] w-[min(26rem,calc(100vw-1.5rem))] min-w-0 select-text flex-col items-center justify-around overflow-y-auto rounded-2xl bg-white px-3 py-10 sm:h-[32rem] dark:bg-gray-900">
+      <div className="relative z-10 my-card flex h-auto max-h-[90dvh] w-[min(26rem,calc(100vw-1.5rem))] min-w-0 select-text flex-col items-center justify-around overflow-y-auto rounded-2xl bg-card px-3 py-10 sm:h-[32rem]">
         <IconX
-          className="absolute top-3 right-3 h-6 w-6 cursor-pointer text-gray-400"
+          className="absolute top-3 right-3 h-6 w-6 cursor-pointer text-muted-foreground"
           onClick={onClose}
         />
         <div className="flex flex-col items-center justify-start">
@@ -106,7 +106,7 @@ const RowDetail: React.FC<RowDetailProps> = ({
           <div className="flex max-w-[24rem] items-center">
             <span
               className={
-                "max-w-4xl text-center font-sans transition-colors duration-300 dark:text-white/80"
+                "max-w-4xl text-center font-sans text-foreground transition-colors duration-300"
               }
             >
               {word ? (

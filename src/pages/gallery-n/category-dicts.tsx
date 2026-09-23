@@ -44,7 +44,7 @@ export default function DictionaryGroup({
             <DictionaryComponent dictionary={dict} key={dict.id} />
           ))
         ) : (
-          <div className="col-span-full text-center text-gray-500">
+          <div className="col-span-full text-center text-muted-foreground">
             No dictionaries available in this category
           </div>
         )}

@@ -144,7 +144,7 @@ const App: React.FC = () => {
               className={`${
                 state.isShowSkip
                   ? "bg-orange-400"
-                  : "invisible w-0 bg-gray-300 px-0 opacity-0"
+                  : "invisible w-0 bg-muted px-0 opacity-0"
               } my-btn-primary min-h-11 px-3 text-sm transition-all duration-300 sm:min-h-0 sm:text-lg`}
               disabled={!state.isShowSkip}
               onClick={skipWord}
@@ -161,7 +161,7 @@ const App: React.FC = () => {
               {isLoading ? (
                 <div className="flex flex-col items-center justify-center">
                   <div
-                    className="inline-block h-8 w-8 animate-spin rounded-full border-4 border-indigo-400 border-r-transparent border-solid align-[-0.125em] motion-reduce:animate-[spin_1.5s_linear_infinite]"
+                    className="inline-block h-8 w-8 animate-spin rounded-full border-4 border-primary border-r-transparent border-solid align-[-0.125em] motion-reduce:animate-[spin_1.5s_linear_infinite]"
                     role="status"
                   >
                     <span className="sr-only">Loading…</span>

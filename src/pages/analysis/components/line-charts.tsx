@@ -92,7 +92,7 @@ const LineCharts: FC<LineChartsProps> = ({ data, title, suffix, name }) => {
 
   return (
     <div className="flex h-full flex-col">
-      <div className="text-center font-bold text-gray-600 text-xl dark:text-white">
+      <div className="text-center font-bold text-foreground text-xl">
         {title}
       </div>
       <div

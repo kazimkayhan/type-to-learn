@@ -31,7 +31,7 @@ export default function SoundSwitcher() {
     <Popover>
       <PopoverTrigger
         aria-label="Sound settings"
-        className="flex items-center justify-center rounded p-[2px] text-indigo-500 text-lg outline-none transition-colors duration-300 ease-in-out hover:bg-indigo-400 hover:text-white focus-visible:ring-2 focus-visible:ring-indigo-400"
+        className="flex items-center justify-center rounded p-[2px] text-lg text-primary outline-none transition-colors duration-300 ease-in-out hover:bg-primary hover:text-primary-foreground focus-visible:ring-2 focus-visible:ring-ring"
         title="Sound settings"
       >
         <IconSpeakerWave className="icon" />
@@ -40,7 +40,7 @@ export default function SoundSwitcher() {
       <PopoverContent className="w-60 p-4">
         <div className="flex flex-col gap-4">
           <div className="flex flex-col gap-2">
-            <span className="font-normal text-gray-900 text-sm leading-5 dark:text-white dark:text-opacity-60">
+            <span className="font-normal text-foreground text-sm leading-5">
               Toggle key sounds
             </span>
             <div className="flex flex-row items-center justify-between">
@@ -48,11 +48,11 @@ export default function SoundSwitcher() {
                 checked={keySoundsConfig.isOpen}
                 onCheckedChange={onChangeKeySound}
               />
-              <span className="text-right font-normal text-gray-600 text-xs leading-tight">{`Key sounds ${keySoundsConfig.isOpen ? "on" : "off"}`}</span>
+              <span className="text-right font-normal text-muted-foreground text-xs leading-tight">{`Key sounds ${keySoundsConfig.isOpen ? "on" : "off"}`}</span>
             </div>
           </div>
           <div className="flex flex-col gap-2">
-            <span className="font-normal text-gray-900 text-sm leading-5 dark:text-white dark:text-opacity-60">
+            <span className="font-normal text-foreground text-sm leading-5">
               Toggle effect sounds
             </span>
             <div className="flex flex-row items-center justify-between">
@@ -60,7 +60,7 @@ export default function SoundSwitcher() {
                 checked={hintSoundsConfig.isOpen}
                 onCheckedChange={onChangeHintSound}
               />
-              <span className="text-right font-normal text-gray-600 text-xs leading-tight">{`Effect sounds ${hintSoundsConfig.isOpen ? "on" : "off"}`}</span>
+              <span className="text-right font-normal text-muted-foreground text-xs leading-tight">{`Effect sounds ${hintSoundsConfig.isOpen ? "on" : "off"}`}</span>
             </div>
           </div>
         </div>

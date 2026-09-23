@@ -53,9 +53,9 @@ export function ReviewDetail({
   return (
     <div className="flex h-full flex-col items-center justify-around px-4 sm:px-10 lg:px-20">
       <div>
-        <MdiRobotAngry className="text-indigo-300" fontSize={30} />
+        <MdiRobotAngry className="text-primary" fontSize={30} />
         <blockquote>
-          <p className="font-medium text-gray-600 text-lg dark:text-gray-300">
+          <p className="font-medium text-lg text-muted-foreground">
             We use your historical practice data, mistake counts, and practice
             time for this dictionary to intelligently generate a practice list.
             <br />
@@ -73,9 +73,9 @@ export function ReviewDetail({
                 max={latestReviewRecord.words.length}
                 value={latestReviewRecord.index + 1}
               >
-                <ProgressTrack className="h-2 rounded-full border border-indigo-400 bg-white">
+                <ProgressTrack className="h-2 rounded-full border border-primary bg-card">
                   <ProgressIndicator
-                    className="h-full rounded-full bg-indigo-400 pl-0"
+                    className="h-full rounded-full bg-primary pl-0"
                     style={{
                       width: `calc(${((latestReviewRecord.index + 1) / latestReviewRecord.words.length) * 100}% )`,
                     }}
@@ -86,7 +86,7 @@ export function ReviewDetail({
                 {latestReviewRecord.index + 1}/{latestReviewRecord.words.length}
               </span>
             </div>
-            <div className="mt-1 font-normal text-gray-500 text-sm">{`( Created ${timeStamp2String(latestReviewRecord.createTime)} )`}</div>
+            <div className="mt-1 font-normal text-muted-foreground text-sm">{`( Created ${timeStamp2String(latestReviewRecord.createTime)} )`}</div>
           </>
         )}
 

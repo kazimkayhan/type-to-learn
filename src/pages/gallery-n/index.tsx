@@ -36,14 +36,14 @@ export default function GalleryPage() {
     <Layout fillViewport={false}>
       <div className="relative mx-auto w-full min-w-0 max-w-7xl flex-1 px-4 pt-4 pb-8 sm:px-6 lg:px-8">
         <div className="mb-6 flex items-center justify-between gap-3 sm:mb-8">
-          <h1 className="min-w-0 text-pretty font-semibold text-2xl text-gray-800 sm:text-3xl dark:text-gray-100">
+          <h1 className="min-w-0 text-pretty font-semibold text-2xl text-foreground sm:text-3xl">
             Dictionaries
           </h1>
           <div className="flex min-w-0 items-center justify-end gap-2">
             <DictRequest />
             <button
               aria-label="Close dictionary gallery"
-              className="flex h-11 w-11 shrink-0 items-center justify-center rounded-lg text-gray-400 hover:bg-gray-100 hover:text-gray-600 focus-visible:ring-2 focus-visible:ring-indigo-400 dark:hover:bg-gray-800 dark:hover:text-gray-200"
+              className="flex h-11 w-11 shrink-0 items-center justify-center rounded-lg text-muted-foreground hover:bg-accent hover:text-accent-foreground focus-visible:ring-2 focus-visible:ring-ring"
               onClick={onBack}
               type="button"
             >
@@ -58,7 +58,7 @@ export default function GalleryPage() {
           ))}
         </div>
 
-        <div className="mt-12 flex items-start justify-center gap-2 px-1 pb-4 text-gray-500 sm:mt-16">
+        <div className="mt-12 flex items-start justify-center gap-2 px-1 pb-4 text-muted-foreground sm:mt-16">
           <IconInfo className="mt-0.5 h-5 w-5 shrink-0" />
           <p className="min-w-0 text-xs leading-relaxed">
             Dictionary data in this project comes from multiple open-source

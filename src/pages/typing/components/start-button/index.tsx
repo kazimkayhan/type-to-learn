@@ -40,10 +40,8 @@ export default function StartButton({ isLoading }: { isLoading: boolean }) {
         <button
           aria-label={state.isTyping ? "Pause" : "Start"}
           className={`${
-            state.isTyping
-              ? "bg-indigo-600 shadow-indigo-300 dark:bg-indigo-500 dark:shadow-indigo-500/40"
-              : "bg-indigo-500 shadow-indigo-300 dark:shadow-indigo-500/60"
-          } my-btn-primary min-h-11 min-w-[4.5rem] px-4 text-sm shadow sm:min-h-8 sm:w-20 sm:text-lg`}
+            state.isTyping ? "bg-primary/80" : "bg-primary"
+          } my-btn-primary min-h-11 min-w-[4.5rem] px-4 text-sm shadow shadow-primary/40 sm:min-h-8 sm:w-20 sm:text-lg`}
           onClick={onToggleIsTyping}
           type="button"
         >
@@ -55,7 +53,7 @@ export default function StartButton({ isLoading }: { isLoading: boolean }) {
       <Tooltip content="Restart this chapter">
         <button
           aria-label="Restart"
-          className="my-btn-primary min-h-11 min-w-[4.5rem] bg-indigo-400 px-3 text-sm sm:min-h-8 sm:w-18 sm:text-lg"
+          className="my-btn-primary min-h-11 min-w-[4.5rem] bg-primary/80 px-3 text-sm sm:min-h-8 sm:w-18 sm:text-lg"
           onClick={onClickRestart}
           type="button"
         >

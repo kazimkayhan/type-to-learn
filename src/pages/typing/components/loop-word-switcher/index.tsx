@@ -37,8 +37,8 @@ export default function LoopWordSwitcher() {
       <PopoverTrigger
         aria-label="Select word loop count"
         className={`p-[2px] ${
-          loopTimes === 1 ? "text-gray-500" : "text-indigo-500"
-        } rounded text-lg hover:bg-indigo-400 hover:text-white focus-visible:ring-2 focus-visible:ring-indigo-400`}
+          loopTimes === 1 ? "text-muted-foreground" : "text-primary"
+        } rounded text-lg hover:bg-primary hover:text-primary-foreground focus-visible:ring-2 focus-visible:ring-ring`}
         type="button"
       >
         <div className="relative">
@@ -57,7 +57,7 @@ export default function LoopWordSwitcher() {
 
       <PopoverContent className="w-60 p-4">
         <div className="flex flex-col gap-2">
-          <span className="font-normal text-gray-900 text-sm leading-5 dark:text-white dark:text-opacity-60">
+          <span className="font-normal text-foreground text-sm leading-5">
             Select word loop count
           </span>
           <RadioGroup
@@ -69,12 +69,12 @@ export default function LoopWordSwitcher() {
             {loopOptions.map((value, index) => (
               <div className="flex items-center gap-3" key={value}>
                 <RadioGroupItem
-                  className="cursor-pointer hover:border-indigo-400 hover:ring-2 hover:ring-indigo-100 dark:hover:border-indigo-500 dark:hover:ring-indigo-900/50"
+                  className="cursor-pointer hover:border-primary hover:ring-2 hover:ring-primary/20"
                   id={`r${index}`}
                   value={value.toString()}
                 />
                 <label
-                  className="flex-1 cursor-pointer text-gray-900 text-sm leading-none dark:text-white/80"
+                  className="flex-1 cursor-pointer text-foreground text-sm leading-none"
                   htmlFor={`r${index}`}
                 >
                   {value === Number.MAX_SAFE_INTEGER ? "Unlimited" : value}

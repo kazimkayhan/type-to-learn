@@ -18,17 +18,17 @@ export default function DictRequest() {
     <>
       {Boolean(showPanel) && (
         <InfoPanel
-          buttonClassName="bg-indigo-500 hover:bg-indigo-400"
+          buttonClassName="bg-primary hover:bg-primary/90"
           icon={IconBook2}
-          iconClassName="text-indigo-500 bg-indigo-100 dark:text-indigo-300 dark:bg-indigo-500"
+          iconClassName="text-primary bg-accent"
           onClose={onClosePanel}
           openState={showPanel}
           title="Want to add more dictionaries?"
         >
-          <p className="text-gray-600 text-sm dark:text-gray-300">
+          <p className="text-muted-foreground text-sm">
             If you have some programming skills, check out our{" "}
             <a
-              className="font-medium text-blue-500 hover:text-blue-600"
+              className="font-medium text-primary hover:text-primary/80"
               href={SITE.dictGuide}
               rel="noopener noreferrer"
               target="_blank"
@@ -42,7 +42,7 @@ export default function DictRequest() {
       )}
       <button
         aria-label="How to add dictionaries"
-        className="group flex min-h-11 max-w-full items-center justify-center space-x-2 rounded-lg border border-indigo-200 bg-gradient-to-r from-indigo-50 to-blue-50 px-3 py-2.5 font-medium text-indigo-600 text-sm shadow-sm transition-all duration-200 hover:border-indigo-300 hover:from-indigo-100 hover:to-blue-100 hover:shadow-md focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 sm:px-4 dark:border-indigo-400 dark:from-gray-800 dark:to-gray-700 dark:text-indigo-400 dark:hover:from-gray-700 dark:hover:to-gray-600"
+        className="group flex min-h-11 max-w-full items-center justify-center space-x-2 rounded-lg border border-primary/30 bg-accent px-3 py-2.5 font-medium text-primary text-sm shadow-sm transition-all duration-200 hover:border-primary/50 hover:bg-accent/70 hover:shadow-md focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 sm:px-4"
         onClick={onOpenPanel}
         type="button"
       >

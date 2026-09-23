@@ -3,6 +3,7 @@ import { useCallback, useMemo, useState } from "react";
 import { useHotkeys } from "react-hotkeys-hook";
 import { usePrefetchPronunciationSounds } from "@/hooks/use-pronunciation";
 import {
+  currentDictInfoAtom,
   isReviewModeAtom,
   isShowPrevAndNextWordAtom,
   loopWordConfigAtom,
@@ -20,6 +21,7 @@ import WordComponent from "./components/word";
 export default function WordPanel() {
   const { state, dispatch } = useTypingContext();
   const phoneticConfig = useAtomValue(phoneticConfigAtom);
+  const currentDictInfo = useAtomValue(currentDictInfoAtom);
   const isShowPrevAndNextWord = useAtomValue(isShowPrevAndNextWordAtom);
   const [wordComponentKey, setWordComponentKey] = useState(0);
   const [currentWordExerciseCount, setCurrentWordExerciseCount] = useState(0);
@@ -215,14 +217,16 @@ export default function WordPanel() {
               />
               {phoneticConfig.isOpen && <Phonetic word={currentWord} />}
               <Translation
+                enrichable={currentDictInfo.language === "en"}
                 onMouseEnter={() => handleShowTranslation(true)}
                 onMouseLeave={() => handleShowTranslation(false)}
                 senses={currentWord.trans}
                 showTrans={shouldShowTranslation}
+                word={currentWord.name}
               />
             </div>
             {!state.isTyping && (
-              <p className="pointer-events-none mt-4 rounded-full bg-white px-5 py-2 text-center font-medium text-base text-gray-800 shadow-md sm:text-lg dark:bg-indigo-500 dark:text-white">
+              <p className="pointer-events-none mt-4 rounded-full bg-card px-5 py-2 text-center font-medium text-base text-foreground shadow-md sm:text-lg">
                 {state.timerData.time
                   ? "Press any key to continue"
                   : "Press any key to start"}

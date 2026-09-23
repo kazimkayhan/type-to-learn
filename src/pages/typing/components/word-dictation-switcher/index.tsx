@@ -67,8 +67,8 @@ export default function WordDictationSwitcher() {
       <PopoverTrigger
         aria-label="Toggle dictation mode"
         className={`flex items-center justify-center rounded p-[2px] text-lg ${
-          wordDictationConfig.isOpen ? "text-indigo-500" : "text-gray-500"
-        } outline-none transition-colors duration-300 ease-in-out hover:bg-indigo-400 hover:text-white`}
+          wordDictationConfig.isOpen ? "text-primary" : "text-muted-foreground"
+        } outline-none transition-colors duration-300 ease-in-out hover:bg-primary hover:text-primary-foreground`}
         type="button"
       >
         {wordDictationConfig.isOpen ? (
@@ -81,7 +81,7 @@ export default function WordDictationSwitcher() {
       <PopoverContent className="w-60 p-4">
         <div className="flex flex-col gap-4">
           <div className="flex flex-col gap-2">
-            <span className="font-normal text-gray-900 text-sm leading-5 dark:text-white dark:text-opacity-60">
+            <span className="font-normal text-foreground text-sm leading-5">
               Toggle dictation mode
             </span>
             <div className="flex flex-row items-center justify-between">
@@ -89,13 +89,13 @@ export default function WordDictationSwitcher() {
                 checked={wordDictationConfig.isOpen}
                 onCheckedChange={onToggleWordDictation}
               />
-              <span className="text-right font-normal text-gray-600 text-xs leading-tight">{`Dictation ${wordDictationConfig.isOpen ? "on" : "off"}`}</span>
+              <span className="text-right font-normal text-muted-foreground text-xs leading-tight">{`Dictation ${wordDictationConfig.isOpen ? "on" : "off"}`}</span>
             </div>
           </div>
 
           {Boolean(wordDictationConfig.isOpen) && (
             <div className="flex flex-col gap-2">
-              <span className="font-normal text-gray-900 text-sm leading-5 dark:text-white dark:text-opacity-60">
+              <span className="font-normal text-foreground text-sm leading-5">
                 Dictation mode
               </span>
               <Select
@@ -116,7 +116,7 @@ export default function WordDictationSwitcher() {
             </div>
           )}
 
-          <span className="font-medium text-gray-500 text-xs dark:text-white dark:text-opacity-60">
+          <span className="font-medium text-muted-foreground text-xs">
             Tips: Toggle dictation shortcut (Ctrl + V)
           </span>
         </div>

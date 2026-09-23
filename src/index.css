@@ -11,44 +11,38 @@
   --container-screen-2xl: 1400px;
 
   /* Custom Colors from shadcn/ui using CSS variables */
-  --color-background: hsl(var(--background));
-  --color-foreground: hsl(var(--foreground));
-  --color-card: hsl(var(--card));
-  --color-card-foreground: hsl(var(--card-foreground));
-  --color-popover: hsl(var(--popover));
-  --color-popover-foreground: hsl(var(--popover-foreground));
-  --color-primary: #6366f1;
-  --color-primary-foreground: hsl(var(--primary-foreground));
-  --color-secondary: hsl(var(--secondary));
-  --color-secondary-foreground: hsl(var(--secondary-foreground));
-  --color-muted: hsl(var(--muted));
-  --color-muted-foreground: hsl(var(--muted-foreground));
-  --color-accent: hsl(var(--accent));
-  --color-accent-foreground: hsl(var(--accent-foreground));
-  --color-destructive: hsl(var(--destructive));
-  --color-destructive-foreground: hsl(var(--destructive-foreground));
-  --color-border: hsl(var(--border));
-  --color-input: hsl(var(--input));
-  --color-ring: hsl(var(--ring));
-
-  /* Custom Heights */
-  --spacing-3\.5: 0.875rem;
-  --spacing-5\.5: 1.375rem;
-  --spacing-15: 3.75rem;
-  --spacing-18: 4.5rem;
-  --spacing-22: 5.5rem;
-  --spacing-70: 17.5rem;
-  --spacing-75: 18.75rem;
-  --spacing-84: 21rem;
-  --spacing-85: 21.25rem;
-  --spacing-100: 25rem;
-  --spacing-112: 28rem;
-  --spacing-116: 29rem;
-  --spacing-120: 30rem;
-  --spacing-150: 37.5rem;
-  --spacing-152: 38rem;
-  --spacing-160: 40rem;
-  --spacing-200: 50rem;
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-destructive-foreground: var(--destructive-foreground);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+  --color-chart-1: var(--chart-1);
+  --color-chart-2: var(--chart-2);
+  --color-chart-3: var(--chart-3);
+  --color-chart-4: var(--chart-4);
+  --color-chart-5: var(--chart-5);
+  --color-sidebar: var(--sidebar);
+  --color-sidebar-foreground: var(--sidebar-foreground);
+  --color-sidebar-primary: var(--sidebar-primary);
+  --color-sidebar-primary-foreground: var(--sidebar-primary-foreground);
+  --color-sidebar-accent: var(--sidebar-accent);
+  --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
+  --color-sidebar-border: var(--sidebar-border);
+  --color-sidebar-ring: var(--sidebar-ring);
 
   /* Custom Padding */
   --spacing-0\.8: 0.2rem;
@@ -94,57 +88,76 @@
 
 @layer base {
   :root {
-    --background: 0 0% 100%;
-    --foreground: 240 10% 3.9%;
-    --card: 0 0% 100%;
-    --card-foreground: 240 10% 3.9%;
-    --popover: 0 0% 100%;
-    --popover-foreground: 240 10% 3.9%;
-    --primary: 240 5.9% 10%;
-    --primary-foreground: 0 0% 98%;
-    --secondary: 240 4.8% 95.9%;
-    --secondary-foreground: 240 5.9% 10%;
-    --muted: 240 4.8% 95.9%;
-    --muted-foreground: 240 3.8% 46.1%;
-    --accent: 240 4.8% 95.9%;
-    --accent-foreground: 240 5.9% 10%;
-    --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 0 0% 98%;
-    --border: 240 5.9% 90%;
-    --input: 240 5.9% 90%;
-    --ring: 240 5.9% 10%;
-    --chart-1: 12 76% 61%;
-    --chart-2: 173 58% 39%;
-    --chart-3: 197 37% 24%;
-    --chart-4: 43 74% 66%;
-    --chart-5: 27 87% 67%;
+    /* Sky theme — light. Hue ~230-243 (Tailwind "sky") drives every surface. */
+    --background: oklch(0.978 0.011 236.62);
+    --foreground: oklch(0.293 0.066 243.157);
+    --card: oklch(0.995 0.003 236.62);
+    --card-foreground: oklch(0.293 0.066 243.157);
+    --popover: oklch(0.995 0.003 236.62);
+    --popover-foreground: oklch(0.293 0.066 243.157);
+    --primary: oklch(0.685 0.169 237.323);
+    --primary-foreground: oklch(0.985 0.005 236.62);
+    --secondary: oklch(0.93 0.032 234.5);
+    --secondary-foreground: oklch(0.391 0.09 240.876);
+    --muted: oklch(0.94 0.024 234.5);
+    --muted-foreground: oklch(0.5 0.075 240.5);
+    --accent: oklch(0.901 0.058 230.902);
+    --accent-foreground: oklch(0.391 0.09 240.876);
+    --destructive: oklch(0.577 0.245 27.325);
+    --destructive-foreground: oklch(0.985 0.005 236.62);
+    --border: oklch(0.89 0.035 233.5);
+    --input: oklch(0.89 0.035 233.5);
+    --ring: oklch(0.685 0.169 237.323);
+    --chart-1: oklch(0.828 0.111 230.318);
+    --chart-2: oklch(0.746 0.16 232.661);
+    --chart-3: oklch(0.685 0.169 237.323);
+    --chart-4: oklch(0.588 0.158 241.966);
+    --chart-5: oklch(0.5 0.134 242.749);
+    --radius: 0.625rem;
+    --sidebar: oklch(0.96 0.02 234.5);
+    --sidebar-foreground: oklch(0.293 0.066 243.157);
+    --sidebar-primary: oklch(0.685 0.169 237.323);
+    --sidebar-primary-foreground: oklch(0.985 0.005 236.62);
+    --sidebar-accent: oklch(0.901 0.058 230.902);
+    --sidebar-accent-foreground: oklch(0.391 0.09 240.876);
+    --sidebar-border: oklch(0.89 0.035 233.5);
+    --sidebar-ring: oklch(0.685 0.169 237.323);
   }
 
   .dark {
-    --background: 240 10% 3.9%;
-    --foreground: 0 0% 98%;
-    --card: 240 10% 3.9%;
-    --card-foreground: 0 0% 98%;
-    --popover: 240 10% 3.9%;
-    --popover-foreground: 0 0% 98%;
-    --primary: 0 0% 98%;
-    --primary-foreground: 240 5.9% 10%;
-    --secondary: 240 3.7% 15.9%;
-    --secondary-foreground: 0 0% 98%;
-    --muted: 240 3.7% 15.9%;
-    --muted-foreground: 240 5% 64.9%;
-    --accent: 240 3.7% 15.9%;
-    --accent-foreground: 0 0% 98%;
-    --destructive: 0 62.8% 30.6%;
-    --destructive-foreground: 0 0% 98%;
-    --border: 240 3.7% 15.9%;
-    --input: 240 3.7% 15.9%;
-    --ring: 240 4.9% 83.9%;
-    --chart-1: 220 70% 50%;
-    --chart-2: 160 60% 45%;
-    --chart-3: 30 80% 55%;
-    --chart-4: 280 65% 60%;
-    --chart-5: 340 75% 55%;
+    /* Sky theme — dark. A deep night-sky navy instead of neutral gray. */
+    --background: oklch(0.19 0.035 240);
+    --foreground: oklch(0.94 0.02 234.5);
+    --card: oklch(0.235 0.04 240);
+    --card-foreground: oklch(0.94 0.02 234.5);
+    --popover: oklch(0.235 0.04 240);
+    --popover-foreground: oklch(0.94 0.02 234.5);
+    --primary: oklch(0.746 0.16 232.661);
+    --primary-foreground: oklch(0.19 0.035 240);
+    --secondary: oklch(0.3 0.05 239);
+    --secondary-foreground: oklch(0.94 0.02 234.5);
+    --muted: oklch(0.28 0.045 239.5);
+    --muted-foreground: oklch(0.72 0.045 234);
+    --accent: oklch(0.34 0.06 238);
+    --accent-foreground: oklch(0.94 0.02 234.5);
+    --destructive: oklch(0.704 0.191 22.216);
+    --destructive-foreground: oklch(0.19 0.035 240);
+    --border: oklch(1 0 0 / 12%);
+    --input: oklch(1 0 0 / 16%);
+    --ring: oklch(0.746 0.16 232.661);
+    --chart-1: oklch(0.828 0.111 230.318);
+    --chart-2: oklch(0.746 0.16 232.661);
+    --chart-3: oklch(0.685 0.169 237.323);
+    --chart-4: oklch(0.588 0.158 241.966);
+    --chart-5: oklch(0.5 0.134 242.749);
+    --sidebar: oklch(0.22 0.04 240);
+    --sidebar-foreground: oklch(0.94 0.02 234.5);
+    --sidebar-primary: oklch(0.746 0.16 232.661);
+    --sidebar-primary-foreground: oklch(0.19 0.035 240);
+    --sidebar-accent: oklch(0.34 0.06 238);
+    --sidebar-accent-foreground: oklch(0.94 0.02 234.5);
+    --sidebar-border: oklch(1 0 0 / 12%);
+    --sidebar-ring: oklch(0.746 0.16 232.661);
   }
 }
 
@@ -173,12 +186,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
   touch-action: manipulation;
   user-select: none;
-  background-color: #faf9ff;
-  @apply transition-colors duration-300;
-}
-
-html.dark body {
-  @apply bg-gray-900;
+  @apply bg-background transition-colors duration-300;
 }
 
 code {
@@ -250,27 +258,27 @@ body,
   }
 
   .word-chip {
-    @apply flex h-10 w-auto cursor-pointer flex-row items-center justify-center rounded-md border-2 border-solid border-indigo-400 bg-white px-2 py-0.5 transition-colors duration-100 hover:bg-indigo-100 dark:border-slate-800 dark:bg-slate-700 dark:hover:bg-slate-600 md:h-12 md:px-5 md:py-1;
+    @apply flex h-10 w-auto cursor-pointer flex-row items-center justify-center rounded-md border-2 border-primary/60 border-solid bg-card px-2 py-0.5 transition-colors duration-100 hover:bg-accent md:h-12 md:px-5 md:py-1;
   }
 
   .word-chip > span {
-    @apply font-mono text-2xl font-light text-gray-600 dark:text-gray-300 md:text-3xl;
+    @apply font-mono text-2xl font-light text-muted-foreground md:text-3xl;
   }
 
   .word-chip-tooltip {
-    @apply pointer-events-none flex items-center justify-center whitespace-nowrap rounded-lg bg-white px-2 py-1 text-xs text-gray-500 shadow-md dark:bg-gray-800 dark:text-gray-300;
+    @apply pointer-events-none flex items-center justify-center whitespace-nowrap rounded-lg bg-popover px-2 py-1 text-popover-foreground text-xs shadow-md;
   }
 
   .my-btn-primary {
-    @apply flex items-center justify-center rounded-lg bg-indigo-400 px-6 py-1 text-lg text-white hover:opacity-90 focus:outline-none dark:text-white/80;
+    @apply flex items-center justify-center rounded-lg bg-primary px-6 py-1 text-lg text-primary-foreground hover:opacity-90 focus:outline-none;
   }
 
   .my-btn-info-panel {
-    @apply mt-3 inline-flex w-full justify-center rounded-md px-3 py-2 text-sm font-semibold text-white shadow-sm transition-colors focus:outline-none dark:bg-indigo-400/70 dark:text-white/80 sm:ml-3 sm:mt-0 sm:w-auto sm:text-sm;
+    @apply mt-3 inline-flex w-full justify-center rounded-md bg-primary px-3 py-2 text-primary-foreground text-sm font-semibold shadow-sm transition-colors focus:outline-none sm:ml-3 sm:mt-0 sm:w-auto sm:text-sm;
   }
 
   .tooltip {
-    @apply whitespace-nowrap rounded-lg bg-white px-2 py-1 text-xs text-gray-500 shadow-md dark:bg-gray-700 dark:text-gray-300;
+    @apply whitespace-nowrap rounded-lg bg-popover px-2 py-1 text-popover-foreground text-xs shadow-md;
   }
 }
 

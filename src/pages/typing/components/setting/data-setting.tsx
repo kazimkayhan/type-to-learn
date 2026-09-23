@@ -83,21 +83,21 @@ export default function DataSetting() {
             {isExporting && (
               <div className="flex h-3 w-full items-center justify-start px-5">
                 <Progress className="w-11/12" value={exportProgress}>
-                  <ProgressTrack className="translate-z-0 relative h-2 transform overflow-hidden rounded-full bg-gray-200">
+                  <ProgressTrack className="translate-z-0 relative h-2 transform overflow-hidden rounded-full bg-muted">
                     <ProgressIndicator
-                      className="cubic-bezier(0.65, 0, 0.35, 1) h-full w-full bg-indigo-400 transition-transform duration-500 ease-out"
+                      className="cubic-bezier(0.65, 0, 0.35, 1) h-full w-full bg-primary transition-transform duration-500 ease-out"
                       style={{
                         transform: `translateX(-${100 - exportProgress}%)`,
                       }}
                     />
                   </ProgressTrack>
                 </Progress>
-                <span className="ml-4 w-10 font-normal text-gray-600 text-xs">{`${exportProgress}%`}</span>
+                <span className="ml-4 w-10 font-normal text-muted-foreground text-xs">{`${exportProgress}%`}</span>
               </div>
             )}
 
             <button
-              className="my-btn-primary ml-4 disabled:bg-gray-300"
+              className="my-btn-primary ml-4 disabled:bg-muted disabled:text-muted-foreground"
               disabled={isExporting}
               onClick={onClickExport}
               title="Export data"
@@ -120,21 +120,21 @@ export default function DataSetting() {
             {isImporting && (
               <div className="flex h-3 w-full items-center justify-start px-5">
                 <Progress className="w-11/12" value={importProgress}>
-                  <ProgressTrack className="translate-z-0 relative h-2 transform overflow-hidden rounded-full bg-gray-200">
+                  <ProgressTrack className="translate-z-0 relative h-2 transform overflow-hidden rounded-full bg-muted">
                     <ProgressIndicator
-                      className="cubic-bezier(0.65, 0, 0.35, 1) h-full w-full bg-indigo-400 transition-transform duration-500 ease-out"
+                      className="cubic-bezier(0.65, 0, 0.35, 1) h-full w-full bg-primary transition-transform duration-500 ease-out"
                       style={{
                         transform: `translateX(-${100 - importProgress}%)`,
                       }}
                     />
                   </ProgressTrack>
                 </Progress>
-                <span className="ml-4 w-10 font-normal text-gray-600 text-xs">{`${importProgress}%`}</span>
+                <span className="ml-4 w-10 font-normal text-muted-foreground text-xs">{`${importProgress}%`}</span>
               </div>
             )}
 
             <button
-              className="my-btn-primary ml-4 disabled:bg-gray-300"
+              className="my-btn-primary ml-4 disabled:bg-muted disabled:text-muted-foreground"
               disabled={isImporting}
               onClick={onClickImport}
               title="Import data"

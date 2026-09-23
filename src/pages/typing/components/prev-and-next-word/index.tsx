@@ -64,7 +64,7 @@ export default function PrevAndNextWord({ type }: LastAndNextWordProps) {
         <Tooltip content={`Shortcut: ${shortCutKey}`}>
           <button
             aria-label={`${type === "prev" ? "Previous" : "Next"} word${headWord ? `: ${headWord}` : ""}`}
-            className="flex max-h-16 max-w-[38vw] cursor-pointer select-none items-center overflow-hidden text-gray-700 opacity-60 duration-200 ease-in-out hover:opacity-100 sm:max-w-xs dark:text-gray-400"
+            className="flex max-h-16 max-w-[38vw] cursor-pointer select-none items-center overflow-hidden text-foreground opacity-60 duration-200 ease-in-out hover:opacity-100 sm:max-w-xs"
             onClick={onClickWord}
             type="button"
           >
@@ -76,7 +76,7 @@ export default function PrevAndNextWord({ type }: LastAndNextWordProps) {
               className={`flex w-full grow-1 flex-col ${type === "next" ? "items-end text-right" : ""}`}
             >
               <p
-                className={`font-mono font-normal text-base text-gray-700 sm:text-2xl dark:text-gray-400 ${
+                className={`font-mono font-normal text-base text-foreground sm:text-2xl ${
                   wordDictationConfig.isOpen
                     ? "tracking-wider"
                     : "tracking-normal"
@@ -85,7 +85,7 @@ export default function PrevAndNextWord({ type }: LastAndNextWordProps) {
                 {headWord}
               </p>
               {Boolean(state.isTransVisible) && (
-                <p className="mt-0.5 hidden max-w-full truncate font-normal text-gray-600 text-sm sm:block dark:text-gray-500">
+                <p className="mt-0.5 hidden max-w-full truncate font-normal text-muted-foreground text-sm sm:block">
                   {word.trans.join("; ")}
                 </p>
               )}

@@ -108,6 +108,11 @@ export const isShowAnswerOnHoverAtom = atomWithStorage(
 
 export const isTextSelectableAtom = atomWithStorage("isTextSelectable", false);
 
+export const isWordEnrichmentEnabledAtom = atomWithStorage(
+  "isWordEnrichmentEnabled",
+  true
+);
+
 export const reviewModeInfoAtom = reviewInfoAtom({
   isReviewMode: false,
   reviewRecord: undefined as ReviewRecord | undefined,

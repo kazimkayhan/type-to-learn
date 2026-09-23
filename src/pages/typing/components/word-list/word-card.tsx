@@ -22,20 +22,18 @@ export default function WordCard({
   return (
     <div
       className={`mb-2 flex cursor-pointer select-text items-center rounded-xl p-4 shadow focus:outline-none ${
-        isActive
-          ? "bg-indigo-50 dark:bg-indigo-800 dark:bg-opacity-20"
-          : "bg-white dark:bg-gray-700 dark:bg-opacity-20"
-      }   `}
+        isActive ? "bg-accent" : "bg-card"
+      }`}
       key={word.name}
       onClick={handlePlay}
     >
       <div className="flex-1">
-        <p className="select-all font-mono font-normal text-xl leading-6 dark:text-gray-50">
+        <p className="select-all font-mono font-normal text-foreground text-xl leading-6">
           {["romaji", "hapin"].includes(currentLanguage)
             ? word.notation
             : word.name}
         </p>
-        <div className="mt-2 max-w-sm font-sans text-gray-400 text-sm">
+        <div className="mt-2 max-w-sm font-sans text-muted-foreground text-sm">
           {word.trans.join("; ")}
         </div>
       </div>

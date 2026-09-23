@@ -155,7 +155,7 @@ export default function SharePicDialog({
     <>
       <Dialog onOpenChange={(open) => !open && handleClose()} open={showState}>
         <DialogContent
-          className="overflow-hidden rounded-xl bg-white dark:bg-gray-700"
+          className="overflow-hidden rounded-xl bg-card"
           showCloseButton={false}
         >
           <div className="flex flex-col items-center justify-center p-6 pb-8 sm:pt-20 sm:pr-14 sm:pb-10 sm:pl-20">
@@ -165,15 +165,15 @@ export default function SharePicDialog({
               title="Close dialog"
               type="button"
             >
-              <IconXMark className="h-6 w-6 text-gray-400" />
+              <IconXMark className="h-6 w-6 text-muted-foreground" />
             </button>
             <div className="h-auto w-full max-w-[29rem] sm:h-152 sm:w-116">
               {imageURL ? (
                 <img alt="" className="h-auto w-full" src={imageURL} />
               ) : (
-                <div className="flex h-full w-full items-center justify-center rounded-lg border-2 border-white border-solid">
+                <div className="flex h-full w-full items-center justify-center rounded-lg border-2 border-border border-solid">
                   <svg
-                    className="mr-3 -ml-1 h-5 w-5 animate-spin text-white"
+                    className="mr-3 -ml-1 h-5 w-5 animate-spin text-foreground"
                     fill="none"
                     viewBox="0 0 24 24"
                     xmlns="http://www.w3.org/2000/svg"
@@ -183,7 +183,7 @@ export default function SharePicDialog({
                       cx="12"
                       cy="12"
                       r="10"
-                      stroke="rgb(129 140 248)"
+                      stroke="rgb(56 189 248)"
                       strokeWidth="4"
                     />
                     <path

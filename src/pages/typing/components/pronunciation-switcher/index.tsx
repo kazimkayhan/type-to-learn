@@ -134,7 +134,7 @@ const PronunciationSwitcher = () => {
     <Popover>
       <PopoverTrigger
         aria-label={`Pronunciation settings, ${currentLabel}`}
-        className="flex h-8 min-w-max cursor-pointer items-center justify-center rounded-md px-2 transition-colors duration-300 ease-in-out hover:bg-indigo-400 hover:text-white focus-visible:ring-2 focus-visible:ring-indigo-400 dark:text-white dark:text-opacity-60 dark:hover:text-opacity-100"
+        className="flex h-8 min-w-max cursor-pointer items-center justify-center rounded-md px-2 text-foreground transition-colors duration-300 ease-in-out hover:bg-primary hover:text-primary-foreground focus-visible:ring-2 focus-visible:ring-ring"
       >
         <Tooltip content="Switch pronunciation and phonetic">
           {currentLabel}
@@ -144,7 +144,7 @@ const PronunciationSwitcher = () => {
       <PopoverContent className="w-60 p-4">
         <div className="flex flex-col gap-4">
           <div className="flex flex-col gap-2">
-            <span className="font-normal text-gray-900 text-sm leading-5 dark:text-white dark:text-opacity-60">
+            <span className="font-normal text-foreground text-sm leading-5">
               Toggle phonetic display
             </span>
             <div className="flex flex-row items-center justify-between">
@@ -152,12 +152,12 @@ const PronunciationSwitcher = () => {
                 checked={phoneticConfig.isOpen}
                 onCheckedChange={onChangePhoneticIsOpen}
               />
-              <span className="text-right font-normal text-gray-600 text-xs leading-tight">{`Phonetic ${phoneticConfig.isOpen ? "on" : "off"}`}</span>
+              <span className="text-right font-normal text-muted-foreground text-xs leading-tight">{`Phonetic ${phoneticConfig.isOpen ? "on" : "off"}`}</span>
             </div>
           </div>
 
           <div className="flex flex-col gap-2">
-            <span className="font-normal text-gray-900 text-sm leading-5 dark:text-white dark:text-opacity-60">
+            <span className="font-normal text-foreground text-sm leading-5">
               Toggle word pronunciation
             </span>
             <div className="flex flex-row items-center justify-between">
@@ -165,13 +165,13 @@ const PronunciationSwitcher = () => {
                 checked={pronunciationConfig.isOpen}
                 onCheckedChange={onChangePronunciationIsOpen}
               />
-              <span className="text-right font-normal text-gray-600 text-xs leading-tight">{`Pronunciation ${pronunciationConfig.isOpen ? "on" : "off"}`}</span>
+              <span className="text-right font-normal text-muted-foreground text-xs leading-tight">{`Pronunciation ${pronunciationConfig.isOpen ? "on" : "off"}`}</span>
             </div>
           </div>
 
           {Boolean(window.speechSynthesis) && (
             <div className="flex flex-col gap-2">
-              <span className="font-normal text-gray-900 text-sm leading-5 dark:text-white dark:text-opacity-60">
+              <span className="font-normal text-foreground text-sm leading-5">
                 Toggle definition pronunciation
               </span>
               <div className="flex flex-row items-center justify-between">
@@ -179,7 +179,7 @@ const PronunciationSwitcher = () => {
                   checked={pronunciationConfig.isTransRead}
                   onCheckedChange={onChangePronunciationIsTransRead}
                 />
-                <span className="text-right font-normal text-gray-600 text-xs leading-tight">{`Pronunciation ${pronunciationConfig.isTransRead ? "on" : "off"}`}</span>
+                <span className="text-right font-normal text-muted-foreground text-xs leading-tight">{`Pronunciation ${pronunciationConfig.isTransRead ? "on" : "off"}`}</span>
               </div>
             </div>
           )}
@@ -187,7 +187,7 @@ const PronunciationSwitcher = () => {
           {Boolean(pronunciationConfig.isOpen) && (
             <>
               <div className="flex flex-col gap-2">
-                <span className="font-normal text-gray-900 text-sm leading-5 dark:text-white dark:text-opacity-60">
+                <span className="font-normal text-foreground text-sm leading-5">
                   Toggle loop pronunciation
                 </span>
                 <div className="flex flex-row items-center justify-between">
@@ -195,12 +195,12 @@ const PronunciationSwitcher = () => {
                     checked={pronunciationConfig.isLoop}
                     onCheckedChange={onChangePronunciationIsLoop}
                   />
-                  <span className="text-right font-normal text-gray-600 text-xs leading-tight">{`Loop ${pronunciationConfig.isLoop ? "on" : "off"}`}</span>
+                  <span className="text-right font-normal text-muted-foreground text-xs leading-tight">{`Loop ${pronunciationConfig.isLoop ? "on" : "off"}`}</span>
                 </div>
               </div>
 
               <div className="flex flex-col gap-2">
-                <span className="font-normal text-gray-900 text-sm leading-5 dark:text-white dark:text-opacity-60">
+                <span className="font-normal text-foreground text-sm leading-5">
                   Word pronunciation accent
                 </span>
                 <Select
@@ -220,7 +220,7 @@ const PronunciationSwitcher = () => {
                 </Select>
               </div>
 
-              <span className="font-medium text-gray-500 text-xs dark:text-white dark:text-opacity-60">
+              <span className="font-medium text-muted-foreground text-xs">
                 Tips: Read aloud shortcut ({CTRL} + J)
               </span>
             </>

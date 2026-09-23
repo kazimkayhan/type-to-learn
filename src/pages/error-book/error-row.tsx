@@ -32,13 +32,13 @@ const ErrorRow: FC<IErrorRowProps> = ({ record, onDelete }) => {
 
   return (
     <li
-      className="grid w-full cursor-pointer grid-cols-1 gap-2 rounded-lg bg-white px-4 py-3 text-black shadow-md md:grid-cols-[minmax(6.5rem,1fr)_minmax(0,2.5fr)_6.5rem_minmax(7rem,1fr)_auto] md:items-center md:gap-4 md:px-6 dark:bg-gray-800 dark:text-white"
+      className="grid w-full cursor-pointer grid-cols-1 gap-2 rounded-lg bg-card px-4 py-3 text-foreground shadow-md md:grid-cols-[minmax(6.5rem,1fr)_minmax(0,2.5fr)_6.5rem_minmax(7rem,1fr)_auto] md:items-center md:gap-4 md:px-6"
       onClick={onClick}
     >
       <span className="min-w-0 break-words font-mono text-lg md:text-base">
         {record.word}
       </span>
-      <span className="min-w-0 break-words text-gray-600 text-sm md:text-base md:text-black dark:text-gray-300 md:dark:text-white">
+      <span className="min-w-0 break-words text-muted-foreground text-sm md:text-base md:text-foreground">
         {word ? (
           word.trans.join("; ")
         ) : (
@@ -46,7 +46,7 @@ const ErrorRow: FC<IErrorRowProps> = ({ record, onDelete }) => {
         )}
       </span>
       <span className="tabular-nums">{record.wrongCount}</span>
-      <span className="min-w-0 truncate text-gray-500 md:text-inherit">
+      <span className="min-w-0 truncate text-muted-foreground md:text-inherit">
         {dictInfo?.name}
       </span>
       <span
@@ -59,7 +59,7 @@ const ErrorRow: FC<IErrorRowProps> = ({ record, onDelete }) => {
           <Tooltip>
             <TooltipTrigger
               aria-label="Delete records"
-              className="rounded p-1 hover:text-red-500"
+              className="rounded p-1 hover:text-destructive"
               onClick={onDelete}
               type="button"
             >

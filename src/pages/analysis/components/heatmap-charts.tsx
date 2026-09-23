@@ -20,7 +20,7 @@ const HeatmapCharts: FC<HeatmapChartsProps> = ({ data, title }) => {
 
   if (data.length === 0) {
     return (
-      <div className="flex w-full min-w-0 flex-col items-center justify-center px-4 py-8 text-center text-gray-500">
+      <div className="flex w-full min-w-0 flex-col items-center justify-center px-4 py-8 text-center text-muted-foreground">
         {title}
       </div>
     );
@@ -28,7 +28,7 @@ const HeatmapCharts: FC<HeatmapChartsProps> = ({ data, title }) => {
 
   return (
     <div className="flex w-full min-w-0 flex-col items-center justify-center overflow-x-auto">
-      <div className="px-2 text-center font-bold text-base text-gray-600 sm:text-xl dark:text-white">
+      <div className="px-2 text-center font-bold text-base text-foreground sm:text-xl">
         {title}
       </div>
       <ActivityCalendar
@@ -71,8 +71,8 @@ const HeatmapCharts: FC<HeatmapChartsProps> = ({ data, title }) => {
           padding: isNarrow ? "12px 8px 8px" : "40px 60px 20px 100px",
         }}
         theme={{
-          dark: ["hsl(0, 0%, 22%)", "#818cf8"],
-          light: ["#f0f0f0", "#6366f1"],
+          dark: ["hsl(0, 0%, 22%)", "#38bdf8"],
+          light: ["#f0f0f0", "#0ea5e9"],
         }}
       />
       <ReactTooltip id="react-tooltip" />

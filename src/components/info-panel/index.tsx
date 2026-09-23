@@ -49,19 +49,19 @@ const InfoPanel: React.FC<InfoPanelProps> = ({
           <div
             className={classNames(
               iconClassName,
-              "mx-auto flex h-12 w-12 flex-shrink-0 items-center justify-center rounded-full sm:mx-0 sm:h-10 sm:w-10 dark:bg-opacity-30"
+              "mx-auto flex h-12 w-12 flex-shrink-0 items-center justify-center rounded-full sm:mx-0 sm:h-10 sm:w-10"
             )}
           >
-            <Icon className="h-6 w-6 stroke-current dark:bg-opacity-100" />
+            <Icon className="h-6 w-6 stroke-current" />
           </div>
-          <DialogTitle className="mt-3 text-center font-semibold text-base text-gray-900 leading-6 sm:mt-0 sm:text-left dark:text-white">
+          <DialogTitle className="mt-3 text-center font-semibold text-base text-foreground leading-6 sm:mt-0 sm:text-left">
             {title}
           </DialogTitle>
         </DialogHeader>
         <DialogDescription asChild>
           <div className="mt-2">{children}</div>
         </DialogDescription>
-        <DialogFooter className="bg-gray-50 sm:flex sm:flex-row-reverse dark:bg-gray-700">
+        <DialogFooter className="bg-muted sm:flex sm:flex-row-reverse">
           <button
             className={classNames(buttonClassName, "my-btn-info-panel")}
             onClick={onClose}

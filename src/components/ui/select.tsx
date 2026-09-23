@@ -102,10 +102,7 @@ function SelectLabel({
 }: SelectPrimitive.GroupLabel.Props) {
   return (
     <SelectPrimitive.GroupLabel
-      className={cn(
-        "px-2 py-1.5 text-slate-500 text-xs dark:text-slate-400",
-        className
-      )}
+      className={cn("px-2 py-1.5 text-muted-foreground text-xs", className)}
       data-slot="select-label"
       {...props}
     />
@@ -146,10 +143,7 @@ function SelectSeparator({
 }: SelectPrimitive.Separator.Props) {
   return (
     <SelectPrimitive.Separator
-      className={cn(
-        "pointer-events-none -mx-1 my-1 h-px bg-slate-200 dark:bg-slate-800",
-        className
-      )}
+      className={cn("pointer-events-none -mx-1 my-1 h-px bg-border", className)}
       data-slot="select-separator"
       {...props}
     />
@@ -163,7 +157,7 @@ function SelectScrollUpButton({
   return (
     <SelectPrimitive.ScrollUpArrow
       className={cn(
-        "top-0 z-10 flex w-full cursor-default items-center justify-center bg-white py-1 dark:bg-slate-950 [&_svg:not([class*='size-'])]:size-4",
+        "top-0 z-10 flex w-full cursor-default items-center justify-center bg-popover py-1 [&_svg:not([class*='size-'])]:size-4",
         className
       )}
       data-slot="select-scroll-up-button"
@@ -181,7 +175,7 @@ function SelectScrollDownButton({
   return (
     <SelectPrimitive.ScrollDownArrow
       className={cn(
-        "bottom-0 z-10 flex w-full cursor-default items-center justify-center bg-white py-1 dark:bg-slate-950 [&_svg:not([class*='size-'])]:size-4",
+        "bottom-0 z-10 flex w-full cursor-default items-center justify-center bg-popover py-1 [&_svg:not([class*='size-'])]:size-4",
         className
       )}
       data-slot="select-scroll-down-button"

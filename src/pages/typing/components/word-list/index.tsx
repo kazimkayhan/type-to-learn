@@ -45,20 +45,16 @@ export default function WordList() {
       >
         <button
           aria-label="Open chapter word list"
-          className="fixed top-[50%] left-0 z-20 min-h-11 rounded-lg rounded-l-none bg-indigo-50 px-2 py-3 text-lg hover:bg-indigo-200 focus-visible:ring-2 focus-visible:ring-indigo-400 dark:bg-indigo-900 dark:hover:bg-indigo-800"
+          className="fixed top-[50%] left-0 z-20 min-h-11 rounded-lg rounded-l-none bg-muted px-2 py-3 text-lg hover:bg-accent focus-visible:ring-2 focus-visible:ring-ring"
           onClick={openModal}
           type="button"
         >
-          <ListIcon className="h-6 w-6 text-indigo-500 text-lg dark:text-white" />
+          <ListIcon className="h-6 w-6 text-lg text-primary" />
         </button>
       </Tooltip>
 
-      <Drawer
-        classNames="bg-stone-50 dark:bg-gray-900"
-        onClose={closeModal}
-        open={isOpen}
-      >
-        <h3 className="p-4 pr-12 font-medium text-lg leading-6 dark:text-gray-50">
+      <Drawer classNames="bg-muted" onClose={closeModal} open={isOpen}>
+        <h3 className="p-4 pr-12 font-medium text-foreground text-lg leading-6">
           {currentDictTitleValue}
         </h3>
         <ScrollArea className="flex-1 overflow-y-auto">

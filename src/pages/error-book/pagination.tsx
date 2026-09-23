@@ -30,16 +30,16 @@ const Pagination: FC<IPaginationProps> = ({
     <div className={`flex items-center gap-2 ${className}`}>
       <button
         aria-label="Previous page"
-        className="cursor-pointer rounded-full bg-white p-2 text-indigo-500 shadow-md focus-visible:ring-2 focus-visible:ring-indigo-400 dark:bg-gray-800 dark:text-indigo-300"
+        className="cursor-pointer rounded-full bg-card p-2 text-primary shadow-md focus-visible:ring-2 focus-visible:ring-ring"
         onClick={prevPage}
         type="button"
       >
         <PrevIcon />
       </button>
-      <span className="text-black tabular-nums dark:text-white">{`${page} / ${totalPages}`}</span>
+      <span className="text-foreground tabular-nums">{`${page} / ${totalPages}`}</span>
       <button
         aria-label="Next page"
-        className="cursor-pointer rounded-full bg-white p-2 text-indigo-500 shadow-md focus-visible:ring-2 focus-visible:ring-indigo-400 dark:bg-gray-800 dark:text-indigo-300"
+        className="cursor-pointer rounded-full bg-card p-2 text-primary shadow-md focus-visible:ring-2 focus-visible:ring-ring"
         onClick={nextPage}
         type="button"
       >

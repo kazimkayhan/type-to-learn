@@ -62,7 +62,7 @@ export const WordPronunciationIcon = ({
   return (
     <SoundIcon
       animated={isPlaying}
-      className={`cursor-pointer text-gray-600 ${className}`}
+      className={`cursor-pointer text-muted-foreground ${className}`}
       iconClassName={iconClassName}
       onClick={playSound}
     />

@@ -45,7 +45,7 @@ export default function RemarkRing({
   return (
     <div
       className={classNames(
-        "relative flex flex-shrink-0 flex-col items-center justify-center rounded-full border-8 border-indigo-200 bg-transparent dark:border-gray-700"
+        "relative flex flex-shrink-0 flex-col items-center justify-center rounded-full border-8 border-muted bg-transparent"
       )}
       style={{
         height: `${size}rem`,
@@ -55,14 +55,12 @@ export default function RemarkRing({
       {percentage !== null && (
         <div
           aria-hidden
-          className="absolute -inset-2 rounded-full border-8 border-indigo-400 bg-transparent dark:border-indigo-500"
+          className="absolute -inset-2 rounded-full border-8 border-primary bg-transparent"
           style={{ clipPath }}
         />
       )}
-      <span className="text-gray-800 text-xl tabular-nums dark:text-gray-300">
-        {remark}
-      </span>
-      <span className="font-medium text-gray-600 text-sm dark:text-gray-500">
+      <span className="text-foreground text-xl tabular-nums">{remark}</span>
+      <span className="font-medium text-muted-foreground text-sm">
         {caption}
       </span>
     </div>

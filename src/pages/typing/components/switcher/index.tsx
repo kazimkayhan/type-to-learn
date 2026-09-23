@@ -62,7 +62,7 @@ export default function Switcher() {
       >
         <button
           aria-label={`Toggle definition display (${CTRL} + Shift + V)`}
-          className={`rounded p-[2px] ${state?.isTransVisible ? "text-indigo-500" : "text-gray-500"} text-lg focus-visible:ring-2 focus-visible:ring-indigo-400`}
+          className={`rounded p-[2px] ${state?.isTransVisible ? "text-primary" : "text-muted-foreground"} text-lg focus-visible:ring-2 focus-visible:ring-ring`}
           onClick={(e) => {
             changeTransVisibleState();
             e.currentTarget.blur();
@@ -84,7 +84,7 @@ export default function Switcher() {
       <Tooltip className="h-7 w-7" content="Toggle dark mode">
         <button
           aria-label="Toggle dark mode"
-          className="rounded p-[2px] text-indigo-500 text-lg focus-visible:ring-2 focus-visible:ring-indigo-400"
+          className="rounded p-[2px] text-lg text-primary focus-visible:ring-2 focus-visible:ring-ring"
           onClick={(e) => {
             changeDarkModeState();
             e.currentTarget.blur();

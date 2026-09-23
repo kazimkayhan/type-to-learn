@@ -33,17 +33,17 @@ export default function Chapter({
   return (
     <button
       aria-current={checked ? "true" : undefined}
-      className={`relative flex h-16 w-[calc(50%-0.375rem)] cursor-pointer flex-col items-start justify-center overflow-hidden rounded-xl px-3 py-2 pr-8 text-left focus-visible:ring-2 focus-visible:ring-indigo-400 sm:w-40 ${
+      className={`relative flex h-16 w-full cursor-pointer flex-col items-start justify-center overflow-hidden rounded-xl px-3 py-2 pr-8 text-left transition-shadow focus-visible:ring-2 focus-visible:ring-ring ${
         checked
-          ? "bg-indigo-100 ring-2 ring-indigo-400 dark:bg-indigo-950/50 dark:ring-indigo-400"
-          : "bg-slate-100 dark:bg-slate-800"
+          ? "bg-accent shadow-sm ring-2 ring-primary"
+          : "bg-muted hover:bg-accent/60"
       }`}
       onClick={() => onChange(index)}
       ref={ref}
       type="button"
     >
       <span className="font-medium">Chapter {index + 1}</span>
-      <span className="pt-[2px] text-slate-600 text-xs dark:text-slate-400">
+      <span className="pt-[2px] text-muted-foreground text-xs">
         {statusLabel}
       </span>
       {isPracticed && (

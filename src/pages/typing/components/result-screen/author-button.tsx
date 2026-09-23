@@ -4,7 +4,7 @@ import { SITE } from "@/constants";
 export const AuthorButton = () => (
   <a
     aria-label={`Visit ${SITE.author}'s website`}
-    className="rounded-full focus-visible:ring-2 focus-visible:ring-indigo-400"
+    className="rounded-full focus-visible:ring-2 focus-visible:ring-ring"
     href={SITE.website}
     rel="noopener noreferrer"
     target="_blank"

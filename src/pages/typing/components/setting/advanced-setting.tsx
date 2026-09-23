@@ -7,6 +7,7 @@ import {
   isShowAnswerOnHoverAtom,
   isShowPrevAndNextWordAtom,
   isTextSelectableAtom,
+  isWordEnrichmentEnabledAtom,
   randomConfigAtom,
 } from "@/store";
 import styles from "./index.module.css";
@@ -20,6 +21,9 @@ export default function AdvancedSetting() {
   const [isTextSelectable, setIsTextSelectable] = useAtom(isTextSelectableAtom);
   const [isShowAnswerOnHover, setIsShowAnswerOnHover] = useAtom(
     isShowAnswerOnHoverAtom
+  );
+  const [isWordEnrichmentEnabled, setIsWordEnrichmentEnabled] = useAtom(
+    isWordEnrichmentEnabledAtom
   );
 
   const onToggleRandom = useCallback(
@@ -58,6 +62,12 @@ export default function AdvancedSetting() {
     },
     [setIsShowAnswerOnHover]
   );
+  const onToggleWordEnrichment = useCallback(
+    (checked: boolean) => {
+      setIsWordEnrichmentEnabled(checked);
+    },
+    [setIsWordEnrichmentEnabled]
+  );
 
   return (
     <ScrollArea className="flex-1 select-none overflow-y-auto">
@@ -74,7 +84,7 @@ export default function AdvancedSetting() {
                 checked={randomConfig.isOpen}
                 onCheckedChange={onToggleRandom}
               />
-              <span className="text-right font-normal text-gray-600 text-xs leading-tight">{`Shuffle ${
+              <span className="text-right font-normal text-muted-foreground text-xs leading-tight">{`Shuffle ${
                 randomConfig.isOpen ? "on" : "off"
               }`}</span>
             </div>
@@ -92,7 +102,7 @@ export default function AdvancedSetting() {
                 checked={isShowPrevAndNextWord}
                 onCheckedChange={onToggleLastAndNextWord}
               />
-              <span className="text-right font-normal text-gray-600 text-xs leading-tight">{`Word preview ${
+              <span className="text-right font-normal text-muted-foreground text-xs leading-tight">{`Word preview ${
                 isShowPrevAndNextWord ? "on" : "off"
               }`}</span>
             </div>
@@ -108,7 +118,7 @@ export default function AdvancedSetting() {
                 checked={isIgnoreCase}
                 onCheckedChange={onToggleIgnoreCase}
               />
-              <span className="text-right font-normal text-gray-600 text-xs leading-tight">{`Ignore case ${
+              <span className="text-right font-normal text-muted-foreground text-xs leading-tight">{`Ignore case ${
                 isIgnoreCase ? "on" : "off"
               }`}</span>
             </div>
@@ -123,7 +133,7 @@ export default function AdvancedSetting() {
                 checked={isTextSelectable}
                 onCheckedChange={onToggleTextSelectable}
               />
-              <span className="text-right font-normal text-gray-600 text-xs leading-tight">{`Text selection ${
+              <span className="text-right font-normal text-muted-foreground text-xs leading-tight">{`Text selection ${
                 isTextSelectable ? "on" : "off"
               }`}</span>
             </div>
@@ -140,8 +150,26 @@ export default function AdvancedSetting() {
                 checked={isShowAnswerOnHover}
                 onCheckedChange={onToggleShowAnswerOnHover}
               />
-              <span className="text-right font-normal text-gray-600 text-xs leading-tight">{`Hints ${
+              <span className="text-right font-normal text-muted-foreground text-xs leading-tight">{`Hints ${
                 isShowAnswerOnHover ? "on" : "off"
+              }`}</span>
+            </div>
+          </div>
+          <div className={styles.section}>
+            <span className={styles.sectionLabel}>
+              Example sentences and synonyms
+            </span>
+            <span className={styles.sectionDescription}>
+              For English words, look up a live example sentence and synonyms
+              from a free dictionary service and show them under the definition
+            </span>
+            <div className={styles.switchBlock}>
+              <Switch
+                checked={isWordEnrichmentEnabled}
+                onCheckedChange={onToggleWordEnrichment}
+              />
+              <span className="text-right font-normal text-muted-foreground text-xs leading-tight">{`Examples & synonyms ${
+                isWordEnrichmentEnabled ? "on" : "off"
               }`}</span>
             </div>
           </div>

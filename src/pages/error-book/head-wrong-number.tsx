@@ -36,14 +36,14 @@ const HeadWrongNumber: FC<IHeadWrongNumberProps> = ({
       <span className="absolute top-0 right-0 bottom-0 flex flex-col items-center justify-center text-[12px]">
         <UPIcon
           className={classNames("-mb-2", {
-            "text-gray-400": sortType !== "asc",
-            "text-indigo-500": sortType === "asc",
+            "text-muted-foreground": sortType !== "asc",
+            "text-primary": sortType === "asc",
           })}
         />
         <DownIcon
           className={classNames({
-            "text-gray-400": sortType !== "desc",
-            "text-indigo-500": sortType === "desc",
+            "text-muted-foreground": sortType !== "desc",
+            "text-primary": sortType === "desc",
           })}
         />
       </span>

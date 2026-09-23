@@ -145,7 +145,7 @@ export default function SoundSetting() {
                 checked={pronunciationConfig.isOpen}
                 onCheckedChange={onTogglePronunciation}
               />
-              <span className="text-right font-normal text-gray-600 text-xs leading-tight">{`Pronunciation ${
+              <span className="text-right font-normal text-muted-foreground text-xs leading-tight">{`Pronunciation ${
                 pronunciationConfig.isOpen ? "on" : "off"
               }`}</span>
             </div>
@@ -160,7 +160,7 @@ export default function SoundSetting() {
                   onValueChange={onChangePronunciationVolume}
                   step={10}
                 />
-                <span className="ml-4 w-10 font-normal text-gray-600 text-xs">{`${Math.floor(pronunciationConfig.volume * 100)}%`}</span>
+                <span className="ml-4 w-10 font-normal text-muted-foreground text-xs">{`${Math.floor(pronunciationConfig.volume * 100)}%`}</span>
               </div>
             </div>
 
@@ -176,7 +176,7 @@ export default function SoundSetting() {
                   onValueChange={onChangePronunciationRate}
                   step={0.1}
                 />
-                <span className="ml-4 w-10 font-normal text-gray-600 text-xs">{`${toFixedNumber(pronunciationConfig.rate, 2)}`}</span>
+                <span className="ml-4 w-10 font-normal text-muted-foreground text-xs">{`${toFixedNumber(pronunciationConfig.rate, 2)}`}</span>
               </div>
             </div>
           </div>
@@ -190,7 +190,7 @@ export default function SoundSetting() {
                   checked={pronunciationConfig.isTransRead}
                   onCheckedChange={onTogglePronunciationIsTransRead}
                 />
-                <span className="text-right font-normal text-gray-600 text-xs leading-tight">{`Pronunciation ${
+                <span className="text-right font-normal text-muted-foreground text-xs leading-tight">{`Pronunciation ${
                   pronunciationConfig.isTransRead ? "on" : "off"
                 }`}</span>
               </div>
@@ -204,7 +204,7 @@ export default function SoundSetting() {
                     onValueChange={onChangePronunciationIsTransVolume}
                     step={10}
                   />
-                  <span className="ml-4 w-10 font-normal text-gray-600 text-xs">{`${Math.floor(
+                  <span className="ml-4 w-10 font-normal text-muted-foreground text-xs">{`${Math.floor(
                     pronunciationConfig.transVolume * 100
                   )}%`}</span>
                 </div>
@@ -219,7 +219,7 @@ export default function SoundSetting() {
                 checked={keySoundsConfig.isOpen}
                 onCheckedChange={onToggleKeySounds}
               />
-              <span className="text-right font-normal text-gray-600 text-xs leading-tight">{`Key sounds ${
+              <span className="text-right font-normal text-muted-foreground text-xs leading-tight">{`Key sounds ${
                 keySoundsConfig.isOpen ? "on" : "off"
               }`}</span>
             </div>
@@ -235,7 +235,7 @@ export default function SoundSetting() {
                   onValueChange={onChangeKeySoundsVolume}
                   step={10}
                 />
-                <span className="ml-4 w-10 font-normal text-gray-600 text-xs">{`${Math.floor(keySoundsConfig.volume * 100)}%`}</span>
+                <span className="ml-4 w-10 font-normal text-muted-foreground text-xs">{`${Math.floor(keySoundsConfig.volume * 100)}%`}</span>
               </div>
             </div>
             <div className={`${styles.block}`}>
@@ -256,7 +256,7 @@ export default function SoundSetting() {
                       <div className="group flex w-full cursor-pointer items-center justify-between gap-2">
                         <span>{keySoundResource.name}</span>
                         <IconEar
-                          className="cursor-pointer text-neutral-500 opacity-0 transition-opacity hover:text-indigo-400 group-hover:opacity-100 dark:text-neutral-300"
+                          className="cursor-pointer text-muted-foreground opacity-0 transition-opacity hover:text-primary group-hover:opacity-100"
                           onClick={(e) => {
                             e.stopPropagation();
                             onPlayKeySound(keySoundResource);
@@ -277,7 +277,7 @@ export default function SoundSetting() {
                 checked={hintSoundsConfig.isOpen}
                 onCheckedChange={onToggleHintSounds}
               />
-              <span className="text-right font-normal text-gray-600 text-xs leading-tight">{`Effect sounds ${
+              <span className="text-right font-normal text-muted-foreground text-xs leading-tight">{`Effect sounds ${
                 hintSoundsConfig.isOpen ? "on" : "off"
               }`}</span>
             </div>
@@ -293,7 +293,7 @@ export default function SoundSetting() {
                   onValueChange={onChangeHintSoundsVolume}
                   step={10}
                 />
-                <span className="ml-4 w-10 font-normal text-gray-600 text-xs">{`${Math.floor(hintSoundsConfig.volume * 100)}%`}</span>
+                <span className="ml-4 w-10 font-normal text-muted-foreground text-xs">{`${Math.floor(hintSoundsConfig.volume * 100)}%`}</span>
               </div>
             </div>
           </div>

@@ -49,46 +49,46 @@ const Analysis = () => {
       <div className="relative flex w-full min-w-0 flex-1 flex-col overflow-y-auto px-4 pt-16 sm:px-8 sm:pt-20 lg:px-20">
         <button
           aria-label="Close statistics"
-          className="absolute top-4 right-4 rounded p-1 text-gray-400 hover:bg-gray-100 focus-visible:ring-2 focus-visible:ring-indigo-400 sm:top-10 sm:right-10 dark:hover:bg-gray-800"
+          className="absolute top-4 right-4 rounded p-1 text-muted-foreground hover:bg-accent focus-visible:ring-2 focus-visible:ring-ring sm:top-10 sm:right-10"
           onClick={onBack}
           type="button"
         >
           <IconX className="h-7 w-7" />
         </button>
-        <h1 className="mb-4 font-semibold text-2xl text-gray-800 dark:text-gray-100">
+        <h1 className="mb-4 font-semibold text-2xl text-foreground">
           Statistics
         </h1>
         <ScrollArea className="flex-1 overflow-y-auto">
           <div className="h-full w-auto pb-16">
             {isEmpty ? (
-              <div className="m-4 grid h-80 w-auto place-content-center overflow-hidden rounded-lg px-4 text-center shadow-lg dark:bg-gray-700">
-                <div className="text-gray-400 text-xl sm:text-2xl">
+              <div className="m-4 grid h-80 w-auto place-content-center overflow-hidden rounded-lg bg-card px-4 text-center shadow-lg">
+                <div className="text-muted-foreground text-xl sm:text-2xl">
                   No practice data yet. Finish a chapter to see your progress
                   here.
                 </div>
               </div>
             ) : (
               <>
-                <div className="mx-0 my-6 overflow-x-auto rounded-lg p-4 shadow-lg sm:mx-4 sm:my-8 sm:p-8 dark:bg-gray-700 dark:bg-opacity-50">
+                <div className="mx-0 my-6 overflow-x-auto rounded-lg bg-card/50 p-4 shadow-lg sm:mx-4 sm:my-8 sm:p-8">
                   <HeatmapCharts
                     data={exerciseRecord}
                     title="Practice sessions heatmap (past year)"
                   />
                 </div>
-                <div className="mx-0 my-6 overflow-x-auto rounded-lg p-4 shadow-lg sm:mx-4 sm:my-8 sm:p-8 dark:bg-gray-700 dark:bg-opacity-50">
+                <div className="mx-0 my-6 overflow-x-auto rounded-lg bg-card/50 p-4 shadow-lg sm:mx-4 sm:my-8 sm:p-8">
                   <HeatmapCharts
                     data={wordRecord}
                     title="Words practiced heatmap (past year)"
                   />
                 </div>
-                <div className="mx-0 my-6 h-72 overflow-x-auto rounded-lg p-4 shadow-lg sm:mx-4 sm:my-8 sm:h-80 sm:p-8 dark:bg-gray-700 dark:bg-opacity-50">
+                <div className="mx-0 my-6 h-72 overflow-x-auto rounded-lg bg-card/50 p-4 shadow-lg sm:mx-4 sm:my-8 sm:h-80 sm:p-8">
                   <LineCharts
                     data={wpmRecord}
                     name="WPM"
                     title="WPM trend (past year)"
                   />
                 </div>
-                <div className="mx-0 my-6 h-72 overflow-x-auto rounded-lg p-4 shadow-lg sm:mx-4 sm:my-8 sm:h-80 sm:p-8 dark:bg-gray-700 dark:bg-opacity-50">
+                <div className="mx-0 my-6 h-72 overflow-x-auto rounded-lg bg-card/50 p-4 shadow-lg sm:mx-4 sm:my-8 sm:h-80 sm:p-8">
                   <LineCharts
                     data={accuracyRecord}
                     name="Accuracy (%)"
@@ -96,7 +96,7 @@ const Analysis = () => {
                     title="Accuracy trend (past year)"
                   />
                 </div>
-                <div className="mx-0 my-6 h-72 overflow-x-auto rounded-lg p-4 shadow-lg sm:mx-4 sm:my-8 sm:h-80 sm:p-8 dark:bg-gray-700 dark:bg-opacity-50">
+                <div className="mx-0 my-6 h-72 overflow-x-auto rounded-lg bg-card/50 p-4 shadow-lg sm:mx-4 sm:my-8 sm:h-80 sm:p-8">
                   <KeyboardWithBarCharts
                     data={wrongTimeRecord}
                     name="Mistakes"

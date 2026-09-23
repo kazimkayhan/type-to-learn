@@ -12,7 +12,7 @@ interface IconMapper {
 
 const ICON_MAPPER: IconMapper[] = [
   {
-    className: "text-indigo-600",
+    className: "text-primary",
     icon: IconHeart,
     text: (mistakeCount: number) =>
       "Great job!" +
@@ -21,12 +21,12 @@ const ICON_MAPPER: IconMapper[] = [
         : " Perfect score!"),
   },
   {
-    className: "text-indigo-600",
+    className: "text-primary",
     icon: IconHandThumbUp,
     text: () => "Not bad — you can do even better next time!",
   },
   {
-    className: "text-indigo-600",
+    className: "text-primary",
     icon: IconExclamationTriangle,
     text: () => "Too many mistakes — want to try again?",
   },
@@ -38,7 +38,7 @@ const ConclusionBar = ({ mistakeLevel, mistakeCount }: ConclusionBarProps) => {
   return (
     <div className="flex h-auto min-h-10 flex-row items-center py-1 sm:h-10">
       <Icon className={classNames(className, "h-5 w-5 shrink-0")} />
-      <span className="ml-2 inline-block align-middle font-medium text-gray-700 text-sm leading-5 sm:leading-10 md:text-base">
+      <span className="ml-2 inline-block align-middle font-medium text-accent-foreground text-sm leading-5 sm:leading-10 md:text-base">
         {text(mistakeCount)}
       </span>
     </div>

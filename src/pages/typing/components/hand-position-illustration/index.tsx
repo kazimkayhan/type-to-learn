@@ -15,18 +15,18 @@ export default function HandPositionIllustration() {
     <Dialog onOpenChange={setIsOpen} open={isOpen}>
       <DialogTrigger
         aria-label="Show typing hand position guide"
-        className={`flex items-center justify-center rounded p-[2px] text-indigo-500 text-lg outline-none transition-colors duration-300 ease-in-out hover:bg-indigo-400 hover:text-white focus-visible:ring-2 focus-visible:ring-indigo-400 ${
-          isOpen && "bg-indigo-500 text-white"
+        className={`flex items-center justify-center rounded p-[2px] text-lg text-primary outline-none transition-colors duration-300 ease-in-out hover:bg-primary hover:text-primary-foreground focus-visible:ring-2 focus-visible:ring-ring ${
+          isOpen && "bg-primary text-primary-foreground"
         }`}
       >
         <IconKeyboard className="icon" />
       </DialogTrigger>
 
       <DialogContent
-        className="w-[min(50rem,calc(100vw-1.5rem))] rounded-2xl bg-white p-4 sm:p-6 dark:bg-gray-800"
+        className="w-[min(50rem,calc(100vw-1.5rem))] rounded-2xl bg-card p-4 sm:p-6"
         showCloseButton={true}
       >
-        <DialogTitle className="pr-8 text-center font-medium text-gray-800 text-lg leading-6 sm:text-xl dark:text-gray-200">
+        <DialogTitle className="pr-8 text-center font-medium text-foreground text-lg leading-6 sm:text-xl">
           Recommended typing hand position guide
         </DialogTitle>
         <div className="mt-8">
