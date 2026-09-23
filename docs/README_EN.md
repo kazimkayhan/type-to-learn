@@ -162,6 +162,6 @@ This project is licensed under the [GPL-3.0](../LICENSE) license.
 
 **Kazim Kayhan**
 
-- Website: [kazimjan.com](https://kazimjan.com)
+- Website: [kazimjan.com](https://www.linkedin.com/in/kazimkayhan)
 - GitHub: [@kazimkayhan](https://github.com/kazimkayhan)
 - Email: email4kazim@gmail.com

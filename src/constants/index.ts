@@ -8,7 +8,7 @@ export const SITE = {
   name: "Type to Learn",
   shortName: "TTL",
   url: "https://kazimkayhan.github.io/type-to-learn/",
-  website: "https://kazimjan.com",
+  website: "https://www.linkedin.com/in/kazimkayhan",
 } as const;
 
 export const EXPLICIT_SPACE = "␣";
