@@ -1,5 +1,5 @@
 <div align=center>
-  <img src="../src/assets/logo.svg"/>
+  <img src="../src/assets/logo.png" width="64"/>
 </div>
 
 <h1 align="center">
@@ -22,7 +22,7 @@
 </p>
 
 <div align="center">
-  <img src="Screenshot.png"/>
+  <img src="../public/og-image.png" alt="Type to Learn Home" width="100%" />
 </div>
 
 ## 📸 Online Access

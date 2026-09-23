@@ -1,7 +1,7 @@
 import type React from "react";
 import type { PropsWithChildren } from "react";
 import { NavLink } from "react-router-dom";
-import logo from "@/assets/logo.svg";
+import logo from "@/assets/logo.png";
 import { SITE } from "@/constants";
 
 const Header: React.FC<PropsWithChildren> = ({ children }) => (
