@@ -36,7 +36,9 @@ const RowDetail: React.FC<RowDetailProps> = ({
     currentRowDetail.word,
     dictInfo
   );
-  const wordPronunciationIconRef = useRef<WordPronunciationIconRef>(null);
+  const wordPronunciationIconRef = useRef<WordPronunciationIconRef | null>(
+    null
+  );
 
   const rowDetailData: RowDetailData = useMemo(() => {
     const time =
@@ -69,7 +71,7 @@ const RowDetail: React.FC<RowDetailProps> = ({
   useHotkeys(
     "ctrl+j",
     () => {
-      wordPronunciationIconRef.current.play();
+      wordPronunciationIconRef.current?.play();
     },
     [],
     { enableOnFormTags: true, preventDefault: true }
@@ -94,14 +96,14 @@ const RowDetail: React.FC<RowDetailProps> = ({
             ) : (
               <LoadingWordUI hasError={hasError} isLoading={isLoading} />
             )}
-            {Boolean(word) && (
+            {word && dictInfo ? (
               <WordPronunciationIcon
                 className="absolute top-1/2 -right-7 h-5 w-5 -translate-y-1/2 transform"
                 lang={dictInfo.language}
                 ref={wordPronunciationIconRef}
                 word={word}
               />
-            )}
+            ) : null}
           </div>
           <div className="flex max-w-[24rem] items-center">
             <span

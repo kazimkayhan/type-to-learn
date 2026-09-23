@@ -3,31 +3,34 @@ import useSWR from "swr";
 import type { Dictionary, Word } from "@/typings";
 import { wordListFetcher } from "@/utils/word-list-fetcher";
 
-export default function useGetWord(name: string, dict: Dictionary) {
+export default function useGetWord(name: string, dict: Dictionary | undefined) {
   const {
     data: wordList,
     error,
     isLoading,
-  } = useSWR(dict.url, wordListFetcher);
+  } = useSWR(dict?.url ?? null, wordListFetcher);
   const [hasError, setHasError] = useState(false);
 
   const word: Word | undefined = useMemo(() => {
+    if (!dict) {
+      return;
+    }
     if (!wordList) {
       return;
     }
 
-    const word = wordList.find((w) => w.name === name);
-    if (word) {
-      return word;
+    const found = wordList.find((w) => w.name === name);
+    if (found) {
+      return found;
     }
     setHasError(true);
-  }, [wordList, name]);
+  }, [dict, wordList, name]);
 
   useEffect(() => {
-    if (error) {
+    if (error || !dict) {
       setHasError(true);
     }
-  }, [error]);
+  }, [error, dict]);
 
-  return { hasError, isLoading, word };
+  return { hasError, isLoading: Boolean(dict) && isLoading, word };
 }

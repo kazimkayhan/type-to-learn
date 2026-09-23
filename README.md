@@ -1,173 +1,167 @@
-<div align="center">
-  <img src="./public/logo.png" alt="Type to Learn logo" width="96" />
+<div align=center>
+  <img src="../src/assets/logo.png" width="96"/>
 </div>
 
-<h1 align="center">Type to Learn</h1>
-
+<h1 align="center">
+  Type to Learn
+</h1>
 <p align="center">
-  <strong>Memorize vocabulary while building English typing muscle memory.</strong><br />
-  Built for keyboard workers who think in another language and type in English.
+  Designed for people who want to memorize words and practice typing.
 </p>
 
 <p align="center">
-  <a href="https://kazimkayhan.github.io/type-to-learn/"><strong>Live demo</strong></a>
-  ·
-  <a href="#features">Features</a>
-  ·
-  <a href="#dictionaries">Dictionaries</a>
-  ·
-  <a href="#getting-started">Getting started</a>
-  ·
-</p>
-
-<p align="center">
-  <a href="https://github.com/kazimkayhan/type-to-learn/blob/master/LICENSE"><img src="https://img.shields.io/github/license/kazimkayhan/type-to-learn" alt="License" /></a>
-  <a href="https://github.com/kazimkayhan/type-to-learn/pulls"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg" alt="PRs welcome" /></a>
-  <img src="https://img.shields.io/badge/Vite-646CFF?logo=vite&logoColor=white" alt="Vite" />
-  <img src="https://img.shields.io/badge/React-19-61DAFB?logo=react&logoColor=black" alt="React" />
-  <img src="https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white" alt="TypeScript" />
-  <img src="https://img.shields.io/badge/Tailwind_CSS-06B6D4?logo=tailwindcss&logoColor=white" alt="Tailwind CSS" />
+  <a href="https://github.com/kazimkayhan/type-to-learn/blob/master/LICENSE">
+    <img src="https://img.shields.io/github/license/kazimkayhan/type-to-learn" alt="License">
+  </a>
+  <a>
+    <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg"/>
+  </a>
+  <a>
+    <img src="https://img.shields.io/badge/Powered%20by-Vite-646CFF"/>
+  </a>
 </p>
 
 <div align="center">
-  <img src="./public/og-image.png" alt="Type to Learn Home" width="100%" />
+  <img src="../public/og-image.png" alt="Type to Learn Home" width="100%" />
 </div>
 
+## 📸 Online Access
 
-## Why Type to Learn?
+**Live Site**: <https://kazimkayhan.github.io/type-to-learn/>
 
-If English is not your first language, you may type fluently in your native language but hesitate in English. Years of native-language input build strong [muscle memory](https://en.wikipedia.org/wiki/Muscle_memory); English often does not.
+## ✨ Design Goals
 
-Type to Learn combines two habits that usually compete for your time:
+Type to Learn is designed for people who type English in their daily work where English is not their mother tongue. It is common for them to type faster in their native language than in English. This is mainly because they have built a strong [muscle memory][mm] through years of typing in their native language. Their muscle memory of English words and phrases is relatively weak, leading to hesitation when typing in English.
 
-1. **Vocabulary practice** — learn and review words in focused chapters  
-2. **Typing practice** — reinforce correct finger patterns while you learn
+To consolidate English typing skills, continuous vocabulary practice is essential. Type to Learn combines vocabulary memorization with typing practice, helping you build muscle memory while learning words.
 
-If you mistype a letter, you must re-enter the whole word. That constraint is intentional: it protects correct muscle memory instead of letting errors stick.
+To avoid forming incorrect muscle memory, the software requires you to re-enter the entire word if you make any mistakes, ensuring correct muscle memory formation.
 
-It is especially useful for:
+Type to Learn is particularly useful for people taking computer-based English tests such as TOEFL, GRE, and similar examinations.
 
-- People who write English on a keyboard every day  
-- Candidates for computer-based exams (TOEFL, GRE, IELTS, and similar)  
-- Developers who want faster, more accurate English (and API) typing  
+It's also helpful for developers, featuring built-in dictionaries of words and phrases common in code and documentation, plus API dictionaries for many programming languages to help developers familiarize themselves with common APIs.
 
-## Features
+<div align="center">
+  <img src="coder.png"/>
+</div>
 
-### Built-in dictionaries
+[mm]: https://en.wikipedia.org/wiki/Muscle_memory
 
-Hundreds of word lists covering exams, school English, professional vocab, and coding APIs. Switch dictionaries and chapters from an in-app gallery.
+## 🛠 Features
 
-### IPA and pronunciation
+### Built-in Dictionaries
 
-See [IPA](https://en.wikipedia.org/wiki/International_Phonetic_Alphabet) where available and play pronunciation while you practice spelling.
+Type to Learn includes many built-in dictionaries for different purposes (examinations, learning, and skill levels), plus dictionaries for developers covering common programming words and API references.
 
-### Dictation mode
+### IPA and Pronunciation
 
-After you finish a chapter, practice the same words with the spelling hidden to lock in recall.
+While typing, the app displays the [IPA][ipa] of the current word and provides pronunciation, helping you learn both spelling and pronunciation together.
 
-### Speed and accuracy
+[ipa]: https://en.wikipedia.org/wiki/International_Phonetic_Alphabet
 
-Live WPM, accuracy, and input stats so progress is visible, not guessed.
+### Dictation Mode
 
-### Error book and review
+After completing a chapter, the app prompts you to practice dictation, reinforcing the words learned in that chapter.
 
-Mistyped words are collected so you can review weak spots and run dedicated error-review sessions.
+<div align=center>
+  <img src="../public/dictation.png"/>
+</div>
 
-### Dark mode and shortcuts
+### Speed and Accuracy
 
-Dark theme, keyboard shortcuts, sound feedback, loop-word practice, and a chapter word list drawer — tuned for long practice sessions.
+The app tracks your typing speed and accuracy in real-time, giving you measurable feedback on your progress.
 
-## Dictionaries
+<div align=center>
+  <img src="../public/speed.png"/>
+</div>
 
-Examples of what ships in the app:
+## 📕 Dictionaries
 
-| Area | Examples |
-| --- | --- |
-| **China exams** | CET-4, CET-6, TEM-4, TEM-8, postgraduate English |
-| **International exams** | TOEFL, IELTS, GRE, GMAT, SAT, BEC, PTE, TOEIC |
-| **Youth / school** | Gaokao lists, New Concept English, textbook series |
-| **Coding** | Common programmer English, JS / Node / Java / C# / Go / Python / Rust APIs, Linux commands |
-| **Other languages** | Japanese (N1–N5), German, Indonesian, Kazakh |
+The app includes a comprehensive collection of dictionaries, including but not limited to:
 
-Browse everything in the app’s **Dictionaries** gallery, or inspect the catalog in [`src/resources/dictionary.ts`](./src/resources/dictionary.ts).
+### English Learning
+- CET-4, CET-6 (College English Test)
+- GMAT, GRE, IELTS, SAT, TOEFL
+- Postgraduate entrance exams
+- High school and middle school English
+- Business English, BEC
+- New Concept English series
 
-Need a list that is not included? Open an [issue](https://github.com/kazimkayhan/type-to-learn/issues) or contribute a dictionary — see [Adding dictionaries](./docs/toBuildDict.md).
+### Programming
+- Common programming vocabulary
+- JavaScript, Node.js, Java, C#, Go, Python, Rust APIs
+- Linux commands
 
-## Tech stack
+### Other Languages
+- Japanese vocabulary (N1-N5)
+- Kazakh basic vocabulary
+- German, Indonesian, and more
 
-- **Vite** + **React 19** + **TypeScript**  
-- **Tailwind CSS** + **Base UI / shadcn-style** components  
-- **Jotai** for client state (with local persistence)  
-- **Dexie** for local progress / error history  
-- Deployed to **GitHub Pages** from `master`
+For the complete dictionary list, check the in-app dictionary selection or visit `src/resources/dictionary.ts`.
 
-## Getting started
+If you need additional dictionaries, feel free to request them via GitHub Issues or contribute your own.
+
+## 🏄‍♂️ How to Contribute
+
+We welcome contributions! You can participate by:
+
+- Submitting Issues to report bugs or suggest features
+- Submitting Pull Requests to improve code or add features
+- Contributing new dictionaries (see [Adding Dictionaries](./toBuildDict.md))
+
+Please read the [Contribution Guidelines](./CONTRIBUTING.md) before contributing.
+
+## 🚀 Running the Project
+
+This project is built with **Vite + React + TypeScript + Tailwind CSS + shadcn/ui**.
 
 ### Requirements
 
-- Node.js **≥ 26**  
-- pnpm **≥ 9** (this repo uses `pnpm@12.4.2`)  
-- Git  
+- **Node.js**: >=26
+- **pnpm**: >=9 (recommended: pnpm@12.4.2)
+- **Git**
+
+### Installation
+
+1. Clone the repository:
+   ```sh
+   git clone https://github.com/kazimkayhan/type-to-learn.git
+   cd type-to-learn
+   ```
+
+2. Install dependencies:
+   ```sh
+   pnpm install
+   ```
+
+3. Start the development server:
+   ```sh
+   pnpm start
+   # or
+   pnpm dev
+   ```
+
+4. Open `http://localhost:5173/` in your browser
+
+### Build for Production
 
 ```sh
-node --version
-pnpm --version
-git --version
-```
-
-Install tools if needed: [Node.js](https://nodejs.org/en/download) · [pnpm](https://pnpm.io/installation) · [Git](https://git-scm.com/downloads)
-
-### Install and run
-
-```sh
-git clone https://github.com/kazimkayhan/type-to-learn.git
-cd type-to-learn
-pnpm install
-pnpm dev
-```
-
-Open the URL Vite prints (typically **`http://localhost:5173/type-to-learn/`**).  
-The `/type-to-learn/` path is the GitHub Pages base path and is used in local development as well.
-
-### Useful scripts
-
-| Command | Description |
-| --- | --- |
-| `pnpm dev` / `pnpm start` | Start the Vite dev server |
-| `pnpm build` | Production build for GitHub Pages (`base=/type-to-learn/`) |
-| `pnpm check` | Lint / format check via Ultracite |
-| `pnpm fix` | Auto-fix Ultracite issues |
-
-Build output goes to the `build/` directory.
-
-## Contributing
-
-Contributions are welcome — code, dictionaries, docs, and bug reports.
-
-1. Read the [contribution guidelines](./docs/CONTRIBUTING.md)  
-2. Discuss larger changes in a GitHub Issue first  
-3. Fork, branch, and open a pull request against `master`  
-4. To add a word list, follow [Adding dictionaries](./docs/toBuildDict.md)
-
-```sh
-pnpm check
 pnpm build
 ```
 
-## License
+The build output will be in the `dist/` directory, configured for GitHub Pages with base path `/type-to-learn/`.
 
-This project is released under the [GPL-3.0](./LICENSE) license.
+## 📄 License
 
-## Author
+This project is licensed under the [GPL-3.0](../LICENSE) license.
+
+## 🙏 Acknowledgements
+
+
+## 👤 Author
 
 **Kazim Kayhan**
 
-- Website: [Kazim Kayhan' Linkedin](https://www.linkedin.com/in/kazimkayhan)  
-- GitHub: [@kazimkayhan](https://github.com/kazimkayhan)  
-- Email: [email4kazim@gmail.com](mailto:email4kazim@gmail.com)
-
----
-
-<p align="center">
-  If Type to Learn helps you, consider starring the repo — it helps others find the project.
-</p>
+- Website: [Kazim Kayhan' Linkedin](https://www.linkedin.com/in/kazimkayhan)
+- GitHub: [@kazimkayhan](https://github.com/kazimkayhan)
+- Email: email4kazim@gmail.com

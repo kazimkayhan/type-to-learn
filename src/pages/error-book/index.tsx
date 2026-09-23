@@ -151,9 +151,15 @@ export function ErrorBook() {
             <ScrollArea className="flex-1 overflow-y-auto pt-5">
               <div className="h-full">
                 {renderRecords.length === 0 ? (
-                  <div className="flex h-60 items-center justify-center px-4 text-center text-muted-foreground">
-                    No missed words yet. Mistakes from practice will show up
-                    here.
+                  <div className="flex h-60 flex-col items-center justify-center gap-2 px-4 text-center">
+                    <p className="font-medium text-foreground">
+                      No missed words yet
+                    </p>
+                    <p className="max-w-sm text-muted-foreground text-sm">
+                      Mistakes from practice on this site are stored in this
+                      browser. Practice here, mistype a word, and it will show
+                      up after you finish it.
+                    </p>
                   </div>
                 ) : (
                   <ul className="flex flex-col gap-3">
@@ -183,12 +189,12 @@ export function ErrorBook() {
           />
         ) : null}
       </div>
-      {Boolean(currentRowDetail) && (
+      {currentRowDetail ? (
         <RowDetail
           allRecords={sortedRecords}
           currentRowDetail={currentRowDetail}
         />
-      )}
+      ) : null}
     </>
   );
 }
