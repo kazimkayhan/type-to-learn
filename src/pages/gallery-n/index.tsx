@@ -77,7 +77,7 @@ export default function GalleryPage() {
     [clearSearch, query]
   );
 
-  useHotkeys("enter,esc", onBack, { preventDefault: true });
+  useHotkeys("esc", onBack, { preventDefault: true });
 
   return (
     <Layout fillViewport={false}>

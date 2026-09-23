@@ -45,8 +45,10 @@ type ChapterStatus = (typeof ChapterStatus)[keyof typeof ChapterStatus];
 
 export default function DictDetail({
   dictionary: dict,
+  onStartPractice,
 }: {
   dictionary: Dictionary;
+  onStartPractice?: () => void;
 }) {
   const [currentChapter, setCurrentChapter] = useAtom(currentChapterAtom);
   const [currentDictId, setCurrentDictId] = useAtom(currentDictIdAtom);
@@ -61,8 +63,10 @@ export default function DictDetail({
   const [reload, setReload] = useState(false);
   const searchInputRef = useRef<HTMLInputElement>(null);
 
+  // Only highlight a chapter when this dictionary is the active practice dict.
+  // Otherwise Chapter 1 looked "selected" for every opened dictionary.
   const chapter = useMemo(
-    () => (dict.id === currentDictId ? currentChapter : 0),
+    () => (dict.id === currentDictId ? currentChapter : null),
     [currentChapter, currentDictId, dict.id]
   );
   const { errorWordData, isLoading, error } = useErrorWordData(dict, reload);
@@ -83,12 +87,20 @@ export default function DictDetail({
 
   const onChangeChapter = useCallback(
     (index: number) => {
+      onStartPractice?.();
       setCurrentDictId(dict.id);
       setCurrentChapter(index);
       setReviewModeInfo((old) => ({ ...old, isReviewMode: false }));
       navigate("/");
     },
-    [dict.id, navigate, setCurrentChapter, setCurrentDictId, setReviewModeInfo]
+    [
+      dict.id,
+      navigate,
+      onStartPractice,
+      setCurrentChapter,
+      setCurrentDictId,
+      setReviewModeInfo,
+    ]
   );
 
   const handleTabChange = useCallback((groupValue: string[]) => {

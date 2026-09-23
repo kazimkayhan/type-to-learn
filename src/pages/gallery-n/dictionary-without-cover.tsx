@@ -1,5 +1,5 @@
 import { useAtomValue } from "jotai";
-import { type RefObject, useMemo, useRef } from "react";
+import { type RefObject, useCallback, useMemo, useRef, useState } from "react";
 import bookCover from "@/assets/book-cover.png";
 import { Dialog, DialogContent, DialogTrigger } from "@/components/ui/dialog";
 import {
@@ -20,6 +20,7 @@ interface Props {
 
 export default function DictionaryComponent({ dictionary }: Props) {
   const currentDictID = useAtomValue(currentDictIdAtom);
+  const [open, setOpen] = useState(false);
 
   const divRef = useRef<HTMLButtonElement>(null);
   const entry = useIntersectionObserver(divRef as RefObject<Element>, {});
@@ -40,8 +41,12 @@ export default function DictionaryComponent({ dictionary }: Props) {
   const showDescription = dictionary.description !== dictionary.name;
   const wordCountLabel = `${dictionary.length.toLocaleString()} words`;
 
+  const onStartPractice = useCallback(() => {
+    setOpen(false);
+  }, []);
+
   return (
-    <Dialog>
+    <Dialog onOpenChange={setOpen} open={open}>
       <DialogTrigger
         aria-label={`${dictionary.name}, ${wordCountLabel}`}
         className={`group relative flex h-auto min-h-[8.5rem] w-full min-w-0 cursor-pointer flex-col items-start justify-start overflow-hidden rounded-lg p-4 text-left shadow-lg focus-visible:ring-2 focus-visible:ring-ring ${
@@ -98,7 +103,7 @@ export default function DictionaryComponent({ dictionary }: Props) {
         </div>
       </DialogTrigger>
       <DialogContent className="max-h-[90dvh] overflow-y-auto p-6 sm:max-w-7xl">
-        <DictDetail dictionary={dictionary} />
+        <DictDetail dictionary={dictionary} onStartPractice={onStartPractice} />
       </DialogContent>
     </Dialog>
   );
