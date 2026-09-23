@@ -2,9 +2,8 @@
   {
     "name": "agree",
     "trans": [
-      "v. to consent or assent to a condition, or agree to do something",
-      "v. to be in accord",
-      "v. to achieve harmony of opinion, feeling, or purpose"
+      "v. to have the same opinion",
+      "v. to say yes or give permission"
     ],
     "usphone": "ə'ɡri",
     "ukphone": "ə'griː"
@@ -12,30 +11,29 @@
   {
     "name": "alcohol",
     "trans": [
-      "n. a liquor or brew containing alcohol as the active agent",
-      "n. any of a series of volatile hydroxyl compounds that are made from hydrocarbons by distillation"
+      "n. drinks that can make you drunk, such as beer, wine, or spirits",
+      "n. a type of chemical compound"
     ],
     "usphone": "'ælkəhɔl",
     "ukphone": "'ælkəhɒl"
   },
   {
     "name": "arrive",
-    "trans": ["v. to reach a destination", "v. to succeed in a big way"],
+    "trans": ["v. to reach a destination or place", "v. to come to a place"],
     "usphone": "ə'raɪv",
     "ukphone": "ə'raɪv"
   },
   {
     "name": "August",
-    "trans": ["adj. profoundly honored", "adj. of or befitting a lord"],
+    "trans": ["n. the eighth month of the year"],
     "usphone": "ɔˈgʌst",
     "ukphone": "ˈɔːɡəst"
   },
   {
     "name": "boat",
     "trans": [
-      "v. to ride in a boat on water",
-      "n. a small vessel for travel on water",
-      "n. a dish (often boat-shaped) for serving gravy or sauce"
+      "n. a small vessel for traveling on water",
+      "v. to travel by boat"
     ],
     "usphone": "bot",
     "ukphone": "bəʊt"
@@ -43,28 +41,25 @@
   {
     "name": "breakfast",
     "trans": [
-      "v. to eat an early morning meal",
-      "v. to provide the first meal of the day",
-      "n. the first meal of the day (usually in the morning)"
+      "n. the first meal of the day, eaten in the morning",
+      "v. to eat breakfast"
     ],
     "usphone": "'brɛkfəst",
     "ukphone": "'brekfəst"
   },
   {
     "name": "camera",
-    "trans": [
-      "n. equipment for taking photographs",
-      "n. television equipment consisting of a lens system that focuses an image on a photosensitive mosaic that is scanned by an electron beam"
-    ],
+    "trans": ["n. a device for taking photographs or recording video"],
     "usphone": "'kæmərə",
     "ukphone": "'kæm(ə)rə"
   },
   {
     "name": "capital",
     "trans": [
-      "adj. uppercase",
-      "adj. of primary importance",
-      "adj. first-rate"
+      "n. the main city of a country or region where the government is located",
+      "n. money or wealth used to start a business",
+      "adj. relating to the death penalty",
+      "adj. uppercase (of letters)"
     ],
     "usphone": "'kæpɪtl",
     "ukphone": "'kæpɪt(ə)l"
@@ -72,9 +67,9 @@
   {
     "name": "catch",
     "trans": [
-      "v. to contract",
-      "v. to delay or hold up",
-      "v. to be struck or affected by"
+      "v. to grab or capture something moving",
+      "v. to intercept and hold",
+      "v. to get on a bus or train"
     ],
     "usphone": "kætʃ",
     "ukphone": "kætʃ"
@@ -82,9 +77,8 @@
   {
     "name": "duck",
     "trans": [
-      "v. avoid or try to avoid fulfilling, answering, or performing (duties, questions, or issues)",
-      "v. to move the head or body quickly downwards or away",
-      "v. submerge or plunge suddenly"
+      "n. a waterbird with a broad flat bill and webbed feet",
+      "v. to lower your head or body quickly to avoid something"
     ],
     "usphone": "dʌk",
     "ukphone": "dʌk"
@@ -92,9 +86,8 @@
   {
     "name": "enjoy",
     "trans": [
-      "v. take delight in",
-      "v. have benefit from",
-      "v. derive or receive pleasure from"
+      "v. to get pleasure from something",
+      "v. to like or take delight in"
     ],
     "usphone": "ɪn'dʒɔɪ",
     "ukphone": "ɪnˈdʒɔɪ"
@@ -319,9 +312,9 @@
   {
     "name": "project",
     "trans": [
-      "v. present for consideration, examination, criticism, etc.",
-      "v. regard as objective",
-      "v. communicate vividly"
+      "n. a planned piece of work",
+      "v. to estimate or predict",
+      "v. to stick out"
     ],
     "usphone": "prəˈdʒɛkt; prɑdʒɛkt",
     "ukphone": "prəˈdʒekt; ˈprɒdʒekt"
@@ -692,9 +685,8 @@
   {
     "name": "patient",
     "trans": [
-      "adj. enduring trying circumstances with even temper or characterized by such endurance",
-      "n. the semantic role of an entity that is not the agent but is directly involved in or affected by the happening denoted by the verb in the clause",
-      "n. a person who requires medical care"
+      "adj. able to wait calmly",
+      "n. a person receiving medical treatment"
     ],
     "usphone": "ˈpeʃənt",
     "ukphone": "'peɪʃ(ə)nt"
@@ -871,9 +863,8 @@
   {
     "name": "game",
     "trans": [
-      "v. place a bet on",
-      "adj. willing to face danger",
-      "adj. disabled in the feet or legs"
+      "n. an activity or sport with rules",
+      "n. wild animals hunted for food"
     ],
     "usphone": "ɡem",
     "ukphone": "geɪm"
@@ -1501,11 +1492,7 @@
   },
   {
     "name": "tear",
-    "trans": [
-      "v. fill with tears or shed tears",
-      "v. strip of feathers",
-      "v. to separate or be separated by force"
-    ],
+    "trans": ["v. to rip or pull apart", "n. a drop of liquid from your eye"],
     "usphone": "(for v.) ˈter; (for n.) ˈtir",
     "ukphone": "(for v.) ˈtɛː; (for n.) ˈtɪə"
   },
@@ -1860,9 +1847,9 @@
   {
     "name": "rest",
     "trans": [
-      "v. be at rest",
-      "v. stay the same",
-      "v. take a short break from one's activities in order to relax"
+      "v. to relax or stop activity",
+      "n. the remaining part",
+      "n. a period of relaxation"
     ],
     "usphone": "rɛst",
     "ukphone": "rest"
@@ -2427,9 +2414,9 @@
   {
     "name": "quarter",
     "trans": [
-      "v. to divide by four",
-      "v. to divide into quarters",
-      "v. to pull a person apart with four horses tied to their extremities, so as to execute them"
+      "n. one fourth or 25 percent",
+      "n. a coin worth 25 cents",
+      "n. a period of three months"
     ],
     "usphone": "'kwɔrtɚ",
     "ukphone": "'kwɔːtə"
@@ -2577,11 +2564,7 @@
   },
   {
     "name": "novel",
-    "trans": [
-      "adj. pleasantly new or different",
-      "adj. original and of a kind not seen before",
-      "n. a printed and bound book that is an extended work of fiction"
-    ],
+    "trans": ["n. a long fictional book", "adj. new and unusual"],
     "usphone": "ˈnɑːvl",
     "ukphone": "'nɒv(ə)l"
   },
@@ -2645,11 +2628,7 @@
   },
   {
     "name": "store",
-    "trans": [
-      "v. keep or lay aside for future use",
-      "v. find a place for and put away for storage",
-      "n. an electronic memory device"
-    ],
+    "trans": ["n. a shop selling goods", "v. to keep for future use"],
     "usphone": "stɔr",
     "ukphone": "stɔː"
   },
@@ -2875,9 +2854,8 @@
   {
     "name": "book",
     "trans": [
-      "v. to engage for a performance",
-      "v. to record a charge in a police register",
-      "v. to arrange for and reserve something for someone else in advance"
+      "n. a written work with pages bound together",
+      "v. to reserve or arrange something in advance"
     ],
     "usphone": "bʊk",
     "ukphone": "bʊk"
@@ -2900,7 +2878,7 @@
   },
   {
     "name": "December",
-    "trans": ["December is the twelfth month of the year."],
+    "trans": ["n. the twelfth month of the year"],
     "usphone": "dɪ'sɛmbɚ",
     "ukphone": "dɪ'sembə"
   },
@@ -2967,7 +2945,7 @@
   },
   {
     "name": "January",
-    "trans": ["January is the first month of the year."],
+    "trans": ["n. the first month of the year"],
     "usphone": "'dʒænjʊ'ɛri",
     "ukphone": "'dʒænjʊ(ə)rɪ"
   },
@@ -3024,9 +3002,8 @@
   {
     "name": "wear",
     "trans": [
-      "v. have or show an appearance of",
-      "v. have on one's person",
-      "v. put clothing on one's body"
+      "v. to have clothes or accessories on your body",
+      "v. to become damaged through use"
     ],
     "usphone": "wɛr",
     "ukphone": "weə"
@@ -3122,9 +3099,9 @@
   {
     "name": "fair",
     "trans": [
-      "v. join so that the external surfaces blend smoothly",
-      "adj. very pleasing to the eye",
-      "adj. of hair or skin, pale or light-colored"
+      "adj. treating people equally",
+      "adj. light in color",
+      "n. a public event with rides and stalls"
     ],
     "usphone": "fɛr",
     "ukphone": "feə"
@@ -3202,9 +3179,8 @@
   {
     "name": "season",
     "trans": [
-      "v. make more temperate, acceptable, or suitable by adding something else",
-      "v. make fit",
-      "v. lend flavor to"
+      "n. one of the four parts of the year",
+      "v. to add flavor to food"
     ],
     "usphone": "'sizn",
     "ukphone": "'siːz(ə)n"
@@ -3698,9 +3674,9 @@
   {
     "name": "lie",
     "trans": [
-      "v. tell an untruth",
-      "v. be lying, be prostrate",
-      "v. assume a reclining position"
+      "v. to be in a horizontal position",
+      "v. to say something untrue",
+      "n. an untrue statement"
     ]
   },
   {
@@ -3960,11 +3936,7 @@
   },
   {
     "name": "refuse",
-    "trans": [
-      "v. show unwillingness towards",
-      "v. refuse to let have",
-      "v. refuse to accept"
-    ],
+    "trans": ["v. to say no or decline", "n. waste or garbage"],
     "usphone": "ri'fjʊz",
     "ukphone": "rɪ'fjuːz"
   },
@@ -4224,9 +4196,9 @@
   {
     "name": "course",
     "trans": [
-      "v. to hunt with hounds",
-      "v. to move along, of liquids",
-      "v. to move swiftly through or over"
+      "n. a series of lessons",
+      "n. a route or direction",
+      "n. one part of a meal"
     ],
     "usphone": "kɔrs",
     "ukphone": "kɔːs"
@@ -4244,9 +4216,9 @@
   {
     "name": "match",
     "trans": [
-      "v. make equal, uniform, corresponding, or matching",
-      "v. be equal or harmonize",
-      "v. make correspond or harmonize"
+      "n. a sports competition",
+      "n. a small stick for making fire",
+      "v. to be similar or go together"
     ],
     "usphone": "mætʃ",
     "ukphone": "mætʃ"
@@ -4339,9 +4311,9 @@
   {
     "name": "sound",
     "trans": [
-      "v. measure the depth of (a body of water) with a sounding line",
-      "v. utter with vibrating vocal chords",
-      "v. appear in a certain way"
+      "n. something you hear",
+      "v. to make a noise",
+      "adj. in good condition"
     ],
     "usphone": "saʊnd",
     "ukphone": "saʊnd"
@@ -4523,9 +4495,9 @@
   {
     "name": "strike",
     "trans": [
-      "v. occupy or take on",
-      "v. drive something violently into a location",
-      "v. cause to experience suddenly"
+      "v. to hit",
+      "n. a refusal to work as protest",
+      "v. to seem or occur to someone"
     ],
     "usphone": "straɪk",
     "ukphone": "straɪk"
@@ -4543,9 +4515,9 @@
   {
     "name": "term",
     "trans": [
-      "v. name formally or designate with a term",
-      "n. (architecture) a statue or a human bust or an animal carved out of the top of a square pillar",
-      "n. any distinct quantity contained in a polynomial"
+      "n. a word or expression",
+      "n. a fixed period of time",
+      "n. a condition in an agreement"
     ],
     "usphone": "tɝm",
     "ukphone": "tɜːm"
@@ -4665,20 +4637,16 @@
   },
   {
     "name": "produce",
-    "trans": [
-      "v. to come to have or undergo a change of physical features and attributes",
-      "v. to create or manufacture a man-made product",
-      "v. to cultivate by growing, often involving improvements by means of agricultural techniques"
-    ],
+    "trans": ["v. to make or create", "n. fresh fruits and vegetables"],
     "usphone": "prəˈdus;(for n.)ˈprɒdus; prɑdus",
     "ukphone": "prəˈdju:s;(for n.)ˈprɒdju:s"
   },
   {
     "name": "range",
     "trans": [
-      "v. assign a rank or rating to",
-      "v. let eat",
-      "v. lay out orderly or logically in a line or as if in a line"
+      "n. a variety or series",
+      "n. the distance something can reach",
+      "n. an area for shooting practice"
     ],
     "usphone": "rendʒ",
     "ukphone": "reɪndʒ"
@@ -4706,9 +4674,9 @@
   {
     "name": "sign",
     "trans": [
-      "v. make the sign of the cross over someone in order to call on God for protection",
-      "v. be engaged by a written agreement",
-      "v. communicate in sign language"
+      "n. a symbol or notice giving information",
+      "v. to write your name",
+      "n. an indication"
     ],
     "usphone": "saɪn",
     "ukphone": "saɪn"
@@ -4716,9 +4684,9 @@
   {
     "name": "tip",
     "trans": [
-      "v. remove the tip from",
-      "v. mark with a tip",
-      "v. give insider information or advise to"
+      "n. the pointed end",
+      "n. money given for good service",
+      "v. to lean or cause to lean"
     ],
     "usphone": "tɪp",
     "ukphone": "tɪp"
@@ -4973,9 +4941,9 @@
   {
     "name": "deal",
     "trans": [
-      "v. take into consideration for exemplifying purposes",
-      "v. act on verbally or in some form of artistic expression",
-      "v. do business"
+      "v. to handle or take action about something",
+      "n. an agreement or arrangement",
+      "v. to distribute cards"
     ],
     "usphone": "dil",
     "ukphone": "diːl"
@@ -5127,11 +5095,7 @@
   },
   {
     "name": "trip",
-    "trans": [
-      "v. get high, stoned, or drugged",
-      "v. put in motion or move to act",
-      "v. make a trip for pleasure"
-    ],
+    "trans": ["n. a journey", "v. to stumble or fall"],
     "usphone": "trɪp",
     "ukphone": "trɪp"
   },
@@ -5167,9 +5131,8 @@
   {
     "name": "cancel",
     "trans": [
-      "v. to make invalid for use",
-      "v. to remove or make invisible",
-      "v. to declare null and void"
+      "v. to decide not to do or continue with something",
+      "v. to call off an event or arrangement"
     ],
     "usphone": "'kænsl",
     "ukphone": "'kænsl"
@@ -5233,9 +5196,9 @@
   {
     "name": "notice",
     "trans": [
-      "v. make or write a comment on",
-      "v. express recognition of the presence or existence of, or acquaintance with",
-      "v. notice or perceive"
+      "v. to become aware of",
+      "n. a written announcement",
+      "n. advance warning"
     ],
     "usphone": "'notɪs",
     "ukphone": "'nəʊtɪs"
@@ -5388,9 +5351,9 @@
   {
     "name": "lead",
     "trans": [
-      "v. move ahead (of others) in time or space",
-      "v. travel in front of",
-      "v. take somebody somewhere"
+      "v. to guide or direct",
+      "n. the first position",
+      "n. a soft heavy metal"
     ],
     "usphone": "lid; lɛd",
     "ukphone": "li:d;led"
@@ -5784,11 +5747,7 @@
   },
   {
     "name": "place",
-    "trans": [
-      "v. recognize as being",
-      "v. assign a rank or rating to",
-      "v. take a place in a competition"
-    ],
+    "trans": ["n. a location or position", "v. to put something somewhere"],
     "usphone": "ples",
     "ukphone": "pleɪs"
   },
@@ -5853,9 +5812,9 @@
   {
     "name": "train",
     "trans": [
-      "v. exercise in order to prepare for an event or competition",
-      "v. undergo training or instruction in preparation for a particular role, function, or profession",
-      "v. create by training and teaching"
+      "n. a railway vehicle",
+      "v. to teach skills",
+      "v. to prepare for sports"
     ],
     "usphone": "tren",
     "ukphone": "treɪn"
@@ -5873,9 +5832,9 @@
   {
     "name": "watch",
     "trans": [
-      "v. find out, learn, or determine with certainty, usually by making an inquiry or other effort",
-      "v. observe with attention",
-      "v. observe or determine by looking"
+      "v. to look at",
+      "n. a small clock worn on the wrist",
+      "v. to be careful about"
     ],
     "usphone": "wɑtʃ",
     "ukphone": "wɒtʃ"
@@ -6599,9 +6558,8 @@
   {
     "name": "sink",
     "trans": [
-      "v. fall heavily or suddenly",
-      "v. embed deeply",
-      "v. descend into or as if into some soft substance or place"
+      "v. to go down below water",
+      "n. a basin for washing in a kitchen or bathroom"
     ],
     "usphone": "sɪŋk",
     "ukphone": "sɪŋk"
@@ -6670,11 +6628,7 @@
   },
   {
     "name": "can",
-    "trans": [
-      "v. to preserve in a can or tin",
-      "v. to terminate the employment of",
-      "n. airtight sealed metal container for food or drink or paint etc."
-    ],
+    "trans": ["v. to be able to", "n. a metal container for food or drinks"],
     "usphone": "kæn",
     "ukphone": "kæn"
   },
@@ -6690,11 +6644,7 @@
   },
   {
     "name": "close",
-    "trans": [
-      "v. to finish a game in baseball by protecting a lead",
-      "v. to complete a business deal, negotiation, or an agreement",
-      "v. to unite or bring into contact or bring together the edges of"
-    ],
+    "trans": ["v. to shut", "adj. near", "adj. intimate or friendly"],
     "usphone": "kloz",
     "ukphone": "kləʊs"
   },
@@ -7260,9 +7210,9 @@
   {
     "name": "fix",
     "trans": [
-      "v. make infertile",
-      "v. restore by replacing a part or putting together what is torn or broken",
-      "v. make ready or suitable or equip in advance for a particular purpose or for some use, event, etc"
+      "v. to repair",
+      "v. to attach securely",
+      "v. to decide or arrange"
     ],
     "usphone": "fɪks",
     "ukphone": "fɪks"
@@ -7322,9 +7272,9 @@
   {
     "name": "rock",
     "trans": [
-      "v. to move back and forth or sideways",
-      "v. to cause to move back and forth",
-      "n. pitching dangerously to one side"
+      "n. a hard natural material",
+      "v. to move gently back and forth",
+      "n. a type of music"
     ],
     "usphone": "rɑk",
     "ukphone": "rɒk"
@@ -7361,11 +7311,7 @@
   },
   {
     "name": "still",
-    "trans": [
-      "v. cause to be quiet or not talk",
-      "v. make motionless",
-      "v. make calm or still"
-    ],
+    "trans": ["adj. not moving", "adv. continuing", "adv. despite that"],
     "usphone": "stɪl",
     "ukphone": "stɪl"
   },
@@ -7392,9 +7338,9 @@
   {
     "name": "wave",
     "trans": [
-      "v. set waves in",
-      "v. signal with the hands or nod",
-      "v. twist or roll into coils or ringlets"
+      "n. a moving ridge of water",
+      "v. to move your hand in greeting",
+      "n. a sudden increase"
     ],
     "usphone": "wev",
     "ukphone": "weɪv"
@@ -7722,9 +7668,9 @@
   {
     "name": "row",
     "trans": [
-      "v. propel with oars",
-      "n. the act of rowing as a sport",
-      "n. (construction) a layer of masonry"
+      "n. a line of people or things",
+      "v. to propel a boat with oars",
+      "n. a noisy argument"
     ],
     "usphone": "ro",
     "ukphone": "rəʊ"
@@ -8618,11 +8564,7 @@
   },
   {
     "name": "flat",
-    "trans": [
-      "adj. lacking taste or flavor or tang",
-      "adj. flattened laterally along the whole length (e.g., certain leafstalks or flatfishes)",
-      "adj. commercially inactive"
-    ],
+    "trans": ["adj. level and smooth", "n. an apartment", "adj. deflated"],
     "usphone": "flæt",
     "ukphone": "flæt"
   },
@@ -8674,9 +8616,9 @@
   {
     "name": "pound",
     "trans": [
-      "v. break down and crush by beating, as with a pestle",
-      "v. place or shut up in a pound",
-      "v. shut up or confine in any enclosure or within any bounds or limits"
+      "n. a unit of weight equal to 16 ounces",
+      "n. British currency",
+      "v. to hit repeatedly"
     ],
     "usphone": "paʊnd",
     "ukphone": "paʊnd"
@@ -9123,9 +9065,8 @@
   {
     "name": "company",
     "trans": [
-      "v. to be a companion to somebody",
-      "n. an institution created to conduct business",
-      "n. a unit of firefighters including their equipment"
+      "n. a business organization",
+      "n. companionship or being with others"
     ],
     "usphone": "'kʌmpəni",
     "ukphone": "'kʌmp(ə)nɪ"
@@ -9152,9 +9093,9 @@
   {
     "name": "line",
     "trans": [
-      "v. reinforce with fabric",
-      "v. fill plentifully",
-      "v. cover the interior of"
+      "n. a long thin mark",
+      "n. a row of people or things",
+      "v. to cover the inside of something"
     ],
     "usphone": "laɪn",
     "ukphone": "laɪn"
@@ -9212,9 +9153,9 @@
   {
     "name": "stand",
     "trans": [
-      "v. put up with something or somebody unpleasant",
-      "v. have or maintain a position or stand on an issue",
-      "v. withstand the force of something"
+      "v. to be upright on your feet",
+      "v. to tolerate",
+      "n. a stall selling things"
     ],
     "usphone": "stænd",
     "ukphone": "stænd"
@@ -9271,11 +9212,7 @@
   },
   {
     "name": "type",
-    "trans": [
-      "v. identify as belonging to a certain type",
-      "v. write by means of a keyboard with types",
-      "n. a small metal block bearing a raised character on one end"
-    ],
+    "trans": ["n. a kind or category", "v. to write using a keyboard"],
     "usphone": "taɪp",
     "ukphone": "taɪp"
   },
@@ -9428,9 +9365,9 @@
   {
     "name": "rank",
     "trans": [
-      "v. assign a rank or rating to",
-      "v. take or have a position relative to others",
-      "v. take precedence or surpass others in rank"
+      "n. a position in a hierarchy",
+      "v. to put in order",
+      "adj. having a strong unpleasant smell"
     ],
     "usphone": "ræŋk",
     "ukphone": "ræŋk"
@@ -9613,9 +9550,9 @@
   {
     "name": "scale",
     "trans": [
-      "v. size or measure according to a scale",
-      "v. measure with or as if with scales",
-      "v. remove the scales from"
+      "n. a device for weighing",
+      "n. the size or extent of something",
+      "n. a graduated series of musical notes"
     ],
     "usphone": "skel",
     "ukphone": "skeɪl"
@@ -9623,9 +9560,8 @@
   {
     "name": "skip",
     "trans": [
-      "v. bypass, move beyond",
-      "v. cause to skip over a surface",
-      "v. bound off one point after another"
+      "v. to move with jumping steps",
+      "v. to not do something you should do"
     ],
     "usphone": "skɪp",
     "ukphone": "skɪp"
@@ -9808,9 +9744,9 @@
   {
     "name": "slip",
     "trans": [
-      "v. insert inconspicuously , quickly or quietly",
-      "v. get worse",
-      "v. move out of position"
+      "v. to slide accidentally",
+      "n. a small piece of paper",
+      "n. a woman's undergarment"
     ],
     "usphone": "slɪp",
     "ukphone": "slɪp"
@@ -9847,9 +9783,8 @@
   {
     "name": "yard",
     "trans": [
-      "n. an enclosure for animals (as chicken or livestock)",
-      "n. a long horizontal spar tapered at the end and used to support and spread a square sail or lateen",
-      "n. the enclosed land around a house or other building"
+      "n. an area of land next to a building",
+      "n. a unit of length equal to 3 feet"
     ],
     "usphone": "jɑrd",
     "ukphone": "jɑːd"
@@ -9945,9 +9880,9 @@
   {
     "name": "light",
     "trans": [
-      "v. make lighter or brighter",
-      "v. begin to smoke",
-      "v. alight from (a horse)"
+      "n. brightness that lets you see",
+      "adj. not heavy",
+      "v. to make something start burning"
     ],
     "usphone": "laɪt",
     "ukphone": "laɪt"
@@ -9995,9 +9930,8 @@
   {
     "name": "shop",
     "trans": [
-      "v. give away information about somebody",
-      "v. do one's shopping",
-      "v. shop around"
+      "n. a place where goods are sold",
+      "v. to buy things from stores"
     ],
     "usphone": "ʃɑp",
     "ukphone": "ʃɒp"
@@ -10241,9 +10175,9 @@
   {
     "name": "value",
     "trans": [
-      "v. estimate the value of",
-      "v. evaluate or estimate the nature, quality, ability, extent, or significance of",
-      "v. regard highly"
+      "n. the worth or importance",
+      "n. the numerical amount",
+      "v. to consider important"
     ],
     "usphone": "'vælju",
     "ukphone": "'væljuː"
@@ -10306,9 +10240,9 @@
   {
     "name": "form",
     "trans": [
-      "v. give shape or form to",
-      "v. assume a form or shape",
-      "v. make something, usually for a specific function"
+      "n. a type or kind",
+      "v. to create or make",
+      "n. a document with blank spaces to fill in"
     ],
     "usphone": "fɔrm",
     "ukphone": "fɔːm"
@@ -10413,9 +10347,9 @@
   {
     "name": "star",
     "trans": [
-      "v. mark with an asterisk",
-      "v. be the star in a performance",
-      "v. feature as the star"
+      "n. a bright object in the night sky",
+      "n. a famous performer",
+      "v. to be the main performer"
     ],
     "usphone": "stɑr",
     "ukphone": "stɑː"
@@ -10520,9 +10454,9 @@
   {
     "name": "firm",
     "trans": [
-      "v. make taut or tauter",
-      "v. become taut or tauter",
-      "adj. strong and sure"
+      "adj. solid and hard",
+      "n. a business company",
+      "adj. strong and determined"
     ],
     "usphone": "fɝm",
     "ukphone": "fɜːrm"
@@ -11673,9 +11607,9 @@
   {
     "name": "iron",
     "trans": [
-      "v. press and smooth with a heated iron",
-      "adj. extremely robust",
-      "n. home appliance consisting of a flat metal base that is heated and used to smooth cloth"
+      "n. a strong metal",
+      "n. a device for pressing clothes",
+      "v. to press clothes with an iron"
     ],
     "usphone": "'aɪɚn",
     "ukphone": "'aɪən"
@@ -12473,11 +12407,7 @@
   },
   {
     "name": "tap",
-    "trans": [
-      "v. make a solicitation or entreaty for something",
-      "v. draw from",
-      "v. strike lightly"
-    ],
+    "trans": ["v. to strike lightly", "n. a device for controlling water flow"],
     "usphone": "tæp",
     "ukphone": "tæp"
   },
@@ -12832,9 +12762,8 @@
   {
     "name": "shed",
     "trans": [
-      "v. cast off hair, skin, horn, or feathers",
-      "v. to get rid of",
-      "v. cause or allow (a solid substance) to flow or run out or over"
+      "n. a small building for storage",
+      "v. to lose or drop something"
     ],
     "usphone": "ʃɛd",
     "ukphone": "ʃed"
@@ -13342,7 +13271,7 @@
   },
   {
     "name": "July",
-    "trans": ["The seventh month of the year is July."],
+    "trans": ["n. the seventh month of the year"],
     "usphone": "dʒʊˈlaɪ",
     "ukphone": "dʒʊˈlaɪ"
   },
@@ -14910,9 +14839,9 @@
   {
     "name": "spare",
     "trans": [
-      "v. use frugally or carefully",
-      "v. give up what is not strictly needed",
-      "v. refrain from harming"
+      "adj. extra or additional",
+      "v. to make available",
+      "v. to prevent harm to"
     ],
     "usphone": "spɛr",
     "ukphone": "speə"
@@ -14939,9 +14868,9 @@
   {
     "name": "tender",
     "trans": [
-      "v. make tender or more tender as by marinating, pounding, or applying a tenderizer",
-      "v. make a tender of",
-      "v. offer or present for acceptance"
+      "adj. soft or gentle",
+      "adj. painful when touched",
+      "v. to offer formally"
     ],
     "usphone": "'tɛndɚ",
     "ukphone": "'tendər"
@@ -17085,9 +17014,9 @@
   {
     "name": "subject",
     "trans": [
-      "v. refer for judgment or consideration",
-      "v. make accountable for",
-      "v. cause to experience or suffer or make liable or vulnerable to"
+      "n. a topic being discussed",
+      "n. an area of study",
+      "adj. likely to be affected by"
     ],
     "usphone": "ˈsʌbdʒɪkt;(for adj.)ˈsʌbdʒɪkt;(for v.)səbˈdʒɛkt",
     "ukphone": "ˈsʌbdʒɪkt;(for adj.)ˈsʌbdʒɪkt;(for v.)səbˈdʒekt"
@@ -17589,9 +17518,9 @@
   {
     "name": "hold",
     "trans": [
-      "v. keep from exhaling or expelling",
-      "v. remain committed to",
-      "v. assert or affirm"
+      "v. to have or keep in your hand",
+      "v. to contain",
+      "v. to organize an event"
     ],
     "usphone": "hold",
     "ukphone": "həʊld"
@@ -17827,9 +17756,9 @@
   {
     "name": "rule",
     "trans": [
-      "v. keep in check",
-      "v. decide with authority",
-      "v. decide on and make a declaration about"
+      "n. an official instruction",
+      "v. to govern",
+      "v. to make an official decision"
     ],
     "usphone": "rul",
     "ukphone": "ruːl"
@@ -18254,9 +18183,9 @@
   {
     "name": "check",
     "trans": [
-      "v. to make cracks or chinks in",
-      "v. to arrest the motion of something abruptly",
-      "v. to slow the growth or development of"
+      "v. to examine or verify something",
+      "n. a written order to pay money from a bank account",
+      "n. a pattern of squares"
     ],
     "usphone": "tʃɛk",
     "ukphone": "tʃek"
@@ -19292,9 +19221,9 @@
   {
     "name": "tie",
     "trans": [
-      "v. form a knot or bow in",
-      "v. limit or restrict to",
-      "v. finish a game with an equal number of points, goals, etc."
+      "v. to fasten with string or rope",
+      "n. a necktie",
+      "n. an equal score"
     ],
     "usphone": "taɪ",
     "ukphone": "taɪ"
@@ -22466,11 +22395,7 @@
   },
   {
     "name": "rate",
-    "trans": [
-      "v. assign a rank or rating to",
-      "v. estimate the value of",
-      "v. be worthy of or have a certain rating"
-    ],
+    "trans": ["n. a measure of speed or frequency", "v. to evaluate or judge"],
     "usphone": "ret",
     "ukphone": "reɪt"
   },
@@ -24319,11 +24244,7 @@
   },
   {
     "name": "supply",
-    "trans": [
-      "v. state or say further",
-      "v. give what is desired or needed, especially support, food or sustenance",
-      "v. give something useful or necessary to"
-    ],
+    "trans": ["v. to provide", "n. a stock or store of something"],
     "usphone": "sə'plaɪ",
     "ukphone": "sə'plaɪ"
   },
@@ -24745,9 +24666,9 @@
   {
     "name": "express",
     "trans": [
-      "v. articulate",
-      "v. give expression to",
-      "v. send by rapid transport or special messenger service"
+      "v. to communicate thoughts or feelings",
+      "adj. very fast",
+      "n. a fast train or service"
     ],
     "usphone": "ɪk'sprɛs",
     "ukphone": "ɪk'spres; ek-"
@@ -25763,9 +25684,9 @@
   {
     "name": "state",
     "trans": [
-      "v. put before",
-      "v. express in words",
-      "v. indicate through a symbol, formula, etc."
+      "n. a condition or situation",
+      "n. a region of a country",
+      "v. to say clearly"
     ],
     "usphone": "stet",
     "ukphone": "steɪt"
@@ -31858,9 +31779,9 @@
   {
     "name": "subject",
     "trans": [
-      "v. refer for judgment or consideration",
-      "v. make accountable for",
-      "v. cause to experience or suffer or make liable or vulnerable to"
+      "n. a topic being discussed",
+      "n. an area of study",
+      "adj. likely to be affected by"
     ],
     "usphone": "ˈsʌbdʒɪkt;(for adj.)ˈsʌbdʒɪkt;(for v.)səbˈdʒɛkt",
     "ukphone": "ˈsʌbdʒɪkt;(for adj.)ˈsʌbdʒɪkt;(for v.)səbˈdʒekt"
