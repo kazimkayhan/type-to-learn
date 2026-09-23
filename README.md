@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="src/assets/logo.svg" alt="Type to Learn logo" width="96" />
+  <img src="./public/logo.png" alt="Type to Learn logo" width="96" />
 </div>
 
 <h1 align="center">Type to Learn</h1>
