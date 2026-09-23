@@ -20,8 +20,14 @@ const Tooltip = ({
   }[placement];
 
   return (
-    <div className={classNames("relative", className)}>
+    <div
+      className={classNames(
+        "relative inline-flex items-center justify-center",
+        className
+      )}
+    >
       <div
+        className="inline-flex items-center justify-center"
         onBlur={handleBlur}
         onFocus={handleMouseEnter}
         onMouseEnter={handleMouseEnter}

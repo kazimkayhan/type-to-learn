@@ -41,35 +41,33 @@ export default function Switcher() {
   );
 
   return (
-    <div className="flex flex-wrap items-center justify-center gap-1 sm:gap-2 [&_button]:min-h-10 [&_button]:min-w-10 lg:[&_button]:min-h-0 lg:[&_button]:min-w-0">
+    <div className="inline-flex flex-wrap items-center justify-center gap-1 sm:gap-1.5">
       <Tooltip content="Sound settings">
         <SoundSwitcher />
       </Tooltip>
 
-      <Tooltip className="h-7 w-7" content="Set word loop count">
+      <Tooltip content="Set word loop count">
         <LoopWordSwitcher />
       </Tooltip>
 
-      <Tooltip
-        className="h-7 w-7"
-        content={`Toggle dictation mode (${CTRL} + V)`}
-      >
+      <Tooltip content={`Toggle dictation mode (${CTRL} + V)`}>
         <WordDictationSwitcher />
       </Tooltip>
-      <Tooltip
-        className="h-7 w-7"
-        content={`Toggle definition display (${CTRL} + Shift + V)`}
-      >
+      <Tooltip content={`Toggle definition display (${CTRL} + Shift + V)`}>
         <button
           aria-label={`Toggle definition display (${CTRL} + Shift + V)`}
-          className={`rounded p-[2px] ${state?.isTransVisible ? "text-primary" : "text-muted-foreground"} text-lg focus-visible:ring-2 focus-visible:ring-ring`}
+          className={`nav-icon-btn ${state?.isTransVisible ? "text-primary" : "text-muted-foreground"}`}
           onClick={(e) => {
             changeTransVisibleState();
             e.currentTarget.blur();
           }}
           type="button"
         >
-          {state?.isTransVisible ? <IconLanguage /> : <IconLanguageOff />}
+          {state?.isTransVisible ? (
+            <IconLanguage className="icon" />
+          ) : (
+            <IconLanguageOff className="icon" />
+          )}
         </button>
       </Tooltip>
 
@@ -77,14 +75,14 @@ export default function Switcher() {
         <ErrorBookButton />
       </Tooltip>
 
-      <Tooltip className="h-7 w-7" content="View statistics">
+      <Tooltip content="View statistics">
         <AnalysisButton />
       </Tooltip>
 
-      <Tooltip className="h-7 w-7" content="Toggle dark mode">
+      <Tooltip content="Toggle dark mode">
         <button
           aria-label="Toggle dark mode"
-          className="rounded p-[2px] text-lg text-primary focus-visible:ring-2 focus-visible:ring-ring"
+          className="nav-icon-btn"
           onClick={(e) => {
             changeDarkModeState();
             e.currentTarget.blur();
@@ -98,7 +96,7 @@ export default function Switcher() {
           )}
         </button>
       </Tooltip>
-      <Tooltip className="h-7 w-7" content="Hand position guide">
+      <Tooltip content="Hand position guide">
         <HandPositionIllustration />
       </Tooltip>
       <Tooltip content="Settings">

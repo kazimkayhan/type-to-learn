@@ -36,18 +36,18 @@ export default function LoopWordSwitcher() {
     <Popover>
       <PopoverTrigger
         aria-label="Select word loop count"
-        className={`p-[2px] ${
+        className={`nav-icon-btn ${
           loopTimes === 1 ? "text-muted-foreground" : "text-primary"
-        } rounded text-lg hover:bg-primary hover:text-primary-foreground focus-visible:ring-2 focus-visible:ring-ring`}
+        }`}
         type="button"
       >
-        <div className="relative">
+        <div className="relative inline-flex size-5 items-center justify-center">
           {loopTimes === 1 ? (
-            <IconRepeatOff />
+            <IconRepeatOff className="icon" />
           ) : (
             <>
-              <IconRepeat />
-              <span className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 scale-[0.7] transform font-bold font-mono text-xs">
+              <IconRepeat className="icon" />
+              <span className="absolute inset-0 flex items-center justify-center font-bold font-mono text-[0.65rem] leading-none">
                 {loopTimes === Number.MAX_SAFE_INTEGER ? "" : loopTimes}
               </span>
             </>

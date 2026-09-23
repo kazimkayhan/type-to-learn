@@ -18,8 +18,11 @@ import {
 } from "@/store";
 import range from "@/utils/range";
 import IconCheckCircle from "~icons/heroicons/check-circle-solid";
+import IconChevronDown from "~icons/heroicons/chevron-down-20-solid";
 import IconMagnifyingGlass from "~icons/heroicons/magnifying-glass-solid";
 import IconXMark from "~icons/heroicons/x-mark-solid";
+import IconBook from "~icons/tabler/book-2";
+import IconHash from "~icons/tabler/hash";
 
 export const DictChapterButton = () => {
   const currentDictInfo = useAtomValue(currentDictInfoAtom);
@@ -106,21 +109,33 @@ export const DictChapterButton = () => {
     <>
       <Tooltip content="Switch dictionary">
         <NavLink
-          className="block max-w-[9.5rem] truncate rounded-lg px-2 py-2 text-base transition-colors duration-300 ease-in-out hover:bg-primary hover:text-primary-foreground focus:outline-none sm:max-w-[16rem] sm:px-3 sm:text-lg"
+          className="nav-select-btn no-underline hover:no-underline"
           to="/gallery"
         >
-          {currentDictInfo.name} {isReviewMode && "Error Review"}
+          <IconBook aria-hidden className="size-4 shrink-0 opacity-70" />
+          <span className="min-w-0 truncate">
+            {currentDictInfo.name}
+            {isReviewMode ? " Error Review" : ""}
+          </span>
         </NavLink>
       </Tooltip>
       {!isReviewMode && (
         <Tooltip content="Switch chapter">
           <Popover onOpenChange={onOpenChange} open={isOpen}>
             <PopoverTrigger
+              aria-expanded={isOpen}
               aria-label={`Switch chapter, currently chapter ${currentChapter + 1} of ${chapterCount}`}
-              className="min-h-10 rounded-lg px-2 py-2 text-base transition-colors duration-300 ease-in-out hover:bg-primary hover:text-primary-foreground focus:outline-none sm:px-3 sm:text-lg"
+              className="nav-select-btn"
               type="button"
             >
-              Chapter {currentChapter + 1}
+              <IconHash aria-hidden className="size-4 shrink-0 opacity-70" />
+              <span className="min-w-0 truncate">
+                Chapter {currentChapter + 1}
+              </span>
+              <IconChevronDown
+                aria-hidden
+                className={`size-3.5 shrink-0 opacity-60 transition-transform ${isOpen ? "rotate-180" : ""}`}
+              />
             </PopoverTrigger>
             <PopoverContent align="start" className="w-60 p-2">
               <div className="relative">

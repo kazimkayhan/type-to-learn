@@ -35,13 +35,13 @@ export default function StartButton({ isLoading }: { isLoading: boolean }) {
   );
 
   return (
-    <div className="flex items-center gap-1.5">
+    <div className="inline-flex items-center justify-center gap-1.5">
       <Tooltip content={`${state.isTyping ? "Pause" : "Start"} (Enter)`}>
         <button
           aria-label={state.isTyping ? "Pause" : "Start"}
           className={`${
             state.isTyping ? "bg-primary/80" : "bg-primary"
-          } my-btn-primary min-h-11 min-w-[4.5rem] px-4 text-sm shadow shadow-primary/40 sm:min-h-8 sm:w-20 sm:text-lg`}
+          } my-btn-primary inline-flex h-11 min-w-[4.5rem] items-center justify-center px-4 text-sm shadow shadow-primary/40 sm:h-8 sm:w-20 sm:text-lg`}
           onClick={onToggleIsTyping}
           type="button"
         >
@@ -53,7 +53,7 @@ export default function StartButton({ isLoading }: { isLoading: boolean }) {
       <Tooltip content="Restart this chapter">
         <button
           aria-label="Restart"
-          className="my-btn-primary min-h-11 min-w-[4.5rem] bg-primary/80 px-3 text-sm sm:min-h-8 sm:w-18 sm:text-lg"
+          className="my-btn-primary inline-flex h-11 min-w-[4.5rem] items-center justify-center bg-primary/80 px-3 text-sm sm:h-8 sm:w-18 sm:text-lg"
           onClick={onClickRestart}
           type="button"
         >

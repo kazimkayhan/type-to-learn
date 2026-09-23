@@ -20,7 +20,7 @@ const Header: React.FC<PropsWithChildren> = ({ children }) => (
         />
         <h1 className="text-wrap">{SITE.shortName}</h1>
       </NavLink>
-      <nav className="my-card flex w-full max-w-full flex-wrap items-end justify-center gap-2 rounded-xl bg-card p-2 transition-colors duration-300 sm:gap-3 sm:p-3 xl:w-auto xl:justify-end">
+      <nav className="my-card inline-flex w-full max-w-full flex-wrap items-center justify-center gap-2 rounded-xl bg-card p-2 transition-colors duration-300 sm:gap-3 sm:p-3 xl:w-auto">
         {children}
       </nav>
     </div>

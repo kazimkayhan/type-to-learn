@@ -66,9 +66,9 @@ export default function WordDictationSwitcher() {
     <Popover>
       <PopoverTrigger
         aria-label="Toggle dictation mode"
-        className={`flex items-center justify-center rounded p-[2px] text-lg ${
+        className={`nav-icon-btn ${
           wordDictationConfig.isOpen ? "text-primary" : "text-muted-foreground"
-        } outline-none transition-colors duration-300 ease-in-out hover:bg-primary hover:text-primary-foreground`}
+        }`}
         type="button"
       >
         {wordDictationConfig.isOpen ? (

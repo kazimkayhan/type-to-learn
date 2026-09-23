@@ -15,8 +15,8 @@ export default function HandPositionIllustration() {
     <Dialog onOpenChange={setIsOpen} open={isOpen}>
       <DialogTrigger
         aria-label="Show typing hand position guide"
-        className={`flex items-center justify-center rounded p-[2px] text-lg text-primary outline-none transition-colors duration-300 ease-in-out hover:bg-primary hover:text-primary-foreground focus-visible:ring-2 focus-visible:ring-ring ${
-          isOpen && "bg-primary text-primary-foreground"
+        className={`nav-icon-btn ${
+          isOpen ? "bg-primary text-primary-foreground" : ""
         }`}
       >
         <IconKeyboard className="icon" />
