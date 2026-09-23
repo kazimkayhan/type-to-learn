@@ -38,7 +38,8 @@ export default defineConfig(async ({ mode }) => {
   const isProduction = mode !== "development";
 
   return {
-    base: "/type-to-learn/",
+    // GitHub Pages serves under /type-to-learn/; local dev should use root.
+    base: isProduction ? "/type-to-learn/" : "/",
     build: {
       minify: true,
       outDir: "build",
@@ -93,7 +94,7 @@ export default defineConfig(async ({ mode }) => {
     },
     css: {
       modules: {
-        localsConvention: "camelCaseOnly",
+        localsConvention: "camelCaseOnly" as const,
       },
     },
     define: {
