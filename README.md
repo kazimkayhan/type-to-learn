@@ -159,7 +159,7 @@ This project is released under the [GPL-3.0](./LICENSE) license.
 
 **Kazim Kayhan**
 
-- Website: [kazimjan.com](https://www.linkedin.com/in/kazimkayhan)  
+- Website: [Kazim Kayhan' Linkedin](https://www.linkedin.com/in/kazimkayhan)  
 - GitHub: [@kazimkayhan](https://github.com/kazimkayhan)  
 - Email: [email4kazim@gmail.com](mailto:email4kazim@gmail.com)
 
