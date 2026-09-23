@@ -119,8 +119,8 @@ export default function DictDetail({
   );
 
   return (
-    <div className="flex min-w-0 flex-col rounded-2xl px-1 py-2 text-foreground sm:px-4 sm:py-3">
-      <div className="flex min-w-0 flex-col gap-3">
+    <div className="flex min-w-0 flex-col gap-3 rounded-2xl px-1 py-2 text-foreground sm:px-4 sm:py-3">
+      <div className="flex min-w-0 flex-wrap items-end justify-start gap-3">
         <div className="min-w-0 pr-8">
           <h3 className="font-semibold text-lg sm:text-2xl">{dict.name}</h3>
           <p className="mt-1 tabular-nums">{dict.chapterCount} chapters</p>
@@ -176,13 +176,13 @@ export default function DictDetail({
           )}
         </ToggleGroup>
       </div>
-      <div className="flex min-w-0 pl-0">
+      <div className="flex min-w-0">
         <Tabs className="h-[min(30rem,55dvh)] w-full min-w-0" value={curTab}>
           <TabsContent
             className="flex h-full flex-col gap-3"
             value={Tab.Chapters}
           >
-            <div className="flex flex-wrap items-center gap-2">
+            <div className="flex flex-wrap items-center justify-end gap-3">
               {firstUnpracticedChapter !== null && (
                 <Button
                   onClick={() => onChangeChapter(firstUnpracticedChapter)}
@@ -209,7 +209,7 @@ export default function DictDetail({
               </form>
             </div>
             <ScrollArea className="min-h-0 flex-1">
-              <div className="grid w-full grid-cols-2 gap-2.5 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5">
+              <div className="grid w-full grid-cols-2 gap-2.5 p-3 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5">
                 {range(0, dict.chapterCount, 1).map((index) => (
                   <Chapter
                     checked={chapter === index}

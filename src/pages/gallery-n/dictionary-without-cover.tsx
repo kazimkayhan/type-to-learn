@@ -1,5 +1,5 @@
 import { useAtomValue } from "jotai";
-import { useMemo, useRef } from "react";
+import { type RefObject, useMemo, useRef } from "react";
 import bookCover from "@/assets/book-cover.png";
 import { Dialog, DialogContent, DialogTrigger } from "@/components/ui/dialog";
 import {
@@ -22,7 +22,7 @@ export default function DictionaryComponent({ dictionary }: Props) {
   const currentDictID = useAtomValue(currentDictIdAtom);
 
   const divRef = useRef<HTMLButtonElement>(null);
-  const entry = useIntersectionObserver(divRef, {});
+  const entry = useIntersectionObserver(divRef as RefObject<Element>, {});
   const isVisible = !!entry?.isIntersecting;
   const dictStats = useDictStats(dictionary.id, isVisible);
   const chapterCount = useMemo(
@@ -97,7 +97,7 @@ export default function DictionaryComponent({ dictionary }: Props) {
           />
         </div>
       </DialogTrigger>
-      <DialogContent className="!rounded-2xl sm:!rounded-[20px] max-h-[90dvh] w-[min(60rem,calc(100vw-1.25rem))] max-w-none overflow-y-auto p-3 sm:p-6">
+      <DialogContent className="max-h-[90dvh] overflow-y-auto p-6 sm:max-w-7xl">
         <DictDetail dictionary={dictionary} />
       </DialogContent>
     </Dialog>
