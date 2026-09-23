@@ -1,6 +1,6 @@
 import { useAtom, useAtomValue, useSetAtom } from "jotai";
 import type React from "react";
-import { lazy, Suspense, useCallback, useEffect, useState } from "react";
+import { useCallback, useEffect, useRef, useState } from "react";
 import { useImmerReducer } from "use-immer";
 import Header from "@/components/header";
 import Tooltip from "@/components/tooltip";
@@ -18,6 +18,7 @@ import { useMixPanelChapterLogUploader } from "@/utils/mixpanel";
 import Layout from "../../components/layout";
 import { DictChapterButton } from "./components/dict-chapter-button";
 import PronunciationSwitcher from "./components/pronunciation-switcher";
+import ResultScreen from "./components/result-screen";
 import Speed from "./components/speed";
 import StartButton from "./components/start-button";
 import Switcher from "./components/switcher";
@@ -32,8 +33,6 @@ import {
   typingReducer,
 } from "./store";
 
-const ResultScreen = lazy(() => import("./components/result-screen"));
-
 const App: React.FC = () => {
   const [state, dispatch] = useImmerReducer(
     typingReducer,
@@ -41,6 +40,7 @@ const App: React.FC = () => {
   );
   const [isLoading, setIsLoading] = useState<boolean>(true);
   const { words } = useWordList();
+  const hasSavedChapterRef = useRef(false);
 
   const [currentDictId, setCurrentDictId] = useAtom(currentDictIdAtom);
   const setCurrentChapter = useSetAtom(currentChapterAtom);
@@ -81,6 +81,12 @@ const App: React.FC = () => {
   }, [state.chapterData.words]);
 
   useEffect(() => {
+    // Keep the result screen mounted: SWR/word-list identity changes must not
+    // reset typing state while a chapter is finished.
+    if (state.isFinished) {
+      return;
+    }
+
     const initialIndex =
       isReviewMode && reviewModeInfo?.reviewRecord?.index
         ? reviewModeInfo.reviewRecord.index
@@ -90,20 +96,26 @@ const App: React.FC = () => {
       payload: { initialIndex, shouldShuffle: randomConfig.isOpen, words },
       type: TypingStateActionType.SETUP_CHAPTER,
     });
-    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [
     words,
     isReviewMode,
     reviewModeInfo.reviewRecord?.index,
     dispatch,
     randomConfig.isOpen,
+    state.isFinished,
   ]);
 
   useEffect(() => {
-    if (state.isFinished && !state.isSavingRecord) {
-      chapterLogUploader();
-      saveChapterRecord(state);
+    if (!state.isFinished) {
+      hasSavedChapterRef.current = false;
+      return;
     }
+    if (state.isSavingRecord || hasSavedChapterRef.current) {
+      return;
+    }
+    hasSavedChapterRef.current = true;
+    chapterLogUploader();
+    saveChapterRecord(state);
   }, [
     state.isFinished,
     state.isSavingRecord,
@@ -126,11 +138,7 @@ const App: React.FC = () => {
 
   return (
     <TypingContext.Provider value={{ dispatch, state }}>
-      {state.isFinished && (
-        <Suspense fallback={null}>
-          <ResultScreen />
-        </Suspense>
-      )}
+      {state.isFinished && <ResultScreen />}
       <Layout>
         <Header>
           <DictChapterButton />

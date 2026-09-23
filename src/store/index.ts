@@ -26,7 +26,9 @@ import { reviewInfoAtom } from "./review-info-atom";
 
 export const currentDictIdAtom = atomWithStorage(
   "currentDict",
-  DEFAULT_DICT_ID
+  DEFAULT_DICT_ID,
+  undefined,
+  { getOnInit: true }
 );
 export const currentDictInfoAtom = atom<Dictionary>((get) => {
   const id = get(currentDictIdAtom);
@@ -37,7 +39,12 @@ export const currentDictInfoAtom = atom<Dictionary>((get) => {
   return dict;
 });
 
-export const currentChapterAtom = atomWithStorage("currentChapter", 0);
+export const currentChapterAtom = atomWithStorage(
+  "currentChapter",
+  0,
+  undefined,
+  { getOnInit: true }
+);
 
 export const loopWordConfigAtom = atomForConfig<{ times: LoopWordTimesOption }>(
   "loopWordConfig",

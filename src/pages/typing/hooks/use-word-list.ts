@@ -35,7 +35,12 @@ export function useWordList(): UseWordListResult {
     data: wordList,
     error,
     isLoading,
-  } = useSWR(currentDictInfo.url, wordListFetcher);
+  } = useSWR(currentDictInfo.url, wordListFetcher, {
+    // Avoid refetch-on-focus replacing the word-list reference mid-session,
+    // which previously re-ran SETUP_CHAPTER and dismissed the result screen.
+    revalidateOnFocus: false,
+    revalidateOnReconnect: false,
+  });
 
   const words: WordWithIndex[] = useMemo(() => {
     let newWords: Word[];

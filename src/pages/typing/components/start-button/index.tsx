@@ -11,13 +11,13 @@ export default function StartButton({ isLoading }: { isLoading: boolean }) {
 
   const onToggleIsTyping = useCallback(
     (event?: { currentTarget?: { blur?: () => void } }) => {
-      if (isLoading) {
+      if (isLoading || state.isFinished) {
         return;
       }
       event?.currentTarget?.blur?.();
       dispatch({ type: TypingStateActionType.TOGGLE_IS_TYPING });
     },
-    [isLoading, dispatch]
+    [isLoading, state.isFinished, dispatch]
   );
 
   const onClickRestart = useCallback(() => {
@@ -30,8 +30,12 @@ export default function StartButton({ isLoading }: { isLoading: boolean }) {
   useHotkeys(
     "enter",
     onToggleIsTyping,
-    { enableOnFormTags: true, preventDefault: true },
-    [onToggleIsTyping]
+    {
+      enabled: !(isLoading || state.isFinished),
+      enableOnFormTags: true,
+      preventDefault: true,
+    },
+    [onToggleIsTyping, isLoading, state.isFinished]
   );
 
   return (
@@ -42,6 +46,7 @@ export default function StartButton({ isLoading }: { isLoading: boolean }) {
           className={`${
             state.isTyping ? "bg-primary/80" : "bg-primary"
           } my-btn-primary inline-flex h-11 min-w-[4.5rem] items-center justify-center px-4 text-sm shadow shadow-primary/40 sm:h-8 sm:w-20 sm:text-lg`}
+          disabled={state.isFinished}
           onClick={onToggleIsTyping}
           type="button"
         >
