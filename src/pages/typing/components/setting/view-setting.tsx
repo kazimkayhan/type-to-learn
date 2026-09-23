@@ -6,24 +6,35 @@ import { defaultFontSizeConfig } from "@/constants";
 import { fontSizeConfigAtom } from "@/store";
 import styles from "./index.module.css";
 
+type FontSizeConfig = typeof defaultFontSizeConfig;
+
+function sliderValue(value: number | readonly number[]): number {
+  if (typeof value === "number") {
+    return value;
+  }
+  return value[0] ?? 0;
+}
+
 export default function ViewSetting() {
   const [fontSizeConfig, setFontsizeConfig] = useAtom(fontSizeConfigAtom);
 
   const onChangeForeignFontSize = useCallback(
-    (value: number[]) => {
-      setFontsizeConfig((prev) => ({
+    (value: number | readonly number[]) => {
+      const next = sliderValue(value);
+      setFontsizeConfig((prev: FontSizeConfig) => ({
         ...prev,
-        foreignFont: value[0],
+        foreignFont: next,
       }));
     },
     [setFontsizeConfig]
   );
 
   const onChangeTranslateFontSize = useCallback(
-    (value: number[]) => {
-      setFontsizeConfig((prev) => ({
+    (value: number | readonly number[]) => {
+      const next = sliderValue(value);
+      setFontsizeConfig((prev: FontSizeConfig) => ({
         ...prev,
-        translateFont: value[0],
+        translateFont: next,
       }));
     },
     [setFontsizeConfig]

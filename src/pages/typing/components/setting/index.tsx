@@ -52,33 +52,33 @@ export default function Setting() {
         </div>
 
         <Tabs
-          className="flex h-auto w-full flex-col md:h-[32rem] md:flex-row"
+          className="flex h-auto w-full flex-col md:h-[32rem] md:flex-row md:items-start"
           defaultValue="sound"
         >
-          <TabsList className="flex w-full flex-row items-stretch space-x-1 overflow-x-auto border-border border-b bg-muted px-2 py-2 md:h-full md:w-48 md:flex-col md:items-start md:space-x-0 md:space-y-2 md:overflow-visible md:border-r md:border-b-0 md:px-4 md:py-3">
+          <TabsList className="flex w-full flex-row items-stretch space-x-1 overflow-x-auto border-border border-b bg-muted px-2 py-2 md:h-full md:w-48 md:flex-col md:items-start md:justify-start md:space-x-0 md:space-y-2 md:overflow-visible md:border-r md:border-b-0 md:px-4 md:py-3">
             <TabsTrigger
-              className="flex h-10 flex-shrink-0 items-center justify-start gap-2 rounded-md px-3 font-bold text-muted-foreground text-sm hover:bg-card data-[state=active]:bg-primary data-[state=active]:text-primary-foreground md:w-full md:justify-start"
+              className="flex h-10 shrink-0 items-center justify-start gap-2 rounded-md px-3 font-bold text-muted-foreground text-sm hover:bg-card data-[state=active]:bg-primary data-[state=active]:text-primary-foreground md:w-full md:justify-start"
               value="sound"
             >
               <IconEar className="icon" />
               Sound
             </TabsTrigger>
             <TabsTrigger
-              className="flex h-10 flex-shrink-0 items-center justify-start gap-2 rounded-md px-3 font-bold text-muted-foreground text-sm hover:bg-card data-[state=active]:bg-primary data-[state=active]:text-primary-foreground md:w-full md:justify-start"
+              className="flex h-10 shrink-0 items-center justify-start gap-2 rounded-md px-3 font-bold text-muted-foreground text-sm hover:bg-card data-[state=active]:bg-primary data-[state=active]:text-primary-foreground md:w-full md:justify-start"
               value="advanced"
             >
               <IconAdjustmentsHorizontal className="icon" />
               Advanced
             </TabsTrigger>
             <TabsTrigger
-              className="flex h-10 flex-shrink-0 items-center justify-start gap-2 rounded-md px-3 font-bold text-muted-foreground text-sm hover:bg-card data-[state=active]:bg-primary data-[state=active]:text-primary-foreground md:w-full md:justify-start"
+              className="flex h-10 shrink-0 items-center justify-start gap-2 rounded-md px-3 font-bold text-muted-foreground text-sm hover:bg-card data-[state=active]:bg-primary data-[state=active]:text-primary-foreground md:w-full md:justify-start"
               value="view"
             >
               <IconEye className="icon" />
               View
             </TabsTrigger>
             <TabsTrigger
-              className="flex h-10 flex-shrink-0 items-center justify-start gap-2 rounded-md px-3 font-bold text-muted-foreground text-sm hover:bg-card data-[state=active]:bg-primary data-[state=active]:text-primary-foreground md:w-full md:justify-start"
+              className="flex h-10 shrink-0 items-center justify-start gap-2 rounded-md px-3 font-bold text-muted-foreground text-sm hover:bg-card data-[state=active]:bg-primary data-[state=active]:text-primary-foreground md:w-full md:justify-start"
               value="data"
             >
               <IconDatabaseCog className="icon" />
