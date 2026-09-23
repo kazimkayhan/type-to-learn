@@ -29,7 +29,10 @@
   <img src="https://img.shields.io/badge/Tailwind_CSS-06B6D4?logo=tailwindcss&logoColor=white" alt="Tailwind CSS" />
 </p>
 
----
+<div align="center">
+  <img src="./public/og-image.png" alt="Type to Learn Home" width="100%" />
+</div>
+
 
 ## Why Type to Learn?
 
