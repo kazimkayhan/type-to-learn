@@ -870,6 +870,15 @@
     "ukphone": "geɪm"
   },
   {
+    "name": "golf",
+    "trans": [
+      "v. play golf",
+      "n. a game played on a large open course with 9 or 18 holes"
+    ],
+    "usphone": "gɔlf",
+    "ukphone": "gɒlf"
+  },
+  {
     "name": "heart",
     "trans": [
       "n. a playing card in the major suit that has one or more red hearts on it",
@@ -878,15 +887,6 @@
     ],
     "usphone": "hɑrt",
     "ukphone": "hɑːt"
-  },
-  {
-    "name": "golf",
-    "trans": [
-      "v. play golf",
-      "n. a game played on a large open course with 9 or 18 holes"
-    ],
-    "usphone": "gɔlf",
-    "ukphone": "gɒlf"
   },
   {
     "name": "increase",
@@ -899,6 +899,12 @@
     "ukphone": "ɪn'kriːs"
   },
   {
+    "name": "kilometer",
+    "trans": ["n. a metric unit of length equal to one thousand meters"],
+    "usphone": "ˈkɪləˌmitɚ; kəˈlɑmətɚ",
+    "ukphone": "'kɪlə,mitɚ"
+  },
+  {
     "name": "life",
     "trans": [
       "n. living things collectively",
@@ -907,12 +913,6 @@
     ],
     "usphone": "laɪf",
     "ukphone": "laɪf"
-  },
-  {
-    "name": "kilometer",
-    "trans": ["n. a metric unit of length equal to one thousand meters"],
-    "usphone": "ˈkɪləˌmitɚ; kəˈlɑmətɚ",
-    "ukphone": "'kɪlə,mitɚ"
   },
   {
     "name": "often",
@@ -9189,16 +9189,6 @@
     "ukphone": "test"
   },
   {
-    "name": "tongue",
-    "trans": [
-      "v. lick or explore with the tongue",
-      "v. articulate by tonguing, as when playing wind instruments",
-      "n. metal striker that hangs inside a bell and makes a sound by hitting the side"
-    ],
-    "usphone": "tʌŋ",
-    "ukphone": "tʌŋ"
-  },
-  {
     "name": "they",
     "trans": [
       "pron. 3rd person nominative singular pronoun, indicating a person who is hypothetical or whose identity is unknown; used with plural verbs",
@@ -9207,6 +9197,16 @@
     ],
     "usphone": "ðe",
     "ukphone": "ðeɪ"
+  },
+  {
+    "name": "tongue",
+    "trans": [
+      "v. lick or explore with the tongue",
+      "v. articulate by tonguing, as when playing wind instruments",
+      "n. metal striker that hangs inside a bell and makes a sound by hitting the side"
+    ],
+    "usphone": "tʌŋ",
+    "ukphone": "tʌŋ"
   },
   {
     "name": "type",
@@ -9916,6 +9916,15 @@
     "ukphone": "praɪs"
   },
   {
+    "name": "shop",
+    "trans": [
+      "n. a place where goods are sold",
+      "v. to buy things from stores"
+    ],
+    "usphone": "ʃɑp",
+    "ukphone": "ʃɒp"
+  },
+  {
     "name": "short",
     "trans": [
       "v. create a short circuit in",
@@ -9924,15 +9933,6 @@
     ],
     "usphone": "ʃɔrt",
     "ukphone": "ʃɔːt"
-  },
-  {
-    "name": "shop",
-    "trans": [
-      "n. a place where goods are sold",
-      "v. to buy things from stores"
-    ],
-    "usphone": "ʃɑp",
-    "ukphone": "ʃɒp"
   },
   {
     "name": "station",
@@ -17313,16 +17313,6 @@
     "ukphone": "dɪ'teɪn"
   },
   {
-    "name": "exit",
-    "trans": [
-      "v. pass from physical life and lose all bodily attributes and functions necessary to sustain life",
-      "v. lose the lead",
-      "v. move out of or depart from"
-    ],
-    "usphone": "'ɛɡzɪt",
-    "ukphone": "'eksɪt; 'egzɪt"
-  },
-  {
     "name": "exceptional",
     "trans": [
       "adj. surpassing what is common or usual or expected",
@@ -17331,6 +17321,16 @@
     ],
     "usphone": "ɪk'sɛpʃənl",
     "ukphone": "ik'sepʃənəl"
+  },
+  {
+    "name": "exit",
+    "trans": [
+      "v. pass from physical life and lose all bodily attributes and functions necessary to sustain life",
+      "v. lose the lead",
+      "v. move out of or depart from"
+    ],
+    "usphone": "'ɛɡzɪt",
+    "ukphone": "'eksɪt; 'egzɪt"
   },
   {
     "name": "flee",
@@ -20233,16 +20233,16 @@
     "ukphone": "'fræntik"
   },
   {
-    "name": "inadvertent",
-    "trans": ["adj. happening by chance or unexpectedly or unintentionally"],
-    "usphone": "ɪnəd'vɝtənt",
-    "ukphone": "ˌinəd'vəːtənt"
-  },
-  {
     "name": "improvise",
     "trans": ["v. perform without preparation"],
     "usphone": "'ɪmprəvaɪz",
     "ukphone": "'ɪmprəvaɪz"
+  },
+  {
+    "name": "inadvertent",
+    "trans": ["adj. happening by chance or unexpectedly or unintentionally"],
+    "usphone": "ɪnəd'vɝtənt",
+    "ukphone": "ˌinəd'vəːtənt"
   },
   {
     "name": "latitude",
@@ -21166,15 +21166,6 @@
     "ukphone": "'mɑːʃ(ə)l"
   },
   {
-    "name": "morale",
-    "trans": [
-      "n. the spirit of a group that makes the members want the group to succeed",
-      "n. a state of individual psychological well-being based upon a sense of confidence and usefulness and purpose"
-    ],
-    "usphone": "mə'ræl",
-    "ukphone": "mə'ræl"
-  },
-  {
     "name": "mood",
     "trans": [
       "n. a characteristic habitual or relatively temporary state of feeling",
@@ -21183,6 +21174,15 @@
     ],
     "usphone": "mud",
     "ukphone": "muːd"
+  },
+  {
+    "name": "morale",
+    "trans": [
+      "n. the spirit of a group that makes the members want the group to succeed",
+      "n. a state of individual psychological well-being based upon a sense of confidence and usefulness and purpose"
+    ],
+    "usphone": "mə'ræl",
+    "ukphone": "mə'ræl"
   },
   {
     "name": "prophecy",
@@ -21571,6 +21571,15 @@
     "ukphone": "'vɒlənt(ə)rɪ"
   },
   {
+    "name": "advent",
+    "trans": [
+      "n. (Christian theology) the reappearance of Jesus as judge for the Last Judgment",
+      "n. the season including the four Sundays preceding Christmas"
+    ],
+    "usphone": "'ædvənt",
+    "ukphone": "'ædvent"
+  },
+  {
     "name": "airway",
     "trans": [
       "n. a commercial enterprise that provides scheduled flights for passengers",
@@ -21583,15 +21592,6 @@
   {
     "name": "Almighty",
     "trans": ["adj. having unlimited power"]
-  },
-  {
-    "name": "advent",
-    "trans": [
-      "n. (Christian theology) the reappearance of Jesus as judge for the Last Judgment",
-      "n. the season including the four Sundays preceding Christmas"
-    ],
-    "usphone": "'ædvənt",
-    "ukphone": "'ædvent"
   },
   {
     "name": "cycle",
@@ -21832,16 +21832,6 @@
     "ukphone": "'dʒenəreɪt"
   },
   {
-    "name": "item",
-    "trans": [
-      "adv. (used when listing or enumerating items) also",
-      "n. a whole individual unit",
-      "n. an isolated fact that is considered separately from the whole"
-    ],
-    "usphone": "'aɪtəm",
-    "ukphone": "'aɪtəm"
-  },
-  {
     "name": "interchange",
     "trans": [
       "v. reverse (a direction, attitude, or course of action)",
@@ -21850,6 +21840,16 @@
     ],
     "usphone": "'ɪntɚtʃendʒ",
     "ukphone": "ɪntə'tʃeɪn(d)ʒ"
+  },
+  {
+    "name": "item",
+    "trans": [
+      "adv. (used when listing or enumerating items) also",
+      "n. a whole individual unit",
+      "n. an isolated fact that is considered separately from the whole"
+    ],
+    "usphone": "'aɪtəm",
+    "ukphone": "'aɪtəm"
   },
   {
     "name": "multicultural",
@@ -23661,6 +23661,12 @@
     "ukphone": "rɪ'pleɪs"
   },
   {
+    "name": "sly",
+    "trans": ["adj. marked by skill in deception"],
+    "usphone": "slaɪ",
+    "ukphone": "slaɪ"
+  },
+  {
     "name": "snap",
     "trans": [
       "v. break suddenly and abruptly, as under tension",
@@ -23669,12 +23675,6 @@
     ],
     "usphone": "snæp",
     "ukphone": "snæp"
-  },
-  {
-    "name": "sly",
-    "trans": ["adj. marked by skill in deception"],
-    "usphone": "slaɪ",
-    "ukphone": "slaɪ"
   },
   {
     "name": "tend",
@@ -26928,15 +26928,6 @@
     "ukphone": "'nɒlɪdʒ"
   },
   {
-    "name": "omit",
-    "trans": [
-      "v. leave undone or leave out",
-      "v. prevent from being included or considered or accepted"
-    ],
-    "usphone": "ə'mɪt",
-    "ukphone": "ə'mɪt"
-  },
-  {
     "name": "offset",
     "trans": [
       "v. produce by offset printing",
@@ -26945,6 +26936,15 @@
     ],
     "usphone": ",ɔf'sɛt",
     "ukphone": "'ɔːfset"
+  },
+  {
+    "name": "omit",
+    "trans": [
+      "v. leave undone or leave out",
+      "v. prevent from being included or considered or accepted"
+    ],
+    "usphone": "ə'mɪt",
+    "ukphone": "ə'mɪt"
   },
   {
     "name": "overlap",
@@ -32028,12 +32028,6 @@
     "ukphone": "kən'dens"
   },
   {
-    "name": "deteriorate",
-    "trans": ["v. grow worse", "v. become worse or disintegrate"],
-    "usphone": "dɪ'tɪrɪəret",
-    "ukphone": "dɪ'tɪriəreɪt"
-  },
-  {
     "name": "degree",
     "trans": [
       "n. a position on a scale of intensity or amount or quality",
@@ -32042,6 +32036,12 @@
     ],
     "usphone": "dɪ'ɡri",
     "ukphone": "dɪ'griː"
+  },
+  {
+    "name": "deteriorate",
+    "trans": ["v. grow worse", "v. become worse or disintegrate"],
+    "usphone": "dɪ'tɪrɪəret",
+    "ukphone": "dɪ'tɪriəreɪt"
   },
   {
     "name": "exterior",
