@@ -1,163 +1,159 @@
-<div align=center>
-  <img src="./public/logo.png" width="96"/>
-</div>
-
-<h1 align="center">
-  Type to Learn
-</h1>
-<p align="center">
-  Designed for people who want to memorize words and practice typing.
-</p>
-
-<p align="center">
-  <a href="https://github.com/kazimkayhan/type-to-learn/blob/master/LICENSE">
-    <img src="https://img.shields.io/github/license/kazimkayhan/type-to-learn" alt="License">
-  </a>
-  <a>
-    <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg"/>
-  </a>
-  <a>
-    <img src="https://img.shields.io/badge/Powered%20by-Vite-646CFF"/>
-  </a>
-</p>
-
 <div align="center">
-  <img src="./public/og-image.png" alt="Type to Learn Home" width="100%" />
+  <img src="./public/logo.png" width="96" alt="Type to Learn logo" />
+
+  <h1>Type to Learn</h1>
+
+  <p>
+    Learn English vocabulary and build real typing muscle memory —
+    <br />
+    at the same time, in the same keystroke.
+  </p>
+
+  <p>
+    <a href="https://github.com/kazimkayhan/type-to-learn/blob/master/LICENSE">
+      <img src="https://img.shields.io/github/license/kazimkayhan/type-to-learn?color=blue" alt="License: GPL-3.0" />
+    </a>
+    <a href="https://github.com/kazimkayhan/type-to-learn/actions/workflows/deploy-pages.yml">
+      <img src="https://img.shields.io/github/actions/workflow/status/kazimkayhan/type-to-learn/deploy-pages.yml?branch=master&label=deploy" alt="Deploy status" />
+    </a>
+    <a href="https://kazimkayhan.github.io/type-to-learn/">
+      <img src="https://img.shields.io/badge/live-demo-success" alt="Live demo" />
+    </a>
+    <a href="./CONTRIBUTING.md">
+      <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg" alt="PRs welcome" />
+    </a>
+    <img src="https://img.shields.io/badge/Powered%20by-Vite%20%2B%20React%20%2B%20TypeScript-646CFF" alt="Powered by Vite, React and TypeScript" />
+  </p>
+
+  <p>
+    <a href="https://kazimkayhan.github.io/type-to-learn/"><strong>Try it live →</strong></a>
+  </p>
+
+  <img src="./public/og-image.png" alt="Type to Learn home screen" width="100%" />
 </div>
 
-## 📸 Online Access
+<br />
 
-**Live Site**: <https://kazimkayhan.github.io/type-to-learn/>
+## Why Type to Learn
 
-## ✨ Design Goals
+If English isn't your first language, you've probably noticed you type faster in your native language than in English. That's not a vocabulary problem — it's a [muscle memory][mm] problem. Years of typing your own language build a reflex that English words never get a chance to form.
 
-Type to Learn is designed for people who type English in their daily work where English is not their mother tongue. It is common for them to type faster in their native language than in English. This is mainly because they have built a strong [muscle memory][mm] through years of typing in their native language. Their muscle memory of English words and phrases is relatively weak, leading to hesitation when typing in English.
+**Type to Learn** closes that gap by fusing vocabulary study with typing drills into one loop: you see a word, hear it, learn its meaning, and type it — and if you slip up, you retype the *whole word* from scratch, so your fingers only ever learn the correct pattern.
 
-To consolidate English typing skills, continuous vocabulary practice is essential. Type to Learn combines vocabulary memorization with typing practice, helping you build muscle memory while learning words.
+It's built for:
 
-To avoid forming incorrect muscle memory, the software requires you to re-enter the entire word if you make any mistakes, ensuring correct muscle memory formation.
-
-Type to Learn is particularly useful for people taking computer-based English tests such as TOEFL, GRE, and similar examinations.
-
-It's also helpful for developers, featuring built-in dictionaries of words and phrases common in code and documentation, plus API dictionaries for many programming languages to help developers familiarize themselves with common APIs.
+- **Language learners** prepping for TOEFL, IELTS, GRE, GMAT, SAT, CET, and similar computer-based exams
+- **Developers** who want fluent recall of programming vocabulary and common language/framework APIs
+- **Anyone** who wants typing speed and vocabulary to grow together instead of separately
 
 [mm]: https://en.wikipedia.org/wiki/Muscle_memory
 
-## 🛠 Features
+## Features
 
-### Built-in Dictionaries
+**Correct-by-construction muscle memory** — mistype a word and the app makes you clear it and retype it in full, so incorrect keystroke patterns never get a chance to stick.
 
-Type to Learn includes many built-in dictionaries for different purposes (examinations, learning, and skill levels), plus dictionaries for developers covering common programming words and API references.
+**380+ built-in dictionaries** — exam vocabulary (CET-4/6, GRE, GMAT, IELTS, SAT, TOEFL, BEC, New Concept English, and more), programming vocabulary and API references (JavaScript, Node.js, Java, C#, Go, Python, Rust, Linux commands), and vocabulary for other languages (Japanese N1–N5, German, Kazakh, Indonesian, and more).
 
-### IPA and Pronunciation
+**IPA and pronunciation** — every word shows its [IPA][ipa] transcription and plays audio, so you learn spelling and pronunciation in the same pass.
 
-While typing, the app displays the [IPA][ipa] of the current word and provides pronunciation, helping you learn both spelling and pronunciation together.
+**Dictation mode** — after finishing a chapter, the app quizzes you by ear on what you just learned, closing the loop from typing to listening recall.
+
+<div align="center">
+  <img src="./public/dictation.png" alt="Dictation mode screenshot" width="720" />
+</div>
+
+**Live speed and accuracy tracking** — WPM and accuracy update as you type, so progress is visible, not just felt.
+
+<div align="center">
+  <img src="./public/speed.png" alt="Speed and accuracy tracking screenshot" width="720" />
+</div>
+
+**Error book** — every word you mistype is logged automatically, so you can revisit and drill exactly your weak spots instead of re-running whole chapters.
+
+**Progress analysis** — charts and stats (powered by ECharts) track your history over time, chapter by chapter.
+
+**Runs anywhere** — a client-only web app (installable as a PWA, deployable to GitHub Pages) with all progress stored locally via IndexedDB, plus a native desktop shell built on Tauri/Rust for the same experience off the browser.
 
 [ipa]: https://en.wikipedia.org/wiki/International_Phonetic_Alphabet
 
-### Dictation Mode
+## Dictionaries
 
-After completing a chapter, the app prompts you to practice dictation, reinforcing the words learned in that chapter.
+A sample of what's included out of the box — see the in-app dictionary picker or [`src/resources/dictionary.ts`](./src/resources/dictionary.ts) for the full, current list:
 
-<div align=center>
-  <img src="./public/dictation.png"/>
-</div>
+| Category | Examples |
+| --- | --- |
+| English exams | CET-4, CET-6, GMAT, GRE, IELTS, SAT, TOEFL, postgraduate entrance exams |
+| English education | High school / middle school English, New Concept English, Business English (BEC) |
+| Programming | Common programming vocabulary, JavaScript, Node.js, Java, C#, Go, Python, Rust, Linux commands |
+| Other languages | Japanese (N1–N5), German, Kazakh, Indonesian, and more |
 
-### Speed and Accuracy
+Don't see a dictionary you need? Request one via [GitHub Issues](https://github.com/kazimkayhan/type-to-learn/issues) or [contribute it yourself](./toBuildDict.md).
 
-The app tracks your typing speed and accuracy in real-time, giving you measurable feedback on your progress.
-
-<div align=center>
-  <img src="./public/speed.png"/>
-</div>
-
-## 📕 Dictionaries
-
-The app includes a comprehensive collection of dictionaries, including but not limited to:
-
-### English Learning
-- CET-4, CET-6 (College English Test)
-- GMAT, GRE, IELTS, SAT, TOEFL
-- Postgraduate entrance exams
-- High school and middle school English
-- Business English, BEC
-- New Concept English series
-
-### Programming
-- Common programming vocabulary
-- JavaScript, Node.js, Java, C#, Go, Python, Rust APIs
-- Linux commands
-
-### Other Languages
-- Japanese vocabulary (N1-N5)
-- Kazakh basic vocabulary
-- German, Indonesian, and more
-
-For the complete dictionary list, check the in-app dictionary selection or visit `src/resources/dictionary.ts`.
-
-If you need additional dictionaries, feel free to request them via GitHub Issues or contribute your own.
-
-## 🏄‍♂️ How to Contribute
-
-We welcome contributions! You can participate by:
-
-- Submitting Issues to report bugs or suggest features
-- Submitting Pull Requests to improve code or add features
-- Contributing new dictionaries (see [Adding Dictionaries](./toBuildDict.md))
-
-Please read the [Contribution Guidelines](./CONTRIBUTING.md) before contributing.
-
-## 🚀 Running the Project
-
-This project is built with **Vite + React + TypeScript + Tailwind CSS + shadcn/ui**.
+## Getting started
 
 ### Requirements
 
-- **Node.js**: >=26
-- **pnpm**: >=9 (recommended: pnpm@12.4.2)
+- **Node.js** ≥ 26
+- **pnpm** ≥ 9 (this repo is pinned to `pnpm@12.4.2`)
 - **Git**
 
-### Installation
+### Run it locally
 
-1. Clone the repository:
-   ```sh
-   git clone https://github.com/kazimkayhan/type-to-learn.git
-   cd type-to-learn
-   ```
+```sh
+git clone https://github.com/kazimkayhan/type-to-learn.git
+cd type-to-learn
+pnpm install
+pnpm dev
+```
 
-2. Install dependencies:
-   ```sh
-   pnpm install
-   ```
+Vite serves the app under the `/type-to-learn/` base path (matching the GitHub Pages deployment), so open:
 
-3. Start the development server:
-   ```sh
-   pnpm start
-   # or
-   pnpm dev
-   ```
+```text
+http://localhost:5173/type-to-learn/
+```
 
-4. Open `http://localhost:5173/` in your browser
-
-### Build for Production
+### Build for production
 
 ```sh
 pnpm build
 ```
 
-The build output will be in the `dist/` directory, configured for GitHub Pages with base path `/type-to-learn/`.
+Output is written to `dist/`, pre-configured for GitHub Pages at `/type-to-learn/`.
 
-## 📄 License
+### Other useful commands
 
-This project is licensed under the [GPL-3.0](../LICENSE) license.
+| Command | What it does |
+| --- | --- |
+| `pnpm check` | Lint with Ultracite (Biome) |
+| `pnpm fix` | Auto-fix lint/formatting issues |
+| `pnpm knip` | Find unused files, exports, and dependencies |
 
-## 🙏 Acknowledgements
+### Desktop shell
 
+A native desktop build lives in [`src-tauri/`](./src-tauri) (Tauri + Rust) around the same web UI. It's early-stage — most active development happens in `src/`.
 
-## 👤 Author
+## Tech stack
+
+React 19 · TypeScript · Vite · Tailwind CSS v4 · Jotai · Dexie (IndexedDB) · Base UI · ECharts · Tauri
+
+The app is entirely client-side — no backend, no accounts. Your progress lives in your browser's IndexedDB via Dexie, and you can export/import it at any time.
+
+## Contributing
+
+Contributions are very welcome, whether that's fixing a bug, adding a dictionary, improving docs, or proposing a feature.
+
+Please read the [Contributing Guide](./CONTRIBUTING.md) before opening a pull request — it covers the branch workflow, code style, and (importantly) how to add a new dictionary correctly, including licensing considerations for third-party word lists.
+
+If you're adding a dictionary, start here: [How to Import a New Dictionary](./toBuildDict.md).
+
+## License
+
+Type to Learn is licensed under the [GNU General Public License v3.0](./LICENSE).
+
+## Author
 
 **Kazim Kayhan**
 
-- Website: [Kazim Kayhan' Linkedin](https://www.linkedin.com/in/kazimkayhan)
+- LinkedIn: [@kazimkayhan](https://www.linkedin.com/in/kazimkayhan)
 - GitHub: [@kazimkayhan](https://github.com/kazimkayhan)
-- Email: email4kazim@gmail.com
+- Email: [email4kazim@gmail.com](mailto:email4kazim@gmail.com)
