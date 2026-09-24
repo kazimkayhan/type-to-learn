@@ -104,6 +104,13 @@ export function ErrorBook() {
       });
   }, [reload]);
 
+  // Deleting the last record on a page (or the last record overall) shrinks
+  // totalPages; clamp currentPage back into range instead of stranding the
+  // user on a now-empty page.
+  useEffect(() => {
+    setCurrentPage((page) => Math.min(page, Math.max(totalPages, 1)));
+  }, [totalPages]);
+
   const handleDelete = async (word: string, dict: string) => {
     await deleteWordRecord(word, dict);
     setReload((prev) => !prev);

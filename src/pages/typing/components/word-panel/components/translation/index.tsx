@@ -167,7 +167,9 @@ export default function Translation({
         >
           {enrichment.example && (
             <p className="text-center text-muted-foreground text-sm italic">
-              \u201C{enrichment.example}\u201D
+              {"\u201C"}
+              {enrichment.example}
+              {"\u201D"}
             </p>
           )}
           {enrichment.synonyms.length > 0 && (

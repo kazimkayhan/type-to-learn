@@ -81,5 +81,9 @@ export async function generateNewWordReviewRecord(
 }
 
 export async function putWordReviewRecord(record: ReviewRecord) {
-  db.reviewRecords.put(record);
+  try {
+    return await db.reviewRecords.put(record);
+  } catch (e) {
+    console.error("Failed to save review record:", e);
+  }
 }

@@ -44,9 +44,19 @@ export async function exportDatabase(
   });
 }
 
+const IMPORT_OPTIONS = {
+  acceptChangedPrimaryKey: false,
+  acceptMissingTables: true,
+  acceptNameDiff: false,
+  acceptVersionDiff: true,
+  clearTablesBeforeImport: true,
+  overwriteValues: true,
+} as const;
+
 export async function importDatabase(
   onStart: () => void,
-  callback: (importProgress: ImportProgress) => boolean
+  callback: (importProgress: ImportProgress) => boolean,
+  onError?: (error: unknown) => void
 ) {
   const [pako] = await Promise.all([
     import("pako"),
@@ -64,31 +74,54 @@ export async function importDatabase(
 
     onStart();
 
-    const compressed = await file.arrayBuffer();
-    const json = pako.ungzip(compressed, { to: "string" });
-    const blob = new Blob([json]);
+    // clearTablesBeforeImport wipes tables before the import transaction
+    // runs, so a mid-import failure would otherwise leave the database
+    // empty with no way back. Snapshot it first so we can restore on error.
+    let backupBlob: Blob | undefined;
+    try {
+      backupBlob = await db.export();
+    } catch (backupError) {
+      console.error(
+        "Failed to create safety backup before import:",
+        backupError
+      );
+    }
 
-    await db.import(blob, {
-      acceptChangedPrimaryKey: false,
-      acceptMissingTables: true,
-      acceptNameDiff: false,
-      acceptVersionDiff: true,
-      clearTablesBeforeImport: true,
-      overwriteValues: true,
-      progressCallback: ({ totalRows, completedRows, done }) =>
-        callback({ completedRows, done, totalRows }),
-    });
+    try {
+      const compressed = await file.arrayBuffer();
+      const json = pako.ungzip(compressed, { to: "string" });
+      const blob = new Blob([json]);
 
-    const [wordCount, chapterCount] = await Promise.all([
-      db.wordRecords.count(),
-      db.chapterRecords.count(),
-    ]);
-    recordDataAction({
-      chapterCount,
-      size: file.size,
-      type: "import",
-      wordCount,
-    });
+      await db.import(blob, {
+        ...IMPORT_OPTIONS,
+        progressCallback: ({ totalRows, completedRows, done }) =>
+          callback({ completedRows, done, totalRows }),
+      });
+
+      const [wordCount, chapterCount] = await Promise.all([
+        db.wordRecords.count(),
+        db.chapterRecords.count(),
+      ]);
+      recordDataAction({
+        chapterCount,
+        size: file.size,
+        type: "import",
+        wordCount,
+      });
+    } catch (error) {
+      console.error("Import failed:", error);
+      if (backupBlob) {
+        try {
+          await db.import(backupBlob, IMPORT_OPTIONS);
+        } catch (restoreError) {
+          console.error(
+            "Failed to restore data after failed import:",
+            restoreError
+          );
+        }
+      }
+      onError?.(error);
+    }
   });
 
   input.click();

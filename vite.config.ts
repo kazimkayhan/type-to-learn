@@ -1,6 +1,7 @@
 import path from "node:path";
+import babel from "@rolldown/plugin-babel";
 import tailwindcss from "@tailwindcss/vite";
-import react from "@vitejs/plugin-react";
+import react, { reactCompilerPreset } from "@vitejs/plugin-react";
 import { getLastCommit } from "git-last-commit";
 import Icons from "unplugin-icons/vite";
 import type { PluginOption } from "vite";
@@ -24,6 +25,7 @@ export default defineConfig(async ({ mode }) => {
   const plugins: PluginOption[] = [
     tailwindcss(),
     react(),
+    babel({ presets: [reactCompilerPreset()] }),
     Icons({
       compiler: "jsx",
       jsx: "react",

@@ -36,18 +36,27 @@ export default function DictionaryGroup({
     setCurrentTag(tag);
   }, []);
 
+  // Keep the selected tag valid whenever the tag list changes (e.g. search
+  // filtering); don't touch it if the current selection is still valid, so
+  // a manual tag click survives unrelated re-filters.
   useEffect(() => {
     if (tagList.length === 0) {
       setCurrentTag("");
       return;
     }
+    setCurrentTag((prev) => (tagList.includes(prev) ? prev : tagList[0]));
+  }, [tagList]);
+
+  // Auto-follow the actively-practiced dictionary's tag only when the
+  // practiced dictionary itself changes - not on every tagList identity
+  // change - so switching dictionaries still jumps to the right tag without
+  // fighting a manual tag selection on every search keystroke.
+  useEffect(() => {
     const commonTags = findCommonValues(tagList, currentDictInfo.tags);
     if (commonTags.length > 0) {
       setCurrentTag(commonTags[0]);
-      return;
     }
-    setCurrentTag((prev) => (tagList.includes(prev) ? prev : tagList[0]));
-  }, [currentDictInfo.tags, tagList]);
+  }, [currentDictInfo.tags]);
 
   const visibleDicts =
     currentTag && groupedDictsByTag[currentTag]

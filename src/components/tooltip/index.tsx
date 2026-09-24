@@ -1,5 +1,5 @@
 import type { ReactNode } from "react";
-import { useCallback, useState } from "react";
+import { useCallback, useId, useState } from "react";
 import { classNames } from "@/utils";
 
 const Tooltip = ({
@@ -9,6 +9,7 @@ const Tooltip = ({
   placement = "top",
 }: TooltipProps) => {
   const [visible, setVisible] = useState(false);
+  const tooltipId = useId();
 
   const handleBlur = useCallback(() => setVisible(false), []);
   const handleMouseEnter = useCallback(() => setVisible(true), []);
@@ -27,6 +28,7 @@ const Tooltip = ({
       )}
     >
       <div
+        aria-describedby={tooltipId}
         className="inline-flex items-center justify-center"
         onBlur={handleBlur}
         onFocus={handleMouseEnter}
@@ -36,10 +38,11 @@ const Tooltip = ({
         {children}
       </div>
       <div
-        aria-hidden="true"
+        aria-hidden={!visible}
         className={`${
           visible ? "opacity-100" : "pointer-events-none opacity-0"
         } ${placementClasses} pointer-events-none absolute left-1/2 flex -translate-x-1/2 transform items-center justify-center transition-opacity`}
+        id={tooltipId}
         role="tooltip"
       >
         <span className="tooltip">{content}</span>

@@ -42,7 +42,7 @@ const Analysis = () => {
     wpmRecord,
     accuracyRecord,
     wrongTimeRecord,
-  } = useWordStats(dayjs().subtract(1, "year").unix(), dayjs().unix());
+  } = useWordStats(dayjs().subtract(6, "month").unix(), dayjs().unix());
 
   return (
     <Layout>
@@ -63,8 +63,8 @@ const Analysis = () => {
             {isEmpty ? (
               <div className="m-4 grid h-80 w-auto place-content-center overflow-hidden rounded-lg bg-card px-4 text-center shadow-lg">
                 <div className="text-muted-foreground text-xl sm:text-2xl">
-                  No practice data yet. Finish a chapter to see your progress
-                  here.
+                  No practice sessions in the past 6 months. Finish a chapter to
+                  see your progress here.
                 </div>
               </div>
             ) : (
@@ -72,20 +72,28 @@ const Analysis = () => {
                 <div className="mx-0 my-6 overflow-x-auto rounded-lg bg-card/50 p-4 shadow-lg sm:mx-4 sm:my-8 sm:p-8">
                   <HeatmapCharts
                     data={exerciseRecord}
-                    title="Practice sessions heatmap (past year)"
+                    title="Words typed heatmap (past 6 months)"
+                    unitLabel={{
+                      plural: "words typed",
+                      singular: "word typed",
+                    }}
                   />
                 </div>
                 <div className="mx-0 my-6 overflow-x-auto rounded-lg bg-card/50 p-4 shadow-lg sm:mx-4 sm:my-8 sm:p-8">
                   <HeatmapCharts
                     data={wordRecord}
-                    title="Words practiced heatmap (past year)"
+                    title="Unique words practiced heatmap (past 6 months)"
+                    unitLabel={{
+                      plural: "unique words",
+                      singular: "unique word",
+                    }}
                   />
                 </div>
                 <div className="mx-0 my-6 h-72 overflow-x-auto rounded-lg bg-card/50 p-4 shadow-lg sm:mx-4 sm:my-8 sm:h-80 sm:p-8">
                   <LineCharts
                     data={wpmRecord}
                     name="WPM"
-                    title="WPM trend (past year)"
+                    title="WPM trend (past 6 months)"
                   />
                 </div>
                 <div className="mx-0 my-6 h-72 overflow-x-auto rounded-lg bg-card/50 p-4 shadow-lg sm:mx-4 sm:my-8 sm:h-80 sm:p-8">
@@ -93,14 +101,14 @@ const Analysis = () => {
                     data={accuracyRecord}
                     name="Accuracy (%)"
                     suffix="%"
-                    title="Accuracy trend (past year)"
+                    title="Accuracy trend (past 6 months)"
                   />
                 </div>
                 <div className="mx-0 my-6 h-72 overflow-x-auto rounded-lg bg-card/50 p-4 shadow-lg sm:mx-4 sm:my-8 sm:h-80 sm:p-8">
                   <KeyboardWithBarCharts
                     data={wrongTimeRecord}
                     name="Mistakes"
-                    title="Key mistake ranking"
+                    title="Key mistake ranking (past 6 months)"
                   />
                 </div>
               </>

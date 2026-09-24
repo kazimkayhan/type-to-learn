@@ -10,6 +10,39 @@ persistence), Base UI + shadcn-style primitives in `src/components/ui`.
 Formatting/linting is Biome via Ultracite (see below) — don't hand-fix style
 issues it already covers.
 
+React Compiler (`babel-plugin-react-compiler`, stable) is wired into
+`vite.config.ts` via `@rolldown/plugin-babel`'s `reactCompilerPreset()` — the
+official Babel-based integration, not the experimental `oxc-transform-react`
+native path `@vitejs/plugin-react` also exposes. Don't add manual
+`useMemo`/`useCallback` to compensate for re-renders; let the compiler handle
+it, and only reach for them if profiling shows the compiler skipped that
+specific component (see below). Known gaps as of `babel-plugin-react-compiler`
+1.0.0, verified by direct compilation with its diagnostic `logger` (not
+`eslint-plugin-react-compiler` — this project's TypeScript 7 beta isn't
+supported by `@typescript-eslint/parser` yet):
+
+- **Default values in destructured function params** (e.g.
+  `({ variant = "default", ...props }) => ...`) hit an unimplemented
+  compiler path (`BuildHIR::lowerAssignment`, category `Todo`) and silently
+  skip that component. This hits ~24 files, mostly `src/components/ui/*`
+  (the shadcn/Base UI primitives, which all use this idiom for prop
+  defaults). Not a bug in this codebase — an upstream gap — and not
+  currently worth a mass refactor to work around.
+- `try/finally` and dynamic `import()` inside a component also aren't
+  supported yet (`dropdown-export.tsx`, `result-screen/index.tsx`,
+  `share-pic-dialog.tsx`).
+- `src/pages/gallery-n/error-table/index.tsx` is skipped as "incompatible
+  library" (`@tanstack/react-table` internals) — respect that, don't force it.
+- Three hooks (`use-intersection-observer.ts`,
+  `use-chapter-stats.ts`/`useChapterStats`, `use-dict-stats.ts`) carry a
+  `// eslint-disable-next-line react-hooks/exhaustive-deps` on a legitimate
+  "fetch once, guard on own state" effect pattern; the compiler skips these
+  too. Leave them - they're correct as written, just unoptimized.
+
+A skip is always safe (the compiler only adds memoization, never changes
+behavior) - it just means that component gets zero benefit, not that
+anything is wrong.
+
 ## Commands (pnpm)
 
 - `pnpm dev` — start Vite dev server. Served under `/type-to-learn/` (the

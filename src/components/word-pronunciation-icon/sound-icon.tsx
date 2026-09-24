@@ -38,7 +38,6 @@ export const SoundIcon = ({
     return () => {
       clearTimeout(timer);
     };
-    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [animated, animationFrameIndex, duration]);
 
   const Icon = volumeIcons[animationFrameIndex];

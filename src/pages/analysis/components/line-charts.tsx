@@ -34,7 +34,7 @@ const LineCharts: FC<LineChartsProps> = ({ data, title, suffix, name }) => {
 
   const chartRef = useRef<HTMLDivElement>(null);
 
-  const { width: _width, height: _height } = useWindowSize();
+  const { width, height } = useWindowSize();
 
   useEffect(() => {
     if (!(chartRef.current && data.length)) {
@@ -88,7 +88,7 @@ const LineCharts: FC<LineChartsProps> = ({ data, title, suffix, name }) => {
     }
     const chart = echarts.getInstanceByDom(chartRef.current);
     chart?.resize();
-  }, []);
+  }, [width, height]);
 
   return (
     <div className="flex h-full flex-col">

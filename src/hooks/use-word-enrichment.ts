@@ -122,23 +122,41 @@ export default function useWordEnrichment(word: string, enabled: boolean) {
 
     const controller = new AbortController();
 
-    fetch(`${DICTIONARY_API_BASE}${encodeURIComponent(key)}`, {
-      signal: controller.signal,
-    })
-      .then((response) => (response.ok ? response.json() : null))
-      .then((data: DictionaryApiEntry[] | null) => {
-        const parsed = data ? parseEntries(data) : null;
-        cacheSet(key, parsed);
-        if (requestedKeyRef.current === key) {
-          setEnrichment(parsed);
-          setIsLoading(false);
+    (async () => {
+      let cacheable: boolean;
+      let parsed: WordEnrichment | null;
+      try {
+        const response = await fetch(
+          `${DICTIONARY_API_BASE}${encodeURIComponent(key)}`,
+          { signal: controller.signal }
+        );
+        if (response.ok) {
+          const data: DictionaryApiEntry[] = await response.json();
+          cacheable = true;
+          parsed = parseEntries(data);
+        } else {
+          // Only a genuine 404 means "no entry for this word" - cache
+          // that. Any other non-OK status (rate limit, server error, ...)
+          // is transient, so don't poison the cache with it; let the next
+          // lookup retry against the network instead.
+          cacheable = response.status === 404;
+          parsed = null;
         }
-      })
-      .catch(() => {
+      } catch {
         if (requestedKeyRef.current === key && !controller.signal.aborted) {
           setIsLoading(false);
         }
-      });
+        return;
+      }
+
+      if (cacheable) {
+        cacheSet(key, parsed);
+      }
+      if (requestedKeyRef.current === key) {
+        setEnrichment(parsed);
+        setIsLoading(false);
+      }
+    })();
 
     return () => {
       controller.abort();

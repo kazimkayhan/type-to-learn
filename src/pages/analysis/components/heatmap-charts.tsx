@@ -11,9 +11,11 @@ import "react-tooltip/dist/react-tooltip.css";
 interface HeatmapChartsProps {
   data: Activity[];
   title: string;
+  /** Singular/plural noun for what `count` represents, e.g. "word typed" / "words typed". */
+  unitLabel: { singular: string; plural: string };
 }
 
-const HeatmapCharts: FC<HeatmapChartsProps> = ({ data, title }) => {
+const HeatmapCharts: FC<HeatmapChartsProps> = ({ data, title, unitLabel }) => {
   const [isOpenDarkMode] = useAtom(isOpenDarkModeAtom);
   const { width } = useWindowSize();
   const isNarrow = width < 768;
@@ -56,12 +58,12 @@ const HeatmapCharts: FC<HeatmapChartsProps> = ({ data, title }) => {
             "Nov",
             "Dec",
           ],
-          totalCount: "{{count}} sessions in the past year",
+          totalCount: `{{count}} ${unitLabel.plural} in the past 6 months`,
           weekdays: ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"],
         }}
         renderBlock={(block, activity) =>
           React.cloneElement(block, {
-            "data-tooltip-html": `${activity.date}: ${activity.count} session${activity.count === 1 ? "" : "s"}`,
+            "data-tooltip-html": `${activity.date}: ${activity.count} ${activity.count === 1 ? unitLabel.singular : unitLabel.plural}`,
             "data-tooltip-id": "react-tooltip",
           })
         }

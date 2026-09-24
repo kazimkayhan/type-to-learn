@@ -56,7 +56,7 @@ export function useSaveChapterRecord() {
   const dictID = useAtomValue(currentDictIdAtom);
 
   const saveChapterRecord = useCallback(
-    (typingState: TypingState) => {
+    async (typingState: TypingState) => {
       const {
         chapterData: {
           correctCount,
@@ -83,7 +83,11 @@ export function useSaveChapterRecord() {
         words.length,
         wordRecordIds
       );
-      db.chapterRecords.add(chapterRecord);
+      try {
+        await db.chapterRecords.add(chapterRecord);
+      } catch (e) {
+        console.error("Failed to save chapter record:", e);
+      }
     },
     [currentChapter, dictID, isRevision]
   );

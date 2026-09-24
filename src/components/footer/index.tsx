@@ -11,13 +11,11 @@ const Footer: React.FC = () => {
   }, []);
 
   return (
-    <footer
-      className="mt-3 mb-1 flex w-full flex-wrap items-center justify-center gap-x-2.5 gap-y-1.5 px-3 text-xs ease-in sm:mt-4 sm:text-sm"
-      onClick={handleBlur}
-    >
+    <footer className="mt-3 mb-1 flex w-full flex-wrap items-center justify-center gap-x-2.5 gap-y-1.5 px-3 text-xs ease-in sm:mt-4 sm:text-sm">
       <a
         aria-label="Go to GitHub project page"
         href={SITE.github}
+        onClick={handleBlur}
         rel="noopener noreferrer"
         target="_blank"
       >
@@ -29,6 +27,7 @@ const Footer: React.FC = () => {
       <a
         aria-label={`Visit ${SITE.author}'s website`}
         href={SITE.website}
+        onClick={handleBlur}
         rel="noopener noreferrer"
         target="_blank"
       >
@@ -52,6 +51,7 @@ const Footer: React.FC = () => {
       <a
         className="cursor-pointer text-muted-foreground hover:text-foreground"
         href={SITE.website}
+        onClick={handleBlur}
         rel="noopener noreferrer"
         target="_blank"
       >

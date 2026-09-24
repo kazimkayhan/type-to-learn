@@ -79,15 +79,25 @@ function getCachedHowl(
   soundCache.set(key, howl);
 
   while (soundCache.size > MAX_CACHED_SOUNDS) {
-    const oldestKey = soundCache.keys().next().value;
-    if (!oldestKey || oldestKey === key) {
+    // Find the oldest entry that isn't the sound currently playing (or the
+    // one we just inserted) - evicting the active Howl from the map would
+    // orphan it: still playing, but no longer tracked for cleanup later.
+    let oldestKey: string | undefined;
+    for (const k of soundCache.keys()) {
+      if (k === key) {
+        continue;
+      }
+      if (soundCache.get(k) !== activeHowl) {
+        oldestKey = k;
+        break;
+      }
+    }
+    if (!oldestKey) {
       break;
     }
     const oldestHowl = soundCache.get(oldestKey);
-    if (oldestHowl && oldestHowl !== activeHowl) {
-      oldestHowl.stop();
-      oldestHowl.unload();
-    }
+    oldestHowl?.stop();
+    oldestHowl?.unload();
     soundCache.delete(oldestKey);
   }
 

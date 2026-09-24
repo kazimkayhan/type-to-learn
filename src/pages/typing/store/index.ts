@@ -132,6 +132,12 @@ export const typingReducer = (
         ...structuredClone(initialUserInputLog),
         index,
       }));
+      // This effect also re-fires when `words` changes because the user
+      // advanced to the next chapter (Next/Repeat/Dictate), not just on a
+      // fresh dictionary/page load. Preserve isTyping instead of always
+      // resetting to idle, so a deliberate "keep typing" continuation isn't
+      // silently interrupted once the new chapter's word list lands.
+      newState.isTyping = state.isTyping;
 
       return newState;
     }
@@ -186,6 +192,7 @@ export const typingReducer = (
       break;
     case TypingStateActionType.SKIP_WORD: {
       const newIndex = state.chapterData.index + 1;
+      state.chapterData.wordCount += 1;
       if (newIndex >= state.chapterData.words.length) {
         state.isTyping = false;
         state.isFinished = true;
@@ -218,6 +225,7 @@ export const typingReducer = (
     }
     case TypingStateActionType.NEXT_CHAPTER: {
       const newState = structuredClone(initialState);
+      newState.chapterData.words = state.chapterData.words;
       newState.chapterData.userInputLogs = state.chapterData.words.map(
         (_, index) => ({ ...structuredClone(initialUserInputLog), index })
       );

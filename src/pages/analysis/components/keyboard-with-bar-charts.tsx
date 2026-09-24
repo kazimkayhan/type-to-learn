@@ -76,7 +76,7 @@ const KeyboardWithBarCharts: FC<KeyboardWithBarChartsProps> = ({
 
   const chartRef = useRef<HTMLDivElement>(null);
 
-  const { width: _width, height: _height } = useWindowSize();
+  const { width, height } = useWindowSize();
 
   useEffect(() => {
     if (!(chartRef.current && data.length)) {
@@ -189,7 +189,7 @@ const KeyboardWithBarCharts: FC<KeyboardWithBarChartsProps> = ({
     }
     const chart = echarts.getInstanceByDom(chartRef.current);
     chart?.resize();
-  }, []);
+  }, [width, height]);
 
   return (
     <div className="flex h-full flex-col">

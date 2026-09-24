@@ -154,13 +154,16 @@ export default function WordPanel() {
     setIsHoveringTranslation(checked);
   }, []);
 
+  // Only hijack Tab while actively typing (to peek at the translation) - if
+  // it were bound unconditionally, keyboard users could never Tab out of
+  // the practice screen while idle, finished, or on the result screen.
   useHotkeys(
     "tab",
     () => {
       handleShowTranslation(true);
     },
-    { enableOnFormTags: true, preventDefault: true },
-    []
+    { enabled: state.isTyping, enableOnFormTags: true, preventDefault: true },
+    [state.isTyping]
   );
 
   useHotkeys(
@@ -168,8 +171,13 @@ export default function WordPanel() {
     () => {
       handleShowTranslation(false);
     },
-    { enableOnFormTags: true, keyup: true, preventDefault: true },
-    []
+    {
+      enabled: state.isTyping,
+      enableOnFormTags: true,
+      keyup: true,
+      preventDefault: true,
+    },
+    [state.isTyping]
   );
 
   const shouldShowTranslation = useMemo(

@@ -72,7 +72,7 @@ async function getChapterStats(
   // indexedDB查找某个数字范围内的数据
   const records: IWordRecord[] = await db.wordRecords
     .where("timeStamp")
-    .between(startTimeStamp, endTimeStamp)
+    .between(startTimeStamp, endTimeStamp, true, true)
     .toArray();
 
   if (records.length === 0) {
@@ -146,7 +146,7 @@ async function getChapterStats(
       date,
       Math.round(words.length / (totalTime / 1000 / 60)),
     ]
-  ).filter((d) => d[1]);
+  ).filter((d) => Number.isFinite(d[1]) && d[1] !== 0);
   // 正确率=每个单词的长度合计/(每个单词的长度合计+总错误次数)
   const accuracyRecord: IWordStats["accuracyRecord"] = RecordArray.map<
     [string, number]

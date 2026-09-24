@@ -12,25 +12,15 @@ export default function useGetWord(name: string, dict: Dictionary | undefined) {
   const [hasError, setHasError] = useState(false);
 
   const word: Word | undefined = useMemo(() => {
-    if (!dict) {
+    if (!(dict && wordList)) {
       return;
     }
-    if (!wordList) {
-      return;
-    }
-
-    const found = wordList.find((w) => w.name === name);
-    if (found) {
-      return found;
-    }
-    setHasError(true);
+    return wordList.find((w) => w.name === name);
   }, [dict, wordList, name]);
 
   useEffect(() => {
-    if (error || !dict) {
-      setHasError(true);
-    }
-  }, [error, dict]);
+    setHasError(Boolean(error) || !dict || (Boolean(wordList) && !word));
+  }, [error, dict, wordList, word]);
 
   return { hasError, isLoading: Boolean(dict) && isLoading, word };
 }

@@ -90,7 +90,7 @@ export default function WordComponent({
     (updateAction: WordUpdateAction) => {
       switch (updateAction.type) {
         case "add":
-          if (wordState.hasWrong) {
+          if (wordState.hasWrong || wordState.isFinished) {
             return;
           }
 
@@ -110,20 +110,22 @@ export default function WordComponent({
           console.warn("unknown update type", updateAction);
       }
     },
-    [wordState.hasWrong, setWordState]
+    [wordState.hasWrong, wordState.isFinished, setWordState]
   );
 
   const handleHoverWord = useCallback((checked: boolean) => {
     setIsHoveringWord(checked);
   }, []);
 
+  // Only hijack Tab while actively typing (to peek at the full word) - see
+  // the matching guard in word-panel/index.tsx for why.
   useHotkeys(
     "tab",
     () => {
       handleHoverWord(true);
     },
-    { enableOnFormTags: true, preventDefault: true },
-    []
+    { enabled: state.isTyping, enableOnFormTags: true, preventDefault: true },
+    [state.isTyping]
   );
 
   useHotkeys(
@@ -131,8 +133,13 @@ export default function WordComponent({
     () => {
       handleHoverWord(false);
     },
-    { enableOnFormTags: true, keyup: true, preventDefault: true },
-    []
+    {
+      enabled: state.isTyping,
+      enableOnFormTags: true,
+      keyup: true,
+      preventDefault: true,
+    },
+    [state.isTyping]
   );
   useHotkeys(
     "ctrl+j",
@@ -231,10 +238,11 @@ export default function WordComponent({
     }
 
     playBeepSound();
+    const mistakeIndex = inputLength - 1;
     const letterMistake = {
       ...wordState.letterMistake,
-      [inputLength - 1]: [
-        ...(wordState.letterMistake[inputLength - 1] ?? []),
+      [mistakeIndex]: [
+        ...(wordState.letterMistake[mistakeIndex] ?? []),
         inputChar,
       ],
     };

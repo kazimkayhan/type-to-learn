@@ -80,10 +80,22 @@ const App: React.FC = () => {
       : setIsLoading(true);
   }, [state.chapterData.words]);
 
+  const isFinishedRef = useRef(state.isFinished);
+  // Writing a ref during render is unsafe (React Compiler rejects it
+  // outright); sync it in an effect declared before the one that reads it,
+  // so it's still up to date by the time that effect runs in the same
+  // commit.
+  useEffect(() => {
+    isFinishedRef.current = state.isFinished;
+  }, [state.isFinished]);
+
   useEffect(() => {
     // Keep the result screen mounted: SWR/word-list identity changes must not
-    // reset typing state while a chapter is finished.
-    if (state.isFinished) {
+    // reset typing state while a chapter is finished. Read isFinished via a
+    // ref (not as a dependency) so that Repeat/Next/Dictate flipping it back
+    // to false doesn't re-trigger this effect and clobber the reducer's own
+    // chapter transition.
+    if (isFinishedRef.current) {
       return;
     }
 
@@ -102,7 +114,6 @@ const App: React.FC = () => {
     reviewModeInfo.reviewRecord?.index,
     dispatch,
     randomConfig.isOpen,
-    state.isFinished,
   ]);
 
   useEffect(() => {

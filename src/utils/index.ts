@@ -50,6 +50,13 @@ const bannedKeys = [
   "PageUp",
   "Clear",
   "Home",
+  // Reported by the browser for the first keystroke of a dead-key / IME
+  // compose sequence (e.g. typing accented letters on non-US layouts) and
+  // for keys it can't otherwise resolve. These are never a single printable
+  // character, so letting them through corrupts the current word's input.
+  "Dead",
+  "Unidentified",
+  "Process",
 ];
 
 export const isLegal = (key: string): boolean => {

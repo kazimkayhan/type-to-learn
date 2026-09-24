@@ -74,7 +74,7 @@ function getSpokenWord(word: Word, lang: string): string {
     if (CYRILLIC_REGEX.test(word.notation || "")) {
       return word.notation || "";
     }
-    return word.trans[2];
+    return word.trans[2] || word.name;
   }
   return word.name;
 }

@@ -1,4 +1,5 @@
 import { useCallback, useState } from "react";
+import { toast } from "sonner";
 import {
   Progress,
   ProgressIndicator,
@@ -59,9 +60,17 @@ export default function DataSetting() {
     setIsImporting(true);
   }, []);
 
+  const onImportError = useCallback(() => {
+    setIsImporting(false);
+    setImportProgress(0);
+    toast.error(
+      "Import failed. Your previous data has been restored where possible."
+    );
+  }, []);
+
   const onClickImport = useCallback(() => {
-    importDatabase(onStartImport, importProgressCallback);
-  }, [importProgressCallback, onStartImport]);
+    importDatabase(onStartImport, importProgressCallback, onImportError);
+  }, [importProgressCallback, onImportError, onStartImport]);
 
   return (
     <ScrollArea className="flex-1 select-none overflow-y-auto">
