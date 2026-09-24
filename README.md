@@ -1,5 +1,5 @@
 <div align=center>
-  <img src="../src/assets/logo.png" width="96"/>
+  <img src="./public/logo.png" width="96"/>
 </div>
 
 <h1 align="center">
@@ -22,7 +22,7 @@
 </p>
 
 <div align="center">
-  <img src="../public/og-image.png" alt="Type to Learn Home" width="100%" />
+  <img src="./public/og-image.png" alt="Type to Learn Home" width="100%" />
 </div>
 
 ## 📸 Online Access
@@ -40,10 +40,6 @@ To avoid forming incorrect muscle memory, the software requires you to re-enter 
 Type to Learn is particularly useful for people taking computer-based English tests such as TOEFL, GRE, and similar examinations.
 
 It's also helpful for developers, featuring built-in dictionaries of words and phrases common in code and documentation, plus API dictionaries for many programming languages to help developers familiarize themselves with common APIs.
-
-<div align="center">
-  <img src="coder.png"/>
-</div>
 
 [mm]: https://en.wikipedia.org/wiki/Muscle_memory
 
@@ -64,7 +60,7 @@ While typing, the app displays the [IPA][ipa] of the current word and provides p
 After completing a chapter, the app prompts you to practice dictation, reinforcing the words learned in that chapter.
 
 <div align=center>
-  <img src="../public/dictation.png"/>
+  <img src="./public/dictation.png"/>
 </div>
 
 ### Speed and Accuracy
@@ -72,7 +68,7 @@ After completing a chapter, the app prompts you to practice dictation, reinforci
 The app tracks your typing speed and accuracy in real-time, giving you measurable feedback on your progress.
 
 <div align=center>
-  <img src="../public/speed.png"/>
+  <img src="./public/speed.png"/>
 </div>
 
 ## 📕 Dictionaries
