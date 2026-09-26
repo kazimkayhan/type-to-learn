@@ -30,3 +30,6 @@ yarn.lock
 stats.html
 
 .idea
+
+# Dari MT progress cache (resumable translate runs)
+scripts/dari/.cache/
