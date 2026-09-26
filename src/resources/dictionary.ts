@@ -2996,17 +2996,6 @@ const newlyRegisteredEnglish: DictionaryResource[] = [
   },
   {
     category: "Youth English",
-    description: "4000 Essential English Words (sentence-focused)",
-    id: "eew4000-sentence",
-    language: "en",
-    languageCategory: "en",
-    length: 3600,
-    name: "4000 Essential English Words (Sentences)",
-    tags: ["EEW"],
-    url: "/dicts/4000_Essential_English_Words-sentence.json",
-  },
-  {
-    category: "Youth English",
     description: "3000 Classroom English Words",
     id: "classroom3000",
     language: "en",

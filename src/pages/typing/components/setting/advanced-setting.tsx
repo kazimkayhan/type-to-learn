@@ -3,6 +3,8 @@ import { useCallback } from "react";
 import { ScrollArea, ScrollBar } from "@/components/ui/scroll-area";
 import { Switch } from "@/components/ui/switch";
 import {
+  isDariTransVisibleAtom,
+  isEnglishTransVisibleAtom,
   isIgnoreCaseAtom,
   isShowAnswerOnHoverAtom,
   isShowPrevAndNextWordAtom,
@@ -24,6 +26,26 @@ export default function AdvancedSetting() {
   );
   const [isWordEnrichmentEnabled, setIsWordEnrichmentEnabled] = useAtom(
     isWordEnrichmentEnabledAtom
+  );
+  const [isDariTransVisible, setIsDariTransVisible] = useAtom(
+    isDariTransVisibleAtom
+  );
+  const [isEnglishTransVisible, setIsEnglishTransVisible] = useAtom(
+    isEnglishTransVisibleAtom
+  );
+
+  const onToggleDariTrans = useCallback(
+    (checked: boolean) => {
+      setIsDariTransVisible(checked);
+    },
+    [setIsDariTransVisible]
+  );
+
+  const onToggleEnglishTrans = useCallback(
+    (checked: boolean) => {
+      setIsEnglishTransVisible(checked);
+    },
+    [setIsEnglishTransVisible]
   );
 
   const onToggleRandom = useCallback(
@@ -73,6 +95,31 @@ export default function AdvancedSetting() {
     <ScrollArea className="flex-1 select-none overflow-y-auto">
       <div className="h-full w-full px-3">
         <div className={styles.tabContent}>
+          <div className={styles.section}>
+            <span className={styles.sectionLabel}>Definition languages</span>
+            <span className={styles.sectionDescription}>
+              Choose which meanings appear under each word. Dari is shown above
+              the English definition.
+            </span>
+            <div className={styles.switchBlock}>
+              <Switch
+                checked={isDariTransVisible}
+                onCheckedChange={onToggleDariTrans}
+              />
+              <span className="text-right font-normal text-muted-foreground text-xs leading-tight">{`Dari meaning ${
+                isDariTransVisible ? "on" : "off"
+              }`}</span>
+            </div>
+            <div className={styles.switchBlock}>
+              <Switch
+                checked={isEnglishTransVisible}
+                onCheckedChange={onToggleEnglishTrans}
+              />
+              <span className="text-right font-normal text-muted-foreground text-xs leading-tight">{`English definition ${
+                isEnglishTransVisible ? "on" : "off"
+              }`}</span>
+            </div>
+          </div>
           <div className={styles.section}>
             <span className={styles.sectionLabel}>Shuffle chapters</span>
             <span className={styles.sectionDescription}>

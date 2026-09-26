@@ -120,6 +120,16 @@ export const isWordEnrichmentEnabledAtom = atomWithStorage(
   true
 );
 
+export const isDariTransVisibleAtom = atomWithStorage(
+  "isDariTransVisible",
+  true
+);
+
+export const isEnglishTransVisibleAtom = atomWithStorage(
+  "isEnglishTransVisible",
+  true
+);
+
 export const reviewModeInfoAtom = reviewInfoAtom({
   isReviewMode: false,
   reviewRecord: undefined as ReviewRecord | undefined,

@@ -1,6 +1,7 @@
 import { useAtomValue, useSetAtom } from "jotai";
 import { useCallback, useMemo, useState } from "react";
 import { useHotkeys } from "react-hotkeys-hook";
+import useDariLexicon from "@/hooks/use-dari-lexicon";
 import { usePrefetchPronunciationSounds } from "@/hooks/use-pronunciation";
 import {
   currentDictInfoAtom,
@@ -149,6 +150,7 @@ export default function WordPanel() {
     { preventDefault: true }
   );
   const [isShowTranslation, setIsHoveringTranslation] = useState(false);
+  const { lookup: dariLookup } = useDariLexicon();
 
   const handleShowTranslation = useCallback((checked: boolean) => {
     setIsHoveringTranslation(checked);
@@ -225,6 +227,7 @@ export default function WordPanel() {
               />
               {phoneticConfig.isOpen && <Phonetic word={currentWord} />}
               <Translation
+                dariSenses={dariLookup(currentWord.name)}
                 enrichable={currentDictInfo.language === "en"}
                 onMouseEnter={() => handleShowTranslation(true)}
                 onMouseLeave={() => handleShowTranslation(false)}

@@ -50,6 +50,8 @@ export interface Word {
   name: string;
   notation?: string;
   trans: string[];
+  /** Dari (fa-AF) senses, merged in at runtime from the shared lexicon. */
+  transFa?: string[];
   /** Omitted by many dictionary JSON files. */
   ukphone?: string;
   /** Omitted by many dictionary JSON files. */

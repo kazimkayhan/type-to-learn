@@ -194,6 +194,15 @@ code {
     source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
 }
 
+/* Persian/Dari needs a Naskh-style face; the Latin default renders it cramped
+   and clips the descenders on letters like ج and ی. */
+.font-dari {
+  font-family:
+    "Vazirmatn", "Noto Naskh Arabic", "Segoe UI", "Tahoma", "Iranian Sans",
+    "Droid Arabic Naskh", sans-serif;
+  line-height: 1.9;
+}
+
 html,
 body,
 #root {

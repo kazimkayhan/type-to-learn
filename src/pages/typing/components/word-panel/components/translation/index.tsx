@@ -6,12 +6,15 @@ import useSpeech from "@/hooks/use-speech";
 import useWordEnrichment from "@/hooks/use-word-enrichment";
 import {
   fontSizeConfigAtom,
+  isEnglishTransVisibleAtom,
   isTextSelectableAtom,
   isWordEnrichmentEnabledAtom,
   pronunciationConfigAtom,
 } from "@/store";
 
 export interface TranslationProps {
+  /** Dari senses, rendered above the English ones. */
+  dariSenses?: string[];
   /** Enables live example-sentence/synonym lookup. Only meaningful for English words. */
   enrichable?: boolean;
   onMouseEnter?: () => void;
@@ -53,7 +56,69 @@ function parseSense(raw: string): ParsedSense {
   };
 }
 
+function SenseList({
+  fontSize,
+  isTextSelectable,
+  rtl = false,
+  senses,
+}: {
+  fontSize: string;
+  isTextSelectable: boolean;
+  rtl?: boolean;
+  senses: ParsedSense[];
+}) {
+  const hasPartOfSpeech = senses.some((sense) => sense.pos);
+
+  return (
+    <ul
+      className={`grid max-w-2xl items-baseline gap-x-2.5 gap-y-1.5 ${
+        hasPartOfSpeech
+          ? "grid-cols-[auto_minmax(0,max-content)] justify-center"
+          : "grid-cols-1 justify-items-center"
+      } ${isTextSelectable ? "select-text" : ""} ${rtl ? "font-dari" : ""}`}
+      dir={rtl ? "rtl" : undefined}
+      lang={rtl ? "fa-AF" : undefined}
+    >
+      {senses.map((sense, index) => {
+        const isPrimary = index === 0;
+        const meaningClassName = isPrimary
+          ? "box-decoration-clone max-w-xl rounded-[0.4em] bg-accent px-2 py-0.5 text-start font-medium text-accent-foreground"
+          : "max-w-xl px-2 py-0.5 text-start text-muted-foreground";
+
+        return (
+          <li
+            className={
+              hasPartOfSpeech
+                ? "col-span-full grid grid-cols-subgrid items-baseline"
+                : "max-w-full"
+            }
+            key={`${index}-${sense.meaning}`}
+          >
+            {hasPartOfSpeech ? (
+              <span
+                className={
+                  sense.pos
+                    ? "justify-self-end rounded-md bg-muted px-1.5 py-0.5 font-semibold text-[0.7em] text-muted-foreground tracking-wide"
+                    : "justify-self-end"
+                }
+                dir="ltr"
+                style={{ fontSize }}
+              >
+                {sense.pos ?? ""}
+              </span>
+            ) : null}
+            <span className={meaningClassName} style={{ fontSize }}>
+              {sense.meaning}
+            </span>
+          </li>
+        );
+      })}
+    </ul>
+  );
+}
+
 export default function Translation({
+  dariSenses,
   senses,
   showTrans = true,
   onMouseEnter,
@@ -85,10 +150,16 @@ export default function Translation({
     () => splitSenses(senses).map(parseSense),
     [senses]
   );
-  const hasPartOfSpeech = parsedSenses.some((sense) => sense.pos);
+  const parsedDariSenses = useMemo(
+    () => (dariSenses ? splitSenses(dariSenses).map(parseSense) : []),
+    [dariSenses]
+  );
 
   const isTextSelectable = useAtomValue(isTextSelectableAtom);
+  const isEnglishTransVisible = useAtomValue(isEnglishTransVisibleAtom);
   const fontSize = `min(${fontSizeConfig.translateFont}px, 4.6vw)`;
+  const showDari = showTrans && parsedDariSenses.length > 0;
+  const showEnglish = showTrans && isEnglishTransVisible;
   const hasEnrichment =
     showTrans &&
     enrichment &&
@@ -100,55 +171,28 @@ export default function Translation({
       onMouseEnter={onMouseEnter}
       onMouseLeave={onMouseLeave}
     >
+      {showDari ? (
+        <SenseList
+          fontSize={fontSize}
+          isTextSelectable={isTextSelectable}
+          rtl
+          senses={parsedDariSenses}
+        />
+      ) : null}
       <div className="flex items-start justify-center gap-2">
-        {showTrans ? (
-          <ul
-            className={`grid max-w-2xl items-baseline gap-x-2.5 gap-y-1.5 ${
-              hasPartOfSpeech
-                ? "grid-cols-[auto_minmax(0,max-content)] justify-center"
-                : "grid-cols-1 justify-items-center"
-            } ${isTextSelectable ? "select-text" : ""}`}
-          >
-            {parsedSenses.map((sense, index) => {
-              const isPrimary = index === 0;
-              const meaningClassName = isPrimary
-                ? "box-decoration-clone max-w-xl rounded-[0.4em] bg-accent px-2 py-0.5 text-left font-medium text-accent-foreground"
-                : "max-w-xl px-2 py-0.5 text-left text-muted-foreground";
-
-              return (
-                <li
-                  className={
-                    hasPartOfSpeech
-                      ? "col-span-full grid grid-cols-subgrid items-baseline"
-                      : "max-w-full"
-                  }
-                  key={`${index}-${sense.meaning}`}
-                >
-                  {hasPartOfSpeech ? (
-                    <span
-                      className={
-                        sense.pos
-                          ? "justify-self-end rounded-md bg-muted px-1.5 py-0.5 font-semibold text-[0.7em] text-muted-foreground tracking-wide"
-                          : "justify-self-end"
-                      }
-                      style={{ fontSize }}
-                    >
-                      {sense.pos ?? ""}
-                    </span>
-                  ) : null}
-                  <span className={meaningClassName} style={{ fontSize }}>
-                    {sense.meaning}
-                  </span>
-                </li>
-              );
-            })}
-          </ul>
-        ) : (
+        {showEnglish ? (
+          <SenseList
+            fontSize={fontSize}
+            isTextSelectable={isTextSelectable}
+            senses={parsedSenses}
+          />
+        ) : null}
+        {showDari || showEnglish ? null : (
           <span className="inline-block min-h-[1.5em] w-8" style={{ fontSize }}>
             {"\u00A0"}
           </span>
         )}
-        {isShowTransRead && showTrans ? (
+        {isShowTransRead && showEnglish ? (
           <Tooltip
             className="mt-0.5 h-5 w-5 shrink-0 cursor-pointer leading-7"
             content="Read definition aloud"
