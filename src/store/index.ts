@@ -102,8 +102,8 @@ export const randomConfigAtom = atomForConfig("randomConfig", {
 });
 
 export const isShowPrevAndNextWordAtom = atomWithStorage(
-  "isShowPrevAndNextWord",
-  true
+  "isShowPrevAndNextWordV2",
+  false
 );
 
 export const isIgnoreCaseAtom = atomWithStorage("isIgnoreCase", true);
