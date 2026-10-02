@@ -9,11 +9,14 @@ import { isOpenDarkModeAtom } from "@/store";
 import HeatmapCharts from "./components/heatmap-charts";
 import KeyboardWithBarCharts from "./components/keyboard-with-bar-charts";
 import LineCharts from "./components/line-charts";
+import VocabularyMasteryPanel from "./components/vocabulary-mastery-panel";
+import { useVocabularyAnalytics } from "./hooks/use-vocabulary-analytics";
 import { useWordStats } from "./hooks/use-word-stats";
 
 const Analysis = () => {
   const navigate = useNavigate();
   const [, setIsOpenDarkMode] = useAtom(isOpenDarkModeAtom);
+  const { data: vocabData, loading: vocabLoading } = useVocabularyAnalytics();
 
   const onBack = useCallback(() => {
     navigate("/");
@@ -47,6 +50,10 @@ const Analysis = () => {
     >
       <ScrollArea className="flex-1 overflow-y-auto">
         <div className="h-full w-auto pb-16">
+          {vocabLoading ? null : vocabData ? (
+            <VocabularyMasteryPanel data={vocabData} />
+          ) : null}
+
           {isEmpty ? (
             <div className="m-4 grid h-80 w-auto place-content-center overflow-hidden rounded-lg bg-card px-4 text-center shadow-[var(--shadow-card)]">
               <div className="text-muted-foreground text-xl sm:text-2xl">

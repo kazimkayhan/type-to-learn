@@ -1,8 +1,17 @@
 import { useAtom } from "jotai";
 import { useCallback } from "react";
 import { ScrollArea, ScrollBar } from "@/components/ui/scroll-area";
+import {
+  Select,
+  SelectContent,
+  SelectItem,
+  SelectTrigger,
+  SelectValue,
+} from "@/components/ui/select";
+import { Slider } from "@/components/ui/slider";
 import { Switch } from "@/components/ui/switch";
 import {
+  dailyReviewConfigAtom,
   isDariTransVisibleAtom,
   isEnglishTransVisibleAtom,
   isIgnoreCaseAtom,
@@ -11,8 +20,24 @@ import {
   isTextSelectableAtom,
   isWordEnrichmentEnabledAtom,
   randomConfigAtom,
+  recallModeConfigAtom,
 } from "@/store";
+import type { RecallMode } from "@/typings";
 import styles from "./index.module.css";
+
+function sliderValue(value: number | readonly number[]): number {
+  if (typeof value === "number") {
+    return value;
+  }
+  return value[0] ?? 0;
+}
+
+const RECALL_MODE_OPTIONS: { label: string; value: RecallMode }[] = [
+  { label: "Classic (see word, type it)", value: "classic" },
+  { label: "Definition → type spelling", value: "definition" },
+  { label: "Audio → type spelling", value: "audio" },
+  { label: "Rotate modes each word", value: "rotate" },
+];
 
 export default function AdvancedSetting() {
   const [randomConfig, setRandomConfig] = useAtom(randomConfigAtom);
@@ -32,6 +57,10 @@ export default function AdvancedSetting() {
   );
   const [isEnglishTransVisible, setIsEnglishTransVisible] = useAtom(
     isEnglishTransVisibleAtom
+  );
+  const [recallModeConfig, setRecallModeConfig] = useAtom(recallModeConfigAtom);
+  const [dailyReviewConfig, setDailyReviewConfig] = useAtom(
+    dailyReviewConfigAtom
   );
 
   const onToggleDariTrans = useCallback(
@@ -91,10 +120,106 @@ export default function AdvancedSetting() {
     [setIsWordEnrichmentEnabled]
   );
 
+  const onChangeRecallMode = useCallback(
+    (value: string | null) => {
+      if (!value) {
+        return;
+      }
+      setRecallModeConfig((prev) => ({
+        ...prev,
+        mode: value as RecallMode,
+      }));
+    },
+    [setRecallModeConfig]
+  );
+
+  const onChangeMaxDue = useCallback(
+    (value: number | readonly number[]) => {
+      const next = sliderValue(value);
+      setDailyReviewConfig((prev) => ({ ...prev, maxDue: next }));
+    },
+    [setDailyReviewConfig]
+  );
+
+  const onChangeMaxNew = useCallback(
+    (value: number | readonly number[]) => {
+      const next = sliderValue(value);
+      setDailyReviewConfig((prev) => ({ ...prev, maxNew: next }));
+    },
+    [setDailyReviewConfig]
+  );
+
   return (
     <ScrollArea className="flex-1 select-none overflow-y-auto">
       <div className="h-full w-full px-3">
         <div className={styles.tabContent}>
+          <div className={styles.section}>
+            <span className={styles.sectionLabel}>Recall mode</span>
+            <span className={styles.sectionDescription}>
+              Change what you see before typing. Definition and audio hide the
+              spelling so you recall from meaning or sound.
+            </span>
+            <div className={styles.block}>
+              <Select
+                onValueChange={onChangeRecallMode}
+                value={recallModeConfig.mode}
+              >
+                <SelectTrigger className="w-full max-w-sm">
+                  <SelectValue />
+                </SelectTrigger>
+                <SelectContent>
+                  {RECALL_MODE_OPTIONS.map((option) => (
+                    <SelectItem key={option.value} value={option.value}>
+                      {option.label}
+                    </SelectItem>
+                  ))}
+                </SelectContent>
+              </Select>
+            </div>
+          </div>
+
+          <div className={styles.section}>
+            <span className={styles.sectionLabel}>
+              Today&apos;s review size
+            </span>
+            <span className={styles.sectionDescription}>
+              Caps for the Today queue: due reviews first, then new words from
+              the current chapter.
+            </span>
+            <div className={styles.block}>
+              <span className={styles.blockLabel}>Max due words</span>
+              <div className="flex h-5 w-full items-center justify-between">
+                <Slider
+                  className="slider"
+                  max={50}
+                  min={5}
+                  onValueChange={onChangeMaxDue}
+                  step={1}
+                  value={[dailyReviewConfig.maxDue]}
+                />
+                <span className="ml-4 w-10 font-normal text-muted-foreground text-xs">
+                  {dailyReviewConfig.maxDue}
+                </span>
+              </div>
+            </div>
+            <div className={styles.block}>
+              <span className={styles.blockLabel}>Max new words</span>
+              <div className="flex h-5 w-full items-center justify-between">
+                <Slider
+                  className="slider"
+                  max={30}
+                  min={0}
+                  onValueChange={onChangeMaxNew}
+                  step={1}
+                  value={[dailyReviewConfig.maxNew]}
+                />
+                <span className="ml-4 w-10 font-normal text-muted-foreground text-xs">
+                  {dailyReviewConfig.maxNew}
+                </span>
+              </div>
+            </div>
+          </div>
+
           <div className={styles.section}>
             <span className={styles.sectionLabel}>Definition languages</span>
             <span className={styles.sectionDescription}>

@@ -238,3 +238,63 @@ export async function ensureMasteryBackfill(): Promise<void> {
 
   localStorage.setItem(BACKFILL_FLAG_KEY, "1");
 }
+
+export const LEECH_LAPSES_THRESHOLD = 2;
+
+export interface VocabularyAnalytics {
+  due: number;
+  learning: number;
+  leeches: IWordMastery[];
+  mastered: number;
+  new: number;
+  review: number;
+  tracked: number;
+}
+
+export async function getVocabularyAnalytics(): Promise<VocabularyAnalytics> {
+  await ensureMasteryBackfill();
+  const now = getUTCUnixTimestamp();
+  const rows = await db.wordMastery.toArray();
+
+  let mastered = 0;
+  let learning = 0;
+  let review = 0;
+  let newCount = 0;
+  let due = 0;
+  const leeches: IWordMastery[] = [];
+
+  for (const row of rows) {
+    switch (row.state) {
+      case "mastered":
+        mastered += 1;
+        break;
+      case "learning":
+        learning += 1;
+        break;
+      case "review":
+        review += 1;
+        break;
+      default:
+        newCount += 1;
+        break;
+    }
+    if (row.due <= now && row.state !== "mastered") {
+      due += 1;
+    }
+    if (row.lapses >= LEECH_LAPSES_THRESHOLD) {
+      leeches.push(row);
+    }
+  }
+
+  leeches.sort((a, b) => b.lapses - a.lapses || b.totalWrong - a.totalWrong);
+
+  return {
+    due,
+    learning,
+    leeches: leeches.slice(0, 50),
+    mastered,
+    new: newCount,
+    review,
+    tracked: rows.length,
+  };
+}

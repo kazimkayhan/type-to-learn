@@ -88,3 +88,6 @@ export type WordDictationType =
  * 如果是通过点击 resultScreen 中的默写本章按钮打开的，则关闭默写模式
  */
 export type WordDictationOpenBy = "user" | "auto";
+
+/** How the practice prompt is shown before the learner types the word. */
+export type RecallMode = "classic" | "definition" | "audio" | "rotate";

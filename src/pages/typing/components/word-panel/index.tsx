@@ -10,9 +10,11 @@ import {
   isTodayModeAtom,
   loopWordConfigAtom,
   phoneticConfigAtom,
+  recallModeConfigAtom,
   reviewModeInfoAtom,
   todaySessionAtom,
 } from "@/store";
+import { recallModeLabel, resolveRecallMode } from "@/utils/srs/recall-mode";
 import { TypingStateActionType, useTypingContext } from "../../store";
 import type { TypingState } from "../../store/type";
 import PrevAndNextWord from "../prev-and-next-word";
@@ -29,6 +31,7 @@ export default function WordPanel() {
   const [wordComponentKey, setWordComponentKey] = useState(0);
   const [currentWordExerciseCount, setCurrentWordExerciseCount] = useState(0);
   const { times: loopWordTimes } = useAtomValue(loopWordConfigAtom);
+  const { mode: recallModeSetting } = useAtomValue(recallModeConfigAtom);
   const currentWord = state.chapterData.words[state.chapterData.index];
   const isLastWordInChapter =
     state.chapterData.index >= state.chapterData.words.length - 1;
@@ -40,6 +43,11 @@ export default function WordPanel() {
   const setTodaySession = useSetAtom(todaySessionAtom);
   const isReviewMode = useAtomValue(isReviewModeAtom);
   const isTodayMode = useAtomValue(isTodayModeAtom);
+
+  const effectiveRecallMode = useMemo(
+    () => resolveRecallMode(recallModeSetting, state.chapterData.index),
+    [recallModeSetting, state.chapterData.index]
+  );
 
   const prevIndex = useMemo(() => {
     const newIndex = state.chapterData.index - 1;
@@ -59,11 +67,11 @@ export default function WordPanel() {
   }, []);
 
   const updateReviewRecord = useCallback(
-    (state: TypingState) => {
+    (typingState: TypingState) => {
       setReviewModeInfo((old) => ({
         ...old,
         reviewRecord: old.reviewRecord
-          ? { ...old.reviewRecord, index: state.chapterData.index }
+          ? { ...old.reviewRecord, index: typingState.chapterData.index }
           : undefined,
       }));
     },
@@ -75,7 +83,6 @@ export default function WordPanel() {
       state.chapterData.index < state.chapterData.words.length - 1 ||
       currentWordExerciseCount < loopWordTimes - 1
     ) {
-      // 用户完成当前单词
       if (currentWordExerciseCount < loopWordTimes - 1) {
         setCurrentWordExerciseCount((old) => old + 1);
         dispatch({ type: TypingStateActionType.LOOP_CURRENT_WORD });
@@ -94,7 +101,6 @@ export default function WordPanel() {
         }
       }
     } else {
-      // 用户完成当前章节
       dispatch({ type: TypingStateActionType.FINISH_CHAPTER });
       if (isReviewMode) {
         setReviewModeInfo((old) => ({
@@ -165,9 +171,6 @@ export default function WordPanel() {
     setIsHoveringTranslation(checked);
   }, []);
 
-  // Only hijack Tab while actively typing (to peek at the translation) - if
-  // it were bound unconditionally, keyboard users could never Tab out of
-  // the practice screen while idle, finished, or on the result screen.
   useHotkeys(
     "tab",
     () => {
@@ -191,10 +194,15 @@ export default function WordPanel() {
     [state.isTyping]
   );
 
-  const shouldShowTranslation = useMemo(
-    () => isShowTranslation || state.isTransVisible,
-    [isShowTranslation, state.isTransVisible]
-  );
+  const shouldShowTranslation = useMemo(() => {
+    if (effectiveRecallMode === "definition") {
+      return true;
+    }
+    if (effectiveRecallMode === "audio") {
+      return isShowTranslation;
+    }
+    return isShowTranslation || state.isTransVisible;
+  }, [effectiveRecallMode, isShowTranslation, state.isTransVisible]);
 
   const startTyping = useCallback(() => {
     if (!state.isTyping) {
@@ -215,6 +223,11 @@ export default function WordPanel() {
       <div className="container flex min-h-0 max-w-full flex-grow flex-col items-center justify-center px-0 sm:px-2">
         {Boolean(currentWord) && (
           <div className="relative flex w-full min-w-0 max-w-full flex-col items-center px-1 sm:px-2">
+            {effectiveRecallMode !== "classic" && (
+              <p className="mb-2 rounded-full bg-muted px-3 py-1 font-medium text-muted-foreground text-xs">
+                {recallModeLabel(effectiveRecallMode)}
+              </p>
+            )}
             <div className="relative max-w-full">
               {!state.isTyping && (
                 <button
@@ -232,9 +245,12 @@ export default function WordPanel() {
               <WordComponent
                 key={`${state.chapterData.index}-${wordComponentKey}`}
                 onFinish={onFinish}
+                recallMode={effectiveRecallMode}
                 word={currentWord}
               />
-              {phoneticConfig.isOpen && <Phonetic word={currentWord} />}
+              {phoneticConfig.isOpen && effectiveRecallMode === "classic" && (
+                <Phonetic word={currentWord} />
+              )}
               <Translation
                 dariSenses={dariLookup(currentWord.name)}
                 enrichable={currentDictInfo.language === "en"}

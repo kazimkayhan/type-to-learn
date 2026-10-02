@@ -20,6 +20,7 @@ import {
 import type { Word } from "@/typings";
 import { CTRL, getUtcStringForMixpanel } from "@/utils";
 import { useSaveWordRecord } from "@/utils/db";
+import type { EffectiveRecallMode } from "@/utils/srs/recall-mode";
 import type { WordUpdateAction } from "../input-handler";
 import InputHandler from "../input-handler";
 import style from "./index.module.css";
@@ -34,9 +35,11 @@ const vowelLetters = ["A", "E", "I", "O", "U"];
 export default function WordComponent({
   word,
   onFinish,
+  recallMode = "classic",
 }: {
   word: Word;
   onFinish: () => void;
+  recallMode?: EffectiveRecallMode;
 }) {
   const { state, dispatch } = useTypingContext();
   const [wordState, setWordState] = useImmer<WordState>(
@@ -144,46 +147,54 @@ export default function WordComponent({
   useHotkeys(
     "ctrl+j",
     () => {
-      if (pronunciationIsOpen) {
+      if (pronunciationIsOpen || recallMode === "audio") {
         wordPronunciationIconRef.current.play();
       }
     },
     { enableOnFormTags: true, preventDefault: true },
-    [pronunciationIsOpen]
+    [pronunciationIsOpen, recallMode]
   );
 
   const getLetterVisible = useCallback(
     (index: number) => {
+      const letterState = wordState.letterStates[index];
       if (
-        wordState.letterStates[index] === "correct" ||
+        letterState === "correct" ||
         (isShowAnswerOnHover && isHoveringWord)
       ) {
         return true;
       }
+      if (recallMode === "definition" || recallMode === "audio") {
+        return false;
+      }
+      if (!wordDictationConfig.isOpen) {
+        return true;
+      }
 
-      if (wordDictationConfig.isOpen) {
-        if (wordDictationConfig.type === "hideAll") {
-          return false;
-        }
+      const { type } = wordDictationConfig;
+      if (type === "hideAll") {
+        return false;
+      }
+      if (type === "randomHide") {
+        return wordState.randomLetterVisible[index];
+      }
 
-        const letter = wordState.displayWord[index];
-        if (wordDictationConfig.type === "hideVowel") {
-          return !vowelLetters.includes(letter.toUpperCase());
-        }
-        if (wordDictationConfig.type === "hideConsonant") {
-          return !!vowelLetters.includes(letter.toUpperCase());
-        }
-        if (wordDictationConfig.type === "randomHide") {
-          return wordState.randomLetterVisible[index];
-        }
+      const isVowel = vowelLetters.includes(
+        wordState.displayWord[index].toUpperCase()
+      );
+      if (type === "hideVowel") {
+        return !isVowel;
+      }
+      if (type === "hideConsonant") {
+        return isVowel;
       }
       return true;
     },
     [
       isHoveringWord,
       isShowAnswerOnHover,
-      wordDictationConfig.isOpen,
-      wordDictationConfig.type,
+      recallMode,
+      wordDictationConfig,
       wordState.displayWord,
       wordState.letterStates,
       wordState.randomLetterVisible,
@@ -342,6 +353,12 @@ export default function WordComponent({
     }
   }, [wordState.wrongCount, dispatch]);
 
+  const hideSpelling =
+    recallMode === "definition" ||
+    recallMode === "audio" ||
+    wordDictationConfig.isOpen;
+  const showPronunciation = pronunciationIsOpen || recallMode === "audio";
+
   return (
     <>
       <div
@@ -355,7 +372,7 @@ export default function WordComponent({
         )}
         <div
           className={`tooltip-info relative w-fit max-w-full bg-transparent p-0 pr-8 leading-normal shadow-none sm:pr-10 dark:bg-transparent ${
-            wordDictationConfig.isOpen ? "tooltip" : ""
+            hideSpelling ? "tooltip" : ""
           }`}
           data-tip="Press Tab to show the full word"
         >
@@ -376,7 +393,7 @@ export default function WordComponent({
               />
             ))}
           </div>
-          {Boolean(pronunciationIsOpen) && (
+          {Boolean(showPronunciation) && (
             <div className="absolute top-1/2 right-0 z-20 h-9 w-9 -translate-y-1/2 transform">
               <Tooltip content={`Shortcut ${CTRL} + J`}>
                 <WordPronunciationIcon

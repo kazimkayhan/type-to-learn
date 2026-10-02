@@ -17,6 +17,7 @@ import type {
   LoopWordTimesOption,
   PhoneticType,
   PronunciationType,
+  RecallMode,
   WordDictationOpenBy,
   WordDictationType,
 } from "@/typings";
@@ -148,6 +149,10 @@ export const isSessionPracticeAtom = atom(
 export const dailyReviewConfigAtom = atomForConfig("dailyReviewConfig", {
   maxDue: 20,
   maxNew: 10,
+});
+
+export const recallModeConfigAtom = atomForConfig("recallModeConfig", {
+  mode: "classic" as RecallMode,
 });
 
 export const phoneticConfigAtom = atomForConfig("phoneticConfig", {
