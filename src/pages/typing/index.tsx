@@ -13,6 +13,7 @@ import {
   isReviewModeAtom,
   randomConfigAtom,
   reviewModeInfoAtom,
+  timedPracticeConfigAtom,
 } from "@/store";
 import { useSaveChapterRecord } from "@/utils/db";
 import { isKnownDictionaryId } from "@/utils/dictionary-lookup";
@@ -54,6 +55,11 @@ const App: React.FC = () => {
 
   const reviewModeInfo = useAtomValue(reviewModeInfoAtom);
   const isReviewMode = useAtomValue(isReviewModeAtom);
+  const timedPracticeConfig = useAtomValue(timedPracticeConfigAtom);
+  const timedLimitSeconds =
+    timedPracticeConfig.enabled && timedPracticeConfig.durationMinutes > 0
+      ? timedPracticeConfig.durationMinutes * 60
+      : undefined;
 
   useEffect(() => {
     const id = currentDictId;
@@ -143,11 +149,14 @@ const App: React.FC = () => {
     let intervalId: number;
     if (state.isTyping) {
       intervalId = window.setInterval(() => {
-        dispatch({ type: TypingStateActionType.TICK_TIMER });
+        dispatch({
+          timeLimit: timedLimitSeconds,
+          type: TypingStateActionType.TICK_TIMER,
+        });
       }, 1000);
     }
     return () => clearInterval(intervalId);
-  }, [state.isTyping, dispatch]);
+  }, [state.isTyping, dispatch, timedLimitSeconds]);
 
   useConfetti(state.isFinished);
 

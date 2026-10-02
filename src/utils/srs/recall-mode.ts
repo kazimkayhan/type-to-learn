@@ -2,7 +2,12 @@ import type { RecallMode } from "@/typings";
 
 export type EffectiveRecallMode = Exclude<RecallMode, "rotate">;
 
-const ROTATE_CYCLE: EffectiveRecallMode[] = ["classic", "definition", "audio"];
+const ROTATE_CYCLE: EffectiveRecallMode[] = [
+  "classic",
+  "definition",
+  "audio",
+  "cloze",
+];
 
 export function resolveRecallMode(
   mode: RecallMode,
@@ -20,6 +25,8 @@ export function recallModeLabel(mode: EffectiveRecallMode): string {
       return "Definition → type";
     case "audio":
       return "Audio → type";
+    case "cloze":
+      return "Cloze → type";
     default:
       return "Classic";
   }

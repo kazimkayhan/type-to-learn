@@ -90,4 +90,9 @@ export type WordDictationType =
 export type WordDictationOpenBy = "user" | "auto";
 
 /** How the practice prompt is shown before the learner types the word. */
-export type RecallMode = "classic" | "definition" | "audio" | "rotate";
+export type RecallMode =
+  | "classic"
+  | "definition"
+  | "audio"
+  | "cloze"
+  | "rotate";

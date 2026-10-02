@@ -1,5 +1,6 @@
 import type { Word } from "@/typings";
 import { getUTCUnixTimestamp } from "../index";
+import { fsrsReview } from "../srs/fsrs";
 import { deriveMasteryState } from "../srs/mastery-state";
 import { qualityFromWrongCount, sm2Review } from "../srs/sm2";
 import { db } from ".";
@@ -8,6 +9,20 @@ import { WordMasteryRecord } from "./record";
 
 const DAY_SECONDS = 86_400;
 const BACKFILL_FLAG_KEY = "wordMasteryBackfillV1";
+const SRS_CONFIG_KEY = "srsConfig";
+
+function getActiveScheduler(): "sm2" | "fsrs" {
+  try {
+    const raw = localStorage.getItem(SRS_CONFIG_KEY);
+    if (!raw) {
+      return "fsrs";
+    }
+    const parsed = JSON.parse(raw) as { algorithm?: string };
+    return parsed.algorithm === "sm2" ? "sm2" : "fsrs";
+  } catch {
+    return "fsrs";
+  }
+}
 
 export interface TodayQueueCounts {
   due: number;
@@ -143,7 +158,6 @@ export async function applyWordReview(
   wrongCount: number
 ): Promise<void> {
   await ensureMasteryBackfill();
-  const quality = qualityFromWrongCount(wrongCount);
   const now = getUTCUnixTimestamp();
   let record = await getMastery(dict, word);
 
@@ -151,33 +165,54 @@ export async function applyWordReview(
     record = new WordMasteryRecord(dict, word);
   }
 
-  const sm2 = sm2Review(
-    {
-      easeFactor: record.easeFactor,
-      intervalDays: record.intervalDays,
-      repetitions: record.reps,
-    },
-    quality
-  );
+  let updated: IWordMastery;
 
-  const lapses = quality < 3 ? record.lapses + 1 : record.lapses;
-
-  const updated: IWordMastery = {
-    ...record,
-    due: now + sm2.dueDaysFromNow * DAY_SECONDS,
-    easeFactor: sm2.easeFactor,
-    intervalDays: sm2.intervalDays,
-    lapses,
-    lastReview: now,
-    reps: sm2.repetitions,
-    state: deriveMasteryState(
-      sm2.repetitions,
-      sm2.intervalDays,
-      lapses,
+  if (getActiveScheduler() === "fsrs") {
+    const next = fsrsReview(record, wrongCount, now);
+    updated = {
+      ...record,
+      difficulty: next.difficulty,
+      due: next.due,
+      elapsedDays: next.elapsedDays,
+      fsrsState: next.fsrsState,
+      intervalDays: next.intervalDays,
+      lapses: next.lapses,
+      lastReview: now,
+      learningSteps: next.learningSteps,
+      reps: next.reps,
+      scheduledDays: next.scheduledDays,
+      stability: next.stability,
+      state: next.state,
+      totalWrong: record.totalWrong + wrongCount,
+    };
+  } else {
+    const quality = qualityFromWrongCount(wrongCount);
+    const sm2 = sm2Review(
+      {
+        easeFactor: record.easeFactor,
+        intervalDays: record.intervalDays,
+        repetitions: record.reps,
+      },
       quality
-    ),
-    totalWrong: record.totalWrong + wrongCount,
-  };
+    );
+    const lapses = quality < 3 ? record.lapses + 1 : record.lapses;
+    updated = {
+      ...record,
+      due: now + sm2.dueDaysFromNow * DAY_SECONDS,
+      easeFactor: sm2.easeFactor,
+      intervalDays: sm2.intervalDays,
+      lapses,
+      lastReview: now,
+      reps: sm2.repetitions,
+      state: deriveMasteryState(
+        sm2.repetitions,
+        sm2.intervalDays,
+        lapses,
+        quality
+      ),
+      totalWrong: record.totalWrong + wrongCount,
+    };
+  }
 
   if (record.id) {
     await db.wordMastery.put(updated);

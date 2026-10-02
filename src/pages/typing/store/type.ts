@@ -43,5 +43,7 @@ export interface TypingState {
   isShowSkip: boolean;
   isTransVisible: boolean;
   isTyping: boolean;
+  /** True when the session ended because a timed practice limit was reached. */
+  timedOut: boolean;
   timerData: TimerData;
 }

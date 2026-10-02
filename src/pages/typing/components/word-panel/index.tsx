@@ -1,33 +1,57 @@
 import { useAtomValue, useSetAtom } from "jotai";
-import { useCallback, useMemo, useState } from "react";
+import { useCallback, useEffect, useMemo, useState } from "react";
 import { useHotkeys } from "react-hotkeys-hook";
 import useDariLexicon from "@/hooks/use-dari-lexicon";
 import { usePrefetchPronunciationSounds } from "@/hooks/use-pronunciation";
+import { prefetchWordEnrichments } from "@/hooks/use-word-enrichment";
 import {
   currentDictInfoAtom,
   isReviewModeAtom,
   isShowPrevAndNextWordAtom,
   isTodayModeAtom,
+  isWordEnrichmentEnabledAtom,
   loopWordConfigAtom,
   phoneticConfigAtom,
   recallModeConfigAtom,
   reviewModeInfoAtom,
   todaySessionAtom,
 } from "@/store";
-import { recallModeLabel, resolveRecallMode } from "@/utils/srs/recall-mode";
+import { resolveRecallMode } from "@/utils/srs/recall-mode";
 import { TypingStateActionType, useTypingContext } from "../../store";
 import type { TypingState } from "../../store/type";
 import PrevAndNextWord from "../prev-and-next-word";
 import Progress from "../progress";
+import { ClozeRecallChrome, useClozePrompt } from "./components/cloze-recall";
 import Phonetic from "./components/phonetic";
 import Translation from "./components/translation";
 import WordComponent from "./components/word";
+
+function shouldShowTranslationForMode({
+  clozeFallbackToDefinition,
+  effectiveRecallMode,
+  isShowTranslation,
+  isTransVisible,
+}: {
+  clozeFallbackToDefinition: boolean;
+  effectiveRecallMode: ReturnType<typeof resolveRecallMode>;
+  isShowTranslation: boolean;
+  isTransVisible: boolean;
+}): boolean {
+  if (effectiveRecallMode === "definition" || clozeFallbackToDefinition) {
+    return true;
+  }
+  if (effectiveRecallMode === "audio" || effectiveRecallMode === "cloze") {
+    return isShowTranslation;
+  }
+  return isShowTranslation || isTransVisible;
+}
 
 export default function WordPanel() {
   const { state, dispatch } = useTypingContext();
   const phoneticConfig = useAtomValue(phoneticConfigAtom);
   const currentDictInfo = useAtomValue(currentDictInfoAtom);
   const isShowPrevAndNextWord = useAtomValue(isShowPrevAndNextWordAtom);
+  const isWordEnrichmentEnabled = useAtomValue(isWordEnrichmentEnabledAtom);
   const [wordComponentKey, setWordComponentKey] = useState(0);
   const [currentWordExerciseCount, setCurrentWordExerciseCount] = useState(0);
   const { times: loopWordTimes } = useAtomValue(loopWordConfigAtom);
@@ -49,6 +73,15 @@ export default function WordPanel() {
     [recallModeSetting, state.chapterData.index]
   );
 
+  const isEnglishDict = currentDictInfo.language === "en";
+  const {
+    clozeEnabled,
+    clozeFallbackToDefinition,
+    clozeLoading,
+    clozePrompt,
+    displayRecallMode,
+  } = useClozePrompt(currentWord?.name, effectiveRecallMode, isEnglishDict);
+
   const prevIndex = useMemo(() => {
     const newIndex = state.chapterData.index - 1;
     return newIndex < 0 ? 0 : newIndex;
@@ -61,6 +94,25 @@ export default function WordPanel() {
   }, [state.chapterData.index, state.chapterData.words.length]);
 
   usePrefetchPronunciationSounds(currentWord?.name, nextWordName);
+
+  useEffect(() => {
+    if (!isEnglishDict) {
+      return;
+    }
+    if (!(isWordEnrichmentEnabled || clozeEnabled)) {
+      return;
+    }
+    const upcoming = state.chapterData.words
+      .slice(state.chapterData.index, state.chapterData.index + 4)
+      .map((word) => word.name);
+    prefetchWordEnrichments(upcoming);
+  }, [
+    clozeEnabled,
+    isEnglishDict,
+    isWordEnrichmentEnabled,
+    state.chapterData.index,
+    state.chapterData.words,
+  ]);
 
   const reloadCurrentWordComponent = useCallback(() => {
     setWordComponentKey((old) => old + 1);
@@ -194,15 +246,12 @@ export default function WordPanel() {
     [state.isTyping]
   );
 
-  const shouldShowTranslation = useMemo(() => {
-    if (effectiveRecallMode === "definition") {
-      return true;
-    }
-    if (effectiveRecallMode === "audio") {
-      return isShowTranslation;
-    }
-    return isShowTranslation || state.isTransVisible;
-  }, [effectiveRecallMode, isShowTranslation, state.isTransVisible]);
+  const shouldShowTranslation = shouldShowTranslationForMode({
+    clozeFallbackToDefinition,
+    effectiveRecallMode,
+    isShowTranslation,
+    isTransVisible: state.isTransVisible,
+  });
 
   const startTyping = useCallback(() => {
     if (!state.isTyping) {
@@ -223,11 +272,13 @@ export default function WordPanel() {
       <div className="container flex min-h-0 max-w-full flex-grow flex-col items-center justify-center px-0 sm:px-2">
         {Boolean(currentWord) && (
           <div className="relative flex w-full min-w-0 max-w-full flex-col items-center px-1 sm:px-2">
-            {effectiveRecallMode !== "classic" && (
-              <p className="mb-2 rounded-full bg-muted px-3 py-1 font-medium text-muted-foreground text-xs">
-                {recallModeLabel(effectiveRecallMode)}
-              </p>
-            )}
+            <ClozeRecallChrome
+              clozeEnabled={clozeEnabled}
+              clozeFallbackToDefinition={clozeFallbackToDefinition}
+              clozeLoading={clozeLoading}
+              clozePrompt={clozePrompt}
+              displayRecallMode={displayRecallMode}
+            />
             <div className="relative max-w-full">
               {!state.isTyping && (
                 <button
@@ -253,7 +304,11 @@ export default function WordPanel() {
               )}
               <Translation
                 dariSenses={dariLookup(currentWord.name)}
-                enrichable={currentDictInfo.language === "en"}
+                enrichable={
+                  isEnglishDict &&
+                  isWordEnrichmentEnabled &&
+                  effectiveRecallMode !== "cloze"
+                }
                 onMouseEnter={() => handleShowTranslation(true)}
                 onMouseLeave={() => handleShowTranslation(false)}
                 senses={currentWord.trans}

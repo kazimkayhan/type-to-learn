@@ -25,8 +25,10 @@ interface DictionaryApiEntry {
 const DICTIONARY_API_BASE = "https://api.dictionaryapi.dev/api/v2/entries/en/";
 const MAX_CACHE_SIZE = 300;
 const MAX_SYNONYMS = 5;
+const WORD_BOUNDARY_ESCAPE_REGEX = /[.*+?^${}()|[\]\\]/g;
 
 const cache = new Map<string, WordEnrichment | null>();
+const inflight = new Map<string, Promise<WordEnrichment | null>>();
 
 function cacheSet(key: string, value: WordEnrichment | null) {
   cache.set(key, value);
@@ -85,6 +87,104 @@ function parseEntries(entries: DictionaryApiEntry[]): WordEnrichment | null {
   };
 }
 
+export function getCachedWordEnrichment(
+  word: string
+): WordEnrichment | null | undefined {
+  const key = word.trim().toLowerCase();
+  if (!key) {
+    return null;
+  }
+  if (!cache.has(key)) {
+    return;
+  }
+  return cache.get(key) ?? null;
+}
+
+/** Fetch enrichment (shared cache). Safe to call from prefetch. */
+export async function fetchWordEnrichment(
+  word: string,
+  signal?: AbortSignal
+): Promise<WordEnrichment | null> {
+  const key = word.trim().toLowerCase();
+  if (!key) {
+    return null;
+  }
+  if (cache.has(key)) {
+    return cache.get(key) ?? null;
+  }
+  const existing = inflight.get(key);
+  if (existing) {
+    return existing;
+  }
+
+  const request = (async () => {
+    try {
+      const response = await fetch(
+        `${DICTIONARY_API_BASE}${encodeURIComponent(key)}`,
+        { signal }
+      );
+      if (response.ok) {
+        const data: DictionaryApiEntry[] = await response.json();
+        const parsed = parseEntries(data);
+        cacheSet(key, parsed);
+        return parsed;
+      }
+      if (response.status === 404) {
+        cacheSet(key, null);
+      }
+      return null;
+    } catch {
+      return null;
+    } finally {
+      inflight.delete(key);
+    }
+  })();
+
+  inflight.set(key, request);
+  return request;
+}
+
+/** Warm the cache for upcoming English words (no-op if already cached). */
+export function prefetchWordEnrichments(words: string[], limit = 3) {
+  let scheduled = 0;
+  for (const word of words) {
+    if (scheduled >= limit) {
+      break;
+    }
+    const key = word.trim().toLowerCase();
+    if (!key || cache.has(key) || inflight.has(key)) {
+      continue;
+    }
+    scheduled += 1;
+    fetchWordEnrichment(word).catch(() => {
+      // Prefetch is best-effort; ignore network failures.
+    });
+  }
+}
+
+/**
+ * Replace the target word in an example sentence with a blank.
+ * Returns null when no usable example is available.
+ */
+export function buildClozePrompt(
+  word: string,
+  example: string | null | undefined
+): string | null {
+  if (!(example?.trim() && word.trim())) {
+    return null;
+  }
+  const escaped = word.trim().replace(WORD_BOUNDARY_ESCAPE_REGEX, "\\$&");
+  const boundary = new RegExp(`\\b${escaped}\\b`, "i");
+  if (boundary.test(example)) {
+    return example.replace(boundary, "____");
+  }
+  const loose = new RegExp(escaped, "i");
+  if (!loose.test(example)) {
+    return null;
+  }
+  return example.replace(loose, "____");
+}
+
 /**
  * Looks up example sentences and synonyms for `word` from the free,
  * keyless dictionaryapi.dev service. Results are cached in-memory
@@ -121,44 +221,26 @@ export default function useWordEnrichment(word: string, enabled: boolean) {
     setIsLoading(true);
 
     const controller = new AbortController();
+    let cancelled = false;
 
-    (async () => {
-      let cacheable: boolean;
-      let parsed: WordEnrichment | null;
-      try {
-        const response = await fetch(
-          `${DICTIONARY_API_BASE}${encodeURIComponent(key)}`,
-          { signal: controller.signal }
-        );
-        if (response.ok) {
-          const data: DictionaryApiEntry[] = await response.json();
-          cacheable = true;
-          parsed = parseEntries(data);
-        } else {
-          // Only a genuine 404 means "no entry for this word" - cache
-          // that. Any other non-OK status (rate limit, server error, ...)
-          // is transient, so don't poison the cache with it; let the next
-          // lookup retry against the network instead.
-          cacheable = response.status === 404;
-          parsed = null;
+    fetchWordEnrichment(word, controller.signal)
+      .then((parsed) => {
+        if (cancelled || requestedKeyRef.current !== key) {
+          return;
         }
-      } catch {
-        if (requestedKeyRef.current === key && !controller.signal.aborted) {
-          setIsLoading(false);
-        }
-        return;
-      }
-
-      if (cacheable) {
-        cacheSet(key, parsed);
-      }
-      if (requestedKeyRef.current === key) {
         setEnrichment(parsed);
         setIsLoading(false);
-      }
-    })();
+      })
+      .catch(() => {
+        if (cancelled || requestedKeyRef.current !== key) {
+          return;
+        }
+        setEnrichment(null);
+        setIsLoading(false);
+      });
 
     return () => {
+      cancelled = true;
       controller.abort();
     };
   }, [word, enabled]);

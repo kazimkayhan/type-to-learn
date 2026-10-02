@@ -21,6 +21,8 @@ import {
   isWordEnrichmentEnabledAtom,
   randomConfigAtom,
   recallModeConfigAtom,
+  srsConfigAtom,
+  timedPracticeConfigAtom,
 } from "@/store";
 import type { RecallMode } from "@/typings";
 import styles from "./index.module.css";
@@ -36,8 +38,11 @@ const RECALL_MODE_OPTIONS: { label: string; value: RecallMode }[] = [
   { label: "Classic (see word, type it)", value: "classic" },
   { label: "Definition → type spelling", value: "definition" },
   { label: "Audio → type spelling", value: "audio" },
+  { label: "Cloze (fill blank in example)", value: "cloze" },
   { label: "Rotate modes each word", value: "rotate" },
 ];
+
+const TIMED_PRESETS = [5, 10, 15, 20] as const;
 
 export default function AdvancedSetting() {
   const [randomConfig, setRandomConfig] = useAtom(randomConfigAtom);
@@ -62,6 +67,10 @@ export default function AdvancedSetting() {
   const [dailyReviewConfig, setDailyReviewConfig] = useAtom(
     dailyReviewConfigAtom
   );
+  const [timedPracticeConfig, setTimedPracticeConfig] = useAtom(
+    timedPracticeConfigAtom
+  );
+  const [srsConfig, setSrsConfig] = useAtom(srsConfigAtom);
 
   const onToggleDariTrans = useCallback(
     (checked: boolean) => {
@@ -149,6 +158,40 @@ export default function AdvancedSetting() {
     [setDailyReviewConfig]
   );
 
+  const onToggleTimed = useCallback(
+    (checked: boolean) => {
+      setTimedPracticeConfig((prev) => ({ ...prev, enabled: checked }));
+    },
+    [setTimedPracticeConfig]
+  );
+
+  const onChangeTimedDuration = useCallback(
+    (value: string | null) => {
+      if (!value) {
+        return;
+      }
+      const minutes = Number(value);
+      if (!Number.isFinite(minutes) || minutes <= 0) {
+        return;
+      }
+      setTimedPracticeConfig((prev) => ({
+        ...prev,
+        durationMinutes: minutes,
+      }));
+    },
+    [setTimedPracticeConfig]
+  );
+
+  const onChangeScheduler = useCallback(
+    (value: string | null) => {
+      if (value !== "sm2" && value !== "fsrs") {
+        return;
+      }
+      setSrsConfig((prev) => ({ ...prev, algorithm: value }));
+    },
+    [setSrsConfig]
+  );
+
   return (
     <ScrollArea className="flex-1 select-none overflow-y-auto">
       <div className="h-full w-full px-3">
@@ -176,6 +219,65 @@ export default function AdvancedSetting() {
                 </SelectContent>
               </Select>
             </div>
+          </div>
+
+          <div className={styles.section}>
+            <span className={styles.sectionLabel}>Spaced repetition</span>
+            <span className={styles.sectionDescription}>
+              FSRS (recommended) schedules reviews from your typing outcomes.
+              SM-2 is the classic simpler fallback.
+            </span>
+            <div className={styles.block}>
+              <Select
+                onValueChange={onChangeScheduler}
+                value={srsConfig.algorithm}
+              >
+                <SelectTrigger className="w-full max-w-sm">
+                  <SelectValue />
+                </SelectTrigger>
+                <SelectContent>
+                  <SelectItem value="fsrs">FSRS (recommended)</SelectItem>
+                  <SelectItem value="sm2">SM-2</SelectItem>
+                </SelectContent>
+              </Select>
+            </div>
+          </div>
+
+          <div className={styles.section}>
+            <span className={styles.sectionLabel}>Timed practice</span>
+            <span className={styles.sectionDescription}>
+              End the session automatically when the countdown reaches zero —
+              useful for short exam-style drills.
+            </span>
+            <div className={styles.switchBlock}>
+              <Switch
+                checked={timedPracticeConfig.enabled}
+                onCheckedChange={onToggleTimed}
+              />
+              <span className="text-right font-normal text-muted-foreground text-xs leading-tight">{`Timed mode ${
+                timedPracticeConfig.enabled ? "on" : "off"
+              }`}</span>
+            </div>
+            {timedPracticeConfig.enabled ? (
+              <div className={styles.block}>
+                <span className={styles.blockLabel}>Duration</span>
+                <Select
+                  onValueChange={onChangeTimedDuration}
+                  value={String(timedPracticeConfig.durationMinutes)}
+                >
+                  <SelectTrigger className="w-full max-w-sm">
+                    <SelectValue />
+                  </SelectTrigger>
+                  <SelectContent>
+                    {TIMED_PRESETS.map((minutes) => (
+                      <SelectItem key={minutes} value={String(minutes)}>
+                        {minutes} minutes
+                      </SelectItem>
+                    ))}
+                  </SelectContent>
+                </Select>
+              </div>
+            ) : null}
           </div>
 
           <div className={styles.section}>

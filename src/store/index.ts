@@ -164,6 +164,17 @@ export const recallModeConfigAtom = atomForConfig("recallModeConfig", {
   mode: "classic" as RecallMode,
 });
 
+/** Timed exam-style practice: end the session when the countdown hits zero. */
+export const timedPracticeConfigAtom = atomForConfig("timedPracticeConfig", {
+  durationMinutes: 10,
+  enabled: false,
+});
+
+/** Spaced-repetition algorithm used by mastery / Today queue. */
+export const srsConfigAtom = atomForConfig("srsConfig", {
+  algorithm: "fsrs" as "sm2" | "fsrs",
+});
+
 export const phoneticConfigAtom = atomForConfig("phoneticConfig", {
   isOpen: true,
   type: "us" as PhoneticType,

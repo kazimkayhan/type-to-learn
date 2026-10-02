@@ -1,11 +1,27 @@
-import { useAtomValue } from "jotai";
+import { useAtomValue, useSetAtom } from "jotai";
 import { useCallback, useEffect, useMemo, useState } from "react";
+import { useNavigate } from "react-router-dom";
+import { toast } from "sonner";
 import PageShell from "@/components/page-shell";
+import { Button } from "@/components/ui/button";
 import { ScrollArea, ScrollBar } from "@/components/ui/scroll-area";
+import {
+  currentChapterAtom,
+  currentDictIdAtom,
+  customDictionariesAtom,
+  reviewModeInfoAtom,
+  todaySessionAtom,
+} from "@/store";
 import { db, useDeleteWordRecord } from "@/utils/db";
 import type { WordRecord } from "@/utils/db/record";
+import {
+  buildPracticeFromRecords,
+  buildPracticeWeakWords,
+  PRACTICE_TOP_N,
+  type PracticeWeakResult,
+} from "./build-practice-weak";
 import DropdownExport from "./dropdown-export";
-import ErrorRow from "./error-row";
+import ErrorRow, { recordSelectionKey } from "./error-row";
 import type { ISortType } from "./head-wrong-number";
 import HeadWrongNumber from "./head-wrong-number";
 import Pagination, { ITEM_PER_PAGE } from "./pagination";
@@ -14,6 +30,7 @@ import { currentRowDetailAtom } from "./store";
 import type { groupedWordRecords } from "./type";
 
 export function ErrorBook() {
+  const navigate = useNavigate();
   const [groupedRecords, setGroupedRecords] = useState<groupedWordRecords[]>(
     []
   );
@@ -23,9 +40,16 @@ export function ErrorBook() {
     [groupedRecords.length]
   );
   const [sortType, setSortType] = useState<ISortType>("asc");
+  const [selectedKeys, setSelectedKeys] = useState<Set<string>>(new Set());
   const currentRowDetail = useAtomValue(currentRowDetailAtom);
+  const customDictionaries = useAtomValue(customDictionariesAtom);
+  const setTodaySession = useSetAtom(todaySessionAtom);
+  const setReviewModeInfo = useSetAtom(reviewModeInfoAtom);
+  const setCurrentDictId = useSetAtom(currentDictIdAtom);
+  const setCurrentChapter = useSetAtom(currentChapterAtom);
   const { deleteWordRecord } = useDeleteWordRecord();
   const [reload, setReload] = useState(false);
+  const [practiceStarting, setPracticeStarting] = useState(false);
 
   const setPage = useCallback(
     (page: number) => {
@@ -62,6 +86,14 @@ export function ErrorBook() {
     const end = start + ITEM_PER_PAGE;
     return sortedRecords.slice(start, end);
   }, [currentPage, sortedRecords]);
+
+  const selectedRecords = useMemo(
+    () =>
+      sortedRecords.filter((record) =>
+        selectedKeys.has(recordSelectionKey(record))
+      ),
+    [selectedKeys, sortedRecords]
+  );
 
   useEffect(() => {
     db.wordRecords
@@ -107,8 +139,121 @@ export function ErrorBook() {
 
   const handleDelete = async (word: string, dict: string) => {
     await deleteWordRecord(word, dict);
+    setSelectedKeys((prev) => {
+      const next = new Set(prev);
+      next.delete(`${dict}::${word}`);
+      return next;
+    });
     setReload((prev) => !prev);
   };
+
+  const onToggleSelect = useCallback((record: groupedWordRecords) => {
+    const key = recordSelectionKey(record);
+    setSelectedKeys((prev) => {
+      const next = new Set(prev);
+      if (next.has(key)) {
+        next.delete(key);
+      } else {
+        next.add(key);
+      }
+      return next;
+    });
+  }, []);
+
+  const startPracticeSession = useCallback(
+    async (session: PracticeWeakResult | null) => {
+      if (!session) {
+        toast.error("Could not build a practice session from these words.");
+        return;
+      }
+      setReviewModeInfo({ isReviewMode: false, reviewRecord: undefined });
+      setCurrentDictId(session.dictId);
+      setCurrentChapter(-1);
+      setTodaySession({ active: true, words: session.words });
+      toast.success(
+        `Practicing ${session.words.length} word${session.words.length === 1 ? "" : "s"}`
+      );
+      navigate("/");
+    },
+    [
+      navigate,
+      setCurrentChapter,
+      setCurrentDictId,
+      setReviewModeInfo,
+      setTodaySession,
+    ]
+  );
+
+  const onPracticeTop = useCallback(async () => {
+    if (groupedRecords.length === 0 || practiceStarting) {
+      return;
+    }
+    setPracticeStarting(true);
+    try {
+      const session = await buildPracticeWeakWords(
+        groupedRecords,
+        customDictionaries
+      );
+      await startPracticeSession(session);
+    } catch {
+      toast.error("Failed to start practice.");
+    } finally {
+      setPracticeStarting(false);
+    }
+  }, [
+    customDictionaries,
+    groupedRecords,
+    practiceStarting,
+    startPracticeSession,
+  ]);
+
+  const onPracticeSelected = useCallback(async () => {
+    if (selectedRecords.length === 0 || practiceStarting) {
+      return;
+    }
+    setPracticeStarting(true);
+    try {
+      const session = await buildPracticeFromRecords(
+        selectedRecords,
+        customDictionaries
+      );
+      await startPracticeSession(session);
+    } catch {
+      toast.error("Failed to start practice.");
+    } finally {
+      setPracticeStarting(false);
+    }
+  }, [
+    customDictionaries,
+    practiceStarting,
+    selectedRecords,
+    startPracticeSession,
+  ]);
+
+  const practiceButtons = (
+    <>
+      <Button
+        disabled={selectedRecords.length === 0 || practiceStarting}
+        onClick={onPracticeSelected}
+        size="sm"
+        variant="default"
+      >
+        {practiceStarting
+          ? "Starting…"
+          : selectedRecords.length > 0
+            ? `Practice selected (${selectedRecords.length})`
+            : "Practice selected"}
+      </Button>
+      <Button
+        disabled={groupedRecords.length === 0 || practiceStarting}
+        onClick={onPracticeTop}
+        size="sm"
+        variant="secondary"
+      >
+        {practiceStarting ? "Starting…" : `Practice top ${PRACTICE_TOP_N}`}
+      </Button>
+    </>
+  );
 
   return (
     <>
@@ -121,20 +266,24 @@ export function ErrorBook() {
       >
         <div className="flex w-full flex-1 select-text items-start justify-center overflow-hidden">
           <div className="flex h-full w-full flex-col sm:w-5/6">
-            <div className="hidden w-full items-center gap-4 rounded-lg bg-card px-6 py-4 text-base text-foreground shadow-[var(--shadow-card)] md:grid md:grid-cols-[minmax(6.5rem,1fr)_minmax(0,2.5fr)_6.5rem_minmax(7rem,1fr)_auto]">
-              <span>Word</span>
-              <span>Definition</span>
-              <HeadWrongNumber setSortType={setSort} sortType={sortType} />
-              <span>Dictionary</span>
+            <div className="mb-3 flex flex-wrap items-center justify-end gap-2">
+              {practiceButtons}
               <DropdownExport renderRecords={sortedRecords} />
             </div>
-            <div className="mb-3 flex items-center justify-between md:hidden">
+            <div className="mb-3 flex flex-wrap items-center justify-between gap-2 md:hidden">
               <HeadWrongNumber
                 className="text-sm"
                 setSortType={setSort}
                 sortType={sortType}
               />
-              <DropdownExport renderRecords={sortedRecords} />
+            </div>
+            <div className="hidden w-full items-center gap-4 rounded-lg bg-card px-6 py-4 text-base text-foreground shadow-[var(--shadow-card)] md:grid md:grid-cols-[auto_minmax(6.5rem,1fr)_minmax(0,2fr)_6.5rem_minmax(7rem,1.2fr)_2.5rem]">
+              <span className="w-4" />
+              <span>Word</span>
+              <span>Definition</span>
+              <HeadWrongNumber setSortType={setSort} sortType={sortType} />
+              <span>Dictionary</span>
+              <span />
             </div>
             <ScrollArea className="flex-1 overflow-y-auto pt-5">
               <div className="h-full">
@@ -155,7 +304,9 @@ export function ErrorBook() {
                       <ErrorRow
                         key={`${record.dict}-${record.word}`}
                         onDelete={() => handleDelete(record.word, record.dict)}
+                        onToggleSelect={onToggleSelect}
                         record={record}
+                        selected={selectedKeys.has(recordSelectionKey(record))}
                       />
                     ))}
                   </ul>

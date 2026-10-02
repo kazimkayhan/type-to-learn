@@ -164,7 +164,11 @@ export default function WordComponent({
       ) {
         return true;
       }
-      if (recallMode === "definition" || recallMode === "audio") {
+      if (
+        recallMode === "definition" ||
+        recallMode === "audio" ||
+        recallMode === "cloze"
+      ) {
         return false;
       }
       if (!wordDictationConfig.isOpen) {
@@ -356,6 +360,7 @@ export default function WordComponent({
   const hideSpelling =
     recallMode === "definition" ||
     recallMode === "audio" ||
+    recallMode === "cloze" ||
     wordDictationConfig.isOpen;
   const showPronunciation = pronunciationIsOpen || recallMode === "audio";
 

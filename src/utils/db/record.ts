@@ -158,16 +158,30 @@ export class ReviewRecord implements IReviewRecord {
 
 export type WordMasteryState = "new" | "learning" | "review" | "mastered";
 
+export type FsrsCardState = "New" | "Learning" | "Review" | "Relearning";
+
 export interface IWordMastery {
   dict: string;
+  /** FSRS difficulty (optional until first FSRS review). */
+  difficulty?: number;
   /** Next review due (UTC unix seconds). */
   due: number;
   easeFactor: number;
+  /** FSRS elapsed_days snapshot. */
+  elapsedDays?: number;
+  /** FSRS card state label. */
+  fsrsState?: FsrsCardState;
   id?: number;
   intervalDays: number;
   lapses: number;
   lastReview: number;
+  /** FSRS learning step index. */
+  learningSteps?: number;
   reps: number;
+  /** FSRS scheduled_days. */
+  scheduledDays?: number;
+  /** FSRS stability (optional until first FSRS review). */
+  stability?: number;
   state: WordMasteryState;
   totalWrong: number;
   word: string;

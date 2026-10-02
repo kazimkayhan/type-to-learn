@@ -1,6 +1,18 @@
+import { useAtomValue, useSetAtom } from "jotai";
 import { useCallback, useState } from "react";
+import { useNavigate } from "react-router-dom";
+import { toast } from "sonner";
+import { Button } from "@/components/ui/button";
 import WordStudyDialog from "@/components/word-study-dialog";
 import LineCharts from "@/pages/analysis/components/line-charts";
+import { buildPracticeFromWordKeys } from "@/pages/error-book/build-practice-weak";
+import {
+  currentChapterAtom,
+  currentDictIdAtom,
+  customDictionariesAtom,
+  reviewModeInfoAtom,
+  todaySessionAtom,
+} from "@/store";
 import type { IWordMastery } from "@/utils/db/record";
 import type { VocabularyDeepAnalytics } from "@/utils/db/vocabulary-analytics";
 
@@ -41,8 +53,15 @@ export default function VocabularyMasteryPanel({
   data: VocabularyDeepAnalytics;
   onDataChange?: () => void;
 }) {
+  const navigate = useNavigate();
   const isEmpty = data.tracked === 0;
   const [selected, setSelected] = useState<IWordMastery | null>(null);
+  const [practiceStarting, setPracticeStarting] = useState(false);
+  const customDictionaries = useAtomValue(customDictionariesAtom);
+  const setTodaySession = useSetAtom(todaySessionAtom);
+  const setReviewModeInfo = useSetAtom(reviewModeInfoAtom);
+  const setCurrentDictId = useSetAtom(currentDictIdAtom);
+  const setCurrentChapter = useSetAtom(currentChapterAtom);
   const { weekly } = data;
   const hasPracticeWindow =
     data.firstTryByDay.some(([, value]) => value > 0) ||
@@ -55,6 +74,44 @@ export default function VocabularyMasteryPanel({
     },
     [onDataChange]
   );
+
+  const onPracticeLeeches = useCallback(async () => {
+    if (data.leeches.length === 0 || practiceStarting) {
+      return;
+    }
+    setPracticeStarting(true);
+    try {
+      const session = await buildPracticeFromWordKeys(
+        data.leeches,
+        customDictionaries
+      );
+      if (!session) {
+        toast.error("Could not build a practice session from these leeches.");
+        return;
+      }
+      setReviewModeInfo({ isReviewMode: false, reviewRecord: undefined });
+      setCurrentDictId(session.dictId);
+      setCurrentChapter(-1);
+      setTodaySession({ active: true, words: session.words });
+      toast.success(
+        `Practicing ${session.words.length} leech word${session.words.length === 1 ? "" : "s"}`
+      );
+      navigate("/");
+    } catch {
+      toast.error("Failed to start leech practice.");
+    } finally {
+      setPracticeStarting(false);
+    }
+  }, [
+    customDictionaries,
+    data.leeches,
+    navigate,
+    practiceStarting,
+    setCurrentChapter,
+    setCurrentDictId,
+    setReviewModeInfo,
+    setTodaySession,
+  ]);
 
   const maxBucket = Math.max(
     1,
@@ -189,13 +246,29 @@ export default function VocabularyMasteryPanel({
           </div>
 
           <div>
-            <h3 className="font-medium text-base text-foreground">
-              Leech words
-            </h3>
-            <p className="mt-1 text-muted-foreground text-xs">
-              Words with repeated failed reviews (2+ lapses). Tap a word to
-              study, snooze, or mark mastered.
-            </p>
+            <div className="flex flex-wrap items-start justify-between gap-2">
+              <div>
+                <h3 className="font-medium text-base text-foreground">
+                  Leech words
+                </h3>
+                <p className="mt-1 text-muted-foreground text-xs">
+                  Words with repeated failed reviews (2+ lapses). Tap a word to
+                  study, snooze, or mark mastered.
+                </p>
+              </div>
+              {data.leeches.length > 0 ? (
+                <Button
+                  disabled={practiceStarting}
+                  onClick={onPracticeLeeches}
+                  size="sm"
+                  variant="secondary"
+                >
+                  {practiceStarting
+                    ? "Starting…"
+                    : `Practice leeches (${data.leeches.length})`}
+                </Button>
+              ) : null}
+            </div>
             {data.leeches.length === 0 ? (
               <p className="mt-3 text-muted-foreground text-sm">
                 No leeches yet — keep practicing.

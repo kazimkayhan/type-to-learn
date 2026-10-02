@@ -13,6 +13,7 @@ import {
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { customDictionariesAtom, refreshCustomDictionaries } from "@/store";
+import { parseAnkiApkg, stripApkgExtension } from "@/utils/anki-import";
 import {
   createCustomList,
   parseWordCsv,
@@ -29,7 +30,8 @@ export default function CustomListsSection() {
   const [name, setName] = useState("");
   const [description, setDescription] = useState("");
   const [busy, setBusy] = useState(false);
-  const fileInputRef = useRef<HTMLInputElement>(null);
+  const csvInputRef = useRef<HTMLInputElement>(null);
+  const ankiInputRef = useRef<HTMLInputElement>(null);
 
   const refresh = useCallback(async () => {
     await refreshCustomDictionaries(setCustomDictionaries);
@@ -81,8 +83,39 @@ export default function CustomListsSection() {
         toast.error("Could not import CSV");
       } finally {
         setBusy(false);
-        if (fileInputRef.current) {
-          fileInputRef.current.value = "";
+        if (csvInputRef.current) {
+          csvInputRef.current.value = "";
+        }
+      }
+    },
+    [refresh]
+  );
+
+  const onImportAnki = useCallback(
+    async (file: File) => {
+      setBusy(true);
+      try {
+        const fallback = stripApkgExtension(file.name) || "Anki deck";
+        const { deckName, words } = await parseAnkiApkg(file, fallback);
+        if (words.length === 0) {
+          toast.error("No notes found in this Anki package");
+          return;
+        }
+        await createCustomList({
+          description: `Imported from ${file.name}`,
+          name: deckName || fallback,
+          words,
+        });
+        await refresh();
+        toast.success(`Imported ${words.length} words from Anki`);
+      } catch (error) {
+        const message =
+          error instanceof Error ? error.message : "Could not import Anki file";
+        toast.error(message);
+      } finally {
+        setBusy(false);
+        if (ankiInputRef.current) {
+          ankiInputRef.current.value = "";
         }
       }
     },
@@ -97,8 +130,8 @@ export default function CustomListsSection() {
             My lists
           </h2>
           <p className="mt-1 text-muted-foreground text-xs sm:text-sm">
-            Create a list or import a CSV (`word,translation`). Stored locally
-            on this device.
+            Create a list, or import CSV (`word,translation`) / Anki `.apkg`.
+            Stored locally on this device.
           </p>
         </div>
         <div className="flex flex-wrap gap-2">
@@ -111,18 +144,40 @@ export default function CustomListsSection() {
                 onImportCsv(file);
               }
             }}
-            ref={fileInputRef}
+            ref={csvInputRef}
+            type="file"
+          />
+          <input
+            accept=".apkg,application/zip"
+            className="sr-only"
+            onChange={(event) => {
+              const file = event.target.files?.[0];
+              if (file) {
+                onImportAnki(file);
+              }
+            }}
+            ref={ankiInputRef}
             type="file"
           />
           <Button
             disabled={busy}
-            onClick={() => fileInputRef.current?.click()}
+            onClick={() => csvInputRef.current?.click()}
             size="sm"
             type="button"
             variant="outline"
           >
             <IconArrowUpTray className="mr-1.5 size-4" />
             Import CSV
+          </Button>
+          <Button
+            disabled={busy}
+            onClick={() => ankiInputRef.current?.click()}
+            size="sm"
+            type="button"
+            variant="outline"
+          >
+            <IconArrowUpTray className="mr-1.5 size-4" />
+            Import Anki
           </Button>
           <Button
             disabled={busy}
@@ -144,8 +199,8 @@ export default function CustomListsSection() {
         </div>
       ) : (
         <div className="rounded-2xl border border-dashed px-4 py-10 text-center text-muted-foreground text-sm">
-          No custom lists yet. Create one or import a CSV to practice your own
-          words.
+          No custom lists yet. Create one or import a CSV / Anki package to
+          practice your own words.
         </div>
       )}
 
@@ -155,7 +210,7 @@ export default function CustomListsSection() {
             <DialogTitle>New word list</DialogTitle>
             <DialogDescription>
               Build an empty list, then add words from the word study sheet or
-              import a CSV later.
+              import a CSV / Anki package later.
             </DialogDescription>
           </DialogHeader>
           <div className="grid gap-3 py-2">

@@ -22,6 +22,7 @@ export const initialState: TypingState = {
   isShowSkip: false,
   isTransVisible: true,
   isTyping: false,
+  timedOut: false,
   timerData: {
     accuracy: 0,
     time: 0,
@@ -91,7 +92,11 @@ export type TypingStateAction =
   | { type: TypingStateActionType.REPEAT_CHAPTER; shouldShuffle: boolean }
   | { type: TypingStateActionType.NEXT_CHAPTER }
   | { type: TypingStateActionType.TOGGLE_TRANS_VISIBLE }
-  | { type: TypingStateActionType.TICK_TIMER; addTime?: number }
+  | {
+      type: TypingStateActionType.TICK_TIMER;
+      addTime?: number;
+      timeLimit?: number;
+    }
   | { type: TypingStateActionType.ADD_WORD_RECORD_ID; payload: number }
   | { type: TypingStateActionType.SET_IS_SAVING_RECORD; payload: boolean }
   | { type: TypingStateActionType.SET_IS_LOOP_SINGLE_WORD; payload: boolean }
@@ -240,6 +245,17 @@ export const typingReducer = (
       const increment = action.addTime === undefined ? 1 : action.addTime;
       state.timerData.time += increment;
       refreshTimerStats(state);
+      if (
+        action.timeLimit !== undefined &&
+        action.timeLimit > 0 &&
+        state.timerData.time >= action.timeLimit &&
+        !state.isFinished
+      ) {
+        state.isTyping = false;
+        state.isFinished = true;
+        state.isShowSkip = false;
+        state.timedOut = true;
+      }
       break;
     }
     case TypingStateActionType.ADD_WORD_RECORD_ID: {

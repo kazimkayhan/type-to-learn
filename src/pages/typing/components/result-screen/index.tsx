@@ -82,16 +82,33 @@ const ResultScreen = () => {
     [state.chapterData.userInputLogs, state.chapterData.words]
   );
 
+  const attemptedWords = useMemo(
+    () =>
+      state.chapterData.userInputLogs.filter(
+        (log) => log.correctCount > 0 || log.wrongCount > 0
+      ).length,
+    [state.chapterData.userInputLogs]
+  );
+
   const isLastChapter = useMemo(
     () => currentChapter >= currentDictInfo.chapterCount - 1,
     [currentChapter, currentDictInfo]
   );
 
   const correctRate = useMemo(() => {
-    const chapterLength = state.chapterData.words.length;
-    const correctCount = chapterLength - wrongWords.length;
-    return Math.floor((correctCount / chapterLength) * 100);
-  }, [state.chapterData.words.length, wrongWords.length]);
+    const denominator = state.timedOut
+      ? Math.max(attemptedWords, 1)
+      : Math.max(state.chapterData.words.length, 1);
+    const correctCount = state.timedOut
+      ? Math.max(attemptedWords - wrongWords.length, 0)
+      : state.chapterData.words.length - wrongWords.length;
+    return Math.floor((correctCount / denominator) * 100);
+  }, [
+    attemptedWords,
+    state.chapterData.words.length,
+    state.timedOut,
+    wrongWords.length,
+  ]);
 
   const mistakeLevel = useMemo(() => {
     if (correctRate >= 85) {
@@ -217,6 +234,12 @@ const ResultScreen = () => {
           <div className="text-center font-normal font-sans text-foreground text-xl md:text-2xl">
             {`${currentDictInfo.name} ${isReviewMode ? "Error Review" : `Chapter ${currentChapter + 1}`}`}
           </div>
+          {state.timedOut ? (
+            <p className="mt-2 text-center text-destructive text-sm sm:text-base">
+              Time&apos;s up — session ended after {timeString}. You completed{" "}
+              {attemptedWords} word{attemptedWords === 1 ? "" : "s"}.
+            </p>
+          ) : null}
           <button
             aria-label="Close result"
             className="absolute top-5 right-7 cursor-pointer rounded-lg p-1.5 text-muted-foreground hover:bg-accent hover:text-foreground focus-visible:ring-2 focus-visible:ring-ring"
@@ -232,7 +255,10 @@ const ResultScreen = () => {
                 percentage={state.timerData.accuracy}
                 remark={`${state.timerData.accuracy}%`}
               />
-              <RemarkRing caption="Chapter time" remark={timeString} />
+              <RemarkRing
+                caption={state.timedOut ? "Timed session" : "Chapter time"}
+                remark={timeString}
+              />
               <RemarkRing caption="WPM" remark={`${state.timerData.wpm}`} />
             </div>
             <div className="z-10 flex-1 overflow-visible rounded-xl bg-muted sm:ml-6">
