@@ -1,9 +1,9 @@
 import { useCallback, useEffect, useState } from "react";
-import type { VocabularyAnalytics } from "@/utils/db/word-mastery";
-import { getVocabularyAnalytics } from "@/utils/db/word-mastery";
+import type { VocabularyDeepAnalytics } from "@/utils/db/vocabulary-analytics";
+import { getVocabularyDeepAnalytics } from "@/utils/db/vocabulary-analytics";
 
 export function useVocabularyAnalytics() {
-  const [data, setData] = useState<VocabularyAnalytics | null>(null);
+  const [data, setData] = useState<VocabularyDeepAnalytics | null>(null);
   const [loading, setLoading] = useState(true);
   const [reloadToken, setReloadToken] = useState(0);
 
@@ -14,7 +14,7 @@ export function useVocabularyAnalytics() {
   useEffect(() => {
     let cancelled = false;
     setLoading(true);
-    getVocabularyAnalytics()
+    getVocabularyDeepAnalytics()
       .then((result) => {
         if (!cancelled) {
           setData(result);
