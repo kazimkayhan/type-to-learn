@@ -6,15 +6,16 @@ import Header from "@/components/header";
 import Tooltip from "@/components/tooltip";
 import { Button } from "@/components/ui/button";
 import { DEFAULT_DICT_ID } from "@/constants";
-import { idDictionaryMap } from "@/resources/dictionary";
 import {
   currentChapterAtom,
   currentDictIdAtom,
+  customDictionariesAtom,
   isReviewModeAtom,
   randomConfigAtom,
   reviewModeInfoAtom,
 } from "@/store";
 import { useSaveChapterRecord } from "@/utils/db";
+import { isKnownDictionaryId } from "@/utils/dictionary-lookup";
 import { useMixPanelChapterLogUploader } from "@/utils/mixpanel";
 import Layout from "../../components/layout";
 import { DictChapterButton } from "./components/dict-chapter-button";
@@ -45,6 +46,7 @@ const App: React.FC = () => {
   const hasSavedChapterRef = useRef(false);
 
   const [currentDictId, setCurrentDictId] = useAtom(currentDictIdAtom);
+  const customDictionaries = useAtomValue(customDictionariesAtom);
   const setCurrentChapter = useSetAtom(currentChapterAtom);
   const randomConfig = useAtomValue(randomConfigAtom);
   const chapterLogUploader = useMixPanelChapterLogUploader(state);
@@ -55,11 +57,11 @@ const App: React.FC = () => {
 
   useEffect(() => {
     const id = currentDictId;
-    if (!(id in idDictionaryMap)) {
+    if (!isKnownDictionaryId(id, customDictionaries)) {
       setCurrentDictId(DEFAULT_DICT_ID);
       setCurrentChapter(0);
     }
-  }, [currentDictId, setCurrentChapter, setCurrentDictId]);
+  }, [currentDictId, customDictionaries, setCurrentChapter, setCurrentDictId]);
 
   const skipWord = useCallback(() => {
     dispatch({ type: TypingStateActionType.SKIP_WORD });

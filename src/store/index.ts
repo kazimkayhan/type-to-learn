@@ -23,9 +23,14 @@ import type {
 } from "@/typings";
 import type { ReviewRecord } from "@/utils/db/record";
 import atomForConfig from "./atom-for-config";
+import { customDictionariesAtom } from "./custom-dictionaries-atom";
 import { reviewInfoAtom } from "./review-info-atom";
 import { isTodayModeAtom } from "./today-session-atom";
 
+export {
+  customDictionariesAtom,
+  refreshCustomDictionaries,
+} from "./custom-dictionaries-atom";
 export { isTodayModeAtom, todaySessionAtom } from "./today-session-atom";
 
 export const currentDictIdAtom = atomWithStorage(
@@ -36,11 +41,15 @@ export const currentDictIdAtom = atomWithStorage(
 );
 export const currentDictInfoAtom = atom<Dictionary>((get) => {
   const id = get(currentDictIdAtom);
-  let dict = idDictionaryMap[id];
-  if (!dict) {
-    dict = idDictionaryMap[DEFAULT_DICT_ID];
+  const builtin = idDictionaryMap[id];
+  if (builtin) {
+    return builtin;
   }
-  return dict;
+  const custom = get(customDictionariesAtom).find((dict) => dict.id === id);
+  if (custom) {
+    return custom;
+  }
+  return idDictionaryMap[DEFAULT_DICT_ID];
 });
 
 export const currentChapterAtom = atomWithStorage(

@@ -16,7 +16,11 @@ import { useWordStats } from "./hooks/use-word-stats";
 const Analysis = () => {
   const navigate = useNavigate();
   const [, setIsOpenDarkMode] = useAtom(isOpenDarkModeAtom);
-  const { data: vocabData, loading: vocabLoading } = useVocabularyAnalytics();
+  const {
+    data: vocabData,
+    loading: vocabLoading,
+    refresh: refreshVocab,
+  } = useVocabularyAnalytics();
 
   const onBack = useCallback(() => {
     navigate("/");
@@ -51,7 +55,10 @@ const Analysis = () => {
       <ScrollArea className="flex-1 overflow-y-auto">
         <div className="h-full w-auto pb-16">
           {vocabLoading ? null : vocabData ? (
-            <VocabularyMasteryPanel data={vocabData} />
+            <VocabularyMasteryPanel
+              data={vocabData}
+              onDataChange={refreshVocab}
+            />
           ) : null}
 
           {isEmpty ? (

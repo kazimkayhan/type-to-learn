@@ -8,6 +8,7 @@ import React, { lazy, Suspense, useEffect } from "react";
 import { createRoot } from "react-dom/client";
 import { BrowserRouter, Navigate, Route, Routes } from "react-router-dom";
 import { Toaster } from "./components/ui/sonner";
+import { useHydrateCustomDictionaries } from "./hooks/use-hydrate-custom-dictionaries";
 
 const TRAILING_SLASH_REGEX = /\/$/;
 const AnalysisPage = lazy(() => import("./pages/analysis"));
@@ -24,6 +25,7 @@ const MobilePage = lazy(() => import("./pages/mobile"));
 
 function Root() {
   const darkMode = useAtomValue(isOpenDarkModeAtom);
+  useHydrateCustomDictionaries();
   useEffect(() => {
     darkMode
       ? document.documentElement.classList.add("dark")

@@ -186,6 +186,77 @@ export async function applyWordReview(
   }
 }
 
+async function upsertMastery(record: IWordMastery): Promise<IWordMastery> {
+  if (record.id) {
+    await db.wordMastery.put(record);
+    return record;
+  }
+  const id = await db.wordMastery.add(record);
+  return { ...record, id };
+}
+
+export async function ensureMasteryRecord(
+  dict: string,
+  word: string
+): Promise<IWordMastery> {
+  await ensureMasteryBackfill();
+  const existing = await getMastery(dict, word);
+  if (existing) {
+    return existing;
+  }
+  return upsertMastery(new WordMasteryRecord(dict, word));
+}
+
+/** Mark a word mastered and push due date far out. */
+export async function markWordMastered(
+  dict: string,
+  word: string
+): Promise<IWordMastery> {
+  const record = await ensureMasteryRecord(dict, word);
+  const now = getUTCUnixTimestamp();
+  const updated: IWordMastery = {
+    ...record,
+    due: now + 180 * DAY_SECONDS,
+    intervalDays: Math.max(record.intervalDays, 180),
+    lastReview: now,
+    reps: Math.max(record.reps, 3),
+    state: "mastered",
+  };
+  return upsertMastery(updated);
+}
+
+/** Delay the next review by `days` (default 7). */
+export async function snoozeWord(
+  dict: string,
+  word: string,
+  days = 7
+): Promise<IWordMastery> {
+  const record = await ensureMasteryRecord(dict, word);
+  const now = getUTCUnixTimestamp();
+  const updated: IWordMastery = {
+    ...record,
+    due: now + days * DAY_SECONDS,
+    lastReview: now,
+    state: record.state === "new" ? "learning" : record.state,
+  };
+  return upsertMastery(updated);
+}
+
+/** Put a word back into the due queue immediately. */
+export async function resetWordDue(
+  dict: string,
+  word: string
+): Promise<IWordMastery> {
+  const record = await ensureMasteryRecord(dict, word);
+  const now = getUTCUnixTimestamp();
+  const updated: IWordMastery = {
+    ...record,
+    due: now,
+    state: record.state === "mastered" ? "review" : record.state,
+  };
+  return upsertMastery(updated);
+}
+
 export async function ensureMasteryBackfill(): Promise<void> {
   if (localStorage.getItem(BACKFILL_FLAG_KEY) === "1") {
     return;

@@ -8,7 +8,9 @@ import {
   DropdownMenuItem,
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
-import { idDictionaryMap } from "@/resources/dictionary";
+import type { Dictionary } from "@/typings";
+import { listCustomDictionaries } from "@/utils/db/custom-lists";
+import { findDictionary } from "@/utils/dictionary-lookup";
 import { wordListFetcher } from "@/utils/word-list-fetcher";
 
 interface DropdownProps {
@@ -33,10 +35,13 @@ const formatTimestamp = (date: Date) => {
   return `${year}-${month}-${day} ${hours}-${minutes}-${seconds}`;
 };
 
-const collectDictUrls = (renderRecords: any[]): string[] => {
+const collectDictUrls = (
+  renderRecords: any[],
+  customDictionaries: Dictionary[]
+): string[] => {
   const dictUrls: string[] = [];
   for (const item of renderRecords) {
-    const dictInfo = idDictionaryMap[item.dict];
+    const dictInfo = findDictionary(item.dict, customDictionaries);
     if (dictInfo?.url && !dictUrls.includes(dictInfo.url)) {
       dictUrls.push(dictInfo.url);
     }
@@ -62,12 +67,13 @@ const fetchDictDataMap = async (dictUrls: string[]) => {
 
 const buildExportRows = (
   renderRecords: any[],
-  dictDataMap: Map<string, any[]>
+  dictDataMap: Map<string, any[]>,
+  customDictionaries: Dictionary[]
 ): ExportRow[] => {
   const exportRows: ExportRow[] = [];
 
   for (const item of renderRecords) {
-    const dictInfo = idDictionaryMap[item.dict];
+    const dictInfo = findDictionary(item.dict, customDictionaries);
     let translation = "";
 
     if (dictInfo?.url && dictDataMap.has(dictInfo.url)) {
@@ -117,9 +123,14 @@ const DropdownExport: FC<DropdownProps> = ({ renderRecords }) => {
       setIsExporting(true);
 
       try {
-        const dictUrls = collectDictUrls(renderRecords);
+        const customDictionaries = await listCustomDictionaries();
+        const dictUrls = collectDictUrls(renderRecords, customDictionaries);
         const dictDataMap = await fetchDictDataMap(dictUrls);
-        const exportRows = buildExportRows(renderRecords, dictDataMap);
+        const exportRows = buildExportRows(
+          renderRecords,
+          dictDataMap,
+          customDictionaries
+        );
         const blob = await createExportBlob(exportRows, bookType);
         const fileName = `ErrorBook_${formatTimestamp(new Date())}.${bookType}`;
         const { saveAs } = await import("file-saver");

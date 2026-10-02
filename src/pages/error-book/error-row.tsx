@@ -1,4 +1,4 @@
-import { useSetAtom } from "jotai";
+import { useAtomValue, useSetAtom } from "jotai";
 import type { FC } from "react";
 import { useCallback } from "react";
 import {
@@ -7,8 +7,9 @@ import {
   TooltipProvider,
   TooltipTrigger,
 } from "@/components/ui/tooltip";
-import { idDictionaryMap } from "@/resources/dictionary";
+import { customDictionariesAtom } from "@/store";
 import { recordErrorBookAction } from "@/utils";
+import { findDictionary } from "@/utils/dictionary-lookup";
 import DeleteIcon from "~icons/weui/delete-filled";
 import useGetWord from "./hooks/use-get-word";
 import { LoadingWordUI } from "./loading-word-ui";
@@ -22,7 +23,8 @@ interface IErrorRowProps {
 
 const ErrorRow: FC<IErrorRowProps> = ({ record, onDelete }) => {
   const setCurrentRowDetail = useSetAtom(currentRowDetailAtom);
-  const dictInfo = idDictionaryMap[record.dict];
+  const customDictionaries = useAtomValue(customDictionariesAtom);
+  const dictInfo = findDictionary(record.dict, customDictionaries);
   const { word, isLoading, hasError } = useGetWord(record.word, dictInfo);
 
   const onClick = useCallback(() => {

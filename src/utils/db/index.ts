@@ -9,6 +9,7 @@ import {
   currentDictIdAtom,
   isSessionPracticeAtom,
 } from "@/store";
+import type { ICustomList } from "./custom-lists";
 import type {
   IChapterRecord,
   IReviewRecord,
@@ -28,6 +29,7 @@ class RecordDB extends Dexie {
   revisionDictRecords!: Table<IRevisionDictRecord, number>;
   revisionWordRecords!: Table<IWordRecord, number>;
   wordMastery!: Table<IWordMastery, number>;
+  customLists!: Table<ICustomList, string>;
 
   constructor() {
     super("RecordDB");
@@ -46,6 +48,13 @@ class RecordDB extends Dexie {
     });
     this.version(4).stores({
       chapterRecords: "++id,timeStamp,dict,chapter,time,[dict+chapter]",
+      reviewRecords: "++id,dict,createTime,isFinished",
+      wordMastery: "++id,dict,word,due,state,lapses,[dict+word]",
+      wordRecords: "++id,word,timeStamp,dict,chapter,wrongCount,[dict+chapter]",
+    });
+    this.version(5).stores({
+      chapterRecords: "++id,timeStamp,dict,chapter,time,[dict+chapter]",
+      customLists: "id,name,updatedAt",
       reviewRecords: "++id,dict,createTime,isFinished",
       wordMastery: "++id,dict,word,due,state,lapses,[dict+word]",
       wordRecords: "++id,word,timeStamp,dict,chapter,wrongCount,[dict+chapter]",

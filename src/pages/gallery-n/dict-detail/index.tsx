@@ -1,6 +1,6 @@
 import { useAtom, useSetAtom } from "jotai";
 import type React from "react";
-import { useCallback, useMemo, useRef, useState } from "react";
+import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
@@ -15,6 +15,7 @@ import {
   todaySessionAtom,
 } from "@/store";
 import type { Dictionary } from "@/typings";
+import { isCustomDictId } from "@/utils/db/custom-lists";
 import range from "@/utils/range";
 import IconMagnifyingGlass from "~icons/heroicons/magnifying-glass-solid";
 import IconXMark from "~icons/heroicons/x-mark-solid";
@@ -23,6 +24,7 @@ import MajesticonsPaperFoldTextLine from "~icons/majesticons/paper-fold-text-lin
 import PajamasReviewList from "~icons/pajamas/review-list";
 import { useDeleteWordRecord } from "../../../utils/db";
 import Chapter from "../chapter";
+import CustomListActions from "../custom-list-actions";
 import { ErrorTable } from "../error-table";
 import { getRowsFromErrorWordData } from "../error-table/columns";
 import { useChapterExerciseCounts } from "../hooks/use-chapter-stats";
@@ -46,12 +48,20 @@ const ChapterStatus = {
 type ChapterStatus = (typeof ChapterStatus)[keyof typeof ChapterStatus];
 
 export default function DictDetail({
-  dictionary: dict,
+  dictionary: initialDict,
+  onDeleted,
   onStartPractice,
 }: {
   dictionary: Dictionary;
+  onDeleted?: () => void;
   onStartPractice?: () => void;
 }) {
+  const [dict, setDict] = useState(initialDict);
+
+  useEffect(() => {
+    setDict(initialDict);
+  }, [initialDict]);
+
   const [currentChapter, setCurrentChapter] = useAtom(currentChapterAtom);
   const [currentDictId, setCurrentDictId] = useAtom(currentDictIdAtom);
   const [curTab, setCurTab] = useState<Tab>(Tab.Chapters);
@@ -239,6 +249,15 @@ export default function DictDetail({
             </p>
           ) : null}
           <p className="mt-1 text-sm sm:text-base">{dict.description}</p>
+          {isCustomDictId(dict.id) ? (
+            <div className="mt-3">
+              <CustomListActions
+                dictionary={dict}
+                onDeleted={onDeleted}
+                onUpdated={setDict}
+              />
+            </div>
+          ) : null}
         </div>
         <ToggleGroup
           className="flex-wrap justify-start"

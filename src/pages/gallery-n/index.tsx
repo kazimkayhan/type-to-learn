@@ -10,6 +10,7 @@ import IconMagnifyingGlass from "~icons/heroicons/magnifying-glass-solid";
 import IconXMark from "~icons/heroicons/x-mark-solid";
 import IconInfo from "~icons/ic/outline-info";
 import DictionaryGroup from "./category-dicts";
+import CustomListsSection from "./custom-lists-section";
 import DictRequest from "./dict-request";
 
 function matchesDictionary(dict: Dictionary, query: string): boolean {
@@ -123,6 +124,7 @@ export default function GalleryPage() {
         className="flex w-full min-w-0 flex-col gap-10 sm:gap-14"
         id="dictionary-results"
       >
+        {normalizedQuery ? null : <CustomListsSection />}
         {groupedByCategoryAndTag.length > 0 ? (
           groupedByCategoryAndTag.map(([category, groupeByTag]) => (
             <DictionaryGroup

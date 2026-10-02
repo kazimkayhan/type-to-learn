@@ -45,6 +45,10 @@ export default function DictionaryComponent({ dictionary }: Props) {
     setOpen(false);
   }, []);
 
+  const onDeleted = useCallback(() => {
+    setOpen(false);
+  }, []);
+
   return (
     <Dialog onOpenChange={setOpen} open={open}>
       <DialogTrigger
@@ -103,7 +107,11 @@ export default function DictionaryComponent({ dictionary }: Props) {
         </div>
       </DialogTrigger>
       <DialogContent className="max-h-[90dvh] overflow-y-auto p-6 sm:max-w-7xl">
-        <DictDetail dictionary={dictionary} onStartPractice={onStartPractice} />
+        <DictDetail
+          dictionary={dictionary}
+          onDeleted={onDeleted}
+          onStartPractice={onStartPractice}
+        />
       </DialogContent>
     </Dialog>
   );
