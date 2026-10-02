@@ -56,6 +56,11 @@ function wordFromFields(fields: string[]): Word | null {
   return { name, trans };
 }
 
+/** Parse a single Anki `notes.flds` string into a practice Word. */
+export function wordFromAnkiFieldsString(flds: string): Word | null {
+  return wordFromFields(fieldsFromNote(flds));
+}
+
 function pickDeckName(decksJson: string | undefined, fallback: string): string {
   if (!decksJson) {
     return fallback;
