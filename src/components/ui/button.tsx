@@ -31,6 +31,8 @@ const buttonVariants = cva(
           "border border-input bg-background shadow-sm hover:bg-accent hover:text-accent-foreground",
         secondary:
           "bg-secondary text-secondary-foreground shadow-sm hover:bg-secondary/80",
+        warning:
+          "bg-warning text-warning-foreground shadow hover:bg-warning/90",
       },
     },
   }

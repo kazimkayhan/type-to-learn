@@ -17,6 +17,8 @@ import Setting from "../setting";
 import SoundSwitcher from "../sound-switcher";
 import WordDictationSwitcher from "../word-dictation-switcher";
 
+// Custom hover Tooltip is intentional here: Base UI tooltips can steal focus
+// during active typing practice. Keep this pattern for the practice toolbar.
 export default function Switcher() {
   const [isOpenDarkMode, setIsOpenDarkMode] = useAtom(isOpenDarkModeAtom);
   const { state, dispatch } = useContext(TypingContext) ?? {};
@@ -42,66 +44,80 @@ export default function Switcher() {
 
   return (
     <div className="inline-flex flex-wrap items-center justify-center gap-1 sm:gap-1.5">
-      <Tooltip content="Sound settings">
-        <SoundSwitcher />
-      </Tooltip>
+      <div
+        aria-label="Practice options"
+        className="inline-flex flex-wrap items-center gap-1 sm:gap-1.5"
+        role="group"
+      >
+        <Tooltip content="Sound settings">
+          <SoundSwitcher />
+        </Tooltip>
 
-      <Tooltip content="Set word loop count">
-        <LoopWordSwitcher />
-      </Tooltip>
+        <Tooltip content="Set word loop count">
+          <LoopWordSwitcher />
+        </Tooltip>
 
-      <Tooltip content={`Toggle dictation mode (${CTRL} + V)`}>
-        <WordDictationSwitcher />
-      </Tooltip>
-      <Tooltip content={`Toggle definition display (${CTRL} + Shift + V)`}>
-        <button
-          aria-label={`Toggle definition display (${CTRL} + Shift + V)`}
-          className={`nav-icon-btn ${state?.isTransVisible ? "text-primary" : "text-muted-foreground"}`}
-          onClick={(e) => {
-            changeTransVisibleState();
-            e.currentTarget.blur();
-          }}
-          type="button"
-        >
-          {state?.isTransVisible ? (
-            <IconLanguage className="icon" />
-          ) : (
-            <IconLanguageOff className="icon" />
-          )}
-        </button>
-      </Tooltip>
+        <Tooltip content={`Toggle dictation mode (${CTRL} + V)`}>
+          <WordDictationSwitcher />
+        </Tooltip>
+        <Tooltip content={`Toggle definition display (${CTRL} + Shift + V)`}>
+          <button
+            aria-label={`Toggle definition display (${CTRL} + Shift + V)`}
+            className={`nav-icon-btn ${state?.isTransVisible ? "text-primary" : "text-muted-foreground"}`}
+            onClick={(e) => {
+              changeTransVisibleState();
+              e.currentTarget.blur();
+            }}
+            type="button"
+          >
+            {state?.isTransVisible ? (
+              <IconLanguage className="icon" />
+            ) : (
+              <IconLanguageOff className="icon" />
+            )}
+          </button>
+        </Tooltip>
+      </div>
 
-      <Tooltip content="Error Book">
-        <ErrorBookButton />
-      </Tooltip>
+      <span aria-hidden className="toolbar-divider" />
 
-      <Tooltip content="View statistics">
-        <AnalysisButton />
-      </Tooltip>
+      <div
+        aria-label="Navigation and appearance"
+        className="inline-flex flex-wrap items-center gap-1 sm:gap-1.5"
+        role="group"
+      >
+        <Tooltip content="Error Book">
+          <ErrorBookButton />
+        </Tooltip>
 
-      <Tooltip content="Toggle dark mode">
-        <button
-          aria-label="Toggle dark mode"
-          className="nav-icon-btn"
-          onClick={(e) => {
-            changeDarkModeState();
-            e.currentTarget.blur();
-          }}
-          type="button"
-        >
-          {isOpenDarkMode ? (
-            <IconMoon className="icon" />
-          ) : (
-            <IconSun className="icon" />
-          )}
-        </button>
-      </Tooltip>
-      <Tooltip content="Hand position guide">
-        <HandPositionIllustration />
-      </Tooltip>
-      <Tooltip content="Settings">
-        <Setting />
-      </Tooltip>
+        <Tooltip content="View statistics">
+          <AnalysisButton />
+        </Tooltip>
+
+        <Tooltip content="Toggle dark mode">
+          <button
+            aria-label="Toggle dark mode"
+            className="nav-icon-btn"
+            onClick={(e) => {
+              changeDarkModeState();
+              e.currentTarget.blur();
+            }}
+            type="button"
+          >
+            {isOpenDarkMode ? (
+              <IconMoon className="icon" />
+            ) : (
+              <IconSun className="icon" />
+            )}
+          </button>
+        </Tooltip>
+        <Tooltip content="Hand position guide">
+          <HandPositionIllustration />
+        </Tooltip>
+        <Tooltip content="Settings">
+          <Setting />
+        </Tooltip>
+      </div>
     </div>
   );
 }

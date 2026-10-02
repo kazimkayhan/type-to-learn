@@ -1,5 +1,6 @@
 import { useAtom } from "jotai";
 import { useCallback } from "react";
+import { Button } from "@/components/ui/button";
 import { ScrollArea, ScrollBar } from "@/components/ui/scroll-area";
 import { Slider } from "@/components/ui/slider";
 import { defaultFontSizeConfig } from "@/constants";
@@ -84,14 +85,15 @@ export default function ViewSetting() {
               </div>
             </div>
           </div>
-          <button
-            className="my-btn-primary ml-4 disabled:bg-muted disabled:text-muted-foreground"
+          <Button
+            className="ml-4"
             onClick={onResetFontSize}
             title="Reset font settings"
             type="button"
+            variant="secondary"
           >
             Reset font settings
-          </button>
+          </Button>
         </div>
       </div>
       <ScrollBar

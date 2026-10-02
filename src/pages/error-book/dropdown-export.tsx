@@ -1,6 +1,7 @@
 import type { FC } from "react";
 import { useCallback, useState } from "react";
 import { toast } from "sonner";
+import { Button } from "@/components/ui/button";
 import {
   DropdownMenu,
   DropdownMenuContent,
@@ -146,8 +147,8 @@ const DropdownExport: FC<DropdownProps> = ({ renderRecords }) => {
       <DropdownMenu>
         <DropdownMenuTrigger
           render={
-            <button
-              className="my-btn-primary h-8 shadow transition hover:opacity-90 disabled:opacity-50"
+            <Button
+              className="h-8 shadow"
               disabled={isExporting}
               type="button"
             />

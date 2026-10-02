@@ -10,6 +10,7 @@ import shareImage7 from "@/assets/share-pic/image-7.png";
 import shareImage8 from "@/assets/share-pic/image-8.png";
 import shareImage9 from "@/assets/share-pic/image-9.png";
 import keyboardSvg from "@/assets/share-pic/keyBackground.svg";
+import { Button } from "@/components/ui/button";
 import { Dialog, DialogContent } from "@/components/ui/dialog";
 import { currentChapterAtom, currentDictInfoAtom } from "@/store";
 import { recordShareAction } from "@/utils";
@@ -195,15 +196,15 @@ export default function SharePicDialog({
                 </div>
               )}
             </div>
-            <button
-              className="my-btn-primary mt-8 h-10 sm:mt-10 sm:mr-9"
+            <Button
+              className="mt-8 h-10 sm:mt-10 sm:mr-9"
               onClick={handleDownload}
               ref={dialogFocusRef}
               title="Save"
               type="button"
             >
               Save
-            </button>
+            </Button>
           </div>
         </DialogContent>
       </Dialog>
@@ -212,11 +213,11 @@ export default function SharePicDialog({
         <div className="box-content w-85 bg-white p-4" ref={imageRef}>
           <div
             className="relative flex h-112 w-75 flex-col items-start justify-start rounded-xl shadow-lg"
-            style={{ backgroundColor: "#F8F8FF" }}
+            style={{ backgroundColor: "var(--card)" }}
           >
             <div className="w-full">
               <KeyboardPanel description={promote.word} />
-              <div className="text-center text-gray-500 text-xs">
+              <div className="text-center text-muted-foreground text-xs">
                 {promote.sentence}
               </div>
               <div className="mx-4 mt-6 flex rounded-xl bg-white px-4 py-3 opacity-50 shadow-xl">

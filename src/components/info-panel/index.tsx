@@ -2,10 +2,10 @@ import classNames from "classnames";
 import type React from "react";
 import type { ElementType, SVGProps } from "react";
 import { useCallback } from "react";
+import { Button } from "@/components/ui/button";
 import {
   Dialog,
   DialogContent,
-  DialogDescription,
   DialogFooter,
   DialogHeader,
   DialogTitle,
@@ -58,17 +58,18 @@ const InfoPanel: React.FC<InfoPanelProps> = ({
             {title}
           </DialogTitle>
         </DialogHeader>
-        <DialogDescription asChild>
-          <div className="mt-2">{children}</div>
-        </DialogDescription>
+        <div className="mt-2 text-muted-foreground text-sm">{children}</div>
         <DialogFooter className="bg-muted sm:flex sm:flex-row-reverse">
-          <button
-            className={classNames(buttonClassName, "my-btn-info-panel")}
+          <Button
+            className={classNames(
+              buttonClassName,
+              "mt-3 w-full sm:mt-0 sm:ml-3 sm:w-auto"
+            )}
             onClick={onClose}
             type="button"
           >
             Close
-          </button>
+          </Button>
         </DialogFooter>
       </DialogContent>
     </Dialog>

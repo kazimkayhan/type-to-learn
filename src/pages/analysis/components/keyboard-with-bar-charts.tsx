@@ -14,7 +14,6 @@ import { useEffect, useRef } from "react";
 import useWindowSize from "@/hooks/use-window-size";
 import { isOpenDarkModeAtom } from "@/store";
 import Keyboard from "./keyboard";
-import purple from "./purple.json";
 
 echarts.use([
   BarChart,
@@ -26,7 +25,6 @@ echarts.use([
   UniversalTransition,
   VisualMapComponent,
 ]);
-echarts.registerTheme("purple", purple);
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
 echarts.registerMap("Keyboard", Keyboard as any);
 
@@ -93,7 +91,7 @@ const KeyboardWithBarCharts: FC<KeyboardWithBarChartsProps> = ({
     let chart = echarts.getInstanceByDom(chartRef.current);
     chart?.dispose();
 
-    chart = echarts.init(chartRef.current, isOpenDarkMode ? "purple" : "light");
+    chart = echarts.init(chartRef.current, isOpenDarkMode ? "dark" : undefined);
 
     const mapOption = {
       series: [

@@ -27,6 +27,10 @@
   --color-accent-foreground: var(--accent-foreground);
   --color-destructive: var(--destructive);
   --color-destructive-foreground: var(--destructive-foreground);
+  --color-success: var(--success);
+  --color-success-foreground: var(--success-foreground);
+  --color-warning: var(--warning);
+  --color-warning-foreground: var(--warning-foreground);
   --color-border: var(--border);
   --color-input: var(--input);
   --color-ring: var(--ring);
@@ -43,6 +47,11 @@
   --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
   --color-sidebar-border: var(--sidebar-border);
   --color-sidebar-ring: var(--sidebar-ring);
+
+  --font-sans:
+    "Plus Jakarta Sans", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
+    "Helvetica Neue", sans-serif;
 
   /* Custom Padding */
   --spacing-0\.8: 0.2rem;
@@ -105,6 +114,10 @@
     --accent-foreground: oklch(0.391 0.09 240.876);
     --destructive: oklch(0.577 0.245 27.325);
     --destructive-foreground: oklch(0.985 0.005 236.62);
+    --success: oklch(0.55 0.15 155);
+    --success-foreground: oklch(0.985 0.005 155);
+    --warning: oklch(0.72 0.16 65);
+    --warning-foreground: oklch(0.25 0.06 55);
     --border: oklch(0.89 0.035 233.5);
     --input: oklch(0.89 0.035 233.5);
     --ring: oklch(0.685 0.169 237.323);
@@ -114,6 +127,9 @@
     --chart-4: oklch(0.588 0.158 241.966);
     --chart-5: oklch(0.5 0.134 242.749);
     --radius: 0.625rem;
+    --shadow-card:
+      0 16px 32px oklch(0.72 0.06 232 / 0.06),
+      0 4px 10px oklch(0.5 0.04 236 / 0.04);
     --sidebar: oklch(0.96 0.02 234.5);
     --sidebar-foreground: oklch(0.293 0.066 243.157);
     --sidebar-primary: oklch(0.685 0.169 237.323);
@@ -142,6 +158,10 @@
     --accent-foreground: oklch(0.94 0.02 234.5);
     --destructive: oklch(0.704 0.191 22.216);
     --destructive-foreground: oklch(0.19 0.035 240);
+    --success: oklch(0.72 0.14 155);
+    --success-foreground: oklch(0.19 0.035 155);
+    --warning: oklch(0.78 0.14 70);
+    --warning-foreground: oklch(0.22 0.05 55);
     --border: oklch(1 0 0 / 12%);
     --input: oklch(1 0 0 / 16%);
     --ring: oklch(0.746 0.16 232.661);
@@ -150,6 +170,8 @@
     --chart-3: oklch(0.685 0.169 237.323);
     --chart-4: oklch(0.588 0.158 241.966);
     --chart-5: oklch(0.5 0.134 242.749);
+    --shadow-card:
+      0 12px 28px oklch(0 0 0 / 0.35), 0 2px 8px oklch(0 0 0 / 0.25);
     --sidebar: oklch(0.22 0.04 240);
     --sidebar-foreground: oklch(0.94 0.02 234.5);
     --sidebar-primary: oklch(0.746 0.16 232.661);
@@ -179,14 +201,12 @@ body {
   max-width: 100%;
   margin: 0;
   overflow-x: clip;
-  font-family:
-    -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu",
-    "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  font-family: var(--font-sans);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   touch-action: manipulation;
   user-select: none;
-  @apply bg-background transition-colors duration-300;
+  @apply bg-background transition-colors duration-200;
 }
 
 code {
@@ -226,16 +246,7 @@ body,
 }
 
 .my-card {
-  /* Light: faint sky lift. Dark: neutral depth only (no indigo/purple wash). */
-  box-shadow:
-    0 16px 32px oklch(0.72 0.06 232 / 0.06),
-    0 4px 10px oklch(0.5 0.04 236 / 0.04);
-}
-
-.dark .my-card {
-  box-shadow:
-    0 12px 28px oklch(0 0 0 / 0.35),
-    0 2px 8px oklch(0 0 0 / 0.25);
+  box-shadow: var(--shadow-card);
 }
 
 /* Well, TailwindCSS does't have `text-shadow` classes. */
@@ -270,15 +281,19 @@ body,
   }
 
   .nav-icon-btn {
-    @apply inline-flex size-11 shrink-0 items-center justify-center rounded-md text-primary outline-none transition-colors duration-300 ease-in-out hover:bg-primary hover:text-primary-foreground focus-visible:ring-2 focus-visible:ring-ring sm:size-8;
+    @apply inline-flex size-11 shrink-0 cursor-pointer items-center justify-center rounded-md text-primary outline-none transition-colors duration-200 ease-in-out hover:bg-primary hover:text-primary-foreground focus-visible:ring-2 focus-visible:ring-ring sm:size-8;
   }
 
   .nav-select-btn {
     @apply inline-flex h-11 max-w-[11rem] shrink-0 cursor-pointer items-center gap-1.5 truncate rounded-md border border-border bg-muted/60 px-2.5 font-medium text-foreground text-sm outline-none transition-colors duration-200 hover:border-primary/50 hover:bg-accent hover:text-accent-foreground focus-visible:ring-2 focus-visible:ring-ring data-popup-open:border-primary data-popup-open:bg-primary data-popup-open:text-primary-foreground sm:h-8 sm:max-w-[16rem] sm:px-3 sm:text-base;
   }
 
+  .toolbar-divider {
+    @apply mx-0.5 hidden h-6 w-px shrink-0 bg-border sm:mx-1 sm:block;
+  }
+
   .word-chip {
-    @apply flex h-10 w-auto cursor-pointer flex-row items-center justify-center rounded-md border-2 border-primary/60 border-solid bg-card px-2 py-0.5 transition-colors duration-100 hover:bg-accent md:h-12 md:px-5 md:py-1;
+    @apply flex h-10 w-auto cursor-pointer flex-row items-center justify-center rounded-md border-2 border-primary/60 border-solid bg-card px-2 py-0.5 transition-colors duration-150 hover:bg-accent focus-visible:ring-2 focus-visible:ring-ring md:h-12 md:px-5 md:py-1;
   }
 
   .word-chip > span {
@@ -289,14 +304,6 @@ body,
     @apply pointer-events-none flex items-center justify-center whitespace-nowrap rounded-lg bg-popover px-2 py-1 text-popover-foreground text-xs shadow-md;
   }
 
-  .my-btn-primary {
-    @apply flex items-center justify-center rounded-lg bg-primary px-6 py-1 text-lg text-primary-foreground hover:opacity-90 focus:outline-none;
-  }
-
-  .my-btn-info-panel {
-    @apply mt-3 inline-flex w-full justify-center rounded-md bg-primary px-3 py-2 text-primary-foreground text-sm font-semibold shadow-sm transition-colors focus:outline-none sm:ml-3 sm:mt-0 sm:w-auto sm:text-sm;
-  }
-
   .tooltip {
     @apply whitespace-nowrap rounded-lg bg-popover px-2 py-1 text-popover-foreground text-xs shadow-md;
   }
@@ -304,9 +311,14 @@ body,
 
 .gradient-text {
   color: transparent;
-  background-image: linear-gradient(90deg, #f66, #f90);
+  background-image: linear-gradient(
+    90deg,
+    var(--primary),
+    oklch(0.75 0.14 220),
+    var(--primary)
+  );
   background-clip: text;
-  animation: gradient-text-hue 5s linear infinite;
+  animation: gradient-text-hue 8s linear infinite;
 }
 
 @keyframes gradient-text-hue {
@@ -315,6 +327,23 @@ body,
   }
   to {
     filter: hue-rotate(-1turn);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+
+  .gradient-text {
+    color: var(--primary);
+    background-image: none;
+    animation: none;
   }
 }
 

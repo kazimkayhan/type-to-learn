@@ -16,21 +16,21 @@ export const FriendLinks: React.FC = () => {
 
   return (
     <Layout fillViewport={false}>
-      <div className="flex w-full flex-1 flex-col items-center px-4 pt-12">
-        <div className="flex w-full max-w-md flex-grow flex-col items-center">
+      <div className="mx-auto flex w-full max-w-md flex-1 flex-col items-center px-4 pt-10 sm:pt-12">
+        <div className="flex w-full flex-grow flex-col items-center">
           <Link
-            className="self-start text-primary text-sm hover:underline"
+            className="self-start rounded-sm font-medium text-primary text-sm transition-colors hover:text-primary/80 focus-visible:ring-2 focus-visible:ring-ring"
             to="/"
           >
             Back to practice
           </Link>
-          <h1 className="mt-5 text-center font-bold text-foreground text-lg">
+          <h1 className="mt-6 text-pretty text-center font-semibold text-2xl text-foreground sm:text-3xl">
             Related links
           </h1>
-          <div className="links flex w-full flex-col items-center gap-y-8 py-5">
+          <div className="mt-6 flex w-full flex-col items-center gap-y-3">
             {links.map((link) => (
               <a
-                className="linkItem flex w-full items-center overflow-hidden rounded-lg p-2 text-foreground hover:bg-accent"
+                className="flex w-full cursor-pointer items-center overflow-hidden rounded-lg p-3 text-foreground transition-colors duration-150 hover:bg-accent focus-visible:ring-2 focus-visible:ring-ring"
                 href={link.href}
                 key={link.href}
                 rel="noopener noreferrer"
@@ -47,8 +47,8 @@ export const FriendLinks: React.FC = () => {
                   </AvatarFallback>
                 </Avatar>
                 <div className="min-w-0 flex-1">
-                  <div className="pb-1 font-bold text-sm">{link.title}</div>
-                  <div className="text-muted-foreground text-xs">
+                  <div className="pb-1 font-semibold text-sm">{link.title}</div>
+                  <div className="text-muted-foreground text-xs leading-relaxed">
                     {link.description}
                   </div>
                 </div>
@@ -56,10 +56,10 @@ export const FriendLinks: React.FC = () => {
             ))}
           </div>
         </div>
-        <div className="mt-auto pb-5 text-center text-muted-foreground text-sm">
+        <div className="mt-auto pb-6 text-center text-muted-foreground text-sm">
           Want to add a link? Contact{" "}
           <a
-            className="text-primary hover:underline"
+            className="rounded-sm text-primary transition-colors hover:text-primary/80 focus-visible:ring-2 focus-visible:ring-ring"
             href={`mailto:${SITE.email}`}
           >
             {SITE.email}

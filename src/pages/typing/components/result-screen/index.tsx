@@ -3,6 +3,7 @@ import { useCallback, useEffect, useMemo } from "react";
 import { useHotkeys } from "react-hotkeys-hook";
 import { useNavigate } from "react-router-dom";
 import Tooltip from "@/components/tooltip";
+import { Button } from "@/components/ui/button";
 import { SITE } from "@/constants";
 import {
   currentChapterAtom,
@@ -212,17 +213,17 @@ const ResultScreen = () => {
     <div className="fixed inset-0 z-30 overflow-y-auto">
       <div className="absolute inset-0 bg-foreground/40" />
       <div className="flex min-h-dvh items-center justify-center p-3 sm:p-4">
-        <div className="relative my-card flex max-h-[92dvh] w-[min(90vw,72rem)] max-w-6xl flex-col overflow-y-auto rounded-3xl bg-card px-4 pt-8 pb-8 shadow-lg sm:pt-10 sm:pr-5 sm:pb-14 sm:pl-10 md:w-4/5 lg:w-3/5">
+        <div className="relative my-card flex max-h-[92dvh] w-[min(90vw,72rem)] max-w-6xl flex-col overflow-y-auto rounded-3xl bg-card px-4 pt-8 pb-8 sm:pt-10 sm:pr-5 sm:pb-14 sm:pl-10 md:w-4/5 lg:w-3/5">
           <div className="text-center font-normal font-sans text-foreground text-xl md:text-2xl">
             {`${currentDictInfo.name} ${isReviewMode ? "Error Review" : `Chapter ${currentChapter + 1}`}`}
           </div>
           <button
             aria-label="Close result"
-            className="absolute top-5 right-7 rounded p-1 hover:bg-accent focus-visible:ring-2 focus-visible:ring-ring"
+            className="absolute top-5 right-7 cursor-pointer rounded-lg p-1.5 text-muted-foreground hover:bg-accent hover:text-foreground focus-visible:ring-2 focus-visible:ring-ring"
             onClick={exitButtonHandler}
             type="button"
           >
-            <IconX className="text-muted-foreground" />
+            <IconX className="size-5" />
           </button>
           <div className="mt-6 flex flex-col gap-4 overflow-hidden sm:mt-10 sm:flex-row sm:gap-2">
             <div className="flex flex-shrink-0 flex-grow-0 flex-row justify-center gap-3 px-2 sm:flex-col sm:px-4 md:px-2 lg:px-4">
@@ -270,7 +271,7 @@ const ResultScreen = () => {
                 target="_blank"
               >
                 <IconGithub
-                  className="text-muted-foreground hover:text-foreground focus:outline-none"
+                  className="text-muted-foreground transition-colors hover:text-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring"
                   fontSize={16}
                 />
               </a>
@@ -280,51 +281,51 @@ const ResultScreen = () => {
             {!isReviewMode && (
               <>
                 <Tooltip content="Shortcut: shift + enter">
-                  <button
-                    className="my-btn-primary h-12 w-full border-2 border-border border-solid bg-card text-base text-foreground hover:bg-accent sm:w-auto"
+                  <Button
+                    className="h-12 w-full text-base sm:w-auto"
                     onClick={dictationButtonHandler}
                     title="Dictate this chapter"
                     type="button"
+                    variant="outline"
                   >
                     Dictate this chapter
-                  </button>
+                  </Button>
                 </Tooltip>
                 <Tooltip content="Shortcut: space">
-                  <button
-                    className="my-btn-primary h-12 w-full border-2 border-border border-solid bg-card text-base text-foreground hover:bg-accent sm:w-auto"
+                  <Button
+                    className="h-12 w-full text-base sm:w-auto"
                     onClick={repeatButtonHandler}
                     title="Repeat this chapter"
                     type="button"
+                    variant="outline"
                   >
                     Repeat this chapter
-                  </button>
+                  </Button>
                 </Tooltip>
               </>
             )}
             {!(isLastChapter || isReviewMode) && (
               <Tooltip content="Shortcut: enter">
-                <button
-                  className={
-                    "my-btn-primary h-12 w-full font-bold text-base sm:w-auto"
-                  }
+                <Button
+                  className="h-12 w-full font-bold text-base sm:w-auto"
                   onClick={nextButtonHandler}
                   title="Next chapter"
                   type="button"
                 >
                   Next chapter
-                </button>
+                </Button>
               </Tooltip>
             )}
 
             {Boolean(isReviewMode) && (
-              <button
-                className="my-btn-primary h-12 w-full font-bold text-base sm:w-auto"
+              <Button
+                className="h-12 w-full font-bold text-base sm:w-auto"
                 onClick={onNavigateToGallery}
                 title="Practice other chapters"
                 type="button"
               >
                 Practice other chapters
-              </button>
+              </Button>
             )}
           </div>
         </div>

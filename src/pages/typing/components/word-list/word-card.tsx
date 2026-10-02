@@ -21,11 +21,19 @@ export default function WordCard({
 
   return (
     <div
-      className={`mb-2 flex cursor-pointer select-text items-center rounded-xl p-4 shadow focus:outline-none ${
+      className={`mb-2 flex cursor-pointer select-text items-center rounded-xl p-4 shadow-[var(--shadow-card)] outline-none transition-colors focus-visible:ring-2 focus-visible:ring-ring ${
         isActive ? "bg-accent" : "bg-card"
       }`}
       key={word.name}
       onClick={handlePlay}
+      onKeyDown={(event) => {
+        if (event.key === "Enter" || event.key === " ") {
+          event.preventDefault();
+          handlePlay();
+        }
+      }}
+      role="button"
+      tabIndex={0}
     >
       <div className="flex-1">
         <p className="select-all font-mono font-normal text-foreground text-xl leading-6">

@@ -49,7 +49,7 @@ export default function Chapter({
       {isPracticed && (
         <IconCheckCircle
           aria-label="Chapter practiced"
-          className="absolute top-2 right-2 h-5 w-5 text-green-500 dark:text-green-300"
+          className="absolute top-2 right-2 h-5 w-5 text-success"
         />
       )}
     </button>

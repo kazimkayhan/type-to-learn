@@ -11,9 +11,7 @@ import type { FC } from "react";
 import { useEffect, useRef } from "react";
 import useWindowSize from "@/hooks/use-window-size";
 import { isOpenDarkModeAtom } from "@/store";
-import purple from "./purple.json";
 
-echarts.registerTheme("purple", purple);
 echarts.use([
   GridComponent,
   TitleComponent,
@@ -44,9 +42,10 @@ const LineCharts: FC<LineChartsProps> = ({ data, title, suffix, name }) => {
     let chart = echarts.getInstanceByDom(chartRef.current);
     chart?.dispose();
 
-    chart = echarts.init(chartRef.current, isOpenDarkMode ? "purple" : "light");
+    chart = echarts.init(chartRef.current, isOpenDarkMode ? "dark" : undefined);
 
     const option = {
+      color: ["#0ea5e9"],
       grid: {
         bottom: "10%",
         left: "10%",
@@ -57,6 +56,8 @@ const LineCharts: FC<LineChartsProps> = ({ data, title, suffix, name }) => {
         {
           data,
           emphasis: { focus: "series" },
+          itemStyle: { color: isOpenDarkMode ? "#38bdf8" : "#0ea5e9" },
+          lineStyle: { color: isOpenDarkMode ? "#38bdf8" : "#0ea5e9" },
           name,
           smooth: true,
           type: "line",

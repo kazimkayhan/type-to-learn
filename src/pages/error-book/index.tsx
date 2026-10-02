@@ -1,10 +1,9 @@
 import { useAtomValue } from "jotai";
 import { useCallback, useEffect, useMemo, useState } from "react";
-import { useNavigate } from "react-router-dom";
+import PageShell from "@/components/page-shell";
 import { ScrollArea, ScrollBar } from "@/components/ui/scroll-area";
 import { db, useDeleteWordRecord } from "@/utils/db";
 import type { WordRecord } from "@/utils/db/record";
-import IconX from "~icons/tabler/x";
 import DropdownExport from "./dropdown-export";
 import ErrorRow from "./error-row";
 import type { ISortType } from "./head-wrong-number";
@@ -24,14 +23,9 @@ export function ErrorBook() {
     [groupedRecords.length]
   );
   const [sortType, setSortType] = useState<ISortType>("asc");
-  const navigate = useNavigate();
   const currentRowDetail = useAtomValue(currentRowDetailAtom);
   const { deleteWordRecord } = useDeleteWordRecord();
   const [reload, setReload] = useState(false);
-
-  const onBack = useCallback(() => {
-    navigate("/");
-  }, [navigate]);
 
   const setPage = useCallback(
     (page: number) => {
@@ -118,29 +112,16 @@ export function ErrorBook() {
 
   return (
     <>
-      <div
-        className={`relative flex h-dvh w-full flex-col items-center pb-4 ease-in ${currentRowDetail && "blur-sm"}`}
+      <PageShell
+        className={currentRowDetail ? "blur-sm" : undefined}
+        closeLabel="Close Error Book"
+        contentClassName="items-center"
+        subtitle="Mistakes from practice. Click a word for details."
+        title="Error Book"
       >
-        <div className="mt-4 flex w-full items-start justify-between gap-3 px-4 sm:px-8">
-          <div className="min-w-0">
-            <h1 className="font-medium text-foreground text-lg">Error Book</h1>
-            <p className="mt-0.5 text-muted-foreground text-sm">
-              Mistakes from practice. Click a word for details.
-            </p>
-          </div>
-          <button
-            aria-label="Close Error Book"
-            className="rounded p-1 text-muted-foreground hover:bg-accent focus-visible:ring-2 focus-visible:ring-ring"
-            onClick={onBack}
-            type="button"
-          >
-            <IconX className="h-7 w-7" />
-          </button>
-        </div>
-
-        <div className="flex w-full flex-1 select-text items-start justify-center overflow-hidden px-3 sm:px-0">
-          <div className="flex h-full w-full flex-col pt-4 sm:w-5/6 sm:pt-10">
-            <div className="hidden w-full items-center gap-4 rounded-lg bg-card px-6 py-4 text-base text-foreground shadow-lg md:grid md:grid-cols-[minmax(6.5rem,1fr)_minmax(0,2.5fr)_6.5rem_minmax(7rem,1fr)_auto]">
+        <div className="flex w-full flex-1 select-text items-start justify-center overflow-hidden">
+          <div className="flex h-full w-full flex-col sm:w-5/6">
+            <div className="hidden w-full items-center gap-4 rounded-lg bg-card px-6 py-4 text-base text-foreground shadow-[var(--shadow-card)] md:grid md:grid-cols-[minmax(6.5rem,1fr)_minmax(0,2.5fr)_6.5rem_minmax(7rem,1fr)_auto]">
               <span>Word</span>
               <span>Definition</span>
               <HeadWrongNumber setSortType={setSort} sortType={sortType} />
@@ -195,7 +176,7 @@ export function ErrorBook() {
             totalPages={totalPages}
           />
         ) : null}
-      </div>
+      </PageShell>
       {currentRowDetail ? (
         <RowDetail
           allRecords={sortedRecords}

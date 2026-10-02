@@ -4,6 +4,7 @@ import { useCallback, useEffect, useRef, useState } from "react";
 import { useImmerReducer } from "use-immer";
 import Header from "@/components/header";
 import Tooltip from "@/components/tooltip";
+import { Button } from "@/components/ui/button";
 import { DEFAULT_DICT_ID } from "@/constants";
 import { idDictionaryMap } from "@/resources/dictionary";
 import {
@@ -152,27 +153,42 @@ const App: React.FC = () => {
       {state.isFinished && <ResultScreen />}
       <Layout>
         <Header>
-          <DictChapterButton />
-          <PronunciationSwitcher />
+          <div
+            aria-label="Dictionary and chapter"
+            className="inline-flex flex-wrap items-center justify-center gap-1 sm:gap-1.5"
+            role="group"
+          >
+            <DictChapterButton />
+            <PronunciationSwitcher />
+          </div>
+          <span aria-hidden className="toolbar-divider" />
           <Switcher />
-          <StartButton isLoading={isLoading} />
-          <Tooltip content="Skip this word">
-            <button
-              aria-hidden={!state.isShowSkip}
-              aria-label="Skip this word"
-              className={`${
-                state.isShowSkip
-                  ? "bg-orange-400"
-                  : "invisible w-0 bg-muted px-0 opacity-0"
-              } my-btn-primary min-h-11 px-3 text-sm transition-all duration-300 sm:min-h-0 sm:text-lg`}
-              disabled={!state.isShowSkip}
-              onClick={skipWord}
-              tabIndex={state.isShowSkip ? 0 : -1}
-              type="button"
-            >
-              Skip
-            </button>
-          </Tooltip>
+          <span aria-hidden className="toolbar-divider" />
+          <div
+            aria-label="Session controls"
+            className="inline-flex flex-wrap items-center justify-center gap-1.5"
+            role="group"
+          >
+            <StartButton isLoading={isLoading} />
+            <Tooltip content="Skip this word">
+              <Button
+                aria-hidden={!state.isShowSkip}
+                aria-label="Skip this word"
+                className={
+                  state.isShowSkip
+                    ? "h-11 min-w-[3.5rem] px-3 text-sm sm:h-8 sm:text-lg"
+                    : "invisible h-11 w-0 min-w-0 px-0 opacity-0 sm:h-8"
+                }
+                disabled={!state.isShowSkip}
+                onClick={skipWord}
+                tabIndex={state.isShowSkip ? 0 : -1}
+                type="button"
+                variant="warning"
+              >
+                Skip
+              </Button>
+            </Tooltip>
+          </div>
         </Header>
         <div className="container mx-auto flex h-full min-h-0 w-full flex-1 flex-col items-center justify-center gap-3 px-3 pb-3 sm:gap-4 sm:px-4 sm:pb-5">
           <div className="container relative mx-auto flex h-full min-h-0 w-full max-w-4xl flex-col items-center">

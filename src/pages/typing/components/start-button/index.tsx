@@ -2,6 +2,7 @@ import { useAtomValue } from "jotai";
 import { useCallback } from "react";
 import { useHotkeys } from "react-hotkeys-hook";
 import Tooltip from "@/components/tooltip";
+import { Button } from "@/components/ui/button";
 import { randomConfigAtom } from "@/store";
 import { TypingStateActionType, useTypingContext } from "../../store";
 
@@ -41,29 +42,29 @@ export default function StartButton({ isLoading }: { isLoading: boolean }) {
   return (
     <div className="inline-flex items-center justify-center gap-1.5">
       <Tooltip content={`${state.isTyping ? "Pause" : "Start"} (Enter)`}>
-        <button
+        <Button
           aria-label={state.isTyping ? "Pause" : "Start"}
-          className={`${
-            state.isTyping ? "bg-primary/80" : "bg-primary"
-          } my-btn-primary inline-flex h-11 min-w-[4.5rem] items-center justify-center px-4 text-sm shadow shadow-primary/40 sm:h-8 sm:w-20 sm:text-lg`}
+          className="h-11 min-w-[4.5rem] px-4 text-sm shadow shadow-primary/40 sm:h-8 sm:w-20 sm:text-lg"
           disabled={state.isFinished}
           onClick={onToggleIsTyping}
           type="button"
+          variant={state.isTyping ? "secondary" : "default"}
         >
           <span className="font-medium">
             {state.isTyping ? "Pause" : "Start"}
           </span>
-        </button>
+        </Button>
       </Tooltip>
       <Tooltip content="Restart this chapter">
-        <button
+        <Button
           aria-label="Restart"
-          className="my-btn-primary inline-flex h-11 min-w-[4.5rem] items-center justify-center bg-primary/80 px-3 text-sm sm:h-8 sm:w-18 sm:text-lg"
+          className="h-11 min-w-[4.5rem] px-3 text-sm sm:h-8 sm:w-18 sm:text-lg"
           onClick={onClickRestart}
           type="button"
+          variant="secondary"
         >
           Restart
-        </button>
+        </Button>
       </Tooltip>
     </div>
   );

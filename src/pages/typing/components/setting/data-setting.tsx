@@ -1,5 +1,6 @@
 import { useCallback, useState } from "react";
 import { toast } from "sonner";
+import { Button } from "@/components/ui/button";
 import {
   Progress,
   ProgressIndicator,
@@ -105,21 +106,21 @@ export default function DataSetting() {
               </div>
             )}
 
-            <button
-              className="my-btn-primary ml-4 disabled:bg-muted disabled:text-muted-foreground"
+            <Button
+              className="ml-4"
               disabled={isExporting}
               onClick={onClickExport}
               title="Export data"
               type="button"
             >
               Export data
-            </button>
+            </Button>
           </div>
           <div className={styles.section}>
             <span className={styles.sectionLabel}>Import data</span>
             <span className={styles.sectionDescription}>
               Please note: importing data will{" "}
-              <strong className="font-bold text-red-500 text-sm">
+              <strong className="font-bold text-destructive text-sm">
                 {" "}
                 completely overwrite{" "}
               </strong>{" "}
@@ -142,15 +143,15 @@ export default function DataSetting() {
               </div>
             )}
 
-            <button
-              className="my-btn-primary ml-4 disabled:bg-muted disabled:text-muted-foreground"
+            <Button
+              className="ml-4"
               disabled={isImporting}
               onClick={onClickImport}
               title="Import data"
               type="button"
             >
               Import data
-            </button>
+            </Button>
           </div>
         </div>
       </div>

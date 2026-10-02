@@ -7,12 +7,12 @@ export type LetterState = "normal" | "correct" | "wrong";
 
 const stateClassNameMap: Record<string, Record<LetterState, string>> = {
   false: {
-    correct: "text-green-600 dark:text-green-400",
+    correct: "text-success",
     normal: "text-foreground",
     wrong: "text-destructive",
   },
   true: {
-    correct: "text-green-400 dark:text-green-700",
+    correct: "text-success/80",
     normal: "text-muted-foreground",
     wrong: "text-destructive/70",
   },

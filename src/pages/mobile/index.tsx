@@ -28,8 +28,11 @@ const features = [
 
 const MobilePage: React.FC = () => (
   <div className="flex min-h-dvh w-full flex-col bg-background pb-[env(safe-area-inset-bottom)]">
-    <header className="flex items-center justify-between border-border border-b px-4 py-4 sm:px-6">
-      <Link className="flex items-center gap-3" to="/">
+    <header className="flex items-center justify-between border-border/60 border-b px-4 py-4 sm:px-6">
+      <Link
+        className="flex items-center gap-3 rounded-lg focus-visible:ring-2 focus-visible:ring-ring"
+        to="/"
+      >
         <img alt="" className="h-10 w-10" height={40} src={logo} width={40} />
         <div className="flex flex-col">
           <span className="font-semibold text-lg text-primary tracking-tight">
@@ -41,15 +44,18 @@ const MobilePage: React.FC = () => (
         </div>
       </Link>
       <Link
-        className="flex min-h-11 items-center rounded-xl bg-primary px-4 py-2.5 font-medium text-primary-foreground text-sm hover:bg-primary/90"
+        className="inline-flex min-h-11 cursor-pointer items-center rounded-lg bg-primary px-4 py-2.5 font-medium text-primary-foreground text-sm transition-colors duration-150 hover:bg-primary/90 focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2"
         to="/"
       >
         Start practicing
       </Link>
     </header>
 
-    <main className="mx-auto flex w-full max-w-3xl flex-1 flex-col px-6 py-12">
-      <h1 className="text-pretty font-bold text-4xl text-foreground tracking-tight sm:text-5xl">
+    <main className="mx-auto flex w-full max-w-3xl flex-1 flex-col px-6 py-12 sm:py-16">
+      <p className="font-semibold text-primary text-sm tracking-tight">
+        {SITE.name}
+      </p>
+      <h1 className="mt-3 text-pretty font-bold text-4xl text-foreground tracking-tight sm:text-5xl">
         English practice for people who type all day
       </h1>
       <p className="mt-5 max-w-2xl text-lg text-muted-foreground leading-relaxed">
@@ -57,18 +63,15 @@ const MobilePage: React.FC = () => (
         Mistyped words must be retyped so you keep building the right habit.
       </p>
       <Link
-        className="mt-8 inline-flex min-h-12 w-fit items-center rounded-full bg-primary px-6 py-3 font-semibold text-primary-foreground hover:bg-primary/90"
+        className="mt-8 inline-flex min-h-12 w-fit cursor-pointer items-center rounded-lg bg-primary px-6 py-3 font-semibold text-primary-foreground transition-colors duration-150 hover:bg-primary/90 focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2"
         to="/"
       >
         Open the practice app
       </Link>
 
-      <section className="mt-16 grid gap-6 sm:grid-cols-2">
+      <section className="mt-16 grid gap-8 sm:grid-cols-2 sm:gap-10">
         {features.map((item) => (
-          <article
-            className="rounded-2xl border border-border bg-muted p-6"
-            key={item.title}
-          >
+          <article className="min-w-0" key={item.title}>
             <h2 className="font-semibold text-foreground text-lg">
               {item.title}
             </h2>
@@ -82,7 +85,7 @@ const MobilePage: React.FC = () => (
 
     <footer className="px-6 py-8 text-center text-muted-foreground text-sm">
       <a
-        className="hover:text-foreground"
+        className="rounded-sm transition-colors hover:text-foreground focus-visible:ring-2 focus-visible:ring-ring"
         href={SITE.github}
         rel="noopener noreferrer"
         target="_blank"

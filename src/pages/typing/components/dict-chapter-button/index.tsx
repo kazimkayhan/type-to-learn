@@ -204,7 +204,7 @@ export const DictChapterButton = () => {
                             className={
                               isCurrent
                                 ? "h-4 w-4 shrink-0 text-primary-foreground/80"
-                                : "h-4 w-4 shrink-0 text-green-500 dark:text-green-300"
+                                : "h-4 w-4 shrink-0 text-success"
                             }
                           />
                         )}
