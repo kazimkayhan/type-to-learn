@@ -6,6 +6,7 @@ import {
   currentChapterAtom,
   currentDictInfoAtom,
   reviewModeInfoAtom,
+  todaySessionAtom,
 } from "@/store";
 import type { Word, WordWithIndex } from "@/typings/index";
 import { wordListFetcher } from "@/utils/word-list-fetcher";
@@ -23,6 +24,7 @@ export function useWordList(): UseWordListResult {
   const currentDictInfo = useAtomValue(currentDictInfoAtom);
   const [currentChapter, setCurrentChapter] = useAtom(currentChapterAtom);
   const { isReviewMode, reviewRecord } = useAtomValue(reviewModeInfoAtom);
+  const todaySession = useAtomValue(todaySessionAtom);
 
   // Reset current chapter to 0 when it exceeds chapterCount (never during render).
   useEffect(() => {
@@ -44,7 +46,9 @@ export function useWordList(): UseWordListResult {
 
   const words: WordWithIndex[] = useMemo(() => {
     let newWords: Word[];
-    if (isReviewMode) {
+    if (todaySession.active) {
+      newWords = todaySession.words;
+    } else if (isReviewMode) {
       newWords = reviewRecord?.words ?? [];
     } else if (wordList) {
       newWords = wordList.slice(
@@ -75,7 +79,14 @@ export function useWordList(): UseWordListResult {
         trans,
       };
     });
-  }, [isReviewMode, wordList, reviewRecord?.words, currentChapter]);
+  }, [
+    todaySession.active,
+    todaySession.words,
+    isReviewMode,
+    wordList,
+    reviewRecord?.words,
+    currentChapter,
+  ]);
 
   return { error, isLoading, words };
 }

@@ -7,9 +7,11 @@ import {
   currentDictInfoAtom,
   isReviewModeAtom,
   isShowPrevAndNextWordAtom,
+  isTodayModeAtom,
   loopWordConfigAtom,
   phoneticConfigAtom,
   reviewModeInfoAtom,
+  todaySessionAtom,
 } from "@/store";
 import { TypingStateActionType, useTypingContext } from "../../store";
 import type { TypingState } from "../../store/type";
@@ -35,7 +37,9 @@ export default function WordPanel() {
     : state.chapterData.words[state.chapterData.index + 1]?.name;
 
   const setReviewModeInfo = useSetAtom(reviewModeInfoAtom);
+  const setTodaySession = useSetAtom(todaySessionAtom);
   const isReviewMode = useAtomValue(isReviewModeAtom);
+  const isTodayMode = useAtomValue(isTodayModeAtom);
 
   const prevIndex = useMemo(() => {
     const newIndex = state.chapterData.index - 1;
@@ -100,6 +104,9 @@ export default function WordPanel() {
             : undefined,
         }));
       }
+      if (isTodayMode) {
+        setTodaySession({ active: false, words: [] });
+      }
     }
   }, [
     state.chapterData.index,
@@ -109,8 +116,10 @@ export default function WordPanel() {
     dispatch,
     reloadCurrentWordComponent,
     isReviewMode,
+    isTodayMode,
     updateReviewRecord,
     setReviewModeInfo,
+    setTodaySession,
   ]);
 
   const onSkipWord = useCallback(

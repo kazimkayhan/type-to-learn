@@ -7,10 +7,12 @@ import { Input } from "@/components/ui/input";
 import { ScrollArea } from "@/components/ui/scroll-area";
 import { Tabs, TabsContent } from "@/components/ui/tabs";
 import { ToggleGroup, ToggleGroupItem } from "@/components/ui/toggle-group";
+import { useDictMasteryStats } from "@/hooks/use-dict-mastery-stats";
 import {
   currentChapterAtom,
   currentDictIdAtom,
   reviewModeInfoAtom,
+  todaySessionAtom,
 } from "@/store";
 import type { Dictionary } from "@/typings";
 import range from "@/utils/range";
@@ -58,6 +60,8 @@ export default function DictDetail({
     ChapterStatus.All
   );
   const setReviewModeInfo = useSetAtom(reviewModeInfoAtom);
+  const setTodaySession = useSetAtom(todaySessionAtom);
+  const masteryStats = useDictMasteryStats(dict.id, dict.length);
   const navigate = useNavigate();
   const { deleteWordRecord } = useDeleteWordRecord();
   const [reload, setReload] = useState(false);
@@ -90,7 +94,8 @@ export default function DictDetail({
       onStartPractice?.();
       setCurrentDictId(dict.id);
       setCurrentChapter(index);
-      setReviewModeInfo((old) => ({ ...old, isReviewMode: false }));
+      setReviewModeInfo({ isReviewMode: false, reviewRecord: undefined });
+      setTodaySession({ active: false, words: [] });
       navigate("/");
     },
     [
@@ -100,6 +105,7 @@ export default function DictDetail({
       setCurrentChapter,
       setCurrentDictId,
       setReviewModeInfo,
+      setTodaySession,
     ]
   );
 
@@ -226,6 +232,12 @@ export default function DictDetail({
           <p className="mt-1 text-sm tabular-nums sm:text-base">
             {practicedChapterCount} of {dict.chapterCount} chapters practiced
           </p>
+          {masteryStats ? (
+            <p className="mt-1 text-sm tabular-nums sm:text-base">
+              {masteryStats.mastered.toLocaleString()} of{" "}
+              {masteryStats.total.toLocaleString()} words mastered
+            </p>
+          ) : null}
           <p className="mt-1 text-sm sm:text-base">{dict.description}</p>
         </div>
         <ToggleGroup

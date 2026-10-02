@@ -23,6 +23,9 @@ import type {
 import type { ReviewRecord } from "@/utils/db/record";
 import atomForConfig from "./atom-for-config";
 import { reviewInfoAtom } from "./review-info-atom";
+import { isTodayModeAtom } from "./today-session-atom";
+
+export { isTodayModeAtom, todaySessionAtom } from "./today-session-atom";
 
 export const currentDictIdAtom = atomWithStorage(
   "currentDict",
@@ -137,6 +140,15 @@ export const reviewModeInfoAtom = reviewInfoAtom({
 export const isReviewModeAtom = atom(
   (get) => get(reviewModeInfoAtom).isReviewMode
 );
+
+export const isSessionPracticeAtom = atom(
+  (get) => get(isReviewModeAtom) || get(isTodayModeAtom)
+);
+
+export const dailyReviewConfigAtom = atomForConfig("dailyReviewConfig", {
+  maxDue: 20,
+  maxNew: 10,
+});
 
 export const phoneticConfigAtom = atomForConfig("phoneticConfig", {
   isOpen: true,

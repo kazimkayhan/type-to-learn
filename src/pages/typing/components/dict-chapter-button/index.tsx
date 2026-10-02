@@ -1,4 +1,4 @@
-import { useAtom, useAtomValue } from "jotai";
+import { useAtom, useAtomValue, useSetAtom } from "jotai";
 import type React from "react";
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import { NavLink } from "react-router-dom";
@@ -15,6 +15,9 @@ import {
   currentChapterAtom,
   currentDictInfoAtom,
   isReviewModeAtom,
+  isTodayModeAtom,
+  reviewModeInfoAtom,
+  todaySessionAtom,
 } from "@/store";
 import range from "@/utils/range";
 import IconCheckCircle from "~icons/heroicons/check-circle-solid";
@@ -29,6 +32,9 @@ export const DictChapterButton = () => {
   const [currentChapter, setCurrentChapter] = useAtom(currentChapterAtom);
   const { chapterCount, id: dictId } = currentDictInfo;
   const isReviewMode = useAtomValue(isReviewModeAtom);
+  const isTodayMode = useAtomValue(isTodayModeAtom);
+  const setReviewModeInfo = useSetAtom(reviewModeInfoAtom);
+  const setTodaySession = useSetAtom(todaySessionAtom);
   const [isOpen, setIsOpen] = useState(false);
   const [filter, setFilter] = useState("");
   const chapterExerciseCounts = useChapterExerciseCounts(dictId);
@@ -55,10 +61,12 @@ export const DictChapterButton = () => {
         return;
       }
       setCurrentChapter(index);
+      setReviewModeInfo({ isReviewMode: false, reviewRecord: undefined });
+      setTodaySession({ active: false, words: [] });
       setIsOpen(false);
       setFilter("");
     },
-    [chapterCount, setCurrentChapter]
+    [chapterCount, setCurrentChapter, setReviewModeInfo, setTodaySession]
   );
 
   const onOpenChange = useCallback((open: boolean) => {
@@ -115,11 +123,11 @@ export const DictChapterButton = () => {
           <IconBook aria-hidden className="size-4 shrink-0 opacity-70" />
           <span className="min-w-0 truncate">
             {currentDictInfo.name}
-            {isReviewMode ? " Error Review" : ""}
+            {isReviewMode ? " Error Review" : isTodayMode ? " · Today" : ""}
           </span>
         </NavLink>
       </Tooltip>
-      {!isReviewMode && (
+      {!(isReviewMode || isTodayMode) && (
         <Tooltip content="Switch chapter">
           <Popover onOpenChange={onOpenChange} open={isOpen}>
             <PopoverTrigger

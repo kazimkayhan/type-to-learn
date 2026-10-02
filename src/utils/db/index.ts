@@ -7,16 +7,18 @@ import type { TypingState } from "@/pages/typing/store/type";
 import {
   currentChapterAtom,
   currentDictIdAtom,
-  isReviewModeAtom,
+  isSessionPracticeAtom,
 } from "@/store";
 import type {
   IChapterRecord,
   IReviewRecord,
   IRevisionDictRecord,
+  IWordMastery,
   IWordRecord,
   LetterMistakes,
 } from "./record";
 import { ChapterRecord, ReviewRecord, WordRecord } from "./record";
+import { applyWordReview } from "./word-mastery";
 
 class RecordDB extends Dexie {
   wordRecords!: Table<IWordRecord, number>;
@@ -25,6 +27,7 @@ class RecordDB extends Dexie {
 
   revisionDictRecords!: Table<IRevisionDictRecord, number>;
   revisionWordRecords!: Table<IWordRecord, number>;
+  wordMastery!: Table<IWordMastery, number>;
 
   constructor() {
     super("RecordDB");
@@ -41,6 +44,12 @@ class RecordDB extends Dexie {
       reviewRecords: "++id,dict,createTime,isFinished",
       wordRecords: "++id,word,timeStamp,dict,chapter,wrongCount,[dict+chapter]",
     });
+    this.version(4).stores({
+      chapterRecords: "++id,timeStamp,dict,chapter,time,[dict+chapter]",
+      reviewRecords: "++id,dict,createTime,isFinished",
+      wordMastery: "++id,dict,word,due,state,lapses,[dict+word]",
+      wordRecords: "++id,word,timeStamp,dict,chapter,wrongCount,[dict+chapter]",
+    });
   }
 }
 
@@ -52,7 +61,7 @@ db.reviewRecords.mapToClass(ReviewRecord);
 
 export function useSaveChapterRecord() {
   const currentChapter = useAtomValue(currentChapterAtom);
-  const isRevision = useAtomValue(isReviewModeAtom);
+  const isRevision = useAtomValue(isSessionPracticeAtom);
   const dictID = useAtomValue(currentDictIdAtom);
 
   const saveChapterRecord = useCallback(
@@ -98,7 +107,7 @@ export function useSaveChapterRecord() {
 // Note: WordKeyLogger interface was unused and removed
 
 export function useSaveWordRecord() {
-  const isRevision = useAtomValue(isReviewModeAtom);
+  const isRevision = useAtomValue(isSessionPracticeAtom);
   const currentChapter = useAtomValue(currentChapterAtom);
   const dictID = useAtomValue(currentDictIdAtom);
 
@@ -134,6 +143,7 @@ export function useSaveWordRecord() {
       let dbID = -1;
       try {
         dbID = await db.wordRecords.add(wordRecord);
+        await applyWordReview(dictID, word, wrongCount);
       } catch (e) {
         console.error(e);
       }

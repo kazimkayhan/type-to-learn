@@ -23,6 +23,7 @@ import ResultScreen from "./components/result-screen";
 import Speed from "./components/speed";
 import StartButton from "./components/start-button";
 import Switcher from "./components/switcher";
+import TodayPanel from "./components/today-panel";
 import WordList from "./components/word-list";
 import WordPanel from "./components/word-panel";
 import { useConfetti } from "./hooks/use-confetti";
@@ -206,6 +207,7 @@ const App: React.FC = () => {
                 !state.isFinished && <WordPanel />
               )}
             </div>
+            {!state.isFinished && <TodayPanel />}
             <Speed />
           </div>
         </div>

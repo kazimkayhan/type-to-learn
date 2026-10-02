@@ -156,6 +156,50 @@ export class ReviewRecord implements IReviewRecord {
   }
 }
 
+export type WordMasteryState = "new" | "learning" | "review" | "mastered";
+
+export interface IWordMastery {
+  dict: string;
+  /** Next review due (UTC unix seconds). */
+  due: number;
+  easeFactor: number;
+  id?: number;
+  intervalDays: number;
+  lapses: number;
+  lastReview: number;
+  reps: number;
+  state: WordMasteryState;
+  totalWrong: number;
+  word: string;
+}
+
+export class WordMasteryRecord implements IWordMastery {
+  dict: string;
+  word: string;
+  state: WordMasteryState;
+  due: number;
+  intervalDays: number;
+  easeFactor: number;
+  reps: number;
+  lapses: number;
+  lastReview: number;
+  totalWrong: number;
+  id?: number;
+
+  constructor(dict: string, word: string) {
+    this.dict = dict;
+    this.word = word;
+    this.state = "new";
+    this.due = getUTCUnixTimestamp();
+    this.intervalDays = 0;
+    this.easeFactor = 2.5;
+    this.reps = 0;
+    this.lapses = 0;
+    this.lastReview = 0;
+    this.totalWrong = 0;
+  }
+}
+
 export interface IRevisionDictRecord {
   createdTime: number;
   dict: string;
